@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#metadata}
   */
   readonly metadata: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestMetadata;
   /**
   * SonataFlowBuildSpec define the desired state of th SonataFlowBuild.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#spec DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#spec DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#spec}
   */
   readonly spec?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#labels DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#labels DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgsValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildAr
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value_from}
   */
   readonly valueFrom?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgsValueFrom;
 }
@@ -1222,19 +1222,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsVal
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1385,13 +1385,13 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsVal
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1513,19 +1513,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsVal
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1676,19 +1676,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsVal
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1839,25 +1839,25 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsVal
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsValueFromSecretKeyRef;
 }
@@ -2040,19 +2040,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvs {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#value_from}
   */
   readonly valueFrom?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvsValueFrom;
 }
@@ -2225,7 +2225,7 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecResourc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -2340,19 +2340,19 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecResourc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#claims}
   */
   readonly claims?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2506,31 +2506,31 @@ export interface DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpec {
   /**
   * Arguments lists the command line arguments to send to the internal builder command. Depending on the build method you might set this attribute instead of BuildArgs. For example: '.spec.arguments=verbose=3'. Please see the SonataFlow guides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#arguments DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#arguments DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#arguments}
   */
   readonly arguments?: string[];
   /**
   * Optional build arguments that can be set to the internal build (e.g. Docker ARG)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#build_args DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#build_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#build_args DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#build_args}
   */
   readonly buildArgs?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecBuildArgs[] | cdktf.IResolvable;
   /**
   * Optional environment variables to add to the internal build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#envs DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#envs DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#envs}
   */
   readonly envs?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecEnvs[] | cdktf.IResolvable;
   /**
   * Resources optional compute resource requirements for the builder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resources DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#resources DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#resources}
   */
   readonly resources?: DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecResources;
   /**
   * Timeout defines the Build maximum execution duration. The Build deadline is set to the Build start time plus the Timeout duration. If the Build deadline is exceeded, the Build context is canceled, and its phase set to BuildPhaseFailed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#timeout DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#timeout DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2740,7 +2740,7 @@ export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest}
 */
 export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest extends cdktf.TerraformDataSource {
 
@@ -2756,7 +2756,7 @@ export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest to import
-  * @param importFromId The id of the existing DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2768,7 +2768,7 @@ export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sonataflow_org_sonata_flow_build_v1alpha08_manifest k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2779,8 +2779,8 @@ export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest extends cdktf.
       terraformResourceType: 'k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/contracts
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/contracts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -280,7 +280,7 @@ export class DataIonoscloudContractsContractsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/contracts ionoscloud_contracts}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/contracts ionoscloud_contracts}
 */
 export class DataIonoscloudContracts extends cdktf.TerraformDataSource {
 
@@ -296,7 +296,7 @@ export class DataIonoscloudContracts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIonoscloudContracts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudContracts to import
-  * @param importFromId The id of the existing DataIonoscloudContracts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/contracts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudContracts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/contracts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudContracts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class DataIonoscloudContracts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/contracts ionoscloud_contracts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/contracts ionoscloud_contracts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class DataIonoscloudContracts extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_contracts',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

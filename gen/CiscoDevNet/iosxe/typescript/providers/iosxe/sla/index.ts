@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SlaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#device Sla#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#device Sla#device}
   */
   readonly device?: string;
   /**
   * Entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#entries Sla#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#entries Sla#entries}
   */
   readonly entries?: SlaEntries[] | cdktf.IResolvable;
   /**
   * Schedules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#schedules Sla#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#schedules Sla#schedules}
   */
   readonly schedules?: SlaSchedules[] | cdktf.IResolvable;
 }
@@ -30,25 +30,25 @@ export interface SlaEntries {
   /**
   * Destination IP address or hostname, broadcast disallowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#icmp_echo_destination Sla#icmp_echo_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#icmp_echo_destination Sla#icmp_echo_destination}
   */
   readonly icmpEchoDestination?: string;
   /**
   * Frequency of an operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#icmp_echo_frequency Sla#icmp_echo_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#icmp_echo_frequency Sla#icmp_echo_frequency}
   */
   readonly icmpEchoFrequency?: number;
   /**
   * Source Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#icmp_echo_source_ip Sla#icmp_echo_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#icmp_echo_source_ip Sla#icmp_echo_source_ip}
   */
   readonly icmpEchoSourceIp?: string;
   /**
   * Entry Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#number Sla#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#number Sla#number}
   */
   readonly number: number;
 }
@@ -250,19 +250,19 @@ export interface SlaSchedules {
   /**
   * Entry number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#entry_number Sla#entry_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#entry_number Sla#entry_number}
   */
   readonly entryNumber: number;
   /**
   * Length of time to execute in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#life Sla#life}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#life Sla#life}
   */
   readonly life?: number;
   /**
   * Start now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#start_time_now Sla#start_time_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#start_time_now Sla#start_time_now}
   */
   readonly startTimeNow?: boolean | cdktf.IResolvable;
 }
@@ -433,7 +433,7 @@ export class SlaSchedulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla iosxe_sla}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla iosxe_sla}
 */
 export class Sla extends cdktf.TerraformResource {
 
@@ -449,7 +449,7 @@ export class Sla extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sla resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sla to import
-  * @param importFromId The id of the existing Sla that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sla that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sla to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +461,7 @@ export class Sla extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/sla iosxe_sla} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/sla iosxe_sla} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +472,8 @@ export class Sla extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_sla',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

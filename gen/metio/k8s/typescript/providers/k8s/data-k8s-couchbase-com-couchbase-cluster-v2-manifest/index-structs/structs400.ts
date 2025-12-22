@@ -55,175 +55,175 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpec {
   /**
   * AntiAffinity forces the Operator to schedule different Couchbase server pods on different Kubernetes nodes. Anti-affinity reduces the likelihood of unrecoverable failure in the event of a node issue. Use of anti-affinity is highly recommended for production clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#anti_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#anti_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#anti_affinity}
   */
   readonly antiAffinity?: boolean | cdktf.IResolvable;
   /**
   * AutoResourceAllocation populates pod resource requests based on the services running on that pod. When enabled, this feature will calculate the memory request as the total of service allocations defined in 'spec.cluster', plus an overhead defined by 'spec.autoResourceAllocation.overheadPercent'.Changing individual allocations for a service will cause a cluster upgrade as allocations are modified in the underlying pods. This field also allows default pod CPU requests and limits to be applied. All resource allocations can be overridden by explicitly configuring them in the 'spec.servers.resources' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_resource_allocation DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_resource_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_resource_allocation DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_resource_allocation}
   */
   readonly autoResourceAllocation?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecAutoResourceAllocation;
   /**
   * AutoscaleStabilizationPeriod defines how long after a rebalance the corresponding HorizontalPodAutoscaler should remain in maintenance mode. During maintenance mode all autoscaling is disabled since every HorizontalPodAutoscaler associated with the cluster becomes inactive. Since certain metrics can be unpredictable when Couchbase is rebalancing or upgrading, setting a stabilization period helps to prevent scaling recommendations from the HorizontalPodAutoscaler for a provided period of time. Values must be a valid Kubernetes duration of 0s or higher: https://golang.org/pkg/time/#ParseDuration A value of 0, puts the cluster in maintenance mode during rebalance but immediately exits this mode once the rebalance has completed. When undefined, the HPA is never put into maintenance mode during rebalance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#autoscale_stabilization_period DataK8SCouchbaseComCouchbaseClusterV2Manifest#autoscale_stabilization_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#autoscale_stabilization_period DataK8SCouchbaseComCouchbaseClusterV2Manifest#autoscale_stabilization_period}
   */
   readonly autoscaleStabilizationPeriod?: string;
   /**
   * Backup defines whether the Operator should manage automated backups, and how to lookup backup resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#backup DataK8SCouchbaseComCouchbaseClusterV2Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#backup DataK8SCouchbaseComCouchbaseClusterV2Manifest#backup}
   */
   readonly backup?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackup;
   /**
   * Buckets defines whether the Operator should manage buckets, and how to lookup bucket resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#buckets DataK8SCouchbaseComCouchbaseClusterV2Manifest#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#buckets DataK8SCouchbaseComCouchbaseClusterV2Manifest#buckets}
   */
   readonly buckets?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBuckets;
   /**
   * ClusterSettings define Couchbase cluster-wide settings such as memory allocation, failover characteristics and index settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster}
   */
   readonly cluster?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecCluster;
   /**
   * EnableOnlineVolumeExpansion enables online expansion of Persistent Volumes. You can only expand a PVC if its storage class's 'allowVolumeExpansion' field is set to true. Additionally, Kubernetes feature 'ExpandInUsePersistentVolumes' must be enabled in order to expand the volumes which are actively bound to Pods. Volumes can only be expanded and not reduced to a smaller size. See: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#resizing-an-in-use-persistentvolumeclaim If 'EnableOnlineVolumeExpansion' is enabled for use within an environment that does not actually support online volume and file system expansion then the cluster will fallback to rolling upgrade procedure to create a new set of Pods for use with resized Volumes. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#expanding-persistent-volumes-claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_online_volume_expansion DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_online_volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_online_volume_expansion DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_online_volume_expansion}
   */
   readonly enableOnlineVolumeExpansion?: boolean | cdktf.IResolvable;
   /**
   * DEPRECATED - This option only exists for backwards compatibility and no longer restricts autoscaling to ephemeral services. EnablePreviewScaling enables autoscaling for stateful services and buckets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_preview_scaling DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_preview_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_preview_scaling DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_preview_scaling}
   */
   readonly enablePreviewScaling?: boolean | cdktf.IResolvable;
   /**
   * EnvImagePrecedence gives precedence over the default container image name in 'spec.Image' to an image name provided through Operator environment variables. For more info on using Operator environment variables: https://docs.couchbase.com/operator/current/reference-operator-configuration.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env_image_precedence DataK8SCouchbaseComCouchbaseClusterV2Manifest#env_image_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env_image_precedence DataK8SCouchbaseComCouchbaseClusterV2Manifest#env_image_precedence}
   */
   readonly envImagePrecedence?: boolean | cdktf.IResolvable;
   /**
   * Hibernate is whether to hibernate the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hibernate DataK8SCouchbaseComCouchbaseClusterV2Manifest#hibernate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hibernate DataK8SCouchbaseComCouchbaseClusterV2Manifest#hibernate}
   */
   readonly hibernate?: boolean | cdktf.IResolvable;
   /**
   * HibernationStrategy defines how to hibernate the cluster. When Immediate the Operator will immediately delete all pods and take no further action until the hibernate field is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hibernation_strategy DataK8SCouchbaseComCouchbaseClusterV2Manifest#hibernation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hibernation_strategy DataK8SCouchbaseComCouchbaseClusterV2Manifest#hibernation_strategy}
   */
   readonly hibernationStrategy?: string;
   /**
   * Image is the container image name that will be used to launch Couchbase server instances. Updating this field will cause an automatic upgrade of the cluster. Explicitly specifying the image for a server class will override this value for the server class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image: string;
   /**
   * Logging defines Operator logging options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#logging DataK8SCouchbaseComCouchbaseClusterV2Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#logging DataK8SCouchbaseComCouchbaseClusterV2Manifest#logging}
   */
   readonly logging?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLogging;
   /**
   * DEPRECATED - By Couchbase Server metrics endpoint on version 7.0+ Monitoring defines any Operator managed integration into 3rd party monitoring infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#monitoring DataK8SCouchbaseComCouchbaseClusterV2Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#monitoring DataK8SCouchbaseComCouchbaseClusterV2Manifest#monitoring}
   */
   readonly monitoring?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoring;
   /**
   * Networking defines Couchbase cluster networking options such as network topology, TLS and DDNS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#networking DataK8SCouchbaseComCouchbaseClusterV2Manifest#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#networking DataK8SCouchbaseComCouchbaseClusterV2Manifest#networking}
   */
   readonly networking?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworking;
   /**
   * OnlineVolumeExpansionTimeoutInMins must be provided as a retry mechanism with a timeout in minutes for expanding volumes. This must only be provided, if EnableOnlineVolumeExpansion is set to true. Value must be between 0 and 30. If no value is provided, then it defaults to 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#online_volume_expansion_timeout_in_mins DataK8SCouchbaseComCouchbaseClusterV2Manifest#online_volume_expansion_timeout_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#online_volume_expansion_timeout_in_mins DataK8SCouchbaseComCouchbaseClusterV2Manifest#online_volume_expansion_timeout_in_mins}
   */
   readonly onlineVolumeExpansionTimeoutInMins?: number;
   /**
   * Paused is to pause the control of the operator for the Couchbase cluster. This does not pause the cluster itself, instead stopping the operator from taking any action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#paused DataK8SCouchbaseComCouchbaseClusterV2Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#paused DataK8SCouchbaseComCouchbaseClusterV2Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Platform gives a hint as to what platform we are running on and how to configure services. This field must be one of 'aws', 'gke' or 'azure'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#platform DataK8SCouchbaseComCouchbaseClusterV2Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#platform DataK8SCouchbaseComCouchbaseClusterV2Manifest#platform}
   */
   readonly platform?: string;
   /**
   * RecoveryPolicy controls how aggressive the Operator is when recovering cluster topology. When PrioritizeDataIntegrity, the Operator will delegate failover exclusively to Couchbase server, relying on it to only allow recovery when safe to do so. When PrioritizeUptime, the Operator will wait for a period after the expected auto-failover of the cluster, before forcefully failing-over the pods. This may cause data loss, and is only expected to be used on clusters with ephemeral data, where the loss of the pod means that the data is known to be unrecoverable. This field must be either 'PrioritizeDataIntegrity' or 'PrioritizeUptime', defaulting to 'PrioritizeDataIntegrity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#recovery_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#recovery_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#recovery_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#recovery_policy}
   */
   readonly recoveryPolicy?: string;
   /**
   * When 'spec.upgradeStrategy' is set to 'RollingUpgrade' it will, by default, upgrade one pod at a time. If this field is specified then that number can be increased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rolling_upgrade DataK8SCouchbaseComCouchbaseClusterV2Manifest#rolling_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rolling_upgrade DataK8SCouchbaseComCouchbaseClusterV2Manifest#rolling_upgrade}
   */
   readonly rollingUpgrade?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecRollingUpgrade;
   /**
   * Security defines Couchbase cluster security options such as the administrator account username and password, and user RBAC settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security DataK8SCouchbaseComCouchbaseClusterV2Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security DataK8SCouchbaseComCouchbaseClusterV2Manifest#security}
   */
   readonly security: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurity;
   /**
   * DEPRECATED - by spec.security.securityContext SecurityContext allows the configuration of the security context for all Couchbase server pods. When using persistent volumes you may need to set the fsGroup field in order to write to the volume. For non-root clusters you must also set runAsUser to 1000, corresponding to the Couchbase user in official container images. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContext;
   /**
   * ServerGroups define the set of availability zones you want to distribute pods over, and construct Couchbase server groups for. By default, most cloud providers will label nodes with the key 'topology.kubernetes.io/zone', the values associated with that key are used here to provide explicit scheduling by the Operator. You may manually label nodes using the 'topology.kubernetes.io/zone' key, to provide failure-domain aware scheduling when none is provided for you. Global server groups are applied to all server classes, and may be overridden on a per-server class basis to give more control over scheduling and server groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_groups}
   */
   readonly serverGroups?: string[];
   /**
   * Servers defines server classes for the Operator to provision and manage. A server class defines what services are running and how many members make up that class. Specifying multiple server classes allows the Operator to provision clusters with Multi-Dimensional Scaling (MDS). At least one server class must be defined, and at least one server class must be running the data service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#servers DataK8SCouchbaseComCouchbaseClusterV2Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#servers DataK8SCouchbaseComCouchbaseClusterV2Manifest#servers}
   */
   readonly servers: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServers[] | cdktf.IResolvable;
   /**
   * SoftwareUpdateNotifications enables software update notifications in the UI. When enabled, the UI will alert when a Couchbase server upgrade is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#software_update_notifications DataK8SCouchbaseComCouchbaseClusterV2Manifest#software_update_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#software_update_notifications DataK8SCouchbaseComCouchbaseClusterV2Manifest#software_update_notifications}
   */
   readonly softwareUpdateNotifications?: boolean | cdktf.IResolvable;
   /**
   * UpgradeProcess defines the process that will be used when performing a couchbase cluster upgrade. When SwapRebalance is requested (default), pods will be upgraded using either a RollingUpgrade or ImmediateUpgrade (determined by UpgradeStrategy). When InPlaceUpgrade is requested, the operator will perform an in-place upgrade on a best effort basis. InPlaceUpgrade cannot be used if the UpgradeStrategy is set to ImmediateUpgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#upgrade_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#upgrade_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#upgrade_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#upgrade_process}
   */
   readonly upgradeProcess?: string;
   /**
   * UpgradeStrategy controls how aggressive the Operator is when performing a cluster upgrade. When a rolling upgrade is requested, pods are upgraded one at a time. This strategy is slower, however less disruptive. When an immediate upgrade strategy is requested, all pods are upgraded at the same time. This strategy is faster, but more disruptive. This field must be either 'RollingUpgrade' or 'ImmediateUpgrade', defaulting to 'RollingUpgrade'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#upgrade_strategy DataK8SCouchbaseComCouchbaseClusterV2Manifest#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#upgrade_strategy DataK8SCouchbaseComCouchbaseClusterV2Manifest#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
   /**
   * VolumeClaimTemplates define the desired characteristics of a volume that can be requested/claimed by a pod, for example the storage class to use and the volume size. Volume claim templates are referred to by name by server class volume mount configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_claim_templates DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_claim_templates DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplates[] | cdktf.IResolvable;
   /**
   * XDCR defines whether the Operator should manage XDCR, remote clusters and how to lookup replication resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#xdcr DataK8SCouchbaseComCouchbaseClusterV2Manifest#xdcr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#xdcr DataK8SCouchbaseComCouchbaseClusterV2Manifest#xdcr}
   */
   readonly xdcr?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcr;
 }

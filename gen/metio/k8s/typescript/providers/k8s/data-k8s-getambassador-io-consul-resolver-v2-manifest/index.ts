@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoConsulResolverV2ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#metadata DataK8SGetambassadorIoConsulResolverV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#metadata DataK8SGetambassadorIoConsulResolverV2Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoConsulResolverV2ManifestMetadata;
   /**
   * ConsulResolver tells Ambassador to use Consul to resolve services. In addition to the AmbassadorID, it needs information about which Consul server and DC to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#spec DataK8SGetambassadorIoConsulResolverV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#spec DataK8SGetambassadorIoConsulResolverV2Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoConsulResolverV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoConsulResolverV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#annotations DataK8SGetambassadorIoConsulResolverV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#annotations DataK8SGetambassadorIoConsulResolverV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#labels DataK8SGetambassadorIoConsulResolverV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#labels DataK8SGetambassadorIoConsulResolverV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#name DataK8SGetambassadorIoConsulResolverV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#name DataK8SGetambassadorIoConsulResolverV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#namespace DataK8SGetambassadorIoConsulResolverV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#namespace DataK8SGetambassadorIoConsulResolverV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,17 +217,17 @@ export class DataK8SGetambassadorIoConsulResolverV2ManifestMetadataOutputReferen
 }
 export interface DataK8SGetambassadorIoConsulResolverV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#address DataK8SGetambassadorIoConsulResolverV2Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#address DataK8SGetambassadorIoConsulResolverV2Manifest#address}
   */
   readonly address?: string;
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. May either be a string or a list of strings. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#ambassador_id DataK8SGetambassadorIoConsulResolverV2Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#ambassador_id DataK8SGetambassadorIoConsulResolverV2Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#datacenter DataK8SGetambassadorIoConsulResolverV2Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#datacenter DataK8SGetambassadorIoConsulResolverV2Manifest#datacenter}
   */
   readonly datacenter?: string;
 }
@@ -379,7 +379,7 @@ export class DataK8SGetambassadorIoConsulResolverV2ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest k8s_getambassador_io_consul_resolver_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest k8s_getambassador_io_consul_resolver_v2_manifest}
 */
 export class DataK8SGetambassadorIoConsulResolverV2Manifest extends cdktf.TerraformDataSource {
 
@@ -395,7 +395,7 @@ export class DataK8SGetambassadorIoConsulResolverV2Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SGetambassadorIoConsulResolverV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoConsulResolverV2Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoConsulResolverV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoConsulResolverV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoConsulResolverV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class DataK8SGetambassadorIoConsulResolverV2Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_consul_resolver_v2_manifest k8s_getambassador_io_consul_resolver_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_consul_resolver_v2_manifest k8s_getambassador_io_consul_resolver_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class DataK8SGetambassadorIoConsulResolverV2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_getambassador_io_consul_resolver_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

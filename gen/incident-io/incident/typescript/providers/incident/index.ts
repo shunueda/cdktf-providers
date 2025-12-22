@@ -24,6 +24,7 @@ export * as dataIncidentCustomField from './data-incident-custom-field';
 export * as dataIncidentCustomFieldOption from './data-incident-custom-field-option';
 export * as dataIncidentEscalationPath from './data-incident-escalation-path';
 export * as dataIncidentIncidentRole from './data-incident-incident-role';
+export * as dataIncidentIncidentTypes from './data-incident-incident-types';
 export * as dataIncidentSchedule from './data-incident-schedule';
 export * as dataIncidentUser from './data-incident-user';
 export * as provider from './provider';

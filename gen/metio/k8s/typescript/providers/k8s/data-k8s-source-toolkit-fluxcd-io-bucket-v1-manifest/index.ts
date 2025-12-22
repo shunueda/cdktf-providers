@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#metadata DataK8SSourceToolkitFluxcdIoBucketV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#metadata DataK8SSourceToolkitFluxcdIoBucketV1Manifest#metadata}
   */
   readonly metadata: DataK8SSourceToolkitFluxcdIoBucketV1ManifestMetadata;
   /**
   * BucketSpec specifies the required configuration to produce an Artifact for an object storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#spec DataK8SSourceToolkitFluxcdIoBucketV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#spec DataK8SSourceToolkitFluxcdIoBucketV1Manifest#spec}
   */
   readonly spec?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#annotations DataK8SSourceToolkitFluxcdIoBucketV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#annotations DataK8SSourceToolkitFluxcdIoBucketV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#labels DataK8SSourceToolkitFluxcdIoBucketV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#labels DataK8SSourceToolkitFluxcdIoBucketV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#namespace DataK8SSourceToolkitFluxcdIoBucketV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#namespace DataK8SSourceToolkitFluxcdIoBucketV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecCertSecretRef {
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
 }
@@ -312,7 +312,7 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecProxySecretRef 
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
 }
@@ -405,7 +405,7 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecSecretRef {
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
 }
@@ -498,7 +498,7 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecStsCertSecretRe
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
 }
@@ -591,7 +591,7 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecStsSecretRef {
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#name}
   */
   readonly name: string;
 }
@@ -684,25 +684,25 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecSts {
   /**
   * CertSecretRef can be given the name of a Secret containing either or both of - a PEM-encoded client certificate ('tls.crt') and private key ('tls.key'); - a PEM-encoded CA certificate ('ca.crt') and whichever are supplied, will be used for connecting to the STS endpoint. The client cert and key are useful if you are authenticating with a certificate; the CA cert is useful if you are using a self-signed server certificate. The Secret must be of type 'Opaque' or 'kubernetes.io/tls'. This field is only supported for the 'ldap' provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#cert_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#cert_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#cert_secret_ref}
   */
   readonly certSecretRef?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecStsCertSecretRef;
   /**
   * Endpoint is the HTTP/S endpoint of the Security Token Service from where temporary credentials will be fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#endpoint DataK8SSourceToolkitFluxcdIoBucketV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#endpoint DataK8SSourceToolkitFluxcdIoBucketV1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Provider of the Security Token Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#provider DataK8SSourceToolkitFluxcdIoBucketV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#provider DataK8SSourceToolkitFluxcdIoBucketV1Manifest#provider}
   */
   readonly provider: string;
   /**
   * SecretRef specifies the Secret containing authentication credentials for the STS endpoint. This Secret must contain the fields 'username' and 'password' and is supported only for the 'ldap' provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecStsSecretRef;
 }
@@ -879,85 +879,85 @@ export interface DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpec {
   /**
   * BucketName is the name of the object storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#bucket_name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#bucket_name DataK8SSourceToolkitFluxcdIoBucketV1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * CertSecretRef can be given the name of a Secret containing either or both of - a PEM-encoded client certificate ('tls.crt') and private key ('tls.key'); - a PEM-encoded CA certificate ('ca.crt') and whichever are supplied, will be used for connecting to the bucket. The client cert and key are useful if you are authenticating with a certificate; the CA cert is useful if you are using a self-signed server certificate. The Secret must be of type 'Opaque' or 'kubernetes.io/tls'. This field is only supported for the 'generic' provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#cert_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#cert_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#cert_secret_ref}
   */
   readonly certSecretRef?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecCertSecretRef;
   /**
   * Endpoint is the object storage address the BucketName is located at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#endpoint DataK8SSourceToolkitFluxcdIoBucketV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#endpoint DataK8SSourceToolkitFluxcdIoBucketV1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Ignore overrides the set of excluded patterns in the .sourceignore format (which is the same as .gitignore). If not provided, a default will be used, consult the documentation for your version to find out what those are.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#ignore DataK8SSourceToolkitFluxcdIoBucketV1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#ignore DataK8SSourceToolkitFluxcdIoBucketV1Manifest#ignore}
   */
   readonly ignore?: string;
   /**
   * Insecure allows connecting to a non-TLS HTTP Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#insecure DataK8SSourceToolkitFluxcdIoBucketV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#insecure DataK8SSourceToolkitFluxcdIoBucketV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Interval at which the Bucket Endpoint is checked for updates. This interval is approximate and may be subject to jitter to ensure efficient use of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#interval DataK8SSourceToolkitFluxcdIoBucketV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#interval DataK8SSourceToolkitFluxcdIoBucketV1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Prefix to use for server-side filtering of files in the Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#prefix DataK8SSourceToolkitFluxcdIoBucketV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#prefix DataK8SSourceToolkitFluxcdIoBucketV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Provider of the object storage bucket. Defaults to 'generic', which expects an S3 (API) compatible object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#provider DataK8SSourceToolkitFluxcdIoBucketV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#provider DataK8SSourceToolkitFluxcdIoBucketV1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * ProxySecretRef specifies the Secret containing the proxy configuration to use while communicating with the Bucket server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#proxy_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#proxy_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#proxy_secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#proxy_secret_ref}
   */
   readonly proxySecretRef?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecProxySecretRef;
   /**
   * Region of the Endpoint where the BucketName is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#region DataK8SSourceToolkitFluxcdIoBucketV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#region DataK8SSourceToolkitFluxcdIoBucketV1Manifest#region}
   */
   readonly region?: string;
   /**
   * SecretRef specifies the Secret containing authentication credentials for the Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoBucketV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecSecretRef;
   /**
   * STS specifies the required configuration to use a Security Token Service for fetching temporary credentials to authenticate in a Bucket provider. This field is only supported for the 'aws' and 'generic' providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#sts DataK8SSourceToolkitFluxcdIoBucketV1Manifest#sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#sts DataK8SSourceToolkitFluxcdIoBucketV1Manifest#sts}
   */
   readonly sts?: DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecSts;
   /**
   * Suspend tells the controller to suspend the reconciliation of this Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#suspend DataK8SSourceToolkitFluxcdIoBucketV1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#suspend DataK8SSourceToolkitFluxcdIoBucketV1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Timeout for fetch operations, defaults to 60s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#timeout DataK8SSourceToolkitFluxcdIoBucketV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#timeout DataK8SSourceToolkitFluxcdIoBucketV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -1419,7 +1419,7 @@ export class DataK8SSourceToolkitFluxcdIoBucketV1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest k8s_source_toolkit_fluxcd_io_bucket_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest k8s_source_toolkit_fluxcd_io_bucket_v1_manifest}
 */
 export class DataK8SSourceToolkitFluxcdIoBucketV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1435,7 +1435,7 @@ export class DataK8SSourceToolkitFluxcdIoBucketV1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SSourceToolkitFluxcdIoBucketV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSourceToolkitFluxcdIoBucketV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoBucketV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoBucketV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSourceToolkitFluxcdIoBucketV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1447,7 +1447,7 @@ export class DataK8SSourceToolkitFluxcdIoBucketV1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest k8s_source_toolkit_fluxcd_io_bucket_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_bucket_v1_manifest k8s_source_toolkit_fluxcd_io_bucket_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1458,8 +1458,8 @@ export class DataK8SSourceToolkitFluxcdIoBucketV1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_source_toolkit_fluxcd_io_bucket_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

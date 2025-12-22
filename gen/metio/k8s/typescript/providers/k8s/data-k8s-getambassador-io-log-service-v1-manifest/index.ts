@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoLogServiceV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#metadata DataK8SGetambassadorIoLogServiceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#metadata DataK8SGetambassadorIoLogServiceV1Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoLogServiceV1ManifestMetadata;
   /**
   * LogServiceSpec defines the desired state of LogService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#spec DataK8SGetambassadorIoLogServiceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#spec DataK8SGetambassadorIoLogServiceV1Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoLogServiceV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoLogServiceV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#annotations DataK8SGetambassadorIoLogServiceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#annotations DataK8SGetambassadorIoLogServiceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#labels DataK8SGetambassadorIoLogServiceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#labels DataK8SGetambassadorIoLogServiceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#name DataK8SGetambassadorIoLogServiceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#name DataK8SGetambassadorIoLogServiceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#namespace DataK8SGetambassadorIoLogServiceV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#namespace DataK8SGetambassadorIoLogServiceV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SGetambassadorIoLogServiceV1ManifestMetadataOutputReference e
 }
 export interface DataK8SGetambassadorIoLogServiceV1ManifestSpecDriverConfigAdditionalLogHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#during_request DataK8SGetambassadorIoLogServiceV1Manifest#during_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#during_request DataK8SGetambassadorIoLogServiceV1Manifest#during_request}
   */
   readonly duringRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#during_response DataK8SGetambassadorIoLogServiceV1Manifest#during_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#during_response DataK8SGetambassadorIoLogServiceV1Manifest#during_response}
   */
   readonly duringResponse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#during_trailer DataK8SGetambassadorIoLogServiceV1Manifest#during_trailer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#during_trailer DataK8SGetambassadorIoLogServiceV1Manifest#during_trailer}
   */
   readonly duringTrailer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#header_name DataK8SGetambassadorIoLogServiceV1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#header_name DataK8SGetambassadorIoLogServiceV1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -432,7 +432,7 @@ export class DataK8SGetambassadorIoLogServiceV1ManifestSpecDriverConfigAdditiona
 }
 export interface DataK8SGetambassadorIoLogServiceV1ManifestSpecDriverConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#additional_log_headers DataK8SGetambassadorIoLogServiceV1Manifest#additional_log_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#additional_log_headers DataK8SGetambassadorIoLogServiceV1Manifest#additional_log_headers}
   */
   readonly additionalLogHeaders?: DataK8SGetambassadorIoLogServiceV1ManifestSpecDriverConfigAdditionalLogHeaders[] | cdktf.IResolvable;
 }
@@ -528,39 +528,39 @@ export interface DataK8SGetambassadorIoLogServiceV1ManifestSpec {
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. May either be a string or a list of strings. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#ambassador_id DataK8SGetambassadorIoLogServiceV1Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#ambassador_id DataK8SGetambassadorIoLogServiceV1Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#driver DataK8SGetambassadorIoLogServiceV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#driver DataK8SGetambassadorIoLogServiceV1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#driver_config DataK8SGetambassadorIoLogServiceV1Manifest#driver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#driver_config DataK8SGetambassadorIoLogServiceV1Manifest#driver_config}
   */
   readonly driverConfig?: DataK8SGetambassadorIoLogServiceV1ManifestSpecDriverConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#flush_interval_byte_size DataK8SGetambassadorIoLogServiceV1Manifest#flush_interval_byte_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#flush_interval_byte_size DataK8SGetambassadorIoLogServiceV1Manifest#flush_interval_byte_size}
   */
   readonly flushIntervalByteSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#flush_interval_time DataK8SGetambassadorIoLogServiceV1Manifest#flush_interval_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#flush_interval_time DataK8SGetambassadorIoLogServiceV1Manifest#flush_interval_time}
   */
   readonly flushIntervalTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#grpc DataK8SGetambassadorIoLogServiceV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#grpc DataK8SGetambassadorIoLogServiceV1Manifest#grpc}
   */
   readonly grpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#service DataK8SGetambassadorIoLogServiceV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#service DataK8SGetambassadorIoLogServiceV1Manifest#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#v3_protocol_version DataK8SGetambassadorIoLogServiceV1Manifest#v3_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#v3_protocol_version DataK8SGetambassadorIoLogServiceV1Manifest#v3_protocol_version}
   */
   readonly v3ProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#v3_stats_name DataK8SGetambassadorIoLogServiceV1Manifest#v3_stats_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#v3_stats_name DataK8SGetambassadorIoLogServiceV1Manifest#v3_stats_name}
   */
   readonly v3StatsName?: string;
 }
@@ -886,7 +886,7 @@ export class DataK8SGetambassadorIoLogServiceV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest k8s_getambassador_io_log_service_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest k8s_getambassador_io_log_service_v1_manifest}
 */
 export class DataK8SGetambassadorIoLogServiceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -902,7 +902,7 @@ export class DataK8SGetambassadorIoLogServiceV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SGetambassadorIoLogServiceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoLogServiceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoLogServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoLogServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoLogServiceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -914,7 +914,7 @@ export class DataK8SGetambassadorIoLogServiceV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_log_service_v1_manifest k8s_getambassador_io_log_service_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_log_service_v1_manifest k8s_getambassador_io_log_service_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -925,8 +925,8 @@ export class DataK8SGetambassadorIoLogServiceV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_getambassador_io_log_service_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#metadata DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#metadata DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshLoadBalancingStrategy resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#spec DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#spec DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#annotations DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#annotations DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecTarge
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#kind DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#kind DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#mesh DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#mesh DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#section_name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#section_name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -560,13 +560,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * ActiveRequestBias refers to dynamic weights applied when hosts have varying load balancing weights. A higher value here aggressively reduces the weight of endpoints that are currently handling active requests. In essence, the higher the ActiveRequestBias value, the more forcefully it reduces the load balancing weight of endpoints that are actively serving requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#active_request_bias DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#active_request_bias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#active_request_bias DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#active_request_bias}
   */
   readonly activeRequestBias?: string;
   /**
   * ChoiceCount is the number of random healthy hosts from which the host with the fewest active requests will be chosen. Defaults to 2 so that Envoy performs two-choice selection if the field is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#choice_count DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#choice_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#choice_count DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#choice_count}
   */
   readonly choiceCount?: number;
 }
@@ -691,7 +691,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * Hash on source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#source_ip DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#source_ip DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#source_ip}
   */
   readonly sourceIp?: boolean | cdktf.IResolvable;
 }
@@ -787,19 +787,19 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the cookie that will be used to obtain the hash key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The name of the path for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#path DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#path DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * If specified, a cookie with the TTL will be generated if the cookie is not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ttl DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ttl DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -950,7 +950,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the Object in the per-request filterState, which is an Envoy::Hashable object. If there is no data associated with the key, or the stored object is not Envoy::Hashable, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
   */
   readonly key: string;
 }
@@ -1043,7 +1043,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the request header that will be used to obtain the hash key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1136,7 +1136,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the URL query parameter that will be used to obtain the hash key. If the parameter is not present, no hash will be produced. Query parameter names are case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1227,33 +1227,33 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefault
 }
 export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#connection DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#connection DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#connection}
   */
   readonly connection?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPoliciesConnection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cookie DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cookie DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPoliciesCookie;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#filter_state DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#filter_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#filter_state DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#filter_state}
   */
   readonly filterState?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPoliciesFilterState;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#header DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#header DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#header}
   */
   readonly header?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPoliciesHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#query_parameter DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#query_parameter DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#query_parameter}
   */
   readonly queryParameter?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPoliciesQueryParameter;
   /**
   * Terminal is a flag that short-circuits the hash computing. This field provides a ‘fallback’ style of configuration: “if a terminal policy doesn’t work, fallback to rest of the policy list”, it saves time when the terminal policy works. If true, and there is already a hash computed, ignore rest of the list of hash polices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#terminal DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#terminal DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1542,13 +1542,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * HashPolicies specify a list of request/connection properties that are used to calculate a hash. These hash policies are executed in the specified order. If a hash policy has the “terminal” attribute set to true, and there is already a hash generated, the hash is returned immediately, ignoring the rest of the hash policy list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_policies DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_policies DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_policies}
   */
   readonly hashPolicies?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglevHashPolicies[] | cdktf.IResolvable;
   /**
   * The table size for Maglev hashing. Maglev aims for “minimal disruption” rather than an absolute guarantee. Minimal disruption means that when the set of upstream hosts change, a connection will likely be sent to the same upstream as it was before. Increasing the table size reduces the amount of disruption. The table size must be prime number limited to 5000011. If it is not specified, the default is 65537.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#table_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#table_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#table_size}
   */
   readonly tableSize?: number;
 }
@@ -1673,7 +1673,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * Hash on source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#source_ip DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#source_ip DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#source_ip}
   */
   readonly sourceIp?: boolean | cdktf.IResolvable;
 }
@@ -1769,19 +1769,19 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the cookie that will be used to obtain the hash key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The name of the path for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#path DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#path DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * If specified, a cookie with the TTL will be generated if the cookie is not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ttl DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ttl DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -1932,7 +1932,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the Object in the per-request filterState, which is an Envoy::Hashable object. If there is no data associated with the key, or the stored object is not Envoy::Hashable, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
   */
   readonly key: string;
 }
@@ -2025,7 +2025,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the request header that will be used to obtain the hash key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2118,7 +2118,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * The name of the URL query parameter that will be used to obtain the hash key. If the parameter is not present, no hash will be produced. Query parameter names are case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2209,33 +2209,33 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefault
 }
 export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#connection DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#connection DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#connection}
   */
   readonly connection?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPoliciesConnection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cookie DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cookie DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPoliciesCookie;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#filter_state DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#filter_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#filter_state DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#filter_state}
   */
   readonly filterState?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPoliciesFilterState;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#header DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#header DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#header}
   */
   readonly header?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPoliciesHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#query_parameter DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#query_parameter DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#query_parameter}
   */
   readonly queryParameter?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPoliciesQueryParameter;
   /**
   * Terminal is a flag that short-circuits the hash computing. This field provides a ‘fallback’ style of configuration: “if a terminal policy doesn’t work, fallback to rest of the policy list”, it saves time when the terminal policy works. If true, and there is already a hash computed, ignore rest of the list of hash polices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#terminal DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#terminal DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2524,25 +2524,25 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * HashFunction is a function used to hash hosts onto the ketama ring. The value defaults to XX_HASH. Available values – XX_HASH, MURMUR_HASH_2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_function DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_function DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_function}
   */
   readonly hashFunction?: string;
   /**
   * HashPolicies specify a list of request/connection properties that are used to calculate a hash. These hash policies are executed in the specified order. If a hash policy has the “terminal” attribute set to true, and there is already a hash generated, the hash is returned immediately, ignoring the rest of the hash policy list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_policies DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#hash_policies DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#hash_policies}
   */
   readonly hashPolicies?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHashHashPolicies[] | cdktf.IResolvable;
   /**
   * Maximum hash ring size. Defaults to 8M entries, and limited to 8M entries, but can be lowered to further constrain resource use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#max_ring_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#max_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#max_ring_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#max_ring_size}
   */
   readonly maxRingSize?: number;
   /**
   * Minimum hash ring size. The larger the ring is (that is, the more hashes there are for each provided host) the better the request distribution will reflect the desired weights. Defaults to 1024 entries, and limited to 8M entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#min_ring_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#min_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#min_ring_size DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#min_ring_size}
   */
   readonly minRingSize?: number;
 }
@@ -2725,35 +2725,35 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * LeastRequest selects N random available hosts as specified in 'choiceCount' (2 by default) and picks the host which has the fewest active requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#least_request DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#least_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#least_request DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#least_request}
   */
   readonly leastRequest?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerLeastRequest;
   /**
   * Maglev implements consistent hashing to upstream hosts. Maglev can be used as a drop in replacement for the ring hash load balancer any place in which consistent hashing is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#maglev DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#maglev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#maglev DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#maglev}
   */
   readonly maglev?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerMaglev;
   /**
   * Random selects a random available host. The random load balancer generally performs better than round-robin if no health checking policy is configured. Random selection avoids bias towards the host in the set that comes after a failed host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#random DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#random DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#random}
   */
   readonly random?: { [key: string]: string };
   /**
   * RingHash implements consistent hashing to upstream hosts. Each host is mapped onto a circle (the “ring”) by hashing its address; each request is then routed to a host by hashing some property of the request, and finding the nearest corresponding host clockwise around the ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ring_hash DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ring_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#ring_hash DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#ring_hash}
   */
   readonly ringHash?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancerRingHash;
   /**
   * RoundRobin is a load balancing algorithm that distributes requests across available upstream hosts in round-robin order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#round_robin DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#round_robin DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#round_robin}
   */
   readonly roundRobin?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2989,7 +2989,7 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefault
 }
 export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailoverFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#zones DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#zones DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#zones}
   */
   readonly zones: string[];
 }
@@ -3082,11 +3082,11 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * Type defines how target zones will be picked from available zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#type DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#zones DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#zones DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#zones}
   */
   readonly zones?: string[];
 }
@@ -3208,13 +3208,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * From defines the list of zones to which the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#from DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#from DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailoverFrom;
   /**
   * To defines to which zones the traffic should be load balanced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#to DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#to DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#to}
   */
   readonly to: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailoverTo;
 }
@@ -3356,7 +3356,7 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefault
 }
 export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailoverThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#percentage DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#percentage DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#percentage}
   */
   readonly percentage: string;
 }
@@ -3449,13 +3449,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * Failover defines list of load balancing rules in order of priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#failover DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#failover DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#failover}
   */
   readonly failover?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailover[] | cdktf.IResolvable;
   /**
   * FailoverThreshold defines the percentage of live destination dataplane proxies below which load balancing to the next priority starts. Example: If you configure failoverThreshold to 70, and you have deployed 10 destination dataplane proxies. Load balancing to next priority will start when number of live destination dataplane proxies drops below 7. Default 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#failover_threshold DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#failover_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#failover_threshold DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#failover_threshold}
   */
   readonly failoverThreshold?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZoneFailoverThreshold;
 }
@@ -3580,13 +3580,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * Key defines tag for which affinity is configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#key DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Weight of the tag used for load balancing. The bigger the weight the bigger the priority. Percentage of local traffic load balanced to tag is computed by dividing weight by sum of weights from all tags. For example with two affinity tags first with weight 80 and second with weight 20, then 80% of traffic will be redirected to the first tag, and 20% of traffic will be redirected to second one. Setting weights is not mandatory. When weights are not set control plane will compute default weight based on list order. Default: If you do not specify weight we will adjust them so that 90% traffic goes to first tag, 9% to next, and 1% to third and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#weight DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#weight DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -3730,7 +3730,7 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * AffinityTags list of tags for local zone load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#affinity_tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#affinity_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#affinity_tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#affinity_tags}
   */
   readonly affinityTags?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessLocalZoneAffinityTags[] | cdktf.IResolvable;
 }
@@ -3826,19 +3826,19 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * CrossZone defines locality aware load balancing priorities when dataplane proxies inside local zone are unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cross_zone DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cross_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#cross_zone DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#cross_zone}
   */
   readonly crossZone?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessCrossZone;
   /**
   * Disabled allows to disable locality-aware load balancing. When disabled requests are distributed across all endpoints regardless of locality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#disabled DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#disabled DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * LocalZone defines locality aware load balancing priorities between dataplane proxies inside a zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#local_zone DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#local_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#local_zone DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#local_zone}
   */
   readonly localZone?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwarenessLocalZone;
 }
@@ -3992,13 +3992,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDef
   /**
   * LoadBalancer allows to specify load balancing algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#load_balancer DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#load_balancer DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLoadBalancer;
   /**
   * LocalityAwareness contains configuration for locality aware load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#locality_awareness DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#locality_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#locality_awareness DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#locality_awareness}
   */
   readonly localityAwareness?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefaultLocalityAwareness;
 }
@@ -4123,49 +4123,49 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToTar
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#kind DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#kind DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#labels DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#mesh DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#mesh DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#namespace DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#section_name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#section_name DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#tags DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4464,13 +4464,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#default DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#default DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#target_ref DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#target_ref DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecToTargetRef;
 }
@@ -4614,13 +4614,13 @@ export interface DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpec {
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#target_ref DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#target_ref DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#to DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#to DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -4743,7 +4743,7 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest k8s_kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest k8s_kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4759,7 +4759,7 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4771,7 +4771,7 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest k8s_kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest k8s_kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4782,8 +4782,8 @@ export class DataK8SKumaIoMeshLoadBalancingStrategyV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_kuma_io_mesh_load_balancing_strategy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

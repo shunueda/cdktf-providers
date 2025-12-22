@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#metadata DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#metadata DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestMetadata;
   /**
   * NodeMetricSpec defines the desired state of NodeMetric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#spec DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#spec DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#annotations DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#annotations DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#labels DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#labels DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,7 +185,7 @@ export class DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpecMetricCollectPolicyNodeAggregatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#durations DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#durations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#durations DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#durations}
   */
   readonly durations?: string[];
 }
@@ -281,25 +281,25 @@ export interface DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpecMetricColl
   /**
   * AggregateDurationSeconds represents the aggregation period in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#aggregate_duration_seconds DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#aggregate_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#aggregate_duration_seconds DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#aggregate_duration_seconds}
   */
   readonly aggregateDurationSeconds?: number;
   /**
   * NodeAggregatePolicy represents the target grain of node aggregated usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#node_aggregate_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#node_aggregate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#node_aggregate_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#node_aggregate_policy}
   */
   readonly nodeAggregatePolicy?: DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpecMetricCollectPolicyNodeAggregatePolicy;
   /**
   * NodeMemoryPolicy represents apply which method collect memory info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#node_memory_collect_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#node_memory_collect_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#node_memory_collect_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#node_memory_collect_policy}
   */
   readonly nodeMemoryCollectPolicy?: string;
   /**
   * ReportIntervalSeconds represents the report period in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#report_interval_seconds DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#report_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#report_interval_seconds DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#report_interval_seconds}
   */
   readonly reportIntervalSeconds?: number;
 }
@@ -482,7 +482,7 @@ export interface DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpec {
   /**
   * CollectPolicy defines the Metric collection policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#metric_collect_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#metric_collect_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#metric_collect_policy DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest#metric_collect_policy}
   */
   readonly metricCollectPolicy?: DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpecMetricCollectPolicy;
 }
@@ -576,7 +576,7 @@ export class DataK8SSloKoordinatorShNodeMetricV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest k8s_slo_koordinator_sh_node_metric_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest k8s_slo_koordinator_sh_node_metric_v1alpha1_manifest}
 */
 export class DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -592,7 +592,7 @@ export class DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +604,7 @@ export class DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest k8s_slo_koordinator_sh_node_metric_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/slo_koordinator_sh_node_metric_v1alpha1_manifest k8s_slo_koordinator_sh_node_metric_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +615,8 @@ export class DataK8SSloKoordinatorShNodeMetricV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_slo_koordinator_sh_node_metric_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

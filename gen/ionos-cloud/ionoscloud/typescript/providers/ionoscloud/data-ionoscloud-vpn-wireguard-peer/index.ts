@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataIonoscloudVpnWireguardPeerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer#gateway_id DataIonoscloudVpnWireguardPeer#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer#gateway_id DataIonoscloudVpnWireguardPeer#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer#id DataIonoscloudVpnWireguardPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer#id DataIonoscloudVpnWireguardPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,11 +21,11 @@ export interface DataIonoscloudVpnWireguardPeerConfig extends cdktf.TerraformMet
   /**
   * The location of the WireGuard Peer. Supported locations: de/fra, de/fra/2, de/txl, es/vit, gb/bhx, gb/lhr, us/ewr, us/las, us/mci, fr/par
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer#location DataIonoscloudVpnWireguardPeer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer#location DataIonoscloudVpnWireguardPeer#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer#name DataIonoscloudVpnWireguardPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer#name DataIonoscloudVpnWireguardPeer#name}
   */
   readonly name?: string;
 }
@@ -111,7 +111,7 @@ export class DataIonoscloudVpnWireguardPeerEndpointList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer}
 */
 export class DataIonoscloudVpnWireguardPeer extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataIonoscloudVpnWireguardPeer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIonoscloudVpnWireguardPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudVpnWireguardPeer to import
-  * @param importFromId The id of the existing DataIonoscloudVpnWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudVpnWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudVpnWireguardPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataIonoscloudVpnWireguardPeer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataIonoscloudVpnWireguardPeer extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_vpn_wireguard_peer',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

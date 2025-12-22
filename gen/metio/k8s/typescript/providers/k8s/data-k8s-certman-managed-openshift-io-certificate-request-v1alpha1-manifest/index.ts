@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#metadata DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#metadata DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestMetadata;
   /**
   * CertificateRequestSpec defines the desired state of CertificateRequest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#spec DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#spec DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#annotations DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#annotations DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#labels DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#labels DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#namespace DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#namespace DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#api_version DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#api_version DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#field_path DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#field_path DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#kind DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#kind DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#namespace DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#namespace DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#resource_version DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#resource_version DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#uid DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#uid DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -525,7 +525,7 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -621,13 +621,13 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Credentials refers to a secret that contains the AWS account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
   */
   readonly credentials: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformAwsCredentials;
   /**
   * Region specifies the AWS region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#region DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#region DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#region}
   */
   readonly region: string;
 }
@@ -746,7 +746,7 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -842,13 +842,13 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Credentials refers to a secret that contains the AZURE account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
   */
   readonly credentials: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformAzureCredentials;
   /**
   * ResourceGroupName refers to the resource group that contains the dns zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#resource_group_name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#resource_group_name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -967,7 +967,7 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#name DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1063,7 +1063,7 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * Credentials refers to a secret that contains the GCP account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#credentials DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#credentials}
   */
   readonly credentials: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformGcpCredentials;
 }
@@ -1154,25 +1154,25 @@ export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestS
 }
 export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformMock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#answer_dns_challenge_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#answer_dns_challenge_error_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#answer_dns_challenge_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#answer_dns_challenge_error_string}
   */
   readonly answerDnsChallengeErrorString?: string;
   /**
   * these options configure the return values for the mock client's functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#answer_dns_challenge_fqdn DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#answer_dns_challenge_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#answer_dns_challenge_fqdn DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#answer_dns_challenge_fqdn}
   */
   readonly answerDnsChallengeFqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#delete_acme_challenge_resource_records_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#delete_acme_challenge_resource_records_error_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#delete_acme_challenge_resource_records_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#delete_acme_challenge_resource_records_error_string}
   */
   readonly deleteAcmeChallengeResourceRecordsErrorString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#validate_dns_write_access_bool DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#validate_dns_write_access_bool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#validate_dns_write_access_bool DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#validate_dns_write_access_bool}
   */
   readonly validateDnsWriteAccessBool?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#validate_dns_write_access_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#validate_dns_write_access_error_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#validate_dns_write_access_error_string DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#validate_dns_write_access_error_string}
   */
   readonly validateDnsWriteAccessErrorString?: string;
 }
@@ -1384,25 +1384,25 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * AWSPlatformSecrets contains secrets for clusters on the AWS platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#aws DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#aws DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#aws}
   */
   readonly aws?: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformAws;
   /**
   * AzurePlatformSecrets contains secrets for clusters on the Azure platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#azure DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#azure DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#azure}
   */
   readonly azure?: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformAzure;
   /**
   * GCPPlatformSecrets contains secrets for clusters on the GCP platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#gcp DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#gcp DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#gcp}
   */
   readonly gcp?: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformGcp;
   /**
   * MockPlatformSecrets indicates a mock client should be generated, which doesn't interact with any platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#mock DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#mock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#mock DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#mock}
   */
   readonly mock?: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatformMock;
 }
@@ -1585,49 +1585,49 @@ export interface DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manif
   /**
   * ACMEDNSDomain is the DNS zone that will house the TXT records needed for the certificate to be created. In Route53 this would be the public Route53 hosted zone (the Domain Name not the ZoneID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#acme_dns_domain DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#acme_dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#acme_dns_domain DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#acme_dns_domain}
   */
   readonly acmeDnsDomain: string;
   /**
   * APIURL is the URL where the cluster's API can be accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#api_url DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#api_url DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * CertificateSecret is the reference to the secret where certificates are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#certificate_secret DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#certificate_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#certificate_secret DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#certificate_secret}
   */
   readonly certificateSecret: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecCertificateSecret;
   /**
   * DNSNames is a list of subject alt names to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#dns_names DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#dns_names DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#dns_names}
   */
   readonly dnsNames: string[];
   /**
   * Let's Encrypt will use this to contact you about expiring certificates, and issues related to your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#email DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#email DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#email}
   */
   readonly email: string;
   /**
   * Platform contains specific cloud provider information such as credentials and secrets for the cluster infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#platform DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#platform DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#platform}
   */
   readonly platform: DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestSpecPlatform;
   /**
   * Number of days before expiration to reissue certificate. NOTE: Keeping 'renew' in JSON for backward-compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#renew_before_days DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#renew_before_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#renew_before_days DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#renew_before_days}
   */
   readonly renewBeforeDays?: number;
   /**
   * WebConsoleURL is the URL for the cluster's web console UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#web_console_url DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#web_console_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#web_console_url DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest#web_console_url}
   */
   readonly webConsoleUrl?: string;
 }
@@ -1909,7 +1909,7 @@ export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest k8s_certman_managed_openshift_io_certificate_request_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest k8s_certman_managed_openshift_io_certificate_request_v1alpha1_manifest}
 */
 export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1925,7 +1925,7 @@ export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1937,7 +1937,7 @@ export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest k8s_certman_managed_openshift_io_certificate_request_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/certman_managed_openshift_io_certificate_request_v1alpha1_manifest k8s_certman_managed_openshift_io_certificate_request_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1948,8 +1948,8 @@ export class DataK8SCertmanManagedOpenshiftIoCertificateRequestV1Alpha1Manifest 
       terraformResourceType: 'k8s_certman_managed_openshift_io_certificate_request_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "rediscloud": "2.9.0"
+    "rediscloud": "2.10.0"
   }
 }

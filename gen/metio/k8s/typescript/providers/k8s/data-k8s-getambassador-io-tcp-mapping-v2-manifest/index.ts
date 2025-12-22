@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoTcpMappingV2ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#metadata DataK8SGetambassadorIoTcpMappingV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#metadata DataK8SGetambassadorIoTcpMappingV2Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoTcpMappingV2ManifestMetadata;
   /**
   * TCPMappingSpec defines the desired state of TCPMapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#spec DataK8SGetambassadorIoTcpMappingV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#spec DataK8SGetambassadorIoTcpMappingV2Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoTcpMappingV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoTcpMappingV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#annotations DataK8SGetambassadorIoTcpMappingV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#annotations DataK8SGetambassadorIoTcpMappingV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#labels DataK8SGetambassadorIoTcpMappingV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#labels DataK8SGetambassadorIoTcpMappingV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#name DataK8SGetambassadorIoTcpMappingV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#name DataK8SGetambassadorIoTcpMappingV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#namespace DataK8SGetambassadorIoTcpMappingV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#namespace DataK8SGetambassadorIoTcpMappingV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SGetambassadorIoTcpMappingV2ManifestMetadataOutputReference e
 }
 export interface DataK8SGetambassadorIoTcpMappingV2ManifestSpecCircuitBreakers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_connections DataK8SGetambassadorIoTcpMappingV2Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_connections DataK8SGetambassadorIoTcpMappingV2Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_pending_requests DataK8SGetambassadorIoTcpMappingV2Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_pending_requests DataK8SGetambassadorIoTcpMappingV2Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_requests DataK8SGetambassadorIoTcpMappingV2Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_requests DataK8SGetambassadorIoTcpMappingV2Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_retries DataK8SGetambassadorIoTcpMappingV2Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#max_retries DataK8SGetambassadorIoTcpMappingV2Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#priority DataK8SGetambassadorIoTcpMappingV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#priority DataK8SGetambassadorIoTcpMappingV2Manifest#priority}
   */
   readonly priority?: string;
 }
@@ -465,63 +465,63 @@ export class DataK8SGetambassadorIoTcpMappingV2ManifestSpecCircuitBreakersList e
 }
 export interface DataK8SGetambassadorIoTcpMappingV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#address DataK8SGetambassadorIoTcpMappingV2Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#address DataK8SGetambassadorIoTcpMappingV2Manifest#address}
   */
   readonly address?: string;
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. May either be a string or a list of strings. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#ambassador_id DataK8SGetambassadorIoTcpMappingV2Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#ambassador_id DataK8SGetambassadorIoTcpMappingV2Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#circuit_breakers DataK8SGetambassadorIoTcpMappingV2Manifest#circuit_breakers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#circuit_breakers DataK8SGetambassadorIoTcpMappingV2Manifest#circuit_breakers}
   */
   readonly circuitBreakers?: DataK8SGetambassadorIoTcpMappingV2ManifestSpecCircuitBreakers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#cluster_tag DataK8SGetambassadorIoTcpMappingV2Manifest#cluster_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#cluster_tag DataK8SGetambassadorIoTcpMappingV2Manifest#cluster_tag}
   */
   readonly clusterTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#enable_ipv4 DataK8SGetambassadorIoTcpMappingV2Manifest#enable_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#enable_ipv4 DataK8SGetambassadorIoTcpMappingV2Manifest#enable_ipv4}
   */
   readonly enableIpv4?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#enable_ipv6 DataK8SGetambassadorIoTcpMappingV2Manifest#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#enable_ipv6 DataK8SGetambassadorIoTcpMappingV2Manifest#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#host DataK8SGetambassadorIoTcpMappingV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#host DataK8SGetambassadorIoTcpMappingV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#idle_timeout_ms DataK8SGetambassadorIoTcpMappingV2Manifest#idle_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#idle_timeout_ms DataK8SGetambassadorIoTcpMappingV2Manifest#idle_timeout_ms}
   */
   readonly idleTimeoutMs?: string;
   /**
   * Port isn't a pointer because it's required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#port DataK8SGetambassadorIoTcpMappingV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#port DataK8SGetambassadorIoTcpMappingV2Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#resolver DataK8SGetambassadorIoTcpMappingV2Manifest#resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#resolver DataK8SGetambassadorIoTcpMappingV2Manifest#resolver}
   */
   readonly resolver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#service DataK8SGetambassadorIoTcpMappingV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#service DataK8SGetambassadorIoTcpMappingV2Manifest#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#tls DataK8SGetambassadorIoTcpMappingV2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#tls DataK8SGetambassadorIoTcpMappingV2Manifest#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#v3_stats_name DataK8SGetambassadorIoTcpMappingV2Manifest#v3_stats_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#v3_stats_name DataK8SGetambassadorIoTcpMappingV2Manifest#v3_stats_name}
   */
   readonly v3StatsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#weight DataK8SGetambassadorIoTcpMappingV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#weight DataK8SGetambassadorIoTcpMappingV2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -986,7 +986,7 @@ export class DataK8SGetambassadorIoTcpMappingV2ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest k8s_getambassador_io_tcp_mapping_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest k8s_getambassador_io_tcp_mapping_v2_manifest}
 */
 export class DataK8SGetambassadorIoTcpMappingV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1002,7 +1002,7 @@ export class DataK8SGetambassadorIoTcpMappingV2Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SGetambassadorIoTcpMappingV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoTcpMappingV2Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoTcpMappingV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoTcpMappingV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoTcpMappingV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1014,7 +1014,7 @@ export class DataK8SGetambassadorIoTcpMappingV2Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest k8s_getambassador_io_tcp_mapping_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/getambassador_io_tcp_mapping_v2_manifest k8s_getambassador_io_tcp_mapping_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1025,8 +1025,8 @@ export class DataK8SGetambassadorIoTcpMappingV2Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_getambassador_io_tcp_mapping_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

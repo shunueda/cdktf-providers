@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#metadata DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#metadata DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#metadata}
   */
   readonly metadata: DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestMetadata;
   /**
   * ClusterResourceSetSpec defines the desired state of ClusterResourceSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#spec DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#spec DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#annotations DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#annotations DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#labels DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#labels DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#namespace DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#namespace DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#key DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#key DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#operator DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#operator DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#values DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#values DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#match_expressions DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#match_expressions DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpecClusterSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#match_labels DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#match_labels DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,13 +532,13 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpe
   /**
   * Kind of the resource. Supported kinds are: Secrets and ConfigMaps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#kind DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#kind DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the resource that is in the same namespace with ClusterResourceSet object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -679,19 +679,19 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpe
   /**
   * Label selector for Clusters. The Clusters that are selected by this will be the ones affected by this ClusterResourceSet. It must match the Cluster labels. This field is immutable. Label selector cannot be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#cluster_selector DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#cluster_selector DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#cluster_selector}
   */
   readonly clusterSelector: DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpecClusterSelector;
   /**
   * Resources is a list of Secrets/ConfigMaps where each contains 1 or more resources to be applied to remote clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#resources DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#resources DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#resources}
   */
   readonly resources?: DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * Strategy is the strategy to be used during applying resources. Defaults to ApplyOnce. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#strategy DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#strategy DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -840,7 +840,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest}
 */
 export class DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest extends cdktf.TerraformDataSource {
 
@@ -856,7 +856,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest extend
   * Generates CDKTF code for importing a DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest to import
-  * @param importFromId The id of the existing DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -868,7 +868,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -879,8 +879,8 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetV1Alpha4Manifest extend
       terraformResourceType: 'k8s_addons_cluster_x_k8s_io_cluster_resource_set_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

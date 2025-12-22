@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestMetadata;
   /**
   * DexIdentityProviderSpec defines the desired state of the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCli
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -312,7 +312,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -405,7 +405,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -498,7 +498,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -591,13 +591,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * GroupAttr is the attribute to match against the group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#group_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#group_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#group_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#group_attr}
   */
   readonly groupAttr: string;
   /**
   * UserAttr is the attribute to match against the user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_attr}
   */
   readonly userAttr: string;
 }
@@ -738,31 +738,31 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * BaseDN to start the search from. For example 'cn=groups,dc=example,dc=com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#base_dn DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#base_dn DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#base_dn}
   */
   readonly baseDn: string;
   /**
   * Filter is an optional filter to apply when searching the directory. For example '(objectClass=posixGroup)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#filter DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#filter DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#filter}
   */
   readonly filter?: string;
   /**
   * NameAttr is the attribute of the group that represents its name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name_attr}
   */
   readonly nameAttr: string;
   /**
   * Scope is the optional scope of the search (default 'sub'). Can either be: * 'sub' - search the whole sub tree * 'one' - only search one level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scope DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scope DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * UserMatchers is an array of the field pairs used to match a user to a group. See the 'DexIdentityProviderConnectorLDAPGroupSearchUserMatcher' struct for the exact field names Each pair adds an additional requirement to the filter that an attribute in the group match the user's attribute value. For example that the 'members' attribute of a group matches the 'uid' of the user. The exact filter being added is: (userMatchers[n].<groupAttr>=userMatchers[n].<userAttr value>)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_matchers DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_matchers DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_matchers}
   */
   readonly userMatchers: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapGroupSearchUserMatchers[] | cdktf.IResolvable;
 }
@@ -965,55 +965,55 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * BaseDN to start the search from. For example 'cn=users,dc=example,dc=com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#base_dn DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#base_dn DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#base_dn}
   */
   readonly baseDn: string;
   /**
   * EmailAttr is the attribute to use as the user email (default 'mail').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email_attr}
   */
   readonly emailAttr?: string;
   /**
   * EmailSuffix if set, will be appended to the idAttr to construct the email claim. This should not include the @ character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email_suffix DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email_suffix DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email_suffix}
   */
   readonly emailSuffix?: string;
   /**
   * Filter is an optional filter to apply when searching the directory. For example '(objectClass=person)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#filter DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#filter DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#filter}
   */
   readonly filter?: string;
   /**
   * IDAttr is the attribute to use as the user ID (default 'uid').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id_attr}
   */
   readonly idAttr?: string;
   /**
   * NameAttr is the attribute to use as the display name for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name_attr}
   */
   readonly nameAttr?: string;
   /**
   * PreferredUsernameAttr is the attribute to use as the preferred username for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#preferred_username_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#preferred_username_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#preferred_username_attr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#preferred_username_attr}
   */
   readonly preferredUsernameAttr?: string;
   /**
   * Scope is the optional scope of the search (default 'sub'). Can either be: * 'sub' - search the whole sub tree * 'one' - only search one level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scope DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scope DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Username is the attribute to match against the inputted username. This will be translated and combined with the other filter as '(<attr>=<username>)'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -1335,67 +1335,67 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * BindPasswordSecretRef is a reference to a secret containing the bind password. The connector uses these credentials to search for users and groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#bind_password_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#bind_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#bind_password_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#bind_password_secret_ref}
   */
   readonly bindPasswordSecretRef: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapBindPasswordSecretRef;
   /**
   * BindUsername is the DN of the user to bind with. The connector uses these credentials to search for users and groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#bind_username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#bind_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#bind_username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#bind_username}
   */
   readonly bindUsername: string;
   /**
   * CASecretRef is an optional reference to a secret containing the CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
   */
   readonly caSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapCaSecretRef;
   /**
   * ClientCertificateSecretRef is an optional reference to a secret containing the client certificate and key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
   */
   readonly clientCertificateSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapClientCertificateSecretRef;
   /**
   * GroupSearch contains configuration for searching LDAP groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#group_search DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#group_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#group_search DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#group_search}
   */
   readonly groupSearch: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapGroupSearch;
   /**
   * Host is the host and optional port of the LDAP server. If port isn't supplied, it will be guessed based on the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * InsecureNoSSL is required to connect to a server without TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_no_ssl DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_no_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_no_ssl DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_no_ssl}
   */
   readonly insecureNoSsl?: boolean | cdktf.IResolvable;
   /**
   * InsecureSkipVerify allows connecting to a server without verifying the TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_verify DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_verify DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * StartTLS allows connecting to a server that supports the StartTLS command. If unsupplied secure connections will use the LDAPS protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#start_tls DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#start_tls DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * UserSearch contains configuration for searching LDAP users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_search DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_search DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_search}
   */
   readonly userSearch: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdapUserSearch;
   /**
   * UsernamePrompt allows users to override the username attribute (displayed in the username/password prompt). If unset, the handler will use 'Username'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#username_prompt DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#username_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#username_prompt DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#username_prompt}
   */
   readonly usernamePrompt?: string;
 }
@@ -1766,7 +1766,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1859,19 +1859,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * EmailKey is the key which contains the email claims, defaults to 'email'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#email DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#email}
   */
   readonly email?: string;
   /**
   * GroupsKey is the key which contains the groups claims, defaults to 'groups'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#groups DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#groups DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#groups}
   */
   readonly groups?: string;
   /**
   * PreferredUsernameKey is the key which contains the preferred username claims, defaults to 'preferred_username'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#preferred_username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#preferred_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#preferred_username DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#preferred_username}
   */
   readonly preferredUsername?: string;
 }
@@ -2025,7 +2025,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2118,97 +2118,97 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * AcrValues (Authentication Context Class Reference Values) that specifies the Authentication Context Class Values within the Authentication Request that the Authorization Server is being requested to use for processing requests from this Client, with the values appearing in order of preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#acr_values DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#acr_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#acr_values DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#acr_values}
   */
   readonly acrValues?: string[];
   /**
   * BasicAuthUnsupported causes client_secret to be passed as POST parameters instead of basic auth. This is specifically 'NOT RECOMMENDED' by the OAuth2 RFC, but some providers require it. https://tools.ietf.org/html/rfc6749#section-2.3.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#basic_auth_unsupported DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#basic_auth_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#basic_auth_unsupported DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#basic_auth_unsupported}
   */
   readonly basicAuthUnsupported?: boolean | cdktf.IResolvable;
   /**
   * CASecretRef is an optional reference to a secret containing the CA certificate. Only required if your provider uses a self-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
   */
   readonly caSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsOidcCaSecretRef;
   /**
   * ClaimMapping is used to map non-standard claims to standard claims. Some providers return non-standard claims (eg. mail). https://openid.net/specs/openid-connect-core-1_0.html#Claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claim_mapping DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claim_mapping DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claim_mapping}
   */
   readonly claimMapping?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsOidcClaimMapping;
   /**
   * ClientSecretRef is a reference to a secret containing the OAuth client id and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_secret_ref}
   */
   readonly clientSecretRef: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsOidcClientSecretRef;
   /**
   * GetUserInfo uses the userinfo endpoint to get additional claims for the token. This is especially useful where upstreams return 'thin' id tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#get_user_info DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#get_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#get_user_info DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#get_user_info}
   */
   readonly fetchUserInfo?: boolean | cdktf.IResolvable;
   /**
   * InsecureEnableGroups enables groups claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_enable_groups DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_enable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_enable_groups DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_enable_groups}
   */
   readonly insecureEnableGroups?: boolean | cdktf.IResolvable;
   /**
   * InsecureSkipEmailVerified if set will override the value of email_verified to true in the returned claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_email_verified DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_email_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_email_verified DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_email_verified}
   */
   readonly insecureSkipEmailVerified?: boolean | cdktf.IResolvable;
   /**
   * InsecureSkipVerify disables TLS certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_verify DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#insecure_skip_verify DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Issuer is the URL of the OIDC issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
   */
   readonly issuer: string;
   /**
   * OverrideClaimMapping will be used to override the options defined in claimMappings. i.e. if there are 'email' and 'preferred_email' claims available, by default Dex will always use the 'email' claim independent of the ClaimMapping.EmailKey. This setting allows you to override the default behavior of Dex and enforce the mappings defined in 'claimMapping'. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#override_claim_mapping DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#override_claim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#override_claim_mapping DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#override_claim_mapping}
   */
   readonly overrideClaimMapping?: boolean | cdktf.IResolvable;
   /**
   * PromptType will be used fot the prompt parameter (when offline_access, by default prompt=consent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#prompt_type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#prompt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#prompt_type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#prompt_type}
   */
   readonly promptType?: string;
   /**
   * RedirectURI is the OAuth redirect URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#redirect_uri DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#redirect_uri DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#redirect_uri}
   */
   readonly redirectUri: string;
   /**
   * Scopes is an optional list of scopes to request. If omitted, defaults to 'profile' and 'email'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scopes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#scopes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * UserIDKey is the claim key to use for the user ID (default sub).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_id_key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_id_key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_id_key}
   */
   readonly userIdKey?: string;
   /**
   * UserNameKey is the claim key to use for the username (default name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_name_key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#user_name_key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#user_name_key}
   */
   readonly userNameKey?: string;
 }
@@ -2730,7 +2730,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * ID is the connector ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2739,25 +2739,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecCon
   /**
   * LDAP holds configuration for the LDAP connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ldap DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ldap DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ldap}
   */
   readonly ldap?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsLdap;
   /**
   * Name is the connector name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * OIDC holds configuration for the OIDC connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#oidc DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#oidc DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectorsOidc;
   /**
   * Type is the connector type to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2982,25 +2982,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecExp
   /**
   * AbsoluteLifetime defines the duration of time after which a refresh token will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#absolute_lifetime DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#absolute_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#absolute_lifetime DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#absolute_lifetime}
   */
   readonly absoluteLifetime?: string;
   /**
   * DisableRotation disables refresh token rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#disable_rotation DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#disable_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#disable_rotation DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#disable_rotation}
   */
   readonly disableRotation?: boolean | cdktf.IResolvable;
   /**
   * ReuseInterval defines the duration of time after which a refresh token can be reused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reuse_interval DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reuse_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reuse_interval DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reuse_interval}
   */
   readonly reuseInterval?: string;
   /**
   * ValidIfNotUsedFor defines the duration of time after which a refresh token will expire if not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#valid_if_not_used_for DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#valid_if_not_used_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#valid_if_not_used_for DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#valid_if_not_used_for}
   */
   readonly validIfNotUsedFor?: string;
 }
@@ -3183,31 +3183,31 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecExp
   /**
   * AuthRequests defines the duration of time for which the AuthRequests will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#auth_requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#auth_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#auth_requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#auth_requests}
   */
   readonly authRequests?: string;
   /**
   * DeviceRequests defines the duration of time for which the DeviceRequests will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#device_requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#device_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#device_requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#device_requests}
   */
   readonly deviceRequests?: string;
   /**
   * IDTokens defines the duration of time for which the IdTokens will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id_tokens DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#id_tokens DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#id_tokens}
   */
   readonly idTokens?: string;
   /**
   * RefreshTokens defines refresh tokens expiry policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#refresh_tokens DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#refresh_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#refresh_tokens DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#refresh_tokens}
   */
   readonly refreshTokens?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecExpiryRefreshTokens;
   /**
   * SigningKeys defines the duration of time after which the SigningKeys will be rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#signing_keys DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#signing_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#signing_keys DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#signing_keys}
   */
   readonly signingKeys?: string;
 }
@@ -3419,25 +3419,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecFro
   /**
   * Dir is a file path to static web assets. It is expected to contain the following directories: * static - Static static served at '( issuer URL )/static'. * templates - HTML templates controlled by dex. * themes/(theme) - Static static served at '( issuer URL )/theme'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#dir DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#dir DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#dir}
   */
   readonly dir?: string;
   /**
   * Issuer is the name of the issuer, used in the HTML templates. Defaults to 'dex'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * LogoURL is the URL of the logo to use in the HTML templates. Defaults to '( issuer URL )/theme/logo.png'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#logo_url DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#logo_url DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * Theme is the name of the theme to use. Defaults to 'light'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#theme DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#theme DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#theme}
   */
   readonly theme?: string;
 }
@@ -3620,7 +3620,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrp
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -3713,7 +3713,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrp
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -3806,25 +3806,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrp
   /**
   * Annotations is an optional map of additional annotations to add to the Dex API gRPC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * CertificateSecretRef is an optional reference to a secret containing the TLS certificate and key to use for the Dex API gRPC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#certificate_secret_ref}
   */
   readonly certificateSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrpcCertificateSecretRef;
   /**
   * ClientCASecretRef is an optional reference to a secret containing the client CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_ca_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_ca_secret_ref}
   */
   readonly clientCaSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrpcClientCaSecretRef;
   /**
   * Reflection enables gRPC server reflection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reflection DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reflection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reflection DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reflection}
   */
   readonly reflection?: boolean | cdktf.IResolvable;
 }
@@ -4007,13 +4007,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIng
   /**
   * Path is matched against the path of an incoming request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * PathType determines the interpretation of the Path matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#path_type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#path_type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#path_type}
   */
   readonly pathType: string;
 }
@@ -4154,13 +4154,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIng
   /**
   * Host is the host to route traffic to the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Paths is a list of paths to route traffic to the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#paths DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#paths DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#paths}
   */
   readonly paths: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIngressHostsPaths[] | cdktf.IResolvable;
 }
@@ -4301,13 +4301,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIng
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#hosts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#hosts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#secret_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#secret_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -4454,31 +4454,31 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIng
   /**
   * Annotations is an optional map of additional annotations to add to the ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled enables ingress for the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#enabled DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#enabled DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Hosts is a list of hosts and paths to route traffic to the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#hosts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#hosts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#hosts}
   */
   readonly hosts: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIngressHosts[] | cdktf.IResolvable;
   /**
   * IngressClassName is the optional ingress class to use for the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ingress_class_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ingress_class_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * TLS is an optional list of TLS configurations for the ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#tls DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#tls DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIngressTls[] | cdktf.IResolvable;
 }
@@ -4684,13 +4684,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecLog
   /**
   * Format specifies the format to be used for logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#format DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#format DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Level sets logging level severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#level DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#level DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4815,13 +4815,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecMet
   /**
   * Enabled enables Prometheus metric scraping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#enabled DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#enabled DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interval at which metrics should be scraped If not specified Prometheus' global scrape interval is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#interval DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#interval DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
 }
@@ -4946,31 +4946,31 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecOau
   /**
   * AlwaysShowLoginScreen, if specified, show the connector selection screen even if there's only one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#always_show_login_screen DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#always_show_login_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#always_show_login_screen DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#always_show_login_screen}
   */
   readonly alwaysShowLoginScreen?: boolean | cdktf.IResolvable;
   /**
   * GrantTypes is a list of allowed grant types, defaults to all supported types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#grant_types DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#grant_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#grant_types DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#grant_types}
   */
   readonly grantTypes?: string[];
   /**
   * PasswordConnector is a specific connector to user for password grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#password_connector DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#password_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#password_connector DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#password_connector}
   */
   readonly passwordConnector?: string;
   /**
   * ResponseTypes is a list of allowed response types, defaults to all supported types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#response_types DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#response_types DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#response_types}
   */
   readonly responseTypes?: string[];
   /**
   * SkipApprovalScreen, if specified, do not prompt the user to approve client authorization. The act of logging in implies authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#skip_approval_screen DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#skip_approval_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#skip_approval_screen DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#skip_approval_screen}
   */
   readonly skipApprovalScreen?: boolean | cdktf.IResolvable;
 }
@@ -5182,7 +5182,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5297,19 +5297,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claims DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claims DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#limits DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#limits DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5463,7 +5463,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5556,7 +5556,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5649,7 +5649,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5742,25 +5742,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * CASecretRef is an optional reference to a secret containing the CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ca_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ca_secret_ref}
   */
   readonly caSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStoragePostgresSslCaSecretRef;
   /**
   * ClientCertificateSecretRef is an optional reference to a secret containing the client certificate and key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
   */
   readonly clientCertificateSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStoragePostgresSslClientCertificateSecretRef;
   /**
   * Mode is the SSL mode to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mode DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mode DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * ServerName ensures that the certificate matches the given hostname the client is connecting to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#server_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#server_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -5943,55 +5943,55 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * ConnMaxLifetime is the maximum amount of time a connection may be reused (default forever).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#conn_max_lifetime DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#conn_max_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#conn_max_lifetime DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#conn_max_lifetime}
   */
   readonly connMaxLifetime?: string;
   /**
   * ConnectionTimeout is the maximum amount of time to wait for a connection to become available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#connection_timeout DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#connection_timeout DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#connection_timeout}
   */
   readonly connectionTimeout?: string;
   /**
   * CredentialsSecretRef is a reference to a secret containing the username and password to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#credentials_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#credentials_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStoragePostgresCredentialsSecretRef;
   /**
   * Database is the name of the database to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#database DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#database DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#database}
   */
   readonly database: string;
   /**
   * Host is the host to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#host DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * MaxIdleConns is the maximum number of connections in the idle connection pool (default 5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#max_idle_conns DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#max_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#max_idle_conns DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#max_idle_conns}
   */
   readonly maxIdleConns?: number;
   /**
   * MaxOpenConns is the maximum number of open connections to the database (default 5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#max_open_conns DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#max_open_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#max_open_conns DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#max_open_conns}
   */
   readonly maxOpenConns?: number;
   /**
   * Port is the port to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#port DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#port DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * SSL holds optional TLS configuration for postgres.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ssl DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ssl DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ssl}
   */
   readonly ssl?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStoragePostgresSsl;
 }
@@ -6307,7 +6307,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * File is the path to the sqlite3 database file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#file DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#file DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#file}
   */
   readonly file: string;
 }
@@ -6400,19 +6400,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecSto
   /**
   * Postgres holds the configuration for the postgres storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#postgres DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#postgres DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#postgres}
   */
   readonly postgres?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStoragePostgres;
   /**
   * Sqlite3 holds the configuration for the sqlite3 storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sqlite3 DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sqlite3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sqlite3 DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sqlite3}
   */
   readonly sqlite3?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStorageSqlite3;
   /**
   * Type is the storage type to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6561,23 +6561,23 @@ export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStorage
 }
 export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#finalizers DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#finalizers DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6789,19 +6789,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_group DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_group DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6949,25 +6949,25 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_group DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_group DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7144,7 +7144,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7259,19 +7259,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claims DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#claims DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#limits DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#limits DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#requests DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7425,19 +7425,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#key DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#operator DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#operator DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#values DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#values DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7607,13 +7607,13 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#match_expressions DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#match_expressions DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#match_labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#match_labels DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7738,49 +7738,49 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#access_modes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#access_modes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#data_source DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#data_source DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#data_source_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#data_source_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#selector DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#selector DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#storage_class_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#storage_class_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_mode DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_mode DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -8079,35 +8079,35 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#last_probe_time DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#last_probe_time DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#last_transition_time DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#last_transition_time DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#message DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#message DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reason DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#reason DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#status DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#status DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#type DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8364,37 +8364,37 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#access_modes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#access_modes DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResourceStatuses stores status of resource being resized for the given PVC. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. ClaimResourceStatus can be in any of following states: - ControllerResizeInProgress: State set when resize controller starts resizing the volume in control-plane. - ControllerResizeFailed: State set when resize has failed in resize controller with a terminal error. - NodeResizePending: State set when resize controller has finished resizing the volume but further resizing of volume is needed on the node. - NodeResizeInProgress: State set when kubelet starts resizing the volume. - NodeResizeFailed: State set when resizing has failed in kubelet with a terminal error. Transient errors don't set NodeResizeFailed. For example: if expanding a PVC for more capacity - this field can be one of the following states: - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeFailed' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizePending' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeFailed' When this field is not set, it means that no resize operation is in progress for the given PVC. A controller that receives PVC update with previously unknown resourceName or ClaimResourceStatus should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allocated_resource_statuses DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allocated_resource_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allocated_resource_statuses DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allocated_resource_statuses}
   */
   readonly allocatedResourceStatuses?: { [key: string]: string };
   /**
   * allocatedResources tracks the resources allocated to a PVC including its capacity. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. Capacity reported here may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. A controller that receives PVC update with previously unknown resourceName should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allocated_resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allocated_resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#capacity DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#capacity DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#conditions DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#conditions DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#phase DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#phase DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
 }
@@ -8635,31 +8635,31 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_version DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#api_version DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#kind DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesSpec;
   /**
   * status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#status DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#status DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplatesStatus;
 }
@@ -8893,37 +8893,37 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVol
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mount_path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mount_path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mount_propagation DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#mount_propagation DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#read_only DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#read_only DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sub_path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sub_path DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sub_path_expr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#sub_path_expr DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -9180,7 +9180,7 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecWeb
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9273,19 +9273,19 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecWeb
   /**
   * AllowedOrigins is a list of allowed origins for CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allowed_origins DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#allowed_origins DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#allowed_origins}
   */
   readonly allowedOrigins?: string[];
   /**
   * Annotations is an optional map of additional annotations to add to the web service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * CertificateSecretRef is an optional reference to a secret containing the TLS certificate and key to use for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#certificate_secret_ref}
   */
   readonly certificateSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecWebCertificateSecretRef;
 }
@@ -9439,103 +9439,103 @@ export interface DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpec {
   /**
   * ClientCertificateSecretRef is an optional reference to a secret containing a client certificate that the operator can use for connecting to the Dex API gRPC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#client_certificate_secret_ref DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#client_certificate_secret_ref}
   */
   readonly clientCertificateSecretRef?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecClientCertificateSecretRef;
   /**
   * Connectors holds configuration for connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#connectors DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#connectors DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#connectors}
   */
   readonly connectors?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecConnectors[] | cdktf.IResolvable;
   /**
   * Expiry holds configuration for tokens, signing keys, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#expiry DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#expiry DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#expiry}
   */
   readonly expiry?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecExpiry;
   /**
   * Frontend holds the web server's frontend templates and asset configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#frontend DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#frontend DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#frontend}
   */
   readonly frontend?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecFrontend;
   /**
   * GRPC holds configuration for the Dex API gRPC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#grpc DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#grpc DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#grpc}
   */
   readonly grpc: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecGrpc;
   /**
   * Image is the Dex image to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#image DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#image DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Ingress is the optional ingress configuration for the Dex identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ingress DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#ingress DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecIngress;
   /**
   * Issuer is the base path of Dex and the external name of the OpenID Connect service. This is the canonical URL that all clients MUST use to refer to Dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#issuer DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#issuer}
   */
   readonly issuer: string;
   /**
   * Logger holds configuration required to customize logging for dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#logger DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#logger DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#logger}
   */
   readonly logger?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecLogger;
   /**
   * Metrics holds configuration for metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metrics DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#metrics DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecMetrics;
   /**
   * OAuth2 holds configuration for OAuth2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#oauth2 DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#oauth2 DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecOauth2;
   /**
   * Replicas is the optional number of replicas of the Dex identity provider pod to run. Only supported if using postgresql storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#replicas DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#replicas DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources allows specifying the resource requirements for the Dex identity provider container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#resources DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecResources;
   /**
   * Storage configures the storage for Dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#storage DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#storage DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#storage}
   */
   readonly storage: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecStorage;
   /**
   * VolumeClaimTemplates are volume claim templates for the Dex identity provider pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_claim_templates DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_claim_templates DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeClaimTemplates[] | cdktf.IResolvable;
   /**
   * VolumeMounts are volume mounts for the Dex identity provider container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_mounts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#volume_mounts DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecVolumeMounts[] | cdktf.IResolvable;
   /**
   * Web holds configuration for the web server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#web DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#web DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest#web}
   */
   readonly web: DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecWeb;
 }
@@ -10078,7 +10078,7 @@ export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest}
 */
 export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10094,7 +10094,7 @@ export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10106,7 +10106,7 @@ export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10117,8 +10117,8 @@ export class DataK8SDexGpuNinjaComDexIdentityProviderV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_dex_gpu_ninja_com_dex_identity_provider_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

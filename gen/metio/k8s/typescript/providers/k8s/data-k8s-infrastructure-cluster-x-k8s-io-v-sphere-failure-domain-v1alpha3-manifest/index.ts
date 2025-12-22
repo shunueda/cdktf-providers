@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestMetadata;
   /**
   * VSphereFailureDomainSpec defines the desired state of VSphereFailureDomain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * AutoConfigure tags the Type which is specified in the Topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#auto_configure DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#auto_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#auto_configure DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#auto_configure}
   */
   readonly autoConfigure?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the tag that represents this failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * TagCategory is the category used for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#tag_category DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#tag_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#tag_category DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#tag_category}
   */
   readonly tagCategory: string;
   /**
   * Type is the type of failure domain, the current values are 'Datacenter', 'ComputeCluster' and 'HostGroup'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#type DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#type DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#type}
   */
   readonly type: string;
 }
@@ -379,13 +379,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * HostGroupName is the name of the Host group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#host_group_name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#host_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#host_group_name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#host_group_name}
   */
   readonly hostGroupName: string;
   /**
   * VMGroupName is the name of the VM group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#vm_group_name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#vm_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#vm_group_name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#vm_group_name}
   */
   readonly vmGroupName: string;
 }
@@ -504,31 +504,31 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * ComputeCluster as the failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#compute_cluster DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#compute_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#compute_cluster DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#compute_cluster}
   */
   readonly computeCluster?: string;
   /**
   * The underlying infrastructure for this failure domain Datacenter as the failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#datacenter DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#datacenter DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#datacenter}
   */
   readonly datacenter: string;
   /**
   * Datastore is the name or inventory path of the datastore in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#datastore DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#datastore DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#datastore}
   */
   readonly datastore?: string;
   /**
   * Hosts has information required for placement of machines on VSphere hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#hosts DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#hosts DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#hosts}
   */
   readonly hosts?: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestSpecTopologyHosts;
   /**
   * Networks is the list of networks within this failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#networks DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#networks DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#networks}
   */
   readonly networks?: string[];
 }
@@ -737,25 +737,25 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * AutoConfigure tags the Type which is specified in the Topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#auto_configure DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#auto_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#auto_configure DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#auto_configure}
   */
   readonly autoConfigure?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the tag that represents this failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * TagCategory is the category used for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#tag_category DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#tag_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#tag_category DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#tag_category}
   */
   readonly tagCategory: string;
   /**
   * Type is the type of failure domain, the current values are 'Datacenter', 'ComputeCluster' and 'HostGroup'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#type DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#type DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#type}
   */
   readonly type: string;
 }
@@ -929,19 +929,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3M
   /**
   * Region defines the name and type of a region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#region DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#region DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#region}
   */
   readonly region: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestSpecRegion;
   /**
   * Topology is the what describes a given failure domain using vSphere constructs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#topology DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#topology DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#topology}
   */
   readonly topology: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestSpecTopology;
   /**
   * Zone defines the name and type of a zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#zone DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#zone DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest#zone}
   */
   readonly zone: DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3ManifestSpecZone;
 }
@@ -1084,7 +1084,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manif
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -1100,7 +1100,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manif
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1112,7 +1112,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manif
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1123,8 +1123,8 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereFailureDomainV1Alpha3Manif
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_v_sphere_failure_domain_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

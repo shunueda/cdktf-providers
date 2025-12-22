@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InmemorydbReplicasetConfig extends cdktf.TerraformMetaArguments
   /**
   * The human readable name of your replica set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#display_name InmemorydbReplicaset#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#display_name InmemorydbReplicaset#display_name}
   */
   readonly displayName: string;
   /**
   * The eviction policy for the replica set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#eviction_policy InmemorydbReplicaset#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#eviction_policy InmemorydbReplicaset#eviction_policy}
   */
   readonly evictionPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#id InmemorydbReplicaset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#id InmemorydbReplicaset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface InmemorydbReplicasetConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of a snapshot to restore the replica set from. If set, the replica set will be created from the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#initial_snapshot_id InmemorydbReplicaset#initial_snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#initial_snapshot_id InmemorydbReplicaset#initial_snapshot_id}
   */
   readonly initialSnapshotId?: string;
   /**
   * The replica set location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#location InmemorydbReplicaset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#location InmemorydbReplicaset#location}
   */
   readonly location?: string;
   /**
   * Specifies How and If data is persisted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#persistence_mode InmemorydbReplicaset#persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#persistence_mode InmemorydbReplicaset#persistence_mode}
   */
   readonly persistenceMode: string;
   /**
   * The total number of replicas in the replica set (one active and n-1 passive). In case of a standalone instance, the value is 1. In all other cases, the value is > 1. The replicas will not be available as read replicas, they are only standby for a failure of the active instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#replicas InmemorydbReplicaset#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#replicas InmemorydbReplicaset#replicas}
   */
   readonly replicas: number;
   /**
   * The InMemoryDB version of your replica set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#version InmemorydbReplicaset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#version InmemorydbReplicaset#version}
   */
   readonly version: string;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#connections InmemorydbReplicaset#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#connections InmemorydbReplicaset#connections}
   */
   readonly connections: InmemorydbReplicasetConnections;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#credentials InmemorydbReplicaset#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#credentials InmemorydbReplicaset#credentials}
   */
   readonly credentials: InmemorydbReplicasetCredentials;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#maintenance_window InmemorydbReplicaset#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#maintenance_window InmemorydbReplicaset#maintenance_window}
   */
   readonly maintenanceWindow?: InmemorydbReplicasetMaintenanceWindow;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#resources InmemorydbReplicaset#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#resources InmemorydbReplicaset#resources}
   */
   readonly resources: InmemorydbReplicasetResources;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#timeouts InmemorydbReplicaset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#timeouts InmemorydbReplicaset#timeouts}
   */
   readonly timeouts?: InmemorydbReplicasetTimeouts;
 }
@@ -91,19 +91,19 @@ export interface InmemorydbReplicasetConnections {
   /**
   * The IP and subnet for your instance. Note the following unavailable IP ranges: 10.233.64.0/18, 10.233.0.0/18, 10.233.114.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#cidr InmemorydbReplicaset#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#cidr InmemorydbReplicaset#cidr}
   */
   readonly cidr: string;
   /**
   * The datacenter to connect your instance to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#datacenter_id InmemorydbReplicaset#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#datacenter_id InmemorydbReplicaset#datacenter_id}
   */
   readonly datacenterId: string;
   /**
   * The numeric LAN ID to connect your instance to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#lan_id InmemorydbReplicaset#lan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#lan_id InmemorydbReplicaset#lan_id}
   */
   readonly lanId: string;
 }
@@ -236,11 +236,11 @@ export class InmemorydbReplicasetConnectionsOutputReference extends cdktf.Comple
 }
 export interface InmemorydbReplicasetCredentialsHashedPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#algorithm InmemorydbReplicaset#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#algorithm InmemorydbReplicaset#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#hash InmemorydbReplicaset#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#hash InmemorydbReplicaset#hash}
   */
   readonly hash: string;
 }
@@ -349,19 +349,19 @@ export interface InmemorydbReplicasetCredentials {
   /**
   * The password for a InMemoryDB user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#plain_text_password InmemorydbReplicaset#plain_text_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#plain_text_password InmemorydbReplicaset#plain_text_password}
   */
   readonly plainTextPassword?: string;
   /**
   * The username for the initial InMemoryDB user. Some system usernames are restricted (e.g. 'admin', 'standby').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#username InmemorydbReplicaset#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#username InmemorydbReplicaset#username}
   */
   readonly username: string;
   /**
   * hashed_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#hashed_password InmemorydbReplicaset#hashed_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#hashed_password InmemorydbReplicaset#hashed_password}
   */
   readonly hashedPassword?: InmemorydbReplicasetCredentialsHashedPassword;
 }
@@ -502,13 +502,13 @@ export interface InmemorydbReplicasetMaintenanceWindow {
   /**
   * The name of the week day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#day_of_the_week InmemorydbReplicaset#day_of_the_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#day_of_the_week InmemorydbReplicaset#day_of_the_week}
   */
   readonly dayOfTheWeek: string;
   /**
   * Start of the maintenance window in UTC time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#time InmemorydbReplicaset#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#time InmemorydbReplicaset#time}
   */
   readonly time: string;
 }
@@ -617,13 +617,13 @@ export interface InmemorydbReplicasetResources {
   /**
   * The number of CPU cores per instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#cores InmemorydbReplicaset#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#cores InmemorydbReplicaset#cores}
   */
   readonly cores: number;
   /**
   * The amount of memory per instance in gigabytes (GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#ram InmemorydbReplicaset#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#ram InmemorydbReplicaset#ram}
   */
   readonly ram: number;
 }
@@ -735,19 +735,19 @@ export class InmemorydbReplicasetResourcesOutputReference extends cdktf.ComplexO
 }
 export interface InmemorydbReplicasetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#create InmemorydbReplicaset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#create InmemorydbReplicaset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#default InmemorydbReplicaset#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#default InmemorydbReplicaset#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#delete InmemorydbReplicaset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#delete InmemorydbReplicaset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#update InmemorydbReplicaset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#update InmemorydbReplicaset#update}
   */
   readonly update?: string;
 }
@@ -928,7 +928,7 @@ export class InmemorydbReplicasetTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset ionoscloud_inmemorydb_replicaset}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset ionoscloud_inmemorydb_replicaset}
 */
 export class InmemorydbReplicaset extends cdktf.TerraformResource {
 
@@ -944,7 +944,7 @@ export class InmemorydbReplicaset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InmemorydbReplicaset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InmemorydbReplicaset to import
-  * @param importFromId The id of the existing InmemorydbReplicaset that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InmemorydbReplicaset that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InmemorydbReplicaset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -956,7 +956,7 @@ export class InmemorydbReplicaset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/inmemorydb_replicaset ionoscloud_inmemorydb_replicaset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/inmemorydb_replicaset ionoscloud_inmemorydb_replicaset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -967,8 +967,8 @@ export class InmemorydbReplicaset extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_inmemorydb_replicaset',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -12,6 +12,7 @@ Object.defineProperty(exports, 'activeActiveSubscriptionPeering', { get: functio
 Object.defineProperty(exports, 'activeActiveSubscriptionRegions', { get: function () { return require('./active-active-subscription-regions'); } });
 Object.defineProperty(exports, 'activeActiveTransitGatewayAttachment', { get: function () { return require('./active-active-transit-gateway-attachment'); } });
 Object.defineProperty(exports, 'activeActiveTransitGatewayInvitationAcceptor', { get: function () { return require('./active-active-transit-gateway-invitation-acceptor'); } });
+Object.defineProperty(exports, 'activeActiveTransitGatewayRoute', { get: function () { return require('./active-active-transit-gateway-route'); } });
 Object.defineProperty(exports, 'cloudAccount', { get: function () { return require('./cloud-account'); } });
 Object.defineProperty(exports, 'essentialsDatabase', { get: function () { return require('./essentials-database'); } });
 Object.defineProperty(exports, 'essentialsSubscription', { get: function () { return require('./essentials-subscription'); } });
@@ -24,6 +25,7 @@ Object.defineProperty(exports, 'subscriptionDatabase', { get: function () { retu
 Object.defineProperty(exports, 'subscriptionPeering', { get: function () { return require('./subscription-peering'); } });
 Object.defineProperty(exports, 'transitGatewayAttachment', { get: function () { return require('./transit-gateway-attachment'); } });
 Object.defineProperty(exports, 'transitGatewayInvitationAcceptor', { get: function () { return require('./transit-gateway-invitation-acceptor'); } });
+Object.defineProperty(exports, 'transitGatewayRoute', { get: function () { return require('./transit-gateway-route'); } });
 Object.defineProperty(exports, 'dataRediscloudAclRole', { get: function () { return require('./data-rediscloud-acl-role'); } });
 Object.defineProperty(exports, 'dataRediscloudAclRule', { get: function () { return require('./data-rediscloud-acl-rule'); } });
 Object.defineProperty(exports, 'dataRediscloudAclUser', { get: function () { return require('./data-rediscloud-acl-user'); } });

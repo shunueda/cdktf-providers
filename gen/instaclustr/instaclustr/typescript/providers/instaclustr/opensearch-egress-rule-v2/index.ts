@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OpensearchEgressRuleV2Config extends cdktf.TerraformMetaArgumen
   /**
   * OpenSearch cluster Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#cluster_id OpensearchEgressRuleV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#cluster_id OpensearchEgressRuleV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#id OpensearchEgressRuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#id OpensearchEgressRuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface OpensearchEgressRuleV2Config extends cdktf.TerraformMetaArgumen
   /**
   * Name of channel/desination assosciated with webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#name OpensearchEgressRuleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#name OpensearchEgressRuleV2#name}
   */
   readonly name?: string;
   /**
   * OpenSearch ID for alerting/notifications channel/destination for webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#open_search_binding_id OpensearchEgressRuleV2#open_search_binding_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#open_search_binding_id OpensearchEgressRuleV2#open_search_binding_id}
   */
   readonly openSearchBindingId: string;
   /**
   * Source OpenSearch plugin that manages the channel/destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#source OpensearchEgressRuleV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#source OpensearchEgressRuleV2#source}
   */
   readonly source: string;
   /**
   * Type of the channel/destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#type OpensearchEgressRuleV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#type OpensearchEgressRuleV2#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#timeouts OpensearchEgressRuleV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#timeouts OpensearchEgressRuleV2#timeouts}
   */
   readonly timeouts?: OpensearchEgressRuleV2Timeouts;
 }
 export interface OpensearchEgressRuleV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#create OpensearchEgressRuleV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#create OpensearchEgressRuleV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#default OpensearchEgressRuleV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#default OpensearchEgressRuleV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#delete OpensearchEgressRuleV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#delete OpensearchEgressRuleV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#read OpensearchEgressRuleV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#read OpensearchEgressRuleV2#read}
   */
   readonly read?: string;
 }
@@ -246,7 +246,7 @@ export class OpensearchEgressRuleV2TimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2 instaclustr_opensearch_egress_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2 instaclustr_opensearch_egress_rule_v2}
 */
 export class OpensearchEgressRuleV2 extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class OpensearchEgressRuleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchEgressRuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchEgressRuleV2 to import
-  * @param importFromId The id of the existing OpensearchEgressRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchEgressRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchEgressRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class OpensearchEgressRuleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/opensearch_egress_rule_v2 instaclustr_opensearch_egress_rule_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/opensearch_egress_rule_v2 instaclustr_opensearch_egress_rule_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class OpensearchEgressRuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_opensearch_egress_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

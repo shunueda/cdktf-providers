@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,125 +8,125 @@ import * as cdktf from 'cdktf';
 
 export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_activity_log Group#access_activity_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_activity_log Group#access_activity_log}
   */
   readonly accessActivityLog?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage AiModelHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_ai_model_hub Group#access_and_manage_ai_model_hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_ai_model_hub Group#access_and_manage_ai_model_hub}
   */
   readonly accessAndManageAiModelHub?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage ApiGateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_api_gateway Group#access_and_manage_api_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_api_gateway Group#access_and_manage_api_gateway}
   */
   readonly accessAndManageApiGateway?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage Cdn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_cdn Group#access_and_manage_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_cdn Group#access_and_manage_cdn}
   */
   readonly accessAndManageCdn?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_certificates Group#access_and_manage_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_certificates Group#access_and_manage_certificates}
   */
   readonly accessAndManageCertificates?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage dns records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_dns Group#access_and_manage_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_dns Group#access_and_manage_dns}
   */
   readonly accessAndManageDns?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage IamResources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_iam_resources Group#access_and_manage_iam_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_iam_resources Group#access_and_manage_iam_resources}
   */
   readonly accessAndManageIamResources?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage Kaas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_kaas Group#access_and_manage_kaas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_kaas Group#access_and_manage_kaas}
   */
   readonly accessAndManageKaas?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_logging Group#access_and_manage_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_logging Group#access_and_manage_logging}
   */
   readonly accessAndManageLogging?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage monitoring related functionality (access metrics, CRUD on alarms, alarm-actions etc) using Monotoring-as-a-Service (MaaS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_monitoring Group#access_and_manage_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_monitoring Group#access_and_manage_monitoring}
   */
   readonly accessAndManageMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage NetworkFileStorage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_network_file_storage Group#access_and_manage_network_file_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_network_file_storage Group#access_and_manage_network_file_storage}
   */
   readonly accessAndManageNetworkFileStorage?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to access and manage Vpn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#access_and_manage_vpn Group#access_and_manage_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#access_and_manage_vpn Group#access_and_manage_vpn}
   */
   readonly accessAndManageVpn?: boolean | cdktf.IResolvable;
   /**
   * Create backup unit privilege.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_backup_unit Group#create_backup_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_backup_unit Group#create_backup_unit}
   */
   readonly createBackupUnit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_datacenter Group#create_datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_datacenter Group#create_datacenter}
   */
   readonly createDatacenter?: boolean | cdktf.IResolvable;
   /**
   * Create Flow Logs privilege.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_flow_log Group#create_flow_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_flow_log Group#create_flow_log}
   */
   readonly createFlowLog?: boolean | cdktf.IResolvable;
   /**
   * Create internet access privilege.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_internet_access Group#create_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_internet_access Group#create_internet_access}
   */
   readonly createInternetAccess?: boolean | cdktf.IResolvable;
   /**
   * Create Kubernetes cluster privilege.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_k8s_cluster Group#create_k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_k8s_cluster Group#create_k8s_cluster}
   */
   readonly createK8SCluster?: boolean | cdktf.IResolvable;
   /**
   * Create Network Security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_network_security_groups Group#create_network_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_network_security_groups Group#create_network_security_groups}
   */
   readonly createNetworkSecurityGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_pcc Group#create_pcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_pcc Group#create_pcc}
   */
   readonly createPcc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create_snapshot Group#create_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create_snapshot Group#create_snapshot}
   */
   readonly createSnapshot?: boolean | cdktf.IResolvable;
   /**
   * When set to true, information about users will be stored in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#get_users_data Group#get_users_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#get_users_data Group#get_users_data}
   */
   readonly fetchUsersData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#id Group#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#id Group#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -135,45 +135,45 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Privilege for a group to access and manage the Data Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#manage_dataplatform Group#manage_dataplatform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#manage_dataplatform Group#manage_dataplatform}
   */
   readonly manageDataplatform?: boolean | cdktf.IResolvable;
   /**
   * Privilege for a group to manage DBaaS related functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#manage_dbaas Group#manage_dbaas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#manage_dbaas Group#manage_dbaas}
   */
   readonly manageDbaas?: boolean | cdktf.IResolvable;
   /**
   * Privilege for group accessing container registry related functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#manage_registry Group#manage_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#manage_registry Group#manage_registry}
   */
   readonly manageRegistry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#reserve_ip Group#reserve_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#reserve_ip Group#reserve_ip}
   */
   readonly reserveIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#s3_privilege Group#s3_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#s3_privilege Group#s3_privilege}
   */
   readonly s3Privilege?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#user_id Group#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#user_id Group#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#user_ids Group#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#user_ids Group#user_ids}
   */
   readonly userIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#timeouts Group#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#timeouts Group#timeouts}
   */
   readonly timeouts?: GroupTimeouts;
 }
@@ -284,19 +284,19 @@ export class GroupUsersList extends cdktf.ComplexList {
 }
 export interface GroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#create Group#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#create Group#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#default Group#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#default Group#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#delete Group#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#delete Group#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#update Group#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#update Group#update}
   */
   readonly update?: string;
 }
@@ -477,7 +477,7 @@ export class GroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group ionoscloud_group}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group ionoscloud_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -493,7 +493,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/group ionoscloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/group ionoscloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_group',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

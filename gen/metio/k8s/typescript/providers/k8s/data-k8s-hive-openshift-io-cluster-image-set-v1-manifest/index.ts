@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoClusterImageSetV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoClusterImageSetV1ManifestMetadata;
   /**
   * ClusterImageSetSpec defines the desired state of ClusterImageSet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#spec DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#spec DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoClusterImageSetV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SHiveOpenshiftIoClusterImageSetV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#labels DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#labels DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#name DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#name DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SHiveOpenshiftIoClusterImageSetV1ManifestSpec {
   /**
   * ReleaseImage is the image that contains the payload to use when installing a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#release_image DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#release_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#release_image DataK8SHiveOpenshiftIoClusterImageSetV1Manifest#release_image}
   */
   readonly releaseImage: string;
 }
@@ -278,7 +278,7 @@ export class DataK8SHiveOpenshiftIoClusterImageSetV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest k8s_hive_openshift_io_cluster_image_set_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest k8s_hive_openshift_io_cluster_image_set_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoClusterImageSetV1Manifest extends cdktf.TerraformDataSource {
 
@@ -294,7 +294,7 @@ export class DataK8SHiveOpenshiftIoClusterImageSetV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoClusterImageSetV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoClusterImageSetV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterImageSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterImageSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoClusterImageSetV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class DataK8SHiveOpenshiftIoClusterImageSetV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest k8s_hive_openshift_io_cluster_image_set_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hive_openshift_io_cluster_image_set_v1_manifest k8s_hive_openshift_io_cluster_image_set_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class DataK8SHiveOpenshiftIoClusterImageSetV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_hive_openshift_io_cluster_image_set_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestMetadata;
   /**
   * KubeControllersConfigurationSpec contains the values of the Kubernetes controllers configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * ReconcilerPeriod is the period to perform reconciliation with the Calico datastore. [Default: 5m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
   */
   readonly reconcilerPeriod?: string;
 }
@@ -283,7 +283,7 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * AutoCreate enables automatic creation of host endpoints for every node. [Default: Disabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#auto_create DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#auto_create DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#auto_create}
   */
   readonly autoCreate?: string;
 }
@@ -379,25 +379,25 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * HostEndpoint controls syncing nodes to host endpoints. Disabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#host_endpoint DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#host_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#host_endpoint DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#host_endpoint}
   */
   readonly hostEndpoint?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersNodeHostEndpoint;
   /**
   * LeakGracePeriod is the period used by the controller to determine if an IP address has been leaked. Set to 0 to disable IP garbage collection. [Default: 15m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#leak_grace_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#leak_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#leak_grace_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#leak_grace_period}
   */
   readonly leakGracePeriod?: string;
   /**
   * ReconcilerPeriod is the period to perform reconciliation with the Calico datastore. [Default: 5m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
   */
   readonly reconcilerPeriod?: string;
   /**
   * SyncLabels controls whether to copy Kubernetes node labels to Calico nodes. [Default: Enabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#sync_labels DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#sync_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#sync_labels DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#sync_labels}
   */
   readonly syncLabels?: string;
 }
@@ -580,7 +580,7 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * ReconcilerPeriod is the period to perform reconciliation with the Calico datastore. [Default: 5m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
   */
   readonly reconcilerPeriod?: string;
 }
@@ -676,7 +676,7 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * ReconcilerPeriod is the period to perform reconciliation with the Calico datastore. [Default: 5m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
   */
   readonly reconcilerPeriod?: string;
 }
@@ -772,7 +772,7 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * ReconcilerPeriod is the period to perform reconciliation with the Calico datastore. [Default: 5m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#reconciler_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#reconciler_period}
   */
   readonly reconcilerPeriod?: string;
 }
@@ -868,31 +868,31 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * Namespace enables and configures the namespace controller. Enabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#namespace DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#namespace DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#namespace}
   */
   readonly namespace?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersNamespace;
   /**
   * Node enables and configures the node controller. Enabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#node DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#node DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#node}
   */
   readonly nodeAttribute?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersNode;
   /**
   * Policy enables and configures the policy controller. Enabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#policy DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#policy DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#policy}
   */
   readonly policy?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersPolicy;
   /**
   * ServiceAccount enables and configures the service account controller. Enabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#service_account DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#service_account DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersServiceAccount;
   /**
   * WorkloadEndpoint enables and configures the workload endpoint controller. Enabled by default, set to nil to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#workload_endpoint DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#workload_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#workload_endpoint DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#workload_endpoint}
   */
   readonly workloadEndpoint?: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllersWorkloadEndpoint;
 }
@@ -1104,37 +1104,37 @@ export interface DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifes
   /**
   * Controllers enables and configures individual Kubernetes controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#controllers DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#controllers DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#controllers}
   */
   readonly controllers: DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpecControllers;
   /**
   * DebugProfilePort configures the port to serve memory and cpu profiles on. If not specified, profiling is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#debug_profile_port DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#debug_profile_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#debug_profile_port DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#debug_profile_port}
   */
   readonly debugProfilePort?: number;
   /**
   * EtcdV3CompactionPeriod is the period between etcdv3 compaction requests. Set to 0 to disable. [Default: 10m]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#etcd_v3_compaction_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#etcd_v3_compaction_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#etcd_v3_compaction_period DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#etcd_v3_compaction_period}
   */
   readonly etcdV3CompactionPeriod?: string;
   /**
   * HealthChecks enables or disables support for health checks [Default: Enabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#health_checks DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#health_checks DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#health_checks}
   */
   readonly healthChecks?: string;
   /**
   * LogSeverityScreen is the log severity above which logs are sent to the stdout. [Default: Info]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#log_severity_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#log_severity_screen}
   */
   readonly logSeverityScreen?: string;
   /**
   * PrometheusMetricsPort is the TCP port that the Prometheus metrics server should bind to. Set to 0 to disable. [Default: 9094]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#prometheus_metrics_port DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#prometheus_metrics_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#prometheus_metrics_port DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest#prometheus_metrics_port}
   */
   readonly prometheusMetricsPort?: number;
 }
@@ -1370,7 +1370,7 @@ export class DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1ManifestSpe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest k8s_crd_projectcalico_org_kube_controllers_configuration_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest k8s_crd_projectcalico_org_kube_controllers_configuration_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1386,7 +1386,7 @@ export class DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest ex
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1398,7 +1398,7 @@ export class DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest k8s_crd_projectcalico_org_kube_controllers_configuration_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_kube_controllers_configuration_v1_manifest k8s_crd_projectcalico_org_kube_controllers_configuration_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1409,8 +1409,8 @@ export class DataK8SCrdProjectcalicoOrgKubeControllersConfigurationV1Manifest ex
       terraformResourceType: 'k8s_crd_projectcalico_org_kube_controllers_configuration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

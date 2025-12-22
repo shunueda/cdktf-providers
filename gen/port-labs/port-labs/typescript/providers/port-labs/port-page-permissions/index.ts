@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface PortPagePermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#page_identifier PortPagePermissions#page_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#page_identifier PortPagePermissions#page_identifier}
   */
   readonly pageIdentifier: string;
   /**
   * The permission to read the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#read PortPagePermissions#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#read PortPagePermissions#read}
   */
   readonly read: PortPagePermissionsRead;
 }
@@ -22,19 +22,19 @@ export interface PortPagePermissionsRead {
   /**
   * The roles with read permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#roles PortPagePermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#roles PortPagePermissions#roles}
   */
   readonly roles?: string[];
   /**
   * The teams with read permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#teams PortPagePermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#teams PortPagePermissions#teams}
   */
   readonly teams?: string[];
   /**
   * The users with read permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#users PortPagePermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#users PortPagePermissions#users}
   */
   readonly users?: string[];
 }
@@ -186,7 +186,7 @@ export class PortPagePermissionsReadOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions port_page_permissions}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions port_page_permissions}
 */
 export class PortPagePermissions extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class PortPagePermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortPagePermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortPagePermissions to import
-  * @param importFromId The id of the existing PortPagePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortPagePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortPagePermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class PortPagePermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_page_permissions port_page_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_page_permissions port_page_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class PortPagePermissions extends cdktf.TerraformResource {
       terraformResourceType: 'port_page_permissions',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.4',
-        providerVersionConstraint: '2.17.4'
+        providerVersion: '2.17.5',
+        providerVersionConstraint: '2.17.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

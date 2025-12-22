@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestMetadata;
   /**
   * AddonSpec defines the desired state of Addon. An Amazon EKS add-on. For more information, see Amazon EKS add-ons (https://docs.aws.amazon.com/eks/latest/userguide/eks-add-ons.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecClusterRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecClusterRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#from DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#from DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecClusterRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecClusterRefOutputRe
 }
 export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecPodIdentityAssociations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#role_arn DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#role_arn DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -589,11 +589,11 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecPodIdentityAssocia
 }
 export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecServiceAccountRoleRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -718,7 +718,7 @@ export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecServiceAccount
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#from DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#from DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecServiceAccountRoleRefFrom;
 }
@@ -814,67 +814,67 @@ export interface DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpec {
   /**
   * The version of the add-on. The version must match one of the versions returned by DescribeAddonVersions (https://docs.aws.amazon.com/eks/latest/APIReference/API_DescribeAddonVersions.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#addon_version DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#addon_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#addon_version DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#addon_version}
   */
   readonly addonVersion?: string;
   /**
   * A unique, case-sensitive identifier that you provide to ensure the idempotency of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#client_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#client_request_token}
   */
   readonly clientRequestToken?: string;
   /**
   * The name of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecClusterRef;
   /**
   * The set of configuration values for the add-on that's created. The values that you provide are validated against the schema returned by DescribeAddonConfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#configuration_values DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#configuration_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#configuration_values DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#configuration_values}
   */
   readonly configurationValues?: string;
   /**
   * The name of the add-on. The name must match one of the names returned by DescribeAddonVersions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#name DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * An array of Pod Identity Assocations to be created. Each EKS Pod Identity association maps a Kubernetes service account to an IAM Role. For more information, see Attach an IAM Role to an Amazon EKS add-on using Pod Identity (https://docs.aws.amazon.com/eks/latest/userguide/add-ons-iam.html) in the EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#pod_identity_associations DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#pod_identity_associations DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#pod_identity_associations}
   */
   readonly podIdentityAssociations?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecPodIdentityAssociations[] | cdktf.IResolvable;
   /**
   * How to resolve field value conflicts for an Amazon EKS add-on. Conflicts are handled based on the value you choose: * None – If the self-managed version of the add-on is installed on your cluster, Amazon EKS doesn't change the value. Creation of the add-on might fail. * Overwrite – If the self-managed version of the add-on is installed on your cluster and the Amazon EKS default value is different than the existing value, Amazon EKS changes the value to the Amazon EKS default value. * Preserve – This is similar to the NONE option. If the self-managed version of the add-on is installed on your cluster Amazon EKS doesn't change the add-on resource properties. Creation of the add-on might fail if conflicts are detected. This option works differently during the update operation. For more information, see UpdateAddon (https://docs.aws.amazon.com/eks/latest/APIReference/API_UpdateAddon.html). If you don't currently have the self-managed version of the add-on installed on your cluster, the Amazon EKS add-on is installed. Amazon EKS sets all values to default values, regardless of the option that you specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#resolve_conflicts DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#resolve_conflicts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#resolve_conflicts DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#resolve_conflicts}
   */
   readonly resolveConflicts?: string;
   /**
   * The Amazon Resource Name (ARN) of an existing IAM role to bind to the add-on's service account. The role must be assigned the IAM permissions required by the add-on. If you don't specify an existing IAM role, then the add-on uses the permissions assigned to the node IAM role. For more information, see Amazon EKS node IAM role (https://docs.aws.amazon.com/eks/latest/userguide/create-node-role.html) in the Amazon EKS User Guide. To specify an existing IAM role, you must have an IAM OpenID Connect (OIDC) provider created for your cluster. For more information, see Enabling IAM roles for service accounts on your cluster (https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account_role_arn DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account_role_arn DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account_role_arn}
   */
   readonly serviceAccountRoleArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account_role_ref DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account_role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#service_account_role_ref DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#service_account_role_ref}
   */
   readonly serviceAccountRoleRef?: DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecServiceAccountRoleRef;
   /**
   * Metadata that assists with categorization and organization. Each tag consists of a key and an optional value. You define both. Tags don't propagate to any other cluster or Amazon Web Services resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1255,7 +1255,7 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest k8s_eks_services_k8s_aws_addon_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest k8s_eks_services_k8s_aws_addon_v1alpha1_manifest}
 */
 export class DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1271,7 +1271,7 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1283,7 +1283,7 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest k8s_eks_services_k8s_aws_addon_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/eks_services_k8s_aws_addon_v1alpha1_manifest k8s_eks_services_k8s_aws_addon_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1294,8 +1294,8 @@ export class DataK8SEksServicesK8SAwsAddonV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_eks_services_k8s_aws_addon_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

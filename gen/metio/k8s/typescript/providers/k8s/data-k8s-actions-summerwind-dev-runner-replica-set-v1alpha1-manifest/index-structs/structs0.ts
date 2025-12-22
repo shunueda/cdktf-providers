@@ -3,25 +3,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -380,13 +380,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -509,23 +509,23 @@ export class DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecSele
 }
 export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#finalizers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#finalizers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -737,19 +737,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -919,19 +919,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1101,13 +1101,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_fields DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_fields DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1232,13 +1232,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preference DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preference DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1379,19 +1379,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1561,19 +1561,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1743,13 +1743,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_fields DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_fields DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1896,7 +1896,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#node_selector_terms DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#node_selector_terms DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1989,13 +1989,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2120,19 +2120,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2302,13 +2302,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2433,19 +2433,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2615,13 +2615,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2746,25 +2746,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2944,13 +2944,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity_term DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity_term DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3091,19 +3091,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3273,13 +3273,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3404,19 +3404,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3586,13 +3586,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3717,25 +3717,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3937,13 +3937,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4068,19 +4068,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4250,13 +4250,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4381,19 +4381,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4563,13 +4563,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4694,25 +4694,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4892,13 +4892,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity_term DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity_term DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#weight DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5039,19 +5039,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5221,13 +5221,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5352,19 +5352,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#operator DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#values DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5534,13 +5534,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_expressions DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#match_labels DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5665,25 +5665,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#label_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespace_selector DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#namespaces DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#topology_key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5885,13 +5885,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6016,19 +6016,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#node_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#node_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_anti_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pod_anti_affinity DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6182,19 +6182,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6345,13 +6345,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6473,19 +6473,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6636,19 +6636,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6799,25 +6799,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7000,19 +7000,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvValueFrom;
 }
@@ -7185,13 +7185,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7316,13 +7316,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7447,19 +7447,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvFromSecretRef;
 }
@@ -7635,7 +7635,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7731,13 +7731,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7878,31 +7878,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8111,13 +8111,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8239,19 +8239,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -8405,7 +8405,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8501,13 +8501,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8648,31 +8648,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8881,13 +8881,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9009,19 +9009,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -9175,13 +9175,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#post_start DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#post_start DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pre_stop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pre_stop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecyclePreStop;
 }
@@ -9306,7 +9306,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9402,13 +9402,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -9530,13 +9530,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9677,31 +9677,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9910,13 +9910,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -10038,61 +10038,61 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10449,31 +10449,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_ip DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_ip DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#protocol DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#protocol DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -10704,7 +10704,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10800,13 +10800,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10928,13 +10928,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -11075,31 +11075,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11308,13 +11308,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -11436,61 +11436,61 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11847,13 +11847,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -11994,7 +11994,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -12109,19 +12109,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12275,13 +12275,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#add DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#add DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#drop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#drop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -12406,25 +12406,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#level DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#level DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#role DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#role DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12607,13 +12607,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#localhost_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#localhost_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -12735,25 +12735,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_process DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_process DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -12936,67 +12936,67 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#allow_privilege_escalation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#allow_privilege_escalation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#capabilities DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#capabilities DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#privileged DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#privileged DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#proc_mount DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#proc_mount DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only_root_filesystem DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only_root_filesystem DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_group DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_group DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_non_root DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_non_root DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#se_linux_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#se_linux_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#seccomp_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#seccomp_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#windows_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#windows_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -13382,7 +13382,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13478,13 +13478,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13606,13 +13606,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13753,31 +13753,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13986,13 +13986,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -14114,61 +14114,61 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14525,13 +14525,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#device_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#device_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -14672,37 +14672,37 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_propagation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_propagation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path_expr DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path_expr DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -14959,145 +14959,145 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#args DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#args DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#env DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#env DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#env_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#env_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#image DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#image DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#image_pull_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#image_pull_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#lifecycle DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#lifecycle DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#liveness_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#liveness_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#ports DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#ports DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#readiness_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#readiness_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resize_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resize_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resources DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resources DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#security_context DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#security_context DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#startup_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#startup_probe DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#stdin DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#stdin DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#stdin_once DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#stdin_once DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_message_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_message_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_message_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_message_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tty DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tty DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#volume_devices DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#volume_devices DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#volume_mounts DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#volume_mounts DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#working_dir DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#working_dir DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -15879,11 +15879,11 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16030,19 +16030,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#nameservers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#nameservers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#searches DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#searches DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -16196,19 +16196,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16359,13 +16359,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16487,19 +16487,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16650,19 +16650,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16813,25 +16813,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerEnvValueFromSecretKeyRef;
 }
@@ -17014,19 +17014,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerEnvValueFrom;
 }
@@ -17199,37 +17199,37 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_propagation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#mount_propagation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path_expr DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#sub_path_expr DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -17486,7 +17486,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17601,19 +17601,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecDockerdContainerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17767,19 +17767,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17930,13 +17930,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -18058,19 +18058,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -18221,19 +18221,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18384,25 +18384,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvValueFromSecretKeyRef;
 }
@@ -18585,19 +18585,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvValueFrom;
 }
@@ -18770,13 +18770,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18901,13 +18901,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19032,19 +19032,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEnvFromSecretRef;
 }
@@ -19220,19 +19220,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19383,13 +19383,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#api_version DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -19511,19 +19511,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#divisor DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -19674,19 +19674,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#key DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19837,25 +19837,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_field_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_key_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -20038,19 +20038,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value_from DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -20223,13 +20223,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20354,13 +20354,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#optional DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20485,19 +20485,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#config_map_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#prefix DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -20673,7 +20673,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -20769,13 +20769,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -20916,31 +20916,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21149,13 +21149,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -21277,19 +21277,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -21443,7 +21443,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21539,13 +21539,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -21686,31 +21686,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21919,13 +21919,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -22047,19 +22047,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -22213,13 +22213,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#post_start DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#post_start DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pre_stop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#pre_stop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -22344,7 +22344,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22440,13 +22440,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -22568,13 +22568,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22715,31 +22715,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22948,13 +22948,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -23076,61 +23076,61 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23487,31 +23487,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#container_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_ip DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_ip DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#protocol DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#protocol DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -23742,7 +23742,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23838,13 +23838,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23966,13 +23966,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -24113,31 +24113,31 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_headers DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#path DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#scheme DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24346,13 +24346,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -24474,61 +24474,61 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#exec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#failure_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#grpc DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#http_get DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#initial_delay_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#success_threshold DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#tcp_socket DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#termination_grace_period_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#timeout_seconds DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24885,13 +24885,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#resource_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#restart_policy DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -25032,7 +25032,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -25147,19 +25147,19 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#claims DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#limits DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#requests DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -25313,13 +25313,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#add DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#add DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#drop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#drop DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -25444,25 +25444,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#level DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#level DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#role DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#role DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -25645,13 +25645,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#localhost_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#localhost_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#type DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -25773,25 +25773,25 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#gmsa_credential_spec_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_process DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#host_process DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user_name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -25974,67 +25974,67 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#allow_privilege_escalation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#allow_privilege_escalation DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#capabilities DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#capabilities DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#privileged DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#privileged DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#proc_mount DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#proc_mount DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only_root_filesystem DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#read_only_root_filesystem DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_group DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_group DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_non_root DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_non_root DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#run_as_user DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#se_linux_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#se_linux_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#seccomp_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#seccomp_profile DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#windows_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#windows_options DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -26420,7 +26420,7 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#command DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26516,13 +26516,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#port DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#service DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -26644,13 +26644,13 @@ export interface DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1ManifestSpec
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#name DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/actions_summerwind_dev_runner_replica_set_v1alpha1_manifest#value DataK8SActionsSummerwindDevRunnerReplicaSetV1Alpha1Manifest#value}
   */
   readonly value: string;
 }

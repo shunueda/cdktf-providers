@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsEndpointServicePrincipalV2Config extends cdktf.TerraformMeta
   /**
   * The ID of the cluster data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#cluster_data_center_id AwsEndpointServicePrincipalV2#cluster_data_center_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#cluster_data_center_id AwsEndpointServicePrincipalV2#cluster_data_center_id}
   */
   readonly clusterDataCenterId: string;
   /**
   * The Instaclustr ID of the AWS endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#end_point_service_id AwsEndpointServicePrincipalV2#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#end_point_service_id AwsEndpointServicePrincipalV2#end_point_service_id}
   */
   readonly endPointServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#id AwsEndpointServicePrincipalV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#id AwsEndpointServicePrincipalV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AwsEndpointServicePrincipalV2Config extends cdktf.TerraformMeta
   /**
   * The IAM Principal ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#principal_arn AwsEndpointServicePrincipalV2#principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#principal_arn AwsEndpointServicePrincipalV2#principal_arn}
   */
   readonly principalArn: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#timeouts AwsEndpointServicePrincipalV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#timeouts AwsEndpointServicePrincipalV2#timeouts}
   */
   readonly timeouts?: AwsEndpointServicePrincipalV2Timeouts;
 }
 export interface AwsEndpointServicePrincipalV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#default AwsEndpointServicePrincipalV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#default AwsEndpointServicePrincipalV2#default}
   */
   readonly default?: string;
 }
@@ -135,7 +135,7 @@ export class AwsEndpointServicePrincipalV2TimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2 instaclustr_aws_endpoint_service_principal_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2 instaclustr_aws_endpoint_service_principal_v2}
 */
 export class AwsEndpointServicePrincipalV2 extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class AwsEndpointServicePrincipalV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsEndpointServicePrincipalV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsEndpointServicePrincipalV2 to import
-  * @param importFromId The id of the existing AwsEndpointServicePrincipalV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsEndpointServicePrincipalV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsEndpointServicePrincipalV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class AwsEndpointServicePrincipalV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/aws_endpoint_service_principal_v2 instaclustr_aws_endpoint_service_principal_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/aws_endpoint_service_principal_v2 instaclustr_aws_endpoint_service_principal_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class AwsEndpointServicePrincipalV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_aws_endpoint_service_principal_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

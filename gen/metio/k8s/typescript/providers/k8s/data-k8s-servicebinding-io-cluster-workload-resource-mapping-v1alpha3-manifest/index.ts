@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#metadata DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#metadata DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3ManifestMetadata;
   /**
   * ClusterWorkloadResourceMappingSpec defines the desired state of ClusterWorkloadResourceMapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#spec DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#spec DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#spec}
   */
   readonly spec?: DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#annotations DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#annotations DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#labels DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#labels DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#name DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#name DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Ma
   /**
   * Env is a Restricted JSONPath that references the slice of environment variables for the container with the container-like workload resource fragment. The referenced location is created if it does not exist. Defaults to '.envs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#env DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#env DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#env}
   */
   readonly env?: string;
   /**
   * Name is a Restricted JSONPath that references the name of the container with the container-like workload resource fragment. If not defined, container name filtering is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#name DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#name DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * Path is the JSONPath within the workload resource that matches an existing fragment that is container-like.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#path DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#path DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#path}
   */
   readonly path: string;
   /**
   * VolumeMounts is a Restricted JSONPath that references the slice of volume mounts for the container with the container-like workload resource fragment. The referenced location is created if it does not exist. Defaults to '.volumeMounts'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#volume_mounts DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#volume_mounts DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#volume_mounts}
   */
   readonly volumeMounts?: string;
 }
@@ -407,25 +407,25 @@ export interface DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Ma
   /**
   * Annotations is a Restricted JSONPath that references the annotations map within the workload resource. These annotations must end up in the resulting Pod, and are generally not the workload resource's annotations. Defaults to '.spec.template.metadata.annotations'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#annotations DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#annotations DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#annotations}
   */
   readonly annotations?: string;
   /**
   * Containers is the collection of mappings to container-like fragments of the workload resource. Defaults to mappings appropriate for a PodSpecable resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#containers DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#containers DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#containers}
   */
   readonly containers?: DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3ManifestSpecVersionsContainers[] | cdktf.IResolvable;
   /**
   * Version is the version of the workload resource that this mapping is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#version DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#version DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#version}
   */
   readonly version: string;
   /**
   * Volumes is a Restricted JSONPath that references the slice of volumes within the workload resource. Defaults to '.spec.template.spec.volumes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#volumes DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#volumes DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#volumes}
   */
   readonly volumes?: string;
 }
@@ -627,7 +627,7 @@ export interface DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Ma
   /**
   * Versions is the collection of versions for a given resource, with mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#versions DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#versions DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest#versions}
   */
   readonly versions?: DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3ManifestSpecVersions[] | cdktf.IResolvable;
 }
@@ -721,7 +721,7 @@ export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest}
 */
 export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -737,7 +737,7 @@ export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manife
   * Generates CDKTF code for importing a DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +749,7 @@ export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,8 +760,8 @@ export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manife
       terraformResourceType: 'k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,0 +1,3 @@
+# `rediscloud_active_active_transit_gateway_route`
+
+Refer to the Terraform Registry for docs: [`rediscloud_active_active_transit_gateway_route`](https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_route).

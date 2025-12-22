@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIonoscloudMongoTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * The unique ID of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#id DataIonoscloudMongoTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#id DataIonoscloudMongoTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,37 +19,37 @@ export interface DataIonoscloudMongoTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#name DataIonoscloudMongoTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#name DataIonoscloudMongoTemplate#name}
   */
   readonly name?: string;
   /**
   * Whether partial matching is allowed or not when using the name filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#partial_match DataIonoscloudMongoTemplate#partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#partial_match DataIonoscloudMongoTemplate#partial_match}
   */
   readonly partialMatch?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#timeouts DataIonoscloudMongoTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#timeouts DataIonoscloudMongoTemplate#timeouts}
   */
   readonly timeouts?: DataIonoscloudMongoTemplateTimeouts;
 }
 export interface DataIonoscloudMongoTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#create DataIonoscloudMongoTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#create DataIonoscloudMongoTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#default DataIonoscloudMongoTemplate#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#default DataIonoscloudMongoTemplate#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#delete DataIonoscloudMongoTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#delete DataIonoscloudMongoTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#update DataIonoscloudMongoTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#update DataIonoscloudMongoTemplate#update}
   */
   readonly update?: string;
 }
@@ -230,7 +230,7 @@ export class DataIonoscloudMongoTemplateTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template ionoscloud_mongo_template}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template ionoscloud_mongo_template}
 */
 export class DataIonoscloudMongoTemplate extends cdktf.TerraformDataSource {
 
@@ -246,7 +246,7 @@ export class DataIonoscloudMongoTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIonoscloudMongoTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudMongoTemplate to import
-  * @param importFromId The id of the existing DataIonoscloudMongoTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudMongoTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudMongoTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class DataIonoscloudMongoTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_template ionoscloud_mongo_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_template ionoscloud_mongo_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class DataIonoscloudMongoTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_mongo_template',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

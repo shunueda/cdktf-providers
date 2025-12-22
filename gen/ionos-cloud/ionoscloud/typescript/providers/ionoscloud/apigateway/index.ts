@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApigatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable logging. NOTE: Central Logging must be enabled through the Logging API to enable this feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#logs Apigateway#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#logs Apigateway#logs}
   */
   readonly logs?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#metrics Apigateway#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#metrics Apigateway#metrics}
   */
   readonly metrics?: boolean | cdktf.IResolvable;
   /**
   * The name of the API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#name Apigateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#name Apigateway#name}
   */
   readonly name: string;
   /**
   * custom_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#custom_domains Apigateway#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#custom_domains Apigateway#custom_domains}
   */
   readonly customDomains?: ApigatewayCustomDomains[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#timeouts Apigateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#timeouts Apigateway#timeouts}
   */
   readonly timeouts?: ApigatewayTimeouts;
 }
@@ -42,13 +42,13 @@ export interface ApigatewayCustomDomains {
   /**
   * The certificate ID for the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#certificate_id Apigateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#certificate_id Apigateway#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * The domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#name Apigateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#name Apigateway#name}
   */
   readonly name: string;
 }
@@ -190,19 +190,19 @@ export class ApigatewayCustomDomainsList extends cdktf.ComplexList {
 }
 export interface ApigatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#create Apigateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#create Apigateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#default Apigateway#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#default Apigateway#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#delete Apigateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#delete Apigateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#update Apigateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#update Apigateway#update}
   */
   readonly update?: string;
 }
@@ -383,7 +383,7 @@ export class ApigatewayTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway ionoscloud_apigateway}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway ionoscloud_apigateway}
 */
 export class Apigateway extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class Apigateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Apigateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigateway to import
-  * @param importFromId The id of the existing Apigateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class Apigateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway ionoscloud_apigateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway ionoscloud_apigateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class Apigateway extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_apigateway',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

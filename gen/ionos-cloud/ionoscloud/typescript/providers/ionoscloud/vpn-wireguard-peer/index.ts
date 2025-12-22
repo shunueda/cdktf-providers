@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpnWireguardPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The subnet CIDRs that are allowed to connect to the WireGuard Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#allowed_ips VpnWireguardPeer#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#allowed_ips VpnWireguardPeer#allowed_ips}
   */
   readonly allowedIps: string[];
   /**
   * Human readable description of the WireGuard Gateway Peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#description VpnWireguardPeer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#description VpnWireguardPeer#description}
   */
   readonly description?: string;
   /**
   * The ID of the WireGuard Peer that the peer will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#gateway_id VpnWireguardPeer#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#gateway_id VpnWireguardPeer#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#id VpnWireguardPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#id VpnWireguardPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface VpnWireguardPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of the WireGuard Peer. Supported locations: de/fra, de/fra/2, de/txl, es/vit, gb/bhx, gb/lhr, us/ewr, us/las, us/mci, fr/par
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#location VpnWireguardPeer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#location VpnWireguardPeer#location}
   */
   readonly location?: string;
   /**
   * The human readable name of your WireGuard Gateway Peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#name VpnWireguardPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#name VpnWireguardPeer#name}
   */
   readonly name: string;
   /**
   * WireGuard public key of the connecting peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#public_key VpnWireguardPeer#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#public_key VpnWireguardPeer#public_key}
   */
   readonly publicKey: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#endpoint VpnWireguardPeer#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#endpoint VpnWireguardPeer#endpoint}
   */
   readonly endpoint?: VpnWireguardPeerEndpoint;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#timeouts VpnWireguardPeer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#timeouts VpnWireguardPeer#timeouts}
   */
   readonly timeouts?: VpnWireguardPeerTimeouts;
 }
@@ -67,13 +67,13 @@ export interface VpnWireguardPeerEndpoint {
   /**
   * Hostname or IPV4 address that the WireGuard Server will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#host VpnWireguardPeer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#host VpnWireguardPeer#host}
   */
   readonly host: string;
   /**
   * Port that the WireGuard Server will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#port VpnWireguardPeer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#port VpnWireguardPeer#port}
   */
   readonly port?: number;
 }
@@ -183,19 +183,19 @@ export class VpnWireguardPeerEndpointOutputReference extends cdktf.ComplexObject
 }
 export interface VpnWireguardPeerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#create VpnWireguardPeer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#create VpnWireguardPeer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#default VpnWireguardPeer#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#default VpnWireguardPeer#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#delete VpnWireguardPeer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#delete VpnWireguardPeer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#update VpnWireguardPeer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#update VpnWireguardPeer#update}
   */
   readonly update?: string;
 }
@@ -376,7 +376,7 @@ export class VpnWireguardPeerTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer}
 */
 export class VpnWireguardPeer extends cdktf.TerraformResource {
 
@@ -392,7 +392,7 @@ export class VpnWireguardPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnWireguardPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnWireguardPeer to import
-  * @param importFromId The id of the existing VpnWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnWireguardPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class VpnWireguardPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/vpn_wireguard_peer ionoscloud_vpn_wireguard_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class VpnWireguardPeer extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_vpn_wireguard_peer',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

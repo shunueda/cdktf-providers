@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KafkaClientMetricSubscriptionConfig extends cdktf.TerraformMeta
   /**
   * Identifiers of clients to collect metrics from. Wild card values are supported here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#clients KafkaClientMetricSubscription#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#clients KafkaClientMetricSubscription#clients}
   */
   readonly clients?: string;
   /**
   * ID of the Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#cluster_id KafkaClientMetricSubscription#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#cluster_id KafkaClientMetricSubscription#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#id KafkaClientMetricSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#id KafkaClientMetricSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface KafkaClientMetricSubscriptionConfig extends cdktf.TerraformMeta
   /**
   * The interval to collect client metrics in milliseconds. Default value for this is 5 minutes. The minimum value is 20000 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#interval KafkaClientMetricSubscription#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#interval KafkaClientMetricSubscription#interval}
   */
   readonly interval?: number;
   /**
   * The metrics to subscribe to. Wild card values are supported here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#metrics KafkaClientMetricSubscription#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#metrics KafkaClientMetricSubscription#metrics}
   */
   readonly metrics?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#timeouts KafkaClientMetricSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#timeouts KafkaClientMetricSubscription#timeouts}
   */
   readonly timeouts?: KafkaClientMetricSubscriptionTimeouts;
 }
 export interface KafkaClientMetricSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#default KafkaClientMetricSubscription#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#default KafkaClientMetricSubscription#default}
   */
   readonly default?: string;
 }
@@ -141,7 +141,7 @@ export class KafkaClientMetricSubscriptionTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription instaclustr_kafka_client_metric_subscription}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription instaclustr_kafka_client_metric_subscription}
 */
 export class KafkaClientMetricSubscription extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class KafkaClientMetricSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaClientMetricSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaClientMetricSubscription to import
-  * @param importFromId The id of the existing KafkaClientMetricSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaClientMetricSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaClientMetricSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class KafkaClientMetricSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_client_metric_subscription instaclustr_kafka_client_metric_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/kafka_client_metric_subscription instaclustr_kafka_client_metric_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class KafkaClientMetricSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_kafka_client_metric_subscription',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

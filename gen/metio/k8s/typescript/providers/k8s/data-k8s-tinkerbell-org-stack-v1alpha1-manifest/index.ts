@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#metadata DataK8STinkerbellOrgStackV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#metadata DataK8STinkerbellOrgStackV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STinkerbellOrgStackV1Alpha1ManifestMetadata;
   /**
   * Spec describes the desired tinkerbell stack state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#spec DataK8STinkerbellOrgStackV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#spec DataK8STinkerbellOrgStackV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STinkerbellOrgStackV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#annotations DataK8STinkerbellOrgStackV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#annotations DataK8STinkerbellOrgStackV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#labels DataK8STinkerbellOrgStackV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#labels DataK8STinkerbellOrgStackV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#name DataK8STinkerbellOrgStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#name DataK8STinkerbellOrgStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#namespace DataK8STinkerbellOrgStackV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#namespace DataK8STinkerbellOrgStackV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesHegelImage
   /**
   * Repository is used to set the image repository for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag is used to set the image tag for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesHegel {
   /**
   * Image specifies the details of a tinkerbell services images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
   */
   readonly image?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesHegelImage;
   /**
   * TrustedProxies comma separated allowed CIDRs subnets to be used as trusted proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#trusted_proxies DataK8STinkerbellOrgStackV1Alpha1Manifest#trusted_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#trusted_proxies DataK8STinkerbellOrgStackV1Alpha1Manifest#trusted_proxies}
   */
   readonly trustedProxies?: string[];
 }
@@ -481,13 +481,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesRufioImage
   /**
   * Repository is used to set the image repository for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag is used to set the image tag for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -612,7 +612,7 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesRufio {
   /**
   * Image specifies the details of a tinkerbell services images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
   */
   readonly image?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesRufioImage;
 }
@@ -708,7 +708,7 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBacken
   /**
   * FilePath specifies the hardware yaml file path for the file backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#file_path DataK8STinkerbellOrgStackV1Alpha1Manifest#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#file_path DataK8STinkerbellOrgStackV1Alpha1Manifest#file_path}
   */
   readonly filePath: string;
 }
@@ -801,19 +801,19 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBacken
   /**
   * ConfigFilePath specifies the Kubernetes config file location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#config_file_path DataK8STinkerbellOrgStackV1Alpha1Manifest#config_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#config_file_path DataK8STinkerbellOrgStackV1Alpha1Manifest#config_file_path}
   */
   readonly configFilePath?: string;
   /**
   * KubeAPIURL specifies the Kubernetes API URL, used for in-cluster client construction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#kube_api_url DataK8STinkerbellOrgStackV1Alpha1Manifest#kube_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#kube_api_url DataK8STinkerbellOrgStackV1Alpha1Manifest#kube_api_url}
   */
   readonly kubeApiUrl?: string;
   /**
   * KubeNamespace specifies an optional Kubernetes namespace override to query hardware data from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#kube_namespace DataK8STinkerbellOrgStackV1Alpha1Manifest#kube_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#kube_namespace DataK8STinkerbellOrgStackV1Alpha1Manifest#kube_namespace}
   */
   readonly kubeNamespace?: string;
 }
@@ -967,13 +967,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBacken
   /**
   * BackendFileMode contains the file backend configurations for DHCP and the HTTP iPXE script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_file_mode DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_file_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_file_mode DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_file_mode}
   */
   readonly backendFileMode?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBackendConfigsBackendFileMode;
   /**
   * BackendKubeMode contains the Kubernetes backend configurations for DHCP and the HTTP iPXE script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_kube_mode DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_kube_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_kube_mode DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_kube_mode}
   */
   readonly backendKubeMode?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBackendConfigsBackendKubeMode;
 }
@@ -1098,43 +1098,43 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeDhcpCo
   /**
   * HTTPIPXEBinaryAddress specifies the http ipxe binary server address (IP:Port) to use in DHCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#http_ipxe_binary_address DataK8STinkerbellOrgStackV1Alpha1Manifest#http_ipxe_binary_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#http_ipxe_binary_address DataK8STinkerbellOrgStackV1Alpha1Manifest#http_ipxe_binary_address}
   */
   readonly httpIpxeBinaryAddress?: string;
   /**
   * HTTPIPXEBinaryURI specifies the http ipxe script server URL to use in DHCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#http_ipxe_binary_uri DataK8STinkerbellOrgStackV1Alpha1Manifest#http_ipxe_binary_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#http_ipxe_binary_uri DataK8STinkerbellOrgStackV1Alpha1Manifest#http_ipxe_binary_uri}
   */
   readonly httpIpxeBinaryUri?: string;
   /**
   * IP is the local IP to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
   */
   readonly ip: string;
   /**
   * IPForPacket IP address to use in DHCP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip_for_packet DataK8STinkerbellOrgStackV1Alpha1Manifest#ip_for_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip_for_packet DataK8STinkerbellOrgStackV1Alpha1Manifest#ip_for_packet}
   */
   readonly ipForPacket?: string;
   /**
   * Port is the local port to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * SyslogIP specifies the syslog server IP address to use in DHCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#syslog_ip DataK8STinkerbellOrgStackV1Alpha1Manifest#syslog_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#syslog_ip DataK8STinkerbellOrgStackV1Alpha1Manifest#syslog_ip}
   */
   readonly syslogIp?: string;
   /**
   * TFTPAddress specifies the tftp server address to use in DHCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_address DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_address DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_address}
   */
   readonly tftpAddress?: string;
 }
@@ -1398,13 +1398,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeImage 
   /**
   * Repository is used to set the image repository for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag is used to set the image tag for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -1529,49 +1529,49 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeIpxeCo
   /**
   * EnableHTTPBinary enable iPXE HTTP binary server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_http_binary DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_http_binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_http_binary DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_http_binary}
   */
   readonly enableHttpBinary?: boolean | cdktf.IResolvable;
   /**
   * EnableTLS sets if the smee should run with TLS or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_tls DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_tls DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * ExtraKernelArgs specifies extra set of kernel args (k=v k=v) that are appended to the kernel cmdline iPXE script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#extra_kernel_args DataK8STinkerbellOrgStackV1Alpha1Manifest#extra_kernel_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#extra_kernel_args DataK8STinkerbellOrgStackV1Alpha1Manifest#extra_kernel_args}
   */
   readonly extraKernelArgs?: string;
   /**
   * HookURL specifies the URL where OSIE(Hook) images are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#hook_url DataK8STinkerbellOrgStackV1Alpha1Manifest#hook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#hook_url DataK8STinkerbellOrgStackV1Alpha1Manifest#hook_url}
   */
   readonly hookUrl?: string;
   /**
   * IP is the local IP to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Port is the local port to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * TinkServerAddress specifies the IP:Port of the tink server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_server_address DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_server_address DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_server_address}
   */
   readonly tinkServerAddress?: string;
   /**
   * TrustedProxies comma separated allowed CIDRs subnets to be used as trusted proxies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#trusted_proxies DataK8STinkerbellOrgStackV1Alpha1Manifest#trusted_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#trusted_proxies DataK8STinkerbellOrgStackV1Alpha1Manifest#trusted_proxies}
   */
   readonly trustedProxies?: string[];
 }
@@ -1864,13 +1864,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeSyslog
   /**
   * IP is the local IP to listen on for syslog messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#bind_address DataK8STinkerbellOrgStackV1Alpha1Manifest#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#bind_address DataK8STinkerbellOrgStackV1Alpha1Manifest#bind_address}
   */
   readonly bindAddress: string;
   /**
   * Port is the local port to listen on for syslog messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -1989,25 +1989,25 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeTftpCo
   /**
   * IP is the local IP to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ip DataK8STinkerbellOrgStackV1Alpha1Manifest#ip}
   */
   readonly ip: string;
   /**
   * IPXEScriptPatch specifies the iPXE script fragment to patch into served iPXE binaries served via TFTP or HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ipxe_script_patch DataK8STinkerbellOrgStackV1Alpha1Manifest#ipxe_script_patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ipxe_script_patch DataK8STinkerbellOrgStackV1Alpha1Manifest#ipxe_script_patch}
   */
   readonly ipxeScriptPatch?: string;
   /**
   * Port is the local port to listen on to serve TFTP binaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#port DataK8STinkerbellOrgStackV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * TFTPTimeout specifies the iPXE tftp binary server requests timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_timeout DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_timeout DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_timeout}
   */
   readonly tftpTimeout?: number;
 }
@@ -2184,43 +2184,43 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmee {
   /**
   * BackendConfigs contains the configurations for smee backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#backend_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#backend_configs}
   */
   readonly backendConfigs: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeBackendConfigs;
   /**
   * DHCPConfigs contains the DHCP server configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#dhcp_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#dhcp_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#dhcp_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#dhcp_configs}
   */
   readonly dhcpConfigs?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeDhcpConfigs;
   /**
   * Image specifies the image repo and tag for Smee.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
   */
   readonly image: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeImage;
   /**
   * IPXEConfigs contains the iPXE configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ipxe_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#ipxe_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#ipxe_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#ipxe_configs}
   */
   readonly ipxeConfigs?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeIpxeConfigs;
   /**
   * LogLevel sets the debug level for smee.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#log_level DataK8STinkerbellOrgStackV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#log_level DataK8STinkerbellOrgStackV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * SyslogConfigs contains the configurations of the syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#syslog_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#syslog_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#syslog_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#syslog_configs}
   */
   readonly syslogConfigs?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeSyslogConfigs;
   /**
   * TFTPConfigs contains the configurations of Tinkerbell TFTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tftp_configs DataK8STinkerbellOrgStackV1Alpha1Manifest#tftp_configs}
   */
   readonly tftpConfigs?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmeeTftpConfigs;
 }
@@ -2484,13 +2484,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkContro
   /**
   * Repository is used to set the image repository for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag is used to set the image tag for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -2615,7 +2615,7 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkContro
   /**
   * Image specifies the details of a tinkerbell services images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
   */
   readonly image?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkControllerImage;
 }
@@ -2711,13 +2711,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkServer
   /**
   * Repository is used to set the image repository for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#repository DataK8STinkerbellOrgStackV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag is used to set the image tag for tinkerbell services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tag DataK8STinkerbellOrgStackV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -2842,13 +2842,13 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkServer
   /**
   * EnableTLS sets if the tink server should run with TLS or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_tls DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#enable_tls DataK8STinkerbellOrgStackV1Alpha1Manifest#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * Image specifies the details of a tinkerbell services images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image DataK8STinkerbellOrgStackV1Alpha1Manifest#image}
   */
   readonly image?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkServerImage;
 }
@@ -2973,31 +2973,31 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServices {
   /**
   * Hegel contains all the information and spec about smee.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#hegel DataK8STinkerbellOrgStackV1Alpha1Manifest#hegel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#hegel DataK8STinkerbellOrgStackV1Alpha1Manifest#hegel}
   */
   readonly hegel?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesHegel;
   /**
   * Rufio contains all the information and spec about rufio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#rufio DataK8STinkerbellOrgStackV1Alpha1Manifest#rufio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#rufio DataK8STinkerbellOrgStackV1Alpha1Manifest#rufio}
   */
   readonly rufio?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesRufio;
   /**
   * Smee contains all the information and spec about smee.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#smee DataK8STinkerbellOrgStackV1Alpha1Manifest#smee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#smee DataK8STinkerbellOrgStackV1Alpha1Manifest#smee}
   */
   readonly smee?: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesSmee;
   /**
   * TinkController contains all the information and spec about tink controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_controller DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_controller DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_controller}
   */
   readonly tinkController: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkController;
   /**
   * TinkServer contains all the information and spec about tink server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_server DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#tink_server DataK8STinkerbellOrgStackV1Alpha1Manifest#tink_server}
   */
   readonly tinkServer: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServicesTinkServer;
 }
@@ -3203,31 +3203,31 @@ export interface DataK8STinkerbellOrgStackV1Alpha1ManifestSpec {
   /**
   * DNSResolverIP is indicative of the resolver IP utilized for setting up the nginx server responsible for proxying to the Tinkerbell services and serving the Hook artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#dns_resolver_ip DataK8STinkerbellOrgStackV1Alpha1Manifest#dns_resolver_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#dns_resolver_ip DataK8STinkerbellOrgStackV1Alpha1Manifest#dns_resolver_ip}
   */
   readonly dnsResolverIp?: string;
   /**
   * ImagePullSecrets the secret name containing the docker auth config which should exist in the same namespace where the operator is deployed(typically tinkerbell)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image_pull_secrets DataK8STinkerbellOrgStackV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#image_pull_secrets DataK8STinkerbellOrgStackV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Registry is the registry to use for all images. If this field is set, all tink service deployment images will be prefixed with this value. For example if the value here was set to docker.io, then smee image will be docker.io/tinkerbell/smee.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#registry DataK8STinkerbellOrgStackV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#registry DataK8STinkerbellOrgStackV1Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
   * Services contains all Tinkerbell Stack services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#services DataK8STinkerbellOrgStackV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#services DataK8STinkerbellOrgStackV1Alpha1Manifest#services}
   */
   readonly services: DataK8STinkerbellOrgStackV1Alpha1ManifestSpecServices;
   /**
   * Version is the Tinkerbell CRD version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#version DataK8STinkerbellOrgStackV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#version DataK8STinkerbellOrgStackV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -3431,7 +3431,7 @@ export class DataK8STinkerbellOrgStackV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest k8s_tinkerbell_org_stack_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest k8s_tinkerbell_org_stack_v1alpha1_manifest}
 */
 export class DataK8STinkerbellOrgStackV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3447,7 +3447,7 @@ export class DataK8STinkerbellOrgStackV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8STinkerbellOrgStackV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STinkerbellOrgStackV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STinkerbellOrgStackV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STinkerbellOrgStackV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STinkerbellOrgStackV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3459,7 +3459,7 @@ export class DataK8STinkerbellOrgStackV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest k8s_tinkerbell_org_stack_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_stack_v1alpha1_manifest k8s_tinkerbell_org_stack_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3470,8 +3470,8 @@ export class DataK8STinkerbellOrgStackV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_tinkerbell_org_stack_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

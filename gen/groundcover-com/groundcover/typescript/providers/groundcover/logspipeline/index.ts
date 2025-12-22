@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/logspipeline
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/logspipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface LogspipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The YAML representation of the logs pipeline configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/logspipeline#value Logspipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/logspipeline#value Logspipeline#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/logspipeline groundcover_logspipeline}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/logspipeline groundcover_logspipeline}
 */
 export class Logspipeline extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Logspipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Logspipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Logspipeline to import
-  * @param importFromId The id of the existing Logspipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/logspipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Logspipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/logspipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Logspipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Logspipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/logspipeline groundcover_logspipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/logspipeline groundcover_logspipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Logspipeline extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_logspipeline',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

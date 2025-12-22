@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestMetadata;
   /**
   * FederatedClusterSpec defines the desired state of FederatedCluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpecSec
   /**
   * Name of a secret within the enclosing namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -280,25 +280,25 @@ export interface DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpecTai
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#effect DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#effect DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#time_added DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#time_added DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -497,31 +497,31 @@ export interface DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpec {
   /**
   * The API endpoint of the member cluster. This can be a hostname, hostname:port, IP or IP:port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#api_endpoint DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#api_endpoint DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#api_endpoint}
   */
   readonly apiEndpoint: string;
   /**
   * Access API endpoint with security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#insecure DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#insecure DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Name of the secret containing the token required to access the member cluster. The secret needs to exist in the fed system namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#secret_ref DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#secret_ref DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpecSecretRef;
   /**
   * If specified, the cluster's taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#taints DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#taints DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpecTaints[] | cdktf.IResolvable;
   /**
   * Whether to use service account token to authenticate to the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#use_service_account DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#use_service_account DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest#use_service_account}
   */
   readonly useServiceAccount?: boolean | cdktf.IResolvable;
 }
@@ -725,7 +725,7 @@ export class DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_cluster_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -741,7 +741,7 @@ export class DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -753,7 +753,7 @@ export class DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_federated_cluster_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -764,8 +764,8 @@ export class DataK8SCoreKubeadmiralIoFederatedClusterV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_core_kubeadmiral_io_federated_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

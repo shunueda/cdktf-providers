@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestMetadata;
   /**
   * SnowIPPoolSpec defines the desired state of SnowIPPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestSpecPoo
   /**
   * Gateway is the gateway of the subnet for routing purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#gateway DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#gateway DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * IPEnd is the end address of an ip range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#ip_end DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#ip_end DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#ip_end}
   */
   readonly ipEnd: string;
   /**
   * IPStart is the start address of an ip range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#ip_start DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#ip_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#ip_start DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#ip_start}
   */
   readonly ipStart: string;
   /**
   * Subnet is used to determine whether an ip is within subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#subnet DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#subnet DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#subnet}
   */
   readonly subnet: string;
 }
@@ -430,7 +430,7 @@ export interface DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestSpec {
   /**
   * IPPools defines a list of ip pool for the DNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#pools DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#pools DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest#pools}
   */
   readonly pools?: DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestSpecPools[] | cdktf.IResolvable;
 }
@@ -524,7 +524,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -540,7 +540,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class DataK8SAnywhereEksAmazonawsComSnowIpPoolV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_snow_ip_pool_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

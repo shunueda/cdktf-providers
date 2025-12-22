@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestMetadata;
   /**
   * Spec is the desired Cilium configuration overrides for a given node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#spec DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#spec DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#labels DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#labels DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#name DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#name DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#namespace DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#namespace DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpecNodeSelector
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#key DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#key DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#operator DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#operator DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#values DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#values DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpecNodeSelector
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,13 +532,13 @@ export interface DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpec {
   /**
   * Defaults is treated the same as the cilium-config ConfigMap - a set of key-value pairs parsed by the agent and operator processes. Each key must be a valid config-map data field (i.e. a-z, A-Z, -, _, and .)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#defaults DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#defaults DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#defaults}
   */
   readonly defaults: { [key: string]: string };
   /**
   * NodeSelector is a label selector that determines to which nodes this configuration applies. If not supplied, then this config applies to no nodes. If empty, then it applies to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest#node_selector}
   */
   readonly nodeSelector: DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpecNodeSelector;
 }
@@ -655,7 +655,7 @@ export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest k8s_cilium_io_cilium_node_config_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest k8s_cilium_io_cilium_node_config_v2alpha1_manifest}
 */
 export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -671,7 +671,7 @@ export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -683,7 +683,7 @@ export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest k8s_cilium_io_cilium_node_config_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cilium_io_cilium_node_config_v2alpha1_manifest k8s_cilium_io_cilium_node_config_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -694,8 +694,8 @@ export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_cilium_io_cilium_node_config_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

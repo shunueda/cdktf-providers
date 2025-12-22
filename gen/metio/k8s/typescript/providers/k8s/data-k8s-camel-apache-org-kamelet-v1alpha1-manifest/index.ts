@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#metadata DataK8SCamelApacheOrgKameletV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#metadata DataK8SCamelApacheOrgKameletV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCamelApacheOrgKameletV1Alpha1ManifestMetadata;
   /**
   * the desired specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#spec DataK8SCamelApacheOrgKameletV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#spec DataK8SCamelApacheOrgKameletV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#annotations DataK8SCamelApacheOrgKameletV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#annotations DataK8SCamelApacheOrgKameletV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#labels DataK8SCamelApacheOrgKameletV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#labels DataK8SCamelApacheOrgKameletV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#name DataK8SCamelApacheOrgKameletV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#name DataK8SCamelApacheOrgKameletV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#namespace DataK8SCamelApacheOrgKameletV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#namespace DataK8SCamelApacheOrgKameletV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestMetadataOutputReference
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -443,23 +443,23 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesHeadersOut
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -669,11 +669,11 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesHeade
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchemaExternalDocs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -798,114 +798,114 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesS
   /**
   * default is a default value for undefined object fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
   */
   readonly deprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
   */
   readonly enum?: string[];
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
   */
   readonly exclusiveMaximum?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
   */
   readonly exclusiveMinimum?: boolean | cdktf.IResolvable;
   /**
   * format is an OpenAPI v3 format string. Unknown formats are ignored. The following formats are validated: - bsonobjectid: a bson object ID, i.e. a 24 characters hex string - uri: an URI as parsed by Golang net/url.ParseRequestURI - email: an email address as parsed by Golang net/mail.ParseAddress - hostname: a valid representation for an Internet host name, as defined by RFC 1034, section 3.1 [RFC1034]. - ipv4: an IPv4 IP as parsed by Golang net.ParseIP - ipv6: an IPv6 IP as parsed by Golang net.ParseIP - cidr: a CIDR as parsed by Golang net.ParseCIDR - mac: a MAC address as parsed by Golang net.ParseMAC - uuid: an UUID that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid3: an UUID3 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?3[0-9a-f]{3}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid4: an UUID4 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?4[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - uuid5: an UUID5 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?5[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - isbn: an ISBN10 or ISBN13 number string like '0321751043' or '978-0321751041' - isbn10: an ISBN10 number string like '0321751043' - isbn13: an ISBN13 number string like '978-0321751041' - creditcard: a credit card number defined by the regex ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35d{3})d{11})$ with any non digit characters mixed in - ssn: a U.S. social security number following the regex ^d{3}[- ]?d{2}[- ]?d{4}$ - hexcolor: an hexadecimal color code like '#FFFFFF' following the regex ^#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$ - rgbcolor: an RGB color code like rgb like 'rgb(255,255,255)' - byte: base64 encoded binary data - password: any kind of string - date: a date string like '2006-01-02' as defined by full-date in RFC3339 - duration: a duration string like '22 ns' as parsed by Golang time.ParseDuration or compatible with Scala duration format - datetime: a date time string like '2014-12-15T19:30:20.000Z' as defined by date-time in RFC3339.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
   */
   readonly maxItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
   */
   readonly maxProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
   */
   readonly minItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
   */
   readonly minProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
   */
   readonly minimum?: string;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
   */
   readonly multipleOf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
   */
   readonly nullable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
   */
   readonly uniqueItems?: boolean | cdktf.IResolvable;
   /**
   * XDescriptors is a list of extended properties that trigger a custom behavior in external systems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
   */
   readonly xDescriptors?: string[];
 }
@@ -1666,48 +1666,48 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchem
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * JSONSchemaURL represents a schema url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
   */
   readonly dollarschema?: string;
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
   * ExternalDocumentation allows referencing an external resource for extended documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
   */
   readonly externalDocs?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchemaExternalDocs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
   */
   readonly properties?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchemaProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
   */
   readonly required?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2035,43 +2035,43 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypes 
   /**
   * the list of Camel or Maven dependencies required by the data type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dependencies DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dependencies DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dependencies}
   */
   readonly dependencies?: string[];
   /**
   * optional description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * the data type format name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * one to many header specifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#headers DataK8SCamelApacheOrgKameletV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#headers DataK8SCamelApacheOrgKameletV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesHeaders;
   /**
   * media type as expected for HTTP media types (ie, application/json)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#media_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#media_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#media_type}
   */
   readonly mediaType?: string;
   /**
   * the expected schema for the data type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#schema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#schema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#schema}
   */
   readonly schema?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypesSchema;
   /**
   * the data type component scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#scheme DataK8SCamelApacheOrgKameletV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#scheme DataK8SCamelApacheOrgKameletV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2341,19 +2341,19 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypes {
   /**
   * the default data type for this Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: string;
   /**
   * one to many header specifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#headers DataK8SCamelApacheOrgKameletV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#headers DataK8SCamelApacheOrgKameletV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesHeaders;
   /**
   * one to many data type specifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#types}
   */
   readonly types?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesTypes;
 }
@@ -2505,11 +2505,11 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypesOutputRefe
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinitionExternalDocs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2634,114 +2634,114 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinitionPrope
   /**
   * default is a default value for undefined object fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
   */
   readonly deprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
   */
   readonly enum?: string[];
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
   */
   readonly exclusiveMaximum?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
   */
   readonly exclusiveMinimum?: boolean | cdktf.IResolvable;
   /**
   * format is an OpenAPI v3 format string. Unknown formats are ignored. The following formats are validated: - bsonobjectid: a bson object ID, i.e. a 24 characters hex string - uri: an URI as parsed by Golang net/url.ParseRequestURI - email: an email address as parsed by Golang net/mail.ParseAddress - hostname: a valid representation for an Internet host name, as defined by RFC 1034, section 3.1 [RFC1034]. - ipv4: an IPv4 IP as parsed by Golang net.ParseIP - ipv6: an IPv6 IP as parsed by Golang net.ParseIP - cidr: a CIDR as parsed by Golang net.ParseCIDR - mac: a MAC address as parsed by Golang net.ParseMAC - uuid: an UUID that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid3: an UUID3 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?3[0-9a-f]{3}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid4: an UUID4 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?4[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - uuid5: an UUID5 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?5[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - isbn: an ISBN10 or ISBN13 number string like '0321751043' or '978-0321751041' - isbn10: an ISBN10 number string like '0321751043' - isbn13: an ISBN13 number string like '978-0321751041' - creditcard: a credit card number defined by the regex ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35d{3})d{11})$ with any non digit characters mixed in - ssn: a U.S. social security number following the regex ^d{3}[- ]?d{2}[- ]?d{4}$ - hexcolor: an hexadecimal color code like '#FFFFFF' following the regex ^#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$ - rgbcolor: an RGB color code like rgb like 'rgb(255,255,255)' - byte: base64 encoded binary data - password: any kind of string - date: a date string like '2006-01-02' as defined by full-date in RFC3339 - duration: a duration string like '22 ns' as parsed by Golang time.ParseDuration or compatible with Scala duration format - datetime: a date time string like '2014-12-15T19:30:20.000Z' as defined by date-time in RFC3339.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
   */
   readonly maxItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
   */
   readonly maxProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
   */
   readonly minItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
   */
   readonly minProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
   */
   readonly minimum?: string;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
   */
   readonly multipleOf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
   */
   readonly nullable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
   */
   readonly uniqueItems?: boolean | cdktf.IResolvable;
   /**
   * XDescriptors is a list of extended properties that trigger a custom behavior in external systems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
   */
   readonly xDescriptors?: string[];
 }
@@ -3502,48 +3502,48 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinitionPropertie
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * JSONSchemaURL represents a schema url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
   */
   readonly dollarschema?: string;
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
   * ExternalDocumentation allows referencing an external resource for extended documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
   */
   readonly externalDocs?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinitionExternalDocs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
   */
   readonly properties?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinitionProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
   */
   readonly required?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3871,85 +3871,85 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecSources {
   /**
   * if the content is compressed (base64 encrypted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#compression DataK8SCamelApacheOrgKameletV1Alpha1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#compression DataK8SCamelApacheOrgKameletV1Alpha1Manifest#compression}
   */
   readonly compression?: boolean | cdktf.IResolvable;
   /**
   * the source code (plain text)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * the confimap key holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_key DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_key DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_key}
   */
   readonly contentKey?: string;
   /**
   * the confimap reference holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_ref DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_ref DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_ref}
   */
   readonly contentRef?: string;
   /**
   * the content type (tipically text or binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#content_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * True if the spec is generated from a Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#from_kamelet DataK8SCamelApacheOrgKameletV1Alpha1Manifest#from_kamelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#from_kamelet DataK8SCamelApacheOrgKameletV1Alpha1Manifest#from_kamelet}
   */
   readonly fromKamelet?: boolean | cdktf.IResolvable;
   /**
   * Interceptors are optional identifiers the org.apache.camel.k.RoutesLoader uses to pre/post process sources Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#interceptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#interceptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#interceptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#interceptors}
   */
   readonly interceptors?: string[];
   /**
   * specify which is the language (Camel DSL) used to interpret this source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#language DataK8SCamelApacheOrgKameletV1Alpha1Manifest#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#language DataK8SCamelApacheOrgKameletV1Alpha1Manifest#language}
   */
   readonly language?: string;
   /**
   * Loader is an optional id of the org.apache.camel.k.RoutesLoader that will interpret this source at runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#loader DataK8SCamelApacheOrgKameletV1Alpha1Manifest#loader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#loader DataK8SCamelApacheOrgKameletV1Alpha1Manifest#loader}
   */
   readonly loader?: string;
   /**
   * the name of the specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#name DataK8SCamelApacheOrgKameletV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#name DataK8SCamelApacheOrgKameletV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * the path where the file is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#path DataK8SCamelApacheOrgKameletV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#path DataK8SCamelApacheOrgKameletV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * List of property names defined in the source (e.g. if type is 'template')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#property_names DataK8SCamelApacheOrgKameletV1Alpha1Manifest#property_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#property_names DataK8SCamelApacheOrgKameletV1Alpha1Manifest#property_names}
   */
   readonly propertyNames?: string[];
   /**
   * the source code (binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#raw_content DataK8SCamelApacheOrgKameletV1Alpha1Manifest#raw_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#raw_content DataK8SCamelApacheOrgKameletV1Alpha1Manifest#raw_content}
   */
   readonly rawContent?: string;
   /**
   * Type defines the kind of source described by this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4442,11 +4442,11 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecSourcesList extends
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchemaExternalDocs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#url DataK8SCamelApacheOrgKameletV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -4571,114 +4571,114 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchemaProp
   /**
   * default is a default value for undefined object fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#default DataK8SCamelApacheOrgKameletV1Alpha1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#deprecated DataK8SCamelApacheOrgKameletV1Alpha1Manifest#deprecated}
   */
   readonly deprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#enum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#enum}
   */
   readonly enum?: string[];
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_maximum}
   */
   readonly exclusiveMaximum?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#exclusive_minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#exclusive_minimum}
   */
   readonly exclusiveMinimum?: boolean | cdktf.IResolvable;
   /**
   * format is an OpenAPI v3 format string. Unknown formats are ignored. The following formats are validated: - bsonobjectid: a bson object ID, i.e. a 24 characters hex string - uri: an URI as parsed by Golang net/url.ParseRequestURI - email: an email address as parsed by Golang net/mail.ParseAddress - hostname: a valid representation for an Internet host name, as defined by RFC 1034, section 3.1 [RFC1034]. - ipv4: an IPv4 IP as parsed by Golang net.ParseIP - ipv6: an IPv6 IP as parsed by Golang net.ParseIP - cidr: a CIDR as parsed by Golang net.ParseCIDR - mac: a MAC address as parsed by Golang net.ParseMAC - uuid: an UUID that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid3: an UUID3 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?3[0-9a-f]{3}-?[0-9a-f]{4}-?[0-9a-f]{12}$ - uuid4: an UUID4 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?4[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - uuid5: an UUID5 that allows uppercase defined by the regex (?i)^[0-9a-f]{8}-?[0-9a-f]{4}-?5[0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$ - isbn: an ISBN10 or ISBN13 number string like '0321751043' or '978-0321751041' - isbn10: an ISBN10 number string like '0321751043' - isbn13: an ISBN13 number string like '978-0321751041' - creditcard: a credit card number defined by the regex ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35d{3})d{11})$ with any non digit characters mixed in - ssn: a U.S. social security number following the regex ^d{3}[- ]?d{2}[- ]?d{4}$ - hexcolor: an hexadecimal color code like '#FFFFFF' following the regex ^#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$ - rgbcolor: an RGB color code like rgb like 'rgb(255,255,255)' - byte: base64 encoded binary data - password: any kind of string - date: a date string like '2006-01-02' as defined by full-date in RFC3339 - duration: a duration string like '22 ns' as parsed by Golang time.ParseDuration or compatible with Scala duration format - datetime: a date time string like '2014-12-15T19:30:20.000Z' as defined by date-time in RFC3339.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#format DataK8SCamelApacheOrgKameletV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_items}
   */
   readonly maxItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#max_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#max_properties}
   */
   readonly maxProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#maximum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_items}
   */
   readonly minItems?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_length DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#min_properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#min_properties}
   */
   readonly minProperties?: number;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#minimum DataK8SCamelApacheOrgKameletV1Alpha1Manifest#minimum}
   */
   readonly minimum?: string;
   /**
   * A Number represents a JSON number literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#multiple_of DataK8SCamelApacheOrgKameletV1Alpha1Manifest#multiple_of}
   */
   readonly multipleOf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#nullable DataK8SCamelApacheOrgKameletV1Alpha1Manifest#nullable}
   */
   readonly nullable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#pattern DataK8SCamelApacheOrgKameletV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#unique_items DataK8SCamelApacheOrgKameletV1Alpha1Manifest#unique_items}
   */
   readonly uniqueItems?: boolean | cdktf.IResolvable;
   /**
   * XDescriptors is a list of extended properties that trigger a custom behavior in external systems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#x_descriptors DataK8SCamelApacheOrgKameletV1Alpha1Manifest#x_descriptors}
   */
   readonly xDescriptors?: string[];
 }
@@ -5439,48 +5439,48 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchemaProperti
 }
 export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#description DataK8SCamelApacheOrgKameletV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * JSONSchemaURL represents a schema url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dollarschema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dollarschema}
   */
   readonly dollarschema?: string;
   /**
   * JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#example DataK8SCamelApacheOrgKameletV1Alpha1Manifest#example}
   */
   readonly example?: { [key: string]: string };
   /**
   * ExternalDocumentation allows referencing an external resource for extended documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#external_docs DataK8SCamelApacheOrgKameletV1Alpha1Manifest#external_docs}
   */
   readonly externalDocs?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchemaExternalDocs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#id DataK8SCamelApacheOrgKameletV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#properties DataK8SCamelApacheOrgKameletV1Alpha1Manifest#properties}
   */
   readonly properties?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchemaProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#required DataK8SCamelApacheOrgKameletV1Alpha1Manifest#required}
   */
   readonly required?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#title DataK8SCamelApacheOrgKameletV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5808,13 +5808,13 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypes {
   /**
   * media type as expected for HTTP media types (ie, application/json)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#media_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#media_type DataK8SCamelApacheOrgKameletV1Alpha1Manifest#media_type}
   */
   readonly mediaType?: string;
   /**
   * the expected schema for the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#schema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#schema DataK8SCamelApacheOrgKameletV1Alpha1Manifest#schema}
   */
   readonly schema?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypesSchema;
 }
@@ -5939,37 +5939,37 @@ export interface DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpec {
   /**
   * data specification types for the events consumed/produced by the Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#data_types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#data_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#data_types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#data_types}
   */
   readonly dataTypes?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDataTypes;
   /**
   * defines the formal configuration of the Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#definition DataK8SCamelApacheOrgKameletV1Alpha1Manifest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#definition DataK8SCamelApacheOrgKameletV1Alpha1Manifest#definition}
   */
   readonly definition?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecDefinition;
   /**
   * Camel dependencies needed by the Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dependencies DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#dependencies DataK8SCamelApacheOrgKameletV1Alpha1Manifest#dependencies}
   */
   readonly dependencies?: string[];
   /**
   * sources in any Camel DSL supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#sources DataK8SCamelApacheOrgKameletV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#sources DataK8SCamelApacheOrgKameletV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecSources[] | cdktf.IResolvable;
   /**
   * the main source in YAML DSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#template DataK8SCamelApacheOrgKameletV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#template DataK8SCamelApacheOrgKameletV1Alpha1Manifest#template}
   */
   readonly template?: { [key: string]: string };
   /**
   * data specification types for the events consumed/produced by the Kamelet Deprecated: In favor of using DataTypes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#types DataK8SCamelApacheOrgKameletV1Alpha1Manifest#types}
   */
   readonly types?: DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecTypes;
 }
@@ -6208,7 +6208,7 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest k8s_camel_apache_org_kamelet_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest k8s_camel_apache_org_kamelet_v1alpha1_manifest}
 */
 export class DataK8SCamelApacheOrgKameletV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6224,7 +6224,7 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SCamelApacheOrgKameletV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCamelApacheOrgKameletV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCamelApacheOrgKameletV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCamelApacheOrgKameletV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCamelApacheOrgKameletV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6236,7 +6236,7 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest k8s_camel_apache_org_kamelet_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_kamelet_v1alpha1_manifest k8s_camel_apache_org_kamelet_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6247,8 +6247,8 @@ export class DataK8SCamelApacheOrgKameletV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_camel_apache_org_kamelet_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

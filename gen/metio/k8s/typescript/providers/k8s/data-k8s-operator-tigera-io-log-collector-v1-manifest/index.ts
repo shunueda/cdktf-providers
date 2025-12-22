@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#metadata DataK8SOperatorTigeraIoLogCollectorV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#metadata DataK8SOperatorTigeraIoLogCollectorV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoLogCollectorV1ManifestMetadata;
   /**
   * Specification of the desired state for Tigera log collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#annotations DataK8SOperatorTigeraIoLogCollectorV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#annotations DataK8SOperatorTigeraIoLogCollectorV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#labels DataK8SOperatorTigeraIoLogCollectorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#labels DataK8SOperatorTigeraIoLogCollectorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalSour
   /**
   * Cloudwatch audit logs fetching interval in seconds. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#fetch_interval DataK8SOperatorTigeraIoLogCollectorV1Manifest#fetch_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#fetch_interval DataK8SOperatorTigeraIoLogCollectorV1Manifest#fetch_interval}
   */
   readonly fetchInterval?: number;
   /**
   * Cloudwatch log-group name containing EKS audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#group_name DataK8SOperatorTigeraIoLogCollectorV1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#group_name DataK8SOperatorTigeraIoLogCollectorV1Manifest#group_name}
   */
   readonly groupName: string;
   /**
   * AWS Region EKS cluster is hosted in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#region DataK8SOperatorTigeraIoLogCollectorV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#region DataK8SOperatorTigeraIoLogCollectorV1Manifest#region}
   */
   readonly region: string;
   /**
   * Prefix of Cloudwatch log stream containing EKS audit logs in the log-group. Default: kube-apiserver-audit-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#stream_prefix DataK8SOperatorTigeraIoLogCollectorV1Manifest#stream_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#stream_prefix DataK8SOperatorTigeraIoLogCollectorV1Manifest#stream_prefix}
   */
   readonly streamPrefix?: string;
 }
@@ -382,7 +382,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalSour
   /**
   * If specified with EKS Provider in Installation, enables fetching EKS audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#eks_cloudwatch_log DataK8SOperatorTigeraIoLogCollectorV1Manifest#eks_cloudwatch_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#eks_cloudwatch_log DataK8SOperatorTigeraIoLogCollectorV1Manifest#eks_cloudwatch_log}
   */
   readonly eksCloudwatchLog?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalSourcesEksCloudwatchLog;
 }
@@ -478,19 +478,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStor
   /**
   * Name of the S3 bucket to send logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#bucket_name DataK8SOperatorTigeraIoLogCollectorV1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#bucket_name DataK8SOperatorTigeraIoLogCollectorV1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Path in the S3 bucket where to send logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#bucket_path DataK8SOperatorTigeraIoLogCollectorV1Manifest#bucket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#bucket_path DataK8SOperatorTigeraIoLogCollectorV1Manifest#bucket_path}
   */
   readonly bucketPath: string;
   /**
   * AWS Region of the S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#region DataK8SOperatorTigeraIoLogCollectorV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#region DataK8SOperatorTigeraIoLogCollectorV1Manifest#region}
   */
   readonly region: string;
 }
@@ -635,7 +635,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStor
   /**
   * Location for splunk's http event collector end point. example 'https://1.2.3.4:8088'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#endpoint DataK8SOperatorTigeraIoLogCollectorV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#endpoint DataK8SOperatorTigeraIoLogCollectorV1Manifest#endpoint}
   */
   readonly endpoint: string;
 }
@@ -728,25 +728,25 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStor
   /**
   * Encryption configures traffic encryption to the Syslog server. Default: None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#encryption DataK8SOperatorTigeraIoLogCollectorV1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#encryption DataK8SOperatorTigeraIoLogCollectorV1Manifest#encryption}
   */
   readonly encryption?: string;
   /**
   * Location of the syslog server. example: tcp://1.2.3.4:601
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#endpoint DataK8SOperatorTigeraIoLogCollectorV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#endpoint DataK8SOperatorTigeraIoLogCollectorV1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * If no values are provided, the list will be updated to include log types Audit, DNS and Flows. Default: Audit, DNS, Flows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#log_types DataK8SOperatorTigeraIoLogCollectorV1Manifest#log_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#log_types DataK8SOperatorTigeraIoLogCollectorV1Manifest#log_types}
   */
   readonly logTypes: string[];
   /**
   * PacketSize defines the maximum size of packets to send to syslog. In general this is only needed if you notice long logs being truncated. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#packet_size DataK8SOperatorTigeraIoLogCollectorV1Manifest#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#packet_size DataK8SOperatorTigeraIoLogCollectorV1Manifest#packet_size}
   */
   readonly packetSize?: number;
 }
@@ -923,19 +923,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStor
   /**
   * If specified, enables exporting of flow, audit, and DNS logs to Amazon S3 storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#s3 DataK8SOperatorTigeraIoLogCollectorV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#s3 DataK8SOperatorTigeraIoLogCollectorV1Manifest#s3}
   */
   readonly s3?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStoresS3;
   /**
   * If specified, enables exporting of flow, audit, and DNS logs to splunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#splunk DataK8SOperatorTigeraIoLogCollectorV1Manifest#splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#splunk DataK8SOperatorTigeraIoLogCollectorV1Manifest#splunk}
   */
   readonly splunk?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStoresSplunk;
   /**
   * If specified, enables exporting of flow, audit, and DNS logs to syslog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#syslog DataK8SOperatorTigeraIoLogCollectorV1Manifest#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#syslog DataK8SOperatorTigeraIoLogCollectorV1Manifest#syslog}
   */
   readonly syslog?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStoresSyslog;
 }
@@ -1089,7 +1089,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1204,19 +1204,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1370,13 +1370,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Name is an enum which identifies the EKSLogForwarder Deployment container by name. Supported values are: eks-log-forwarder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named EKSLogForwarder Deployment container's resources. If omitted, the EKSLogForwarder Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecContainersResources;
 }
@@ -1520,7 +1520,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1635,19 +1635,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1801,13 +1801,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Name is an enum which identifies the EKSLogForwarder Deployment init container by name. Supported values are: eks-log-forwarder-startup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named EKSLogForwarder Deployment init container's resources. If omitted, the EKSLogForwarder Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -1951,13 +1951,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Containers is a list of EKSLogForwarder containers. If specified, this overrides the specified EKSLogForwarder Deployment containers. If omitted, the EKSLogForwarder Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of EKSLogForwarder init containers. If specified, this overrides the specified EKSLogForwarder Deployment init containers. If omitted, the EKSLogForwarder Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#init_containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#init_containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -2082,7 +2082,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Spec is the EKSLogForwarder Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplateSpec;
 }
@@ -2178,7 +2178,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Template describes the EKSLogForwarder Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#template DataK8SOperatorTigeraIoLogCollectorV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#template DataK8SOperatorTigeraIoLogCollectorV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpecTemplate;
 }
@@ -2274,7 +2274,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarde
   /**
   * Spec is the specification of the EKSLogForwarder Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeploymentSpec;
 }
@@ -2370,7 +2370,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2485,19 +2485,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2651,13 +2651,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Name is an enum which identifies the Fluentd DaemonSet container by name. Supported values are: fluentd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Fluentd DaemonSet container's resources. If omitted, the Fluentd DaemonSet will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecContainersResources;
 }
@@ -2801,7 +2801,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2916,19 +2916,19 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#claims DataK8SOperatorTigeraIoLogCollectorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#limits DataK8SOperatorTigeraIoLogCollectorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#requests DataK8SOperatorTigeraIoLogCollectorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3082,13 +3082,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Name is an enum which identifies the Fluentd DaemonSet init container by name. Supported values are: tigera-fluentd-prometheus-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#name DataK8SOperatorTigeraIoLogCollectorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Fluentd DaemonSet init container's resources. If omitted, the Fluentd DaemonSet will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#resources DataK8SOperatorTigeraIoLogCollectorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecInitContainersResources;
 }
@@ -3232,13 +3232,13 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Containers is a list of Fluentd DaemonSet containers. If specified, this overrides the specified Fluentd DaemonSet containers. If omitted, the Fluentd DaemonSet will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of Fluentd DaemonSet init containers. If specified, this overrides the specified Fluentd DaemonSet init containers. If omitted, the Fluentd DaemonSet will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#init_containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#init_containers DataK8SOperatorTigeraIoLogCollectorV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -3363,7 +3363,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Spec is the Fluentd DaemonSet's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplateSpec;
 }
@@ -3459,7 +3459,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Template describes the Fluentd DaemonSet pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#template DataK8SOperatorTigeraIoLogCollectorV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#template DataK8SOperatorTigeraIoLogCollectorV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpecTemplate;
 }
@@ -3555,7 +3555,7 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonS
   /**
   * Spec is the specification of the Fluentd DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#spec DataK8SOperatorTigeraIoLogCollectorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSetSpec;
 }
@@ -3651,37 +3651,37 @@ export interface DataK8SOperatorTigeraIoLogCollectorV1ManifestSpec {
   /**
   * Configuration for importing audit logs from managed kubernetes cluster log sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#additional_sources DataK8SOperatorTigeraIoLogCollectorV1Manifest#additional_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#additional_sources DataK8SOperatorTigeraIoLogCollectorV1Manifest#additional_sources}
   */
   readonly additionalSources?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalSources;
   /**
   * Configuration for exporting flow, audit, and DNS logs to external storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#additional_stores DataK8SOperatorTigeraIoLogCollectorV1Manifest#additional_stores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#additional_stores DataK8SOperatorTigeraIoLogCollectorV1Manifest#additional_stores}
   */
   readonly additionalStores?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecAdditionalStores;
   /**
   * Configuration for enabling/disabling process path collection in flowlogs. If Enabled, this feature sets hostPID to true in order to read process cmdline. Default: Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#collect_process_path DataK8SOperatorTigeraIoLogCollectorV1Manifest#collect_process_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#collect_process_path DataK8SOperatorTigeraIoLogCollectorV1Manifest#collect_process_path}
   */
   readonly collectProcessPath?: string;
   /**
   * EKSLogForwarderDeployment configures the EKSLogForwarderDeployment Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#eks_log_forwarder_deployment DataK8SOperatorTigeraIoLogCollectorV1Manifest#eks_log_forwarder_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#eks_log_forwarder_deployment DataK8SOperatorTigeraIoLogCollectorV1Manifest#eks_log_forwarder_deployment}
   */
   readonly eksLogForwarderDeployment?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecEksLogForwarderDeployment;
   /**
   * FluentdDaemonSet configures the Fluentd DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#fluentd_daemon_set DataK8SOperatorTigeraIoLogCollectorV1Manifest#fluentd_daemon_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#fluentd_daemon_set DataK8SOperatorTigeraIoLogCollectorV1Manifest#fluentd_daemon_set}
   */
   readonly fluentdDaemonSet?: DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecFluentdDaemonSet;
   /**
   * If running as a multi-tenant management cluster, the namespace in which the management cluster's tenant services are running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#multi_tenant_management_cluster_namespace DataK8SOperatorTigeraIoLogCollectorV1Manifest#multi_tenant_management_cluster_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#multi_tenant_management_cluster_namespace DataK8SOperatorTigeraIoLogCollectorV1Manifest#multi_tenant_management_cluster_namespace}
   */
   readonly multiTenantManagementClusterNamespace?: string;
 }
@@ -3920,7 +3920,7 @@ export class DataK8SOperatorTigeraIoLogCollectorV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest k8s_operator_tigera_io_log_collector_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest k8s_operator_tigera_io_log_collector_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoLogCollectorV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3936,7 +3936,7 @@ export class DataK8SOperatorTigeraIoLogCollectorV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoLogCollectorV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoLogCollectorV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoLogCollectorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoLogCollectorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoLogCollectorV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3948,7 +3948,7 @@ export class DataK8SOperatorTigeraIoLogCollectorV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_log_collector_v1_manifest k8s_operator_tigera_io_log_collector_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_log_collector_v1_manifest k8s_operator_tigera_io_log_collector_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3959,8 +3959,8 @@ export class DataK8SOperatorTigeraIoLogCollectorV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_operator_tigera_io_log_collector_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

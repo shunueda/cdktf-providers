@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestMetadata;
   /**
   * NutanixMachineConfigSpec defines the desired state of NutanixMachineConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * key is the Key of the category in the Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * value is the category value linked to the key in the Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -372,19 +372,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -535,19 +535,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * deviceID is the device ID of the GPU device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#device_id DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#device_id DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#device_id}
   */
   readonly deviceId?: number;
   /**
   * vendorID is the vendor ID of the GPU device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * type is the type of the GPU device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -720,19 +720,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -883,19 +883,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -1046,19 +1046,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -1207,11 +1207,11 @@ export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestS
 }
 export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
   */
   readonly sshAuthorizedKeys: string[];
 }
@@ -1352,69 +1352,69 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manif
   /**
   * additionalCategories is a list of optional categories to be added to the VM. Categories must be created in Prism Central before they can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#additional_categories DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#additional_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#additional_categories DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#additional_categories}
   */
   readonly additionalCategories?: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecAdditionalCategories[] | cdktf.IResolvable;
   /**
   * cluster is to identify the cluster (the Prism Element under management of the Prism Central), in which the Machine's VM will be created. The cluster identifier (uuid or name) can be obtained from the Prism Central console or using the prism_central API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#cluster DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#cluster DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#cluster}
   */
   readonly cluster: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecCluster;
   /**
   * List of GPU devices that should be added to the VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#gpus DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#gpus DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#gpus}
   */
   readonly gpus?: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecGpus[] | cdktf.IResolvable;
   /**
   * image is to identify the OS image uploaded to the Prism Central (PC) The image identifier (uuid or name) can be obtained from the Prism Central console or using the Prism Central API. It must include the Kubernetes version(s). For example, a template used for Kubernetes 1.27 could be ubuntu-2204-1.27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#image}
   */
   readonly image: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecImage;
   /**
   * memorySize is the memory size (in Quantity format) of the VM The minimum memorySize is 2Gi bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#memory_size DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#memory_size DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#memory_size}
   */
   readonly memorySize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#os_family}
   */
   readonly osFamily: string;
   /**
   * Project is an optional property that specifies the Prism Central project so that machine resources can be linked to it. The project identifier (uuid or name) can be obtained from the Prism Central console or using the Prism Central API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#project DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#project DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#project}
   */
   readonly project?: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecProject;
   /**
   * subnet is to identify the cluster's network subnet to use for the Machine's VM The cluster identifier (uuid or name) can be obtained from the Prism Central console or using the Prism Central API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#subnet DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#subnet DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#subnet}
   */
   readonly subnet: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecSubnet;
   /**
   * systemDiskSize is size (in Quantity format) of the system disk of the VM The minimum systemDiskSize is 20Gi bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#system_disk_size DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#system_disk_size DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#system_disk_size}
   */
   readonly systemDiskSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#users}
   */
   readonly users?: DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
   /**
   * vcpuSockets is the number of vCPU sockets of the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#vcpu_sockets DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#vcpu_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#vcpu_sockets DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#vcpu_sockets}
   */
   readonly vcpuSockets: number;
   /**
   * vcpusPerSocket is the number of vCPUs per socket of the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#vcpus_per_socket DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#vcpus_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#vcpus_per_socket DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest#vcpus_per_socket}
   */
   readonly vcpusPerSocket: number;
 }
@@ -1803,7 +1803,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1819,7 +1819,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1831,7 +1831,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1842,8 +1842,8 @@ export class DataK8SAnywhereEksAmazonawsComNutanixMachineConfigV1Alpha1Manifest 
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_nutanix_machine_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

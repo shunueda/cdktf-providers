@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface PortEntityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The blueprint identifier the entity relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#blueprint PortEntity#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#blueprint PortEntity#blueprint}
   */
   readonly blueprint: string;
   /**
   * Whether to create missing related entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#create_missing_related_entities PortEntity#create_missing_related_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#create_missing_related_entities PortEntity#create_missing_related_entities}
   */
   readonly createMissingRelatedEntities?: boolean | cdktf.IResolvable;
   /**
   * The icon of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#icon PortEntity#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#icon PortEntity#icon}
   */
   readonly icon?: string;
   /**
   * The identifier of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#identifier PortEntity#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#identifier PortEntity#identifier}
   */
   readonly identifier?: string;
   /**
   * The properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#properties PortEntity#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#properties PortEntity#properties}
   */
   readonly properties?: PortEntityProperties;
   /**
   * The relations of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#relations PortEntity#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#relations PortEntity#relations}
   */
   readonly relations?: PortEntityRelations;
   /**
   * The runID of the action run that created the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#run_id PortEntity#run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#run_id PortEntity#run_id}
   */
   readonly runId?: string;
   /**
   * The teams the entity belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#teams PortEntity#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#teams PortEntity#teams}
   */
   readonly teams?: string[];
   /**
   * The title of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#title PortEntity#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#title PortEntity#title}
   */
   readonly title: string;
 }
 export interface PortEntityPropertiesArrayProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#boolean_items PortEntity#boolean_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#boolean_items PortEntity#boolean_items}
   */
   readonly booleanItems?: { [key: string]: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#number_items PortEntity#number_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#number_items PortEntity#number_items}
   */
   readonly numberItems?: { [key: string]: number[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#object_items PortEntity#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#object_items PortEntity#object_items}
   */
   readonly objectItems?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#string_items PortEntity#string_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#string_items PortEntity#string_items}
   */
   readonly stringItems?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -259,31 +259,31 @@ export interface PortEntityProperties {
   /**
   * The array properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#array_props PortEntity#array_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#array_props PortEntity#array_props}
   */
   readonly arrayProps?: PortEntityPropertiesArrayProps;
   /**
   * The bool properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#boolean_props PortEntity#boolean_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#boolean_props PortEntity#boolean_props}
   */
   readonly booleanProps?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * The number properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#number_props PortEntity#number_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#number_props PortEntity#number_props}
   */
   readonly numberProps?: { [key: string]: number };
   /**
   * The object properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#object_props PortEntity#object_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#object_props PortEntity#object_props}
   */
   readonly objectProps?: { [key: string]: string };
   /**
   * The string properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#string_props PortEntity#string_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#string_props PortEntity#string_props}
   */
   readonly stringProps?: { [key: string]: string };
 }
@@ -495,13 +495,13 @@ export interface PortEntityRelations {
   /**
   * The many relation of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#many_relations PortEntity#many_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#many_relations PortEntity#many_relations}
   */
   readonly manyRelations?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The single relation of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#single_relations PortEntity#single_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#single_relations PortEntity#single_relations}
   */
   readonly singleRelations?: { [key: string]: string };
 }
@@ -624,7 +624,7 @@ export class PortEntityRelationsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity port_entity}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity port_entity}
 */
 export class PortEntity extends cdktf.TerraformResource {
 
@@ -640,7 +640,7 @@ export class PortEntity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortEntity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortEntity to import
-  * @param importFromId The id of the existing PortEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortEntity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -652,7 +652,7 @@ export class PortEntity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_entity port_entity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_entity port_entity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -663,8 +663,8 @@ export class PortEntity extends cdktf.TerraformResource {
       terraformResourceType: 'port_entity',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.4',
-        providerVersionConstraint: '2.17.4'
+        providerVersion: '2.17.5',
+        providerVersionConstraint: '2.17.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

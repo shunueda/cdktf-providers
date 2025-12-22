@@ -41,7 +41,7 @@ dataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecStrategyToHclTerraform,
 DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecStrategyOutputReference } from './structs0'
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -135,11 +135,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -259,11 +259,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -402,23 +402,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -625,11 +625,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -749,43 +749,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1140,23 +1140,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#protocol DataK8SKubeviousIoWorkloadV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#protocol DataK8SKubeviousIoWorkloadV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1385,7 +1385,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1479,11 +1479,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1603,11 +1603,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1746,23 +1746,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1969,11 +1969,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -2093,43 +2093,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2484,11 +2484,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#limits DataK8SKubeviousIoWorkloadV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#limits DataK8SKubeviousIoWorkloadV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#requests DataK8SKubeviousIoWorkloadV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#requests DataK8SKubeviousIoWorkloadV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2611,11 +2611,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#add DataK8SKubeviousIoWorkloadV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#add DataK8SKubeviousIoWorkloadV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#drop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#drop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -2738,19 +2738,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2931,11 +2931,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3055,19 +3055,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -3248,47 +3248,47 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#allow_privilege_escalation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#allow_privilege_escalation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#capabilities DataK8SKubeviousIoWorkloadV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#capabilities DataK8SKubeviousIoWorkloadV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#privileged DataK8SKubeviousIoWorkloadV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#privileged DataK8SKubeviousIoWorkloadV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#proc_mount DataK8SKubeviousIoWorkloadV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#proc_mount DataK8SKubeviousIoWorkloadV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only_root_filesystem DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only_root_filesystem DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -3672,7 +3672,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3766,11 +3766,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3890,11 +3890,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -4033,23 +4033,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4256,11 +4256,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -4380,43 +4380,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4771,11 +4771,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#device_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#device_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4914,27 +4914,27 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_propagation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_propagation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path_expr DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path_expr DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -5189,95 +5189,95 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#args DataK8SKubeviousIoWorkloadV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#args DataK8SKubeviousIoWorkloadV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#lifecycle DataK8SKubeviousIoWorkloadV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#lifecycle DataK8SKubeviousIoWorkloadV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#liveness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#liveness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ports DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ports DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resources DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resources DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#startup_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#startup_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin_once DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin_once DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#target_container_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#target_container_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tty DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tty DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_devices DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_devices DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_mounts DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_mounts DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#working_dir DataK8SKubeviousIoWorkloadV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#working_dir DataK8SKubeviousIoWorkloadV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -6028,11 +6028,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeral
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#hostnames DataK8SKubeviousIoWorkloadV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#hostnames DataK8SKubeviousIoWorkloadV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -6177,7 +6177,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecHostAlias
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6293,15 +6293,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecImagePull
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6450,11 +6450,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#api_version DataK8SKubeviousIoWorkloadV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#api_version DataK8SKubeviousIoWorkloadV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#field_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#field_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6574,15 +6574,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#divisor DataK8SKubeviousIoWorkloadV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#divisor DataK8SKubeviousIoWorkloadV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resource DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resource DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6731,15 +6731,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6888,19 +6888,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#config_map_key_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#config_map_key_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#field_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#field_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resource_field_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resource_field_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#secret_key_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#secret_key_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -7081,15 +7081,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvValueFrom;
 }
@@ -7260,11 +7260,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7387,11 +7387,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#optional DataK8SKubeviousIoWorkloadV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7514,15 +7514,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#config_map_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#config_map_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#prefix DataK8SKubeviousIoWorkloadV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#prefix DataK8SKubeviousIoWorkloadV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#secret_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#secret_ref DataK8SKubeviousIoWorkloadV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -7696,7 +7696,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7790,11 +7790,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7933,23 +7933,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8156,11 +8156,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8280,15 +8280,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -8440,7 +8440,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8534,11 +8534,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8677,23 +8677,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8900,11 +8900,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9024,15 +9024,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -9184,11 +9184,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#post_start DataK8SKubeviousIoWorkloadV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#post_start DataK8SKubeviousIoWorkloadV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#pre_stop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#pre_stop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -9311,7 +9311,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9405,11 +9405,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -9529,11 +9529,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9672,23 +9672,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9895,11 +9895,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -10019,43 +10019,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10410,23 +10410,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#container_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ip DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#protocol DataK8SKubeviousIoWorkloadV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#protocol DataK8SKubeviousIoWorkloadV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -10655,7 +10655,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10749,11 +10749,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10873,11 +10873,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -11016,23 +11016,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11239,11 +11239,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -11363,43 +11363,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11754,11 +11754,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#limits DataK8SKubeviousIoWorkloadV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#limits DataK8SKubeviousIoWorkloadV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#requests DataK8SKubeviousIoWorkloadV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#requests DataK8SKubeviousIoWorkloadV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11881,11 +11881,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#add DataK8SKubeviousIoWorkloadV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#add DataK8SKubeviousIoWorkloadV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#drop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#drop DataK8SKubeviousIoWorkloadV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -12008,19 +12008,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12201,11 +12201,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -12325,19 +12325,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -12518,47 +12518,47 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#allow_privilege_escalation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#allow_privilege_escalation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#capabilities DataK8SKubeviousIoWorkloadV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#capabilities DataK8SKubeviousIoWorkloadV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#privileged DataK8SKubeviousIoWorkloadV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#privileged DataK8SKubeviousIoWorkloadV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#proc_mount DataK8SKubeviousIoWorkloadV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#proc_mount DataK8SKubeviousIoWorkloadV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only_root_filesystem DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only_root_filesystem DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -12942,7 +12942,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13036,11 +13036,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13160,11 +13160,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13303,23 +13303,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_headers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheme DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13526,11 +13526,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#port DataK8SKubeviousIoWorkloadV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -13650,43 +13650,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#exec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#failure_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#grpc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#http_get DataK8SKubeviousIoWorkloadV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#initial_delay_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#success_threshold DataK8SKubeviousIoWorkloadV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tcp_socket DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#timeout_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14041,11 +14041,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#device_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#device_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -14184,27 +14184,27 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_propagation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#mount_propagation DataK8SKubeviousIoWorkloadV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#read_only DataK8SKubeviousIoWorkloadV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path_expr DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sub_path_expr DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -14459,91 +14459,91 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#args DataK8SKubeviousIoWorkloadV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#args DataK8SKubeviousIoWorkloadV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#command DataK8SKubeviousIoWorkloadV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#env_from DataK8SKubeviousIoWorkloadV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#lifecycle DataK8SKubeviousIoWorkloadV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#lifecycle DataK8SKubeviousIoWorkloadV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#liveness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#liveness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ports DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ports DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resources DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#resources DataK8SKubeviousIoWorkloadV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#startup_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#startup_probe DataK8SKubeviousIoWorkloadV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin_once DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#stdin_once DataK8SKubeviousIoWorkloadV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_path DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_message_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tty DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tty DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_devices DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_devices DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_mounts DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volume_mounts DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#working_dir DataK8SKubeviousIoWorkloadV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#working_dir DataK8SKubeviousIoWorkloadV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -15265,7 +15265,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitConta
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15356,7 +15356,7 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecOsOutputR
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecReadinessGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#condition_type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#condition_type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -15469,19 +15469,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecReadiness
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#level DataK8SKubeviousIoWorkloadV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#role DataK8SKubeviousIoWorkloadV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -15662,11 +15662,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityC
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#localhost_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#type DataK8SKubeviousIoWorkloadV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -15786,11 +15786,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityC
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -15929,19 +15929,19 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityC
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#gmsa_credential_spec_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_process DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16122,43 +16122,43 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityC
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#fs_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#fs_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#fs_group_change_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#fs_group_change_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_group DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_non_root DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#run_as_user DataK8SKubeviousIoWorkloadV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#se_linux_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#seccomp_profile DataK8SKubeviousIoWorkloadV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#supplemental_groups DataK8SKubeviousIoWorkloadV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#supplemental_groups DataK8SKubeviousIoWorkloadV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sysctls DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#sysctls DataK8SKubeviousIoWorkloadV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#windows_options DataK8SKubeviousIoWorkloadV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContextWindowsOptions;
 }
@@ -16513,23 +16513,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityC
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#effect DataK8SKubeviousIoWorkloadV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#effect DataK8SKubeviousIoWorkloadV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#toleration_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#toleration_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#value DataK8SKubeviousIoWorkloadV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16761,15 +16761,15 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecToleratio
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16937,11 +16937,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologyS
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17064,23 +17064,23 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologyS
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#max_skew DataK8SKubeviousIoWorkloadV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#max_skew DataK8SKubeviousIoWorkloadV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#min_domains DataK8SKubeviousIoWorkloadV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#min_domains DataK8SKubeviousIoWorkloadV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#when_unsatisfiable DataK8SKubeviousIoWorkloadV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#when_unsatisfiable DataK8SKubeviousIoWorkloadV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -17303,147 +17303,147 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologyS
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#active_deadline_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#active_deadline_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#affinity DataK8SKubeviousIoWorkloadV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#affinity DataK8SKubeviousIoWorkloadV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#automount_service_account_token DataK8SKubeviousIoWorkloadV1Alpha1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#automount_service_account_token DataK8SKubeviousIoWorkloadV1Alpha1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#containers}
   */
   readonly containers: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#dns_config DataK8SKubeviousIoWorkloadV1Alpha1Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#dns_config DataK8SKubeviousIoWorkloadV1Alpha1Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecDnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#dns_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#dns_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#enable_service_links DataK8SKubeviousIoWorkloadV1Alpha1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#enable_service_links DataK8SKubeviousIoWorkloadV1Alpha1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ephemeral_containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ephemeral_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#ephemeral_containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#ephemeral_containers}
   */
   readonly ephemeralContainers?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecEphemeralContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_aliases DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_aliases DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecHostAliases[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ipc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_ipc DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_network DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_network DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_pid DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#host_pid DataK8SKubeviousIoWorkloadV1Alpha1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#hostname DataK8SKubeviousIoWorkloadV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#hostname DataK8SKubeviousIoWorkloadV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_secrets DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#image_pull_secrets DataK8SKubeviousIoWorkloadV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#init_containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#init_containers DataK8SKubeviousIoWorkloadV1Alpha1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#node_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#node_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#node_selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#node_selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#os DataK8SKubeviousIoWorkloadV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#os DataK8SKubeviousIoWorkloadV1Alpha1Manifest#os}
   */
   readonly os?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecOs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#overhead DataK8SKubeviousIoWorkloadV1Alpha1Manifest#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#overhead DataK8SKubeviousIoWorkloadV1Alpha1Manifest#overhead}
   */
   readonly overhead?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#preemption_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#preemption_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#priority DataK8SKubeviousIoWorkloadV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#priority DataK8SKubeviousIoWorkloadV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#priority_class_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#priority_class_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_gates DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#readiness_gates DataK8SKubeviousIoWorkloadV1Alpha1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecReadinessGates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#restart_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#restart_policy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#runtime_class_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#runtime_class_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheduler_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#scheduler_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#security_context DataK8SKubeviousIoWorkloadV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service_account DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service_account DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service_account_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#service_account_name DataK8SKubeviousIoWorkloadV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#set_hostname_as_fqdn DataK8SKubeviousIoWorkloadV1Alpha1Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#set_hostname_as_fqdn DataK8SKubeviousIoWorkloadV1Alpha1Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#share_process_namespace DataK8SKubeviousIoWorkloadV1Alpha1Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#share_process_namespace DataK8SKubeviousIoWorkloadV1Alpha1Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#subdomain DataK8SKubeviousIoWorkloadV1Alpha1Manifest#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#subdomain DataK8SKubeviousIoWorkloadV1Alpha1Manifest#subdomain}
   */
   readonly subdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#termination_grace_period_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tolerations DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#tolerations DataK8SKubeviousIoWorkloadV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#topology_spread_constraints DataK8SKubeviousIoWorkloadV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#topology_spread_constraints DataK8SKubeviousIoWorkloadV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volumes DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#volumes DataK8SKubeviousIoWorkloadV1Alpha1Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -18549,11 +18549,11 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpecOutputRef
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#metadata DataK8SKubeviousIoWorkloadV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#metadata DataK8SKubeviousIoWorkloadV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#spec DataK8SKubeviousIoWorkloadV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateSpec;
 }
@@ -18676,39 +18676,39 @@ export class DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplateOutputReferen
 }
 export interface DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#min_ready_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#min_ready_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#paused DataK8SKubeviousIoWorkloadV1Alpha1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#paused DataK8SKubeviousIoWorkloadV1Alpha1Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#progress_deadline_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#progress_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#progress_deadline_seconds DataK8SKubeviousIoWorkloadV1Alpha1Manifest#progress_deadline_seconds}
   */
   readonly progressDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#replicas DataK8SKubeviousIoWorkloadV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#replicas DataK8SKubeviousIoWorkloadV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#revision_history_limit DataK8SKubeviousIoWorkloadV1Alpha1Manifest#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#revision_history_limit DataK8SKubeviousIoWorkloadV1Alpha1Manifest#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#schedule DataK8SKubeviousIoWorkloadV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#schedule DataK8SKubeviousIoWorkloadV1Alpha1Manifest#schedule}
   */
   readonly schedule?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecSchedule[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#selector DataK8SKubeviousIoWorkloadV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#strategy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#strategy DataK8SKubeviousIoWorkloadV1Alpha1Manifest#strategy}
   */
   readonly strategy?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#template DataK8SKubeviousIoWorkloadV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kubevious_io_workload_v1alpha1_manifest#template DataK8SKubeviousIoWorkloadV1Alpha1Manifest#template}
   */
   readonly template?: DataK8SKubeviousIoWorkloadV1Alpha1ManifestSpecTemplate;
 }

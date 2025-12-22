@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "ionoscloud": "6.7.20"
+    "ionoscloud": "6.7.21"
   }
 }

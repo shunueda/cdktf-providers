@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIonoscloudVpnIpsecGatewayConfig extends cdktf.TerraformMeta
   /**
   * The ID of the IPSec Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway#id DataIonoscloudVpnIpsecGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway#id DataIonoscloudVpnIpsecGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataIonoscloudVpnIpsecGatewayConfig extends cdktf.TerraformMeta
   /**
   * The location of the IPSec Gateway. Supported locations: de/fra, de/fra/2, de/txl, es/vit, gb/bhx, gb/lhr, us/ewr, us/las, us/mci, fr/par
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway#location DataIonoscloudVpnIpsecGateway#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway#location DataIonoscloudVpnIpsecGateway#location}
   */
   readonly location?: string;
   /**
   * The human readable name of your IPSec Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway#name DataIonoscloudVpnIpsecGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway#name DataIonoscloudVpnIpsecGateway#name}
   */
   readonly name?: string;
   /**
   * The IKE version that is permitted for the VPN tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway#version DataIonoscloudVpnIpsecGateway#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway#version DataIonoscloudVpnIpsecGateway#version}
   */
   readonly version?: string;
 }
@@ -207,7 +207,7 @@ export class DataIonoscloudVpnIpsecGatewayMaintenanceWindowList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway ionoscloud_vpn_ipsec_gateway}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway ionoscloud_vpn_ipsec_gateway}
 */
 export class DataIonoscloudVpnIpsecGateway extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataIonoscloudVpnIpsecGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIonoscloudVpnIpsecGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudVpnIpsecGateway to import
-  * @param importFromId The id of the existing DataIonoscloudVpnIpsecGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudVpnIpsecGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudVpnIpsecGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataIonoscloudVpnIpsecGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/vpn_ipsec_gateway ionoscloud_vpn_ipsec_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/vpn_ipsec_gateway ionoscloud_vpn_ipsec_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataIonoscloudVpnIpsecGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_vpn_ipsec_gateway',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

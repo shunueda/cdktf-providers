@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface MdtSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#device MdtSubscription#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#device MdtSubscription#device}
   */
   readonly device?: string;
   /**
   * Update notification encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#encoding MdtSubscription#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#encoding MdtSubscription#encoding}
   */
   readonly encoding?: string;
   /**
   * XPath expression describing the set of objects wanted as part of the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#filter_xpath MdtSubscription#filter_xpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#filter_xpath MdtSubscription#filter_xpath}
   */
   readonly filterXpath?: string;
   /**
   * Configuration of receivers of configured subscriptions. Use of this is deprecated. Use mdt-receiver-names instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#receivers MdtSubscription#receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#receivers MdtSubscription#receivers}
   */
   readonly receivers?: MdtSubscriptionReceivers[] | cdktf.IResolvable;
   /**
   * The source address for the notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#source_address MdtSubscription#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#source_address MdtSubscription#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Network instance name for the VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#source_vrf MdtSubscription#source_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#source_vrf MdtSubscription#source_vrf}
   */
   readonly sourceVrf?: string;
   /**
   * The name of the event stream being subscribed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#stream MdtSubscription#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#stream MdtSubscription#stream}
   */
   readonly stream?: string;
   /**
   * Unique subscription identifier.
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#subscription_id MdtSubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#subscription_id MdtSubscription#subscription_id}
   */
   readonly subscriptionId: number;
   /**
   * If true, there is no initial update notification with the current value of all the data. NOT CURRENTLY SUPPORTED. If specified, must be false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#update_policy_on_change MdtSubscription#update_policy_on_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#update_policy_on_change MdtSubscription#update_policy_on_change}
   */
   readonly updatePolicyOnChange?: boolean | cdktf.IResolvable;
   /**
   * Period of update notifications in hundredths of a second
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#update_policy_periodic MdtSubscription#update_policy_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#update_policy_periodic MdtSubscription#update_policy_periodic}
   */
   readonly updatePolicyPeriodic?: number;
 }
@@ -74,20 +74,20 @@ export interface MdtSubscriptionReceivers {
   /**
   * IP address of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#address MdtSubscription#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#address MdtSubscription#address}
   */
   readonly address: string;
   /**
   * Network port of the receiver
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#port MdtSubscription#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#port MdtSubscription#port}
   */
   readonly port: number;
   /**
   * Receiver transport protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#protocol MdtSubscription#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#protocol MdtSubscription#protocol}
   */
   readonly protocol: string;
 }
@@ -252,7 +252,7 @@ export class MdtSubscriptionReceiversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription iosxe_mdt_subscription}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription iosxe_mdt_subscription}
 */
 export class MdtSubscription extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class MdtSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdtSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdtSubscription to import
-  * @param importFromId The id of the existing MdtSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdtSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdtSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class MdtSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mdt_subscription iosxe_mdt_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/mdt_subscription iosxe_mdt_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class MdtSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_mdt_subscription',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

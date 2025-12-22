@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#metadata DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#metadata DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestMetadata;
   /**
   * FeedInventorySpec defines the desired state of FeedInventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#spec DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#spec DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#annotations DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#annotations DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preference DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preference DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_fields DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_selector_terms DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_selector_terms DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,37 +2228,37 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2496,13 +2496,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity_term DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity_term DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2643,19 +2643,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2825,13 +2825,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2956,19 +2956,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3138,13 +3138,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3269,37 +3269,37 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3559,13 +3559,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3690,19 +3690,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3872,13 +3872,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4003,19 +4003,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4185,13 +4185,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4316,37 +4316,37 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4584,13 +4584,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity_term DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity_term DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#weight DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4731,19 +4731,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4913,13 +4913,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5044,19 +5044,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#values DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5226,13 +5226,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5357,37 +5357,37 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#label_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#match_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#mismatch_label_keys DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespaces DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#topology_key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5647,13 +5647,13 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5778,19 +5778,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_anti_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#pod_anti_affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinityPodAntiAffinity;
 }
@@ -5944,7 +5944,7 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6059,19 +6059,19 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#claims DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#claims DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#limits DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#limits DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#requests DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#requests DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6225,31 +6225,31 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#effect DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#effect DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#key DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#operator DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#toleration_seconds DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#toleration_seconds DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#value DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#value DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6483,25 +6483,25 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsRe
   /**
   * Affinity specifies the scheduling constraints of a new replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#affinity DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsAffinity;
   /**
   * NodeSelector specifies hard node constraints that must be met for a new replica to fit on a node. Selector which must match a node's labels for a new replica to be scheduled on that node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#node_selector DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#resources DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#resources DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsResources;
   /**
   * Tolerations specifies the tolerations of a new replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#tolerations DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#tolerations DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirementsTolerations[] | cdktf.IResolvable;
 }
@@ -6684,43 +6684,43 @@ export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeeds {
   /**
   * APIVersion defines the versioned schema of this representation of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#api_version DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#api_version DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * DesiredReplicas specifies the number of desired replica. This is a pointer to distinguish between explicit zero and not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#desired_replicas DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#desired_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#desired_replicas DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#desired_replicas}
   */
   readonly desiredReplicas?: number;
   /**
   * Kind is a string value representing the REST resource this object represents. In CamelCase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#kind DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#kind DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#name DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#namespace DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ReplicaJsonPath specifies the JSONPath for replica settings, such as '/spec/replicas' for Deployment/StatefulSet/ReplicaSet. Should not be empty when DesiredReplicas is non-nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#replica_json_path DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#replica_json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#replica_json_path DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#replica_json_path}
   */
   readonly replicaJsonPath?: string;
   /**
   * ReplicaRequirements describes the scheduling requirements for a new replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#replica_requirements DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#replica_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#replica_requirements DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#replica_requirements}
   */
   readonly replicaRequirements?: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsReplicaRequirements;
 }
@@ -7001,7 +7001,7 @@ export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeedsList e
 }
 export interface DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#feeds DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#feeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#feeds DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest#feeds}
   */
   readonly feeds: DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecFeeds[] | cdktf.IResolvable;
 }
@@ -7092,7 +7092,7 @@ export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest k8s_apps_clusternet_io_feed_inventory_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest k8s_apps_clusternet_io_feed_inventory_v1alpha1_manifest}
 */
 export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -7108,7 +7108,7 @@ export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7120,7 +7120,7 @@ export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest k8s_apps_clusternet_io_feed_inventory_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_feed_inventory_v1alpha1_manifest k8s_apps_clusternet_io_feed_inventory_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7131,8 +7131,8 @@ export class DataK8SAppsClusternetIoFeedInventoryV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_apps_clusternet_io_feed_inventory_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

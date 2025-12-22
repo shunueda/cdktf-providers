@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ApigatewayRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the API Gateway that the route belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#gateway_id ApigatewayRoute#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#gateway_id ApigatewayRoute#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * The HTTP methods that the route should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#methods ApigatewayRoute#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#methods ApigatewayRoute#methods}
   */
   readonly methods: string[];
   /**
   * The name of the API Gateway Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#name ApigatewayRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#name ApigatewayRoute#name}
   */
   readonly name: string;
   /**
   * The paths that the route should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#paths ApigatewayRoute#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#paths ApigatewayRoute#paths}
   */
   readonly paths: string[];
   /**
   * This field specifies the protocol used by the ingress to route traffic to the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#type ApigatewayRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#type ApigatewayRoute#type}
   */
   readonly type?: string;
   /**
   * To enable websocket support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#websocket ApigatewayRoute#websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#websocket ApigatewayRoute#websocket}
   */
   readonly websocket?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#timeouts ApigatewayRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#timeouts ApigatewayRoute#timeouts}
   */
   readonly timeouts?: ApigatewayRouteTimeouts;
   /**
   * upstreams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#upstreams ApigatewayRoute#upstreams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#upstreams ApigatewayRoute#upstreams}
   */
   readonly upstreams: ApigatewayRouteUpstreams[] | cdktf.IResolvable;
 }
 export interface ApigatewayRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#create ApigatewayRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#create ApigatewayRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#default ApigatewayRoute#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#default ApigatewayRoute#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#delete ApigatewayRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#delete ApigatewayRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#update ApigatewayRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#update ApigatewayRoute#update}
   */
   readonly update?: string;
 }
@@ -253,31 +253,31 @@ export interface ApigatewayRouteUpstreams {
   /**
   * The host of the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#host ApigatewayRoute#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#host ApigatewayRoute#host}
   */
   readonly host: string;
   /**
   * The load balancer algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#loadbalancer ApigatewayRoute#loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#loadbalancer ApigatewayRoute#loadbalancer}
   */
   readonly loadbalancer?: string;
   /**
   * The port of the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#port ApigatewayRoute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#port ApigatewayRoute#port}
   */
   readonly port?: number;
   /**
   * The target URL of the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#scheme ApigatewayRoute#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#scheme ApigatewayRoute#scheme}
   */
   readonly scheme?: string;
   /**
   * Weight with which to split traffic to the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#weight ApigatewayRoute#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#weight ApigatewayRoute#weight}
   */
   readonly weight?: number;
 }
@@ -506,7 +506,7 @@ export class ApigatewayRouteUpstreamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route ionoscloud_apigateway_route}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route ionoscloud_apigateway_route}
 */
 export class ApigatewayRoute extends cdktf.TerraformResource {
 
@@ -522,7 +522,7 @@ export class ApigatewayRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewayRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayRoute to import
-  * @param importFromId The id of the existing ApigatewayRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class ApigatewayRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/apigateway_route ionoscloud_apigateway_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/apigateway_route ionoscloud_apigateway_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class ApigatewayRoute extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_apigateway_route',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

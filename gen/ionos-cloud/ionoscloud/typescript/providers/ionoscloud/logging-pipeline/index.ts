@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LoggingPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#id LoggingPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#id LoggingPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface LoggingPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of your logging pipeline. Default: de/txl. Supported locations: de/fra, de/fra/2, de/txl, es/vit, gb/lhr, fr/par
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#location LoggingPipeline#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#location LoggingPipeline#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#name LoggingPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#name LoggingPipeline#name}
   */
   readonly name: string;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#log LoggingPipeline#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#log LoggingPipeline#log}
   */
   readonly log: LoggingPipelineLog[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#timeouts LoggingPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#timeouts LoggingPipeline#timeouts}
   */
   readonly timeouts?: LoggingPipelineTimeouts;
 }
@@ -41,11 +41,11 @@ export interface LoggingPipelineLogDestinations {
   /**
   * Defines the number of days a log record should be kept in loki. Works with loki destination type only. Possible values are: 7, 14, 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#retention_in_days LoggingPipeline#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#retention_in_days LoggingPipeline#retention_in_days}
   */
   readonly retentionInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#type LoggingPipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#type LoggingPipeline#type}
   */
   readonly type?: string;
 }
@@ -192,25 +192,25 @@ export interface LoggingPipelineLog {
   /**
   * Protocol to use as intake. Possible values are: http, tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#protocol LoggingPipeline#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#protocol LoggingPipeline#protocol}
   */
   readonly protocol: string;
   /**
   * The source parser to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#source LoggingPipeline#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#source LoggingPipeline#source}
   */
   readonly source: string;
   /**
   * The tag is used to distinguish different pipelines. Must be unique amongst the pipeline's array items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#tag LoggingPipeline#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#tag LoggingPipeline#tag}
   */
   readonly tag: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#destinations LoggingPipeline#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#destinations LoggingPipeline#destinations}
   */
   readonly destinations?: LoggingPipelineLogDestinations[] | cdktf.IResolvable;
 }
@@ -409,19 +409,19 @@ export class LoggingPipelineLogList extends cdktf.ComplexList {
 }
 export interface LoggingPipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#create LoggingPipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#create LoggingPipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#default LoggingPipeline#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#default LoggingPipeline#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#delete LoggingPipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#delete LoggingPipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#update LoggingPipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#update LoggingPipeline#update}
   */
   readonly update?: string;
 }
@@ -602,7 +602,7 @@ export class LoggingPipelineTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline ionoscloud_logging_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline ionoscloud_logging_pipeline}
 */
 export class LoggingPipeline extends cdktf.TerraformResource {
 
@@ -618,7 +618,7 @@ export class LoggingPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingPipeline to import
-  * @param importFromId The id of the existing LoggingPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -630,7 +630,7 @@ export class LoggingPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/logging_pipeline ionoscloud_logging_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/logging_pipeline ionoscloud_logging_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -641,8 +641,8 @@ export class LoggingPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_logging_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

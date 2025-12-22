@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#metadata DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#metadata DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestMetadata;
   /**
   * NameServiceSpec defines the desired state of NameService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#annotations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#annotations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_fields DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_fields DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preference DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preference DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_fields DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_fields DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_selector_terms DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_selector_terms DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity_term DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity_term DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity_term DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity_term DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#weight DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#label_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespaces DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#topology_key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_anti_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#pod_anti_affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5664,13 +5664,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContaine
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#add DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#add DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#drop DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#drop DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -5795,25 +5795,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContaine
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#level DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#level DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#role DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#role DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5996,13 +5996,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContaine
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#localhost_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#localhost_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6124,25 +6124,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContaine
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_process DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_process DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6325,67 +6325,67 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContaine
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#allow_privilege_escalation DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#allow_privilege_escalation DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#capabilities DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#capabilities DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContainerSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#privileged DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#privileged DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#proc_mount DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#proc_mount DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#read_only_root_filesystem DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#read_only_root_filesystem DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_non_root DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_non_root DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#se_linux_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#se_linux_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContainerSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#seccomp_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#seccomp_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContainerSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#windows_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#windows_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContainerSecurityContextWindowsOptions;
 }
@@ -6771,19 +6771,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValue
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#optional DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#optional DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6934,13 +6934,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValue
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_version DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_version DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#field_path DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#field_path DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7062,19 +7062,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValue
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#container_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#container_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#divisor DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#divisor DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resource DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resource DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7225,19 +7225,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValue
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#optional DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#optional DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7388,25 +7388,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValue
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#config_map_key_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#config_map_key_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#field_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#field_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resource_field_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resource_field_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#secret_key_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#secret_key_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -7589,19 +7589,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value_from DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value_from DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -7774,7 +7774,7 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecImagePul
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7892,13 +7892,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecResource
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#limits DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#limits DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#requests DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#requests DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8023,25 +8023,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurity
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#level DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#level DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#role DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#role DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8224,13 +8224,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurity
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#localhost_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#localhost_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8352,13 +8352,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurity
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8499,25 +8499,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurity
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#gmsa_credential_spec_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_process DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_process DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8700,61 +8700,61 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurity
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#fs_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#fs_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#fs_group_change_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#fs_group_change_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_non_root DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_non_root DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#run_as_user DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#se_linux_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#se_linux_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#seccomp_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#seccomp_profile DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID. If unspecified, no groups will be added to any container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#supplemental_groups DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#supplemental_groups DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#sysctls DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#sysctls DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#windows_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#windows_options DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -9111,31 +9111,31 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecTolerati
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#effect DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#effect DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#toleration_seconds DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#toleration_seconds DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#value DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9367,23 +9367,23 @@ export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecTolerationsL
 }
 export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#annotations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#annotations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#finalizers DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#finalizers DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#namespace DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9595,19 +9595,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9755,19 +9755,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_group DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9915,13 +9915,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#limits DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#limits DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#requests DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#requests DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10046,19 +10046,19 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#key DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#operator DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#values DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10228,13 +10228,13 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_expressions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#match_labels DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10359,49 +10359,49 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * AccessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#access_modes DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#access_modes DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * This field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. If the AnyVolumeDataSource feature gate is enabled, this field will always have the same contents as the DataSourceRef field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#data_source DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#data_source DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpecDataSource;
   /**
   * Specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any local object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the DataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, both fields (DataSource and DataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. There are two important differences between DataSource and DataSourceRef: * While DataSource only allows two specific types of objects, DataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While DataSource ignores disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Alpha) Using this field requires the AnyVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#data_source_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#data_source_ref DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * Resources represents the minimum resources the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resources DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resources DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpecResources;
   /**
   * A label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpecSelector;
   /**
   * Name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#storage_class_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#storage_class_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_mode DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_mode DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * VolumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -10700,35 +10700,35 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * Last time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#last_probe_time DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#last_probe_time DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * Last time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#last_transition_time DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#last_transition_time DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * Human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#message DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#message DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * Unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#reason DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#reason DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#status DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#status DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#type DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -10985,25 +10985,25 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * AccessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#access_modes DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#access_modes DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * Represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#capacity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#capacity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * Current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#conditions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#conditions DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesStatusConditions[] | cdktf.IResolvable;
   /**
   * Phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#phase DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#phase DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
 }
@@ -11186,31 +11186,31 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeCl
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_version DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#api_version DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#kind DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#metadata DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#metadata DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesMetadata;
   /**
   * Spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#spec DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesSpec;
   /**
   * Status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#status DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#status DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplatesStatus;
 }
@@ -11444,109 +11444,109 @@ export interface DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpec {
   /**
   * Affinity the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#affinity DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecAffinity;
   /**
   * Container Security Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#container_security_context DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#container_security_context DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecContainerSecurityContext;
   /**
   * dnsPolicy defines how a pod's DNS will be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#dns_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#dns_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#dns_policy}
   */
   readonly dnsPolicy: string;
   /**
   * Env defines custom env, e.g. JAVA_OPT_EXT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#env DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#env DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * HostNetwork can be true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_network DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_network DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_network}
   */
   readonly hostNetwork: boolean | cdktf.IResolvable;
   /**
   * HostPath is the local path to store data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_path DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#host_path DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#host_path}
   */
   readonly hostPath: string;
   /**
   * ImagePullPolicy defines how the image is pulled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#image_pull_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#image_pull_policy DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy: string;
   /**
   * The secrets used to pull image from private registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#image_pull_secrets DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#image_pull_secrets DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * NameServiceImage is the name service image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name_service_image DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name_service_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#name_service_image DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#name_service_image}
   */
   readonly nameServiceImage: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#node_selector DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PriorityClassName indicates the pod's priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#priority_class_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#priority_class_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Resources describes the compute resource requirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resources DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#resources DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#resources}
   */
   readonly resources: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecResources;
   /**
   * Pod Security Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#security_context DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#security_context DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecSecurityContext;
   /**
   * ServiceAccountName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#service_account_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#service_account_name DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * INSERT ADDITIONAL SPEC FIELDS - desired state of cluster Important: Run 'operator-sdk generate k8s' to regenerate code after modifying this file Add custom validation using kubebuilder tags: https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html Size is the number of the name service Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#size DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#size DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#size}
   */
   readonly size: number;
   /**
   * StorageMode can be EmptyDir, HostPath, StorageClass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#storage_mode DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#storage_mode DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode: string;
   /**
   * Tolerations the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#tolerations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#tolerations DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * VolumeClaimTemplates defines the StorageClass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_claim_templates DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#volume_claim_templates DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates: DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecVolumeClaimTemplates[] | cdktf.IResolvable;
 }
@@ -12106,7 +12106,7 @@ export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest k8s_rocketmq_apache_org_name_service_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest k8s_rocketmq_apache_org_name_service_v1alpha1_manifest}
 */
 export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12122,7 +12122,7 @@ export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12134,7 +12134,7 @@ export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest k8s_rocketmq_apache_org_name_service_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/rocketmq_apache_org_name_service_v1alpha1_manifest k8s_rocketmq_apache_org_name_service_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12145,8 +12145,8 @@ export class DataK8SRocketmqApacheOrgNameServiceV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_rocketmq_apache_org_name_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

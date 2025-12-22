@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DatacenterNsgSelectionConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the Datacenter to which the NSG will be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#datacenter_id DatacenterNsgSelection#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#datacenter_id DatacenterNsgSelection#datacenter_id}
   */
   readonly datacenterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#id DatacenterNsgSelection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#id DatacenterNsgSelection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DatacenterNsgSelectionConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the NSG which will be attached to the datacenter. If an empty string is specified and a NSG was attached previously, it will be unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#nsg_id DatacenterNsgSelection#nsg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#nsg_id DatacenterNsgSelection#nsg_id}
   */
   readonly nsgId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#timeouts DatacenterNsgSelection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#timeouts DatacenterNsgSelection#timeouts}
   */
   readonly timeouts?: DatacenterNsgSelectionTimeouts;
 }
 export interface DatacenterNsgSelectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#create DatacenterNsgSelection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#create DatacenterNsgSelection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#default DatacenterNsgSelection#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#default DatacenterNsgSelection#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#delete DatacenterNsgSelection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#delete DatacenterNsgSelection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#update DatacenterNsgSelection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#update DatacenterNsgSelection#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class DatacenterNsgSelectionTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection ionoscloud_datacenter_nsg_selection}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection ionoscloud_datacenter_nsg_selection}
 */
 export class DatacenterNsgSelection extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class DatacenterNsgSelection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterNsgSelection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterNsgSelection to import
-  * @param importFromId The id of the existing DatacenterNsgSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterNsgSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterNsgSelection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class DatacenterNsgSelection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/datacenter_nsg_selection ionoscloud_datacenter_nsg_selection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/datacenter_nsg_selection ionoscloud_datacenter_nsg_selection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class DatacenterNsgSelection extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_datacenter_nsg_selection',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

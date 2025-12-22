@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAcmeCertManagerIoOrderV1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#metadata DataK8SAcmeCertManagerIoOrderV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#metadata DataK8SAcmeCertManagerIoOrderV1Manifest#metadata}
   */
   readonly metadata: DataK8SAcmeCertManagerIoOrderV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#spec DataK8SAcmeCertManagerIoOrderV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#spec DataK8SAcmeCertManagerIoOrderV1Manifest#spec}
   */
   readonly spec: DataK8SAcmeCertManagerIoOrderV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAcmeCertManagerIoOrderV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#annotations DataK8SAcmeCertManagerIoOrderV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#annotations DataK8SAcmeCertManagerIoOrderV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#labels DataK8SAcmeCertManagerIoOrderV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#labels DataK8SAcmeCertManagerIoOrderV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#name DataK8SAcmeCertManagerIoOrderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#name DataK8SAcmeCertManagerIoOrderV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#namespace DataK8SAcmeCertManagerIoOrderV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#namespace DataK8SAcmeCertManagerIoOrderV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SAcmeCertManagerIoOrderV1ManifestSpecIssuerRef {
   /**
   * Group of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#group DataK8SAcmeCertManagerIoOrderV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#group DataK8SAcmeCertManagerIoOrderV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#kind DataK8SAcmeCertManagerIoOrderV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#kind DataK8SAcmeCertManagerIoOrderV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#name DataK8SAcmeCertManagerIoOrderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#name DataK8SAcmeCertManagerIoOrderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -380,37 +380,37 @@ export interface DataK8SAcmeCertManagerIoOrderV1ManifestSpec {
   /**
   * CommonName is the common name as specified on the DER encoded CSR. If specified, this value must also be present in 'dnsNames' or 'ipAddresses'. This field must match the corresponding field on the DER encoded CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#common_name DataK8SAcmeCertManagerIoOrderV1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#common_name DataK8SAcmeCertManagerIoOrderV1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
   * DNSNames is a list of DNS names that should be included as part of the Order validation process. This field must match the corresponding field on the DER encoded CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#dns_names DataK8SAcmeCertManagerIoOrderV1Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#dns_names DataK8SAcmeCertManagerIoOrderV1Manifest#dns_names}
   */
   readonly dnsNames?: string[];
   /**
   * Duration is the duration for the not after date for the requested certificate. this is set on order creation as pe the ACME spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#duration DataK8SAcmeCertManagerIoOrderV1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#duration DataK8SAcmeCertManagerIoOrderV1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * IPAddresses is a list of IP addresses that should be included as part of the Order validation process. This field must match the corresponding field on the DER encoded CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#ip_addresses DataK8SAcmeCertManagerIoOrderV1Manifest#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#ip_addresses DataK8SAcmeCertManagerIoOrderV1Manifest#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * IssuerRef references a properly configured ACME-type Issuer which should be used to create this Order. If the Issuer does not exist, processing will be retried. If the Issuer is not an 'ACME' Issuer, an error will be returned and the Order will be marked as failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#issuer_ref DataK8SAcmeCertManagerIoOrderV1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#issuer_ref DataK8SAcmeCertManagerIoOrderV1Manifest#issuer_ref}
   */
   readonly issuerRef: DataK8SAcmeCertManagerIoOrderV1ManifestSpecIssuerRef;
   /**
   * Certificate signing request bytes in DER encoding. This will be used when finalizing the order. This field must be set on the order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#request DataK8SAcmeCertManagerIoOrderV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#request DataK8SAcmeCertManagerIoOrderV1Manifest#request}
   */
   readonly request: string;
 }
@@ -643,7 +643,7 @@ export class DataK8SAcmeCertManagerIoOrderV1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest k8s_acme_cert_manager_io_order_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest k8s_acme_cert_manager_io_order_v1_manifest}
 */
 export class DataK8SAcmeCertManagerIoOrderV1Manifest extends cdktf.TerraformDataSource {
 
@@ -659,7 +659,7 @@ export class DataK8SAcmeCertManagerIoOrderV1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SAcmeCertManagerIoOrderV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAcmeCertManagerIoOrderV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAcmeCertManagerIoOrderV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAcmeCertManagerIoOrderV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAcmeCertManagerIoOrderV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -671,7 +671,7 @@ export class DataK8SAcmeCertManagerIoOrderV1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/acme_cert_manager_io_order_v1_manifest k8s_acme_cert_manager_io_order_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/acme_cert_manager_io_order_v1_manifest k8s_acme_cert_manager_io_order_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -682,8 +682,8 @@ export class DataK8SAcmeCertManagerIoOrderV1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_acme_cert_manager_io_order_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

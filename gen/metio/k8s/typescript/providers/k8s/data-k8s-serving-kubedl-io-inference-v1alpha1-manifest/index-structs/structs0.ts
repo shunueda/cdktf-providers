@@ -3,25 +3,25 @@ export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#annotations DataK8SServingKubedlIoInferenceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#annotations DataK8SServingKubedlIoInferenceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,31 +196,31 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestMetadataOutputRefere
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsAutoScaleAutoScaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#kind DataK8SServingKubedlIoInferenceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#kind DataK8SServingKubedlIoInferenceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#uid DataK8SServingKubedlIoInferenceV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#uid DataK8SServingKubedlIoInferenceV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -488,15 +488,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsAutoSc
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsAutoScale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#auto_scaler DataK8SServingKubedlIoInferenceV1Alpha1Manifest#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#auto_scaler DataK8SServingKubedlIoInferenceV1Alpha1Manifest#auto_scaler}
   */
   readonly autoScaler: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsAutoScaleAutoScaler;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#max_replicas DataK8SServingKubedlIoInferenceV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#max_replicas DataK8SServingKubedlIoInferenceV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#min_replicas DataK8SServingKubedlIoInferenceV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#min_replicas DataK8SServingKubedlIoInferenceV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
 }
@@ -645,11 +645,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsAutoSc
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsBatching {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#batch_size DataK8SServingKubedlIoInferenceV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#batch_size DataK8SServingKubedlIoInferenceV1Alpha1Manifest#batch_size}
   */
   readonly batchSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -769,23 +769,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsBatchi
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#annotations DataK8SServingKubedlIoInferenceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#annotations DataK8SServingKubedlIoInferenceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#finalizers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#finalizers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -995,15 +995,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1171,15 +1171,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1347,11 +1347,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_fields DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_fields DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1474,11 +1474,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preference DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preference DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1617,15 +1617,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1793,15 +1793,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1969,11 +1969,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_fields DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_fields DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2118,7 +2118,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#node_selector_terms DataK8SServingKubedlIoInferenceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#node_selector_terms DataK8SServingKubedlIoInferenceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2209,11 +2209,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2336,15 +2336,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2512,11 +2512,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2639,15 +2639,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2815,11 +2815,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2942,19 +2942,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3132,11 +3132,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity_term DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity_term DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3275,15 +3275,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3451,11 +3451,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3578,15 +3578,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3754,11 +3754,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3881,19 +3881,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4093,11 +4093,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4220,15 +4220,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4396,11 +4396,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4523,15 +4523,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4699,11 +4699,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4826,19 +4826,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5016,11 +5016,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity_term DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity_term DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#weight DataK8SServingKubedlIoInferenceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5159,15 +5159,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5335,11 +5335,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5462,15 +5462,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#operator DataK8SServingKubedlIoInferenceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#values DataK8SServingKubedlIoInferenceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5638,11 +5638,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_expressions DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#match_labels DataK8SServingKubedlIoInferenceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5765,19 +5765,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#label_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespace_selector DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#namespaces DataK8SServingKubedlIoInferenceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#topology_key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5977,11 +5977,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SServingKubedlIoInferenceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6104,15 +6104,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#node_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#node_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_anti_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pod_anti_affinity DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6264,15 +6264,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6421,11 +6421,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6545,15 +6545,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6702,15 +6702,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6859,19 +6859,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7052,15 +7052,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvValueFrom;
 }
@@ -7231,11 +7231,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7358,11 +7358,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7485,15 +7485,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFromSecretRef;
 }
@@ -7667,7 +7667,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7761,11 +7761,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7904,23 +7904,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8127,11 +8127,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8251,15 +8251,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -8411,7 +8411,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8505,11 +8505,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8648,23 +8648,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8871,11 +8871,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8995,15 +8995,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -9155,11 +9155,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecyclePreStop;
 }
@@ -9282,7 +9282,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9376,11 +9376,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9519,23 +9519,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9742,11 +9742,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9866,39 +9866,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10224,23 +10224,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#protocol DataK8SServingKubedlIoInferenceV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#protocol DataK8SServingKubedlIoInferenceV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -10469,7 +10469,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10563,11 +10563,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -10706,23 +10706,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10929,11 +10929,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -11053,39 +11053,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11411,11 +11411,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#limits DataK8SServingKubedlIoInferenceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#limits DataK8SServingKubedlIoInferenceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#requests DataK8SServingKubedlIoInferenceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#requests DataK8SServingKubedlIoInferenceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11538,11 +11538,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#add DataK8SServingKubedlIoInferenceV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#add DataK8SServingKubedlIoInferenceV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#drop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#drop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -11665,19 +11665,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#level DataK8SServingKubedlIoInferenceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#level DataK8SServingKubedlIoInferenceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#role DataK8SServingKubedlIoInferenceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#role DataK8SServingKubedlIoInferenceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -11858,11 +11858,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#localhost_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#localhost_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -11982,19 +11982,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_process DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_process DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -12175,47 +12175,47 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#allow_privilege_escalation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#allow_privilege_escalation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#capabilities DataK8SServingKubedlIoInferenceV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#capabilities DataK8SServingKubedlIoInferenceV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#privileged DataK8SServingKubedlIoInferenceV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#privileged DataK8SServingKubedlIoInferenceV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#proc_mount DataK8SServingKubedlIoInferenceV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#proc_mount DataK8SServingKubedlIoInferenceV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only_root_filesystem DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only_root_filesystem DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_group DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_group DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_non_root DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_non_root DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#se_linux_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#se_linux_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#seccomp_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#seccomp_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#windows_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#windows_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -12599,7 +12599,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12693,11 +12693,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12836,23 +12836,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13059,11 +13059,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -13183,39 +13183,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13541,11 +13541,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#device_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#device_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13684,27 +13684,27 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_propagation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_propagation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path_expr DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path_expr DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -13959,91 +13959,91 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#args DataK8SServingKubedlIoInferenceV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#args DataK8SServingKubedlIoInferenceV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image_pull_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image_pull_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#lifecycle DataK8SServingKubedlIoInferenceV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#lifecycle DataK8SServingKubedlIoInferenceV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#liveness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#liveness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ports DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ports DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#readiness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#readiness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resources DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resources DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#security_context DataK8SServingKubedlIoInferenceV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#security_context DataK8SServingKubedlIoInferenceV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#startup_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#startup_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin_once DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin_once DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tty DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tty DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_devices DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_devices DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_mounts DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_mounts DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#working_dir DataK8SServingKubedlIoInferenceV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#working_dir DataK8SServingKubedlIoInferenceV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -14765,11 +14765,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14914,15 +14914,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#nameservers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#nameservers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#searches DataK8SServingKubedlIoInferenceV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#searches DataK8SServingKubedlIoInferenceV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -15074,15 +15074,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15231,11 +15231,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -15355,15 +15355,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -15512,15 +15512,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15669,19 +15669,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -15862,15 +15862,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -16041,11 +16041,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16168,11 +16168,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16295,15 +16295,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -16477,7 +16477,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -16571,11 +16571,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -16714,23 +16714,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -16937,11 +16937,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -17061,15 +17061,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -17221,7 +17221,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17315,11 +17315,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -17458,23 +17458,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17681,11 +17681,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -17805,15 +17805,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -17965,11 +17965,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -18092,7 +18092,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18186,11 +18186,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18329,23 +18329,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18552,11 +18552,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -18676,39 +18676,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -19034,23 +19034,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#protocol DataK8SServingKubedlIoInferenceV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#protocol DataK8SServingKubedlIoInferenceV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -19279,7 +19279,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19373,11 +19373,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -19516,23 +19516,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19739,11 +19739,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -19863,39 +19863,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20221,11 +20221,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#limits DataK8SServingKubedlIoInferenceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#limits DataK8SServingKubedlIoInferenceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#requests DataK8SServingKubedlIoInferenceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#requests DataK8SServingKubedlIoInferenceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20348,11 +20348,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#add DataK8SServingKubedlIoInferenceV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#add DataK8SServingKubedlIoInferenceV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#drop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#drop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -20475,19 +20475,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#level DataK8SServingKubedlIoInferenceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#level DataK8SServingKubedlIoInferenceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#role DataK8SServingKubedlIoInferenceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#role DataK8SServingKubedlIoInferenceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -20668,11 +20668,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#localhost_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#localhost_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#type DataK8SServingKubedlIoInferenceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -20792,19 +20792,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#gmsa_credential_spec_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_process DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host_process DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -20985,47 +20985,47 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#allow_privilege_escalation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#allow_privilege_escalation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#capabilities DataK8SServingKubedlIoInferenceV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#capabilities DataK8SServingKubedlIoInferenceV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#privileged DataK8SServingKubedlIoInferenceV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#privileged DataK8SServingKubedlIoInferenceV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#proc_mount DataK8SServingKubedlIoInferenceV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#proc_mount DataK8SServingKubedlIoInferenceV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only_root_filesystem DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only_root_filesystem DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_group DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_group DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_non_root DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_non_root DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#run_as_user DataK8SServingKubedlIoInferenceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#se_linux_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#se_linux_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#seccomp_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#seccomp_profile DataK8SServingKubedlIoInferenceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#windows_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#windows_options DataK8SServingKubedlIoInferenceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -21409,7 +21409,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21503,11 +21503,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -21646,23 +21646,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21869,11 +21869,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -21993,39 +21993,39 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#failure_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#initial_delay_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#success_threshold DataK8SServingKubedlIoInferenceV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_grace_period_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#timeout_seconds DataK8SServingKubedlIoInferenceV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -22351,11 +22351,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#device_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#device_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -22494,27 +22494,27 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_propagation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#mount_propagation DataK8SServingKubedlIoInferenceV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#read_only DataK8SServingKubedlIoInferenceV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path_expr DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#sub_path_expr DataK8SServingKubedlIoInferenceV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -22769,95 +22769,95 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#args DataK8SServingKubedlIoInferenceV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#args DataK8SServingKubedlIoInferenceV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#env_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image_pull_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#image_pull_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#lifecycle DataK8SServingKubedlIoInferenceV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#lifecycle DataK8SServingKubedlIoInferenceV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#liveness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#liveness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ports DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ports DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#readiness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#readiness_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resources DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resources DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#security_context DataK8SServingKubedlIoInferenceV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#security_context DataK8SServingKubedlIoInferenceV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#startup_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#startup_probe DataK8SServingKubedlIoInferenceV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin_once DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#stdin_once DataK8SServingKubedlIoInferenceV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#target_container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#target_container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#termination_message_policy DataK8SServingKubedlIoInferenceV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tty DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tty DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_devices DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_devices DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_mounts DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#volume_mounts DataK8SServingKubedlIoInferenceV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#working_dir DataK8SServingKubedlIoInferenceV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#working_dir DataK8SServingKubedlIoInferenceV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -23608,11 +23608,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#hostnames DataK8SServingKubedlIoInferenceV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#hostnames DataK8SServingKubedlIoInferenceV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#ip DataK8SServingKubedlIoInferenceV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -23757,7 +23757,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23873,15 +23873,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24030,11 +24030,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#api_version DataK8SServingKubedlIoInferenceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -24154,15 +24154,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#container_name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#divisor DataK8SServingKubedlIoInferenceV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -24311,15 +24311,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#key DataK8SServingKubedlIoInferenceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24468,19 +24468,19 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#resource_field_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_key_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -24661,15 +24661,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value_from DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvValueFrom;
 }
@@ -24840,11 +24840,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24967,11 +24967,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#optional DataK8SServingKubedlIoInferenceV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25094,15 +25094,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#config_map_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#prefix DataK8SServingKubedlIoInferenceV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#secret_ref DataK8SServingKubedlIoInferenceV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -25276,7 +25276,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25370,11 +25370,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -25513,23 +25513,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25736,11 +25736,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -25860,15 +25860,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -26020,7 +26020,7 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#command DataK8SServingKubedlIoInferenceV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26114,11 +26114,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#name DataK8SServingKubedlIoInferenceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#value DataK8SServingKubedlIoInferenceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26257,23 +26257,23 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_headers DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#path DataK8SServingKubedlIoInferenceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#scheme DataK8SServingKubedlIoInferenceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -26480,11 +26480,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#host DataK8SServingKubedlIoInferenceV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#port DataK8SServingKubedlIoInferenceV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -26604,15 +26604,15 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#exec DataK8SServingKubedlIoInferenceV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#http_get DataK8SServingKubedlIoInferenceV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#tcp_socket DataK8SServingKubedlIoInferenceV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -26764,11 +26764,11 @@ export class DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTempla
 }
 export interface DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#post_start DataK8SServingKubedlIoInferenceV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/serving_kubedl_io_inference_v1alpha1_manifest#pre_stop DataK8SServingKubedlIoInferenceV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SServingKubedlIoInferenceV1Alpha1ManifestSpecPredictorsTemplateSpecInitContainersLifecyclePreStop;
 }

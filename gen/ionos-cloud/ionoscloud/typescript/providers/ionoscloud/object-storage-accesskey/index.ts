@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ObjectStorageAccesskeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Description of the Access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#description ObjectStorageAccesskey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#description ObjectStorageAccesskey#description}
   */
   readonly description?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#timeouts ObjectStorageAccesskey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#timeouts ObjectStorageAccesskey#timeouts}
   */
   readonly timeouts?: ObjectStorageAccesskeyTimeouts;
 }
@@ -24,19 +24,19 @@ export interface ObjectStorageAccesskeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#create ObjectStorageAccesskey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#create ObjectStorageAccesskey#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#delete ObjectStorageAccesskey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#delete ObjectStorageAccesskey#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#read ObjectStorageAccesskey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#read ObjectStorageAccesskey#read}
   */
   readonly read?: string;
 }
@@ -188,7 +188,7 @@ export class ObjectStorageAccesskeyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey ionoscloud_object_storage_accesskey}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey ionoscloud_object_storage_accesskey}
 */
 export class ObjectStorageAccesskey extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageAccesskey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageAccesskey to import
-  * @param importFromId The id of the existing ObjectStorageAccesskey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageAccesskey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageAccesskey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/object_storage_accesskey ionoscloud_object_storage_accesskey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/object_storage_accesskey ionoscloud_object_storage_accesskey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class ObjectStorageAccesskey extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_object_storage_accesskey',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

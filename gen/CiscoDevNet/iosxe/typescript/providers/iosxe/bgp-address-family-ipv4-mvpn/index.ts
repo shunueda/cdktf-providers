@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,30 +11,30 @@ export interface BgpAddressFamilyIpv4MvpnConfig extends cdktf.TerraformMetaArgum
   * 
   *   - Choices: `flowspec`, `labeled-unicast`, `mdt`, `multicast`, `mvpn`, `sr-policy`, `tunnel`, `unicast`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn#af_name BgpAddressFamilyIpv4Mvpn#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn#af_name BgpAddressFamilyIpv4Mvpn#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn#asn BgpAddressFamilyIpv4Mvpn#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn#asn BgpAddressFamilyIpv4Mvpn#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn#delete_mode BgpAddressFamilyIpv4Mvpn#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn#delete_mode BgpAddressFamilyIpv4Mvpn#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn#device BgpAddressFamilyIpv4Mvpn#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn#device BgpAddressFamilyIpv4Mvpn#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn iosxe_bgp_address_family_ipv4_mvpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn iosxe_bgp_address_family_ipv4_mvpn}
 */
 export class BgpAddressFamilyIpv4Mvpn extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class BgpAddressFamilyIpv4Mvpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyIpv4Mvpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyIpv4Mvpn to import
-  * @param importFromId The id of the existing BgpAddressFamilyIpv4Mvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyIpv4Mvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyIpv4Mvpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BgpAddressFamilyIpv4Mvpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv4_mvpn iosxe_bgp_address_family_ipv4_mvpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv4_mvpn iosxe_bgp_address_family_ipv4_mvpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class BgpAddressFamilyIpv4Mvpn extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_address_family_ipv4_mvpn',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

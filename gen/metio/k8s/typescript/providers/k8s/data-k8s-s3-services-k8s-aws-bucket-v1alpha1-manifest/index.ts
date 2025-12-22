@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metadata DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metadata DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestMetadata;
   /**
   * BucketSpec defines the desired state of Bucket. In terms of implementation, a Bucket is a resource. An Amazon S3 bucket name is globally unique, and the namespace is shared by all Amazon Web Services accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#spec DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#spec DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#annotations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#annotations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#labels DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#labels DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#namespace DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#namespace DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAccelerate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -311,11 +311,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAccelerateOutputRe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -460,11 +460,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAnd
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAndTags[] | cdktf.IResolvable;
 }
@@ -587,11 +587,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAnd
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -716,17 +716,17 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilte
   /**
   * A conjunction (logical AND) of predicates, which is used in evaluating a metrics filter. The operator must have at least two predicates in any combination, and an object must match all of the predicates for the filter to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterAnd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * A container of a key value name pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
   */
   readonly tag?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterTag;
 }
@@ -878,19 +878,19 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilterOut
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStorageClassAnalysisDataExportDestinationS3BucketDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket_account_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket_account_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket_account_id}
   */
   readonly bucketAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#format DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#format DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -1073,7 +1073,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStora
   /**
   * Contains information about where to publish the analytics results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#s3_bucket_destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#s3_bucket_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#s3_bucket_destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#s3_bucket_destination}
   */
   readonly s3BucketDestination?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStorageClassAnalysisDataExportDestinationS3BucketDestination;
 }
@@ -1169,11 +1169,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStora
   /**
   * Where to publish the analytics results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
   */
   readonly destination?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStorageClassAnalysisDataExportDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#output_schema_version DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#output_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#output_schema_version DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#output_schema_version}
   */
   readonly outputSchemaVersion?: string;
 }
@@ -1298,7 +1298,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStora
   /**
   * Container for data related to the storage class analysis for an Amazon S3 bucket for export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#data_export DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#data_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#data_export DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#data_export}
   */
   readonly dataExport?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStorageClassAnalysisDataExport;
 }
@@ -1394,11 +1394,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalytics {
   /**
   * The filter used to describe a set of objects for analyses. A filter must have exactly one prefix, one tag, or one conjunction (AnalyticsAndOperator). If no filter is provided, all objects will be considered in any analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1407,7 +1407,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalytics {
   /**
   * Specifies data related to access patterns to be collected and made available to analyze the tradeoffs between different storage classes for an Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class_analysis DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class_analysis DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class_analysis}
   */
   readonly storageClassAnalysis?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsStorageClassAnalysis;
 }
@@ -1581,30 +1581,30 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalyticsList exte
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCorsCorsRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_headers DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_headers DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_methods DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_methods DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_origins DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#allowed_origins DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#allowed_origins}
   */
   readonly allowedOrigins?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expose_headers DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expose_headers DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#max_age_seconds DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#max_age_seconds DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -1865,7 +1865,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCorsCorsRulesList 
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#cors_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#cors_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#cors_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#cors_rules}
   */
   readonly corsRules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCorsCorsRules[] | cdktf.IResolvable;
 }
@@ -1959,7 +1959,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCorsOutputReferenc
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCreateBucketConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#location_constraint DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#location_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#location_constraint DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#location_constraint}
   */
   readonly locationConstraint?: string;
 }
@@ -2053,11 +2053,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCreateBucketConfig
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionRulesApplyServerSideEncryptionByDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#kms_master_key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#kms_master_key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_algorithm DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_algorithm DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -2182,11 +2182,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionRule
   /**
   * Describes the default server-side encryption to apply to new objects in the bucket. If a PUT Object request doesn't specify any server-side encryption, this default encryption will be applied. If you don't specify a customer managed key at configuration, Amazon S3 automatically creates an Amazon Web Services KMS key in your Amazon Web Services account the first time that you add an object encrypted with SSE-KMS to a bucket. By default, Amazon S3 uses this KMS key for SSE-KMS. For more information, see PUT Bucket encryption (https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTencryption.html) in the Amazon S3 API Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#apply_server_side_encryption_by_default DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#apply_server_side_encryption_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#apply_server_side_encryption_by_default DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#apply_server_side_encryption_by_default}
   */
   readonly applyServerSideEncryptionByDefault?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionRulesApplyServerSideEncryptionByDefault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket_key_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket_key_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket_key_enabled}
   */
   readonly bucketKeyEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2331,7 +2331,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionRulesLis
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionRules[] | cdktf.IResolvable;
 }
@@ -2425,11 +2425,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryptionOutputRe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2574,11 +2574,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTiering
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterAnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterAndTags[] | cdktf.IResolvable;
 }
@@ -2701,11 +2701,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTiering
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2830,17 +2830,17 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTie
   /**
   * A container for specifying S3 Intelligent-Tiering filters. The filters determine the subset of objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterAnd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * A container of a key value name pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
   */
   readonly tag?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilterTag;
 }
@@ -2992,11 +2992,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTiering
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringTierings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_tier DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_tier DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_tier}
   */
   readonly accessTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
   */
   readonly days?: number;
 }
@@ -3143,22 +3143,22 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTie
   /**
   * The Filter is used to identify objects that the S3 Intelligent-Tiering configuration applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tierings DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tierings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tierings DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tierings}
   */
   readonly tierings?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTieringTierings[] | cdktf.IResolvable;
 }
@@ -3361,7 +3361,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTiering
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinationS3BucketDestinationEncryptionSseKms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key_id}
   */
   readonly keyId?: string;
 }
@@ -3457,7 +3457,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDesti
   /**
   * Specifies the use of SSE-KMS to encrypt delivered inventory reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_kms DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_kms DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_kms}
   */
   readonly sseKms?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinationS3BucketDestinationEncryptionSseKms;
 }
@@ -3551,25 +3551,25 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinati
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinationS3BucketDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#account_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#account_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * Contains the type of server-side encryption used to encrypt the inventory results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption}
   */
   readonly encryption?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinationS3BucketDestinationEncryption;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#format DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#format DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -3781,7 +3781,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDesti
   /**
   * Contains the bucket name, file format, bucket owner (optional), and prefix (optional) where inventory results are published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#s3_bucket_destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#s3_bucket_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#s3_bucket_destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#s3_bucket_destination}
   */
   readonly s3BucketDestination?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinationS3BucketDestination;
 }
@@ -3875,7 +3875,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestinati
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -3969,7 +3969,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryFilterOut
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventorySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#frequency DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#frequency DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#frequency}
   */
   readonly frequency?: string;
 }
@@ -4065,38 +4065,38 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventory {
   /**
   * Specifies the inventory configuration for an Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
   */
   readonly destination?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryDestination;
   /**
   * Specifies an inventory filter. The inventory only includes objects that meet the filter's criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#included_object_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#included_object_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#included_object_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#included_object_versions}
   */
   readonly includedObjectVersions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#is_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#is_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#optional_fields DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#optional_fields DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#optional_fields}
   */
   readonly optionalFields?: string[];
   /**
   * Specifies the schedule for generating inventory results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#schedule DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#schedule DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#schedule}
   */
   readonly schedule?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventorySchedule;
 }
@@ -4386,7 +4386,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventoryList exte
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesAbortIncompleteMultipartUpload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days_after_initiation DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days_after_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days_after_initiation DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days_after_initiation}
   */
   readonly daysAfterInitiation?: number;
 }
@@ -4480,15 +4480,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesAbor
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesExpiration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#date DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#date DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expired_object_delete_marker DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expired_object_delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expired_object_delete_marker DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expired_object_delete_marker}
   */
   readonly expiredObjectDeleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -4640,11 +4640,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesExpi
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4789,19 +4789,19 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilt
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterAnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_greater_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_greater_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_less_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_less_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterAndTags[] | cdktf.IResolvable;
 }
@@ -4982,11 +4982,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilt
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5111,25 +5111,25 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRules
   /**
   * This is used in a Lifecycle Rule Filter to apply a logical AND to two or more predicates. The Lifecycle Rule will apply to any object matching all of the predicates configured inside the And operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterAnd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_greater_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_greater_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_less_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_size_less_than DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * A container of a key value name pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
   */
   readonly tag?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilterTag;
 }
@@ -5339,11 +5339,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilt
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNoncurrentVersionExpiration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#newer_noncurrent_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#newer_noncurrent_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#newer_noncurrent_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#newer_noncurrent_versions}
   */
   readonly newerNoncurrentVersions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_days}
   */
   readonly noncurrentDays?: number;
 }
@@ -5466,15 +5466,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNonc
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNoncurrentVersionTransitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#newer_noncurrent_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#newer_noncurrent_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#newer_noncurrent_versions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#newer_noncurrent_versions}
   */
   readonly newerNoncurrentVersions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_days}
   */
   readonly noncurrentDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5648,15 +5648,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNonc
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesTransitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#date DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#date DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#days DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5832,23 +5832,23 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRules
   /**
   * Specifies the days since the initiation of an incomplete multipart upload that Amazon S3 will wait before permanently removing all parts of the upload. For more information, see Aborting Incomplete Multipart Uploads Using a Bucket Lifecycle Policy (https://docs.aws.amazon.com/AmazonS3/latest/dev/mpuoverview.html#mpu-abort-incomplete-mpu-lifecycle-config) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#abort_incomplete_multipart_upload DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#abort_incomplete_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#abort_incomplete_multipart_upload DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#abort_incomplete_multipart_upload}
   */
   readonly abortIncompleteMultipartUpload?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesAbortIncompleteMultipartUpload;
   /**
   * Container for the expiration for the lifecycle of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expiration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#expiration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#expiration}
   */
   readonly expiration?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesExpiration;
   /**
   * The Filter is used to identify objects that a Lifecycle Rule applies to. A Filter must have exactly one of Prefix, Tag, or And specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5857,23 +5857,23 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRules
   /**
   * Specifies when noncurrent object versions expire. Upon expiration, Amazon S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that Amazon S3 delete noncurrent object versions at a specific period in the object's lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_version_expiration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_version_expiration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNoncurrentVersionExpiration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_version_transitions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_version_transitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#noncurrent_version_transitions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#noncurrent_version_transitions}
   */
   readonly noncurrentVersionTransitions?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesNoncurrentVersionTransitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#transitions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#transitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#transitions DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#transitions}
   */
   readonly transitions?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesTransitions[] | cdktf.IResolvable;
 }
@@ -6221,7 +6221,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRulesList
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleRules[] | cdktf.IResolvable;
 }
@@ -6315,26 +6315,26 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycleOutputRef
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnabledTargetGrantsGrantee {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#display_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#display_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#email_address DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#email_address DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#type_ DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#type_ DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#u_ri DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#u_ri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#u_ri DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#u_ri}
   */
   readonly uRi?: string;
 }
@@ -6546,11 +6546,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLogging
   /**
   * Container for the person being granted permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grantee DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grantee DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grantee}
   */
   readonly grantee?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnabledTargetGrantsGrantee;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#permission DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#permission DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#permission}
   */
   readonly permission?: string;
 }
@@ -6695,15 +6695,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnab
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_bucket}
   */
   readonly targetBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_grants DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_grants DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_grants}
   */
   readonly targetGrants?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnabledTargetGrants[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#target_prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#target_prefix}
   */
   readonly targetPrefix?: string;
 }
@@ -6857,7 +6857,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLogging {
   /**
   * Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a bucket. For more information, see PUT Bucket logging (https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTlogging.html) in the Amazon S3 API Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#logging_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#logging_enabled DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#logging_enabled}
   */
   readonly loggingEnabled?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingLoggingEnabled;
 }
@@ -6951,11 +6951,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLoggingOutputRefer
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7100,15 +7100,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAndTa
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_point_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_point_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAndTags[] | cdktf.IResolvable;
 }
@@ -7260,11 +7260,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAndOu
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7387,23 +7387,23 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterTagOu
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_point_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_point_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
   * A conjunction (logical AND) of predicates, which is used in evaluating a metrics filter. The operator must have at least two predicates, and an object must match all of the predicates in order for the filter to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterAnd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * A container of a key value name pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
   */
   readonly tag?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilterTag;
 }
@@ -7586,11 +7586,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetrics {
   /**
   * Specifies a metrics configuration filter. The metrics configuration only includes objects that meet the filter's criteria. A filter must be a prefix, an object tag, an access point ARN, or a conjunction (MetricsAndOperator). For more information, see PutBucketMetricsConfiguration (https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutBucketMetricsConfiguration.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7738,11 +7738,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetricsList extend
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurationsFilterKeyFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7889,7 +7889,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLa
   /**
   * A list of containers for the key-value pair that defines the criteria for the filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
   */
   readonly filterRules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurationsFilterKeyFilterRules[] | cdktf.IResolvable;
 }
@@ -7985,7 +7985,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLa
   /**
   * A container for object key name prefix and suffix filtering rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurationsFilterKey;
 }
@@ -8079,26 +8079,26 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambda
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
   */
   readonly events?: string[];
   /**
   * Specifies object key name filtering rules. For information about key name filtering, see Configuring Event Notifications (https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurationsFilter;
   /**
   * An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lambda_function_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lambda_function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lambda_function_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lambda_function_arn}
   */
   readonly lambdaFunctionArn?: string;
 }
@@ -8301,11 +8301,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambda
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurationsFilterKeyFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8452,7 +8452,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQu
   /**
   * A list of containers for the key-value pair that defines the criteria for the filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
   */
   readonly filterRules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurationsFilterKeyFilterRules[] | cdktf.IResolvable;
 }
@@ -8548,7 +8548,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQu
   /**
   * A container for object key name prefix and suffix filtering rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurationsFilterKey;
 }
@@ -8642,26 +8642,26 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueC
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
   */
   readonly events?: string[];
   /**
   * Specifies object key name filtering rules. For information about key name filtering, see Configuring Event Notifications (https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurationsFilter;
   /**
   * An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#queue_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#queue_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#queue_arn}
   */
   readonly queueArn?: string;
 }
@@ -8864,11 +8864,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueC
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurationsFilterKeyFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9015,7 +9015,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTo
   /**
   * A list of containers for the key-value pair that defines the criteria for the filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter_rules}
   */
   readonly filterRules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurationsFilterKeyFilterRules[] | cdktf.IResolvable;
 }
@@ -9111,7 +9111,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTo
   /**
   * A container for object key name prefix and suffix filtering rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurationsFilterKey;
 }
@@ -9205,26 +9205,26 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicC
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#events DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#events}
   */
   readonly events?: string[];
   /**
   * Specifies object key name filtering rules. For information about key name filtering, see Configuring Event Notifications (https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurationsFilter;
   /**
   * An optional unique identifier for configurations in a notification configuration. If you don't provide one, Amazon S3 will assign an ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#topic_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#topic_arn DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -9427,15 +9427,15 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicC
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lambda_function_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lambda_function_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lambda_function_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lambda_function_configurations}
   */
   readonly lambdaFunctionConfigurations?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationLambdaFunctionConfigurations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#queue_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#queue_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#queue_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#queue_configurations}
   */
   readonly queueConfigurations?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationQueueConfigurations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#topic_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#topic_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#topic_configurations DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#topic_configurations}
   */
   readonly topicConfigurations?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotificationTopicConfigurations[] | cdktf.IResolvable;
 }
@@ -9589,7 +9589,7 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipContr
   /**
   * The container element for object ownership for a bucket's ownership controls. BucketOwnerPreferred - Objects uploaded to the bucket change ownership to the bucket owner if the objects are uploaded with the bucket-owner-full-control canned ACL. ObjectWriter - The uploading account will own the object if the object is uploaded with the bucket-owner-full-control canned ACL. BucketOwnerEnforced - Access control lists (ACLs) are disabled and no longer affect permissions. The bucket owner automatically owns and has full control over every object in the bucket. The bucket only accepts PUT requests that don't specify an ACL or bucket owner full control ACLs, such as the bucket-owner-full-control canned ACL or an equivalent form of this ACL expressed in the XML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_ownership DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_ownership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_ownership DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_ownership}
   */
   readonly objectOwnership?: string;
 }
@@ -9705,7 +9705,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipControlsR
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipControlsRules[] | cdktf.IResolvable;
 }
@@ -9799,19 +9799,19 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipControlsO
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecPublicAccessBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#block_public_ac_ls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#block_public_ac_ls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#block_public_ac_ls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#block_public_ac_ls}
   */
   readonly blockPublicAcLs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#block_public_policy DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#block_public_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#block_public_policy DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#block_public_policy}
   */
   readonly blockPublicPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#ignore_public_ac_ls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#ignore_public_ac_ls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#ignore_public_ac_ls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#ignore_public_ac_ls}
   */
   readonly ignorePublicAcLs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#restrict_public_buckets DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#restrict_public_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#restrict_public_buckets DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#restrict_public_buckets}
   */
   readonly restrictPublicBuckets?: boolean | cdktf.IResolvable;
 }
@@ -9992,7 +9992,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecPublicAccessBlockO
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDeleteMarkerReplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -10086,7 +10086,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationAccessControlTranslation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#owner DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#owner DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#owner}
   */
   readonly owner?: string;
 }
@@ -10180,7 +10180,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replica_kms_key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replica_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replica_kms_key_id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replica_kms_key_id}
   */
   readonly replicaKmsKeyId?: string;
 }
@@ -10274,7 +10274,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationMetricsEventThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#minutes DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#minutes DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#minutes}
   */
   readonly minutes?: number;
 }
@@ -10370,11 +10370,11 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRul
   /**
   * A container specifying the time value for S3 Replication Time Control (S3 RTC) and replication metrics EventThreshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#event_threshold DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#event_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#event_threshold DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#event_threshold}
   */
   readonly eventThreshold?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationMetricsEventThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -10497,7 +10497,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationReplicationTimeTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#minutes DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#minutes DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#minutes}
   */
   readonly minutes?: number;
 }
@@ -10591,13 +10591,13 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationReplicationTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
   /**
   * A container specifying the time value for S3 Replication Time Control (S3 RTC) and replication metrics EventThreshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#time DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#time DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#time}
   */
   readonly time?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationReplicationTimeTime;
 }
@@ -10722,37 +10722,37 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRul
   /**
   * A container for information about access control for replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_control_translation DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_control_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#access_control_translation DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#access_control_translation}
   */
   readonly accessControlTranslation?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationAccessControlTranslation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#account DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#account DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * Specifies encryption-related information for an Amazon S3 bucket that is a destination for replicated objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption_configuration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption_configuration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption_configuration}
   */
   readonly encryptionConfiguration?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationEncryptionConfiguration;
   /**
   * A container specifying replication metrics-related settings enabling replication metrics and events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metrics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metrics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationMetrics;
   /**
   * A container specifying S3 Replication Time Control (S3 RTC) related information, including whether S3 RTC is enabled and the time when all objects and operations on objects must be replicated. Must be specified together with a Metrics block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replication_time DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replication_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replication_time DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replication_time}
   */
   readonly replicationTime?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestinationReplicationTime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#storage_class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -11020,7 +11020,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesExistingObjectReplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -11114,11 +11114,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesEx
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11263,11 +11263,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFi
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterAnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tags DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterAndTags[] | cdktf.IResolvable;
 }
@@ -11390,11 +11390,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFi
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11519,17 +11519,17 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRul
   /**
   * A container for specifying rule filters. The filters determine the subset of objects to which the rule applies. This element is required only if you specify more than one filter. For example: * If you specify both a Prefix and a Tag filter, wrap these filters in an And tag. * If you specify a filter based on multiple tags, wrap the Tag elements in an And tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#and DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterAnd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * A container of a key value name pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag}
   */
   readonly tag?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilterTag;
 }
@@ -11681,7 +11681,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFi
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSourceSelectionCriteriaReplicaModifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -11775,7 +11775,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSo
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSourceSelectionCriteriaSseKmsEncryptedObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -11871,13 +11871,13 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRul
   /**
   * A filter that you can specify for selection for modifications on replicas. Amazon S3 doesn't replicate replica modifications by default. In the latest version of replication configuration (when Filter is specified), you can specify this element and set the status to Enabled to replicate modifications on replicas. If you don't specify the Filter element, Amazon S3 assumes that the replication configuration is the earlier version, V1. In the earlier version, this element is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replica_modifications DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replica_modifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replica_modifications DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replica_modifications}
   */
   readonly replicaModifications?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSourceSelectionCriteriaReplicaModifications;
   /**
   * A container for filter information for the selection of S3 objects encrypted with Amazon Web Services KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_kms_encrypted_objects DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_kms_encrypted_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#sse_kms_encrypted_objects DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#sse_kms_encrypted_objects}
   */
   readonly sseKmsEncryptedObjects?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSourceSelectionCriteriaSseKmsEncryptedObjects;
 }
@@ -12002,50 +12002,50 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRul
   /**
   * Specifies whether Amazon S3 replicates delete markers. If you specify a Filter in your replication configuration, you must also include a DeleteMarkerReplication element. If your Filter includes a Tag element, the DeleteMarkerReplication Status must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see Basic Rule Configuration (https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config). For more information about delete marker replication, see Basic Rule Configuration (https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-marker-replication.html). If you are using an earlier version of the replication configuration, Amazon S3 handles replication of delete markers differently. For more information, see Backward Compatibility (https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#delete_marker_replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#delete_marker_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#delete_marker_replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#delete_marker_replication}
   */
   readonly deleteMarkerReplication?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDeleteMarkerReplication;
   /**
   * Specifies information about where to publish analysis or configuration results for an Amazon S3 bucket and S3 Replication Time Control (S3 RTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#destination DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#destination}
   */
   readonly destination?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesDestination;
   /**
   * Optional configuration to replicate existing source bucket objects. For more information, see Replicating Existing Objects (https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-what-is-isnot-replicated.html#existing-object-replication) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#existing_object_replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#existing_object_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#existing_object_replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#existing_object_replication}
   */
   readonly existingObjectReplication?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesExistingObjectReplication;
   /**
   * A filter that identifies the subset of objects to which the replication rule applies. A Filter must specify exactly one Prefix, Tag, or an And child element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#filter DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#filter}
   */
   readonly filter?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#id DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#prefix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#priority DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#priority DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * A container that describes additional filters for identifying the source objects that you want to replicate. You can choose to enable or disable the replication of these objects. Currently, Amazon S3 supports only the filter that you can specify for objects created with server-side encryption using a customer managed key stored in Amazon Web Services Key Management Service (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#source_selection_criteria DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#source_selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#source_selection_criteria DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#source_selection_criteria}
   */
   readonly sourceSelectionCriteria?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesSourceSelectionCriteria;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -12393,11 +12393,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRulesLi
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#role DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#role DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationRules[] | cdktf.IResolvable;
 }
@@ -12520,7 +12520,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplicationOutputR
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecRequestPayment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#payer DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#payer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#payer DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#payer}
   */
   readonly payer?: string;
 }
@@ -12614,11 +12614,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecRequestPaymentOutp
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTaggingTagSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#value DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -12763,7 +12763,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTaggingTagSetList 
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag_set DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tag_set DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tag_set}
   */
   readonly tagSet?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTaggingTagSet[] | cdktf.IResolvable;
 }
@@ -12857,7 +12857,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTaggingOutputRefer
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecVersioning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#status DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -12951,7 +12951,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecVersioningOutputRe
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteErrorDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key}
   */
   readonly key?: string;
 }
@@ -13045,7 +13045,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteErrorDocume
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteIndexDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#suffix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#suffix DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -13139,11 +13139,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteIndexDocume
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRedirectAllRequestsTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#host_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#host_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#protocol DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#protocol DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -13266,11 +13266,11 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRedirectAll
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#http_error_code_returned_equals DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#http_error_code_returned_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#http_error_code_returned_equals DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#http_error_code_returned_equals}
   */
   readonly httpErrorCodeReturnedEquals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key_prefix_equals DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key_prefix_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#key_prefix_equals DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#key_prefix_equals}
   */
   readonly keyPrefixEquals?: string;
 }
@@ -13393,23 +13393,23 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRule
 }
 export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRulesRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#host_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#host_name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#http_redirect_code DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#http_redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#http_redirect_code DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#http_redirect_code}
   */
   readonly httpRedirectCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#protocol DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#protocol DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replace_key_prefix_with DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replace_key_prefix_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replace_key_prefix_with DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replace_key_prefix_with}
   */
   readonly replaceKeyPrefixWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replace_key_with DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replace_key_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replace_key_with DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replace_key_with}
   */
   readonly replaceKeyWith?: string;
 }
@@ -13621,13 +13621,13 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRouting
   /**
   * A container for describing a condition that must be met for the specified redirect to apply. For example, 1. If request is for pages in the /docs folder, redirect to the /documents folder. 2. If request results in HTTP error 4xx, redirect request to another host where you might process the error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#condition DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#condition DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#condition}
   */
   readonly condition?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRulesCondition;
   /**
   * Specifies how requests are redirected. In the event of an error, you can specify a different error code to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#redirect DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#redirect DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#redirect}
   */
   readonly redirect?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRulesRedirect;
 }
@@ -13774,23 +13774,23 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsite {
   /**
   * The error information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#error_document DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#error_document DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#error_document}
   */
   readonly errorDocument?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteErrorDocument;
   /**
   * Container for the Suffix element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#index_document DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#index_document DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#index_document}
   */
   readonly indexDocument?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteIndexDocument;
   /**
   * Specifies the redirect behavior of all requests to a website endpoint of an Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#redirect_all_requests_to DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#redirect_all_requests_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#redirect_all_requests_to DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#redirect_all_requests_to}
   */
   readonly redirectAllRequestsTo?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRedirectAllRequestsTo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#routing_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#routing_rules DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#routing_rules}
   */
   readonly routingRules?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsiteRoutingRules[] | cdktf.IResolvable;
 }
@@ -13973,159 +13973,159 @@ export interface DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpec {
   /**
   * Container for setting the transfer acceleration state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#accelerate DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#accelerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#accelerate DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#accelerate}
   */
   readonly accelerate?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAccelerate;
   /**
   * The canned ACL to apply to the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#acl DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#acl DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#analytics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#analytics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#analytics}
   */
   readonly analytics?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecAnalytics[] | cdktf.IResolvable;
   /**
   * Describes the cross-origin access configuration for objects in an Amazon S3 bucket. For more information, see Enabling Cross-Origin Resource Sharing (https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#cors DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#cors DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#cors}
   */
   readonly cors?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCors;
   /**
   * The configuration information for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#create_bucket_configuration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#create_bucket_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#create_bucket_configuration DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#create_bucket_configuration}
   */
   readonly createBucketConfiguration?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecCreateBucketConfiguration;
   /**
   * Specifies the default server-side-encryption configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#encryption DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#encryption}
   */
   readonly encryption?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecEncryption;
   /**
   * Allows grantee the read, write, read ACP, and write ACP permissions on the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_full_control DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_full_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_full_control DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_full_control}
   */
   readonly grantFullControl?: string;
   /**
   * Allows grantee to list the objects in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_read DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_read DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_read}
   */
   readonly grantRead?: string;
   /**
   * Allows grantee to read the bucket ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_read_acp DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_read_acp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_read_acp DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_read_acp}
   */
   readonly grantReadAcp?: string;
   /**
   * Allows grantee to create new objects in the bucket. For the bucket and object owners of existing objects, also allows deletions and overwrites of those objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_write DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_write DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_write}
   */
   readonly grantWrite?: string;
   /**
   * Allows grantee to write the ACL for the applicable bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_write_acp DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_write_acp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#grant_write_acp DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#grant_write_acp}
   */
   readonly grantWriteAcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#intelligent_tiering DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#intelligent_tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#intelligent_tiering DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#intelligent_tiering}
   */
   readonly intelligentTiering?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecIntelligentTiering[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#inventory DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#inventory DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#inventory}
   */
   readonly inventory?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecInventory[] | cdktf.IResolvable;
   /**
   * Container for lifecycle rules. You can add as many as 1,000 rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lifecycle DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#lifecycle DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLifecycle;
   /**
   * Container for logging status information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#logging DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#logging DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metrics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#metrics DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * The name of the bucket to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#name DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * A container for specifying the notification configuration of the bucket. If this element is empty, notifications are turned off for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#notification DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#notification DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#notification}
   */
   readonly notification?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecNotification;
   /**
   * Specifies whether you want S3 Object Lock to be enabled for the new bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_lock_enabled_for_bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_lock_enabled_for_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_lock_enabled_for_bucket DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_lock_enabled_for_bucket}
   */
   readonly objectLockEnabledForBucket?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_ownership DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_ownership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#object_ownership DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#object_ownership}
   */
   readonly objectOwnership?: string;
   /**
   * The OwnershipControls (BucketOwnerEnforced, BucketOwnerPreferred, or ObjectWriter) that you want to apply to this Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#ownership_controls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#ownership_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#ownership_controls DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#ownership_controls}
   */
   readonly ownershipControls?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOwnershipControls;
   /**
   * The bucket policy as a JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#policy DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#policy DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * The PublicAccessBlock configuration that you want to apply to this Amazon S3 bucket. You can enable the configuration options in any combination. For more information about when Amazon S3 considers a bucket or object public, see The Meaning of 'Public' (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html#access-control-block-public-access-policy-status) in the Amazon S3 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#public_access_block DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#public_access_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#public_access_block DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#public_access_block}
   */
   readonly publicAccessBlock?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecPublicAccessBlock;
   /**
   * A container for replication rules. You can add up to 1,000 rules. The maximum size of a replication configuration is 2 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#replication DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#replication}
   */
   readonly replication?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecReplication;
   /**
   * Container for Payer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#request_payment DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#request_payment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#request_payment DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#request_payment}
   */
   readonly requestPayment?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecRequestPayment;
   /**
   * Container for the TagSet and Tag elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tagging DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#tagging DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#tagging}
   */
   readonly tagging?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecTagging;
   /**
   * Container for setting the versioning state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#versioning DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#versioning DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#versioning}
   */
   readonly versioning?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecVersioning;
   /**
   * Container for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#website DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#website DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest#website}
   */
   readonly website?: DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecWebsite;
 }
@@ -14999,7 +14999,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest k8s_s3_services_k8s_aws_bucket_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest k8s_s3_services_k8s_aws_bucket_v1alpha1_manifest}
 */
 export class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -15015,7 +15015,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -15027,7 +15027,7 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest k8s_s3_services_k8s_aws_bucket_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/s3_services_k8s_aws_bucket_v1alpha1_manifest k8s_s3_services_k8s_aws_bucket_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15038,8 +15038,8 @@ export class DataK8SS3ServicesK8SAwsBucketV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_s3_services_k8s_aws_bucket_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SUpgradeCattleIoPlanV1ManifestConfig extends cdktf.Terraf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#metadata DataK8SUpgradeCattleIoPlanV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#metadata DataK8SUpgradeCattleIoPlanV1Manifest#metadata}
   */
   readonly metadata: DataK8SUpgradeCattleIoPlanV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#spec DataK8SUpgradeCattleIoPlanV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#spec DataK8SUpgradeCattleIoPlanV1Manifest#spec}
   */
   readonly spec?: DataK8SUpgradeCattleIoPlanV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SUpgradeCattleIoPlanV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#annotations DataK8SUpgradeCattleIoPlanV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#annotations DataK8SUpgradeCattleIoPlanV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#labels DataK8SUpgradeCattleIoPlanV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#labels DataK8SUpgradeCattleIoPlanV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#namespace DataK8SUpgradeCattleIoPlanV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#namespace DataK8SUpgradeCattleIoPlanV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestMetadataOutputReference extends
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#values DataK8SUpgradeCattleIoPlanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#values DataK8SUpgradeCattleIoPlanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -397,11 +397,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelectorMatchExpres
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_expressions DataK8SUpgradeCattleIoPlanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_expressions DataK8SUpgradeCattleIoPlanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_labels DataK8SUpgradeCattleIoPlanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_labels DataK8SUpgradeCattleIoPlanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -524,39 +524,39 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelectorOutputRefer
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#delete_emptydir_data DataK8SUpgradeCattleIoPlanV1Manifest#delete_emptydir_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#delete_emptydir_data DataK8SUpgradeCattleIoPlanV1Manifest#delete_emptydir_data}
   */
   readonly deleteEmptydirData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#delete_local_data DataK8SUpgradeCattleIoPlanV1Manifest#delete_local_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#delete_local_data DataK8SUpgradeCattleIoPlanV1Manifest#delete_local_data}
   */
   readonly deleteLocalData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#disable_eviction DataK8SUpgradeCattleIoPlanV1Manifest#disable_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#disable_eviction DataK8SUpgradeCattleIoPlanV1Manifest#disable_eviction}
   */
   readonly disableEviction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#force DataK8SUpgradeCattleIoPlanV1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#force DataK8SUpgradeCattleIoPlanV1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#grace_period DataK8SUpgradeCattleIoPlanV1Manifest#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#grace_period DataK8SUpgradeCattleIoPlanV1Manifest#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#ignore_daemon_sets DataK8SUpgradeCattleIoPlanV1Manifest#ignore_daemon_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#ignore_daemon_sets DataK8SUpgradeCattleIoPlanV1Manifest#ignore_daemon_sets}
   */
   readonly ignoreDaemonSets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#pod_selector DataK8SUpgradeCattleIoPlanV1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#pod_selector DataK8SUpgradeCattleIoPlanV1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainPodSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#skip_wait_for_delete_timeout DataK8SUpgradeCattleIoPlanV1Manifest#skip_wait_for_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#skip_wait_for_delete_timeout DataK8SUpgradeCattleIoPlanV1Manifest#skip_wait_for_delete_timeout}
   */
   readonly skipWaitForDeleteTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#timeout DataK8SUpgradeCattleIoPlanV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#timeout DataK8SUpgradeCattleIoPlanV1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -882,7 +882,7 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecDrainOutputReference extend
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -998,15 +998,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecImagePullSecretsList extend
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#values DataK8SUpgradeCattleIoPlanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#values DataK8SUpgradeCattleIoPlanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1180,11 +1180,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelectorMatchExpression
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_expressions DataK8SUpgradeCattleIoPlanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_expressions DataK8SUpgradeCattleIoPlanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_labels DataK8SUpgradeCattleIoPlanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#match_labels DataK8SUpgradeCattleIoPlanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1307,11 +1307,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelectorOutputReference
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1434,11 +1434,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromConfigMapRefO
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1561,15 +1561,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromSecretRefOutp
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prefix DataK8SUpgradeCattleIoPlanV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prefix DataK8SUpgradeCattleIoPlanV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromSecretRef;
 }
@@ -1743,15 +1743,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFromList extends 
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1903,11 +1903,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromConfigM
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#api_version DataK8SUpgradeCattleIoPlanV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#api_version DataK8SUpgradeCattleIoPlanV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_path DataK8SUpgradeCattleIoPlanV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_path DataK8SUpgradeCattleIoPlanV1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -2030,15 +2030,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromFieldRe
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#container_name DataK8SUpgradeCattleIoPlanV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#container_name DataK8SUpgradeCattleIoPlanV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#divisor DataK8SUpgradeCattleIoPlanV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#divisor DataK8SUpgradeCattleIoPlanV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource DataK8SUpgradeCattleIoPlanV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource DataK8SUpgradeCattleIoPlanV1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -2190,15 +2190,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromResourc
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2350,19 +2350,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromSecretK
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_ref DataK8SUpgradeCattleIoPlanV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_ref DataK8SUpgradeCattleIoPlanV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource_field_ref DataK8SUpgradeCattleIoPlanV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource_field_ref DataK8SUpgradeCattleIoPlanV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromSecretKeyRef;
 }
@@ -2543,15 +2543,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFromOutputR
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value_from DataK8SUpgradeCattleIoPlanV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value_from DataK8SUpgradeCattleIoPlanV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsValueFrom;
 }
@@ -2725,11 +2725,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvsList extends cdk
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2852,11 +2852,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextAppAr
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#add DataK8SUpgradeCattleIoPlanV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#add DataK8SUpgradeCattleIoPlanV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drop DataK8SUpgradeCattleIoPlanV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drop DataK8SUpgradeCattleIoPlanV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -2979,19 +2979,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextCapab
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#level DataK8SUpgradeCattleIoPlanV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#level DataK8SUpgradeCattleIoPlanV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#role DataK8SUpgradeCattleIoPlanV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#role DataK8SUpgradeCattleIoPlanV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#user DataK8SUpgradeCattleIoPlanV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#user DataK8SUpgradeCattleIoPlanV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -3172,11 +3172,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSeLin
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3299,19 +3299,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSecco
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec_name DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec_name DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#host_process DataK8SUpgradeCattleIoPlanV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#host_process DataK8SUpgradeCattleIoPlanV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user_name DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user_name DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -3492,51 +3492,51 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextWindo
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#allow_privilege_escalation DataK8SUpgradeCattleIoPlanV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#allow_privilege_escalation DataK8SUpgradeCattleIoPlanV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#app_armor_profile DataK8SUpgradeCattleIoPlanV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#app_armor_profile DataK8SUpgradeCattleIoPlanV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#capabilities DataK8SUpgradeCattleIoPlanV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#capabilities DataK8SUpgradeCattleIoPlanV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#privileged DataK8SUpgradeCattleIoPlanV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#privileged DataK8SUpgradeCattleIoPlanV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#proc_mount DataK8SUpgradeCattleIoPlanV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#proc_mount DataK8SUpgradeCattleIoPlanV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#read_only_root_filesystem DataK8SUpgradeCattleIoPlanV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#read_only_root_filesystem DataK8SUpgradeCattleIoPlanV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_group DataK8SUpgradeCattleIoPlanV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_group DataK8SUpgradeCattleIoPlanV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_non_root DataK8SUpgradeCattleIoPlanV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_non_root DataK8SUpgradeCattleIoPlanV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#se_linux_options DataK8SUpgradeCattleIoPlanV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#se_linux_options DataK8SUpgradeCattleIoPlanV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#seccomp_profile DataK8SUpgradeCattleIoPlanV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#seccomp_profile DataK8SUpgradeCattleIoPlanV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#windows_options DataK8SUpgradeCattleIoPlanV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#windows_options DataK8SUpgradeCattleIoPlanV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextWindowsOptions;
 }
@@ -3949,15 +3949,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContextOutpu
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#destination DataK8SUpgradeCattleIoPlanV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#destination DataK8SUpgradeCattleIoPlanV1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#source DataK8SUpgradeCattleIoPlanV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#source DataK8SUpgradeCattleIoPlanV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -4131,31 +4131,31 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareVolumesList extends 
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#args DataK8SUpgradeCattleIoPlanV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#args DataK8SUpgradeCattleIoPlanV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#command DataK8SUpgradeCattleIoPlanV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#command DataK8SUpgradeCattleIoPlanV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#env_from DataK8SUpgradeCattleIoPlanV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#env_from DataK8SUpgradeCattleIoPlanV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#envs DataK8SUpgradeCattleIoPlanV1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#envs DataK8SUpgradeCattleIoPlanV1Manifest#envs}
   */
   readonly envs?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image DataK8SUpgradeCattleIoPlanV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image DataK8SUpgradeCattleIoPlanV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#security_context DataK8SUpgradeCattleIoPlanV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#security_context DataK8SUpgradeCattleIoPlanV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#volumes DataK8SUpgradeCattleIoPlanV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#volumes DataK8SUpgradeCattleIoPlanV1Manifest#volumes}
   */
   readonly volumes?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareVolumes[] | cdktf.IResolvable;
 }
@@ -4423,15 +4423,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepareOutputReference exte
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#ignore_updates DataK8SUpgradeCattleIoPlanV1Manifest#ignore_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#ignore_updates DataK8SUpgradeCattleIoPlanV1Manifest#ignore_updates}
   */
   readonly ignoreUpdates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#path DataK8SUpgradeCattleIoPlanV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#path DataK8SUpgradeCattleIoPlanV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -4605,23 +4605,23 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecSecretsList extends cdktf.C
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#effect DataK8SUpgradeCattleIoPlanV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#effect DataK8SUpgradeCattleIoPlanV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#operator DataK8SUpgradeCattleIoPlanV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#toleration_seconds DataK8SUpgradeCattleIoPlanV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#toleration_seconds DataK8SUpgradeCattleIoPlanV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4853,11 +4853,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecTolerationsList extends cdk
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4980,11 +4980,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromConfigMapRefO
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5107,15 +5107,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromSecretRefOutp
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prefix DataK8SUpgradeCattleIoPlanV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prefix DataK8SUpgradeCattleIoPlanV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromSecretRef;
 }
@@ -5289,15 +5289,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFromList extends 
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5449,11 +5449,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromConfigM
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#api_version DataK8SUpgradeCattleIoPlanV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#api_version DataK8SUpgradeCattleIoPlanV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_path DataK8SUpgradeCattleIoPlanV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_path DataK8SUpgradeCattleIoPlanV1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -5576,15 +5576,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromFieldRe
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#container_name DataK8SUpgradeCattleIoPlanV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#container_name DataK8SUpgradeCattleIoPlanV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#divisor DataK8SUpgradeCattleIoPlanV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#divisor DataK8SUpgradeCattleIoPlanV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource DataK8SUpgradeCattleIoPlanV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource DataK8SUpgradeCattleIoPlanV1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -5736,15 +5736,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromResourc
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#key DataK8SUpgradeCattleIoPlanV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#optional DataK8SUpgradeCattleIoPlanV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5896,19 +5896,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromSecretK
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#config_map_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_ref DataK8SUpgradeCattleIoPlanV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#field_ref DataK8SUpgradeCattleIoPlanV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource_field_ref DataK8SUpgradeCattleIoPlanV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#resource_field_ref DataK8SUpgradeCattleIoPlanV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secret_key_ref DataK8SUpgradeCattleIoPlanV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromSecretKeyRef;
 }
@@ -6089,15 +6089,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFromOutputR
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value DataK8SUpgradeCattleIoPlanV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value_from DataK8SUpgradeCattleIoPlanV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#value_from DataK8SUpgradeCattleIoPlanV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsValueFrom;
 }
@@ -6271,11 +6271,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvsList extends cdk
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6398,11 +6398,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextAppAr
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#add DataK8SUpgradeCattleIoPlanV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#add DataK8SUpgradeCattleIoPlanV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drop DataK8SUpgradeCattleIoPlanV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drop DataK8SUpgradeCattleIoPlanV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6525,19 +6525,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextCapab
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#level DataK8SUpgradeCattleIoPlanV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#level DataK8SUpgradeCattleIoPlanV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#role DataK8SUpgradeCattleIoPlanV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#role DataK8SUpgradeCattleIoPlanV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#user DataK8SUpgradeCattleIoPlanV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#user DataK8SUpgradeCattleIoPlanV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6718,11 +6718,11 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSeLin
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#localhost_profile DataK8SUpgradeCattleIoPlanV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#type DataK8SUpgradeCattleIoPlanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6845,19 +6845,19 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSecco
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec_name DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#gmsa_credential_spec_name DataK8SUpgradeCattleIoPlanV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#host_process DataK8SUpgradeCattleIoPlanV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#host_process DataK8SUpgradeCattleIoPlanV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user_name DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user_name DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7038,51 +7038,51 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextWindo
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#allow_privilege_escalation DataK8SUpgradeCattleIoPlanV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#allow_privilege_escalation DataK8SUpgradeCattleIoPlanV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#app_armor_profile DataK8SUpgradeCattleIoPlanV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#app_armor_profile DataK8SUpgradeCattleIoPlanV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#capabilities DataK8SUpgradeCattleIoPlanV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#capabilities DataK8SUpgradeCattleIoPlanV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#privileged DataK8SUpgradeCattleIoPlanV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#privileged DataK8SUpgradeCattleIoPlanV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#proc_mount DataK8SUpgradeCattleIoPlanV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#proc_mount DataK8SUpgradeCattleIoPlanV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#read_only_root_filesystem DataK8SUpgradeCattleIoPlanV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#read_only_root_filesystem DataK8SUpgradeCattleIoPlanV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_group DataK8SUpgradeCattleIoPlanV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_group DataK8SUpgradeCattleIoPlanV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_non_root DataK8SUpgradeCattleIoPlanV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_non_root DataK8SUpgradeCattleIoPlanV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#run_as_user DataK8SUpgradeCattleIoPlanV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#se_linux_options DataK8SUpgradeCattleIoPlanV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#se_linux_options DataK8SUpgradeCattleIoPlanV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#seccomp_profile DataK8SUpgradeCattleIoPlanV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#seccomp_profile DataK8SUpgradeCattleIoPlanV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#windows_options DataK8SUpgradeCattleIoPlanV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#windows_options DataK8SUpgradeCattleIoPlanV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextWindowsOptions;
 }
@@ -7495,15 +7495,15 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContextOutpu
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#destination DataK8SUpgradeCattleIoPlanV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#destination DataK8SUpgradeCattleIoPlanV1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#name DataK8SUpgradeCattleIoPlanV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#source DataK8SUpgradeCattleIoPlanV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#source DataK8SUpgradeCattleIoPlanV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -7677,31 +7677,31 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeVolumesList extends 
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#args DataK8SUpgradeCattleIoPlanV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#args DataK8SUpgradeCattleIoPlanV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#command DataK8SUpgradeCattleIoPlanV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#command DataK8SUpgradeCattleIoPlanV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#env_from DataK8SUpgradeCattleIoPlanV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#env_from DataK8SUpgradeCattleIoPlanV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#envs DataK8SUpgradeCattleIoPlanV1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#envs DataK8SUpgradeCattleIoPlanV1Manifest#envs}
   */
   readonly envs?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image DataK8SUpgradeCattleIoPlanV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image DataK8SUpgradeCattleIoPlanV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#security_context DataK8SUpgradeCattleIoPlanV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#security_context DataK8SUpgradeCattleIoPlanV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#volumes DataK8SUpgradeCattleIoPlanV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#volumes DataK8SUpgradeCattleIoPlanV1Manifest#volumes}
   */
   readonly volumes?: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeVolumes[] | cdktf.IResolvable;
 }
@@ -7969,59 +7969,59 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgradeOutputReference exte
 }
 export interface DataK8SUpgradeCattleIoPlanV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#channel DataK8SUpgradeCattleIoPlanV1Manifest#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#channel DataK8SUpgradeCattleIoPlanV1Manifest#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#concurrency DataK8SUpgradeCattleIoPlanV1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#concurrency DataK8SUpgradeCattleIoPlanV1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#cordon DataK8SUpgradeCattleIoPlanV1Manifest#cordon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#cordon DataK8SUpgradeCattleIoPlanV1Manifest#cordon}
   */
   readonly cordon?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drain DataK8SUpgradeCattleIoPlanV1Manifest#drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#drain DataK8SUpgradeCattleIoPlanV1Manifest#drain}
   */
   readonly drain?: DataK8SUpgradeCattleIoPlanV1ManifestSpecDrain;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#exclusive DataK8SUpgradeCattleIoPlanV1Manifest#exclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#exclusive DataK8SUpgradeCattleIoPlanV1Manifest#exclusive}
   */
   readonly exclusive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image_pull_secrets DataK8SUpgradeCattleIoPlanV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#image_pull_secrets DataK8SUpgradeCattleIoPlanV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SUpgradeCattleIoPlanV1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#job_active_deadline_secs DataK8SUpgradeCattleIoPlanV1Manifest#job_active_deadline_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#job_active_deadline_secs DataK8SUpgradeCattleIoPlanV1Manifest#job_active_deadline_secs}
   */
   readonly jobActiveDeadlineSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#node_selector DataK8SUpgradeCattleIoPlanV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#node_selector DataK8SUpgradeCattleIoPlanV1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SUpgradeCattleIoPlanV1ManifestSpecNodeSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prepare DataK8SUpgradeCattleIoPlanV1Manifest#prepare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#prepare DataK8SUpgradeCattleIoPlanV1Manifest#prepare}
   */
   readonly prepare?: DataK8SUpgradeCattleIoPlanV1ManifestSpecPrepare;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secrets DataK8SUpgradeCattleIoPlanV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#secrets DataK8SUpgradeCattleIoPlanV1Manifest#secrets}
   */
   readonly secrets?: DataK8SUpgradeCattleIoPlanV1ManifestSpecSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#service_account_name DataK8SUpgradeCattleIoPlanV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#service_account_name DataK8SUpgradeCattleIoPlanV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#tolerations DataK8SUpgradeCattleIoPlanV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#tolerations DataK8SUpgradeCattleIoPlanV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SUpgradeCattleIoPlanV1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#upgrade DataK8SUpgradeCattleIoPlanV1Manifest#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#upgrade DataK8SUpgradeCattleIoPlanV1Manifest#upgrade}
   */
   readonly upgrade: DataK8SUpgradeCattleIoPlanV1ManifestSpecUpgrade;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#version DataK8SUpgradeCattleIoPlanV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#version DataK8SUpgradeCattleIoPlanV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -8489,7 +8489,7 @@ export class DataK8SUpgradeCattleIoPlanV1ManifestSpecOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest k8s_upgrade_cattle_io_plan_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest k8s_upgrade_cattle_io_plan_v1_manifest}
 */
 export class DataK8SUpgradeCattleIoPlanV1Manifest extends cdktf.TerraformDataSource {
 
@@ -8505,7 +8505,7 @@ export class DataK8SUpgradeCattleIoPlanV1Manifest extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataK8SUpgradeCattleIoPlanV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SUpgradeCattleIoPlanV1Manifest to import
-  * @param importFromId The id of the existing DataK8SUpgradeCattleIoPlanV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SUpgradeCattleIoPlanV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SUpgradeCattleIoPlanV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8517,7 +8517,7 @@ export class DataK8SUpgradeCattleIoPlanV1Manifest extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_cattle_io_plan_v1_manifest k8s_upgrade_cattle_io_plan_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/upgrade_cattle_io_plan_v1_manifest k8s_upgrade_cattle_io_plan_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8528,8 +8528,8 @@ export class DataK8SUpgradeCattleIoPlanV1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_upgrade_cattle_io_plan_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

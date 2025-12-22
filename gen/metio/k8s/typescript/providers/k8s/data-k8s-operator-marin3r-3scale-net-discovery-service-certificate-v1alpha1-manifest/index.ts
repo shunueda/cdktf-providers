@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestMetadata;
   /**
   * DiscoveryServiceCertificateSpec defines the desired state of DiscoveryServiceCertificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * Enabled is a flag to enable or disable renewal of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#enabled DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#enabled DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -312,13 +312,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -443,13 +443,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -574,7 +574,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * A reference to a Secret containing the CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#ca_secret_ref DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#ca_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#ca_secret_ref DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#ca_secret_ref}
   */
   readonly caSecretRef: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpecSignerCaSignedCaSecretRef;
 }
@@ -667,13 +667,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * CASigned holds specific configuration for the CASigned signer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#ca_signed DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#ca_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#ca_signed DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#ca_signed}
   */
   readonly caSigned?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpecSignerCaSigned;
   /**
   * SelfSigned holds specific configuration for the SelfSigned signer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#self_signed DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#self_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#self_signed DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#self_signed}
   */
   readonly selfSigned?: { [key: string]: string };
 }
@@ -798,49 +798,49 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alp
   /**
   * CertificateRenewalConfig configures the certificate renewal process. If unset default behavior is to renew the certificate but not notify of renewals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#certificate_renewal DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#certificate_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#certificate_renewal DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#certificate_renewal}
   */
   readonly certificateRenewal?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpecCertificateRenewal;
   /**
   * CommonName is the CommonName of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#common_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#common_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#common_name}
   */
   readonly commonName: string;
   /**
   * Hosts is the list of hosts the certificate is valid for. Only use when 'IsServerCertificate' is true. If unset, the CommonName field will be used to populate the valid hosts of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#hosts DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#hosts DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * IsCA is a boolean specifying that the certificate is a CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#is_ca DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#is_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#is_ca DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#is_ca}
   */
   readonly isCa?: boolean | cdktf.IResolvable;
   /**
   * SecretRef is a reference to the secret that will hold the certificate and the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#secret_ref DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#secret_ref DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpecSecretRef;
   /**
   * IsServerCertificate is a boolean specifying if the certificate should be issued with server auth usage enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#server DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#server DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#server}
   */
   readonly server?: boolean | cdktf.IResolvable;
   /**
   * Signer specifies the signer to use to create this certificate. Supported signers are CertManager and SelfSigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#signer DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#signer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#signer DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#signer}
   */
   readonly signer: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1ManifestSpecSigner;
   /**
   * ValidFor specifies the validity of the certificate in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#valid_for DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#valid_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#valid_for DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest#valid_for}
   */
   readonly validFor: number;
 }
@@ -1125,7 +1125,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1M
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest}
 */
 export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1141,7 +1141,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1M
   * Generates CDKTF code for importing a DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1153,7 +1153,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1M
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1164,8 +1164,8 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1M
       terraformResourceType: 'k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

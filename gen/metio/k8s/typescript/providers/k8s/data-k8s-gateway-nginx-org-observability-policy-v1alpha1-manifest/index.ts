@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired state of the ObservabilityPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#namespace DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#namespace DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTa
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#group DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#group DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#kind DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#kind DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -398,13 +398,13 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTr
   /**
   * Key is the key for a span attribute. Format: must have all ``` escaped and must not contain any '$' or end with an unescaped ''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#key DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#key DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the value for a span attribute. Format: must have all ``` escaped and must not contain any '$' or end with an unescaped ''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#value DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#value DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -545,31 +545,31 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTr
   /**
   * Context specifies how to propagate traceparent/tracestate headers. Default: https://nginx.org/en/docs/ngx_otel_module.html#otel_trace_context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#context DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#context DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Ratio is the percentage of traffic that should be sampled. Integer from 0 to 100. By default, 100% of http requests are traced. Not applicable for parent-based tracing. If ratio is set to 0, tracing is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#ratio DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#ratio DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#ratio}
   */
   readonly ratio?: number;
   /**
   * SpanAttributes are custom key/value attributes that are added to each span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#span_attributes DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#span_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#span_attributes DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#span_attributes}
   */
   readonly spanAttributes?: DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTracingSpanAttributes[] | cdktf.IResolvable;
   /**
   * SpanName defines the name of the Otel span. By default is the name of the location for a request. If specified, applies to all locations that are created for a route. Format: must have all ``` escaped and must not contain any '$' or end with an unescaped '' Examples of invalid names: some-$value, quoted-'value'-name, unescaped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#span_name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#span_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#span_name DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#span_name}
   */
   readonly spanName?: string;
   /**
   * Strategy defines if tracing is ratio-based or parent-based.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#strategy DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#strategy DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#strategy}
   */
   readonly strategy: string;
 }
@@ -778,13 +778,13 @@ export interface DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpec {
   /**
   * TargetRefs identifies the API object(s) to apply the policy to. Objects must be in the same namespace as the policy. Support: HTTPRoute, GRPCRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#target_refs DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#target_refs DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#target_refs}
   */
   readonly targetRefs: DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTargetRefs[] | cdktf.IResolvable;
   /**
   * Tracing allows for enabling and configuring tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#tracing DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#tracing DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecTracing;
 }
@@ -904,7 +904,7 @@ export class DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest k8s_gateway_nginx_org_observability_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest k8s_gateway_nginx_org_observability_policy_v1alpha1_manifest}
 */
 export class DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -920,7 +920,7 @@ export class DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -932,7 +932,7 @@ export class DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest k8s_gateway_nginx_org_observability_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_nginx_org_observability_policy_v1alpha1_manifest k8s_gateway_nginx_org_observability_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -943,8 +943,8 @@ export class DataK8SGatewayNginxOrgObservabilityPolicyV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_gateway_nginx_org_observability_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

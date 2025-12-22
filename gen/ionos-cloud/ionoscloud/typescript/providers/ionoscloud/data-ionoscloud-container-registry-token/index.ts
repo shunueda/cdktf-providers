@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataIonoscloudContainerRegistryTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#id DataIonoscloudContainerRegistryToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#id DataIonoscloudContainerRegistryToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#name DataIonoscloudContainerRegistryToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#name DataIonoscloudContainerRegistryToken#name}
   */
   readonly name?: string;
   /**
   * Whether partial matching is allowed or not when using name argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#partial_match DataIonoscloudContainerRegistryToken#partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#partial_match DataIonoscloudContainerRegistryToken#partial_match}
   */
   readonly partialMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#registry_id DataIonoscloudContainerRegistryToken#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#registry_id DataIonoscloudContainerRegistryToken#registry_id}
   */
   readonly registryId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#timeouts DataIonoscloudContainerRegistryToken#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#timeouts DataIonoscloudContainerRegistryToken#timeouts}
   */
   readonly timeouts?: DataIonoscloudContainerRegistryTokenTimeouts;
 }
@@ -197,19 +197,19 @@ export class DataIonoscloudContainerRegistryTokenScopesList extends cdktf.Comple
 }
 export interface DataIonoscloudContainerRegistryTokenTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#create DataIonoscloudContainerRegistryToken#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#create DataIonoscloudContainerRegistryToken#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#default DataIonoscloudContainerRegistryToken#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#default DataIonoscloudContainerRegistryToken#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#delete DataIonoscloudContainerRegistryToken#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#delete DataIonoscloudContainerRegistryToken#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#update DataIonoscloudContainerRegistryToken#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#update DataIonoscloudContainerRegistryToken#update}
   */
   readonly update?: string;
 }
@@ -390,7 +390,7 @@ export class DataIonoscloudContainerRegistryTokenTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token ionoscloud_container_registry_token}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token ionoscloud_container_registry_token}
 */
 export class DataIonoscloudContainerRegistryToken extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataIonoscloudContainerRegistryToken extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIonoscloudContainerRegistryToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudContainerRegistryToken to import
-  * @param importFromId The id of the existing DataIonoscloudContainerRegistryToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudContainerRegistryToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudContainerRegistryToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataIonoscloudContainerRegistryToken extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/container_registry_token ionoscloud_container_registry_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/container_registry_token ionoscloud_container_registry_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataIonoscloudContainerRegistryToken extends cdktf.TerraformDataSou
       terraformResourceType: 'ionoscloud_container_registry_token',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

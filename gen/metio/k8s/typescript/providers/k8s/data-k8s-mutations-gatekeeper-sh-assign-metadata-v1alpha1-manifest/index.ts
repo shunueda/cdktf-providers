@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#metadata DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#metadata DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestMetadata;
   /**
   * AssignMetadataSpec defines the desired state of AssignMetadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#spec DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#spec DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#annotations DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#annotations DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#name DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#name DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,11 +187,11 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * APIGroups is the API groups the resources belong to. '*' is all groups. If '*' is present, the length of the slice must be one. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#api_groups DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#api_groups DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#api_groups}
   */
   readonly apiGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#kinds DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#kinds DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#kinds}
   */
   readonly kinds?: string[];
 }
@@ -338,19 +338,19 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#key DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#key DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#operator DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#operator DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#values DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#values DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -520,13 +520,13 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_expressions DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_expressions DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatchLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -651,19 +651,19 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#key DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#key DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#operator DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#operator DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#values DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#values DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -833,13 +833,13 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_expressions DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_expressions DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatchNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match_labels DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -964,47 +964,47 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecM
   /**
   * ExcludedNamespaces is a list of namespace names. If defined, a constraint only applies to resources not in a listed namespace. ExcludedNamespaces also supports a prefix or suffix based glob. For example, 'excludedNamespaces: [kube-*]' matches both 'kube-system' and 'kube-public', and 'excludedNamespaces: [*-system]' matches both 'kube-system' and 'gatekeeper-system'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#excluded_namespaces DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#excluded_namespaces DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#kinds DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#kinds DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#kinds}
   */
   readonly kinds?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatchKinds[] | cdktf.IResolvable;
   /**
   * LabelSelector is the combination of two optional fields: 'matchLabels' and 'matchExpressions'. These two fields provide different methods of selecting or excluding k8s objects based on the label keys and values included in object metadata. All selection expressions from both sections are ANDed to determine if an object meets the cumulative requirements of the selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#label_selector DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#label_selector DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatchLabelSelector;
   /**
   * Name is the name of an object. If defined, it will match against objects with the specified name. Name also supports a prefix or suffix glob. For example, 'name: pod-*' would match both 'pod-a' and 'pod-b', and 'name: *-pod' would match both 'a-pod' and 'b-pod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#name DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#name DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * NamespaceSelector is a label selector against an object's containing namespace or the object itself, if the object is a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#namespace_selector DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#namespace_selector DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatchNamespaceSelector;
   /**
   * Namespaces is a list of namespace names. If defined, a constraint only applies to resources in a listed namespace. Namespaces also supports a prefix or suffix based glob. For example, 'namespaces: [kube-*]' matches both 'kube-system' and 'kube-public', and 'namespaces: [*-system]' matches both 'kube-system' and 'gatekeeper-system'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#namespaces DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#namespaces DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Scope determines if cluster-scoped and/or namespaced-scoped resources are matched. Accepts '*', 'Cluster', or 'Namespaced'. (defaults to '*')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#scope DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#scope DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Source determines whether generated or original resources are matched. Accepts 'Generated'|'Original'|'All' (defaults to 'All'). A value of 'Generated' will only match generated resources, while 'Original' will only match regular resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#source DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#source DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#source}
   */
   readonly source?: string;
 }
@@ -1303,25 +1303,25 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecP
   /**
   * DataSource specifies where to extract the data that will be sent to the external data provider as parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#data_source DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#data_source DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: string;
   /**
   * Default specifies the default value to use when the external data provider returns an error and the failure policy is set to 'UseDefault'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#default DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#default DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#default}
   */
   readonly default?: string;
   /**
   * FailurePolicy specifies the policy to apply when the external data provider returns an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#failure_policy DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#failure_policy DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#failure_policy}
   */
   readonly failurePolicy?: string;
   /**
   * Provider is the name of the external data provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#provider DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#provider DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
 }
@@ -1504,7 +1504,7 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecP
   /**
   * Field specifies which metadata field provides the assigned value. Valid fields are 'namespace' and 'name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#field DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#field DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#field}
   */
   readonly field?: string;
 }
@@ -1600,19 +1600,19 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecP
   /**
   * ExternalData describes the external data provider to be used for mutation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#external_data DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#external_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#external_data DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#external_data}
   */
   readonly externalData?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecParametersAssignExternalData;
   /**
   * FromMetadata assigns a value from the specified metadata field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#from_metadata DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#from_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#from_metadata DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#from_metadata}
   */
   readonly fromMetadata?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecParametersAssignFromMetadata;
   /**
   * Value is a constant value that will be assigned to 'location'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#value DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#value DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1766,7 +1766,7 @@ export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecP
   /**
   * Assign.value holds the value to be assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#assign DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#assign DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#assign}
   */
   readonly assign?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecParametersAssign;
 }
@@ -1860,17 +1860,17 @@ export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecParam
 }
 export interface DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#location DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#location DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#location}
   */
   readonly location?: string;
   /**
   * Match selects which objects are in scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#match DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#parameters DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#parameters DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest#parameters}
   */
   readonly parameters?: DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecParameters;
 }
@@ -2022,7 +2022,7 @@ export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest k8s_mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest k8s_mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest}
 */
 export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2038,7 +2038,7 @@ export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2050,7 +2050,7 @@ export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest k8s_mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest k8s_mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2061,8 +2061,8 @@ export class DataK8SMutationsGatekeeperShAssignMetadataV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_mutations_gatekeeper_sh_assign_metadata_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#metadata DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#metadata DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestMetadata;
   /**
   * IPAMBlockSpec contains the specification for an IPAMBlock resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#spec DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#spec DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#annotations DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#annotations DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#labels DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#labels DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#name DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#name DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestMetadataOutputReferenc
 }
 export interface DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestSpecAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#handle_id DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#handle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#handle_id DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#handle_id}
   */
   readonly handleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#secondary DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#secondary DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#secondary}
   */
   readonly secondary?: { [key: string]: string };
 }
@@ -336,55 +336,55 @@ export interface DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestSpec {
   /**
   * Affinity of the block, if this block has one. If set, it will be of the form 'host:<hostname>'. If not set, this block is not affine to a host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#affinity DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#affinity DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#affinity}
   */
   readonly affinity?: string;
   /**
   * Array of allocations in-use within this block. nil entries mean the allocation is free. For non-nil entries at index i, the index is the ordinal of the allocation within this block and the value is the index of the associated attributes in the Attributes array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#allocations DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#allocations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#allocations DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#allocations}
   */
   readonly allocations: string[];
   /**
   * Attributes is an array of arbitrary metadata associated with allocations in the block. To find attributes for a given allocation, use the value of the allocation's entry in the Allocations array as the index of the element in this array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#attributes DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#attributes DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#attributes}
   */
   readonly attributes: DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestSpecAttributes[] | cdktf.IResolvable;
   /**
   * The block's CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#cidr DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#cidr DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Deleted is an internal boolean used to workaround a limitation in the Kubernetes API whereby deletion will not return a conflict error if the block has been updated. It should not be set manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#deleted DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#deleted DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#deleted}
   */
   readonly deleted?: boolean | cdktf.IResolvable;
   /**
   * We store a sequence number that is updated each time the block is written. Each allocation will also store the sequence number of the block at the time of its creation. When releasing an IP, passing the sequence number associated with the allocation allows us to protect against a race condition and ensure the IP hasn't been released and re-allocated since the release request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#sequence_number DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#sequence_number DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * Map of allocated ordinal within the block to sequence number of the block at the time of allocation. Kubernetes does not allow numerical keys for maps, so the key is cast to a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#sequence_number_for_allocation DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#sequence_number_for_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#sequence_number_for_allocation DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#sequence_number_for_allocation}
   */
   readonly sequenceNumberForAllocation?: { [key: string]: string };
   /**
   * StrictAffinity on the IPAMBlock is deprecated and no longer used by the code. Use IPAMConfig StrictAffinity instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#strict_affinity DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#strict_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#strict_affinity DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#strict_affinity}
   */
   readonly strictAffinity: boolean | cdktf.IResolvable;
   /**
   * Unallocated is an ordered list of allocations which are free in the block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#unallocated DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#unallocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#unallocated DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest#unallocated}
   */
   readonly unallocated: string[];
 }
@@ -695,7 +695,7 @@ export class DataK8SCrdProjectcalicoOrgIpamBlockV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest k8s_crd_projectcalico_org_ipam_block_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest k8s_crd_projectcalico_org_ipam_block_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest extends cdktf.TerraformDataSource {
 
@@ -711,7 +711,7 @@ export class DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -723,7 +723,7 @@ export class DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest k8s_crd_projectcalico_org_ipam_block_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/crd_projectcalico_org_ipam_block_v1_manifest k8s_crd_projectcalico_org_ipam_block_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -734,8 +734,8 @@ export class DataK8SCrdProjectcalicoOrgIpamBlockV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_crd_projectcalico_org_ipam_block_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestMetadata;
   /**
   * EndpointSpec defines the desired state of Endpoint. A hosted endpoint for real-time inference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigAutoRollbackConfigurationAlarms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#alarm_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#alarm_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#alarm_name}
   */
   readonly alarmName?: string;
 }
@@ -333,7 +333,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigAutoRollbackConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#alarms DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#alarms DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#alarms}
   */
   readonly alarms?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigAutoRollbackConfigurationAlarms[] | cdktf.IResolvable;
 }
@@ -427,11 +427,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -554,11 +554,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -683,21 +683,21 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeplo
   /**
   * Specifies the type and size of the endpoint capacity to activate for a blue/green deployment, a rolling deployment, or a rollback strategy. You can specify your batches as either instance count or the overall percentage or your fleet. For a rollback strategy, if you don't specify the fields in this object, or if you set the Value to 100%, then SageMaker uses a blue/green rollback strategy and rolls all traffic back to the blue fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#canary_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#canary_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#canary_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#canary_size}
   */
   readonly canarySize?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySize;
   /**
   * Specifies the type and size of the endpoint capacity to activate for a blue/green deployment, a rolling deployment, or a rollback strategy. You can specify your batches as either instance count or the overall percentage or your fleet. For a rollback strategy, if you don't specify the fields in this object, or if you set the Value to 100%, then SageMaker uses a blue/green rollback strategy and rolls all traffic back to the blue fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#linear_step_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#linear_step_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#linear_step_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#linear_step_size}
   */
   readonly linearStepSize?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#wait_interval_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#wait_interval_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -878,17 +878,17 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_execution_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_execution_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_execution_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_execution_timeout_in_seconds}
   */
   readonly maximumExecutionTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#termination_wait_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#termination_wait_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#termination_wait_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#termination_wait_in_seconds}
   */
   readonly terminationWaitInSeconds?: number;
   /**
   * Defines the traffic routing strategy during an endpoint deployment to shift traffic from the old fleet to the new fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#traffic_routing_configuration DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#traffic_routing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#traffic_routing_configuration DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#traffic_routing_configuration}
   */
   readonly trafficRoutingConfiguration?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfiguration;
 }
@@ -1040,11 +1040,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigRollingUpdatePolicyMaximumBatchSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -1167,11 +1167,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -1296,21 +1296,21 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeplo
   /**
   * Specifies the type and size of the endpoint capacity to activate for a blue/green deployment, a rolling deployment, or a rollback strategy. You can specify your batches as either instance count or the overall percentage or your fleet. For a rollback strategy, if you don't specify the fields in this object, or if you set the Value to 100%, then SageMaker uses a blue/green rollback strategy and rolls all traffic back to the blue fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_batch_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_batch_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_batch_size}
   */
   readonly maximumBatchSize?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigRollingUpdatePolicyMaximumBatchSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_execution_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_execution_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#maximum_execution_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#maximum_execution_timeout_in_seconds}
   */
   readonly maximumExecutionTimeoutInSeconds?: number;
   /**
   * Specifies the type and size of the endpoint capacity to activate for a blue/green deployment, a rolling deployment, or a rollback strategy. You can specify your batches as either instance count or the overall percentage or your fleet. For a rollback strategy, if you don't specify the fields in this object, or if you set the Value to 100%, then SageMaker uses a blue/green rollback strategy and rolls all traffic back to the blue fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#rollback_maximum_batch_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#rollback_maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#rollback_maximum_batch_size DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#rollback_maximum_batch_size}
   */
   readonly rollbackMaximumBatchSize?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#wait_interval_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#wait_interval_in_seconds DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -1493,19 +1493,19 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeplo
   /**
   * Automatic rollback configuration for handling endpoint deployment failures and recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#auto_rollback_configuration DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#auto_rollback_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#auto_rollback_configuration DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#auto_rollback_configuration}
   */
   readonly autoRollbackConfiguration?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigAutoRollbackConfiguration;
   /**
   * Update policy for a blue/green deployment. If this update policy is specified, SageMaker creates a new fleet during the deployment while maintaining the old fleet. SageMaker flips traffic to the new fleet according to the specified traffic routing configuration. Only one update policy should be used in the deployment configuration. If no update policy is specified, SageMaker uses a blue/green deployment strategy with all at once traffic shifting by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#blue_green_update_policy DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#blue_green_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#blue_green_update_policy DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#blue_green_update_policy}
   */
   readonly blueGreenUpdatePolicy?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigBlueGreenUpdatePolicy;
   /**
   * Specifies a rolling deployment strategy for updating a SageMaker endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#rolling_update_policy DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#rolling_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#rolling_update_policy DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#rolling_update_policy}
   */
   readonly rollingUpdatePolicy?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfigRollingUpdatePolicy;
 }
@@ -1657,11 +1657,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1808,25 +1808,25 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpec {
   /**
   * The deployment configuration for an endpoint, which contains the desired deployment strategy and rollback configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#deployment_config DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#deployment_config DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#deployment_config}
   */
   readonly deploymentConfig?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecDeploymentConfig;
   /**
   * The name of an endpoint configuration. For more information, see CreateEndpointConfig (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateEndpointConfig.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#endpoint_config_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#endpoint_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#endpoint_config_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#endpoint_config_name}
   */
   readonly endpointConfigName: string;
   /**
   * The name of the endpoint.The name must be unique within an Amazon Web Services Region in your Amazon Web Services account. The name is case-insensitive in CreateEndpoint, but the case is preserved and must be matched in InvokeEndpoint (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_runtime_InvokeEndpoint.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#endpoint_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#endpoint_name DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * An array of key-value pairs. You can use tags to categorize your Amazon Web Services resources in different ways, for example, by purpose, owner, or environment. For more information, see Tagging Amazon Web Services Resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -2001,7 +2001,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2017,7 +2017,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2029,7 +2029,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2040,8 +2040,8 @@ export class DataK8SSagemakerServicesK8SAwsEndpointV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_endpoint_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

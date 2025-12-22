@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#metadata DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#metadata DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestMetadata;
   /**
   * HelmChartSpec defines the spec of HelmChart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#spec DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#spec DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#annotations DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#annotations DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#labels DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#labels DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#name DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#name DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestMetadataOutputRefer
 }
 export interface DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestSpecChartPullSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#name DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#name DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,97 +346,97 @@ export interface DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestSpec {
   /**
   * Atomic, for install case, if true, will uninstall failed release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#atomic DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#atomic DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * Chart is the name of a Helm Chart in the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#chart DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#chart DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#chart}
   */
   readonly chart: string;
   /**
   * ChartPullSecret is the name of the secret that contains the auth information for the chart repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#chart_pull_secret DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#chart_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#chart_pull_secret DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#chart_pull_secret}
   */
   readonly chartPullSecret?: DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestSpecChartPullSecret;
   /**
   * CreateNamespace create namespace when install helm release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#create_namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#create_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#create_namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#create_namespace}
   */
   readonly createNamespace?: boolean | cdktf.IResolvable;
   /**
   * DisableHooks disables hook processing if set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#disable_hooks DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#disable_hooks DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * Force will, if set to 'true', ignore certain warnings and perform the upgrade anyway. This should be used with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#force DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#force DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Replace will re-use the given name, only if that name is a deleted release that remains in the history. This is unsafe in production.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#replace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#replace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#replace}
   */
   readonly replace?: boolean | cdktf.IResolvable;
   /**
   * ReplaceCRDs replace all crds in chart and sub charts before upgrade and install, not working when SkipCRDs true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#replace_cr_ds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#replace_cr_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#replace_cr_ds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#replace_cr_ds}
   */
   readonly replaceCrDs?: boolean | cdktf.IResolvable;
   /**
   * a Helm Repository to be used. OCI-based registries are also supported. For example, https://charts.bitnami.com/bitnami or oci://localhost:5000/helm-charts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#repo DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#repo DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#repo}
   */
   readonly repo: string;
   /**
   * SkipCRDs skips installing CRDs when install flag is enabled during upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#skip_cr_ds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#skip_cr_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#skip_cr_ds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#skip_cr_ds}
   */
   readonly skipCrDs?: boolean | cdktf.IResolvable;
   /**
   * TargetNamespace specifies the namespace to install this HelmChart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#target_namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#target_namespace DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#target_namespace}
   */
   readonly targetNamespace: string;
   /**
   * TimeoutSeconds is the timeout of the chart to be install/upgrade/rollback/uninstall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#timeout_seconds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#timeout_seconds DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * UpgradeAtomic, for upgrade case, if true, will roll back failed release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#upgrade_atomic DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#upgrade_atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#upgrade_atomic DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#upgrade_atomic}
   */
   readonly upgradeAtomic?: boolean | cdktf.IResolvable;
   /**
   * ChartVersion is the version of the chart to be deployed. It will be defaulted with current latest version if empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#version DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#version DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
   * Wait determines whether the wait operation should be performed after helm install, upgrade or uninstall is requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#wait DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#wait DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * WaitForJobs determines whether the wait operation for the Jobs should be performed after the upgrade is requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#wait_for_job DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#wait_for_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#wait_for_job DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest#wait_for_job}
   */
   readonly waitForJob?: boolean | cdktf.IResolvable;
 }
@@ -956,7 +956,7 @@ export class DataK8SAppsClusternetIoHelmChartV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest k8s_apps_clusternet_io_helm_chart_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest k8s_apps_clusternet_io_helm_chart_v1alpha1_manifest}
 */
 export class DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -972,7 +972,7 @@ export class DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -984,7 +984,7 @@ export class DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest k8s_apps_clusternet_io_helm_chart_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_clusternet_io_helm_chart_v1alpha1_manifest k8s_apps_clusternet_io_helm_chart_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -995,8 +995,8 @@ export class DataK8SAppsClusternetIoHelmChartV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_apps_clusternet_io_helm_chart_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#namespace DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#namespace DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecAu
   /**
   * A pod will be subject to auto migration if it remains unschedulable beyond this duration. Duration should be specified in a format that can be parsed by Go's time.ParseDuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#pod_unschedulable_for DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#pod_unschedulable_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#pod_unschedulable_for DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#pod_unschedulable_for}
   */
   readonly podUnschedulableFor?: string;
 }
@@ -313,13 +313,13 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecAu
   /**
   * Besides starting new replicas in other cluster(s), whether to keep the unschedulable replicas in the original cluster so we can go back to the desired state when the cluster recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#keep_unschedulable_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#keep_unschedulable_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#keep_unschedulable_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#keep_unschedulable_replicas}
   */
   readonly keepUnschedulableReplicas?: boolean | cdktf.IResolvable;
   /**
   * When a replica should be subject to auto migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#when DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#when DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#when}
   */
   readonly when?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecAutoMigrationWhen;
 }
@@ -442,17 +442,17 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecAutoMi
 }
 export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecClusterAffinityMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * ClusterSelectorOperator is the set of operators that can be used in a cluster selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values: string[];
 }
@@ -617,17 +617,17 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecCluste
 }
 export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecClusterAffinityMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * ClusterSelectorOperator is the set of operators that can be used in a cluster selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values: string[];
 }
@@ -794,13 +794,13 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecCl
   /**
   * A list of cluster selector requirements by cluster labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecClusterAffinityMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of cluster selector requirements by cluster fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#match_fields DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#match_fields DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecClusterAffinityMatchFields[] | cdktf.IResolvable;
 }
@@ -947,25 +947,25 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecPl
   /**
   * Maximum number of replicas that should be assigned to this cluster workload object. Unbounded if no value provided (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#max_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#max_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * Minimum number of replicas that should be assigned to this cluster workload object. 0 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#min_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#min_replicas DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * A number expressing the priority of the cluster. The higher the value, the higher the priority. When selecting clusters for propagation, clusters with higher priority are preferred. When the Binpack ReplicasStrategy is selected, replicas will be scheduled to clusters with higher priority first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#priority DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#priority DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * A number expressing the preference to put an additional replica to this cluster workload object. It will not take effect when ReplicasStrategy is Binpack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#weight DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#weight DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -1148,13 +1148,13 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecPl
   /**
   * Cluster is the name of the FederatedCluster to propagate to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster}
   */
   readonly cluster: string;
   /**
   * Preferences contains the cluster's propagation preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#preferences DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#preferences DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#preferences}
   */
   readonly preferences?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecPlacementPreferences;
 }
@@ -1298,7 +1298,7 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecRe
   /**
   * If set to true, the scheduler will attempt to prevent migrating existing replicas during rescheduling. In order to do so, replica scheduling preferences might not be fully respected. If set to false, the scheduler will always rebalance the replicas based on the specified preferences, which might cause temporary service disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#avoid_disruption DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#avoid_disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#avoid_disruption DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#avoid_disruption}
   */
   readonly avoidDisruption?: boolean | cdktf.IResolvable;
 }
@@ -1394,25 +1394,25 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecRe
   /**
   * If set to true, changes to clusters' enabled list of api resources will trigger rescheduling. It set to false, the scheduler will reschedule only when other options are triggered or the replicas or the requested resources of the template changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_api_resources_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_api_resources_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_api_resources_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_api_resources_changed}
   */
   readonly clusterApiResourcesChanged?: boolean | cdktf.IResolvable;
   /**
   * If set to true, clusters joining the federation will trigger rescheduling. It set to false, the scheduler will reschedule only when other options are triggered or the replicas or the requested resources of the template changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_joined DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_joined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_joined DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_joined}
   */
   readonly clusterJoined?: boolean | cdktf.IResolvable;
   /**
   * If set to true, changes to cluster labels will trigger rescheduling. It set to false, the scheduler will reschedule only when other options are triggered or the replicas or the requested resources of the template changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_labels_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_labels_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_labels_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_labels_changed}
   */
   readonly clusterLabelsChanged?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the scheduler will trigger rescheduling when the semantics of the policy changes. For example, modifying placement, schedulingMode, maxClusters, clusterSelector, and other configurations related to scheduling (includes reschedulePolicy itself) will immediately trigger rescheduling. Modifying the labels, annotations, autoMigration configuration will not trigger rescheduling. It set to false, the scheduler will not reschedule when the policy content changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#policy_content_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#policy_content_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#policy_content_changed DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#policy_content_changed}
   */
   readonly policyContentChanged?: boolean | cdktf.IResolvable;
 }
@@ -1595,19 +1595,19 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecRe
   /**
   * DisableRescheduling determines if a federated object can be rescheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#disable_rescheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#disable_rescheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#disable_rescheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#disable_rescheduling}
   */
   readonly disableRescheduling?: boolean | cdktf.IResolvable;
   /**
   * Configures behaviors related to replica rescheduling. Default set via a post-generation patch. See patch file for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#replica_rescheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#replica_rescheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#replica_rescheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#replica_rescheduling}
   */
   readonly replicaRescheduling?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecReschedulePolicyReplicaRescheduling;
   /**
   * When the related objects should be subject to reschedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#reschedule_when DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#reschedule_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#reschedule_when DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#reschedule_when}
   */
   readonly rescheduleWhen?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecReschedulePolicyRescheduleWhen;
 }
@@ -1761,31 +1761,31 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecTo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#effect DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#effect DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2019,67 +2019,67 @@ export interface DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpec {
   /**
   * Configures behaviors related to auto migration. If absent, auto migration will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#auto_migration DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#auto_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#auto_migration DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#auto_migration}
   */
   readonly autoMigration?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecAutoMigration;
   /**
   * ClusterAffinity is a list of cluster selector terms, the terms are ORed. A empty or nil ClusterAffinity selects everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_affinity DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_affinity DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_affinity}
   */
   readonly clusterAffinity?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecClusterAffinity[] | cdktf.IResolvable;
   /**
   * ClusterSelector is a label query over clusters to consider for scheduling. An empty or nil ClusterSelector selects everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_selector DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#cluster_selector DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#cluster_selector}
   */
   readonly clusterSelector?: { [key: string]: string };
   /**
   * DisableFollowerScheduling is a boolean that determines if follower scheduling is disabled. Resources that depend on other resources (e.g. deployments) are called leaders, and resources that are depended on (e.g. configmaps and secrets) are called followers. If a leader enables follower scheduling, its followers will additionally be scheduled to clusters where the leader is scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#disable_follower_scheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#disable_follower_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#disable_follower_scheduling DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#disable_follower_scheduling}
   */
   readonly disableFollowerScheduling?: boolean | cdktf.IResolvable;
   /**
   * MaxClusters is the maximum number of replicas that the federated object can be propagated to. The maximum number of clusters is unbounded if no value is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#max_clusters DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#max_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#max_clusters DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#max_clusters}
   */
   readonly maxClusters?: number;
   /**
   * Placement is an explicit list of clusters used to select member clusters to propagate resources to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#placement DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#placement DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#placement}
   */
   readonly placement?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecPlacement[] | cdktf.IResolvable;
   /**
   * ReplicasStrategy is the strategy used for scheduling replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#replicas_strategy DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#replicas_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#replicas_strategy DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#replicas_strategy}
   */
   readonly replicasStrategy?: string;
   /**
   * Configures behaviors related to rescheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#reschedule_policy DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#reschedule_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#reschedule_policy DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#reschedule_policy}
   */
   readonly reschedulePolicy?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecReschedulePolicy;
   /**
   * SchedulingMode determines the mode used for scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#scheduling_mode DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#scheduling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#scheduling_mode DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#scheduling_mode}
   */
   readonly schedulingMode: string;
   /**
   * Profile determines the scheduling profile to be used for scheduling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#scheduling_profile DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#scheduling_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#scheduling_profile DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#scheduling_profile}
   */
   readonly schedulingProfile?: string;
   /**
   * Tolerations describe a set of cluster taints that the policy tolerates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#tolerations DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#tolerations DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
 }
@@ -2460,7 +2460,7 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_propagation_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_propagation_policy_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2476,7 +2476,7 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2488,7 +2488,7 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_propagation_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/core_kubeadmiral_io_propagation_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_propagation_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2499,8 +2499,8 @@ export class DataK8SCoreKubeadmiralIoPropagationPolicyV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_core_kubeadmiral_io_propagation_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

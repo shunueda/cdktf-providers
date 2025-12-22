@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#metadata DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#metadata DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestMetadata;
   /**
   * FakeClusterInstallSpec defines the desired state of the FakeClusterInstall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#spec DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#spec DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#annotations DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#annotations DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#labels DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#labels DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#namespace DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#namespace DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -411,7 +411,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -507,7 +507,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * HostedZoneRole is the role to assume when performing operations on a hosted zone owned by another account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#hosted_zone_role DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#hosted_zone_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#hosted_zone_role DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#hosted_zone_role}
   */
   readonly hostedZoneRole?: string;
 }
@@ -603,7 +603,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * ResourceGroupName is the name of the resource group in which the cluster resources were created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#resource_group_name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#resource_group_name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -696,7 +696,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * NetworkProjectID is used for shared VPC setups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#network_project_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#network_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#network_project_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#network_project_id}
   */
   readonly networkProjectId?: string;
 }
@@ -792,19 +792,19 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * AWS holds AWS-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#aws DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#aws DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#aws}
   */
   readonly aws?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataPlatformAws;
   /**
   * Azure holds azure-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#azure DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#azure DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#azure}
   */
   readonly azure?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataPlatformAzure;
   /**
   * GCP holds GCP-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#gcp DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#gcp DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataPlatformGcp;
 }
@@ -958,31 +958,31 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * AdminKubeconfigSecretRef references the secret containing the admin kubeconfig for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#admin_kubeconfig_secret_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#admin_kubeconfig_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#admin_kubeconfig_secret_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#admin_kubeconfig_secret_ref}
   */
   readonly adminKubeconfigSecretRef: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataAdminKubeconfigSecretRef;
   /**
   * AdminPasswordSecretRef references the secret containing the admin username/password which can be used to login to this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#admin_password_secret_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#admin_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#admin_password_secret_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#admin_password_secret_ref}
   */
   readonly adminPasswordSecretRef?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataAdminPasswordSecretRef;
   /**
   * ClusterID is a globally unique identifier for this cluster generated during installation. Used for reporting metrics among other places.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId: string;
   /**
   * InfraID is an identifier for this cluster generated during installation and used for tagging/naming resources in cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#infra_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#infra_id DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#infra_id}
   */
   readonly infraId: string;
   /**
   * Platform holds platform-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#platform DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#platform DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#platform}
   */
   readonly platform?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadataPlatform;
 }
@@ -1185,7 +1185,7 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * Name is the name of the ClusterImageSet that this refers to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#name DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1278,19 +1278,19 @@ export interface DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifes
   /**
   * ClusterDeploymentRef is a reference to the ClusterDeployment associated with this AgentClusterInstall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_deployment_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_deployment_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_deployment_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_deployment_ref}
   */
   readonly clusterDeploymentRef: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterDeploymentRef;
   /**
   * ClusterMetadata contains metadata information about the installed cluster. It should be populated once the cluster install is completed. (it can be populated sooner if desired, but Hive will not copy back to ClusterDeployment until the Installed condition goes True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_metadata DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#cluster_metadata DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#cluster_metadata}
   */
   readonly clusterMetadata?: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecClusterMetadata;
   /**
   * ImageSetRef is a reference to a ClusterImageSet. The release image specified in the ClusterImageSet will be used to install the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#image_set_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#image_set_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#image_set_ref DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest#image_set_ref}
   */
   readonly imageSetRef: DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpecImageSetRef;
 }
@@ -1436,7 +1436,7 @@ export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1ManifestSpe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest}
 */
 export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1452,7 +1452,7 @@ export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest ex
   * Generates CDKTF code for importing a DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1464,7 +1464,7 @@ export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1475,8 +1475,8 @@ export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest ex
       terraformResourceType: 'k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

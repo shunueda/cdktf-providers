@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestMetadata;
   /**
   * VirtualServiceSpec defines the desired state of VirtualService refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_VirtualServiceSpec.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecMeshRef {
   /**
   * Name is the name of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * UID is the UID of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#uid}
   */
   readonly uid: string;
 }
@@ -344,13 +344,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVi
   /**
   * Name is the name of VirtualNode CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualNode CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -472,13 +472,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVi
   /**
   * Amazon Resource Name to AppMesh VirtualNode object that is acting as a service provider. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node_arn DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node_arn}
   */
   readonly virtualNodeArn?: string;
   /**
   * Reference to Kubernetes VirtualNode CR in cluster that is acting as a service provider. Exactly one of 'virtualNodeRef' or 'virtualNodeARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node_ref}
   */
   readonly virtualNodeRef?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVirtualNodeVirtualNodeRef;
 }
@@ -603,13 +603,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVi
   /**
   * Name is the name of VirtualRouter CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualRouter CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -731,13 +731,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVi
   /**
   * Amazon Resource Name to AppMesh VirtualRouter object that is acting as a service provider. Exactly one of 'virtualRouterRef' or 'virtualRouterARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router_arn DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router_arn DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router_arn}
   */
   readonly virtualRouterArn?: string;
   /**
   * Reference to Kubernetes VirtualRouter CR in cluster that is acting as a service provider. Exactly one of 'virtualRouterRef' or 'virtualRouterARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router_ref}
   */
   readonly virtualRouterRef?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVirtualRouterVirtualRouterRef;
 }
@@ -862,13 +862,13 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProvider {
   /**
   * The virtual node associated with a virtual service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_node DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_node}
   */
   readonly virtualNode?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVirtualNode;
   /**
   * The virtual router associated with a virtual service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#virtual_router DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#virtual_router}
   */
   readonly virtualRouter?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProviderVirtualRouter;
 }
@@ -993,19 +993,19 @@ export interface DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpec {
   /**
   * AWSName is the AppMesh VirtualService object's name. If unspecified or empty, it defaults to be '${name}.${namespace}' of k8s VirtualService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#aws_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#aws_name}
   */
   readonly awsName?: string;
   /**
   * A reference to k8s Mesh CR that this VirtualService belongs to. The admission controller populates it using Meshes's selector, and prevents users from setting this field. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#mesh_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#mesh_ref}
   */
   readonly meshRef?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecMeshRef;
   /**
   * The provider for virtual services. You can specify a single virtual node or virtual router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#provider DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#provider DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest#provider}
   */
   readonly provider?: DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecProvider;
 }
@@ -1157,7 +1157,7 @@ export class DataK8SAppmeshK8SAwsVirtualServiceV1Beta2ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_service_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_service_v1beta2_manifest}
 */
 export class DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1173,7 +1173,7 @@ export class DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1185,7 +1185,7 @@ export class DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_service_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appmesh_k8s_aws_virtual_service_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_service_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1196,8 +1196,8 @@ export class DataK8SAppmeshK8SAwsVirtualServiceV1Beta2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_appmesh_k8s_aws_virtual_service_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

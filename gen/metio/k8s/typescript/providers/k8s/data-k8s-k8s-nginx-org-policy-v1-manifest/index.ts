@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8SNginxOrgPolicyV1ManifestConfig extends cdktf.Terrafor
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#metadata DataK8SK8SNginxOrgPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#metadata DataK8SK8SNginxOrgPolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SK8SNginxOrgPolicyV1ManifestMetadata;
   /**
   * PolicySpec is the spec of the Policy resource. The spec includes multiple fields, where each field represents a different policy. Only one policy (field) is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#spec DataK8SK8SNginxOrgPolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#spec DataK8SK8SNginxOrgPolicyV1Manifest#spec}
   */
   readonly spec?: DataK8SK8SNginxOrgPolicyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8SNginxOrgPolicyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#annotations DataK8SK8SNginxOrgPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#annotations DataK8SK8SNginxOrgPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#labels DataK8SK8SNginxOrgPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#labels DataK8SK8SNginxOrgPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#name DataK8SK8SNginxOrgPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#name DataK8SK8SNginxOrgPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#namespace DataK8SK8SNginxOrgPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#namespace DataK8SK8SNginxOrgPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestMetadataOutputReference extends c
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecAccessControl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#allow DataK8SK8SNginxOrgPolicyV1Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#allow DataK8SK8SNginxOrgPolicyV1Manifest#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#deny DataK8SK8SNginxOrgPolicyV1Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#deny DataK8SK8SNginxOrgPolicyV1Manifest#deny}
   */
   readonly deny?: string[];
 }
@@ -344,11 +344,11 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecAccessControlOutputReference 
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKeySuppliedIn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#header DataK8SK8SNginxOrgPolicyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#header DataK8SK8SNginxOrgPolicyV1Manifest#header}
   */
   readonly header?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#query DataK8SK8SNginxOrgPolicyV1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#query DataK8SK8SNginxOrgPolicyV1Manifest#query}
   */
   readonly query?: string[];
 }
@@ -471,13 +471,13 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKeySuppliedInOutputReferen
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * SuppliedIn defines the locations API Key should be supplied in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#supplied_in DataK8SK8SNginxOrgPolicyV1Manifest#supplied_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#supplied_in DataK8SK8SNginxOrgPolicyV1Manifest#supplied_in}
   */
   readonly suppliedIn?: DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKeySuppliedIn;
 }
@@ -600,11 +600,11 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKeyOutputReference extends
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#realm DataK8SK8SNginxOrgPolicyV1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#realm DataK8SK8SNginxOrgPolicyV1Manifest#realm}
   */
   readonly realm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#secret DataK8SK8SNginxOrgPolicyV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#secret DataK8SK8SNginxOrgPolicyV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -727,39 +727,39 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecBasicAuthOutputReference exte
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecEgressMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ciphers DataK8SK8SNginxOrgPolicyV1Manifest#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ciphers DataK8SK8SNginxOrgPolicyV1Manifest#ciphers}
   */
   readonly ciphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#protocols DataK8SK8SNginxOrgPolicyV1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#protocols DataK8SK8SNginxOrgPolicyV1Manifest#protocols}
   */
   readonly protocols?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#server_name DataK8SK8SNginxOrgPolicyV1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#server_name DataK8SK8SNginxOrgPolicyV1Manifest#server_name}
   */
   readonly serverName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#session_reuse DataK8SK8SNginxOrgPolicyV1Manifest#session_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#session_reuse DataK8SK8SNginxOrgPolicyV1Manifest#session_reuse}
   */
   readonly sessionReuse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ssl_name DataK8SK8SNginxOrgPolicyV1Manifest#ssl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ssl_name DataK8SK8SNginxOrgPolicyV1Manifest#ssl_name}
   */
   readonly sslName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#tls_secret DataK8SK8SNginxOrgPolicyV1Manifest#tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#tls_secret DataK8SK8SNginxOrgPolicyV1Manifest#tls_secret}
   */
   readonly tlsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#trusted_cert_secret DataK8SK8SNginxOrgPolicyV1Manifest#trusted_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#trusted_cert_secret DataK8SK8SNginxOrgPolicyV1Manifest#trusted_cert_secret}
   */
   readonly trustedCertSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_depth DataK8SK8SNginxOrgPolicyV1Manifest#verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_depth DataK8SK8SNginxOrgPolicyV1Manifest#verify_depth}
   */
   readonly verifyDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_server DataK8SK8SNginxOrgPolicyV1Manifest#verify_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_server DataK8SK8SNginxOrgPolicyV1Manifest#verify_server}
   */
   readonly verifyServer?: boolean | cdktf.IResolvable;
 }
@@ -1085,19 +1085,19 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecEgressMtlsOutputReference ext
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecIngressMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_cert_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_cert_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_cert_secret}
   */
   readonly clientCertSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#crl_file_name DataK8SK8SNginxOrgPolicyV1Manifest#crl_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#crl_file_name DataK8SK8SNginxOrgPolicyV1Manifest#crl_file_name}
   */
   readonly crlFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_client DataK8SK8SNginxOrgPolicyV1Manifest#verify_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_client DataK8SK8SNginxOrgPolicyV1Manifest#verify_client}
   */
   readonly verifyClient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_depth DataK8SK8SNginxOrgPolicyV1Manifest#verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#verify_depth DataK8SK8SNginxOrgPolicyV1Manifest#verify_depth}
   */
   readonly verifyDepth?: number;
 }
@@ -1278,23 +1278,23 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecIngressMtlsOutputReference ex
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecJwt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwks_uri DataK8SK8SNginxOrgPolicyV1Manifest#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwks_uri DataK8SK8SNginxOrgPolicyV1Manifest#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#key_cache DataK8SK8SNginxOrgPolicyV1Manifest#key_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#key_cache DataK8SK8SNginxOrgPolicyV1Manifest#key_cache}
   */
   readonly keyCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#realm DataK8SK8SNginxOrgPolicyV1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#realm DataK8SK8SNginxOrgPolicyV1Manifest#realm}
   */
   readonly realm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#secret DataK8SK8SNginxOrgPolicyV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#secret DataK8SK8SNginxOrgPolicyV1Manifest#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#token DataK8SK8SNginxOrgPolicyV1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#token DataK8SK8SNginxOrgPolicyV1Manifest#token}
   */
   readonly token?: string;
 }
@@ -1504,51 +1504,51 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecJwtOutputReference extends cd
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecOidc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#access_token_enable DataK8SK8SNginxOrgPolicyV1Manifest#access_token_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#access_token_enable DataK8SK8SNginxOrgPolicyV1Manifest#access_token_enable}
   */
   readonly accessTokenEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#auth_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#auth_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#auth_endpoint}
   */
   readonly authEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#auth_extra_args DataK8SK8SNginxOrgPolicyV1Manifest#auth_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#auth_extra_args DataK8SK8SNginxOrgPolicyV1Manifest#auth_extra_args}
   */
   readonly authExtraArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_id DataK8SK8SNginxOrgPolicyV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_id DataK8SK8SNginxOrgPolicyV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#client_secret DataK8SK8SNginxOrgPolicyV1Manifest#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#end_session_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#end_session_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#end_session_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#end_session_endpoint}
   */
   readonly endSessionEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwks_uri DataK8SK8SNginxOrgPolicyV1Manifest#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwks_uri DataK8SK8SNginxOrgPolicyV1Manifest#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#post_logout_redirect_uri DataK8SK8SNginxOrgPolicyV1Manifest#post_logout_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#post_logout_redirect_uri DataK8SK8SNginxOrgPolicyV1Manifest#post_logout_redirect_uri}
   */
   readonly postLogoutRedirectUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#redirect_uri DataK8SK8SNginxOrgPolicyV1Manifest#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#redirect_uri DataK8SK8SNginxOrgPolicyV1Manifest#redirect_uri}
   */
   readonly redirectUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#scope DataK8SK8SNginxOrgPolicyV1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#scope DataK8SK8SNginxOrgPolicyV1Manifest#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#token_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#token_endpoint DataK8SK8SNginxOrgPolicyV1Manifest#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#zone_sync_leeway DataK8SK8SNginxOrgPolicyV1Manifest#zone_sync_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#zone_sync_leeway DataK8SK8SNginxOrgPolicyV1Manifest#zone_sync_leeway}
   */
   readonly zoneSyncLeeway?: number;
 }
@@ -1961,43 +1961,43 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecOidcOutputReference extends c
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#burst DataK8SK8SNginxOrgPolicyV1Manifest#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#burst DataK8SK8SNginxOrgPolicyV1Manifest#burst}
   */
   readonly burst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#delay DataK8SK8SNginxOrgPolicyV1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#delay DataK8SK8SNginxOrgPolicyV1Manifest#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#dry_run DataK8SK8SNginxOrgPolicyV1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#dry_run DataK8SK8SNginxOrgPolicyV1Manifest#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#key DataK8SK8SNginxOrgPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#key DataK8SK8SNginxOrgPolicyV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_level DataK8SK8SNginxOrgPolicyV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_level DataK8SK8SNginxOrgPolicyV1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#no_delay DataK8SK8SNginxOrgPolicyV1Manifest#no_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#no_delay DataK8SK8SNginxOrgPolicyV1Manifest#no_delay}
   */
   readonly noDelay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#rate DataK8SK8SNginxOrgPolicyV1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#rate DataK8SK8SNginxOrgPolicyV1Manifest#rate}
   */
   readonly rate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#reject_code DataK8SK8SNginxOrgPolicyV1Manifest#reject_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#reject_code DataK8SK8SNginxOrgPolicyV1Manifest#reject_code}
   */
   readonly rejectCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#scale DataK8SK8SNginxOrgPolicyV1Manifest#scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#scale DataK8SK8SNginxOrgPolicyV1Manifest#scale}
   */
   readonly scale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#zone_size DataK8SK8SNginxOrgPolicyV1Manifest#zone_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#zone_size DataK8SK8SNginxOrgPolicyV1Manifest#zone_size}
   */
   readonly zoneSize?: string;
 }
@@ -2352,19 +2352,19 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecRateLimitOutputReference exte
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_bundle}
   */
   readonly apLogBundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_conf DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_conf DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_conf}
   */
   readonly apLogConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_dest DataK8SK8SNginxOrgPolicyV1Manifest#log_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_dest DataK8SK8SNginxOrgPolicyV1Manifest#log_dest}
   */
   readonly logDest?: string;
 }
@@ -2545,19 +2545,19 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLogOutputReference
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_bundle}
   */
   readonly apLogBundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_conf DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_log_conf DataK8SK8SNginxOrgPolicyV1Manifest#ap_log_conf}
   */
   readonly apLogConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_dest DataK8SK8SNginxOrgPolicyV1Manifest#log_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#log_dest DataK8SK8SNginxOrgPolicyV1Manifest#log_dest}
   */
   readonly logDest?: string;
 }
@@ -2760,25 +2760,25 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLogsList extends c
 }
 export interface DataK8SK8SNginxOrgPolicyV1ManifestSpecWaf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_bundle DataK8SK8SNginxOrgPolicyV1Manifest#ap_bundle}
   */
   readonly apBundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_policy DataK8SK8SNginxOrgPolicyV1Manifest#ap_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ap_policy DataK8SK8SNginxOrgPolicyV1Manifest#ap_policy}
   */
   readonly apPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#enable DataK8SK8SNginxOrgPolicyV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * SecurityLog defines the security log of a WAF policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#security_log DataK8SK8SNginxOrgPolicyV1Manifest#security_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#security_log DataK8SK8SNginxOrgPolicyV1Manifest#security_log}
   */
   readonly securityLog?: DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#security_logs DataK8SK8SNginxOrgPolicyV1Manifest#security_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#security_logs DataK8SK8SNginxOrgPolicyV1Manifest#security_logs}
   */
   readonly securityLogs?: DataK8SK8SNginxOrgPolicyV1ManifestSpecWafSecurityLogs[] | cdktf.IResolvable;
 }
@@ -2990,59 +2990,59 @@ export interface DataK8SK8SNginxOrgPolicyV1ManifestSpec {
   /**
   * AccessControl defines an access policy based on the source IP of a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#access_control DataK8SK8SNginxOrgPolicyV1Manifest#access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#access_control DataK8SK8SNginxOrgPolicyV1Manifest#access_control}
   */
   readonly accessControl?: DataK8SK8SNginxOrgPolicyV1ManifestSpecAccessControl;
   /**
   * APIKey defines an API Key policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#api_key DataK8SK8SNginxOrgPolicyV1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#api_key DataK8SK8SNginxOrgPolicyV1Manifest#api_key}
   */
   readonly apiKey?: DataK8SK8SNginxOrgPolicyV1ManifestSpecApiKey;
   /**
   * BasicAuth holds HTTP Basic authentication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#basic_auth DataK8SK8SNginxOrgPolicyV1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#basic_auth DataK8SK8SNginxOrgPolicyV1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SK8SNginxOrgPolicyV1ManifestSpecBasicAuth;
   /**
   * EgressMTLS defines an Egress MTLS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#egress_mtls DataK8SK8SNginxOrgPolicyV1Manifest#egress_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#egress_mtls DataK8SK8SNginxOrgPolicyV1Manifest#egress_mtls}
   */
   readonly egressMtls?: DataK8SK8SNginxOrgPolicyV1ManifestSpecEgressMtls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ingress_class_name DataK8SK8SNginxOrgPolicyV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ingress_class_name DataK8SK8SNginxOrgPolicyV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * IngressMTLS defines an Ingress MTLS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ingress_mtls DataK8SK8SNginxOrgPolicyV1Manifest#ingress_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#ingress_mtls DataK8SK8SNginxOrgPolicyV1Manifest#ingress_mtls}
   */
   readonly ingressMtls?: DataK8SK8SNginxOrgPolicyV1ManifestSpecIngressMtls;
   /**
   * JWTAuth holds JWT authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwt DataK8SK8SNginxOrgPolicyV1Manifest#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#jwt DataK8SK8SNginxOrgPolicyV1Manifest#jwt}
   */
   readonly jwt?: DataK8SK8SNginxOrgPolicyV1ManifestSpecJwt;
   /**
   * OIDC defines an Open ID Connect policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#oidc DataK8SK8SNginxOrgPolicyV1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#oidc DataK8SK8SNginxOrgPolicyV1Manifest#oidc}
   */
   readonly oidc?: DataK8SK8SNginxOrgPolicyV1ManifestSpecOidc;
   /**
   * RateLimit defines a rate limit policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#rate_limit DataK8SK8SNginxOrgPolicyV1Manifest#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#rate_limit DataK8SK8SNginxOrgPolicyV1Manifest#rate_limit}
   */
   readonly rateLimit?: DataK8SK8SNginxOrgPolicyV1ManifestSpecRateLimit;
   /**
   * WAF defines an WAF policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#waf DataK8SK8SNginxOrgPolicyV1Manifest#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#waf DataK8SK8SNginxOrgPolicyV1Manifest#waf}
   */
   readonly waf?: DataK8SK8SNginxOrgPolicyV1ManifestSpecWaf;
 }
@@ -3397,7 +3397,7 @@ export class DataK8SK8SNginxOrgPolicyV1ManifestSpecOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest k8s_k8s_nginx_org_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest k8s_k8s_nginx_org_policy_v1_manifest}
 */
 export class DataK8SK8SNginxOrgPolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3413,7 +3413,7 @@ export class DataK8SK8SNginxOrgPolicyV1Manifest extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataK8SK8SNginxOrgPolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SNginxOrgPolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SNginxOrgPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SNginxOrgPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SNginxOrgPolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3425,7 +3425,7 @@ export class DataK8SK8SNginxOrgPolicyV1Manifest extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_nginx_org_policy_v1_manifest k8s_k8s_nginx_org_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/k8s_nginx_org_policy_v1_manifest k8s_k8s_nginx_org_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3436,8 +3436,8 @@ export class DataK8SK8SNginxOrgPolicyV1Manifest extends cdktf.TerraformDataSourc
       terraformResourceType: 'k8s_k8s_nginx_org_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

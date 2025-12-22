@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#metadata DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#metadata DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestMetadata;
   /**
   * PatternSpec defines the desired state of Pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#annotations DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#annotations DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#labels DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#labels DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#namespace DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#namespace DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestMetadataOu
 }
 export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecExtraParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#value DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#value DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -362,7 +362,7 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecGi
   /**
   * Require manual intervention before Argo will sync new content. Default: False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#manual_sync DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#manual_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#manual_sync DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#manual_sync}
   */
   readonly manualSync?: boolean | cdktf.IResolvable;
 }
@@ -458,55 +458,55 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecGi
   /**
   * Optional. FQDN of the git server if automatic parsing from TargetRepo is broken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#hostname DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#hostname DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * (EXPERIMENTAL) Enable in-cluster git server (avoids the need of forking the upstream repository)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#in_cluster_git_server DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#in_cluster_git_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#in_cluster_git_server DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#in_cluster_git_server}
   */
   readonly inClusterGitServer?: boolean | cdktf.IResolvable;
   /**
   * Upstream git repo containing the pattern to deploy. Used when in-cluster fork to point to the upstream pattern repository. Takes precedence over TargetRepo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#origin_repo DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#origin_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#origin_repo DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#origin_repo}
   */
   readonly originRepo?: string;
   /**
   * (DEPRECATED) Branch, tag or commit in the upstream git repository. Does not support short-sha's. Default to HEAD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#origin_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#origin_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#origin_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#origin_revision}
   */
   readonly originRevision?: string;
   /**
   * Interval in seconds to poll for drifts between origin and target repositories. Default: 180 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#poll_interval DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#poll_interval DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#poll_interval}
   */
   readonly pollInterval?: number;
   /**
   * Git repo containing the pattern to deploy. Must use https/http or, for ssh, git@server:foo/bar.git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#target_repo DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#target_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#target_repo DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#target_repo}
   */
   readonly targetRepo?: string;
   /**
   * Branch, tag, or commit to deploy. Does not support short-sha's. Default: HEAD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#target_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#target_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * Optional. K8s secret name where the info for connecting to git can be found. The supported secrets are modeled after the private repositories in argo (https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#repositories) currently ssh and username+password are supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#token_secret DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#token_secret DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#token_secret}
   */
   readonly tokenSecret?: string;
   /**
   * Optional. K8s secret namespace where the token for connecting to git can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#token_secret_namespace DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#token_secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#token_secret_namespace DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#token_secret_namespace}
   */
   readonly tokenSecretNamespace?: string;
 }
@@ -834,31 +834,31 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecMu
   /**
   * The git reference when deploying the clustergroup helm chart directly from a git repo Defaults to 'main'. (Only used when developing the clustergroup helm chart)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_chart_git_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_chart_git_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_chart_git_revision DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_chart_git_revision}
   */
   readonly clusterGroupChartGitRevision?: string;
   /**
   * Which chart version for the clustergroup helm chart. Defaults to '0.8.*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_chart_version DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_chart_version DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_chart_version}
   */
   readonly clusterGroupChartVersion?: string;
   /**
   * The url when deploying the clustergroup helm chart directly from a git repo Defaults to '' which means not used (Only used when developing the clustergroup helm chart)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_git_repo_url DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_git_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_git_repo_url DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_git_repo_url}
   */
   readonly clusterGroupGitRepoUrl?: string;
   /**
   * (EXPERIMENTAL) Enable multi-source support when deploying the clustergroup argo application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#enabled DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#enabled DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The helm chart url to fetch the helm charts from in order to deploy the pattern. Defaults to https://charts.validatedpatterns.io/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#helm_repo_url DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#helm_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#helm_repo_url DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#helm_repo_url}
   */
   readonly helmRepoUrl?: string;
 }
@@ -1070,41 +1070,41 @@ export interface DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpec {
   /**
   * Analytics UUID. Leave empty to autogenerate a random one. Not PII information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#analytics_uuid DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#analytics_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#analytics_uuid DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#analytics_uuid}
   */
   readonly analyticsUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#cluster_group_name DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#cluster_group_name}
   */
   readonly clusterGroupName: string;
   /**
   * Comma separated capabilities to enable certain experimental features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#experimental_capabilities DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#experimental_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#experimental_capabilities DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#experimental_capabilities}
   */
   readonly experimentalCapabilities?: string;
   /**
   * .Name is dot separated per the helm --set syntax, such as: global.something.field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#extra_parameters DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#extra_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#extra_parameters DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#extra_parameters}
   */
   readonly extraParameters?: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecExtraParameters[] | cdktf.IResolvable;
   /**
   * URLs to additional Helm parameter files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#extra_value_files DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#extra_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#extra_value_files DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#extra_value_files}
   */
   readonly extraValueFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#git_ops_spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#git_ops_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#git_ops_spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#git_ops_spec}
   */
   readonly gitOpsSpec?: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecGitOpsSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#git_spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#git_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#git_spec DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#git_spec}
   */
   readonly gitSpec: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecGitSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#multi_source_config DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#multi_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#multi_source_config DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest#multi_source_config}
   */
   readonly multiSourceConfig?: DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecMultiSourceConfig;
 }
@@ -1395,7 +1395,7 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest}
 */
 export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1411,7 +1411,7 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1423,7 +1423,7 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1434,8 +1434,8 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

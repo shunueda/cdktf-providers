@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface McpGatewayClusterV2Config extends cdktf.TerraformMetaArguments 
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#current_cluster_operation_status McpGatewayClusterV2#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#current_cluster_operation_status McpGatewayClusterV2#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#description McpGatewayClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#description McpGatewayClusterV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface McpGatewayClusterV2Config extends cdktf.TerraformMetaArguments 
   /**
   * Version of MCP Gateway to run on the cluster. Available versions: <ul> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#mcp_gateway_version McpGatewayClusterV2#mcp_gateway_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#mcp_gateway_version McpGatewayClusterV2#mcp_gateway_version}
   */
   readonly mcpGatewayVersion: string;
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#name McpGatewayClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#name McpGatewayClusterV2#name}
   */
   readonly name: string;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#private_network_cluster McpGatewayClusterV2#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#private_network_cluster McpGatewayClusterV2#private_network_cluster}
   */
   readonly privateNetworkCluster: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#sla_tier McpGatewayClusterV2#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#sla_tier McpGatewayClusterV2#sla_tier}
   */
   readonly slaTier: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#data_centre McpGatewayClusterV2#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#data_centre McpGatewayClusterV2#data_centre}
   */
   readonly dataCentre: McpGatewayClusterV2DataCentre[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#resize_settings McpGatewayClusterV2#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#resize_settings McpGatewayClusterV2#resize_settings}
   */
   readonly resizeSettings?: McpGatewayClusterV2ResizeSettings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#timeouts McpGatewayClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#timeouts McpGatewayClusterV2#timeouts}
   */
   readonly timeouts?: McpGatewayClusterV2Timeouts;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#two_factor_delete McpGatewayClusterV2#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#two_factor_delete McpGatewayClusterV2#two_factor_delete}
   */
   readonly twoFactorDelete?: McpGatewayClusterV2TwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface McpGatewayClusterV2DataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#ebs_encryption_key McpGatewayClusterV2#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#ebs_encryption_key McpGatewayClusterV2#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -238,19 +238,19 @@ export interface McpGatewayClusterV2DataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#resource_group McpGatewayClusterV2#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#resource_group McpGatewayClusterV2#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#storage_network McpGatewayClusterV2#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#storage_network McpGatewayClusterV2#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -426,13 +426,13 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodesDelete
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -441,17 +441,17 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodesDelete
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#modified McpGatewayClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#modified McpGatewayClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_id McpGatewayClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_id McpGatewayClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
 }
@@ -685,19 +685,19 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#cdc_id McpGatewayClusterV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#cdc_id McpGatewayClusterV2#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -706,23 +706,23 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#modified McpGatewayClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#modified McpGatewayClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * Number of nodes set to delete in the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#number_of_nodes_to_delete McpGatewayClusterV2#number_of_nodes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#number_of_nodes_to_delete McpGatewayClusterV2#number_of_nodes_to_delete}
   */
   readonly numberOfNodesToDelete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
   /**
   * delete_node_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#delete_node_operations McpGatewayClusterV2#delete_node_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#delete_node_operations McpGatewayClusterV2#delete_node_operations}
   */
   readonly deleteNodeOperations?: McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNodeOperations[] | cdktf.IResolvable;
 }
@@ -1014,13 +1014,13 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsResizeOperationsR
   /**
   * Timestamp of the creation of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1029,19 +1029,19 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsResizeOperationsR
   /**
   * ID of the new node in the replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#new_node_id McpGatewayClusterV2#new_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#new_node_id McpGatewayClusterV2#new_node_id}
   */
   readonly newNodeId?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_id McpGatewayClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_id McpGatewayClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * Status of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1275,25 +1275,25 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsResizeOperations 
   /**
   * Timestamp of the completion of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#completed McpGatewayClusterV2#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#completed McpGatewayClusterV2#completed}
   */
   readonly completed?: string;
   /**
   * Number of nodes that can be concurrently resized at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#concurrent_resizes McpGatewayClusterV2#concurrent_resizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#concurrent_resizes McpGatewayClusterV2#concurrent_resizes}
   */
   readonly concurrentResizes?: number;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#created McpGatewayClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1302,31 +1302,31 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsResizeOperations 
   /**
   * Timestamp of when Instaclustr Support has been alerted to the resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#instaclustr_support_alerted McpGatewayClusterV2#instaclustr_support_alerted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#instaclustr_support_alerted McpGatewayClusterV2#instaclustr_support_alerted}
   */
   readonly instaclustrSupportAlerted?: string;
   /**
   * New size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#new_node_size McpGatewayClusterV2#new_node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#new_node_size McpGatewayClusterV2#new_node_size}
   */
   readonly newNodeSize?: string;
   /**
   * Purpose of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_purpose McpGatewayClusterV2#node_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_purpose McpGatewayClusterV2#node_purpose}
   */
   readonly nodePurpose?: string;
   /**
   * Status of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
   /**
   * replace_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#replace_operations McpGatewayClusterV2#replace_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#replace_operations McpGatewayClusterV2#replace_operations}
   */
   readonly replaceOperations?: McpGatewayClusterV2DataCentreCurrentOperationsResizeOperationsReplaceOperations[] | cdktf.IResolvable;
 }
@@ -1676,7 +1676,7 @@ export interface McpGatewayClusterV2DataCentreCurrentOperationsResize {
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#operations McpGatewayClusterV2#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#operations McpGatewayClusterV2#operations}
   */
   readonly operations?: McpGatewayClusterV2DataCentreCurrentOperationsResizeOperations[] | cdktf.IResolvable;
 }
@@ -1794,13 +1794,13 @@ export interface McpGatewayClusterV2DataCentreCurrentOperations {
   /**
   * delete_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#delete_nodes McpGatewayClusterV2#delete_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#delete_nodes McpGatewayClusterV2#delete_nodes}
   */
   readonly deleteNodes?: McpGatewayClusterV2DataCentreCurrentOperationsDeleteNodes[] | cdktf.IResolvable;
   /**
   * resize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#resize McpGatewayClusterV2#resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#resize McpGatewayClusterV2#resize}
   */
   readonly resize?: McpGatewayClusterV2DataCentreCurrentOperationsResize[] | cdktf.IResolvable;
 }
@@ -1947,13 +1947,13 @@ export interface McpGatewayClusterV2DataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#deletion_time McpGatewayClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#deletion_time McpGatewayClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1962,43 +1962,43 @@ export interface McpGatewayClusterV2DataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_roles McpGatewayClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_roles McpGatewayClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#private_address McpGatewayClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#private_address McpGatewayClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#public_address McpGatewayClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#public_address McpGatewayClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#rack McpGatewayClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#rack McpGatewayClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#start_time McpGatewayClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#start_time McpGatewayClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
 }
@@ -2357,7 +2357,7 @@ export interface McpGatewayClusterV2DataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#custom_virtual_network_id McpGatewayClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -2475,13 +2475,13 @@ export interface McpGatewayClusterV2DataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#deletion_time McpGatewayClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#deletion_time McpGatewayClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2490,43 +2490,43 @@ export interface McpGatewayClusterV2DataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_roles McpGatewayClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_roles McpGatewayClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#private_address McpGatewayClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#private_address McpGatewayClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#public_address McpGatewayClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#public_address McpGatewayClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#rack McpGatewayClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#rack McpGatewayClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#start_time McpGatewayClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#start_time McpGatewayClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
 }
@@ -2876,13 +2876,13 @@ export interface McpGatewayClusterV2DataCentreTag {
   /**
   * Key of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#key McpGatewayClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#key McpGatewayClusterV2#key}
   */
   readonly key: string;
   /**
   * Value of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#value McpGatewayClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#value McpGatewayClusterV2#value}
   */
   readonly value?: string;
 }
@@ -3026,13 +3026,13 @@ export interface McpGatewayClusterV2DataCentre {
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#cloud_provider McpGatewayClusterV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#cloud_provider McpGatewayClusterV2#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#id McpGatewayClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3041,97 +3041,97 @@ export interface McpGatewayClusterV2DataCentre {
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#name McpGatewayClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#name McpGatewayClusterV2#name}
   */
   readonly name: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#network McpGatewayClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#network McpGatewayClusterV2#network}
   */
   readonly network: string;
   /**
   * Size of the nodes provisioned in the Data Centre. Available versions: <ul> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#node_size McpGatewayClusterV2#node_size}
   */
   readonly nodeSize: string;
   /**
   * Total number of MCP gateway nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#number_of_nodes McpGatewayClusterV2#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#number_of_nodes McpGatewayClusterV2#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#provider_account_name McpGatewayClusterV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#provider_account_name McpGatewayClusterV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#region McpGatewayClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#region McpGatewayClusterV2#region}
   */
   readonly region: string;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#status McpGatewayClusterV2#status}
   */
   readonly status?: string;
   /**
   * (Optional) Enable tag management for the data centre, allowing you to create, update and delete custom tags on the data centre via Instaclustr Terraform Provider v2, Cluster Management API or Management Console. Tag management is only available for RIYOA clusters and cannot be disabled once enabled. If not specified, the current value will remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#tag_management_enabled McpGatewayClusterV2#tag_management_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#tag_management_enabled McpGatewayClusterV2#tag_management_enabled}
   */
   readonly tagManagementEnabled?: boolean | cdktf.IResolvable;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#zero_inbound_access McpGatewayClusterV2#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#zero_inbound_access McpGatewayClusterV2#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#aws_settings McpGatewayClusterV2#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#aws_settings McpGatewayClusterV2#aws_settings}
   */
   readonly awsSettings?: McpGatewayClusterV2DataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#azure_settings McpGatewayClusterV2#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#azure_settings McpGatewayClusterV2#azure_settings}
   */
   readonly azureSettings?: McpGatewayClusterV2DataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * current_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#current_operations McpGatewayClusterV2#current_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#current_operations McpGatewayClusterV2#current_operations}
   */
   readonly currentOperations?: McpGatewayClusterV2DataCentreCurrentOperations[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#deleted_nodes McpGatewayClusterV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#deleted_nodes McpGatewayClusterV2#deleted_nodes}
   */
   readonly deletedNodes?: McpGatewayClusterV2DataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#gcp_settings McpGatewayClusterV2#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#gcp_settings McpGatewayClusterV2#gcp_settings}
   */
   readonly gcpSettings?: McpGatewayClusterV2DataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#nodes McpGatewayClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#nodes McpGatewayClusterV2#nodes}
   */
   readonly nodes?: McpGatewayClusterV2DataCentreNodes[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#tag McpGatewayClusterV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#tag McpGatewayClusterV2#tag}
   */
   readonly tag?: McpGatewayClusterV2DataCentreTag[] | cdktf.IResolvable;
 }
@@ -3724,13 +3724,13 @@ export interface McpGatewayClusterV2ResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#concurrency McpGatewayClusterV2#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#concurrency McpGatewayClusterV2#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#notify_support_contacts McpGatewayClusterV2#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#notify_support_contacts McpGatewayClusterV2#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -3875,11 +3875,11 @@ export class McpGatewayClusterV2ResizeSettingsList extends cdktf.ComplexList {
 }
 export interface McpGatewayClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#create McpGatewayClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#create McpGatewayClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#default McpGatewayClusterV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#default McpGatewayClusterV2#default}
   */
   readonly default?: string;
 }
@@ -4004,13 +4004,13 @@ export interface McpGatewayClusterV2TwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#confirmation_email McpGatewayClusterV2#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#confirmation_email McpGatewayClusterV2#confirmation_email}
   */
   readonly confirmationEmail: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#confirmation_phone_number McpGatewayClusterV2#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#confirmation_phone_number McpGatewayClusterV2#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -4152,7 +4152,7 @@ export class McpGatewayClusterV2TwoFactorDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2 instaclustr_mcp_gateway_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2 instaclustr_mcp_gateway_cluster_v2}
 */
 export class McpGatewayClusterV2 extends cdktf.TerraformResource {
 
@@ -4168,7 +4168,7 @@ export class McpGatewayClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a McpGatewayClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the McpGatewayClusterV2 to import
-  * @param importFromId The id of the existing McpGatewayClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing McpGatewayClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the McpGatewayClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4180,7 +4180,7 @@ export class McpGatewayClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/mcp_gateway_cluster_v2 instaclustr_mcp_gateway_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/mcp_gateway_cluster_v2 instaclustr_mcp_gateway_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4191,8 +4191,8 @@ export class McpGatewayClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_mcp_gateway_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `iosxe_vtp`
 
-Refer to the Terraform Registry for docs: [`iosxe_vtp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/vtp).
+Refer to the Terraform Registry for docs: [`iosxe_vtp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/vtp).

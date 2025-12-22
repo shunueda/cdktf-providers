@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#metadata DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#metadata DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestMetadata;
   /**
   * A Trino cluster stacklet. This resource is managed by the Stackable operator for Trino. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/trino/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#spec DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#spec DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#annotations DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#annotations DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#namespace DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#namespace DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * A reference to the OIDC client credentials secret. The secret contains the client id and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#client_credentials_secret DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#client_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#client_credentials_secret DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#client_credentials_secret}
   */
   readonly clientCredentialsSecret: string;
   /**
   * An optional list of extra scopes which get merged with the scopes defined in the ['AuthenticationClass'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#extra_scopes DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#extra_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#extra_scopes DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#extra_scopes}
   */
   readonly extraScopes?: string[];
 }
@@ -347,13 +347,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * Name of the [AuthenticationClass](https://docs.stackable.tech/home/nightly/concepts/authentication) used to authenticate users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authentication_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authentication_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authentication_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authentication_class}
   */
   readonly authenticationClass: string;
   /**
   * This field contains OIDC-specific configuration. It is only required in case OIDC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#oidc DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#oidc DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigAuthenticationOidc;
 }
@@ -497,13 +497,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * The [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for the OPA stacklet that should be used for authorization requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map_name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map_name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName: string;
   /**
   * The name of the Rego package containing the Rego rules for the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#package DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#package DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#package}
   */
   readonly package?: string;
 }
@@ -625,7 +625,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * Configure the OPA stacklet [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) and the name of the Rego package containing your authorization rules. Consult the [OPA authorization documentation](https://docs.stackable.tech/home/nightly/concepts/opa) to learn how to deploy Rego authorization rules with OPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#opa DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#opa DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#opa}
   */
   readonly opa?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigAuthorizationOpa;
 }
@@ -721,19 +721,19 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -903,13 +903,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigCatalogLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1034,13 +1034,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * Only affects internal communication. Use mutual verification between Trino nodes This setting controls: - Which cert the servers should use to authenticate themselves against other servers - Which ca.crt to use when validating the other server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#internal_secret_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#internal_secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#internal_secret_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#internal_secret_class}
   */
   readonly internalSecretClass?: string;
   /**
   * Only affects client connections. This setting controls: - If TLS encryption is used at all - Which cert the servers should use to authenticate themselves against the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#server_secret_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#server_secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#server_secret_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#server_secret_class}
   */
   readonly serverSecretClass?: string;
 }
@@ -1165,37 +1165,37 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * Authentication options for Trino. Learn more in the [Trino authentication usage guide](https://docs.stackable.tech/home/nightly/trino/usage-guide/security#authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authentication DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authentication DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigAuthentication[] | cdktf.IResolvable;
   /**
   * Authorization options for Trino. Learn more in the [Trino authorization usage guide](https://docs.stackable.tech/home/nightly/trino/usage-guide/security#authorization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authorization DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#authorization DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigAuthorization;
   /**
   * [LabelSelector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) selecting the Catalogs to include in the Trino instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#catalog_label_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#catalog_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#catalog_label_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#catalog_label_selector}
   */
   readonly catalogLabelSelector: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigCatalogLabelSelector;
   /**
   * This field controls which type of Service the Operator creates for this TrinoCluster: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service * external-stable: Use a LoadBalancer service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#listener_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#listener_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * TLS configuration options for server and internal communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfigTls;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
 }
@@ -1433,13 +1433,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCluste
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#reconciliation_paused DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#reconciliation_paused DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#stopped DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#stopped DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -1564,25 +1564,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -1765,7 +1765,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1861,7 +1861,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -1957,7 +1957,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2053,7 +2053,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2149,25 +2149,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersLoggers;
 }
@@ -2350,13 +2350,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2481,13 +2481,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -2612,13 +2612,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -2743,19 +2743,19 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2925,13 +2925,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3056,17 +3056,17 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -3218,7 +3218,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesStorageData;
 }
@@ -3312,15 +3312,15 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesStorage;
 }
@@ -3474,33 +3474,33 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
   */
   readonly queryMaxMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
   */
   readonly queryMaxMemoryPerNode?: string;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfigResources;
 }
@@ -3741,13 +3741,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enabled DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enabled DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max_unavailable DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max_unavailable DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -3872,7 +3872,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_disruption_budget DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_disruption_budget DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleConfigPodDisruptionBudget;
 }
@@ -3968,25 +3968,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -4169,7 +4169,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4265,7 +4265,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -4361,7 +4361,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4457,7 +4457,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -4553,25 +4553,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -4754,13 +4754,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -4885,13 +4885,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -5016,13 +5016,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -5147,19 +5147,19 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5329,13 +5329,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5460,17 +5460,17 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5622,7 +5622,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesStorageData;
 }
@@ -5716,15 +5716,15 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesStorage;
 }
@@ -5878,33 +5878,33 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordi
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
   */
   readonly queryMaxMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
   */
   readonly queryMaxMemoryPerNode?: string;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResources;
 }
@@ -6143,33 +6143,33 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#replicas DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#replicas DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -6408,39 +6408,39 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_groups DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_groups DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinatorsRoleGroups;
 }
@@ -6707,7 +6707,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecImageP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6822,37 +6822,37 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecImage 
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#product_version DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#product_version DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pull_policy DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pull_policy DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pull_secrets DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pull_secrets DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#repo DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#repo DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#stackable_version DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#stackable_version DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -7093,25 +7093,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -7294,7 +7294,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7390,7 +7390,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -7486,7 +7486,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7582,7 +7582,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7678,25 +7678,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLoggingContainersLoggers;
 }
@@ -7879,13 +7879,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -8010,13 +8010,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -8141,13 +8141,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -8272,19 +8272,19 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8454,13 +8454,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8585,17 +8585,17 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -8747,7 +8747,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersCon
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesStorageData;
 }
@@ -8841,15 +8841,15 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersCon
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResourcesStorage;
 }
@@ -9003,33 +9003,33 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
   */
   readonly queryMaxMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
   */
   readonly queryMaxMemoryPerNode?: string;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfigResources;
 }
@@ -9270,13 +9270,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enabled DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enabled DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max_unavailable DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max_unavailable DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -9401,7 +9401,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_disruption_budget DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_disruption_budget DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleConfigPodDisruptionBudget;
 }
@@ -9497,25 +9497,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#node_selector DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_anti_affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -9698,7 +9698,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9794,7 +9794,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -9890,7 +9890,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9986,7 +9986,7 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#level DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -10082,25 +10082,25 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#console DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#custom DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#file DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#loggers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -10283,13 +10283,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#containers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#enable_vector_agent DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -10414,13 +10414,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#max DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#min DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -10545,13 +10545,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#limit DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#runtime_limits DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -10676,19 +10676,19 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#operator DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#values DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10858,13 +10858,13 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_expressions DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesStorageDataSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#match_labels DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10989,17 +10989,17 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#capacity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#selectors DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesStorageDataSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage_class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -11151,7 +11151,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRol
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#data DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#data}
   */
   readonly data?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesStorageData;
 }
@@ -11245,15 +11245,15 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRol
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cpu DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#storage DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResourcesStorage;
 }
@@ -11407,33 +11407,33 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorker
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#affinity DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#logging DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory}
   */
   readonly queryMaxMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#query_max_memory_per_node DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#query_max_memory_per_node}
   */
   readonly queryMaxMemoryPerNode?: string;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#resources DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfigResources;
 }
@@ -11672,33 +11672,33 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRol
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#replicas DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#replicas DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -11937,39 +11937,39 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRol
 }
 export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cli_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#env_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#pod_overrides DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_groups DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#role_groups DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkersRoleGroups;
 }
@@ -12236,31 +12236,31 @@ export interface DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpec {
   /**
   * Settings that affect all roles and role groups. The settings in the 'clusterConfig' are cluster wide settings that do not need to be configurable at role or role group level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cluster_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cluster_config DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * [Cluster operations](https://docs.stackable.tech/home/nightly/concepts/operations/cluster_operations) properties, allow stopping the product instance as well as pausing reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cluster_operation DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#cluster_operation DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#coordinators DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#coordinators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#coordinators DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#coordinators}
   */
   readonly coordinators?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecCoordinators;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#image DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#image DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecImage;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#workers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#workers DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest#workers}
   */
   readonly workers?: DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecWorkers;
 }
@@ -12464,7 +12464,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest k8s_trino_stackable_tech_trino_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest k8s_trino_stackable_tech_trino_cluster_v1alpha1_manifest}
 */
 export class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12480,7 +12480,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12492,7 +12492,7 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest k8s_trino_stackable_tech_trino_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/trino_stackable_tech_trino_cluster_v1alpha1_manifest k8s_trino_stackable_tech_trino_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12503,8 +12503,8 @@ export class DataK8STrinoStackableTechTrinoClusterV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_trino_stackable_tech_trino_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

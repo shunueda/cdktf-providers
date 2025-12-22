@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#metadata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#metadata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8STinkerbellOrgHardwareV1Alpha2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#spec DataK8STinkerbellOrgHardwareV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#spec DataK8STinkerbellOrgHardwareV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#annotations DataK8STinkerbellOrgHardwareV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#annotations DataK8STinkerbellOrgHardwareV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#labels DataK8STinkerbellOrgHardwareV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#labels DataK8STinkerbellOrgHardwareV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#namespace DataK8STinkerbellOrgHardwareV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#namespace DataK8STinkerbellOrgHardwareV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecBmcRef {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -313,13 +313,13 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecInstance {
   /**
   * Userdata is data with a structure understood by the producer and consumer of the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#userdata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#userdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#userdata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#userdata}
   */
   readonly userdata?: string;
   /**
   * Vendordata is data with a structure understood by the producer and consumer of the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#vendordata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#vendordata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#vendordata DataK8STinkerbellOrgHardwareV1Alpha2Manifest#vendordata}
   */
   readonly vendordata?: string;
 }
@@ -444,13 +444,13 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecIpxe {
   /**
   * Content is an inline iPXE script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#inline DataK8STinkerbellOrgHardwareV1Alpha2Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#inline DataK8STinkerbellOrgHardwareV1Alpha2Manifest#inline}
   */
   readonly inline?: string;
   /**
   * URL is a URL to a hosted iPXE script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#url DataK8STinkerbellOrgHardwareV1Alpha2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#url DataK8STinkerbellOrgHardwareV1Alpha2Manifest#url}
   */
   readonly url?: string;
 }
@@ -575,47 +575,47 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecNetworkInterfac
   /**
   * Gateway is the default gateway address to serve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#gateway DataK8STinkerbellOrgHardwareV1Alpha2Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#gateway DataK8STinkerbellOrgHardwareV1Alpha2Manifest#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#hostname DataK8STinkerbellOrgHardwareV1Alpha2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#hostname DataK8STinkerbellOrgHardwareV1Alpha2Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * IP is an IPv4 address to serve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#ip DataK8STinkerbellOrgHardwareV1Alpha2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#ip DataK8STinkerbellOrgHardwareV1Alpha2Manifest#ip}
   */
   readonly ip?: string;
   /**
   * LeaseTimeSeconds to serve. 24h default. Maximum equates to max uint32 as defined by RFC 2132 § 9.2 (https://www.rfc-editor.org/rfc/rfc2132.html#section-9.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#lease_time_seconds DataK8STinkerbellOrgHardwareV1Alpha2Manifest#lease_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#lease_time_seconds DataK8STinkerbellOrgHardwareV1Alpha2Manifest#lease_time_seconds}
   */
   readonly leaseTimeSeconds?: number;
   /**
   * Nameservers to serve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#nameservers DataK8STinkerbellOrgHardwareV1Alpha2Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#nameservers DataK8STinkerbellOrgHardwareV1Alpha2Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * Netmask is an IPv4 netmask to serve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#netmask DataK8STinkerbellOrgHardwareV1Alpha2Manifest#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#netmask DataK8STinkerbellOrgHardwareV1Alpha2Manifest#netmask}
   */
   readonly netmask?: string;
   /**
   * Timeservers to serve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#timeservers DataK8STinkerbellOrgHardwareV1Alpha2Manifest#timeservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#timeservers DataK8STinkerbellOrgHardwareV1Alpha2Manifest#timeservers}
   */
   readonly timeservers?: string[];
   /**
   * VLANID is a VLAN ID between 0 and 4096.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#vlan_id DataK8STinkerbellOrgHardwareV1Alpha2Manifest#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#vlan_id DataK8STinkerbellOrgHardwareV1Alpha2Manifest#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -914,19 +914,19 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecNetworkInterfac
   /**
   * DHCP is the basic network information for serving DHCP requests. Required when DisbaleDHCP is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#dhcp DataK8STinkerbellOrgHardwareV1Alpha2Manifest#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#dhcp DataK8STinkerbellOrgHardwareV1Alpha2Manifest#dhcp}
   */
   readonly dhcp?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecNetworkInterfacesDhcp;
   /**
   * DisableDHCP disables DHCP for this interface. Implies DisableNetboot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#disable_dhcp DataK8STinkerbellOrgHardwareV1Alpha2Manifest#disable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#disable_dhcp DataK8STinkerbellOrgHardwareV1Alpha2Manifest#disable_dhcp}
   */
   readonly disableDhcp?: boolean | cdktf.IResolvable;
   /**
   * DisableNetboot disables netbooting for this interface. The interface will still receive network information specified by DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#disable_netboot DataK8STinkerbellOrgHardwareV1Alpha2Manifest#disable_netboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#disable_netboot DataK8STinkerbellOrgHardwareV1Alpha2Manifest#disable_netboot}
   */
   readonly disableNetboot?: boolean | cdktf.IResolvable;
 }
@@ -1080,7 +1080,7 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecOsie {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#name DataK8STinkerbellOrgHardwareV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1176,43 +1176,43 @@ export interface DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpec {
   /**
   * BMCRef references a Rufio Machine object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#bmc_ref DataK8STinkerbellOrgHardwareV1Alpha2Manifest#bmc_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#bmc_ref DataK8STinkerbellOrgHardwareV1Alpha2Manifest#bmc_ref}
   */
   readonly bmcRef?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecBmcRef;
   /**
   * Instance describes instance specific data that is generally unused by Tinkerbell core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#instance DataK8STinkerbellOrgHardwareV1Alpha2Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#instance DataK8STinkerbellOrgHardwareV1Alpha2Manifest#instance}
   */
   readonly instance?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecInstance;
   /**
   * IPXE provides iPXE script override fields. This is useful for debugging or netboot customization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#ipxe DataK8STinkerbellOrgHardwareV1Alpha2Manifest#ipxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#ipxe DataK8STinkerbellOrgHardwareV1Alpha2Manifest#ipxe}
   */
   readonly ipxe?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecIpxe;
   /**
   * KernelParams passed to the kernel when launching the OSIE. Parameters are joined with a space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#kernel_params DataK8STinkerbellOrgHardwareV1Alpha2Manifest#kernel_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#kernel_params DataK8STinkerbellOrgHardwareV1Alpha2Manifest#kernel_params}
   */
   readonly kernelParams?: string[];
   /**
   * NetworkInterfaces defines the desired DHCP and netboot configuration for a network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#network_interfaces DataK8STinkerbellOrgHardwareV1Alpha2Manifest#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#network_interfaces DataK8STinkerbellOrgHardwareV1Alpha2Manifest#network_interfaces}
   */
   readonly networkInterfaces?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecNetworkInterfaces;
   /**
   * OSIE describes the Operating System Installation Environment to be netbooted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#osie DataK8STinkerbellOrgHardwareV1Alpha2Manifest#osie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#osie DataK8STinkerbellOrgHardwareV1Alpha2Manifest#osie}
   */
   readonly osie?: DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecOsie;
   /**
   * StorageDevices is a list of storage devices that will be available in the OSIE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#storage_devices DataK8STinkerbellOrgHardwareV1Alpha2Manifest#storage_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#storage_devices DataK8STinkerbellOrgHardwareV1Alpha2Manifest#storage_devices}
   */
   readonly storageDevices?: string[];
 }
@@ -1480,7 +1480,7 @@ export class DataK8STinkerbellOrgHardwareV1Alpha2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest k8s_tinkerbell_org_hardware_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest k8s_tinkerbell_org_hardware_v1alpha2_manifest}
 */
 export class DataK8STinkerbellOrgHardwareV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -1496,7 +1496,7 @@ export class DataK8STinkerbellOrgHardwareV1Alpha2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8STinkerbellOrgHardwareV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STinkerbellOrgHardwareV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8STinkerbellOrgHardwareV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STinkerbellOrgHardwareV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STinkerbellOrgHardwareV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1508,7 +1508,7 @@ export class DataK8STinkerbellOrgHardwareV1Alpha2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest k8s_tinkerbell_org_hardware_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tinkerbell_org_hardware_v1alpha2_manifest k8s_tinkerbell_org_hardware_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1519,8 +1519,8 @@ export class DataK8STinkerbellOrgHardwareV1Alpha2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_tinkerbell_org_hardware_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metadata DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metadata DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestMetadata;
   /**
   * FlowCollectorSpec defines the desired state of FlowCollector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#spec DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#spec DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#annotations DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#annotations DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEb
   /**
   * env allows passing custom environment variables to the NetObserv Agent. Useful for passing some very concrete performance-tuning options (such as GOGC, GOMAXPROCS) that shouldn't be publicly exposed as part of the FlowCollector descriptor, as they are only useful in edge debug and support scenarios.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#env DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#env DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
 }
@@ -283,7 +283,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEb
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -398,19 +398,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEb
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEbpfResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -564,67 +564,67 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEb
   /**
   * cacheActiveTimeout is the max period during which the reporter will aggregate flows before sending. Increasing 'cacheMaxFlows' and 'cacheActiveTimeout' can decrease the network traffic overhead and the CPU load, however you can expect higher memory consumption and an increased latency in the flow collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_active_timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_active_timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_active_timeout}
   */
   readonly cacheActiveTimeout?: string;
   /**
   * cacheMaxFlows is the max number of flows in an aggregate; when reached, the reporter sends the flows. Increasing 'cacheMaxFlows' and 'cacheActiveTimeout' can decrease the network traffic overhead and the CPU load, however you can expect higher memory consumption and an increased latency in the flow collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_max_flows DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_max_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_max_flows DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_max_flows}
   */
   readonly cacheMaxFlows?: number;
   /**
   * Debug allows setting some aspects of the internal configuration of the eBPF agent. This section is aimed exclusively for debugging and fine-grained performance optimizations (for example GOGC, GOMAXPROCS env vars). Users setting its values do it at their own risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#debug DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#debug DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#debug}
   */
   readonly debug?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEbpfDebug;
   /**
   * excludeInterfaces contains the interface names that will be excluded from flow tracing. If an entry is enclosed by slashes (such as '/br-/'), it will match as regular expression, otherwise it will be matched as a case-sensitive string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#exclude_interfaces DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#exclude_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#exclude_interfaces DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#exclude_interfaces}
   */
   readonly excludeInterfaces?: string[];
   /**
   * imagePullPolicy is the Kubernetes pull policy for the image defined above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * interfaces contains the interface names from where flows will be collected. If empty, the agent will fetch all the interfaces in the system, excepting the ones listed in ExcludeInterfaces. If an entry is enclosed by slashes (such as '/br-/'), it will match as regular expression, otherwise it will be matched as a case-sensitive string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#interfaces DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#interfaces DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * kafkaBatchSize limits the maximum size of a request in bytes before being sent to a partition. Ignored when not using Kafka. Default: 1MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_batch_size}
   */
   readonly kafkaBatchSize?: number;
   /**
   * logLevel defines the log level for the NetObserv eBPF Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * privileged mode for the eBPF Agent container. In general this setting can be ignored or set to false: in that case, the operator will set granular capabilities (BPF, PERFMON, NET_ADMIN, SYS_RESOURCE) to the container, to enable its correct operation. If for some reason these capabilities cannot be set (for example old kernel version not knowing CAP_BPF) then you can turn on this mode for more global privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#privileged DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#privileged DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * resources are the compute resources required by this container. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEbpfResources;
   /**
   * sampling rate of the flow reporter. 100 means one flow on 100 is sent. 0 or 1 means all flows are sampled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sampling DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sampling DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sampling}
   */
   readonly sampling?: number;
 }
@@ -1010,7 +1010,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIp
   /**
   * namespace where the config map is going to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1106,19 +1106,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIp
   /**
   * containerName defines the name of the container to configure for IPFIX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * daemonSetName defines the name of the DaemonSet controlling the OVN-Kubernetes pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#daemon_set_name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#daemon_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#daemon_set_name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#daemon_set_name}
   */
   readonly daemonSetName?: string;
   /**
   * namespace where OVN-Kubernetes pods are deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1272,37 +1272,37 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIp
   /**
   * cacheActiveTimeout is the max period during which the reporter will aggregate flows before sending
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_active_timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_active_timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_active_timeout}
   */
   readonly cacheActiveTimeout?: string;
   /**
   * cacheMaxFlows is the max number of flows in an aggregate; when reached, the reporter sends the flows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_max_flows DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_max_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cache_max_flows DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cache_max_flows}
   */
   readonly cacheMaxFlows?: number;
   /**
   * clusterNetworkOperator defines the settings related to the OpenShift Cluster Network Operator, when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cluster_network_operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cluster_network_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cluster_network_operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cluster_network_operator}
   */
   readonly clusterNetworkOperator?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIpfixClusterNetworkOperator;
   /**
   * forceSampleAll allows disabling sampling in the IPFIX-based flow reporter. It is not recommended to sample all the traffic with IPFIX, as it might generate cluster instability. If you REALLY want to do that, set this flag to true. Use at your own risk. When it is set to true, the value of 'sampling' is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#force_sample_all DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#force_sample_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#force_sample_all DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#force_sample_all}
   */
   readonly forceSampleAll?: boolean | cdktf.IResolvable;
   /**
   * ovnKubernetes defines the settings of the OVN-Kubernetes CNI, when available. This configuration is used when using OVN's IPFIX exports, without OpenShift. When using OpenShift, refer to the 'clusterNetworkOperator' property instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ovn_kubernetes DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ovn_kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ovn_kubernetes DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ovn_kubernetes}
   */
   readonly ovnKubernetes?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIpfixOvnKubernetes;
   /**
   * sampling is the sampling rate on the reporter. 100 means one flow on 100 is sent. To ensure cluster stability, it is not possible to set a value below 2. If you really want to sample every packet, which might impact the cluster stability, refer to 'forceSampleAll'. Alternatively, you can use the eBPF Agent instead of IPFIX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sampling DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sampling DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sampling}
   */
   readonly sampling?: number;
 }
@@ -1543,19 +1543,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgent {
   /**
   * ebpf describes the settings related to the eBPF-based flow reporter when the 'agent.type' property is set to 'EBPF'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ebpf DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ebpf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ebpf DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ebpf}
   */
   readonly ebpf?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentEbpf;
   /**
   * ipfix describes the settings related to the IPFIX-based flow reporter when the 'agent.type' property is set to 'IPFIX'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ipfix DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ipfix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ipfix DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ipfix}
   */
   readonly ipfix?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgentIpfix;
   /**
   * type selects the flows tracing agent. Possible values are 'EBPF' (default) to use NetObserv eBPF agent, 'IPFIX' to use the legacy IPFIX collector. 'EBPF' is recommended in most cases as it offers better performances and should work regardless of the CNI installed on the cluster. 'IPFIX' works with OVN-Kubernetes CNI (other CNIs could work if they support exporting IPFIX, but they would require manual configuration).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1706,25 +1706,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1904,19 +1904,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsContainerResourceTarget;
 }
@@ -2061,19 +2061,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2243,13 +2243,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2374,13 +2374,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsExternalMetricSelector;
 }
@@ -2502,25 +2502,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2700,13 +2700,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsExternalMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsExternalTarget;
 }
@@ -2825,19 +2825,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#api_version DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#api_version DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kind DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kind DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2985,19 +2985,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3167,13 +3167,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3298,13 +3298,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObjectMetricSelector;
 }
@@ -3426,25 +3426,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3624,19 +3624,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * describedObject specifies the descriptions of a object,such as kind,name apiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#described_object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#described_object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#described_object}
   */
   readonly describedObject: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObjectDescribedObject;
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObjectMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObjectTarget;
 }
@@ -3781,19 +3781,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3963,13 +3963,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4094,13 +4094,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsPodsMetricSelector;
 }
@@ -4222,25 +4222,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4420,13 +4420,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsPodsMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsPodsTarget;
 }
@@ -4545,25 +4545,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4743,13 +4743,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsResourceTarget;
 }
@@ -4868,37 +4868,37 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * containerResource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod of the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. This is an alpha feature and can be enabled by the HPAContainerMetrics feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_resource}
   */
   readonly containerResource?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsContainerResource;
   /**
   * external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#external DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#external DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsExternal;
   /**
   * object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsObject;
   /**
   * pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#pods DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#pods DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsPods;
   /**
   * resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -5158,25 +5158,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * maxReplicas is the upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than MinReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * metrics used by the pod autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscalerMetrics[] | cdktf.IResolvable;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * Status describe the desired status regarding deploying an horizontal pod autoscaler DISABLED will not deploy an horizontal pod autoscaler ENABLED will deploy an horizontal pod autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -5359,13 +5359,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * enable the console plugin port-to-service name translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * portNames defines additional port names to use in the console. Example: portNames: {'3100': 'loki'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port_names DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port_names DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port_names}
   */
   readonly portNames?: { [key: string]: string };
 }
@@ -5490,19 +5490,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * default defines whether this filter should be active by default or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#default DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#default DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * filter is a set of keys and values to be set when this filter is selected. Each key can relate to a list of values using a coma-separated string. Example: filter: {'src_namespace': 'namespace1,namespace2'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#filter DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#filter DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#filter}
   */
   readonly filter: { [key: string]: string };
   /**
   * name of the filter, that will be displayed in Console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5672,7 +5672,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5787,19 +5787,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5953,55 +5953,55 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsole
   /**
   * autoscaler spec of a horizontal pod autoscaler to set up for the plugin Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#autoscaler DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#autoscaler DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#autoscaler}
   */
   readonly autoscaler?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginAutoscaler;
   /**
   * imagePullPolicy is the Kubernetes pull policy for the image defined above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * logLevel for the console plugin backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * port is the plugin service port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * portNaming defines the configuration of the port-to-service name translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port_naming DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port_naming DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port_naming}
   */
   readonly portNaming?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginPortNaming;
   /**
   * quickFilters configures quick filter presets for the Console plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#quick_filters DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#quick_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#quick_filters DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#quick_filters}
   */
   readonly quickFilters?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginQuickFilters[] | cdktf.IResolvable;
   /**
   * register allows, when set to true, to automatically register the provided console plugin with the OpenShift Console operator. When set to false, you can still register it manually by editing console.operator.openshift.io/cluster. E.g: oc patch console.operator.openshift.io cluster --type='json' -p '[{'op': 'add', 'path': '/spec/plugins/-', 'value': 'netobserv-plugin'}]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#register DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#register DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#register}
   */
   readonly register: boolean | cdktf.IResolvable;
   /**
   * replicas defines the number of replicas (pods) to start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * resources, in terms of compute resources, required by this container. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePluginResources;
 }
@@ -6326,19 +6326,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * Address of the IPFIX external receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target_host DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target_host DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target_host}
   */
   readonly targetHost: string;
   /**
   * Port for the IPFIX external receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target_port}
   */
   readonly targetPort: number;
   /**
   * Transport protocol ('TCP' or 'UDP') to be used for the IPFIX connection, defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#transport DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#transport DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#transport}
   */
   readonly transport?: string;
 }
@@ -6486,25 +6486,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * File name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Name of the config map or secret containing the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the config map or secret containing the file. If omitted, the default is to use the same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret is copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Type for the file reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6687,25 +6687,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * File name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Name of the config map or secret containing the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the config map or secret containing the file. If omitted, the default is to use the same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret is copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Type for the file reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6888,19 +6888,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * Reference to the secret or config map containing the client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_id_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_id_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_id_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_id_reference}
   */
   readonly clientIdReference?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaSaslClientIdReference;
   /**
   * Reference to the secret or config map containing the client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_secret_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_secret_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_secret_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_secret_reference}
   */
   readonly clientSecretReference?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaSaslClientSecretReference;
   /**
   * Type of SASL authentication to use, or 'DISABLED' if SASL is not used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7054,31 +7054,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7290,31 +7290,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7526,25 +7526,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * caCert defines the reference of the certificate for the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
   */
   readonly caCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaTlsCaCert;
   /**
   * enable TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * insecureSkipVerify allows skipping client-side verification of the server certificate If set to true, CACert field will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * userCert defines the user certificate reference, used for mTLS (you can ignore it when using regular, one-way TLS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
   */
   readonly userCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaTlsUserCert;
 }
@@ -7727,25 +7727,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * address of the Kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#address DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#address DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
   * SASL authentication configuration. [Unsupported (*)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sasl DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sasl DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sasl}
   */
   readonly sasl?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaSasl;
   /**
   * tls client configuration. When using TLS, verify that the address matches the Kafka port used for TLS, generally 9093. Note that, when eBPF agents are used, Kafka certificate needs to be copied in the agent namespace (by default it's netobserv-privileged).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafkaTls;
   /**
   * kafka topic to use. It must exist, NetObserv will not create it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#topic DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#topic DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#topic}
   */
   readonly topic: string;
 }
@@ -7922,19 +7922,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporte
   /**
   * IPFIX configuration, such as the IP address and port to send enriched IPFIX flows to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ipfix DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ipfix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ipfix DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ipfix}
   */
   readonly ipfix?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersIpfix;
   /**
   * kafka configuration, such as address or topic, to send enriched flows to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka}
   */
   readonly kafka?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExportersKafka;
   /**
   * 'type' selects the type of exporters. The available options are 'KAFKA' and 'IPFIX'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8107,25 +8107,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSa
   /**
   * File name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Name of the config map or secret containing the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the config map or secret containing the file. If omitted, the default is to use the same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret is copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Type for the file reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8308,25 +8308,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSa
   /**
   * File name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Name of the config map or secret containing the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the config map or secret containing the file. If omitted, the default is to use the same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret is copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Type for the file reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8509,19 +8509,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSa
   /**
   * Reference to the secret or config map containing the client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_id_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_id_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_id_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_id_reference}
   */
   readonly clientIdReference?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSaslClientIdReference;
   /**
   * Reference to the secret or config map containing the client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_secret_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_secret_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#client_secret_reference DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#client_secret_reference}
   */
   readonly clientSecretReference?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSaslClientSecretReference;
   /**
   * Type of SASL authentication to use, or 'DISABLED' if SASL is not used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8675,31 +8675,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTl
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8911,31 +8911,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTl
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9147,25 +9147,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTl
   /**
   * caCert defines the reference of the certificate for the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
   */
   readonly caCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTlsCaCert;
   /**
   * enable TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * insecureSkipVerify allows skipping client-side verification of the server certificate If set to true, CACert field will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * userCert defines the user certificate reference, used for mTLS (you can ignore it when using regular, one-way TLS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
   */
   readonly userCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTlsUserCert;
 }
@@ -9348,25 +9348,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafka {
   /**
   * address of the Kafka server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#address DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#address DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
   * SASL authentication configuration. [Unsupported (*)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sasl DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#sasl DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#sasl}
   */
   readonly sasl?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaSasl;
   /**
   * tls client configuration. When using TLS, verify that the address matches the Kafka port used for TLS, generally 9093. Note that, when eBPF agents are used, Kafka certificate needs to be copied in the agent namespace (by default it's netobserv-privileged).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafkaTls;
   /**
   * kafka topic to use. It must exist, NetObserv will not create it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#topic DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#topic DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#topic}
   */
   readonly topic: string;
 }
@@ -9543,31 +9543,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTls
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9779,31 +9779,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTls
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10015,25 +10015,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTls
   /**
   * caCert defines the reference of the certificate for the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ca_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ca_cert}
   */
   readonly caCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTlsCaCert;
   /**
   * enable TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * insecureSkipVerify allows skipping client-side verification of the server certificate If set to true, CACert field will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#insecure_skip_verify DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * userCert defines the user certificate reference, used for mTLS (you can ignore it when using regular, one-way TLS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#user_cert DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#user_cert}
   */
   readonly userCert?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTlsUserCert;
 }
@@ -10216,79 +10216,79 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLoki {
   /**
   * AuthToken describe the way to get a token to authenticate to Loki. DISABLED will not send any token with the request. HOST will use the local pod service account to authenticate to Loki. FORWARD will forward user token, in this mode, pod that are not receiving user request like the processor will use the local pod service account. Similar to HOST mode. When using the Loki Operator, set it to 'HOST' or 'FORWARD'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#auth_token DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#auth_token DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#auth_token}
   */
   readonly authToken?: string;
   /**
   * batchSize is max batch size (in bytes) of logs to accumulate before sending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * batchWait is max time to wait before sending a batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#batch_wait DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#batch_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#batch_wait DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#batch_wait}
   */
   readonly batchWait?: string;
   /**
   * maxBackoff is the maximum backoff time for client connection between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_backoff DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_backoff DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_backoff}
   */
   readonly maxBackoff?: string;
   /**
   * maxRetries is the maximum number of retries for client connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_retries DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_retries DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * minBackoff is the initial backoff time for client connection between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_backoff DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_backoff DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_backoff}
   */
   readonly minBackoff?: string;
   /**
   * querierURL specifies the address of the Loki querier service, in case it is different from the Loki ingester URL. If empty, the URL value will be used (assuming that the Loki ingester and querier are in the same server). When using the Loki Operator, do not set it, since ingestion and queries use the Loki gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#querier_url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#querier_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#querier_url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#querier_url}
   */
   readonly querierUrl?: string;
   /**
   * staticLabels is a map of common labels to set on each flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#static_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#static_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#static_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#static_labels}
   */
   readonly staticLabels?: { [key: string]: string };
   /**
   * statusURL specifies the address of the Loki /ready /metrics /config endpoints, in case it is different from the Loki querier URL. If empty, the QuerierURL value will be used. This is useful to show error messages and some context in the frontend. When using the Loki Operator, set it to the Loki HTTP query frontend service, for example https://loki-query-frontend-http.netobserv.svc:3100/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status_url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status_url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status_url}
   */
   readonly statusUrl?: string;
   /**
   * tenantID is the Loki X-Scope-OrgID that identifies the tenant for each request. When using the Loki Operator, set it to 'network', which corresponds to a special tenant mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tenant_id DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tenant_id DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * timeout is the maximum time connection / request limit. A Timeout of zero means no timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#timeout DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * tls client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLokiTls;
   /**
   * url is the address of an existing Loki service to push the flows to. When using the Loki Operator, set it to the Loki gateway service with the 'network' tenant set in path, for example https://loki-gateway-http.netobserv.svc:8080/api/logs/v1/network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#url DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -10732,7 +10732,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * env allows passing custom environment variables to the NetObserv Agent. Useful for passing some very concrete performance-tuning options (such as GOGC, GOMAXPROCS) that shouldn't be publicly exposed as part of the FlowCollector descriptor, as they are only useful in edge debug and support scenarios.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#env DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#env DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
 }
@@ -10828,25 +10828,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11026,19 +11026,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsContainerResourceTarget;
 }
@@ -11183,19 +11183,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11365,13 +11365,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11496,13 +11496,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsExternalMetricSelector;
 }
@@ -11624,25 +11624,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11822,13 +11822,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsExternalMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsExternalTarget;
 }
@@ -11947,19 +11947,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#api_version DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#api_version DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kind DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kind DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -12107,19 +12107,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12289,13 +12289,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12420,13 +12420,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObjectMetricSelector;
 }
@@ -12548,25 +12548,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -12746,19 +12746,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * describedObject specifies the descriptions of a object,such as kind,name apiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#described_object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#described_object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#described_object}
   */
   readonly describedObject: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObjectDescribedObject;
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObjectMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObjectTarget;
 }
@@ -12903,19 +12903,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#operator DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#values DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13085,13 +13085,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_expressions DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#match_labels DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13216,13 +13216,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#selector DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsPodsMetricSelector;
 }
@@ -13344,25 +13344,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13542,13 +13542,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metric DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsPodsMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsPodsTarget;
 }
@@ -13667,25 +13667,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_utilization DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#average_value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#value DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13865,13 +13865,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#target DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#target}
   */
   readonly target: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsResourceTarget;
 }
@@ -13990,37 +13990,37 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * containerResource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod of the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. This is an alpha feature and can be enabled by the HPAContainerMetrics feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#container_resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#container_resource}
   */
   readonly containerResource?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsContainerResource;
   /**
   * external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#external DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#external DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsExternal;
   /**
   * object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#object DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsObject;
   /**
   * pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#pods DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#pods DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsPods;
   /**
   * resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resource DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -14280,25 +14280,25 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * maxReplicas is the upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than MinReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#max_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * metrics used by the pod autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscalerMetrics[] | cdktf.IResolvable;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#min_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * Status describe the desired status regarding deploying an horizontal pod autoscaler DISABLED will not deploy an horizontal pod autoscaler ENABLED will deploy an horizontal pod autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#status DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -14481,31 +14481,31 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * certFile defines the path to the certificate file name within the config map or secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_file DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * certKey defines the path to the certificate private key file name within the config map or secret. Omit when the key is not necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#cert_key DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#cert_key}
   */
   readonly certKey?: string;
   /**
   * name of the config map or secret containing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace of the config map or secret containing certificates. If omitted, assumes same namespace as where NetObserv is deployed. If the namespace is different, the config map or the secret will be copied so that it can be mounted as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * type for the certificate reference: 'configmap' or 'secret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14717,13 +14717,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#provided DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#provided}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#provided DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#provided}
   */
   readonly provided?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorMetricsServerTlsProvided;
   /**
   * Select the type of TLS configuration 'DISABLED' (default) to not configure TLS for the endpoint, 'PROVIDED' to manually provide cert file and a key file, and 'AUTO' to use OpenShift auto generated certificate using annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#type DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14848,13 +14848,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * the prometheus HTTP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#tls DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorMetricsServerTls;
 }
@@ -14979,13 +14979,13 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * ignoreTags is a list of tags to specify which metrics to ignore. Each metric is associated with a list of tags. More details in https://github.com/netobserv/network-observability-operator/tree/main/controllers/flowlogspipeline/metrics_definitions . Available tags are: egress, ingress, flows, bytes, packets, namespaces, nodes, workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ignore_tags DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ignore_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#ignore_tags DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#ignore_tags}
   */
   readonly ignoreTags?: string[];
   /**
   * metricsServer endpoint configuration for Prometheus scraper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#server DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#server DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorMetricsServer;
 }
@@ -15110,7 +15110,7 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#name DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15225,19 +15225,19 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#claims DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#limits DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#requests DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15391,85 +15391,85 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcess
   /**
   * Debug allows setting some aspects of the internal configuration of the flow processor. This section is aimed exclusively for debugging and fine-grained performance optimizations (for example GOGC, GOMAXPROCS env vars). Users setting its values do it at their own risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#debug DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#debug DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#debug}
   */
   readonly debug?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorDebug;
   /**
   * dropUnusedFields allows, when set to true, to drop fields that are known to be unused by OVS, in order to save storage space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#drop_unused_fields DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#drop_unused_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#drop_unused_fields DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#drop_unused_fields}
   */
   readonly dropUnusedFields?: boolean | cdktf.IResolvable;
   /**
   * enableKubeProbes is a flag to enable or disable Kubernetes liveness and readiness probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable_kube_probes DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable_kube_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#enable_kube_probes DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#enable_kube_probes}
   */
   readonly enableKubeProbes?: boolean | cdktf.IResolvable;
   /**
   * healthPort is a collector HTTP port in the Pod that exposes the health check API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#health_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#health_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#health_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#health_port}
   */
   readonly healthPort?: number;
   /**
   * imagePullPolicy is the Kubernetes pull policy for the image defined above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#image_pull_policy DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * kafkaConsumerAutoscaler spec of a horizontal pod autoscaler to set up for flowlogs-pipeline-transformer, which consumes Kafka messages. This setting is ignored when Kafka is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_autoscaler DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_autoscaler DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_autoscaler}
   */
   readonly kafkaConsumerAutoscaler?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorKafkaConsumerAutoscaler;
   /**
   * kafkaConsumerBatchSize indicates to the broker the maximum batch size, in bytes, that the consumer will accept. Ignored when not using Kafka. Default: 10MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_batch_size DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_batch_size}
   */
   readonly kafkaConsumerBatchSize?: number;
   /**
   * kafkaConsumerQueueCapacity defines the capacity of the internal message queue used in the Kafka consumer client. Ignored when not using Kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_queue_capacity DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_queue_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_queue_capacity DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_queue_capacity}
   */
   readonly kafkaConsumerQueueCapacity?: number;
   /**
   * kafkaConsumerReplicas defines the number of replicas (pods) to start for flowlogs-pipeline-transformer, which consumes Kafka messages. This setting is ignored when Kafka is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka_consumer_replicas DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka_consumer_replicas}
   */
   readonly kafkaConsumerReplicas?: number;
   /**
   * logLevel of the collector runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#log_level DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Metrics define the processor configuration regarding metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#metrics DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorMetrics;
   /**
   * port of the flow collector (host port) By conventions, some value are not authorized port must not be below 1024 and must not equal this values: 4789,6081,500, and 4500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * profilePort allows setting up a Go pprof profiler listening to this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#profile_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#profile_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#profile_port DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#profile_port}
   */
   readonly profilePort?: number;
   /**
   * resources are the compute resources required by this container. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#resources DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessorResources;
 }
@@ -15942,49 +15942,49 @@ export interface DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpec {
   /**
   * agent for flows extraction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#agent DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#agent DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#agent}
   */
   readonly agent: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecAgent;
   /**
   * consolePlugin defines the settings related to the OpenShift Console plugin, when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#console_plugin DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#console_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#console_plugin DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#console_plugin}
   */
   readonly consolePlugin?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecConsolePlugin;
   /**
   * deploymentModel defines the desired type of deployment for flow processing. Possible values are 'DIRECT' (default) to make the flow processor listening directly from the agents, or 'KAFKA' to make flows sent to a Kafka pipeline before consumption by the processor. Kafka can provide better scalability, resiliency and high availability (for more details, see https://www.redhat.com/en/topics/integration/what-is-apache-kafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#deployment_model DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#deployment_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#deployment_model DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#deployment_model}
   */
   readonly deploymentModel: string;
   /**
   * exporters defines additional optional exporters for custom consumption or storage. This is an experimental feature. Currently, only KAFKA exporter is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#exporters DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#exporters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#exporters DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#exporters}
   */
   readonly exporters?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecExporters[] | cdktf.IResolvable;
   /**
   * kafka configuration, allowing to use Kafka as a broker as part of the flow collection pipeline. Available when the 'spec.deploymentModel' is 'KAFKA'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#kafka DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#kafka}
   */
   readonly kafka?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecKafka;
   /**
   * loki, the flow store, client settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#loki DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#loki DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#loki}
   */
   readonly loki?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecLoki;
   /**
   * namespace where NetObserv pods are deployed. If empty, the namespace of the operator is going to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#namespace DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * processor defines the settings of the component that receives the flows from the agent, enriches them, and forwards them to the Loki persistence layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#processor DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#processor DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest#processor}
   */
   readonly processor?: DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecProcessor;
 }
@@ -16275,7 +16275,7 @@ export class DataK8SFlowsNetobservIoFlowCollectorV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest k8s_flows_netobserv_io_flow_collector_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest k8s_flows_netobserv_io_flow_collector_v1alpha1_manifest}
 */
 export class DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -16291,7 +16291,7 @@ export class DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16303,7 +16303,7 @@ export class DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest k8s_flows_netobserv_io_flow_collector_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/flows_netobserv_io_flow_collector_v1alpha1_manifest k8s_flows_netobserv_io_flow_collector_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16314,8 +16314,8 @@ export class DataK8SFlowsNetobservIoFlowCollectorV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_flows_netobserv_io_flow_collector_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

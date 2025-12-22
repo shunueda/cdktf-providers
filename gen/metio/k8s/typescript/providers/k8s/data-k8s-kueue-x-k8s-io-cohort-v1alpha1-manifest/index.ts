@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#metadata DataK8SKueueXK8SIoCohortV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#metadata DataK8SKueueXK8SIoCohortV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKueueXK8SIoCohortV1Alpha1ManifestMetadata;
   /**
   * CohortSpec defines the desired state of Cohort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#spec DataK8SKueueXK8SIoCohortV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#spec DataK8SKueueXK8SIoCohortV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#annotations DataK8SKueueXK8SIoCohortV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#annotations DataK8SKueueXK8SIoCohortV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#labels DataK8SKueueXK8SIoCohortV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#labels DataK8SKueueXK8SIoCohortV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroupsFlavo
   /**
   * borrowingLimit is the maximum amount of quota for the [flavor, resource] combination that this ClusterQueue is allowed to borrow from the unused quota of other ClusterQueues in the same cohort. In total, at a given time, Workloads in a ClusterQueue can consume a quantity of quota equal to nominalQuota+borrowingLimit, assuming the other ClusterQueues in the cohort have enough unused quota. If null, it means that there is no borrowing limit. If not null, it must be non-negative. borrowingLimit must be null if spec.cohort is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#borrowing_limit DataK8SKueueXK8SIoCohortV1Alpha1Manifest#borrowing_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#borrowing_limit DataK8SKueueXK8SIoCohortV1Alpha1Manifest#borrowing_limit}
   */
   readonly borrowingLimit?: string;
   /**
   * lendingLimit is the maximum amount of unused quota for the [flavor, resource] combination that this ClusterQueue can lend to other ClusterQueues in the same cohort. In total, at a given time, ClusterQueue reserves for its exclusive use a quantity of quota equals to nominalQuota - lendingLimit. If null, it means that there is no lending limit, meaning that all the nominalQuota can be borrowed by other clusterQueues in the cohort. If not null, it must be non-negative. lendingLimit must be null if spec.cohort is empty. This field is in beta stage and is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#lending_limit DataK8SKueueXK8SIoCohortV1Alpha1Manifest#lending_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#lending_limit DataK8SKueueXK8SIoCohortV1Alpha1Manifest#lending_limit}
   */
   readonly lendingLimit?: string;
   /**
   * name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nominalQuota is the quantity of this resource that is available for Workloads admitted by this ClusterQueue at a point in time. The nominalQuota must be non-negative. nominalQuota should represent the resources in the cluster available for running jobs (after discounting resources consumed by system components and pods not managed by kueue). In an autoscaled cluster, nominalQuota should account for resources that can be provided by a component such as Kubernetes cluster-autoscaler. If the ClusterQueue belongs to a cohort, the sum of the quotas for each (flavor, resource) combination defines the maximum quantity that can be allocated by a ClusterQueue in the cohort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#nominal_quota DataK8SKueueXK8SIoCohortV1Alpha1Manifest#nominal_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#nominal_quota DataK8SKueueXK8SIoCohortV1Alpha1Manifest#nominal_quota}
   */
   readonly nominalQuota: string;
 }
@@ -404,13 +404,13 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroupsFlavo
   /**
   * name of this flavor. The name should match the .metadata.name of a ResourceFlavor. If a matching ResourceFlavor does not exist, the ClusterQueue will have an Active condition set to False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#name DataK8SKueueXK8SIoCohortV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * resources is the list of quotas for this flavor per resource. There could be up to 16 resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#resources DataK8SKueueXK8SIoCohortV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#resources DataK8SKueueXK8SIoCohortV1Alpha1Manifest#resources}
   */
   readonly resources: DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroupsFlavorsResources[] | cdktf.IResolvable;
 }
@@ -551,13 +551,13 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroups {
   /**
   * coveredResources is the list of resources covered by the flavors in this group. Examples: cpu, memory, vendor.com/gpu. The list cannot be empty and it can contain up to 16 resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#covered_resources DataK8SKueueXK8SIoCohortV1Alpha1Manifest#covered_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#covered_resources DataK8SKueueXK8SIoCohortV1Alpha1Manifest#covered_resources}
   */
   readonly coveredResources: string[];
   /**
   * flavors is the list of flavors that provide the resources of this group. Typically, different flavors represent different hardware models (e.g., gpu models, cpu architectures) or pricing models (on-demand vs spot cpus). Each flavor MUST list all the resources listed for this group in the same order as the .resources field. The list cannot be empty and it can contain up to 16 flavors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#flavors DataK8SKueueXK8SIoCohortV1Alpha1Manifest#flavors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#flavors DataK8SKueueXK8SIoCohortV1Alpha1Manifest#flavors}
   */
   readonly flavors: DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroupsFlavors[] | cdktf.IResolvable;
 }
@@ -698,13 +698,13 @@ export interface DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpec {
   /**
   * Parent references the name of the Cohort's parent, if any. It satisfies one of three cases: 1) Unset. This Cohort is the root of its Cohort tree. 2) References a non-existent Cohort. We use default Cohort (no borrowing/lending limits). 3) References an existent Cohort. If a cycle is created, we disable all members of the Cohort, including ClusterQueues, until the cycle is removed. We prevent further admission while the cycle exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#parent DataK8SKueueXK8SIoCohortV1Alpha1Manifest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#parent DataK8SKueueXK8SIoCohortV1Alpha1Manifest#parent}
   */
   readonly parent?: string;
   /**
   * ResourceGroups describes groupings of Resources and Flavors. Each ResourceGroup defines a list of Resources and a list of Flavors which provide quotas for these Resources. Each Resource and each Flavor may only form part of one ResourceGroup. There may be up to 16 ResourceGroups within a Cohort. BorrowingLimit limits how much members of this Cohort subtree can borrow from the parent subtree. LendingLimit limits how much members of this Cohort subtree can lend to the parent subtree. Borrowing and Lending limits must only be set when the Cohort has a parent. Otherwise, the Cohort create/update will be rejected by the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#resource_groups DataK8SKueueXK8SIoCohortV1Alpha1Manifest#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#resource_groups DataK8SKueueXK8SIoCohortV1Alpha1Manifest#resource_groups}
   */
   readonly resourceGroups?: DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecResourceGroups[] | cdktf.IResolvable;
 }
@@ -827,7 +827,7 @@ export class DataK8SKueueXK8SIoCohortV1Alpha1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest k8s_kueue_x_k8s_io_cohort_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest k8s_kueue_x_k8s_io_cohort_v1alpha1_manifest}
 */
 export class DataK8SKueueXK8SIoCohortV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -843,7 +843,7 @@ export class DataK8SKueueXK8SIoCohortV1Alpha1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SKueueXK8SIoCohortV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKueueXK8SIoCohortV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKueueXK8SIoCohortV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKueueXK8SIoCohortV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKueueXK8SIoCohortV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -855,7 +855,7 @@ export class DataK8SKueueXK8SIoCohortV1Alpha1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest k8s_kueue_x_k8s_io_cohort_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kueue_x_k8s_io_cohort_v1alpha1_manifest k8s_kueue_x_k8s_io_cohort_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -866,8 +866,8 @@ export class DataK8SKueueXK8SIoCohortV1Alpha1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_kueue_x_k8s_io_cohort_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

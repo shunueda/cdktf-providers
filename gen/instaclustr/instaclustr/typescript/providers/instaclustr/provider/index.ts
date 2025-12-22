@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface InstaclustrProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#terraform_key InstaclustrProvider#terraform_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#terraform_key InstaclustrProvider#terraform_key}
   */
   readonly terraformKey: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#alias InstaclustrProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#alias InstaclustrProvider#alias}
   */
   readonly alias?: string;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#endpoints InstaclustrProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#endpoints InstaclustrProvider#endpoints}
   */
   readonly endpoints?: InstaclustrProviderEndpoints[] | cdktf.IResolvable;
 }
@@ -29,364 +29,364 @@ export interface InstaclustrProviderEndpoints {
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_encryption_key_v2 InstaclustrProvider#aws_encryption_key_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_encryption_key_v2 InstaclustrProvider#aws_encryption_key_v2}
   */
   readonly awsEncryptionKeyV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_endpoint_dns_names_v2 InstaclustrProvider#aws_endpoint_dns_names_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_endpoint_dns_names_v2 InstaclustrProvider#aws_endpoint_dns_names_v2}
   */
   readonly awsEndpointDnsNamesV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_endpoint_service_principal_v2 InstaclustrProvider#aws_endpoint_service_principal_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_endpoint_service_principal_v2 InstaclustrProvider#aws_endpoint_service_principal_v2}
   */
   readonly awsEndpointServicePrincipalV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_fsxn_v2 InstaclustrProvider#aws_fsxn_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_fsxn_v2 InstaclustrProvider#aws_fsxn_v2}
   */
   readonly awsFsxnV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_security_group_firewall_rule_v2 InstaclustrProvider#aws_security_group_firewall_rule_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_security_group_firewall_rule_v2 InstaclustrProvider#aws_security_group_firewall_rule_v2}
   */
   readonly awsSecurityGroupFirewallRuleV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_security_group_firewall_rules_v2 InstaclustrProvider#aws_security_group_firewall_rules_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_security_group_firewall_rules_v2 InstaclustrProvider#aws_security_group_firewall_rules_v2}
   */
   readonly awsSecurityGroupFirewallRulesV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#aws_vpc_peer_v2 InstaclustrProvider#aws_vpc_peer_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#aws_vpc_peer_v2 InstaclustrProvider#aws_vpc_peer_v2}
   */
   readonly awsVpcPeerV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#azure_private_link_service_subscription_v2 InstaclustrProvider#azure_private_link_service_subscription_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#azure_private_link_service_subscription_v2 InstaclustrProvider#azure_private_link_service_subscription_v2}
   */
   readonly azurePrivateLinkServiceSubscriptionV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#azure_vnet_peer_v2 InstaclustrProvider#azure_vnet_peer_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#azure_vnet_peer_v2 InstaclustrProvider#azure_vnet_peer_v2}
   */
   readonly azureVnetPeerV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cadence_cluster_v2 InstaclustrProvider#cadence_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cadence_cluster_v2 InstaclustrProvider#cadence_cluster_v2}
   */
   readonly cadenceClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cassandra_cluster_v2 InstaclustrProvider#cassandra_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cassandra_cluster_v2 InstaclustrProvider#cassandra_cluster_v2}
   */
   readonly cassandraClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_cluster_v2 InstaclustrProvider#clickhouse_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_cluster_v2 InstaclustrProvider#clickhouse_cluster_v2}
   */
   readonly clickhouseClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_configuration_v2 InstaclustrProvider#clickhouse_configuration_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_configuration_v2 InstaclustrProvider#clickhouse_configuration_v2}
   */
   readonly clickhouseConfigurationV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_integration_domain_v2 InstaclustrProvider#clickhouse_integration_domain_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_integration_domain_v2 InstaclustrProvider#clickhouse_integration_domain_v2}
   */
   readonly clickhouseIntegrationDomainV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_integration_kafka_v2 InstaclustrProvider#clickhouse_integration_kafka_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_integration_kafka_v2 InstaclustrProvider#clickhouse_integration_kafka_v2}
   */
   readonly clickhouseIntegrationKafkaV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_integration_private_s3_v2 InstaclustrProvider#clickhouse_integration_private_s3_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_integration_private_s3_v2 InstaclustrProvider#clickhouse_integration_private_s3_v2}
   */
   readonly clickhouseIntegrationPrivateS3V2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_integration_s3_fsxn_v2 InstaclustrProvider#clickhouse_integration_s3_fsxn_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_integration_s3_fsxn_v2 InstaclustrProvider#clickhouse_integration_s3_fsxn_v2}
   */
   readonly clickhouseIntegrationS3FsxnV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#clickhouse_integration_s3_v2 InstaclustrProvider#clickhouse_integration_s3_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#clickhouse_integration_s3_v2 InstaclustrProvider#clickhouse_integration_s3_v2}
   */
   readonly clickhouseIntegrationS3V2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cluster_exclusion_window_v2 InstaclustrProvider#cluster_exclusion_window_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cluster_exclusion_window_v2 InstaclustrProvider#cluster_exclusion_window_v2}
   */
   readonly clusterExclusionWindowV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cluster_network_firewall_rule_v2 InstaclustrProvider#cluster_network_firewall_rule_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cluster_network_firewall_rule_v2 InstaclustrProvider#cluster_network_firewall_rule_v2}
   */
   readonly clusterNetworkFirewallRuleV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cluster_network_firewall_rules_v2 InstaclustrProvider#cluster_network_firewall_rules_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cluster_network_firewall_rules_v2 InstaclustrProvider#cluster_network_firewall_rules_v2}
   */
   readonly clusterNetworkFirewallRulesV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#cluster_waiter_v2 InstaclustrProvider#cluster_waiter_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#cluster_waiter_v2 InstaclustrProvider#cluster_waiter_v2}
   */
   readonly clusterWaiterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#couchbase_cluster_v2 InstaclustrProvider#couchbase_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#couchbase_cluster_v2 InstaclustrProvider#couchbase_cluster_v2}
   */
   readonly couchbaseClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#gcp_service_attachments_accept_list_v2 InstaclustrProvider#gcp_service_attachments_accept_list_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#gcp_service_attachments_accept_list_v2 InstaclustrProvider#gcp_service_attachments_accept_list_v2}
   */
   readonly gcpServiceAttachmentsAcceptListV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#gcp_vpc_peer_v2 InstaclustrProvider#gcp_vpc_peer_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#gcp_vpc_peer_v2 InstaclustrProvider#gcp_vpc_peer_v2}
   */
   readonly gcpVpcPeerV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_acl_v2 InstaclustrProvider#kafka_acl_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_acl_v2 InstaclustrProvider#kafka_acl_v2}
   */
   readonly kafkaAclV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_acl_v3 InstaclustrProvider#kafka_acl_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_acl_v3 InstaclustrProvider#kafka_acl_v3}
   */
   readonly kafkaAclV3?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_client_metric_subscription InstaclustrProvider#kafka_client_metric_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_client_metric_subscription InstaclustrProvider#kafka_client_metric_subscription}
   */
   readonly kafkaClientMetricSubscription?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_cluster_v2 InstaclustrProvider#kafka_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_cluster_v2 InstaclustrProvider#kafka_cluster_v2}
   */
   readonly kafkaClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_cluster_v3 InstaclustrProvider#kafka_cluster_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_cluster_v3 InstaclustrProvider#kafka_cluster_v3}
   */
   readonly kafkaClusterV3?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_connect_cluster_v2 InstaclustrProvider#kafka_connect_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_connect_cluster_v2 InstaclustrProvider#kafka_connect_cluster_v2}
   */
   readonly kafkaConnectClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_connect_mirror_v2 InstaclustrProvider#kafka_connect_mirror_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_connect_mirror_v2 InstaclustrProvider#kafka_connect_mirror_v2}
   */
   readonly kafkaConnectMirrorV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_topic_v2 InstaclustrProvider#kafka_topic_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_topic_v2 InstaclustrProvider#kafka_topic_v2}
   */
   readonly kafkaTopicV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_topic_v3 InstaclustrProvider#kafka_topic_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_topic_v3 InstaclustrProvider#kafka_topic_v3}
   */
   readonly kafkaTopicV3?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_user_certificate_v2 InstaclustrProvider#kafka_user_certificate_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_user_certificate_v2 InstaclustrProvider#kafka_user_certificate_v2}
   */
   readonly kafkaUserCertificateV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_user_v2 InstaclustrProvider#kafka_user_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_user_v2 InstaclustrProvider#kafka_user_v2}
   */
   readonly kafkaUserV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_user_v3 InstaclustrProvider#kafka_user_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_user_v3 InstaclustrProvider#kafka_user_v3}
   */
   readonly kafkaUserV3?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_user_v4 InstaclustrProvider#kafka_user_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_user_v4 InstaclustrProvider#kafka_user_v4}
   */
   readonly kafkaUserV4?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#kafka_user_v5 InstaclustrProvider#kafka_user_v5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#kafka_user_v5 InstaclustrProvider#kafka_user_v5}
   */
   readonly kafkaUserV5?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#mcp_gateway_cluster_v2 InstaclustrProvider#mcp_gateway_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#mcp_gateway_cluster_v2 InstaclustrProvider#mcp_gateway_cluster_v2}
   */
   readonly mcpGatewayClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#mongodb_cluster_v2 InstaclustrProvider#mongodb_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#mongodb_cluster_v2 InstaclustrProvider#mongodb_cluster_v2}
   */
   readonly mongodbClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#opensearch_cluster_v2 InstaclustrProvider#opensearch_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#opensearch_cluster_v2 InstaclustrProvider#opensearch_cluster_v2}
   */
   readonly opensearchClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#opensearch_egress_rule_v2 InstaclustrProvider#opensearch_egress_rule_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#opensearch_egress_rule_v2 InstaclustrProvider#opensearch_egress_rule_v2}
   */
   readonly opensearchEgressRuleV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#opensearch_portal26_cluster_v2 InstaclustrProvider#opensearch_portal26_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#opensearch_portal26_cluster_v2 InstaclustrProvider#opensearch_portal26_cluster_v2}
   */
   readonly opensearchPortal26ClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#postgresql_cluster_v2 InstaclustrProvider#postgresql_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#postgresql_cluster_v2 InstaclustrProvider#postgresql_cluster_v2}
   */
   readonly postgresqlClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#postgresql_configuration_v2 InstaclustrProvider#postgresql_configuration_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#postgresql_configuration_v2 InstaclustrProvider#postgresql_configuration_v2}
   */
   readonly postgresqlConfigurationV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#redis_cluster_v2 InstaclustrProvider#redis_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#redis_cluster_v2 InstaclustrProvider#redis_cluster_v2}
   */
   readonly redisClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#redis_user_v2 InstaclustrProvider#redis_user_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#redis_user_v2 InstaclustrProvider#redis_user_v2}
   */
   readonly redisUserV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#valkey_cluster_v2 InstaclustrProvider#valkey_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#valkey_cluster_v2 InstaclustrProvider#valkey_cluster_v2}
   */
   readonly valkeyClusterV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#valkey_user_v2 InstaclustrProvider#valkey_user_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#valkey_user_v2 InstaclustrProvider#valkey_user_v2}
   */
   readonly valkeyUserV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#zero_inbound_access_gateway_v2 InstaclustrProvider#zero_inbound_access_gateway_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#zero_inbound_access_gateway_v2 InstaclustrProvider#zero_inbound_access_gateway_v2}
   */
   readonly zeroInboundAccessGatewayV2?: string;
   /**
   * Use this to override the resource endpoint URL (the default one or the one constructed from the `region`).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#zookeeper_cluster_v2 InstaclustrProvider#zookeeper_cluster_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#zookeeper_cluster_v2 InstaclustrProvider#zookeeper_cluster_v2}
   */
   readonly zookeeperClusterV2?: string;
 }
@@ -779,7 +779,7 @@ export function instaclustrProviderEndpointsToHclTerraform(struct?: InstaclustrP
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs instaclustr}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs instaclustr}
 */
 export class InstaclustrProvider extends cdktf.TerraformProvider {
 
@@ -795,7 +795,7 @@ export class InstaclustrProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a InstaclustrProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstaclustrProvider to import
-  * @param importFromId The id of the existing InstaclustrProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstaclustrProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstaclustrProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -807,7 +807,7 @@ export class InstaclustrProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs instaclustr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs instaclustr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -818,8 +818,8 @@ export class InstaclustrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'instaclustr',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       terraformProviderSource: 'instaclustr/instaclustr'
     });

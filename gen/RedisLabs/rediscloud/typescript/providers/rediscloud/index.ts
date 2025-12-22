@@ -12,6 +12,7 @@ export * as activeActiveSubscriptionPeering from './active-active-subscription-p
 export * as activeActiveSubscriptionRegions from './active-active-subscription-regions';
 export * as activeActiveTransitGatewayAttachment from './active-active-transit-gateway-attachment';
 export * as activeActiveTransitGatewayInvitationAcceptor from './active-active-transit-gateway-invitation-acceptor';
+export * as activeActiveTransitGatewayRoute from './active-active-transit-gateway-route';
 export * as cloudAccount from './cloud-account';
 export * as essentialsDatabase from './essentials-database';
 export * as essentialsSubscription from './essentials-subscription';
@@ -24,6 +25,7 @@ export * as subscriptionDatabase from './subscription-database';
 export * as subscriptionPeering from './subscription-peering';
 export * as transitGatewayAttachment from './transit-gateway-attachment';
 export * as transitGatewayInvitationAcceptor from './transit-gateway-invitation-acceptor';
+export * as transitGatewayRoute from './transit-gateway-route';
 export * as dataRediscloudAclRole from './data-rediscloud-acl-role';
 export * as dataRediscloudAclRule from './data-rediscloud-acl-rule';
 export * as dataRediscloudAclUser from './data-rediscloud-acl-user';

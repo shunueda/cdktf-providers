@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SubscriptionPeeringConfig extends cdktf.TerraformMetaArguments 
   /**
   * AWS account id that the VPC to be peered lives in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#aws_account_id SubscriptionPeering#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#aws_account_id SubscriptionPeering#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * The name of the network to be peered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#gcp_network_name SubscriptionPeering#gcp_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#gcp_network_name SubscriptionPeering#gcp_network_name}
   */
   readonly gcpNetworkName?: string;
   /**
   * GCP project ID that the VPC to be peered lives in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#gcp_project_id SubscriptionPeering#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#gcp_project_id SubscriptionPeering#gcp_project_id}
   */
   readonly gcpProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#id SubscriptionPeering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#id SubscriptionPeering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,57 +35,57 @@ export interface SubscriptionPeeringConfig extends cdktf.TerraformMetaArguments 
   /**
   * The cloud provider to use with the vpc peering, (either `AWS` or `GCP`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#provider_name SubscriptionPeering#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#provider_name SubscriptionPeering#provider_name}
   */
   readonly providerName?: string;
   /**
   * AWS Region that the VPC to be peered lives in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#region SubscriptionPeering#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#region SubscriptionPeering#region}
   */
   readonly region?: string;
   /**
   * A valid subscription predefined in the current account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#subscription_id SubscriptionPeering#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#subscription_id SubscriptionPeering#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * CIDR range of the VPC to be peered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#vpc_cidr SubscriptionPeering#vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#vpc_cidr SubscriptionPeering#vpc_cidr}
   */
   readonly vpcCidr?: string;
   /**
   * CIDR ranges of the VPC to be peered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#vpc_cidrs SubscriptionPeering#vpc_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#vpc_cidrs SubscriptionPeering#vpc_cidrs}
   */
   readonly vpcCidrs?: string[];
   /**
   * Identifier of the VPC to be peered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#vpc_id SubscriptionPeering#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#vpc_id SubscriptionPeering#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#timeouts SubscriptionPeering#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#timeouts SubscriptionPeering#timeouts}
   */
   readonly timeouts?: SubscriptionPeeringTimeouts;
 }
 export interface SubscriptionPeeringTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#create SubscriptionPeering#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#create SubscriptionPeering#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#delete SubscriptionPeering#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#delete SubscriptionPeering#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#read SubscriptionPeering#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#read SubscriptionPeering#read}
   */
   readonly read?: string;
 }
@@ -237,7 +237,7 @@ export class SubscriptionPeeringTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering rediscloud_subscription_peering}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering rediscloud_subscription_peering}
 */
 export class SubscriptionPeering extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class SubscriptionPeering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SubscriptionPeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SubscriptionPeering to import
-  * @param importFromId The id of the existing SubscriptionPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SubscriptionPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SubscriptionPeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class SubscriptionPeering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription_peering rediscloud_subscription_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription_peering rediscloud_subscription_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class SubscriptionPeering extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_subscription_peering',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

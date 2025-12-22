@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#metadata DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#metadata DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestMetadata;
   /**
   * GrantSpec defines the desired state of Grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#spec DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#spec DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#annotations DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#annotations DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#labels DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#labels DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#encryption_context_equals DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#encryption_context_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#encryption_context_equals DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#encryption_context_equals}
   */
   readonly encryptionContextEquals?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#encryption_context_subset DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#encryption_context_subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#encryption_context_subset DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#encryption_context_subset}
   */
   readonly encryptionContextSubset?: { [key: string]: string };
 }
@@ -344,11 +344,11 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecConstraintsOutputR
 }
 export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -473,7 +473,7 @@ export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecKeyRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#from DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#from DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecKeyRefFrom;
 }
@@ -569,49 +569,49 @@ export interface DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpec {
   /**
   * Specifies a grant constraint. KMS supports the EncryptionContextEquals and EncryptionContextSubset grant constraints. Each constraint value can include up to 8 encryption context pairs. The encryption context value in each constraint cannot exceed 384 characters. For information about grant constraints, see Using grant constraints (https://docs.aws.amazon.com/kms/latest/developerguide/create-grant-overview.html#grant-constraints) in the Key Management Service Developer Guide. For more information about encryption context, see Encryption context (https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#encrypt_context) in the Key Management Service Developer Guide . The encryption context grant constraints allow the permissions in the grant only when the encryption context in the request matches (EncryptionContextEquals) or includes (EncryptionContextSubset) the encryption context specified in this structure. The encryption context grant constraints are supported only on grant operations (https://docs.aws.amazon.com/kms/latest/developerguide/grants.html#terms-grant-operations) that include an EncryptionContext parameter, such as cryptographic operations on symmetric encryption KMS keys. Grants with grant constraints can include the DescribeKey and RetireGrant operations, but the constraint doesn't apply to these operations. If a grant with a grant constraint includes the CreateGrant operation, the constraint requires that any grants created with the CreateGrant permission have an equally strict or stricter encryption context constraint. You cannot use an encryption context grant constraint for cryptographic operations with asymmetric KMS keys or HMAC KMS keys. These keys don't support an encryption context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#constraints DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#constraints DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecConstraints;
   /**
   * A list of grant tokens. Use a grant token when your permission to call this operation comes from a new grant that has not yet achieved eventual consistency. For more information, see Grant token (https://docs.aws.amazon.com/kms/latest/developerguide/grants.html#grant_token) and Using a grant token (https://docs.aws.amazon.com/kms/latest/developerguide/grant-manage.html#using-grant-token) in the Key Management Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#grant_tokens DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#grant_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#grant_tokens DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#grant_tokens}
   */
   readonly grantTokens?: string[];
   /**
   * The identity that gets the permissions specified in the grant. To specify the principal, use the Amazon Resource Name (ARN) (https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of an Amazon Web Services principal. Valid Amazon Web Services principals include Amazon Web Services accounts (root), IAM users, IAM roles, federated users, and assumed role users. For examples of the ARN syntax to use for specifying a principal, see Amazon Web Services Identity and Access Management (IAM) (https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#arn-syntax-iam) in the Example ARNs section of the Amazon Web Services General Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#grantee_principal DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#grantee_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#grantee_principal DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#grantee_principal}
   */
   readonly granteePrincipal: string;
   /**
   * Identifies the KMS key for the grant. The grant gives principals permission to use this KMS key. Specify the key ID or key ARN of the KMS key. To specify a KMS key in a different Amazon Web Services account, you must use the key ARN. For example: * Key ID: 1234abcd-12ab-34cd-56ef-1234567890ab * Key ARN: arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab To get the key ID and key ARN for a KMS key, use ListKeys or DescribeKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#key_id DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#key_id DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#key_id}
   */
   readonly keyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#key_ref DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#key_ref DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#key_ref}
   */
   readonly keyRef?: DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecKeyRef;
   /**
   * A friendly name for the grant. Use this value to prevent the unintended creation of duplicate grants when retrying this request. When this value is absent, all CreateGrant requests result in a new grant with a unique GrantId even if all the supplied parameters are identical. This can result in unintended duplicates when you retry the CreateGrant request. When this value is present, you can retry a CreateGrant request with identical parameters; if the grant already exists, the original GrantId is returned without creating a new grant. Note that the returned grant token is unique with every CreateGrant request, even when a duplicate GrantId is returned. All grant tokens for the same grant ID can be used interchangeably.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * A list of operations that the grant permits. This list must include only operations that are permitted in a grant. Also, the operation must be supported on the KMS key. For example, you cannot create a grant for a symmetric encryption KMS key that allows the Sign operation, or a grant for an asymmetric KMS key that allows the GenerateDataKey operation. If you try, KMS returns a ValidationError exception. For details, see Grant operations (https://docs.aws.amazon.com/kms/latest/developerguide/grants.html#terms-grant-operations) in the Key Management Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#operations DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#operations DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#operations}
   */
   readonly operations: string[];
   /**
   * The principal that has permission to use the RetireGrant operation to retire the grant. To specify the principal, use the Amazon Resource Name (ARN) (https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of an Amazon Web Services principal. Valid Amazon Web Services principals include Amazon Web Services accounts (root), IAM users, federated users, and assumed role users. For examples of the ARN syntax to use for specifying a principal, see Amazon Web Services Identity and Access Management (IAM) (https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#arn-syntax-iam) in the Example ARNs section of the Amazon Web Services General Reference. The grant determines the retiring principal. Other principals might have permission to retire the grant or revoke the grant. For details, see RevokeGrant and Retiring and revoking grants (https://docs.aws.amazon.com/kms/latest/developerguide/grant-manage.html#grant-delete) in the Key Management Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#retiring_principal DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#retiring_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#retiring_principal DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest#retiring_principal}
   */
   readonly retiringPrincipal?: string;
 }
@@ -902,7 +902,7 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest k8s_kms_services_k8s_aws_grant_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest k8s_kms_services_k8s_aws_grant_v1alpha1_manifest}
 */
 export class DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -918,7 +918,7 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -930,7 +930,7 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest k8s_kms_services_k8s_aws_grant_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kms_services_k8s_aws_grant_v1alpha1_manifest k8s_kms_services_k8s_aws_grant_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -941,8 +941,8 @@ export class DataK8SKmsServicesK8SAwsGrantV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_kms_services_k8s_aws_grant_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

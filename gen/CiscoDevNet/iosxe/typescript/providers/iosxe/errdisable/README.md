@@ -1,3 +1,3 @@
 # `iosxe_errdisable`
 
-Refer to the Terraform Registry for docs: [`iosxe_errdisable`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable).
+Refer to the Terraform Registry for docs: [`iosxe_errdisable`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metadata DataK8SAwxAnsibleComAwxV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metadata DataK8SAwxAnsibleComAwxV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAwxAnsibleComAwxV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#spec DataK8SAwxAnsibleComAwxV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#spec DataK8SAwxAnsibleComAwxV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestMetadataOutputReference exten
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -391,15 +391,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPrefe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -567,11 +567,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPrefe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -694,11 +694,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPrefe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -837,15 +837,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPrefe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1013,15 +1013,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequi
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1189,11 +1189,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequi
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1338,7 +1338,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequi
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1429,11 +1429,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequi
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1556,15 +1556,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinityOutpu
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1732,11 +1732,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1859,15 +1859,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2035,11 +2035,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2162,19 +2162,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2352,11 +2352,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2495,15 +2495,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPrefer
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2671,11 +2671,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequir
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2798,15 +2798,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequir
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2974,11 +2974,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequir
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3101,19 +3101,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequir
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3313,11 +3313,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequir
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3440,15 +3440,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinityOutput
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3616,11 +3616,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3743,15 +3743,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3919,11 +3919,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4046,19 +4046,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4236,11 +4236,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4379,15 +4379,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4555,11 +4555,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4682,15 +4682,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4858,11 +4858,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4985,19 +4985,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5197,11 +5197,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5324,15 +5324,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinityOu
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5484,11 +5484,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinityOutputReference e
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image DataK8SAwxAnsibleComAwxV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image DataK8SAwxAnsibleComAwxV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5633,19 +5633,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeImagesList extends cdkt
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -5826,19 +5826,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsLim
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -6019,11 +6019,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsRequests;
 }
@@ -6146,11 +6146,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirementsOut
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#setting DataK8SAwxAnsibleComAwxV1Beta1Manifest#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#setting DataK8SAwxAnsibleComAwxV1Beta1Manifest#setting}
   */
   readonly setting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#value DataK8SAwxAnsibleComAwxV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#value DataK8SAwxAnsibleComAwxV1Beta1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -6295,11 +6295,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsList extends
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesConfigmaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6444,11 +6444,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesConfigm
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#name DataK8SAwxAnsibleComAwxV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6593,11 +6593,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesSecrets
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#configmaps DataK8SAwxAnsibleComAwxV1Beta1Manifest#configmaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#configmaps DataK8SAwxAnsibleComAwxV1Beta1Manifest#configmaps}
   */
   readonly configmaps?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesConfigmaps[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#secrets}
   */
   readonly secrets?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesSecrets[] | cdktf.IResolvable;
 }
@@ -6720,11 +6720,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFilesOutputR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostnames DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostnames DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ip DataK8SAwxAnsibleComAwxV1Beta1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ip DataK8SAwxAnsibleComAwxV1Beta1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -6871,13 +6871,13 @@ export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecIngressHosts {
   /**
   * Hostname of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostname DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostname DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Secret where the Ingress TLS secret can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#tls_secret}
   */
   readonly tlsSecret?: string;
 }
@@ -7022,19 +7022,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecIngressHostsList extends 
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -7215,19 +7215,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequ
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -7408,11 +7408,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequ
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirementsRequests;
 }
@@ -7535,15 +7535,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequ
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -7695,15 +7695,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerReso
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -7855,11 +7855,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerReso
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirementsRequests;
 }
@@ -7982,11 +7982,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerReso
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -8109,11 +8109,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequireme
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -8236,11 +8236,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequireme
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirementsRequests;
 }
@@ -8363,7 +8363,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequireme
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -8457,7 +8457,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -8551,11 +8551,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirementsRequests;
 }
@@ -8678,19 +8678,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -8871,19 +8871,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirements
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -9064,11 +9064,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirements
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirementsRequests;
 }
@@ -9191,19 +9191,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirements
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -9384,19 +9384,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -9577,11 +9577,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirementsRequests;
 }
@@ -9704,15 +9704,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequiremen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9880,15 +9880,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityP
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10056,11 +10056,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityP
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -10183,11 +10183,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityP
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -10326,15 +10326,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityP
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10502,15 +10502,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10678,11 +10678,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -10827,7 +10827,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -10918,11 +10918,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -11045,15 +11045,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinityO
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11221,11 +11221,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11348,15 +11348,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11524,11 +11524,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11651,19 +11651,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11841,11 +11841,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11984,15 +11984,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12160,11 +12160,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12287,15 +12287,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12463,11 +12463,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12590,19 +12590,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12802,11 +12802,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12929,15 +12929,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinityOu
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13105,11 +13105,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13232,15 +13232,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13408,11 +13408,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13535,19 +13535,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13725,11 +13725,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13868,15 +13868,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14044,11 +14044,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14171,15 +14171,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14347,11 +14347,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14474,19 +14474,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14686,11 +14686,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14813,15 +14813,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffini
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityPodAntiAffinity;
 }
@@ -14973,19 +14973,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinityOutputReferen
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -15166,19 +15166,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsL
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -15359,11 +15359,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsR
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsRequests;
 }
@@ -15486,15 +15486,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirementsO
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15662,15 +15662,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15838,11 +15838,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -15965,11 +15965,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preference DataK8SAwxAnsibleComAwxV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -16108,15 +16108,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPr
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16284,15 +16284,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16460,11 +16460,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_fields DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -16609,7 +16609,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector_terms DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -16700,11 +16700,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -16827,15 +16827,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinityOu
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17003,11 +17003,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17130,15 +17130,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17306,11 +17306,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17433,19 +17433,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -17623,11 +17623,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17766,15 +17766,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPre
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17942,11 +17942,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18069,15 +18069,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18245,11 +18245,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18372,19 +18372,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -18584,11 +18584,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityReq
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -18711,15 +18711,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinityOut
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18887,11 +18887,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19014,15 +19014,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19190,11 +19190,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19317,19 +19317,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19507,11 +19507,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity_term DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#weight DataK8SAwxAnsibleComAwxV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19650,15 +19650,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19826,11 +19826,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19953,15 +19953,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#key DataK8SAwxAnsibleComAwxV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#operator DataK8SAwxAnsibleComAwxV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#values DataK8SAwxAnsibleComAwxV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20129,11 +20129,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_expressions DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#match_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20256,19 +20256,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespace_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#namespaces DataK8SAwxAnsibleComAwxV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_key DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20468,11 +20468,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SAwxAnsibleComAwxV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -20595,15 +20595,15 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinit
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pod_anti_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityPodAntiAffinity;
 }
@@ -20755,19 +20755,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinityOutputReferenc
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -20948,19 +20948,19 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsLi
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ephemeral_storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxV1Beta1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#storage DataK8SAwxAnsibleComAwxV1Beta1Manifest#storage}
   */
   readonly storage?: string;
 }
@@ -21141,11 +21141,11 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsRe
 }
 export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirementsRequests;
 }
@@ -21270,1041 +21270,1041 @@ export interface DataK8SAwxAnsibleComAwxV1Beta1ManifestSpec {
   /**
   * Additional labels defined on the resource, which should be propagated to child resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#additional_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#additional_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#additional_labels}
   */
   readonly additionalLabels?: string[];
   /**
   * The admin user email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_email DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_email DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_email}
   */
   readonly adminEmail?: string;
   /**
   * Secret where the admin password can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_password_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_password_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_password_secret}
   */
   readonly adminPasswordSecret?: string;
   /**
   * Username to use for the admin account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_user DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#admin_user DataK8SAwxAnsibleComAwxV1Beta1Manifest#admin_user}
   */
   readonly adminUser?: string;
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecAffinity;
   /**
   * Common annotations for both Web and Task deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#annotations}
   */
   readonly annotations?: string;
   /**
   * An optional configuration to add a prefix in the API URL path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#api_urlpattern_prefix DataK8SAwxAnsibleComAwxV1Beta1Manifest#api_urlpattern_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#api_urlpattern_prefix DataK8SAwxAnsibleComAwxV1Beta1Manifest#api_urlpattern_prefix}
   */
   readonly apiUrlpatternPrefix?: string;
   /**
   * apiVersion of the deployment type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Should AWX instances be automatically upgraded when operator gets upgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#auto_upgrade DataK8SAwxAnsibleComAwxV1Beta1Manifest#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#auto_upgrade DataK8SAwxAnsibleComAwxV1Beta1Manifest#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Secret where the broadcast websocket secret can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#broadcast_websocket_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#broadcast_websocket_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#broadcast_websocket_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#broadcast_websocket_secret}
   */
   readonly broadcastWebsocketSecret?: string;
   /**
   * Secret where can be found the trusted Certificate Authority Bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#bundle_cacert_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#bundle_cacert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#bundle_cacert_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#bundle_cacert_secret}
   */
   readonly bundleCacertSecret?: string;
   /**
   * Path where the trusted CA bundle is available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ca_trust_bundle DataK8SAwxAnsibleComAwxV1Beta1Manifest#ca_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ca_trust_bundle DataK8SAwxAnsibleComAwxV1Beta1Manifest#ca_trust_bundle}
   */
   readonly caTrustBundle?: string;
   /**
   * Registry path to the Execution Environment container image to use on control plane pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#control_plane_ee_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#control_plane_ee_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#control_plane_ee_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#control_plane_ee_image}
   */
   readonly controlPlaneEeImage?: string;
   /**
   * Assign a preexisting priority class to the control plane pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#control_plane_priority_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#control_plane_priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#control_plane_priority_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#control_plane_priority_class}
   */
   readonly controlPlanePriorityClass?: string;
   /**
   * Whether or not to preload data upon instance creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#create_preload_data DataK8SAwxAnsibleComAwxV1Beta1Manifest#create_preload_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#create_preload_data DataK8SAwxAnsibleComAwxV1Beta1Manifest#create_preload_data}
   */
   readonly createPreloadData?: boolean | cdktf.IResolvable;
   /**
   * Set csrf cookie secure mode for web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#csrf_cookie_secure DataK8SAwxAnsibleComAwxV1Beta1Manifest#csrf_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#csrf_cookie_secure DataK8SAwxAnsibleComAwxV1Beta1Manifest#csrf_cookie_secure}
   */
   readonly csrfCookieSecure?: string;
   /**
   * Name of the deployment type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#deployment_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#deployment_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * If the deployment should be done in development mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#development_mode DataK8SAwxAnsibleComAwxV1Beta1Manifest#development_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#development_mode DataK8SAwxAnsibleComAwxV1Beta1Manifest#development_mode}
   */
   readonly developmentMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_extra_env}
   */
   readonly eeExtraEnv?: string;
   /**
   * Specify volume mounts to be added to Execution container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_extra_volume_mounts}
   */
   readonly eeExtraVolumeMounts?: string;
   /**
   * Registry path to the Execution Environment container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_images DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_images DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_images}
   */
   readonly eeImages?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeImages[] | cdktf.IResolvable;
   /**
   * Secret where pull credentials for registered ees can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_pull_credentials_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_pull_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_pull_credentials_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_pull_credentials_secret}
   */
   readonly eePullCredentialsSecret?: string;
   /**
   * Resource requirements for the ee container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ee_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#ee_resource_requirements}
   */
   readonly eeResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecEeResourceRequirements;
   /**
   * Extra settings to specify for AWX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_settings}
   */
   readonly extraSettings?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettings[] | cdktf.IResolvable;
   /**
   * Extra ConfigMaps or Secrets of settings files to specify for AWX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_settings_files DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_settings_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_settings_files DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_settings_files}
   */
   readonly extraSettingsFiles?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecExtraSettingsFiles;
   /**
   * Specify extra volumes to add to the application pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_volumes DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#extra_volumes DataK8SAwxAnsibleComAwxV1Beta1Manifest#extra_volumes}
   */
   readonly extraVolumes?: string;
   /**
   * Whether or not to remove secrets upon instance removal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#garbage_collect_secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#garbage_collect_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#garbage_collect_secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#garbage_collect_secrets}
   */
   readonly garbageCollectSecrets?: boolean | cdktf.IResolvable;
   /**
   * HostAliases for app containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#host_aliases DataK8SAwxAnsibleComAwxV1Beta1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#host_aliases DataK8SAwxAnsibleComAwxV1Beta1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecHostAliases[] | cdktf.IResolvable;
   /**
   * (Deprecated) The hostname of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostname DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#hostname DataK8SAwxAnsibleComAwxV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Registry path to the application container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image DataK8SAwxAnsibleComAwxV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image DataK8SAwxAnsibleComAwxV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * The image pull policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_policy DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_policy DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * (Deprecated) Image pull secret for app and database containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Image pull secrets for app and database containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_pull_secrets DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Application container image version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#image_version}
   */
   readonly imageVersion?: string;
   /**
   * Annotations to add to the Ingress Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_annotations}
   */
   readonly ingressAnnotations?: string;
   /**
   * The Ingress API version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_api_version}
   */
   readonly ingressApiVersion?: string;
   /**
   * The name of ingress class to use instead of the cluster default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_class_name DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_class_name DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Special configuration for specific Ingress Controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_controller DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_controller DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_controller}
   */
   readonly ingressController?: string;
   /**
   * Ingress hostnames of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_hosts DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_hosts DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_hosts}
   */
   readonly ingressHosts?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecIngressHosts[] | cdktf.IResolvable;
   /**
   * The ingress path used to reach the deployed service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_path DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_path DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_path}
   */
   readonly ingressPath?: string;
   /**
   * The ingress path type for the deployed service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_path_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_path_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_path_type}
   */
   readonly ingressPathType?: string;
   /**
   * (Deprecated) Secret where the Ingress TLS secret can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_tls_secret}
   */
   readonly ingressTlsSecret?: string;
   /**
   * The ingress type to use to reach the deployed instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ingress_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#ingress_type}
   */
   readonly ingressType?: string;
   /**
   * Extra commands for the init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_extra_commands DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_extra_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_extra_commands DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_extra_commands}
   */
   readonly initContainerExtraCommands?: string;
   /**
   * Specify volume mounts to be added to the init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_extra_volume_mounts}
   */
   readonly initContainerExtraVolumeMounts?: string;
   /**
   * Registry path to the init container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_image}
   */
   readonly initContainerImage?: string;
   /**
   * Init container image version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_image_version}
   */
   readonly initContainerImageVersion?: string;
   /**
   * Resource requirements for the init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_container_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_container_resource_requirements}
   */
   readonly initContainerResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecInitContainerResourceRequirements;
   /**
   * Registry path to the init projects container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_projects_container_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_projects_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#init_projects_container_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#init_projects_container_image}
   */
   readonly initProjectsContainerImage?: string;
   /**
   * Disable web container's nginx ipv6 listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ipv6_disabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#ipv6_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ipv6_disabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#ipv6_disabled}
   */
   readonly ipv6Disabled?: boolean | cdktf.IResolvable;
   /**
   * Kind of the deployment type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#kind DataK8SAwxAnsibleComAwxV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#kind DataK8SAwxAnsibleComAwxV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * (Deprecated) Secret where can be found the LDAP trusted Certificate Authority Bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ldap_cacert_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ldap_cacert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ldap_cacert_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ldap_cacert_secret}
   */
   readonly ldapCacertSecret?: string;
   /**
   * (Deprecated) Secret where can be found the LDAP bind password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ldap_password_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ldap_password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#ldap_password_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#ldap_password_secret}
   */
   readonly ldapPasswordSecret?: string;
   /**
   * Class of LoadBalancer to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_class}
   */
   readonly loadbalancerClass?: string;
   /**
   * Assign LoadBalancer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_ip DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_ip DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_ip}
   */
   readonly loadbalancerIp?: string;
   /**
   * Port to use for the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_port DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_port DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_port}
   */
   readonly loadbalancerPort?: number;
   /**
   * Protocol to use for the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_protocol DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#loadbalancer_protocol DataK8SAwxAnsibleComAwxV1Beta1Manifest#loadbalancer_protocol}
   */
   readonly loadbalancerProtocol?: string;
   /**
   * Metrics-Utility ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_configmap DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_configmap DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_configmap}
   */
   readonly metricsUtilityConfigmap?: string;
   /**
   * Enable metrics utility shipping to Red Hat Hybrid Cloud Console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_console_enabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_console_enabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_console_enabled}
   */
   readonly metricsUtilityConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Metrics-Utility Gather Data CronJob Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_cronjob_gather_schedule DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_cronjob_gather_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_cronjob_gather_schedule DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_cronjob_gather_schedule}
   */
   readonly metricsUtilityCronjobGatherSchedule?: string;
   /**
   * Metrics-Utility Report CronJob Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_cronjob_report_schedule DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_cronjob_report_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_cronjob_report_schedule DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_cronjob_report_schedule}
   */
   readonly metricsUtilityCronjobReportSchedule?: string;
   /**
   * Enable metrics utility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_enabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_enabled DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_enabled}
   */
   readonly metricsUtilityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Metrics-Utility Image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image}
   */
   readonly metricsUtilityImage?: string;
   /**
   * Metrics-Utility Image PullPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image_pull_policy DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image_pull_policy DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image_pull_policy}
   */
   readonly metricsUtilityImagePullPolicy?: string;
   /**
   * Metrics-Utility Image Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_image_version}
   */
   readonly metricsUtilityImageVersion?: string;
   /**
   * Metrics-Utility PVC Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim}
   */
   readonly metricsUtilityPvcClaim?: string;
   /**
   * Metrics-Utility PVC Claim Size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim_size}
   */
   readonly metricsUtilityPvcClaimSize?: string;
   /**
   * Metrics-Utility PVC Claim Storage Class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_pvc_claim_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_pvc_claim_storage_class}
   */
   readonly metricsUtilityPvcClaimStorageClass?: string;
   /**
   * Metrics-Utility Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_secret}
   */
   readonly metricsUtilitySecret?: string;
   /**
   * Metrics-Utility Ship Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_ship_target DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_ship_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#metrics_utility_ship_target DataK8SAwxAnsibleComAwxV1Beta1Manifest#metrics_utility_ship_target}
   */
   readonly metricsUtilityShipTarget?: string;
   /**
   * Set the socket listen queue size for nginx (defaults to same as uwsgi)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_listen_queue_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_listen_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_listen_queue_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_listen_queue_size}
   */
   readonly nginxListenQueueSize?: number;
   /**
   * Set the number of connections per worker for nginx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_connections DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_connections DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_connections}
   */
   readonly nginxWorkerConnections?: number;
   /**
   * Set the CPU affinity for nginx workers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_cpu_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_cpu_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_cpu_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_cpu_affinity}
   */
   readonly nginxWorkerCpuAffinity?: string;
   /**
   * Set the number of workers for nginx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_processes DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nginx_worker_processes DataK8SAwxAnsibleComAwxV1Beta1Manifest#nginx_worker_processes}
   */
   readonly nginxWorkerProcesses?: number;
   /**
   * Configure no_log for no_log tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#no_log DataK8SAwxAnsibleComAwxV1Beta1Manifest#no_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#no_log DataK8SAwxAnsibleComAwxV1Beta1Manifest#no_log}
   */
   readonly noLog?: boolean | cdktf.IResolvable;
   /**
   * nodeSelector for the pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: string;
   /**
   * Port to use for the nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nodeport_port DataK8SAwxAnsibleComAwxV1Beta1Manifest#nodeport_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#nodeport_port DataK8SAwxAnsibleComAwxV1Beta1Manifest#nodeport_port}
   */
   readonly nodeportPort?: number;
   /**
   * Secret where the old database configuration can be found for data migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#old_postgres_configuration_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#old_postgres_configuration_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#old_postgres_configuration_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#old_postgres_configuration_secret}
   */
   readonly oldPostgresConfigurationSecret?: string;
   /**
   * Additional parameters for the pg_dump command during a migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pg_dump_suffix DataK8SAwxAnsibleComAwxV1Beta1Manifest#pg_dump_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#pg_dump_suffix DataK8SAwxAnsibleComAwxV1Beta1Manifest#pg_dump_suffix}
   */
   readonly pgDumpSuffix?: string;
   /**
   * Annotations to add to the Postgres deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_annotations}
   */
   readonly postgresAnnotations?: string;
   /**
   * Secret where the database configuration can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_configuration_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_configuration_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_configuration_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_configuration_secret}
   */
   readonly postgresConfigurationSecret?: string;
   /**
   * Sets permissions on the /var/lib/pgdata/data for postgres container using an init container (not Openshift)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_data_volume_init DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_data_volume_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_data_volume_init DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_data_volume_init}
   */
   readonly postgresDataVolumeInit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_args}
   */
   readonly postgresExtraArgs?: string[];
   /**
   * Specify volume mounts to be added to Postgres container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_volume_mounts}
   */
   readonly postgresExtraVolumeMounts?: string;
   /**
   * Specify extra volumes to add to the application pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_volumes DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_extra_volumes DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_extra_volumes}
   */
   readonly postgresExtraVolumes?: string;
   /**
   * Registry path to the PostgreSQL container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_image}
   */
   readonly postgresImage?: string;
   /**
   * PostgreSQL container image version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_image_version}
   */
   readonly postgresImageVersion?: string;
   /**
   * Customize the postgres init container commands (Non Openshift)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_init_container_commands DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_init_container_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_init_container_commands DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_init_container_commands}
   */
   readonly postgresInitContainerCommands?: string;
   /**
   * (Deprecated, use postgres_resource_requirements parameter) Resource requirements for the postgres init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_init_container_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_init_container_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_init_container_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_init_container_resource_requirements}
   */
   readonly postgresInitContainerResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresInitContainerResourceRequirements;
   /**
   * Specify whether or not to keep the old PVC after PostgreSQL upgrades
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keep_pvc_after_upgrade DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keep_pvc_after_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keep_pvc_after_upgrade DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keep_pvc_after_upgrade}
   */
   readonly postgresKeepPvcAfterUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Controls whether client-side TCP keepalives are used for Postgres connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives}
   */
   readonly postgresKeepalives?: boolean | cdktf.IResolvable;
   /**
   * Controls the number of TCP keepalives that can be lost before the client's connection to the server is considered dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_count DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_count DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_count}
   */
   readonly postgresKeepalivesCount?: number;
   /**
   * Controls the number of seconds of inactivity after which TCP should send a keepalive message to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_idle DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_idle DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_idle}
   */
   readonly postgresKeepalivesIdle?: number;
   /**
   * Controls the number of seconds after which a TCP keepalive message that is not acknowledged by the server should be retransmitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_interval DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_keepalives_interval DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_keepalives_interval}
   */
   readonly postgresKeepalivesInterval?: number;
   /**
   * Label selector used to identify postgres pod for data migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_label_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_label_selector}
   */
   readonly postgresLabelSelector?: string;
   /**
   * Assign a preexisting priority class to the postgres pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_priority_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_priority_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_priority_class}
   */
   readonly postgresPriorityClass?: string;
   /**
   * Resource requirements for the PostgreSQL container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_resource_requirements}
   */
   readonly postgresResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresResourceRequirements;
   /**
   * Key/values that will be set under the pod-level securityContext field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_security_context_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_security_context_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_security_context_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_security_context_settings}
   */
   readonly postgresSecurityContextSettings?: { [key: string]: string };
   /**
   * nodeSelector for the Postgres pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_selector}
   */
   readonly postgresSelector?: string;
   /**
   * Storage class to use for the PostgreSQL PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_storage_class}
   */
   readonly postgresStorageClass?: string;
   /**
   * Storage requirements for the PostgreSQL container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_storage_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_storage_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_storage_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_storage_requirements}
   */
   readonly postgresStorageRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecPostgresStorageRequirements;
   /**
   * node tolerations for the Postgres pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#postgres_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#postgres_tolerations}
   */
   readonly postgresTolerations?: string;
   /**
   * PersistentVolumeClaim to mount /var/lib/projects directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_existing_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_existing_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_existing_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_existing_claim}
   */
   readonly projectsExistingClaim?: string;
   /**
   * Whether or not the /var/lib/projects directory will be persistent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_persistence DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_persistence DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_persistence}
   */
   readonly projectsPersistence?: boolean | cdktf.IResolvable;
   /**
   * AccessMode for the /var/lib/projects PersistentVolumeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_access_mode DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_access_mode DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_access_mode}
   */
   readonly projectsStorageAccessMode?: string;
   /**
   * Storage class for the /var/lib/projects PersistentVolumeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_class DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_class}
   */
   readonly projectsStorageClass?: string;
   /**
   * Size for the /var/lib/projects PersistentVolumeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_storage_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_storage_size}
   */
   readonly projectsStorageSize?: string;
   /**
   * Using existing PersistentVolumeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_use_existing_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_use_existing_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#projects_use_existing_claim DataK8SAwxAnsibleComAwxV1Beta1Manifest#projects_use_existing_claim}
   */
   readonly projectsUseExistingClaim?: string;
   /**
   * Set log level of receptor service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#receptor_log_level DataK8SAwxAnsibleComAwxV1Beta1Manifest#receptor_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#receptor_log_level DataK8SAwxAnsibleComAwxV1Beta1Manifest#receptor_log_level}
   */
   readonly receptorLogLevel?: string;
   /**
   * Redis container capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_capabilities DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_capabilities DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_capabilities}
   */
   readonly redisCapabilities?: string[];
   /**
   * Registry path to the redis container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_image DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_image}
   */
   readonly redisImage?: string;
   /**
   * Redis container image version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_image_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_image_version}
   */
   readonly redisImageVersion?: string;
   /**
   * Resource requirements for the redis container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#redis_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#redis_resource_requirements}
   */
   readonly redisResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRedisResourceRequirements;
   /**
   * Number of instance replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * The route API version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_api_version DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_api_version}
   */
   readonly routeApiVersion?: string;
   /**
   * The DNS to use to points to the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_host DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_host DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_host}
   */
   readonly routeHost?: string;
   /**
   * Secret where the TLS related credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_tls_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_tls_secret}
   */
   readonly routeTlsSecret?: string;
   /**
   * The secure TLS termination mechanism to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_tls_termination_mechanism DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_tls_termination_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#route_tls_termination_mechanism DataK8SAwxAnsibleComAwxV1Beta1Manifest#route_tls_termination_mechanism}
   */
   readonly routeTlsTerminationMechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_args}
   */
   readonly rsyslogArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_command}
   */
   readonly rsyslogCommand?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_extra_env}
   */
   readonly rsyslogExtraEnv?: string;
   /**
   * Specify volume mounts to be added to the Rsyslog container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_extra_volume_mounts}
   */
   readonly rsyslogExtraVolumeMounts?: string;
   /**
   * Resource requirements for the rsyslog container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#rsyslog_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#rsyslog_resource_requirements}
   */
   readonly rsyslogResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecRsyslogResourceRequirements;
   /**
   * Secret where the secret key can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#secret_key_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#secret_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#secret_key_secret DataK8SAwxAnsibleComAwxV1Beta1Manifest#secret_key_secret}
   */
   readonly secretKeySecret?: string;
   /**
   * Key/values that will be set under the pod-level securityContext field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#security_context_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#security_context_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#security_context_settings DataK8SAwxAnsibleComAwxV1Beta1Manifest#security_context_settings}
   */
   readonly securityContextSettings?: { [key: string]: string };
   /**
   * ServiceAccount annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_account_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_account_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_account_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_account_annotations}
   */
   readonly serviceAccountAnnotations?: string;
   /**
   * Annotations to add to the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: string;
   /**
   * Additional labels to apply to the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_labels}
   */
   readonly serviceLabels?: string;
   /**
   * The service type to be used on the deployed instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#service_type DataK8SAwxAnsibleComAwxV1Beta1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * Set session cookie secure mode for web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#session_cookie_secure DataK8SAwxAnsibleComAwxV1Beta1Manifest#session_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#session_cookie_secure DataK8SAwxAnsibleComAwxV1Beta1Manifest#session_cookie_secure}
   */
   readonly sessionCookieSecure?: string;
   /**
   * Maintain some of the recommended 'app.kubernetes.io/*' labels on the resource (self)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#set_self_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#set_self_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#set_self_labels DataK8SAwxAnsibleComAwxV1Beta1Manifest#set_self_labels}
   */
   readonly setSelfLabels?: boolean | cdktf.IResolvable;
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_affinity}
   */
   readonly taskAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskAffinity;
   /**
   * Task deployment annotations. This will override the general annotations parameter for the Task deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_annotations}
   */
   readonly taskAnnotations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_args}
   */
   readonly taskArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_command}
   */
   readonly taskCommand?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_extra_env}
   */
   readonly taskExtraEnv?: string;
   /**
   * Specify volume mounts to be added to Task container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_extra_volume_mounts}
   */
   readonly taskExtraVolumeMounts?: string;
   /**
   * Number of consecutive failure events to identify failure of task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_failure_threshold}
   */
   readonly taskLivenessFailureThreshold?: number;
   /**
   * Initial delay before starting liveness checks on task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_initial_delay}
   */
   readonly taskLivenessInitialDelay?: number;
   /**
   * Time period in seconds between each liveness check for the task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_period}
   */
   readonly taskLivenessPeriod?: number;
   /**
   * Number of seconds to wait for a probe response from task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_liveness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_liveness_timeout}
   */
   readonly taskLivenessTimeout?: number;
   /**
   * Enables operator control of replicas count for the task deployment when set to 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_manage_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_manage_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_manage_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_manage_replicas}
   */
   readonly taskManageReplicas?: boolean | cdktf.IResolvable;
   /**
   * nodeSelector for the task pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_node_selector}
   */
   readonly taskNodeSelector?: string;
   /**
   * If a privileged security context should be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_privileged DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_privileged DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_privileged}
   */
   readonly taskPrivileged?: boolean | cdktf.IResolvable;
   /**
   * Number of consecutive failure events to identify failure of task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_failure_threshold}
   */
   readonly taskReadinessFailureThreshold?: number;
   /**
   * Initial delay before starting readiness checks on task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_initial_delay}
   */
   readonly taskReadinessInitialDelay?: number;
   /**
   * Time period in seconds between each readiness check for the task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_period}
   */
   readonly taskReadinessPeriod?: number;
   /**
   * Number of seconds to wait for a probe response from task pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_readiness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_readiness_timeout}
   */
   readonly taskReadinessTimeout?: number;
   /**
   * Number of task instance replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_replicas}
   */
   readonly taskReplicas?: number;
   /**
   * Resource requirements for the task container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_resource_requirements}
   */
   readonly taskResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecTaskResourceRequirements;
   /**
   * node tolerations for the task pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_tolerations}
   */
   readonly taskTolerations?: string;
   /**
   * topology rule(s) for the task pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#task_topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#task_topology_spread_constraints}
   */
   readonly taskTopologySpreadConstraints?: string;
   /**
   * Optional duration in seconds pods needs to terminate gracefully
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#termination_grace_period_seconds DataK8SAwxAnsibleComAwxV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#termination_grace_period_seconds DataK8SAwxAnsibleComAwxV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * node tolerations for the pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: string;
   /**
   * topology rule(s) for the pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: string;
   /**
   * Set the socket listen queue size for uwsgi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#uwsgi_listen_queue_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#uwsgi_listen_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#uwsgi_listen_queue_size DataK8SAwxAnsibleComAwxV1Beta1Manifest#uwsgi_listen_queue_size}
   */
   readonly uwsgiListenQueueSize?: number;
   /**
   * Set the number of uwsgi processes to run in a web container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#uwsgi_processes DataK8SAwxAnsibleComAwxV1Beta1Manifest#uwsgi_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#uwsgi_processes DataK8SAwxAnsibleComAwxV1Beta1Manifest#uwsgi_processes}
   */
   readonly uwsgiProcesses?: number;
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_affinity DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_affinity}
   */
   readonly webAffinity?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebAffinity;
   /**
   * Web deployment annotations. This will override the general annotations parameter for the Web deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_annotations DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_annotations}
   */
   readonly webAnnotations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_args DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_args}
   */
   readonly webArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_command DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_command}
   */
   readonly webCommand?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_extra_env DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_extra_env}
   */
   readonly webExtraEnv?: string;
   /**
   * Specify volume mounts to be added to the Web container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_extra_volume_mounts DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_extra_volume_mounts}
   */
   readonly webExtraVolumeMounts?: string;
   /**
   * Number of consecutive failure events to identify failure of web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_failure_threshold}
   */
   readonly webLivenessFailureThreshold?: number;
   /**
   * Initial delay before starting liveness checks on web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_initial_delay}
   */
   readonly webLivenessInitialDelay?: number;
   /**
   * Time period in seconds between each liveness check for the web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_period}
   */
   readonly webLivenessPeriod?: number;
   /**
   * Number of seconds to wait for a probe response from web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_liveness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_liveness_timeout}
   */
   readonly webLivenessTimeout?: number;
   /**
   * Enables operator control of replicas count for the web deployment when set to 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_manage_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_manage_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_manage_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_manage_replicas}
   */
   readonly webManageReplicas?: boolean | cdktf.IResolvable;
   /**
   * nodeSelector for the web pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_node_selector DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_node_selector}
   */
   readonly webNodeSelector?: string;
   /**
   * Number of consecutive failure events to identify failure of web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_failure_threshold DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_failure_threshold}
   */
   readonly webReadinessFailureThreshold?: number;
   /**
   * Initial delay before starting readiness checks on web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_initial_delay DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_initial_delay}
   */
   readonly webReadinessInitialDelay?: number;
   /**
   * Time period in seconds between each readiness check for the web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_period DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_period}
   */
   readonly webReadinessPeriod?: number;
   /**
   * Number of seconds to wait for a probe response from web pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_readiness_timeout DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_readiness_timeout}
   */
   readonly webReadinessTimeout?: number;
   /**
   * Number of web instance replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_replicas DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_replicas}
   */
   readonly webReplicas?: number;
   /**
   * Resource requirements for the web container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_resource_requirements DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_resource_requirements}
   */
   readonly webResourceRequirements?: DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecWebResourceRequirements;
   /**
   * node tolerations for the web pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_tolerations DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_tolerations}
   */
   readonly webTolerations?: string;
   /**
   * topology rule(s) for the web pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#web_topology_spread_constraints DataK8SAwxAnsibleComAwxV1Beta1Manifest#web_topology_spread_constraints}
   */
   readonly webTopologySpreadConstraints?: string;
 }
@@ -27502,7 +27502,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest k8s_awx_ansible_com_awx_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest k8s_awx_ansible_com_awx_v1beta1_manifest}
 */
 export class DataK8SAwxAnsibleComAwxV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -27518,7 +27518,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SAwxAnsibleComAwxV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAwxAnsibleComAwxV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAwxAnsibleComAwxV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAwxAnsibleComAwxV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAwxAnsibleComAwxV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -27530,7 +27530,7 @@ export class DataK8SAwxAnsibleComAwxV1Beta1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest k8s_awx_ansible_com_awx_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/awx_ansible_com_awx_v1beta1_manifest k8s_awx_ansible_com_awx_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -27541,8 +27541,8 @@ export class DataK8SAwxAnsibleComAwxV1Beta1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_awx_ansible_com_awx_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#metadata DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#metadata DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestMetadata;
   /**
   * VirtualMachineSpec is the spec for a VirtualMachine resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#spec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#spec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#annotations DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#annotations DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_fields DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_fields DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preference DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preference DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_fields DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_fields DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_selector_terms DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_selector_terms DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity_term DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity_term DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity_term DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity_term DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#weight DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#values DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_expressions DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#match_labels DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#label_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespace_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#namespaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#topology_key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAf
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_anti_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod_anti_affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5662,15 +5662,15 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffini
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cores_per_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cores_per_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cores_per_socket}
   */
   readonly coresPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#dedicated_cpu_placement DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#dedicated_cpu_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#dedicated_cpu_placement DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#dedicated_cpu_placement}
   */
   readonly dedicatedCpuPlacement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#sockets DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#sockets DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#sockets}
   */
   readonly sockets?: number;
 }
@@ -5822,11 +5822,11 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#read_only DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#read_only DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -5968,7 +5968,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceFileSystems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6081,7 +6081,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfacesMasquerade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cidr DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cidr DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cidr}
   */
   readonly cidr?: string;
 }
@@ -6175,11 +6175,11 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfacesVdpa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#iommu DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#iommu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#iommu DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#iommu}
   */
   readonly iommu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#num_queues DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#num_queues DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#num_queues}
   */
   readonly numQueues?: number;
 }
@@ -6302,31 +6302,31 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#bridge DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#bridge DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#bridge}
   */
   readonly bridge?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#mac DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#mac DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#masquerade DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#masquerade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#masquerade DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#masquerade}
   */
   readonly masquerade?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfacesMasquerade;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#sriov DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#sriov}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#sriov DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#sriov}
   */
   readonly sriov?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#vdpa DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#vdpa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#vdpa DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#vdpa}
   */
   readonly vdpa?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfacesVdpa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#vhost_user DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#vhost_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#vhost_user DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#vhost_user}
   */
   readonly vhostUser?: { [key: string]: string };
 }
@@ -6613,17 +6613,17 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceKernel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cmdline DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cmdline DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cmdline}
   */
   readonly cmdline: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
 }
@@ -6769,7 +6769,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceMemoryHugepages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#page_size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#page_size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#page_size}
   */
   readonly pageSize?: string;
 }
@@ -6863,11 +6863,11 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hugepages DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hugepages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hugepages DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hugepages}
   */
   readonly hugepages?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceMemoryHugepages;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -6990,27 +6990,27 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstan
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cpu DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cpu DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#disks DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#disks DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#disks}
   */
   readonly disks?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceDisks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#file_systems DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#file_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#file_systems DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#file_systems}
   */
   readonly fileSystems?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceFileSystems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#interfaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#interfaces DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceInterfaces[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#kernel DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#kernel DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#kernel}
   */
   readonly kernel?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceKernel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#memory DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#memory DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstanceMemory;
 }
@@ -7251,7 +7251,7 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#command DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#command DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7347,13 +7347,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#service DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#service DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7475,13 +7475,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7622,31 +7622,31 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_headers DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_headers DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#path DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#path DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#scheme DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#scheme DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7855,13 +7855,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -7983,61 +7983,61 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLi
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#exec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#exec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#failure_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#failure_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#grpc DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#grpc DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_get DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_get DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#initial_delay_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#initial_delay_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#success_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#success_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tcp_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tcp_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#termination_grace_period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#termination_grace_period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#timeout_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#timeout_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8392,7 +8392,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivene
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecNetworksMultus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_name}
   */
   readonly networkName: string;
 }
@@ -8483,15 +8483,15 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecNetwor
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#multus DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#multus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#multus DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#multus}
   */
   readonly multus?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecNetworksMultus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#pod DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#pod}
   */
   readonly pod?: { [key: string]: string };
 }
@@ -8664,7 +8664,7 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#command DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#command DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8760,13 +8760,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#service DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#service DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8888,13 +8888,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9035,31 +9035,31 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_headers DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_headers DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#path DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#path DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#scheme DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#scheme DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9268,13 +9268,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#host DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#port DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -9396,61 +9396,61 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#exec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#exec DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#failure_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#failure_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#grpc DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#grpc DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_get DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#http_get DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#initial_delay_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#initial_delay_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#success_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#success_threshold DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tcp_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tcp_socket DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#termination_grace_period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#termination_grace_period_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#timeout_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#timeout_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9807,13 +9807,13 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecRe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#limits DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#limits DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#requests DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#requests DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9938,31 +9938,31 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecTo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#effect DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#effect DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#key DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#operator DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#toleration_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#toleration_seconds DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#value DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10194,27 +10194,27 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecTolera
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesCloudInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data}
   */
   readonly networkData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data_base64 DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data_base64 DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data_base64}
   */
   readonly networkDataBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data_secret_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#network_data_secret_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#network_data_secret_name}
   */
   readonly networkDataSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data_base64 DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data_base64 DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data_secret_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#user_data_secret_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#user_data_secret_name}
   */
   readonly userDataSecretName?: string;
 }
@@ -10453,13 +10453,13 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolume
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesContainerDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
 }
@@ -10579,17 +10579,17 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolume
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesContainerRootfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#image_pull_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#size DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#size}
   */
   readonly size: string;
 }
@@ -10735,11 +10735,11 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolume
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesDataVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hotpluggable DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hotpluggable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hotpluggable DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hotpluggable}
   */
   readonly hotpluggable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#volume_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#volume_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName: string;
 }
@@ -10859,11 +10859,11 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolume
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#claim_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#claim_name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hotpluggable DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hotpluggable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#hotpluggable DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#hotpluggable}
   */
   readonly hotpluggable?: boolean | cdktf.IResolvable;
 }
@@ -10983,27 +10983,27 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolume
 }
 export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cloud_init DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#cloud_init DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#cloud_init}
   */
   readonly cloudInit?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesCloudInit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#container_disk DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#container_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#container_disk DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#container_disk}
   */
   readonly containerDisk?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesContainerDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#container_rootfs DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#container_rootfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#container_rootfs DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#container_rootfs}
   */
   readonly containerRootfs?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesContainerRootfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#data_volume DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#data_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#data_volume DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#data_volume}
   */
   readonly dataVolume?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesDataVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#name DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#persistent_volume_claim DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#persistent_volume_claim DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumesPersistentVolumeClaim;
 }
@@ -11263,49 +11263,49 @@ export interface DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpec {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#affinity DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#instance DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#instance DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#instance}
   */
   readonly instance: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecInstance;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#liveness_probe DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#liveness_probe DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#networks DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#networks DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#networks}
   */
   readonly networks?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#node_selector DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#readiness_probe DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#readiness_probe DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecReadinessProbe;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#resources DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#resources DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#run_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#run_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#run_policy DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#run_policy}
   */
   readonly runPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tolerations DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#tolerations DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#volumes DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#volumes DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
 }
@@ -11657,7 +11657,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest k8s_virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest k8s_virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest}
 */
 export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -11673,7 +11673,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11685,7 +11685,7 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest k8s_virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest k8s_virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11696,8 +11696,8 @@ export class DataK8SVirtVirtinkSmartxComVirtualMachineV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_virt_virtink_smartx_com_virtual_machine_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

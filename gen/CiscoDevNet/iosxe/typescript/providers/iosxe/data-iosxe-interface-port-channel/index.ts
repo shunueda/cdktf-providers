@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeInterfacePortChannelConfig extends cdktf.TerraformMeta
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel#device DataIosxeInterfacePortChannel#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel#device DataIosxeInterfacePortChannel#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel#name DataIosxeInterfacePortChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel#name DataIosxeInterfacePortChannel#name}
   */
   readonly name: number;
 }
@@ -415,7 +415,7 @@ export class DataIosxeInterfacePortChannelIpv6LinkLocalAddressesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel iosxe_interface_port_channel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel iosxe_interface_port_channel}
 */
 export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
 
@@ -431,7 +431,7 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfacePortChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfacePortChannel to import
-  * @param importFromId The id of the existing DataIosxeInterfacePortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfacePortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfacePortChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel iosxe_interface_port_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/interface_port_channel iosxe_interface_port_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -665,6 +665,16 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   // ip_igmp_version - computed: true, optional: false, required: false
   public get ipIgmpVersion() {
     return this.getNumberAttribute('ip_igmp_version');
+  }
+
+  // ip_nat_inside - computed: true, optional: false, required: false
+  public get ipNatInside() {
+    return this.getBooleanAttribute('ip_nat_inside');
+  }
+
+  // ip_nat_outside - computed: true, optional: false, required: false
+  public get ipNatOutside() {
+    return this.getBooleanAttribute('ip_nat_outside');
   }
 
   // ip_proxy_arp - computed: true, optional: false, required: false

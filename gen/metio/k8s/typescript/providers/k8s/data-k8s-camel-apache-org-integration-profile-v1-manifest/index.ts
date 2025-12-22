@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#metadata DataK8SCamelApacheOrgIntegrationProfileV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#metadata DataK8SCamelApacheOrgIntegrationProfileV1Manifest#metadata}
   */
   readonly metadata: DataK8SCamelApacheOrgIntegrationProfileV1ManifestMetadata;
   /**
   * IntegrationProfileSpec applies user defined settings to the IntegrationProfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#spec DataK8SCamelApacheOrgIntegrationProfileV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#spec DataK8SCamelApacheOrgIntegrationProfileV1Manifest#spec}
   */
   readonly spec?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#namespace DataK8SCamelApacheOrgIntegrationProfileV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#namespace DataK8SCamelApacheOrgIntegrationProfileV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -404,31 +404,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#artifact_id DataK8SCamelApacheOrgIntegrationProfileV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#artifact_id DataK8SCamelApacheOrgIntegrationProfileV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#classifier DataK8SCamelApacheOrgIntegrationProfileV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#classifier DataK8SCamelApacheOrgIntegrationProfileV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#group_id DataK8SCamelApacheOrgIntegrationProfileV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#group_id DataK8SCamelApacheOrgIntegrationProfileV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -656,19 +656,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -819,19 +819,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -982,13 +982,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenProfilesConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenProfilesSecretKeyRef;
 }
@@ -1135,19 +1135,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1298,19 +1298,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1461,13 +1461,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettingsConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettingsSecretKeyRef;
 }
@@ -1592,19 +1592,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1755,19 +1755,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#optional DataK8SCamelApacheOrgIntegrationProfileV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1918,13 +1918,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettingsSecurityConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_key_ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettingsSecuritySecretKeyRef;
 }
@@ -2049,49 +2049,49 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven
   /**
   * The Secrets name and key, containing the CA certificate(s) used to connect to remote Maven repositories. It can contain X.509 certificates, and PKCS#7 formatted certificate chains. A JKS formatted keystore is automatically created to store the CA certificate(s), and configured to be used as a trusted certificate(s) by the Maven commands. Note that the root CA certificates are also imported into the created keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca_secrets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca_secrets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca_secrets}
   */
   readonly caSecrets?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenCaSecrets[] | cdktf.IResolvable;
   /**
   * The CLI options that are appended to the list of arguments for Maven commands, e.g., '-V,--no-transfer-progress,-Dstyle.color=never'. See https://maven.apache.org/ref/3.8.4/maven-embedder/cli.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#cli_options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#cli_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#cli_options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#cli_options}
   */
   readonly cliOptions?: string[];
   /**
   * The Maven build extensions. See https://maven.apache.org/guides/mini/guide-using-extensions.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#extension DataK8SCamelApacheOrgIntegrationProfileV1Manifest#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#extension DataK8SCamelApacheOrgIntegrationProfileV1Manifest#extension}
   */
   readonly extension?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenExtension[] | cdktf.IResolvable;
   /**
   * The path of the local Maven repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#local_repository DataK8SCamelApacheOrgIntegrationProfileV1Manifest#local_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#local_repository DataK8SCamelApacheOrgIntegrationProfileV1Manifest#local_repository}
   */
   readonly localRepository?: string;
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#profiles DataK8SCamelApacheOrgIntegrationProfileV1Manifest#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#profiles DataK8SCamelApacheOrgIntegrationProfileV1Manifest#profiles}
   */
   readonly profiles?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenProfiles[] | cdktf.IResolvable;
   /**
   * The Maven properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#settings DataK8SCamelApacheOrgIntegrationProfileV1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#settings DataK8SCamelApacheOrgIntegrationProfileV1Manifest#settings}
   */
   readonly settings?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettings;
   /**
   * A reference to the ConfigMap or Secret key that contains the security of the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#settings_security DataK8SCamelApacheOrgIntegrationProfileV1Manifest#settings_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#settings_security DataK8SCamelApacheOrgIntegrationProfileV1Manifest#settings_security}
   */
   readonly settingsSecurity?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMavenSettingsSecurity;
 }
@@ -2390,31 +2390,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildRegis
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#address DataK8SCamelApacheOrgIntegrationProfileV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#address DataK8SCamelApacheOrgIntegrationProfileV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#insecure DataK8SCamelApacheOrgIntegrationProfileV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#insecure DataK8SCamelApacheOrgIntegrationProfileV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#organization DataK8SCamelApacheOrgIntegrationProfileV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#organization DataK8SCamelApacheOrgIntegrationProfileV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -2626,37 +2626,37 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuild {
   /**
   * a base image that can be used as base layer for all images. It can be useful if you want to provide some custom base image with further utility software
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * Maven configuration used to build the Camel/Camel-Quarkus applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#maven DataK8SCamelApacheOrgIntegrationProfileV1Manifest#maven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#maven DataK8SCamelApacheOrgIntegrationProfileV1Manifest#maven}
   */
   readonly maven?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildMaven;
   /**
   * the image registry used to push/pull Integration images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#registry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#registry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuildRegistry;
   /**
   * the runtime used. Likely Camel Quarkus (we used to have main runtime which has been discontinued since version 1.5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_provider DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_provider DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_provider}
   */
   readonly runtimeProvider?: string;
   /**
   * the Camel K Runtime dependency version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
   * how much time to wait before time out the pipeline process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2897,7 +2897,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecKameletRep
   /**
   * the remote repository in the format github:ORG/REPO/PATH_TO_KAMELETS_FOLDER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#uri DataK8SCamelApacheOrgIntegrationProfileV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#uri DataK8SCamelApacheOrgIntegrationProfileV1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -3015,7 +3015,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecKamelet {
   /**
   * remote repository used to retrieve Kamelet catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#repositories DataK8SCamelApacheOrgIntegrationProfileV1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#repositories DataK8SCamelApacheOrgIntegrationProfileV1Manifest#repositories}
   */
   readonly repositories?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecKameletRepositories[] | cdktf.IResolvable;
 }
@@ -3111,43 +3111,43 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsAffi
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Defines a set of nodes the integration pod(s) are eligible to be scheduled on, based on labels on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_affinity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_affinity_labels}
   */
   readonly nodeAffinityLabels?: string[];
   /**
   * Always co-locates multiple replicas of the integration in the same node (default 'false').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_affinity}
   */
   readonly podAffinity?: boolean | cdktf.IResolvable;
   /**
   * Defines a set of pods (namely those matching the label selector, relative to the given namespace) that the integration pod(s) should be co-located with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_affinity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_affinity_labels}
   */
   readonly podAffinityLabels?: string[];
   /**
   * Never co-locates multiple replicas of the integration in the same node (default 'false').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_anti_affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_anti_affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: boolean | cdktf.IResolvable;
   /**
   * Defines a set of pods (namely those matching the label selector, relative to the given namespace) that the integration pod(s) should not be co-located with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_anti_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_anti_affinity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_anti_affinity_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_anti_affinity_labels}
   */
   readonly podAntiAffinityLabels?: string[];
 }
@@ -3417,133 +3417,133 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsBuil
   /**
   * When using 'pod' strategy, annotation to use for the builder pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Specify a base image. In order to have the application working properly it must be a container image which has a Java JDK installed and ready to use on path (ie '/usr/bin/java').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Use the incremental image build option, to reuse existing containers (default 'true')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#incremental_image_build DataK8SCamelApacheOrgIntegrationProfileV1Manifest#incremental_image_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#incremental_image_build DataK8SCamelApacheOrgIntegrationProfileV1Manifest#incremental_image_build}
   */
   readonly incrementalImageBuild?: boolean | cdktf.IResolvable;
   /**
   * When using 'pod' strategy, the maximum amount of CPU required by the pod builder. Deprecated: use TasksRequestCPU instead with task name 'builder'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * When using 'pod' strategy, the maximum amount of memory required by the pod builder. Deprecated: use TasksRequestCPU instead with task name 'builder'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * A list of references pointing to configmaps/secrets that contains a maven profile. This configmap/secret is a resource of the IntegrationKit created, therefore it needs to be present in the namespace where the operator is going to create the IntegrationKit. The content of the maven profile is expected to be a text containing a valid maven profile starting with '<profile>' and ending with '</profile>' that will be integrated as an inline profile in the POM. Syntax: [configmap|secret]:name[/key], where name represents the resource name, key optionally represents the resource key to be filtered (default key value = profile.xml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#maven_profiles DataK8SCamelApacheOrgIntegrationProfileV1Manifest#maven_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#maven_profiles DataK8SCamelApacheOrgIntegrationProfileV1Manifest#maven_profiles}
   */
   readonly mavenProfiles?: string[];
   /**
   * Defines a set of nodes the builder pod is eligible to be scheduled on, based on labels on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_selector DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_selector DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The build order strategy to use, either 'dependencies', 'fifo' or 'sequential' (default is the platform default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#order_strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#order_strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of manifest platforms to use to build a container image (default 'linux/amd64').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#platforms DataK8SCamelApacheOrgIntegrationProfileV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#platforms DataK8SCamelApacheOrgIntegrationProfileV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * A list of properties to be provided to the build task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
   */
   readonly properties?: string[];
   /**
   * When using 'pod' strategy, the minimum amount of CPU required by the pod builder. Deprecated: use TasksRequestCPU instead with task name 'builder'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * When using 'pod' strategy, the minimum amount of memory required by the pod builder. Deprecated: use TasksRequestCPU instead with task name 'builder'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * The strategy to use, either 'pod' or 'routine' (default 'routine')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * A list of tasks to be executed (available only when using 'pod' strategy) with format '<name>;<container-image>;<container-command>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks}
   */
   readonly tasks?: string[];
   /**
   * A list of tasks sorted by the order of execution in a csv format, ie, '<taskName1>,<taskName2>,...'. Mind that you must include also the operator tasks ('builder', 'quarkus-native', 'package', 'jib', 's2i') if you need to execute them. Useful only with 'pod' strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_filter DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_filter DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_filter}
   */
   readonly tasksFilter?: string;
   /**
   * A list of limit cpu configuration for the specific task with format '<task-name>:<limit-cpu-conf>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_limit_cpu}
   */
   readonly tasksLimitCpu?: string[];
   /**
   * A list of limit memory configuration for the specific task with format '<task-name>:<limit-memory-conf>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_limit_memory}
   */
   readonly tasksLimitMemory?: string[];
   /**
   * A list of request cpu configuration for the specific task with format '<task-name>:<request-cpu-conf>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_request_cpu}
   */
   readonly tasksRequestCpu?: string[];
   /**
   * A list of request memory configuration for the specific task with format '<task-name>:<request-memory-conf>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tasks_request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tasks_request_memory}
   */
   readonly tasksRequestMemory?: string[];
   /**
   * Enable verbose logging on build components that support it (e.g. Kaniko build pod). Deprecated no longer in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#verbose DataK8SCamelApacheOrgIntegrationProfileV1Manifest#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#verbose DataK8SCamelApacheOrgIntegrationProfileV1Manifest#verbose}
   */
   readonly verbose?: boolean | cdktf.IResolvable;
 }
@@ -4248,25 +4248,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsCame
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A list of properties to be provided to the Integration runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#properties DataK8SCamelApacheOrgIntegrationProfileV1Manifest#properties}
   */
   readonly properties?: string[];
   /**
   * The camel-k-runtime version to use for the integration. It overrides the default version set in the Integration Platform. You can use a fixed version (for example '3.2.3') or a semantic version (for example '3.x') which will try to resolve to the best matching Catalog existing on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#runtime_version DataK8SCamelApacheOrgIntegrationProfileV1Manifest#runtime_version}
   */
   readonly runtimeVersion?: string;
 }
@@ -4449,127 +4449,127 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsCont
   /**
   * Security Context AllowPrivilegeEscalation configuration (default false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#allow_privilege_escalation DataK8SCamelApacheOrgIntegrationProfileV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#allow_privilege_escalation DataK8SCamelApacheOrgIntegrationProfileV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * To automatically enable the trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Security Context Capabilities Add configuration (default none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#capabilities_add DataK8SCamelApacheOrgIntegrationProfileV1Manifest#capabilities_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#capabilities_add DataK8SCamelApacheOrgIntegrationProfileV1Manifest#capabilities_add}
   */
   readonly capabilitiesAdd?: string[];
   /**
   * Security Context Capabilities Drop configuration (default ALL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#capabilities_drop DataK8SCamelApacheOrgIntegrationProfileV1Manifest#capabilities_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#capabilities_drop DataK8SCamelApacheOrgIntegrationProfileV1Manifest#capabilities_drop}
   */
   readonly capabilitiesDrop?: string[];
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Can be used to enable/disable exposure via kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#expose DataK8SCamelApacheOrgIntegrationProfileV1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#expose DataK8SCamelApacheOrgIntegrationProfileV1Manifest#expose}
   */
   readonly expose?: boolean | cdktf.IResolvable;
   /**
   * The main container image to use for the Integration. When using this parameter the operator will create a synthetic IntegrationKit which won't be able to execute traits requiring CamelCatalog. If the container image you're using is coming from an IntegrationKit, use instead Integration '.spec.integrationKit' parameter. If you're moving the Integration across environments, you will also need to create an 'external' IntegrationKit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image}
   */
   readonly image?: string;
   /**
   * The pull policy: Always|Never|IfNotPresent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image_pull_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image_pull_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * The maximum amount of CPU to be provided (default 500 millicores).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory to be provided (default 512 Mi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#limit_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The main container name. It's named 'integration' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#name}
   */
   readonly name?: string;
   /**
   * To configure a different port exposed by the container (default '8080').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port}
   */
   readonly port?: number;
   /**
   * To configure a different port name for the port exposed by the container. It defaults to 'http' only when the 'expose' parameter is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * The minimum amount of CPU required (default 125 millicores).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_cpu DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required (default 128 Mi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#request_memory DataK8SCamelApacheOrgIntegrationProfileV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * Security Context RunAsNonRoot configuration (default false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_non_root DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_non_root DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * Security Context RunAsUser configuration (default none): this value is automatically retrieved in Openshift clusters when not explicitly set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * Security Context SeccompProfileType configuration (default RuntimeDefault).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#seccomp_profile_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#seccomp_profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#seccomp_profile_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#seccomp_profile_type}
   */
   readonly seccompProfileType?: string;
   /**
   * To configure under which service port the container port is to be exposed (default '80').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_port}
   */
   readonly servicePort?: number;
   /**
   * To configure under which service port name the container port is to be exposed (default 'http').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_port_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_port_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_port_name}
   */
   readonly servicePortName?: string;
 }
@@ -5245,67 +5245,67 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsCron
   /**
   * Specifies the duration in seconds, relative to the start time, that the job may be continuously active before it is considered to be failed. It defaults to 60s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#active_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#active_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Automatically deploy the integration as CronJob when all routes are either starting from a periodic consumer (only 'cron', 'timer' and 'quartz' are supported) or a passive consumer (e.g. 'direct' is a passive consumer). It's required that all periodic consumers have the same period, and it can be expressed as cron schedule (e.g. '1m' can be expressed as '0/1 * * * *', while '35m' or '50s' cannot).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Specifies the number of retries before marking the job failed. It defaults to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#backoff_limit DataK8SCamelApacheOrgIntegrationProfileV1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#backoff_limit DataK8SCamelApacheOrgIntegrationProfileV1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
   * A comma separated list of the Camel components that need to be customized in order for them to work when the schedule is triggered externally by Kubernetes. Supported components are currently: 'cron', 'timer' and 'quartz'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#components DataK8SCamelApacheOrgIntegrationProfileV1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#components DataK8SCamelApacheOrgIntegrationProfileV1Manifest#components}
   */
   readonly components?: string;
   /**
   * Specifies how to treat concurrent executions of a Job. Valid values are: - 'Allow': allows CronJobs to run concurrently; - 'Forbid' (default): forbids concurrent runs, skipping next run if previous run hasn't finished yet; - 'Replace': cancels currently running job and replaces it with a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#concurrency_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#concurrency_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Use the default Camel implementation of the 'cron' endpoint ('quartz') instead of trying to materialize the integration as Kubernetes CronJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#fallback DataK8SCamelApacheOrgIntegrationProfileV1Manifest#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#fallback DataK8SCamelApacheOrgIntegrationProfileV1Manifest#fallback}
   */
   readonly fallback?: boolean | cdktf.IResolvable;
   /**
   * The CronJob schedule for the whole integration. If multiple routes are declared, they must have the same schedule for this mechanism to work correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#schedule DataK8SCamelApacheOrgIntegrationProfileV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#schedule DataK8SCamelApacheOrgIntegrationProfileV1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
   * Optional deadline in seconds for starting the job if it misses scheduled time for any reason. Missed jobs executions will be counted as failed ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#starting_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#starting_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#starting_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#starting_deadline_seconds}
   */
   readonly startingDeadlineSeconds?: number;
   /**
   * The timezone that the CronJob will run on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#time_zone DataK8SCamelApacheOrgIntegrationProfileV1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#time_zone DataK8SCamelApacheOrgIntegrationProfileV1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -5691,13 +5691,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDepe
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -5822,25 +5822,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDepl
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Allows to explicitly select the desired deployment kind between 'deployment', 'cron-job' or 'knative-service' when creating the resources for running the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kind DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kind DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Deprecated: won't be able to enforce client side update in the future. Use server-side apply to update the owned resources (default 'true'). Note that it automatically falls back to client-side patching, if SSA is not available, e.g., on old Kubernetes clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#use_ssa DataK8SCamelApacheOrgIntegrationProfileV1Manifest#use_ssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#use_ssa DataK8SCamelApacheOrgIntegrationProfileV1Manifest#use_ssa}
   */
   readonly useSsa?: boolean | cdktf.IResolvable;
 }
@@ -6023,37 +6023,37 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDepl
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum time in seconds for the deployment to make progress before it is considered to be failed. It defaults to '60s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#progress_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#progress_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#progress_deadline_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#progress_deadline_seconds}
   */
   readonly progressDeadlineSeconds?: number;
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to '25%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rolling_update_max_surge DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rolling_update_max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rolling_update_max_surge DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rolling_update_max_surge}
   */
   readonly rollingUpdateMaxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to '25%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rolling_update_max_unavailable DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rolling_update_max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rolling_update_max_unavailable DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rolling_update_max_unavailable}
   */
   readonly rollingUpdateMaxUnavailable?: string;
   /**
   * The deployment strategy to use to replace existing pods with new ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strategy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -6294,31 +6294,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsEnvi
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Enables injection of 'NAMESPACE' and 'POD_NAME' environment variables (default 'true')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#container_meta DataK8SCamelApacheOrgIntegrationProfileV1Manifest#container_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#container_meta DataK8SCamelApacheOrgIntegrationProfileV1Manifest#container_meta}
   */
   readonly containerMeta?: boolean | cdktf.IResolvable;
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Propagates the 'HTTP_PROXY', 'HTTPS_PROXY' and 'NO_PROXY' environment variables (default 'true')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#http_proxy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#http_proxy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#http_proxy}
   */
   readonly httpProxy?: boolean | cdktf.IResolvable;
   /**
   * A list of environment variables to be added to the integration container. The syntax is either VAR=VALUE or VAR=[configmap|secret]:name/key, where name represents the resource name, and key represents the resource key to be mapped as and environment variable. These take precedence over any previously defined environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#vars DataK8SCamelApacheOrgIntegrationProfileV1Manifest#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#vars DataK8SCamelApacheOrgIntegrationProfileV1Manifest#vars}
   */
   readonly vars?: string[];
 }
@@ -6530,19 +6530,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsErro
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The error handler ref name provided or found in application properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ref DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ref}
   */
   readonly ref?: string;
 }
@@ -6696,19 +6696,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsGc {
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Discovery client cache to be used, either 'disabled', 'disk' or 'memory' (default 'memory'). Deprecated: to be removed from trait configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#discovery_cache DataK8SCamelApacheOrgIntegrationProfileV1Manifest#discovery_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#discovery_cache DataK8SCamelApacheOrgIntegrationProfileV1Manifest#discovery_cache}
   */
   readonly discoveryCache?: string;
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6862,157 +6862,157 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsHeal
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum consecutive failures for the liveness probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_failure_threshold}
   */
   readonly livenessFailureThreshold?: number;
   /**
   * Number of seconds after the container has started before the liveness probe is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_initial_delay}
   */
   readonly livenessInitialDelay?: number;
   /**
   * How often to perform the liveness probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_period}
   */
   readonly livenessPeriod?: number;
   /**
   * The liveness probe path to use (default provided by the Catalog runtime used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: string;
   /**
   * Configures the liveness probe for the integration container (default 'false').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_probe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_probe_enabled}
   */
   readonly livenessProbeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Scheme to use when connecting to the liveness probe (default 'HTTP').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_scheme}
   */
   readonly livenessScheme?: string;
   /**
   * Minimum consecutive successes for the liveness probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_success_threshold}
   */
   readonly livenessSuccessThreshold?: number;
   /**
   * Number of seconds after which the liveness probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#liveness_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#liveness_timeout}
   */
   readonly livenessTimeout?: number;
   /**
   * Minimum consecutive failures for the readiness probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_failure_threshold}
   */
   readonly readinessFailureThreshold?: number;
   /**
   * Number of seconds after the container has started before the readiness probe is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_initial_delay}
   */
   readonly readinessInitialDelay?: number;
   /**
   * How often to perform the readiness probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_period}
   */
   readonly readinessPeriod?: number;
   /**
   * The readiness probe path to use (default provided by the Catalog runtime used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: string;
   /**
   * Configures the readiness probe for the integration container (default 'true').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_probe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_probe_enabled}
   */
   readonly readinessProbeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Scheme to use when connecting to the readiness probe (default 'HTTP').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_scheme}
   */
   readonly readinessScheme?: string;
   /**
   * Minimum consecutive successes for the readiness probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_success_threshold}
   */
   readonly readinessSuccessThreshold?: number;
   /**
   * Number of seconds after which the readiness probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#readiness_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#readiness_timeout}
   */
   readonly readinessTimeout?: number;
   /**
   * Minimum consecutive failures for the startup probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_failure_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_failure_threshold}
   */
   readonly startupFailureThreshold?: number;
   /**
   * Number of seconds after the container has started before the startup probe is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_initial_delay DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_initial_delay}
   */
   readonly startupInitialDelay?: number;
   /**
   * How often to perform the startup probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_period DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_period}
   */
   readonly startupPeriod?: number;
   /**
   * The startup probe path to use (default provided by the Catalog runtime used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_probe DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_probe}
   */
   readonly startupProbe?: string;
   /**
   * Configures the startup probe for the integration container (default 'false').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_probe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_probe_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_probe_enabled}
   */
   readonly startupProbeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Scheme to use when connecting to the startup probe (default 'HTTP').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_scheme DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_scheme}
   */
   readonly startupScheme?: string;
   /**
   * Minimum consecutive successes for the startup probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_success_threshold DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_success_threshold}
   */
   readonly startupSuccessThreshold?: number;
   /**
   * Number of seconds after which the startup probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#startup_timeout DataK8SCamelApacheOrgIntegrationProfileV1Manifest#startup_timeout}
   */
   readonly startupTimeout?: number;
 }
@@ -7833,61 +7833,61 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsIngr
   /**
   * The annotations added to the ingress. This can be used to set controller specific annotations, e.g., when using the NGINX Ingress controller: See https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * To automatically add an ingress whenever the integration uses an HTTP endpoint consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * To configure the host exposed by the ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The Ingress class name as defined by the Ingress spec See https://kubernetes.io/docs/concepts/services-networking/ingress/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ingress_class_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ingress_class_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * To configure the path exposed by the ingress (default '/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#path DataK8SCamelApacheOrgIntegrationProfileV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#path DataK8SCamelApacheOrgIntegrationProfileV1Manifest#path}
   */
   readonly path?: string;
   /**
   * To configure the path type exposed by the ingress. One of 'Exact', 'Prefix', 'ImplementationSpecific' (default to 'Prefix').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#path_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#path_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#path_type}
   */
   readonly pathType?: string;
   /**
   * To configure tls hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_hosts DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_hosts DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_hosts}
   */
   readonly tlsHosts?: string[];
   /**
   * To configure tls secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_secret_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_secret_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_secret_name}
   */
   readonly tlsSecretName?: string;
 }
@@ -8244,25 +8244,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsIsti
   /**
   * Configures a (comma-separated) list of CIDR subnets that should not be intercepted by the Istio proxy ('10.0.0.0/8,172.16.0.0/12,192.168.0.0/16' by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#allow DataK8SCamelApacheOrgIntegrationProfileV1Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#allow DataK8SCamelApacheOrgIntegrationProfileV1Manifest#allow}
   */
   readonly allow?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Forces the value for labels 'sidecar.istio.io/inject'. By default the label is set to 'true' on deployment and not set on Knative Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#inject DataK8SCamelApacheOrgIntegrationProfileV1Manifest#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#inject DataK8SCamelApacheOrgIntegrationProfileV1Manifest#inject}
   */
   readonly inject?: boolean | cdktf.IResolvable;
 }
@@ -8445,79 +8445,79 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsJolo
   /**
   * The PEM encoded CA certification file path, used to verify client certificates, applicable when 'protocol' is 'https' and 'use-ssl-client-authentication' is 'true' (default '/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt' for OpenShift).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca_cert DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ca_cert DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
   * The principal(s) which must be given in a client certificate to allow access to the Jolokia endpoint, applicable when 'protocol' is 'https' and 'use-ssl-client-authentication' is 'true' (default 'clientPrincipal=cn=system:master-proxy', 'cn=hawtio-online.hawtio.svc' and 'cn=fuse-console.fuse.svc' for OpenShift).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#client_principal DataK8SCamelApacheOrgIntegrationProfileV1Manifest#client_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#client_principal DataK8SCamelApacheOrgIntegrationProfileV1Manifest#client_principal}
   */
   readonly clientPrincipal?: string[];
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Listen for multicast requests (default 'false')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#discovery_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#discovery_enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Mandate the client certificate contains a client flag in the extended key usage section, applicable when 'protocol' is 'https' and 'use-ssl-client-authentication' is 'true' (default 'true' for OpenShift).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#extended_client_check DataK8SCamelApacheOrgIntegrationProfileV1Manifest#extended_client_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#extended_client_check DataK8SCamelApacheOrgIntegrationProfileV1Manifest#extended_client_check}
   */
   readonly extendedClientCheck?: boolean | cdktf.IResolvable;
   /**
   * The Host address to which the Jolokia agent should bind to. If ''*'' or ''0.0.0.0'' is given, the servers binds to every network interface (default ''*'').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
   */
   readonly host?: string;
   /**
   * A list of additional Jolokia options as defined in https://jolokia.org/reference/html/agents.html#agent-jvm-config[JVM agent configuration options]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#options}
   */
   readonly options?: string[];
   /**
   * The password used for authentication, applicable when the 'user' option is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#password DataK8SCamelApacheOrgIntegrationProfileV1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#password DataK8SCamelApacheOrgIntegrationProfileV1Manifest#password}
   */
   readonly password?: string;
   /**
   * The Jolokia endpoint port (default '8778').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#port}
   */
   readonly port?: number;
   /**
   * The protocol to use, either 'http' or 'https' (default 'https' for OpenShift)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#protocol DataK8SCamelApacheOrgIntegrationProfileV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#protocol DataK8SCamelApacheOrgIntegrationProfileV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Whether client certificates should be used for authentication (default 'true' for OpenShift).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#use_ssl_client_authentication DataK8SCamelApacheOrgIntegrationProfileV1Manifest#use_ssl_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#use_ssl_client_authentication DataK8SCamelApacheOrgIntegrationProfileV1Manifest#use_ssl_client_authentication}
   */
   readonly useSslClientAuthentication?: boolean | cdktf.IResolvable;
   /**
   * The user to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8961,55 +8961,55 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsJvm 
   /**
   * Additional JVM classpath (use 'Linux' classpath separator)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#classpath DataK8SCamelApacheOrgIntegrationProfileV1Manifest#classpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#classpath DataK8SCamelApacheOrgIntegrationProfileV1Manifest#classpath}
   */
   readonly classpath?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Activates remote debugging, so that a debugger can be attached to the JVM, e.g., using port-forwarding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Transport address at which to listen for the newly launched JVM (default '*:5005')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug_address DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug_address DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug_address}
   */
   readonly debugAddress?: string;
   /**
   * Suspends the target JVM immediately before the main class is loaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug_suspend DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug_suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#debug_suspend DataK8SCamelApacheOrgIntegrationProfileV1Manifest#debug_suspend}
   */
   readonly debugSuspend?: boolean | cdktf.IResolvable;
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Jar dependency which will run the application. Leave it empty for managed Integrations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jar DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jar DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jar}
   */
   readonly jar?: string;
   /**
   * A list of JVM options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#options DataK8SCamelApacheOrgIntegrationProfileV1Manifest#options}
   */
   readonly options?: string[];
   /**
   * Prints the command used the start the JVM in the container logs (default 'true') Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#print_command DataK8SCamelApacheOrgIntegrationProfileV1Manifest#print_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#print_command DataK8SCamelApacheOrgIntegrationProfileV1Manifest#print_command}
   */
   readonly printCommand?: boolean | cdktf.IResolvable;
 }
@@ -9337,31 +9337,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKame
   /**
   * Automatically inject all referenced Kamelets and their default configuration (enabled by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of Kamelet names to load into the current integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#list DataK8SCamelApacheOrgIntegrationProfileV1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#list DataK8SCamelApacheOrgIntegrationProfileV1Manifest#list}
   */
   readonly list?: string;
   /**
   * The directory where the application mounts and reads Kamelet spec (default '/etc/camel/kamelets')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#mount_point DataK8SCamelApacheOrgIntegrationProfileV1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#mount_point DataK8SCamelApacheOrgIntegrationProfileV1Manifest#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -9573,7 +9573,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKeda
   /**
   * TraitConfiguration parameters configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration: { [key: string]: string };
 }
@@ -9666,91 +9666,91 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKnat
   /**
   * Enable automatic discovery of all trait properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * List of channels used as destination of integration routes. Can contain simple channel names or full Camel URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#channel_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#channel_sinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#channel_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#channel_sinks}
   */
   readonly channelSinks?: string[];
   /**
   * List of channels used as source of integration routes. Can contain simple channel names or full Camel URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#channel_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#channel_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#channel_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#channel_sources}
   */
   readonly channelSources?: string[];
   /**
   * Can be used to inject a Knative complete configuration in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#config DataK8SCamelApacheOrgIntegrationProfileV1Manifest#config}
   */
   readonly config?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of endpoints used as destination of integration routes. Can contain simple endpoint names or full Camel URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint_sinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint_sinks}
   */
   readonly endpointSinks?: string[];
   /**
   * List of channels used as source of integration routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint_sources}
   */
   readonly endpointSources?: string[];
   /**
   * List of event types that the integration will produce. Can contain simple event types or full Camel URIs (to use a specific broker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#event_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#event_sinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#event_sinks DataK8SCamelApacheOrgIntegrationProfileV1Manifest#event_sinks}
   */
   readonly eventSinks?: string[];
   /**
   * List of event types that the integration will be subscribed to. Can contain simple event types or full Camel URIs (to use a specific broker different from 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#event_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#event_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#event_sources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#event_sources}
   */
   readonly eventSources?: string[];
   /**
   * Enables the default filtering for the Knative trigger using the event type If this is true, the created Knative trigger uses the event type as a filter on the event stream when no other filter criteria is given. (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filter_event_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filter_event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filter_event_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filter_event_type}
   */
   readonly filterEventType?: boolean | cdktf.IResolvable;
   /**
   * Enables filtering on events based on the header 'ce-knativehistory'. Since this header has been removed in newer versions of Knative, filtering is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filter_source_channels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filter_source_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filter_source_channels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filter_source_channels}
   */
   readonly filterSourceChannels?: boolean | cdktf.IResolvable;
   /**
   * Sets filter attributes on the event stream (such as event type, source, subject and so on). A list of key-value pairs that represent filter attributes and its values. The syntax is KEY=VALUE, e.g., 'source='my.source''. Filter attributes get set on the Knative trigger that is being created as part of this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filters DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#filters DataK8SCamelApacheOrgIntegrationProfileV1Manifest#filters}
   */
   readonly filters?: string[];
   /**
   * Enables the camel-k-operator to set the 'bindings.knative.dev/include=true' label to the namespace As Knative requires this label to perform injection of K_SINK URL into the service. If this is false, the integration pod may start and fail, read the SinkBinding Knative documentation. (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#namespace_label DataK8SCamelApacheOrgIntegrationProfileV1Manifest#namespace_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#namespace_label DataK8SCamelApacheOrgIntegrationProfileV1Manifest#namespace_label}
   */
   readonly namespaceLabel?: boolean | cdktf.IResolvable;
   /**
   * Allows binding the integration to a sink via a Knative SinkBinding resource. This can be used when the integration targets a single sink. It's enabled by default when the integration targets a single sink (except when the integration is owned by a Knative source).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sink_binding DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sink_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sink_binding DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sink_binding}
   */
   readonly sinkBinding?: boolean | cdktf.IResolvable;
 }
@@ -10252,73 +10252,73 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKnat
   /**
   * The annotations added to route. This can be used to set knative service specific annotations CLI usage example: -t 'knative-service.annotations.'haproxy.router.openshift.io/balance'=true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Automatically deploy the integration as Knative service when all conditions hold: * Integration is using the Knative profile * All routes are either starting from an HTTP based consumer or a passive consumer (e.g. 'direct' is a passive consumer)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Configures the Knative autoscaling metric property (e.g. to set 'concurrency' based or 'cpu' based autoscaling). Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#autoscaling_metric DataK8SCamelApacheOrgIntegrationProfileV1Manifest#autoscaling_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#autoscaling_metric DataK8SCamelApacheOrgIntegrationProfileV1Manifest#autoscaling_metric}
   */
   readonly autoscalingMetric?: string;
   /**
   * Sets the allowed concurrency level or CPU percentage (depending on the autoscaling metric) for each Pod. Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#autoscaling_target DataK8SCamelApacheOrgIntegrationProfileV1Manifest#autoscaling_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#autoscaling_target DataK8SCamelApacheOrgIntegrationProfileV1Manifest#autoscaling_target}
   */
   readonly autoscalingTarget?: number;
   /**
   * Configures the Knative autoscaling class property (e.g. to set 'hpa.autoscaling.knative.dev' or 'kpa.autoscaling.knative.dev' autoscaling). Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#class DataK8SCamelApacheOrgIntegrationProfileV1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#class DataK8SCamelApacheOrgIntegrationProfileV1Manifest#class}
   */
   readonly class?: string;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An upper bound for the number of Pods that can be running in parallel for the integration. Knative has its own cap value that depends on the installation. Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#max_scale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#max_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#max_scale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#max_scale}
   */
   readonly maxScale?: number;
   /**
   * The minimum number of Pods that should be running at any time for the integration. It's **zero** by default, meaning that the integration is scaled down to zero when not used for a configured amount of time. Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#min_scale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#min_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#min_scale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#min_scale}
   */
   readonly minScale?: number;
   /**
   * Enables to gradually shift traffic to the latest Revision and sets the rollout duration. It's disabled by default and must be expressed as a Golang 'time.Duration' string representation, rounded to a second precision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rollout_duration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rollout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#rollout_duration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#rollout_duration}
   */
   readonly rolloutDuration?: string;
   /**
   * The maximum duration in seconds that the request instance is allowed to respond to a request. This field propagates to the integration pod's terminationGracePeriodSeconds Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#timeout_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#timeout_seconds DataK8SCamelApacheOrgIntegrationProfileV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Setting 'cluster-local', Knative service becomes a private service. Specifically, this option applies the 'networking.knative.dev/visibility' label to Knative service. Refer to the Knative documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#visibility DataK8SCamelApacheOrgIntegrationProfileV1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#visibility DataK8SCamelApacheOrgIntegrationProfileV1Manifest#visibility}
   */
   readonly visibility?: string;
 }
@@ -10733,43 +10733,43 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsLogg
   /**
   * Colorize the log output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#color DataK8SCamelApacheOrgIntegrationProfileV1Manifest#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#color DataK8SCamelApacheOrgIntegrationProfileV1Manifest#color}
   */
   readonly color?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Logs message format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#format DataK8SCamelApacheOrgIntegrationProfileV1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#format DataK8SCamelApacheOrgIntegrationProfileV1Manifest#format}
   */
   readonly format?: string;
   /**
   * Output the logs in JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#json DataK8SCamelApacheOrgIntegrationProfileV1Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#json DataK8SCamelApacheOrgIntegrationProfileV1Manifest#json}
   */
   readonly json?: boolean | cdktf.IResolvable;
   /**
   * Enable 'pretty printing' of the JSON logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#json_pretty_print DataK8SCamelApacheOrgIntegrationProfileV1Manifest#json_pretty_print}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#json_pretty_print DataK8SCamelApacheOrgIntegrationProfileV1Manifest#json_pretty_print}
   */
   readonly jsonPrettyPrint?: boolean | cdktf.IResolvable;
   /**
   * Adjust the logging level (defaults to 'INFO')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#level DataK8SCamelApacheOrgIntegrationProfileV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#level DataK8SCamelApacheOrgIntegrationProfileV1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11039,7 +11039,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsMast
   /**
   * TraitConfiguration parameters configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration: { [key: string]: string };
 }
@@ -11132,49 +11132,49 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsMoun
   /**
   * A list of configuration pointing to configmap/secret. The configuration are expected to be UTF-8 resources as they are processed by runtime Camel Context and tried to be parsed as property files. They are also made available on the classpath in order to ease their usage directly from the Route. Syntax: [configmap|secret]:name[/key], where name represents the resource name and key optionally represents the resource key to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configs DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configs DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configs}
   */
   readonly configs?: string[];
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * A list of EmptyDir volumes to be mounted. Syntax: [name:/container/path]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#empty_dirs DataK8SCamelApacheOrgIntegrationProfileV1Manifest#empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#empty_dirs DataK8SCamelApacheOrgIntegrationProfileV1Manifest#empty_dirs}
   */
   readonly emptyDirs?: string[];
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable 'hot reload' when a secret/configmap mounted is edited (default 'false'). The configmap/secret must be marked with 'camel.apache.org/integration' label to be taken in account. The resource will be watched for any kind change, also for changes in metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#hot_reload DataK8SCamelApacheOrgIntegrationProfileV1Manifest#hot_reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#hot_reload DataK8SCamelApacheOrgIntegrationProfileV1Manifest#hot_reload}
   */
   readonly hotReload?: boolean | cdktf.IResolvable;
   /**
   * A list of resources (text or binary content) pointing to configmap/secret. The resources are expected to be any resource type (text or binary content). The destination path can be either a default location or any path specified by the user. Syntax: [configmap|secret]:name[/key][@path], where name represents the resource name, key optionally represents the resource key to be filtered and path represents the destination path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#resources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#resources DataK8SCamelApacheOrgIntegrationProfileV1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Deprecated: no longer available since version 2.5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#scan_kamelets_implicit_label_secrets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#scan_kamelets_implicit_label_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#scan_kamelets_implicit_label_secrets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#scan_kamelets_implicit_label_secrets}
   */
   readonly scanKameletsImplicitLabelSecrets?: boolean | cdktf.IResolvable;
   /**
   * A list of Persistent Volume Claims to be mounted. Syntax: [pvcname:/container/path]. If the PVC is not found, the Integration fails. You can use the syntax [pvcname:/container/path:size:accessMode<:storageClass>] to create a dynamic PVC based on the Storage Class provided or the default cluster Storage Class. However, if the PVC exists, the operator would mount it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#volumes DataK8SCamelApacheOrgIntegrationProfileV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#volumes DataK8SCamelApacheOrgIntegrationProfileV1Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -11473,19 +11473,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsOpen
   /**
   * The configmaps holding the spec of the OpenAPI (compatible with > 3.0 spec only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configmaps DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configmaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configmaps DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configmaps}
   */
   readonly configmaps?: string[];
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11639,25 +11639,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsOwne
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The set of annotations to be transferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#target_annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#target_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#target_annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#target_annotations}
   */
   readonly targetAnnotations?: string[];
   /**
   * The set of labels to be transferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#target_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#target_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#target_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#target_labels}
   */
   readonly targetLabels?: string[];
 }
@@ -11840,25 +11840,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPdb 
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of pods for the Integration that can be unavailable after an eviction. It can be either an absolute number or a percentage (default '1' if 'min-available' is also not set). Only one of 'max-unavailable' and 'min-available' can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#max_unavailable DataK8SCamelApacheOrgIntegrationProfileV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#max_unavailable DataK8SCamelApacheOrgIntegrationProfileV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * The number of pods for the Integration that must still be available after an eviction. It can be either an absolute number or a percentage. Only one of 'min-available' and 'max-unavailable' can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#min_available DataK8SCamelApacheOrgIntegrationProfileV1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#min_available DataK8SCamelApacheOrgIntegrationProfileV1Manifest#min_available}
   */
   readonly minAvailable?: string;
 }
@@ -12041,31 +12041,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPlat
   /**
   * To automatically detect from the environment if a default platform can be created (it will be created on OpenShift or when a registry address is set). Deprecated: Platform is auto generated by the operator install procedure - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * To create a default (empty) platform when the platform is missing. Deprecated: Platform is auto generated by the operator install procedure - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#create_default DataK8SCamelApacheOrgIntegrationProfileV1Manifest#create_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#create_default DataK8SCamelApacheOrgIntegrationProfileV1Manifest#create_default}
   */
   readonly createDefault?: boolean | cdktf.IResolvable;
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the platform should be created globally in the case of global operator (default true). Deprecated: Platform is auto generated by the operator install procedure - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#global DataK8SCamelApacheOrgIntegrationProfileV1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#global DataK8SCamelApacheOrgIntegrationProfileV1Manifest#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
 }
@@ -12277,13 +12277,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPod 
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12408,25 +12408,25 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsProm
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether a 'PodMonitor' resource is created (default 'true').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_monitor DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_monitor DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_monitor}
   */
   readonly podMonitor?: boolean | cdktf.IResolvable;
   /**
   * The 'PodMonitor' resource labels, applicable when 'pod-monitor' is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_monitor_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_monitor_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod_monitor_labels DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod_monitor_labels}
   */
   readonly podMonitorLabels?: string[];
 }
@@ -12609,31 +12609,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPull
   /**
   * Automatically configures the platform registry secret on the pod if it is of type 'kubernetes.io/dockerconfigjson'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When using a global operator with a shared platform, this enables delegation of the 'system:image-puller' cluster role on the operator namespace to the integration service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image_puller_delegation DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image_puller_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#image_puller_delegation DataK8SCamelApacheOrgIntegrationProfileV1Manifest#image_puller_delegation}
   */
   readonly imagePullerDelegation?: boolean | cdktf.IResolvable;
   /**
   * The pull secret name to set on the Pod. If left empty this is automatically taken from the 'IntegrationPlatform' registry configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#secret_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -12845,37 +12845,37 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsQuar
   /**
   * The Quarkus mode to run: either 'jvm' or 'native' (default 'jvm'). In case both 'jvm' and 'native' are specified, two 'IntegrationKit' resources are created, with the 'native' kit having precedence over the 'jvm' one once ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#build_mode DataK8SCamelApacheOrgIntegrationProfileV1Manifest#build_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#build_mode DataK8SCamelApacheOrgIntegrationProfileV1Manifest#build_mode}
   */
   readonly buildMode?: string[];
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The base image to use when running a native build (default 'quay.io/quarkus/quarkus-micro-image:2.0')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#native_base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#native_base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#native_base_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#native_base_image}
   */
   readonly nativeBaseImage?: string;
   /**
   * The image containing the tooling required for a native build (by default it will use the one provided in the runtime catalog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#native_builder_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#native_builder_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#native_builder_image DataK8SCamelApacheOrgIntegrationProfileV1Manifest#native_builder_image}
   */
   readonly nativeBuilderImage?: string;
   /**
   * The Quarkus package types, 'fast-jar' or 'native' (default 'fast-jar'). In case both 'fast-jar' and 'native' are specified, two 'IntegrationKit' resources are created, with the native kit having precedence over the 'fast-jar' one once ready. The order influences the resolution of the current kit for the integration. The kit corresponding to the first package type will be assigned to the integration in case no existing kit that matches the integration exists. Deprecated: use 'build-mode' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#package_types DataK8SCamelApacheOrgIntegrationProfileV1Manifest#package_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#package_types DataK8SCamelApacheOrgIntegrationProfileV1Manifest#package_types}
   */
   readonly packageTypes?: string[];
 }
@@ -13116,13 +13116,13 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsRegi
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -13247,85 +13247,85 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsRout
   /**
   * The annotations added to route. This can be used to set route specific annotations For annotations options see https://docs.openshift.com/container-platform/3.11/architecture/networking/routes.html#route-specific-annotations CLI usage example: -t 'route.annotations.'haproxy.router.openshift.io/balance'=true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#annotations DataK8SCamelApacheOrgIntegrationProfileV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * To configure the host exposed by the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#host DataK8SCamelApacheOrgIntegrationProfileV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The TLS CA certificate contents. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_ca_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_ca_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_ca_certificate}
   */
   readonly tlsCaCertificate?: string;
   /**
   * The secret name and key reference to the TLS CA certificate. The format is 'secret-name[/key-name]', the value represents the secret name, if there is only one key in the secret it will be read, otherwise you can set a key name separated with a '/'. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_ca_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_ca_certificate_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_ca_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_ca_certificate_secret}
   */
   readonly tlsCaCertificateSecret?: string;
   /**
   * The TLS certificate contents. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_certificate}
   */
   readonly tlsCertificate?: string;
   /**
   * The secret name and key reference to the TLS certificate. The format is 'secret-name[/key-name]', the value represents the secret name, if there is only one key in the secret it will be read, otherwise you can set a key name separated with a '/'. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_certificate_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_certificate_secret}
   */
   readonly tlsCertificateSecret?: string;
   /**
   * The destination CA certificate provides the contents of the ca certificate of the final destination. When using reencrypt termination this file should be provided in order to have routers use it for health checks on the secure connection. If this field is not specified, the router may provide its own destination CA and perform hostname validation using the short service name (service.namespace.svc), which allows infrastructure generated certificates to automatically verify. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_destination_ca_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_destination_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_destination_ca_certificate DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_destination_ca_certificate}
   */
   readonly tlsDestinationCaCertificate?: string;
   /**
   * The secret name and key reference to the destination CA certificate. The format is 'secret-name[/key-name]', the value represents the secret name, if there is only one key in the secret it will be read, otherwise you can set a key name separated with a '/'. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_destination_ca_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_destination_ca_certificate_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_destination_ca_certificate_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_destination_ca_certificate_secret}
   */
   readonly tlsDestinationCaCertificateSecret?: string;
   /**
   * To configure how to deal with insecure traffic, e.g. 'Allow', 'Disable' or 'Redirect' traffic. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_insecure_edge_termination_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_insecure_edge_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_insecure_edge_termination_policy DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_insecure_edge_termination_policy}
   */
   readonly tlsInsecureEdgeTerminationPolicy?: string;
   /**
   * The TLS certificate key contents. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_key DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_key}
   */
   readonly tlsKey?: string;
   /**
   * The secret name and key reference to the TLS certificate key. The format is 'secret-name[/key-name]', the value represents the secret name, if there is only one key in the secret it will be read, otherwise you can set a key name separated with a '/'. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_key_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_key_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_key_secret}
   */
   readonly tlsKeySecret?: string;
   /**
   * The TLS termination type, like 'edge', 'passthrough' or 'reencrypt'. Refer to the OpenShift route documentation for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_termination DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tls_termination DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tls_termination}
   */
   readonly tlsTermination?: string;
 }
@@ -13798,31 +13798,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsSecu
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Security Context RunAsNonRoot configuration (default false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_non_root DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_non_root DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * Security Context RunAsUser configuration (default none): this value is automatically retrieved in Openshift clusters when not explicitly set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#run_as_user DataK8SCamelApacheOrgIntegrationProfileV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * Security Context SeccompProfileType configuration (default RuntimeDefault).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#seccomp_profile_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#seccomp_profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#seccomp_profile_type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#seccomp_profile_type}
   */
   readonly seccompProfileType?: string;
 }
@@ -14034,31 +14034,31 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsServ
   /**
   * To automatically detect from the code if a Service needs to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Service to be exposed as NodePort (default 'false'). Deprecated: Use service type instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#node_port DataK8SCamelApacheOrgIntegrationProfileV1Manifest#node_port}
   */
   readonly nodePort?: boolean | cdktf.IResolvable;
   /**
   * The type of service to be used, either 'ClusterIP', 'NodePort' or 'LoadBalancer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#type DataK8SCamelApacheOrgIntegrationProfileV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14270,19 +14270,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsServ
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Services in the form [[apigroup/]version:]kind:[namespace/]name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#services DataK8SCamelApacheOrgIntegrationProfileV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#services DataK8SCamelApacheOrgIntegrationProfileV1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -14436,7 +14436,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsStri
   /**
   * TraitConfiguration parameters configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration: { [key: string]: string };
 }
@@ -14529,49 +14529,49 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsTele
   /**
   * Enables automatic configuration of the trait, including automatic discovery of the telemetry endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#auto DataK8SCamelApacheOrgIntegrationProfileV1Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The target endpoint of the Telemetry service (automatically discovered by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#endpoint DataK8SCamelApacheOrgIntegrationProfileV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The sampler of the telemetry used for tracing (default 'on')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler}
   */
   readonly sampler?: string;
   /**
   * The sampler of the telemetry used for tracing is parent based (default 'true')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler_parent_based DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler_parent_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler_parent_based DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler_parent_based}
   */
   readonly samplerParentBased?: boolean | cdktf.IResolvable;
   /**
   * The sampler ratio of the telemetry used for tracing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler_ratio DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#sampler_ratio DataK8SCamelApacheOrgIntegrationProfileV1Manifest#sampler_ratio}
   */
   readonly samplerRatio?: string;
   /**
   * The name of the service that publishes telemetry data (defaults to the integration name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_name DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -14870,7 +14870,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsThre
   /**
   * TraitConfiguration parameters configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration: { [key: string]: string };
 }
@@ -14963,19 +14963,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsTole
   /**
   * Legacy trait configuration parameters. Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Can be used to enable or disable a trait. All traits share this common property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#enabled DataK8SCamelApacheOrgIntegrationProfileV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The list of taints to tolerate, in the form 'Key[=Value]:Effect[:Seconds]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#taints DataK8SCamelApacheOrgIntegrationProfileV1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#taints DataK8SCamelApacheOrgIntegrationProfileV1Manifest#taints}
   */
   readonly taints?: string[];
 }
@@ -15129,7 +15129,7 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsTrac
   /**
   * TraitConfiguration parameters configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#configuration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#configuration}
   */
   readonly configuration: { [key: string]: string };
 }
@@ -15222,253 +15222,253 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraits {
   /**
   * The extension point with addon traits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#addons DataK8SCamelApacheOrgIntegrationProfileV1Manifest#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#addons DataK8SCamelApacheOrgIntegrationProfileV1Manifest#addons}
   */
   readonly addons?: { [key: string]: string };
   /**
   * The configuration of Affinity trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#affinity DataK8SCamelApacheOrgIntegrationProfileV1Manifest#affinity}
   */
   readonly affinity?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsAffinity;
   /**
   * The configuration of Builder trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#builder DataK8SCamelApacheOrgIntegrationProfileV1Manifest#builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#builder DataK8SCamelApacheOrgIntegrationProfileV1Manifest#builder}
   */
   readonly builder?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsBuilder;
   /**
   * The configuration of Camel trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#camel DataK8SCamelApacheOrgIntegrationProfileV1Manifest#camel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#camel DataK8SCamelApacheOrgIntegrationProfileV1Manifest#camel}
   */
   readonly camel?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsCamel;
   /**
   * The configuration of Container trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#container DataK8SCamelApacheOrgIntegrationProfileV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#container DataK8SCamelApacheOrgIntegrationProfileV1Manifest#container}
   */
   readonly container?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsContainer;
   /**
   * The configuration of Cron trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#cron DataK8SCamelApacheOrgIntegrationProfileV1Manifest#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#cron DataK8SCamelApacheOrgIntegrationProfileV1Manifest#cron}
   */
   readonly cron?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsCron;
   /**
   * The configuration of Dependencies trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#dependencies DataK8SCamelApacheOrgIntegrationProfileV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#dependencies DataK8SCamelApacheOrgIntegrationProfileV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDependencies;
   /**
   * The configuration of Deployer trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#deployer DataK8SCamelApacheOrgIntegrationProfileV1Manifest#deployer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#deployer DataK8SCamelApacheOrgIntegrationProfileV1Manifest#deployer}
   */
   readonly deployer?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDeployer;
   /**
   * The configuration of Deployment trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#deployment DataK8SCamelApacheOrgIntegrationProfileV1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#deployment DataK8SCamelApacheOrgIntegrationProfileV1Manifest#deployment}
   */
   readonly deployment?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsDeployment;
   /**
   * The configuration of Environment trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#environment DataK8SCamelApacheOrgIntegrationProfileV1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#environment DataK8SCamelApacheOrgIntegrationProfileV1Manifest#environment}
   */
   readonly environment?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsEnvironment;
   /**
   * The configuration of Error Handler trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#error_handler DataK8SCamelApacheOrgIntegrationProfileV1Manifest#error_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#error_handler DataK8SCamelApacheOrgIntegrationProfileV1Manifest#error_handler}
   */
   readonly errorHandler?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsErrorHandler;
   /**
   * The configuration of GC trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#gc DataK8SCamelApacheOrgIntegrationProfileV1Manifest#gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#gc DataK8SCamelApacheOrgIntegrationProfileV1Manifest#gc}
   */
   readonly gc?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsGc;
   /**
   * The configuration of Health trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#health DataK8SCamelApacheOrgIntegrationProfileV1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#health DataK8SCamelApacheOrgIntegrationProfileV1Manifest#health}
   */
   readonly health?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsHealth;
   /**
   * The configuration of Ingress trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ingress DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#ingress DataK8SCamelApacheOrgIntegrationProfileV1Manifest#ingress}
   */
   readonly ingress?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsIngress;
   /**
   * The configuration of Istio trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#istio DataK8SCamelApacheOrgIntegrationProfileV1Manifest#istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#istio DataK8SCamelApacheOrgIntegrationProfileV1Manifest#istio}
   */
   readonly istio?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsIstio;
   /**
   * The configuration of Jolokia trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jolokia DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jolokia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jolokia DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jolokia}
   */
   readonly jolokia?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsJolokia;
   /**
   * The configuration of JVM trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jvm DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#jvm DataK8SCamelApacheOrgIntegrationProfileV1Manifest#jvm}
   */
   readonly jvm?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsJvm;
   /**
   * The configuration of Kamelets trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kamelets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kamelets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kamelets DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kamelets}
   */
   readonly kamelets?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKamelets;
   /**
   * Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#keda DataK8SCamelApacheOrgIntegrationProfileV1Manifest#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#keda DataK8SCamelApacheOrgIntegrationProfileV1Manifest#keda}
   */
   readonly keda?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKeda;
   /**
   * The configuration of Knative trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#knative DataK8SCamelApacheOrgIntegrationProfileV1Manifest#knative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#knative DataK8SCamelApacheOrgIntegrationProfileV1Manifest#knative}
   */
   readonly knative?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKnative;
   /**
   * The configuration of Knative Service trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#knative_service DataK8SCamelApacheOrgIntegrationProfileV1Manifest#knative_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#knative_service DataK8SCamelApacheOrgIntegrationProfileV1Manifest#knative_service}
   */
   readonly knativeService?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsKnativeService;
   /**
   * The configuration of Logging trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#logging DataK8SCamelApacheOrgIntegrationProfileV1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#logging DataK8SCamelApacheOrgIntegrationProfileV1Manifest#logging}
   */
   readonly logging?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsLogging;
   /**
   * Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#master DataK8SCamelApacheOrgIntegrationProfileV1Manifest#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#master DataK8SCamelApacheOrgIntegrationProfileV1Manifest#master}
   */
   readonly master?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsMaster;
   /**
   * The configuration of Mount trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#mount DataK8SCamelApacheOrgIntegrationProfileV1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#mount DataK8SCamelApacheOrgIntegrationProfileV1Manifest#mount}
   */
   readonly mount?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsMount;
   /**
   * The configuration of OpenAPI trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#openapi DataK8SCamelApacheOrgIntegrationProfileV1Manifest#openapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#openapi DataK8SCamelApacheOrgIntegrationProfileV1Manifest#openapi}
   */
   readonly openapi?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsOpenapi;
   /**
   * The configuration of Owner trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#owner DataK8SCamelApacheOrgIntegrationProfileV1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#owner DataK8SCamelApacheOrgIntegrationProfileV1Manifest#owner}
   */
   readonly owner?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsOwner;
   /**
   * The configuration of PDB trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pdb DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pdb DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pdb}
   */
   readonly pdb?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPdb;
   /**
   * The configuration of Platform trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#platform DataK8SCamelApacheOrgIntegrationProfileV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#platform DataK8SCamelApacheOrgIntegrationProfileV1Manifest#platform}
   */
   readonly platform?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPlatform;
   /**
   * The configuration of Pod trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pod DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pod}
   */
   readonly pod?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPod;
   /**
   * The configuration of Prometheus trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#prometheus DataK8SCamelApacheOrgIntegrationProfileV1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#prometheus DataK8SCamelApacheOrgIntegrationProfileV1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPrometheus;
   /**
   * The configuration of Pull Secret trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pull_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#pull_secret DataK8SCamelApacheOrgIntegrationProfileV1Manifest#pull_secret}
   */
   readonly pullSecret?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsPullSecret;
   /**
   * The configuration of Quarkus trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#quarkus DataK8SCamelApacheOrgIntegrationProfileV1Manifest#quarkus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#quarkus DataK8SCamelApacheOrgIntegrationProfileV1Manifest#quarkus}
   */
   readonly quarkus?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsQuarkus;
   /**
   * The configuration of Registry trait (support removed since version 2.5.0). Deprecated: use jvm trait or read documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#registry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#registry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsRegistry;
   /**
   * The configuration of Route trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#route DataK8SCamelApacheOrgIntegrationProfileV1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#route DataK8SCamelApacheOrgIntegrationProfileV1Manifest#route}
   */
   readonly route?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsRoute;
   /**
   * The configuration of Security Context trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#security_context DataK8SCamelApacheOrgIntegrationProfileV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#security_context DataK8SCamelApacheOrgIntegrationProfileV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsSecurityContext;
   /**
   * The configuration of Service trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service}
   */
   readonly service?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsService;
   /**
   * The configuration of Service Binding trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_binding DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#service_binding DataK8SCamelApacheOrgIntegrationProfileV1Manifest#service_binding}
   */
   readonly serviceBinding?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsServiceBinding;
   /**
   * Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strimzi DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strimzi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#strimzi DataK8SCamelApacheOrgIntegrationProfileV1Manifest#strimzi}
   */
   readonly strimzi?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsStrimzi;
   /**
   * The configuration of Telemetry trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#telemetry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#telemetry DataK8SCamelApacheOrgIntegrationProfileV1Manifest#telemetry}
   */
   readonly telemetry?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsTelemetry;
   /**
   * Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#threescale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#threescale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#threescale DataK8SCamelApacheOrgIntegrationProfileV1Manifest#threescale}
   */
   readonly threescale?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsThreescale;
   /**
   * The configuration of Toleration trait
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#toleration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#toleration DataK8SCamelApacheOrgIntegrationProfileV1Manifest#toleration}
   */
   readonly toleration?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsToleration;
   /**
   * Deprecated: for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tracing DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#tracing DataK8SCamelApacheOrgIntegrationProfileV1Manifest#tracing}
   */
   readonly tracing?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraitsTracing;
 }
@@ -16753,19 +16753,19 @@ export interface DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpec {
   /**
   * specify how to build the Integration/IntegrationKits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#build DataK8SCamelApacheOrgIntegrationProfileV1Manifest#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#build DataK8SCamelApacheOrgIntegrationProfileV1Manifest#build}
   */
   readonly buildAttribute?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecBuild;
   /**
   * configuration to be executed to all Kamelets controlled by this IntegrationProfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kamelet DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kamelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#kamelet DataK8SCamelApacheOrgIntegrationProfileV1Manifest#kamelet}
   */
   readonly kamelet?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecKamelet;
   /**
   * list of traits to be executed for all the Integration/IntegrationKits built from this IntegrationProfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#traits DataK8SCamelApacheOrgIntegrationProfileV1Manifest#traits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#traits DataK8SCamelApacheOrgIntegrationProfileV1Manifest#traits}
   */
   readonly traits?: DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecTraits;
 }
@@ -16917,7 +16917,7 @@ export class DataK8SCamelApacheOrgIntegrationProfileV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest k8s_camel_apache_org_integration_profile_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest k8s_camel_apache_org_integration_profile_v1_manifest}
 */
 export class DataK8SCamelApacheOrgIntegrationProfileV1Manifest extends cdktf.TerraformDataSource {
 
@@ -16933,7 +16933,7 @@ export class DataK8SCamelApacheOrgIntegrationProfileV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SCamelApacheOrgIntegrationProfileV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCamelApacheOrgIntegrationProfileV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCamelApacheOrgIntegrationProfileV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCamelApacheOrgIntegrationProfileV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCamelApacheOrgIntegrationProfileV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16945,7 +16945,7 @@ export class DataK8SCamelApacheOrgIntegrationProfileV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/camel_apache_org_integration_profile_v1_manifest k8s_camel_apache_org_integration_profile_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/camel_apache_org_integration_profile_v1_manifest k8s_camel_apache_org_integration_profile_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16956,8 +16956,8 @@ export class DataK8SCamelApacheOrgIntegrationProfileV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_camel_apache_org_integration_profile_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

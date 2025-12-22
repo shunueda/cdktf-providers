@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#metadata DataK8SStunnerL7MpIoUdpRouteV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#metadata DataK8SStunnerL7MpIoUdpRouteV1Manifest#metadata}
   */
   readonly metadata: DataK8SStunnerL7MpIoUdpRouteV1ManifestMetadata;
   /**
   * Spec defines the desired state of UDPRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#spec DataK8SStunnerL7MpIoUdpRouteV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#spec DataK8SStunnerL7MpIoUdpRouteV1Manifest#spec}
   */
   readonly spec: DataK8SStunnerL7MpIoUdpRouteV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#annotations DataK8SStunnerL7MpIoUdpRouteV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#annotations DataK8SStunnerL7MpIoUdpRouteV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#labels DataK8SStunnerL7MpIoUdpRouteV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#labels DataK8SStunnerL7MpIoUdpRouteV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecParentRefs {
   /**
   * Group is the group of the referent. When unspecified, 'gateway.networking.k8s.io' is inferred. To set the core API group (such as for a 'Service' kind referent), Group must be explicitly set to '' (empty string). Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#group DataK8SStunnerL7MpIoUdpRouteV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#group DataK8SStunnerL7MpIoUdpRouteV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind is kind of the referent. There are two kinds of parent resources with 'Core' support: * Gateway (Gateway conformance profile) * Service (Mesh conformance profile, experimental, ClusterIP Services only) Support for other resources is Implementation-Specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#kind DataK8SStunnerL7MpIoUdpRouteV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#kind DataK8SStunnerL7MpIoUdpRouteV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the referent. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, this refers to the local namespace of the Route. Note that there are specific rules for ParentRefs which cross namespace boundaries. Cross-namespace references are only valid if they are explicitly allowed by something in the namespace they are referring to. For example: Gateway has the AllowedRoutes field, and ReferenceGrant provides a generic way to enable any other kind of cross-namespace reference. <gateway:experimental:description> ParentRefs from a Route to a Service in the same namespace are 'producer' routes, which apply default routing rules to inbound connections from any namespace to the Service. ParentRefs from a Route to a Service in a different namespace are 'consumer' routes, and these routing rules are only applied to outbound connections originating from the same namespace as the Route, for which the intended destination of the connections are a Service targeted as a ParentRef of the Route. </gateway:experimental:description> Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Port is the network port this Route targets. It can be interpreted differently based on the type of parent resource. When the parent resource is a Gateway, this targets all listeners listening on the specified port that also support this kind of Route(and select this Route). It's not recommended to set 'Port' unless the networking behaviors specified in a Route must apply to a specific port as opposed to a listener(s) whose port(s) may be changed. When both Port and SectionName are specified, the name and port of the selected listener must match both specified values. <gateway:experimental:description> When the parent resource is a Service, this targets a specific port in the Service spec. When both Port (experimental) and SectionName are specified, the name and port of the selected port must match both specified values. </gateway:experimental:description> Implementations MAY choose to support other parent resources. Implementations supporting other types of parent resources MUST clearly document how/if Port is interpreted. For the purpose of status, an attachment is considered successful as long as the parent resource accepts it partially. For example, Gateway listeners can restrict which Routes can attach to them by Route kind, namespace, or hostname. If 1 of 2 Gateway listeners accept attachment from the referencing Route, the Route MUST be considered successfully attached. If no Gateway listeners accept attachment from this Route, the Route MUST be considered detached from the Gateway. Support: Extended <gateway:experimental>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#port DataK8SStunnerL7MpIoUdpRouteV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#port DataK8SStunnerL7MpIoUdpRouteV1Manifest#port}
   */
   readonly port?: number;
   /**
   * SectionName is the name of a section within the target resource. In the following resources, SectionName is interpreted as the following: * Gateway: Listener Name. When both Port (experimental) and SectionName are specified, the name and port of the selected listener must match both specified values. * Service: Port Name. When both Port (experimental) and SectionName are specified, the name and port of the selected listener must match both specified values. Note that attaching Routes to Services as Parents is part of experimental Mesh support and is not supported for any other purpose. Implementations MAY choose to support attaching Routes to other resources. If that is the case, they MUST clearly document how SectionName is interpreted. When unspecified (empty string), this will reference the entire resource. For the purpose of status, an attachment is considered successful if at least one section in the parent resource accepts it. For example, Gateway listeners can restrict which Routes can attach to them by Route kind, namespace, or hostname. If 1 of 2 Gateway listeners accept attachment from the referencing Route, the Route MUST be considered successfully attached. If no Gateway listeners accept attachment from this Route, the Route MUST be considered detached from the Gateway. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#section_name DataK8SStunnerL7MpIoUdpRouteV1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#section_name DataK8SStunnerL7MpIoUdpRouteV1Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -509,37 +509,37 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecRulesBackendRefs {
   /**
   * EndPort specifies the upper threshold of the port-range. Only considered of port is also specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#end_port DataK8SStunnerL7MpIoUdpRouteV1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#end_port DataK8SStunnerL7MpIoUdpRouteV1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Group is the group of the referent. For example, 'gateway.networking.k8s.io'. When unspecified or empty string, core API group is inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#group DataK8SStunnerL7MpIoUdpRouteV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#group DataK8SStunnerL7MpIoUdpRouteV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind is the Kubernetes resource kind of the referent. For example 'Service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#kind DataK8SStunnerL7MpIoUdpRouteV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#kind DataK8SStunnerL7MpIoUdpRouteV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#name DataK8SStunnerL7MpIoUdpRouteV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the backend. When unspecified, the local namespace is inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#namespace DataK8SStunnerL7MpIoUdpRouteV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Port specifies the destination port number to use for this resource. If port is not specified, all ports are allowed. If port is defined but endPort is not, allow only access to the given port. If both are specified, allows access in the port-range [port, endPort] inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#port DataK8SStunnerL7MpIoUdpRouteV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#port DataK8SStunnerL7MpIoUdpRouteV1Manifest#port}
   */
   readonly port?: number;
 }
@@ -799,7 +799,7 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecRules {
   /**
   * BackendRefs defines the backend(s) where matching requests should be sent. UDPRouteRules correctly handle port ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#backend_refs DataK8SStunnerL7MpIoUdpRouteV1Manifest#backend_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#backend_refs DataK8SStunnerL7MpIoUdpRouteV1Manifest#backend_refs}
   */
   readonly backendRefs?: DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecRulesBackendRefs[] | cdktf.IResolvable;
 }
@@ -917,13 +917,13 @@ export interface DataK8SStunnerL7MpIoUdpRouteV1ManifestSpec {
   /**
   * ParentRefs references the resources (usually Gateways) that a Route wants to be attached to. Note that the referenced parent resource needs to allow this for the attachment to be complete. For Gateways, that means the Gateway needs to allow attachment from Routes of this kind and namespace. For Services, that means the Service must either be in the same namespace for a 'producer' route, or the mesh implementation must support and allow 'consumer' routes for the referenced Service. ReferenceGrant is not applicable for governing ParentRefs to Services - it is not possible to create a 'producer' route for a Service in a different namespace from the Route. There are two kinds of parent resources with 'Core' support: * Gateway (Gateway conformance profile) <gateway:experimental:description> * Service (Mesh conformance profile, experimental, ClusterIP Services only) </gateway:experimental:description> This API may be extended in the future to support additional kinds of parent resources. ParentRefs must be _distinct_. This means either that: * They select different objects. If this is the case, then parentRef entries are distinct. In terms of fields, this means that the multi-part key defined by 'group', 'kind', 'namespace', and 'name' must be unique across all parentRef entries in the Route. * They do not select different objects, but for each optional field used, each ParentRef that selects the same object must set the same set of optional fields to different values. If one ParentRef sets a combination of optional fields, all must set the same combination. Some examples: * If one ParentRef sets 'sectionName', all ParentRefs referencing the same object must also set 'sectionName'. * If one ParentRef sets 'port', all ParentRefs referencing the same object must also set 'port'. * If one ParentRef sets 'sectionName' and 'port', all ParentRefs referencing the same object must also set 'sectionName' and 'port'. It is possible to separately reference multiple distinct objects that may be collapsed by an implementation. For example, some implementations may choose to merge compatible Gateway Listeners together. If that is the case, the list of routes attached to those resources should also be merged. Note that for ParentRefs that cross namespace boundaries, there are specific rules. Cross-namespace references are only valid if they are explicitly allowed by something in the namespace they are referring to. For example, Gateway has the AllowedRoutes field, and ReferenceGrant provides a generic way to enable other kinds of cross-namespace reference. <gateway:experimental:description> ParentRefs from a Route to a Service in the same namespace are 'producer' routes, which apply default routing rules to inbound connections from any namespace to the Service. ParentRefs from a Route to a Service in a different namespace are 'consumer' routes, and these routing rules are only applied to outbound connections originating from the same namespace as the Route, for which the intended destination of the connections are a Service targeted as a ParentRef of the Route. </gateway:experimental:description> <gateway:standard:validation:XValidation:message='sectionName must be specified when parentRefs includes 2 or more references to the same parent',rule='self.all(p1, self.all(p2, p1.group == p2.group && p1.kind == p2.kind && p1.name == p2.name && (((!has(p1.__namespace__) || p1.__namespace__ == '') && (!has(p2.__namespace__) || p2.__namespace__ == '')) || (has(p1.__namespace__) && has(p2.__namespace__) && p1.__namespace__ == p2.__namespace__ )) ? ((!has(p1.sectionName) || p1.sectionName == '') == (!has(p2.sectionName) || p2.sectionName == '')) : true))'> <gateway:standard:validation:XValidation:message='sectionName must be unique when parentRefs includes 2 or more references to the same parent',rule='self.all(p1, self.exists_one(p2, p1.group == p2.group && p1.kind == p2.kind && p1.name == p2.name && (((!has(p1.__namespace__) || p1.__namespace__ == '') && (!has(p2.__namespace__) || p2.__namespace__ == '')) || (has(p1.__namespace__) && has(p2.__namespace__) && p1.__namespace__ == p2.__namespace__ )) && (((!has(p1.sectionName) || p1.sectionName == '') && (!has(p2.sectionName) || p2.sectionName == '')) || (has(p1.sectionName) && has(p2.sectionName) && p1.sectionName == p2.sectionName))))'> <gateway:experimental:validation:XValidation:message='sectionName or port must be specified when parentRefs includes 2 or more references to the same parent',rule='self.all(p1, self.all(p2, p1.group == p2.group && p1.kind == p2.kind && p1.name == p2.name && (((!has(p1.__namespace__) || p1.__namespace__ == '') && (!has(p2.__namespace__) || p2.__namespace__ == '')) || (has(p1.__namespace__) && has(p2.__namespace__) && p1.__namespace__ == p2.__namespace__)) ? ((!has(p1.sectionName) || p1.sectionName == '') == (!has(p2.sectionName) || p2.sectionName == '') && (!has(p1.port) || p1.port == 0) == (!has(p2.port) || p2.port == 0)): true))'> <gateway:experimental:validation:XValidation:message='sectionName or port must be unique when parentRefs includes 2 or more references to the same parent',rule='self.all(p1, self.exists_one(p2, p1.group == p2.group && p1.kind == p2.kind && p1.name == p2.name && (((!has(p1.__namespace__) || p1.__namespace__ == '') && (!has(p2.__namespace__) || p2.__namespace__ == '')) || (has(p1.__namespace__) && has(p2.__namespace__) && p1.__namespace__ == p2.__namespace__ )) && (((!has(p1.sectionName) || p1.sectionName == '') && (!has(p2.sectionName) || p2.sectionName == '')) || ( has(p1.sectionName) && has(p2.sectionName) && p1.sectionName == p2.sectionName)) && (((!has(p1.port) || p1.port == 0) && (!has(p2.port) || p2.port == 0)) || (has(p1.port) && has(p2.port) && p1.port == p2.port))))'>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#parent_refs DataK8SStunnerL7MpIoUdpRouteV1Manifest#parent_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#parent_refs DataK8SStunnerL7MpIoUdpRouteV1Manifest#parent_refs}
   */
   readonly parentRefs?: DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecParentRefs[] | cdktf.IResolvable;
   /**
   * Rules are a list of UDP matchers and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#rules DataK8SStunnerL7MpIoUdpRouteV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#rules DataK8SStunnerL7MpIoUdpRouteV1Manifest#rules}
   */
   readonly rules: DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecRules[] | cdktf.IResolvable;
 }
@@ -1043,7 +1043,7 @@ export class DataK8SStunnerL7MpIoUdpRouteV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest k8s_stunner_l7mp_io_udp_route_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest k8s_stunner_l7mp_io_udp_route_v1_manifest}
 */
 export class DataK8SStunnerL7MpIoUdpRouteV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1059,7 +1059,7 @@ export class DataK8SStunnerL7MpIoUdpRouteV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SStunnerL7MpIoUdpRouteV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStunnerL7MpIoUdpRouteV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStunnerL7MpIoUdpRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStunnerL7MpIoUdpRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStunnerL7MpIoUdpRouteV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1071,7 +1071,7 @@ export class DataK8SStunnerL7MpIoUdpRouteV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest k8s_stunner_l7mp_io_udp_route_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_udp_route_v1_manifest k8s_stunner_l7mp_io_udp_route_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1082,8 +1082,8 @@ export class DataK8SStunnerL7MpIoUdpRouteV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_stunner_l7mp_io_udp_route_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

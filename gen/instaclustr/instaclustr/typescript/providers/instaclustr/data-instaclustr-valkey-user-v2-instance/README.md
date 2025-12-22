@@ -1,3 +1,3 @@
 # `data_instaclustr_valkey_user_v2_instance`
 
-Refer to the Terraform Registry for docs: [`data_instaclustr_valkey_user_v2_instance`](https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/valkey_user_v2_instance).
+Refer to the Terraform Registry for docs: [`data_instaclustr_valkey_user_v2_instance`](https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/valkey_user_v2_instance).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#metadata DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#metadata DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestMetadata;
   /**
   * RuleGroupSpec defines the desired state of RuleGroup. The object that defines the rules in a rule group. This, along with RuleGroupResponse, define the rule group. You can retrieve all objects for a rule group by calling DescribeRuleGroup. Network Firewall uses a rule group to inspect and control network traffic. You define stateless rule groups to inspect individual packets and you define stateful rule groups to inspect packets in the context of their traffic flow. To use a rule group, you include it by reference in an Network Firewall firewall policy, then you use the policy in a firewall. You can reference a rule group from more than one firewall policy, and you can use a firewall policy in more than one firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#spec DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#spec DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#annotations DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#annotations DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#labels DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#labels DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#namespace DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#namespace DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestMetada
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#key_id DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#key_id DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#key_id}
   */
   readonly keyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -344,7 +344,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecEn
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupReferenceSetsIpSetReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#reference_arn DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#reference_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#reference_arn DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#reference_arn}
   */
   readonly referenceArn?: string;
 }
@@ -438,7 +438,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupReferenceSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#ip_set_references DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#ip_set_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#ip_set_references DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#ip_set_references}
   */
   readonly ipSetReferences?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupReferenceSetsIpSetReferences;
 }
@@ -532,7 +532,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariablesIpSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#definition}
   */
   readonly definition?: string[];
 }
@@ -626,7 +626,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariablesPortSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#definition}
   */
   readonly definition?: string[];
 }
@@ -720,11 +720,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#ip_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#ip_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#ip_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#ip_sets}
   */
   readonly ipSets?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariablesIpSets;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#port_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#port_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#port_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#port_sets}
   */
   readonly portSets?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariablesPortSets;
 }
@@ -847,15 +847,15 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceRulesSourceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#generated_rules_type DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#generated_rules_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#generated_rules_type DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#generated_rules_type}
   */
   readonly generatedRulesType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#target_types DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#target_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#target_types DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#target_types}
   */
   readonly targetTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#targets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#targets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#targets}
   */
   readonly targets?: string[];
 }
@@ -1007,27 +1007,27 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRulesHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination_port}
   */
   readonly destinationPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#direction DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#direction DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#protocol DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#protocol DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -1266,11 +1266,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRulesRuleOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#keyword DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#keyword DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#settings DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#settings DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#settings}
   */
   readonly settings?: string[];
 }
@@ -1415,17 +1415,17 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * The basic rule criteria for Network Firewall to use to inspect packet headers in stateful traffic flow inspection. Traffic flows that match the criteria are a match for the corresponding StatefulRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#header DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#header DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#header}
   */
   readonly header?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRulesHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_options DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_options DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_options}
   */
   readonly ruleOptions?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRulesRuleOptions[] | cdktf.IResolvable;
 }
@@ -1599,7 +1599,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricActionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1715,7 +1715,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#dimensions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#dimensions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#dimensions}
   */
   readonly dimensions?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricActionDimensions[] | cdktf.IResolvable;
 }
@@ -1811,7 +1811,7 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSp
   /**
   * Stateless inspection criteria that publishes the specified metrics to Amazon CloudWatch for the matching packet. This setting defines a CloudWatch dimension value to be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#publish_metric_action DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#publish_metric_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#publish_metric_action DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#publish_metric_action}
   */
   readonly publishMetricAction?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricAction;
 }
@@ -1907,11 +1907,11 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSp
   /**
   * A custom action to use in stateless rule actions settings. This is used in CustomAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action_definition}
   */
   readonly actionDefinition?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action_name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#action_name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#action_name}
   */
   readonly actionName?: string;
 }
@@ -2056,11 +2056,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinationPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#from_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#from_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#to_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#to_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#to_port}
   */
   readonly toPort?: number;
 }
@@ -2205,7 +2205,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#address_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#address_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#address_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#address_definition}
   */
   readonly addressDefinition?: string;
 }
@@ -2321,11 +2321,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSourcePorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#from_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#from_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#to_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#to_port DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#to_port}
   */
   readonly toPort?: number;
 }
@@ -2470,7 +2470,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#address_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#address_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#address_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#address_definition}
   */
   readonly addressDefinition?: string;
 }
@@ -2586,11 +2586,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesTcpFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#flags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#flags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#masks DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#masks DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#masks}
   */
   readonly masks?: string[];
 }
@@ -2735,27 +2735,27 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination_ports DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destination_ports DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destination_ports}
   */
   readonly destinationPorts?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinationPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destinations DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#destinations DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#destinations}
   */
   readonly destinations?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#protocols DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#protocols DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_ports DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_ports DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_ports}
   */
   readonly sourcePorts?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSourcePorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#sources DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#sources DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#tcp_flags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#tcp_flags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#tcp_flags}
   */
   readonly tcpFlags?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesTcpFlags[] | cdktf.IResolvable;
 }
@@ -2994,13 +2994,13 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#actions}
   */
   readonly actions?: string[];
   /**
   * Criteria for Network Firewall to use to inspect an individual packet in stateless rule inspection. Each match attributes set can include one or more items such as IP address, CIDR range, port number, protocol, and TCP flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#match_attributes DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#match_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#match_attributes DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#match_attributes}
   */
   readonly matchAttributes?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributes;
 }
@@ -3123,13 +3123,13 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * The inspection criteria and action for a single stateless rule. Network Firewall inspects each packet for the specified matching criteria. When a packet matches the criteria, Network Firewall performs the rule's actions on the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_definition DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_definition}
   */
   readonly ruleDefinition?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinition;
 }
@@ -3274,11 +3274,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#custom_actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#custom_actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#custom_actions}
   */
   readonly customActions?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateless_rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateless_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateless_rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateless_rules}
   */
   readonly statelessRules?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRules[] | cdktf.IResolvable;
 }
@@ -3403,21 +3403,21 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSp
   /**
   * Stateful inspection criteria for a domain list rule group. For HTTPS traffic, domain filtering is SNI-based. It uses the server name indicator extension of the TLS handshake. By default, Network Firewall domain list inspection only includes traffic coming from the VPC where you deploy the firewall. To inspect traffic from IP addresses outside of the deployment VPC, you set the HOME_NET rule variable to include the CIDR range of the deployment VPC plus the other CIDR ranges. For more information, see RuleVariables in this guide and Stateful domain list rule groups in Network Firewall (https://docs.aws.amazon.com/network-firewall/latest/developerguide/stateful-rule-groups-domain-names.html) in the Network Firewall Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_source_list DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_source_list DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_source_list}
   */
   readonly rulesSourceList?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceRulesSourceListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_string DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_string DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_string}
   */
   readonly rulesString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateful_rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateful_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateful_rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateful_rules}
   */
   readonly statefulRules?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatefulRules[] | cdktf.IResolvable;
   /**
   * Stateless inspection criteria. Each stateless rule group uses exactly one of these data types to define its stateless rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateless_rules_and_custom_actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateless_rules_and_custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateless_rules_and_custom_actions DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateless_rules_and_custom_actions}
   */
   readonly statelessRulesAndCustomActions?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSourceStatelessRulesAndCustomActions;
 }
@@ -3598,7 +3598,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupStatefulRuleOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_order DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_order DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_order}
   */
   readonly ruleOrder?: string;
 }
@@ -3694,25 +3694,25 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSp
   /**
   * Contains a set of IP set references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#reference_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#reference_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#reference_sets DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#reference_sets}
   */
   readonly referenceSets?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupReferenceSets;
   /**
   * Settings that are available for use in the rules in the RuleGroup where this is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_variables DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_variables DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_variables}
   */
   readonly ruleVariables?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRuleVariables;
   /**
   * The stateless or stateful rules definitions for use in a single rule group. Each rule group requires a single RulesSource. You can use an instance of this for either stateless rules or stateful rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_source DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules_source DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules_source}
   */
   readonly rulesSource?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupRulesSource;
   /**
   * Additional options governing how Network Firewall handles the rule group. You can only use these for stateful rule groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateful_rule_options DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateful_rule_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#stateful_rule_options DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#stateful_rule_options}
   */
   readonly statefulRuleOptions?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroupStatefulRuleOptions;
 }
@@ -3893,11 +3893,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRu
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecSourceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_arn DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_arn DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_arn}
   */
   readonly sourceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_update_token DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_update_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_update_token DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_update_token}
   */
   readonly sourceUpdateToken?: string;
 }
@@ -4020,11 +4020,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecSo
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#key DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#key DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4171,67 +4171,67 @@ export interface DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSp
   /**
   * Indicates whether you want Network Firewall to analyze the stateless rules in the rule group for rule behavior such as asymmetric routing. If set to TRUE, Network Firewall runs the analysis and then creates the rule group for you. To run the stateless rule group analyzer without creating the rule group, set DryRun to TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#analyze_rule_group DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#analyze_rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#analyze_rule_group DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#analyze_rule_group}
   */
   readonly analyzeRuleGroup?: boolean | cdktf.IResolvable;
   /**
   * The maximum operating resources that this rule group can use. Rule group capacity is fixed at creation. When you update a rule group, you are limited to this capacity. When you reference a rule group from a firewall policy, Network Firewall reserves this capacity for the rule group. You can retrieve the capacity that would be required for a rule group before you create the rule group by calling CreateRuleGroup with DryRun set to TRUE. You can't change or exceed this capacity when you update the rule group, so leave room for your rule group to grow. Capacity for a stateless rule group For a stateless rule group, the capacity required is the sum of the capacity requirements of the individual rules that you expect to have in the rule group. To calculate the capacity requirement of a single rule, multiply the capacity requirement values of each of the rule's match settings: * A match setting with no criteria specified has a value of 1. * A match setting with Any specified has a value of 1. * All other match settings have a value equal to the number of elements provided in the setting. For example, a protocol setting ['UDP'] and a source setting ['10.0.0.0/24'] each have a value of 1. A protocol setting ['UDP','TCP'] has a value of 2. A source setting ['10.0.0.0/24','10.0.0.1/24','10.0.0.2/24'] has a value of 3. A rule with no criteria specified in any of its match settings has a capacity requirement of 1. A rule with protocol setting ['UDP','TCP'], source setting ['10.0.0.0/24','10.0.0.1/24','10.0.0.2/24'], and a single specification or no specification for each of the other match settings has a capacity requirement of 6. Capacity for a stateful rule group For a stateful rule group, the minimum capacity required is the number of individual rules that you expect to have in the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#capacity DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#capacity DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#capacity}
   */
   readonly capacity: number;
   /**
   * A description of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#description DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#description DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Indicates whether you want Network Firewall to just check the validity of the request, rather than run the request. If set to TRUE, Network Firewall checks whether the request can run successfully, but doesn't actually make the requested changes. The call returns the value that the request would return if you ran it with dry run set to FALSE, but doesn't make additions or changes to your resources. This option allows you to make sure that you have the required permissions to run the request and that your request parameters are valid. If set to FALSE, Network Firewall makes the requested changes to your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#dry_run DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#dry_run DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * A complex type that contains settings for encryption of your rule group resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#encryption_configuration DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#encryption_configuration DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#encryption_configuration}
   */
   readonly encryptionConfiguration?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecEncryptionConfiguration;
   /**
   * An object that defines the rule group rules. You must provide either this rule group setting or a Rules setting, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_group DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_group DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_group}
   */
   readonly ruleGroup?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecRuleGroup;
   /**
   * The descriptive name of the rule group. You can't change the name of a rule group after you create it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_group_name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rule_group_name DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rule_group_name}
   */
   readonly ruleGroupName: string;
   /**
   * A string containing stateful rule group rules specifications in Suricata flat format, with one rule per line. Use this to import your existing Suricata compatible rule groups. You must provide either this rules setting or a populated RuleGroup setting, but not both. You can provide your rule group specification in Suricata flat format through this setting when you create or update your rule group. The call response returns a RuleGroup object that Network Firewall has populated from your string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#rules DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#rules}
   */
   readonly rules?: string;
   /**
   * A complex type that contains metadata about the rule group that your own rule group is copied from. You can use the metadata to keep track of updates made to the originating rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_metadata DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#source_metadata DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#source_metadata}
   */
   readonly sourceMetadata?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecSourceMetadata;
   /**
   * The key:value pairs to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#tags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#tags DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Indicates whether the rule group is stateless or stateful. If the rule group is stateless, it contains stateless rules. If it is stateful, it contains stateful rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest#type_}
   */
   readonly type: string;
 }
@@ -4606,7 +4606,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest}
 */
 export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4622,7 +4622,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4634,7 +4634,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4645,8 +4645,8 @@ export class DataK8SNetworkfirewallServicesK8SAwsRuleGroupV1Alpha1Manifest exten
       terraformResourceType: 'k8s_networkfirewall_services_k8s_aws_rule_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

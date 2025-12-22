@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#metadata DataK8SStunnerL7MpIoDataplaneV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#metadata DataK8SStunnerL7MpIoDataplaneV1Manifest#metadata}
   */
   readonly metadata: DataK8SStunnerL7MpIoDataplaneV1ManifestMetadata;
   /**
   * Spec defines the behavior of a Dataplane resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#spec DataK8SStunnerL7MpIoDataplaneV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#spec DataK8SStunnerL7MpIoDataplaneV1Manifest#spec}
   */
   readonly spec?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#annotations DataK8SStunnerL7MpIoDataplaneV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#annotations DataK8SStunnerL7MpIoDataplaneV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#labels DataK8SStunnerL7MpIoDataplaneV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#labels DataK8SStunnerL7MpIoDataplaneV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,19 +369,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -551,13 +551,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_fields DataK8SStunnerL7MpIoDataplaneV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_fields DataK8SStunnerL7MpIoDataplaneV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -682,13 +682,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preference DataK8SStunnerL7MpIoDataplaneV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preference DataK8SStunnerL7MpIoDataplaneV1Manifest#preference}
   */
   readonly preference: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -829,19 +829,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1011,19 +1011,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1193,13 +1193,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_fields DataK8SStunnerL7MpIoDataplaneV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_fields DataK8SStunnerL7MpIoDataplaneV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1346,7 +1346,7 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_selector_terms DataK8SStunnerL7MpIoDataplaneV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_selector_terms DataK8SStunnerL7MpIoDataplaneV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1439,13 +1439,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1570,19 +1570,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1752,13 +1752,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1883,19 +1883,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2065,13 +2065,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2196,37 +2196,37 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2464,13 +2464,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityP
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity_term DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity_term DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2611,19 +2611,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityR
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2793,13 +2793,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityR
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2924,19 +2924,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityR
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3106,13 +3106,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityR
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3237,37 +3237,37 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityR
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3527,13 +3527,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinity 
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3658,19 +3658,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3840,13 +3840,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3971,19 +3971,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4153,13 +4153,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4284,37 +4284,37 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4552,13 +4552,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity_term DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity_term DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#weight DataK8SStunnerL7MpIoDataplaneV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4699,19 +4699,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4881,13 +4881,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5012,19 +5012,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5194,13 +5194,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5325,37 +5325,37 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#mismatch_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespace_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#namespaces DataK8SStunnerL7MpIoDataplaneV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5615,13 +5615,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SStunnerL7MpIoDataplaneV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5746,19 +5746,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinity {
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_anti_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#pod_anti_affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5912,13 +5912,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityCon
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#add DataK8SStunnerL7MpIoDataplaneV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#add DataK8SStunnerL7MpIoDataplaneV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#drop DataK8SStunnerL7MpIoDataplaneV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#drop DataK8SStunnerL7MpIoDataplaneV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6043,25 +6043,25 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityCon
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#level DataK8SStunnerL7MpIoDataplaneV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#level DataK8SStunnerL7MpIoDataplaneV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#role DataK8SStunnerL7MpIoDataplaneV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#role DataK8SStunnerL7MpIoDataplaneV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#user DataK8SStunnerL7MpIoDataplaneV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#user DataK8SStunnerL7MpIoDataplaneV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6244,13 +6244,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityCon
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#localhost_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#localhost_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
   */
   readonly type: string;
 }
@@ -6372,25 +6372,25 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityCon
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec_name DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec_name DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_process DataK8SStunnerL7MpIoDataplaneV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_process DataK8SStunnerL7MpIoDataplaneV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user_name DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user_name DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6573,67 +6573,67 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityCon
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#allow_privilege_escalation DataK8SStunnerL7MpIoDataplaneV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#allow_privilege_escalation DataK8SStunnerL7MpIoDataplaneV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#capabilities DataK8SStunnerL7MpIoDataplaneV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#capabilities DataK8SStunnerL7MpIoDataplaneV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#privileged DataK8SStunnerL7MpIoDataplaneV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#privileged DataK8SStunnerL7MpIoDataplaneV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#proc_mount DataK8SStunnerL7MpIoDataplaneV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#proc_mount DataK8SStunnerL7MpIoDataplaneV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#read_only_root_filesystem DataK8SStunnerL7MpIoDataplaneV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#read_only_root_filesystem DataK8SStunnerL7MpIoDataplaneV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_group DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_group DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_non_root DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_non_root DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#se_linux_options DataK8SStunnerL7MpIoDataplaneV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#se_linux_options DataK8SStunnerL7MpIoDataplaneV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#seccomp_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#seccomp_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#windows_options DataK8SStunnerL7MpIoDataplaneV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#windows_options DataK8SStunnerL7MpIoDataplaneV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityContextWindowsOptions;
 }
@@ -7019,19 +7019,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromConfigMa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7182,13 +7182,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromFieldRef
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#api_version DataK8SStunnerL7MpIoDataplaneV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#api_version DataK8SStunnerL7MpIoDataplaneV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#field_path DataK8SStunnerL7MpIoDataplaneV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#field_path DataK8SStunnerL7MpIoDataplaneV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7310,19 +7310,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromResource
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#container_name DataK8SStunnerL7MpIoDataplaneV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#container_name DataK8SStunnerL7MpIoDataplaneV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#divisor DataK8SStunnerL7MpIoDataplaneV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#divisor DataK8SStunnerL7MpIoDataplaneV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resource DataK8SStunnerL7MpIoDataplaneV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resource DataK8SStunnerL7MpIoDataplaneV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7473,19 +7473,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromSecretKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7636,25 +7636,25 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFrom {
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#config_map_key_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#config_map_key_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#field_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#field_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resource_field_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resource_field_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#secret_key_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#secret_key_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -7837,19 +7837,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value_from DataK8SStunnerL7MpIoDataplaneV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value_from DataK8SStunnerL7MpIoDataplaneV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvValueFrom;
 }
@@ -8022,13 +8022,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFromConfigMapRef 
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8153,13 +8153,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFromSecretRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#optional DataK8SStunnerL7MpIoDataplaneV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8284,19 +8284,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#config_map_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#config_map_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#prefix DataK8SStunnerL7MpIoDataplaneV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#prefix DataK8SStunnerL7MpIoDataplaneV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#secret_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#secret_ref DataK8SStunnerL7MpIoDataplaneV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFromSecretRef;
 }
@@ -8472,7 +8472,7 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecImagePullSecrets {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8590,7 +8590,7 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name: string;
 }
@@ -8705,19 +8705,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#claims DataK8SStunnerL7MpIoDataplaneV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#claims DataK8SStunnerL7MpIoDataplaneV1Manifest#claims}
   */
   readonly claims?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#limits DataK8SStunnerL7MpIoDataplaneV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#limits DataK8SStunnerL7MpIoDataplaneV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#requests DataK8SStunnerL7MpIoDataplaneV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#requests DataK8SStunnerL7MpIoDataplaneV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8871,25 +8871,25 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSeLin
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#level DataK8SStunnerL7MpIoDataplaneV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#level DataK8SStunnerL7MpIoDataplaneV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#role DataK8SStunnerL7MpIoDataplaneV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#role DataK8SStunnerL7MpIoDataplaneV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#user DataK8SStunnerL7MpIoDataplaneV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#user DataK8SStunnerL7MpIoDataplaneV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -9072,13 +9072,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSecco
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#localhost_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#localhost_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#type DataK8SStunnerL7MpIoDataplaneV1Manifest#type}
   */
   readonly type: string;
 }
@@ -9200,13 +9200,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSysct
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#name DataK8SStunnerL7MpIoDataplaneV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
   */
   readonly value: string;
 }
@@ -9347,25 +9347,25 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextWindo
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec_name DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#gmsa_credential_spec_name DataK8SStunnerL7MpIoDataplaneV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_process DataK8SStunnerL7MpIoDataplaneV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_process DataK8SStunnerL7MpIoDataplaneV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user_name DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user_name DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -9548,61 +9548,61 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#fs_group DataK8SStunnerL7MpIoDataplaneV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#fs_group DataK8SStunnerL7MpIoDataplaneV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#fs_group_change_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#fs_group_change_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_group DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_group DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_non_root DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_non_root DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#run_as_user DataK8SStunnerL7MpIoDataplaneV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#se_linux_options DataK8SStunnerL7MpIoDataplaneV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#se_linux_options DataK8SStunnerL7MpIoDataplaneV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#seccomp_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#seccomp_profile DataK8SStunnerL7MpIoDataplaneV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#supplemental_groups DataK8SStunnerL7MpIoDataplaneV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#supplemental_groups DataK8SStunnerL7MpIoDataplaneV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#sysctls DataK8SStunnerL7MpIoDataplaneV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#sysctls DataK8SStunnerL7MpIoDataplaneV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#windows_options DataK8SStunnerL7MpIoDataplaneV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#windows_options DataK8SStunnerL7MpIoDataplaneV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -9959,31 +9959,31 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#effect DataK8SStunnerL7MpIoDataplaneV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#effect DataK8SStunnerL7MpIoDataplaneV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#toleration_seconds DataK8SStunnerL7MpIoDataplaneV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#toleration_seconds DataK8SStunnerL7MpIoDataplaneV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#value DataK8SStunnerL7MpIoDataplaneV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10217,19 +10217,19 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#key DataK8SStunnerL7MpIoDataplaneV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#operator DataK8SStunnerL7MpIoDataplaneV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#values DataK8SStunnerL7MpIoDataplaneV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10399,13 +10399,13 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_expressions DataK8SStunnerL7MpIoDataplaneV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_labels DataK8SStunnerL7MpIoDataplaneV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10530,49 +10530,49 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstr
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#label_selector DataK8SStunnerL7MpIoDataplaneV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#match_label_keys DataK8SStunnerL7MpIoDataplaneV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#max_skew DataK8SStunnerL7MpIoDataplaneV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#max_skew DataK8SStunnerL7MpIoDataplaneV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#min_domains DataK8SStunnerL7MpIoDataplaneV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#min_domains DataK8SStunnerL7MpIoDataplaneV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_affinity_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_affinity_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_taints_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#node_taints_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_key DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#when_unsatisfiable DataK8SStunnerL7MpIoDataplaneV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#when_unsatisfiable DataK8SStunnerL7MpIoDataplaneV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -10884,121 +10884,121 @@ export interface DataK8SStunnerL7MpIoDataplaneV1ManifestSpec {
   /**
   * Scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#affinity DataK8SStunnerL7MpIoDataplaneV1Manifest#affinity}
   */
   readonly affinity?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecAffinity;
   /**
   * Custom annotations to add to dataplane pods. Note that this does not affect the annotations added to the Deployment (this come from the correspnding Gateway), just the pods. Note also that mandatory pod annotations override whatever you set here on conflict, and the annotations set here override annotations manually added to the pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#annotations DataK8SStunnerL7MpIoDataplaneV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#annotations DataK8SStunnerL7MpIoDataplaneV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Arguments to the entrypoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#args DataK8SStunnerL7MpIoDataplaneV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#args DataK8SStunnerL7MpIoDataplaneV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Defaults: 'stunnerd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#command DataK8SStunnerL7MpIoDataplaneV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#command DataK8SStunnerL7MpIoDataplaneV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * ContainerSecurityContext holds container-level security attributes specifically for the stunnerd container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#container_security_context DataK8SStunnerL7MpIoDataplaneV1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#container_security_context DataK8SStunnerL7MpIoDataplaneV1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecContainerSecurityContext;
   /**
   * Disable health-checking. Default is to enable HTTP health-checks on port 8086: a liveness probe responder will be exposed on path '/live' and readiness probe on path '/ready'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#disable_health_check DataK8SStunnerL7MpIoDataplaneV1Manifest#disable_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#disable_health_check DataK8SStunnerL7MpIoDataplaneV1Manifest#disable_health_check}
   */
   readonly disableHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * EnableMetricsEnpoint can be used to enable metrics scraping (Prometheus). If enabled, a metrics endpoint will be available at http://0.0.0.0:8080 at all dataplane pods. Default is no metrics collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#enable_metrics_endpoint DataK8SStunnerL7MpIoDataplaneV1Manifest#enable_metrics_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#enable_metrics_endpoint DataK8SStunnerL7MpIoDataplaneV1Manifest#enable_metrics_endpoint}
   */
   readonly enableMetricsEndpoint?: boolean | cdktf.IResolvable;
   /**
   * List of environment variables to set in the stunnerd container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#env DataK8SStunnerL7MpIoDataplaneV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#env DataK8SStunnerL7MpIoDataplaneV1Manifest#env}
   */
   readonly env?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the stunnerd container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#env_from DataK8SStunnerL7MpIoDataplaneV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#env_from DataK8SStunnerL7MpIoDataplaneV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * Host networking requested for the stunnerd pod to use the host's network namespace. Can be used to implement public TURN servers with Kubernetes. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_network DataK8SStunnerL7MpIoDataplaneV1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#host_network DataK8SStunnerL7MpIoDataplaneV1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Container image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image DataK8SStunnerL7MpIoDataplaneV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image DataK8SStunnerL7MpIoDataplaneV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image_pull_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image_pull_policy DataK8SStunnerL7MpIoDataplaneV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets to use for pulling the stunnerd image. Note that the referenced secrets are not watched by the operator, so modifications will in effect only for newly created pods. Also note that the Secret is always searched in the same namespace as the Gateway, which allows to use separate pull secrets per each namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image_pull_secrets DataK8SStunnerL7MpIoDataplaneV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#image_pull_secrets DataK8SStunnerL7MpIoDataplaneV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Custom labels to add to dataplane pods. Note that this does not affect the labels added to the Deployment (those come from the Gateway), just the pods. Note also that mandatory pod labels override whatever you set here on conflict. The only way to set pod labels is here: whatever you set manually on the dataplane pod will be reset by the opetator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#labels DataK8SStunnerL7MpIoDataplaneV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#labels DataK8SStunnerL7MpIoDataplaneV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Number of desired pods. If empty or set to 1, use whatever is in the target Deployment. Otherwise, enforce this setting, overwiting whatever is set in the Deployment (this may block autoscaling the dataplane though). Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#replicas DataK8SStunnerL7MpIoDataplaneV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#replicas DataK8SStunnerL7MpIoDataplaneV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources required by stunnerd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resources DataK8SStunnerL7MpIoDataplaneV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#resources DataK8SStunnerL7MpIoDataplaneV1Manifest#resources}
   */
   readonly resources?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecResources;
   /**
   * SecurityContext holds pod-level security attributes and common container settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#security_context DataK8SStunnerL7MpIoDataplaneV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#security_context DataK8SStunnerL7MpIoDataplaneV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecSecurityContext;
   /**
   * Optional duration in seconds the stunnerd needs to terminate gracefully. Defaults to 3600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#termination_grace_period_seconds DataK8SStunnerL7MpIoDataplaneV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#termination_grace_period_seconds DataK8SStunnerL7MpIoDataplaneV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#tolerations DataK8SStunnerL7MpIoDataplaneV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#tolerations DataK8SStunnerL7MpIoDataplaneV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints describes how stunnerd pods ought to spread across topology domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_spread_constraints DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#topology_spread_constraints DataK8SStunnerL7MpIoDataplaneV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SStunnerL7MpIoDataplaneV1ManifestSpecTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -11643,7 +11643,7 @@ export class DataK8SStunnerL7MpIoDataplaneV1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest k8s_stunner_l7mp_io_dataplane_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest k8s_stunner_l7mp_io_dataplane_v1_manifest}
 */
 export class DataK8SStunnerL7MpIoDataplaneV1Manifest extends cdktf.TerraformDataSource {
 
@@ -11659,7 +11659,7 @@ export class DataK8SStunnerL7MpIoDataplaneV1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SStunnerL7MpIoDataplaneV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStunnerL7MpIoDataplaneV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStunnerL7MpIoDataplaneV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStunnerL7MpIoDataplaneV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStunnerL7MpIoDataplaneV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11671,7 +11671,7 @@ export class DataK8SStunnerL7MpIoDataplaneV1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest k8s_stunner_l7mp_io_dataplane_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/stunner_l7mp_io_dataplane_v1_manifest k8s_stunner_l7mp_io_dataplane_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11682,8 +11682,8 @@ export class DataK8SStunnerL7MpIoDataplaneV1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_stunner_l7mp_io_dataplane_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

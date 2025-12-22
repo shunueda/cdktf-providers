@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLonghornIoBackingImageV1Beta2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#metadata DataK8SLonghornIoBackingImageV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#metadata DataK8SLonghornIoBackingImageV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SLonghornIoBackingImageV1Beta2ManifestMetadata;
   /**
   * BackingImageSpec defines the desired state of the Longhorn backing image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#spec DataK8SLonghornIoBackingImageV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#spec DataK8SLonghornIoBackingImageV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SLonghornIoBackingImageV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLonghornIoBackingImageV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#annotations DataK8SLonghornIoBackingImageV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#annotations DataK8SLonghornIoBackingImageV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#labels DataK8SLonghornIoBackingImageV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#labels DataK8SLonghornIoBackingImageV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#name DataK8SLonghornIoBackingImageV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#name DataK8SLonghornIoBackingImageV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#namespace DataK8SLonghornIoBackingImageV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#namespace DataK8SLonghornIoBackingImageV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SLonghornIoBackingImageV1Beta2ManifestMetadataOutputReference
 }
 export interface DataK8SLonghornIoBackingImageV1Beta2ManifestSpecDiskFileSpecMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#eviction_requested DataK8SLonghornIoBackingImageV1Beta2Manifest#eviction_requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#eviction_requested DataK8SLonghornIoBackingImageV1Beta2Manifest#eviction_requested}
   */
   readonly evictionRequested?: boolean | cdktf.IResolvable;
 }
@@ -311,45 +311,45 @@ export class DataK8SLonghornIoBackingImageV1Beta2ManifestSpecDiskFileSpecMapOutp
 }
 export interface DataK8SLonghornIoBackingImageV1Beta2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#checksum DataK8SLonghornIoBackingImageV1Beta2Manifest#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#checksum DataK8SLonghornIoBackingImageV1Beta2Manifest#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disk_file_spec_map DataK8SLonghornIoBackingImageV1Beta2Manifest#disk_file_spec_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disk_file_spec_map DataK8SLonghornIoBackingImageV1Beta2Manifest#disk_file_spec_map}
   */
   readonly diskFileSpecMap?: DataK8SLonghornIoBackingImageV1Beta2ManifestSpecDiskFileSpecMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disk_selector DataK8SLonghornIoBackingImageV1Beta2Manifest#disk_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disk_selector DataK8SLonghornIoBackingImageV1Beta2Manifest#disk_selector}
   */
   readonly diskSelector?: string[];
   /**
   * Deprecated. We are now using DiskFileSpecMap to assign different spec to the file on different disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disks DataK8SLonghornIoBackingImageV1Beta2Manifest#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#disks DataK8SLonghornIoBackingImageV1Beta2Manifest#disks}
   */
   readonly disks?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#min_number_of_copies DataK8SLonghornIoBackingImageV1Beta2Manifest#min_number_of_copies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#min_number_of_copies DataK8SLonghornIoBackingImageV1Beta2Manifest#min_number_of_copies}
   */
   readonly minNumberOfCopies?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#node_selector DataK8SLonghornIoBackingImageV1Beta2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#node_selector DataK8SLonghornIoBackingImageV1Beta2Manifest#node_selector}
   */
   readonly nodeSelector?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#secret DataK8SLonghornIoBackingImageV1Beta2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#secret DataK8SLonghornIoBackingImageV1Beta2Manifest#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#secret_namespace DataK8SLonghornIoBackingImageV1Beta2Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#secret_namespace DataK8SLonghornIoBackingImageV1Beta2Manifest#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#source_parameters DataK8SLonghornIoBackingImageV1Beta2Manifest#source_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#source_parameters DataK8SLonghornIoBackingImageV1Beta2Manifest#source_parameters}
   */
   readonly sourceParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#source_type DataK8SLonghornIoBackingImageV1Beta2Manifest#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#source_type DataK8SLonghornIoBackingImageV1Beta2Manifest#source_type}
   */
   readonly sourceType?: string;
 }
@@ -704,7 +704,7 @@ export class DataK8SLonghornIoBackingImageV1Beta2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest k8s_longhorn_io_backing_image_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest k8s_longhorn_io_backing_image_v1beta2_manifest}
 */
 export class DataK8SLonghornIoBackingImageV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -720,7 +720,7 @@ export class DataK8SLonghornIoBackingImageV1Beta2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SLonghornIoBackingImageV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLonghornIoBackingImageV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SLonghornIoBackingImageV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLonghornIoBackingImageV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLonghornIoBackingImageV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class DataK8SLonghornIoBackingImageV1Beta2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest k8s_longhorn_io_backing_image_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/longhorn_io_backing_image_v1beta2_manifest k8s_longhorn_io_backing_image_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class DataK8SLonghornIoBackingImageV1Beta2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_longhorn_io_backing_image_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

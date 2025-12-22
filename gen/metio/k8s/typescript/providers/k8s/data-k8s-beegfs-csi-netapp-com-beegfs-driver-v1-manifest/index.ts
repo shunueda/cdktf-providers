@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#metadata DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#metadata DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#metadata}
   */
   readonly metadata: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestMetadata;
   /**
   * BeegfsDriverSpec defines the desired state of BeegfsDriver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#spec DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#spec DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#spec}
   */
   readonly spec?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#annotations DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#annotations DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#labels DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#labels DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#namespace DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#namespace DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * A combination of registry and image (e.g. registry.k8s.io/csi-provisioner or ghcr.io/thinkparq/beegfs-csi-driver).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * A tag (e.g. v2.2.2 or latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * A combination of registry and image (e.g. registry.k8s.io/csi-provisioner or ghcr.io/thinkparq/beegfs-csi-driver).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * A tag (e.g. v2.2.2 or latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -481,13 +481,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * A combination of registry and image (e.g. registry.k8s.io/csi-provisioner or ghcr.io/thinkparq/beegfs-csi-driver).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * A tag (e.g. v2.2.2 or latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -612,13 +612,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * A combination of registry and image (e.g. registry.k8s.io/csi-provisioner or ghcr.io/thinkparq/beegfs-csi-driver).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * A tag (e.g. v2.2.2 or latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -743,13 +743,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * A combination of registry and image (e.g. registry.k8s.io/csi-provisioner or ghcr.io/thinkparq/beegfs-csi-driver).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#image DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * A tag (e.g. v2.2.2 or latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#tag DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -874,31 +874,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerIma
   /**
   * Defaults to ghcr.io/thinkparq/beegfs-csi-driver:<the operator version>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_csi_driver DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_csi_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_csi_driver DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_csi_driver}
   */
   readonly beegfsCsiDriver?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverridesBeegfsCsiDriver;
   /**
   * Defaults to registry.k8s.io/sig-storage/csi-node-driver-registrar:<the most current version at operator release>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_node_driver_registrar DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_node_driver_registrar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_node_driver_registrar DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_node_driver_registrar}
   */
   readonly csiNodeDriverRegistrar?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverridesCsiNodeDriverRegistrar;
   /**
   * Defaults to registry.k8s.io/sig-storage/csi-provisioner:<the most current version at operator release>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_provisioner DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_provisioner DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_provisioner}
   */
   readonly csiProvisioner?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverridesCsiProvisioner;
   /**
   * Defaults to registry.k8s.io/sig-storage/csi-resizer:<the most current version at operator release>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_resizer DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_resizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#csi_resizer DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#csi_resizer}
   */
   readonly csiResizer?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverridesCsiResizer;
   /**
   * Defaults to registry.k8s.io/sig-storage/livenessprobe:<the most current version at operator release>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#liveness_probe DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#liveness_probe DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverridesLivenessProbe;
 }
@@ -1110,7 +1110,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1225,19 +1225,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
   */
   readonly claims?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesControllerBeegfsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1391,7 +1391,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1506,19 +1506,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
   */
   readonly claims?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesControllerCsiProvisionerClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1672,7 +1672,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1787,19 +1787,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
   */
   readonly claims?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeBeegfsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1953,7 +1953,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2068,19 +2068,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
   */
   readonly claims?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeDriverRegistrarClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2234,7 +2234,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#name DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2349,19 +2349,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#claims DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#claims}
   */
   readonly claims?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeLivenessProbeClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#limits DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#requests DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2515,31 +2515,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerRes
   /**
   * The resource specifications for the beegfs container of the BeeGFS driver controller pod. The default values for requests are (cpu: 100m, memory: 16Mi). The default values for limits are (cpu: None, memory: 256Mi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#controller_beegfs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#controller_beegfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#controller_beegfs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#controller_beegfs}
   */
   readonly controllerBeegfs?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesControllerBeegfs;
   /**
   * The resource specifications for the csi-provisioner container of the BeeGFS driver controller pod. The default values for requests are (cpu: 80m, memory: 24Mi) The default values for limits are (cpu: None, memory 256Mi)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#controller_csi_provisioner DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#controller_csi_provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#controller_csi_provisioner DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#controller_csi_provisioner}
   */
   readonly controllerCsiProvisioner?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesControllerCsiProvisioner;
   /**
   * The resource specifications for the beegfs container of the BeeGFS driver node pod. The default values for requests are (cpu: 100m, memory: 20Mi) The default values for limits are (cpu: None, memory: 128Mi)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_beegfs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_beegfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_beegfs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_beegfs}
   */
   readonly nodeBeegfs?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeBeegfs;
   /**
   * The resource specifications for the node-driver-registrar container of the BeeGFS driver node pod. The default values for requests are (cpu: 80m, memory: 10Mi) The default values for limits are (cpu: None, memory 128Mi)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_driver_registrar DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_driver_registrar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_driver_registrar DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_driver_registrar}
   */
   readonly nodeDriverRegistrar?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeDriverRegistrar;
   /**
   * The resource specifications for the liveness-probe container of the BeeGFS driver node pod. The default values for requests are (cpu: 60m, memory: 20Mi) The default values for limits are (cpu: None, memory: 128Mi)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_liveness_probe DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_liveness_probe DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_liveness_probe}
   */
   readonly nodeLivenessProbe?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverridesNodeLivenessProbe;
 }
@@ -2751,19 +2751,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2933,19 +2933,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3115,13 +3115,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServicePreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServicePreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -3246,13 +3246,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preference DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preference DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preference}
   */
   readonly preference: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServicePreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#weight DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#weight DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3393,19 +3393,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3575,19 +3575,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3757,13 +3757,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -3910,7 +3910,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_selector_terms DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_selector_terms DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -4003,13 +4003,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServicePreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerServiceRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -4134,19 +4134,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4316,19 +4316,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4498,13 +4498,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServicePreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServicePreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -4629,13 +4629,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preference DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preference DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preference}
   */
   readonly preference: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServicePreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#weight DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#weight DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4776,19 +4776,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4958,19 +4958,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#key DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#operator DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#values DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5140,13 +5140,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_expressions DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#match_fields DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -5293,7 +5293,7 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_selector_terms DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_selector_terms DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServiceRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -5386,13 +5386,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServicePreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeServiceRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -5517,31 +5517,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * A map of additional key value pairs matching key value pairs in the beegfs-client.conf file. See beegfs-client.conf for more details. Values MUST be specified as strings, even if they appear to be integers or booleans (e.g. '8000', not 8000 and 'true', not true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
   */
   readonly beegfsClientConf?: { [key: string]: string };
   /**
   * A list of interfaces the BeeGFS client service can communicate over (e.g. 'ib0' or 'eth0'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
   */
   readonly connInterfaces?: string[];
   /**
   * A list of subnets the BeeGFS client service can use for outgoing communication (e.g. '10.10.10.10/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
   */
   readonly connNetFilter?: string[];
   /**
   * A list of interfaces the BeeGFS client will use for outbound RDMA connections. This is used in support of the BeeGFS multi-rail feature. This feature does not depend on or use the connInterfaces parameter. This feature requires the BeeGFS client version 7.3.0 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
   */
   readonly connRdmaInterfaces?: string[];
   /**
   * A list of subnets in which RDMA communication cannot or should not be established (e.g. '10.10.10.11/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
   */
   readonly connTcpOnlyFilter?: string[];
 }
@@ -5753,31 +5753,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * A map of additional key value pairs matching key value pairs in the beegfs-client.conf file. See beegfs-client.conf for more details. Values MUST be specified as strings, even if they appear to be integers or booleans (e.g. '8000', not 8000 and 'true', not true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
   */
   readonly beegfsClientConf?: { [key: string]: string };
   /**
   * A list of interfaces the BeeGFS client service can communicate over (e.g. 'ib0' or 'eth0'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
   */
   readonly connInterfaces?: string[];
   /**
   * A list of subnets the BeeGFS client service can use for outgoing communication (e.g. '10.10.10.10/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
   */
   readonly connNetFilter?: string[];
   /**
   * A list of interfaces the BeeGFS client will use for outbound RDMA connections. This is used in support of the BeeGFS multi-rail feature. This feature does not depend on or use the connInterfaces parameter. This feature requires the BeeGFS client version 7.3.0 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
   */
   readonly connRdmaInterfaces?: string[];
   /**
   * A list of subnets in which RDMA communication cannot or should not be established (e.g. '10.10.10.11/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
   */
   readonly connTcpOnlyFilter?: string[];
 }
@@ -5989,13 +5989,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * The primary configuration structure containing all of the custom configuration (beegfs-client.conf keys/values and additional CSI driver specific fields) associated with a single BeeGFS file system except for sysMgmtdHost, which is specified elsewhere. WARNING: This structure includes a beegfsClientConf field. This field may not be rendered in form view by OpenShift or other graphical interfaces, but it can be critical in some environments. Add or modify it in YAML view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
   */
   readonly config?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigFileSystemSpecificConfigsConfig;
   /**
   * The sysMgmtdHost used by the BeeGFS client service to make initial contact with the BeeGFS mgmtd service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#sys_mgmtd_host DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#sys_mgmtd_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#sys_mgmtd_host DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#sys_mgmtd_host}
   */
   readonly sysMgmtdHost: string;
 }
@@ -6139,31 +6139,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * A map of additional key value pairs matching key value pairs in the beegfs-client.conf file. See beegfs-client.conf for more details. Values MUST be specified as strings, even if they appear to be integers or booleans (e.g. '8000', not 8000 and 'true', not true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
   */
   readonly beegfsClientConf?: { [key: string]: string };
   /**
   * A list of interfaces the BeeGFS client service can communicate over (e.g. 'ib0' or 'eth0'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
   */
   readonly connInterfaces?: string[];
   /**
   * A list of subnets the BeeGFS client service can use for outgoing communication (e.g. '10.10.10.10/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
   */
   readonly connNetFilter?: string[];
   /**
   * A list of interfaces the BeeGFS client will use for outbound RDMA connections. This is used in support of the BeeGFS multi-rail feature. This feature does not depend on or use the connInterfaces parameter. This feature requires the BeeGFS client version 7.3.0 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
   */
   readonly connRdmaInterfaces?: string[];
   /**
   * A list of subnets in which RDMA communication cannot or should not be established (e.g. '10.10.10.11/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
   */
   readonly connTcpOnlyFilter?: string[];
 }
@@ -6375,31 +6375,31 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * A map of additional key value pairs matching key value pairs in the beegfs-client.conf file. See beegfs-client.conf for more details. Values MUST be specified as strings, even if they appear to be integers or booleans (e.g. '8000', not 8000 and 'true', not true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#beegfs_client_conf DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#beegfs_client_conf}
   */
   readonly beegfsClientConf?: { [key: string]: string };
   /**
   * A list of interfaces the BeeGFS client service can communicate over (e.g. 'ib0' or 'eth0'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_interfaces}
   */
   readonly connInterfaces?: string[];
   /**
   * A list of subnets the BeeGFS client service can use for outgoing communication (e.g. '10.10.10.10/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_net_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_net_filter}
   */
   readonly connNetFilter?: string[];
   /**
   * A list of interfaces the BeeGFS client will use for outbound RDMA connections. This is used in support of the BeeGFS multi-rail feature. This feature does not depend on or use the connInterfaces parameter. This feature requires the BeeGFS client version 7.3.0 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_rdma_interfaces DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_rdma_interfaces}
   */
   readonly connRdmaInterfaces?: string[];
   /**
   * A list of subnets in which RDMA communication cannot or should not be established (e.g. '10.10.10.11/24'). Often not required. See beegfs-client.conf for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#conn_tcp_only_filter DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#conn_tcp_only_filter}
   */
   readonly connTcpOnlyFilter?: string[];
 }
@@ -6611,13 +6611,13 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * The primary configuration structure containing all of the custom configuration (beegfs-client.conf keys/values and additional CSI driver specific fields) associated with a single BeeGFS file system except for sysMgmtdHost, which is specified elsewhere. WARNING: This structure includes a beegfsClientConf field. This field may not be rendered in form view by OpenShift or other graphical interfaces, but it can be critical in some environments. Add or modify it in YAML view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
   */
   readonly config?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigNodeSpecificConfigsFileSystemSpecificConfigsConfig;
   /**
   * The sysMgmtdHost used by the BeeGFS client service to make initial contact with the BeeGFS mgmtd service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#sys_mgmtd_host DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#sys_mgmtd_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#sys_mgmtd_host DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#sys_mgmtd_host}
   */
   readonly sysMgmtdHost: string;
 }
@@ -6761,19 +6761,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * The primary configuration structure containing all of the custom configuration (beegfs-client.conf keys/values and additional CSI driver specific fields) associated with a single BeeGFS file system except for sysMgmtdHost, which is specified elsewhere. WARNING: This structure includes a beegfsClientConf field. This field may not be rendered in form view by OpenShift or other graphical interfaces, but it can be critical in some environments. Add or modify it in YAML view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
   */
   readonly config?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigNodeSpecificConfigsConfig;
   /**
   * A list of file system specific configurations that override the default configuration for specific file systems on these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#file_system_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#file_system_specific_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#file_system_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#file_system_specific_configs}
   */
   readonly fileSystemSpecificConfigs?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigNodeSpecificConfigsFileSystemSpecificConfigs[] | cdktf.IResolvable;
   /**
   * The list of nodes this configuration should be applied on. Each entry is the hostname of the node or the name assigned to the node by the container orchestrator (e.g. 'node1' or 'cluster05-node03').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_list DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_list DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_list}
   */
   readonly nodeList: string[];
 }
@@ -6946,19 +6946,19 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig
   /**
   * The primary configuration structure containing all of the custom configuration (beegfs-client.conf keys/values and additional CSI driver specific fields) associated with a single BeeGFS file system except for sysMgmtdHost, which is specified elsewhere. WARNING: This structure includes a beegfsClientConf field. This field may not be rendered in form view by OpenShift or other graphical interfaces, but it can be critical in some environments. Add or modify it in YAML view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#config}
   */
   readonly config?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigConfig;
   /**
   * A list of file system specific configurations that override the default configuration for specific file systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#file_system_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#file_system_specific_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#file_system_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#file_system_specific_configs}
   */
   readonly fileSystemSpecificConfigs?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigFileSystemSpecificConfigs[] | cdktf.IResolvable;
   /**
   * A list of node specific configurations that override file system specific configurations and the default configuration on specific nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_specific_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_specific_configs DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_specific_configs}
   */
   readonly nodeSpecificConfigs?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfigNodeSpecificConfigs[] | cdktf.IResolvable;
 }
@@ -7112,37 +7112,37 @@ export interface DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpec {
   /**
   * A structure that allows for default container images and tags to be overridden. Use it in air-gapped networks, networks with private registry mirrors, or to pin a particular container version. Unless otherwise noted, versions other than the default are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#container_image_overrides DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#container_image_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#container_image_overrides DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#container_image_overrides}
   */
   readonly containerImageOverrides?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerImageOverrides;
   /**
   * The ContainerResourceOverrides allow for customization of the container resource limits and requests. Each container has default requests and limits for both cpu and memory resources. Only explicitly defined overrides will be applied, otherwise the default values will be used. For example, if the cpu limit for the controller's beegfs container is the only resource with an override set, only the controller's beegfs container cpu limit setting will be overridden. Every other value will use the default setting. Storage resources are not used by the BeeGFS CSI driver. Any storage resource values configured will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#container_resource_overrides DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#container_resource_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#container_resource_overrides DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#container_resource_overrides}
   */
   readonly containerResourceOverrides?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecContainerResourceOverrides;
   /**
   * The logging level of deployed containers expressed as an integer from 0 (low detail) to 5 (high detail). 0 only logs errors. 3 logs most RPC requests/responses and some detail about driver actions. 5 logs all RPC requests/responses, including redundant/frequently occurring ones. Empty defaults to level 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#log_level DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#log_level DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#log_level}
   */
   readonly logLevel?: number;
   /**
   * The controller service consists of a single Pod. It preferably runs on an infrastructure/master node, but the running node must have the beegfs-utils and beegfs-client packages installed. E.g. 'preferred: node-role.kubernetes.io/master Exists' and/or 'required: node.openshift.io/os_id NotIn rhcos'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_affinity_controller_service DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_affinity_controller_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_affinity_controller_service DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_affinity_controller_service}
   */
   readonly nodeAffinityControllerService?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityControllerService;
   /**
   * The node service consists of one Pod running on each eligible node. It runs on every node expected to host a workload that requires BeeGFS. Running nodes must have the beegfs-utils and beegfs-client packages installed. E.g. 'required: node.openshift.io/os_id NotIn rhcos'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_affinity_node_service DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_affinity_node_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#node_affinity_node_service DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#node_affinity_node_service}
   */
   readonly nodeAffinityNodeService?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecNodeAffinityNodeService;
   /**
   * The top level configuration structure containing default configuration (applied to all file systems on all nodes), file system specific configuration, and node specific configuration. Fields from node and file system specific configurations override fields from the default configuration. Often not required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#plugin_config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#plugin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#plugin_config DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest#plugin_config}
   */
   readonly pluginConfig?: DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecPluginConfig;
 }
@@ -7381,7 +7381,7 @@ export class DataK8SBeegfsCsiNetappComBeegfsDriverV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest}
 */
 export class DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7397,7 +7397,7 @@ export class DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest to import
-  * @param importFromId The id of the existing DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7409,7 +7409,7 @@ export class DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/beegfs_csi_netapp_com_beegfs_driver_v1_manifest k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7420,8 +7420,8 @@ export class DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

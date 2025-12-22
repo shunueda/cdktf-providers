@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#metadata DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestMetadata;
   /**
   * DexOAuth2ClientSpec defines the desired state of the OAuth2 client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#spec DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#annotations DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#labels DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestSpecIdentit
   /**
   * Name of the referenced DexIdentityProvider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the optional namespace of the referenced DexIdentityProvider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#namespace DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -347,43 +347,43 @@ export interface DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestSpec {
   /**
   * IdentityProviderRef is a reference to the identity provider which this client is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#identity_provider_ref DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#identity_provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#identity_provider_ref DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#identity_provider_ref}
   */
   readonly identityProviderRef: DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestSpecIdentityProviderRef;
   /**
   * LogoURL is the URL to a logo for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#logo_url DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#logo_url DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * Name is the human-readable name of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Public indicates that this client is a public client, such as a mobile app. Public clients must use either use a redirectURL 127.0.0.1:X or 'urn:ietf:wg:oauth:2.0:oob'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#public DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#public DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * RedirectURIs is a list of allowed redirect URLs for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#redirect_ur_is DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#redirect_ur_is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#redirect_ur_is DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#redirect_ur_is}
   */
   readonly redirectUrIs?: string[];
   /**
   * SecretName is the name of the secret that will be created to store the OAuth2 client id and client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#secret_name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#secret_name DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * TrustedPeers are a list of peers which can issue tokens on this client's behalf using the dynamic 'oauth2:server:client_id:(client_id)' scope. If a peer makes such a request, this client's ID will appear as the ID Token's audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#trusted_peers DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#trusted_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#trusted_peers DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest#trusted_peers}
   */
   readonly trustedPeers?: string[];
 }
@@ -645,7 +645,7 @@ export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest}
 */
 export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -661,7 +661,7 @@ export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -673,7 +673,7 @@ export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -684,8 +684,8 @@ export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

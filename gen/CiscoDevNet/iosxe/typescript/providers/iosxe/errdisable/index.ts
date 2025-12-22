@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,332 +11,332 @@ export interface ErrdisableConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#delete_mode Errdisable#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#delete_mode Errdisable#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Enable error detection on all cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_all Errdisable#detect_cause_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_all Errdisable#detect_cause_all}
   */
   readonly detectCauseAll?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection for arp inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_arp_inspection Errdisable#detect_cause_arp_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_arp_inspection Errdisable#detect_cause_arp_inspection}
   */
   readonly detectCauseArpInspection?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on bpdu-guard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_bpduguard Errdisable#detect_cause_bpduguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_bpduguard Errdisable#detect_cause_bpduguard}
   */
   readonly detectCauseBpduguard?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on dhcp-rate-limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_dhcp_rate_limit Errdisable#detect_cause_dhcp_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_dhcp_rate_limit Errdisable#detect_cause_dhcp_rate_limit}
   */
   readonly detectCauseDhcpRateLimit?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on dtp-flapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_dtp_flap Errdisable#detect_cause_dtp_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_dtp_flap Errdisable#detect_cause_dtp_flap}
   */
   readonly detectCauseDtpFlap?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on gbic-invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_gbic_invalid Errdisable#detect_cause_gbic_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_gbic_invalid Errdisable#detect_cause_gbic_invalid}
   */
   readonly detectCauseGbicInvalid?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection for inline-power
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_inline_power Errdisable#detect_cause_inline_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_inline_power Errdisable#detect_cause_inline_power}
   */
   readonly detectCauseInlinePower?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from l2protocol-tunnel error disable state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_l2ptguard Errdisable#detect_cause_l2ptguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_l2ptguard Errdisable#detect_cause_l2ptguard}
   */
   readonly detectCauseL2Ptguard?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on linkstate-flapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_link_flap Errdisable#detect_cause_link_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_link_flap Errdisable#detect_cause_link_flap}
   */
   readonly detectCauseLinkFlap?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on loopback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_loopback Errdisable#detect_cause_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_loopback Errdisable#detect_cause_loopback}
   */
   readonly detectCauseLoopback?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on loop detect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_loopdetect Errdisable#detect_cause_loopdetect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_loopdetect Errdisable#detect_cause_loopdetect}
   */
   readonly detectCauseLoopdetect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_mlacp_minlink Errdisable#detect_cause_mlacp_minlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_mlacp_minlink Errdisable#detect_cause_mlacp_minlink}
   */
   readonly detectCauseMlacpMinlink?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on pagp-flapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_pagp_flap Errdisable#detect_cause_pagp_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_pagp_flap Errdisable#detect_cause_pagp_flap}
   */
   readonly detectCausePagpFlap?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on PPPoE IA rate-limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_pppoe_ia_rate_limit Errdisable#detect_cause_pppoe_ia_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_pppoe_ia_rate_limit Errdisable#detect_cause_pppoe_ia_rate_limit}
   */
   readonly detectCausePppoeIaRateLimit?: boolean | cdktf.IResolvable;
   /**
   * Shutdown vlan on 802.1x-guard violation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_security_violation_shutdown_vlan Errdisable#detect_cause_security_violation_shutdown_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_security_violation_shutdown_vlan Errdisable#detect_cause_security_violation_shutdown_vlan}
   */
   readonly detectCauseSecurityViolationShutdownVlan?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on SFP config mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_sfp_config_mismatch Errdisable#detect_cause_sfp_config_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_sfp_config_mismatch Errdisable#detect_cause_sfp_config_mismatch}
   */
   readonly detectCauseSfpConfigMismatch?: boolean | cdktf.IResolvable;
   /**
   * Enable error detection on small_frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#detect_cause_small_frame Errdisable#detect_cause_small_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#detect_cause_small_frame Errdisable#detect_cause_small_frame}
   */
   readonly detectCauseSmallFrame?: boolean | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#device Errdisable#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#device Errdisable#device}
   */
   readonly device?: string;
   /**
   * maximum flaps allowed before setting to errdisable
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_dtp_flap_max_flaps Errdisable#flap_setting_cause_dtp_flap_max_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_dtp_flap_max_flaps Errdisable#flap_setting_cause_dtp_flap_max_flaps}
   */
   readonly flapSettingCauseDtpFlapMaxFlaps?: number;
   /**
   * time period the flaps are counted
   *   - Range: `1`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_dtp_flap_time Errdisable#flap_setting_cause_dtp_flap_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_dtp_flap_time Errdisable#flap_setting_cause_dtp_flap_time}
   */
   readonly flapSettingCauseDtpFlapTime?: number;
   /**
   * maximum flaps allowed before setting to errdisable
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_link_flap_max_flaps Errdisable#flap_setting_cause_link_flap_max_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_link_flap_max_flaps Errdisable#flap_setting_cause_link_flap_max_flaps}
   */
   readonly flapSettingCauseLinkFlapMaxFlaps?: number;
   /**
   * time period the flaps are counted
   *   - Range: `1`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_link_flap_time Errdisable#flap_setting_cause_link_flap_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_link_flap_time Errdisable#flap_setting_cause_link_flap_time}
   */
   readonly flapSettingCauseLinkFlapTime?: number;
   /**
   * maximum flaps allowed before setting to errdisable
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_pagp_flap_max_flaps Errdisable#flap_setting_cause_pagp_flap_max_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_pagp_flap_max_flaps Errdisable#flap_setting_cause_pagp_flap_max_flaps}
   */
   readonly flapSettingCausePagpFlapMaxFlaps?: number;
   /**
   * time period the flaps are counted
   *   - Range: `1`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#flap_setting_cause_pagp_flap_time Errdisable#flap_setting_cause_pagp_flap_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#flap_setting_cause_pagp_flap_time Errdisable#flap_setting_cause_pagp_flap_time}
   */
   readonly flapSettingCausePagpFlapTime?: number;
   /**
   * Enable timer to recover from all error causes (DEPRECATED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_all Errdisable#recovery_cause_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_all Errdisable#recovery_cause_all}
   */
   readonly recoveryCauseAll?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from arp inspection error disable state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_arp_inspection Errdisable#recovery_cause_arp_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_arp_inspection Errdisable#recovery_cause_arp_inspection}
   */
   readonly recoveryCauseArpInspection?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from BPDU Guard error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_bpduguard Errdisable#recovery_cause_bpduguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_bpduguard Errdisable#recovery_cause_bpduguard}
   */
   readonly recoveryCauseBpduguard?: boolean | cdktf.IResolvable;
   /**
   * (STP)  Enable timer to recover from channel misconfiguration error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_channel_misconfig Errdisable#recovery_cause_channel_misconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_channel_misconfig Errdisable#recovery_cause_channel_misconfig}
   */
   readonly recoveryCauseChannelMisconfig?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from dhcp-rate-limit error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_dhcp_rate_limit Errdisable#recovery_cause_dhcp_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_dhcp_rate_limit Errdisable#recovery_cause_dhcp_rate_limit}
   */
   readonly recoveryCauseDhcpRateLimit?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from dtp-flap error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_dtp_flap Errdisable#recovery_cause_dtp_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_dtp_flap Errdisable#recovery_cause_dtp_flap}
   */
   readonly recoveryCauseDtpFlap?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from invalid GBIC error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_gbic_invalid Errdisable#recovery_cause_gbic_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_gbic_invalid Errdisable#recovery_cause_gbic_invalid}
   */
   readonly recoveryCauseGbicInvalid?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from inline-power error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_inline_power Errdisable#recovery_cause_inline_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_inline_power Errdisable#recovery_cause_inline_power}
   */
   readonly recoveryCauseInlinePower?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from l2protocol-tunnel error disable state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_l2ptguard Errdisable#recovery_cause_l2ptguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_l2ptguard Errdisable#recovery_cause_l2ptguard}
   */
   readonly recoveryCauseL2Ptguard?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from link-flap error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_link_flap Errdisable#recovery_cause_link_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_link_flap Errdisable#recovery_cause_link_flap}
   */
   readonly recoveryCauseLinkFlap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_link_monitor_failure Errdisable#recovery_cause_link_monitor_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_link_monitor_failure Errdisable#recovery_cause_link_monitor_failure}
   */
   readonly recoveryCauseLinkMonitorFailure?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from loopback error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_loopback Errdisable#recovery_cause_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_loopback Errdisable#recovery_cause_loopback}
   */
   readonly recoveryCauseLoopback?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from loop detect error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_loopdetect Errdisable#recovery_cause_loopdetect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_loopdetect Errdisable#recovery_cause_loopdetect}
   */
   readonly recoveryCauseLoopdetect?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from mac limit disable state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_mac_limit Errdisable#recovery_cause_mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_mac_limit Errdisable#recovery_cause_mac_limit}
   */
   readonly recoveryCauseMacLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_mlacp_minlink Errdisable#recovery_cause_mlacp_minlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_mlacp_minlink Errdisable#recovery_cause_mlacp_minlink}
   */
   readonly recoveryCauseMlacpMinlink?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from mrp miscabling disable state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_mrp_miscabling Errdisable#recovery_cause_mrp_miscabling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_mrp_miscabling Errdisable#recovery_cause_mrp_miscabling}
   */
   readonly recoveryCauseMrpMiscabling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_oam_remote_failure Errdisable#recovery_cause_oam_remote_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_oam_remote_failure Errdisable#recovery_cause_oam_remote_failure}
   */
   readonly recoveryCauseOamRemoteFailure?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from pagp-flap error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_pagp_flap Errdisable#recovery_cause_pagp_flap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_pagp_flap Errdisable#recovery_cause_pagp_flap}
   */
   readonly recoveryCausePagpFlap?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from port mode change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_port_mode_failure Errdisable#recovery_cause_port_mode_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_port_mode_failure Errdisable#recovery_cause_port_mode_failure}
   */
   readonly recoveryCausePortModeFailure?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from PPPoE IA rate-limit error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_pppoe_ia_rate_limit Errdisable#recovery_cause_pppoe_ia_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_pppoe_ia_rate_limit Errdisable#recovery_cause_pppoe_ia_rate_limit}
   */
   readonly recoveryCausePppoeIaRateLimit?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from psecure violation error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_psecure_violation Errdisable#recovery_cause_psecure_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_psecure_violation Errdisable#recovery_cause_psecure_violation}
   */
   readonly recoveryCausePsecureViolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_psp Errdisable#recovery_cause_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_psp Errdisable#recovery_cause_psp}
   */
   readonly recoveryCausePsp?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from 802.1x violation error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_security_violation Errdisable#recovery_cause_security_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_security_violation Errdisable#recovery_cause_security_violation}
   */
   readonly recoveryCauseSecurityViolation?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from SFP config mismatch error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_sfp_config_mismatch Errdisable#recovery_cause_sfp_config_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_sfp_config_mismatch Errdisable#recovery_cause_sfp_config_mismatch}
   */
   readonly recoveryCauseSfpConfigMismatch?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from small frame error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_small_frame Errdisable#recovery_cause_small_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_small_frame Errdisable#recovery_cause_small_frame}
   */
   readonly recoveryCauseSmallFrame?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from storm-control error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_storm_control Errdisable#recovery_cause_storm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_storm_control Errdisable#recovery_cause_storm_control}
   */
   readonly recoveryCauseStormControl?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from udld error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_udld Errdisable#recovery_cause_udld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_udld Errdisable#recovery_cause_udld}
   */
   readonly recoveryCauseUdld?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_unicast_flood Errdisable#recovery_cause_unicast_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_unicast_flood Errdisable#recovery_cause_unicast_flood}
   */
   readonly recoveryCauseUnicastFlood?: boolean | cdktf.IResolvable;
   /**
   * Enable timer to recover from vmps shutdown error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_cause_vmps Errdisable#recovery_cause_vmps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_cause_vmps Errdisable#recovery_cause_vmps}
   */
   readonly recoveryCauseVmps?: boolean | cdktf.IResolvable;
   /**
   * Error disable recovery timer value
   *   - Range: `30`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#recovery_interval Errdisable#recovery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#recovery_interval Errdisable#recovery_interval}
   */
   readonly recoveryInterval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable iosxe_errdisable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable iosxe_errdisable}
 */
 export class Errdisable extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class Errdisable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Errdisable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Errdisable to import
-  * @param importFromId The id of the existing Errdisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Errdisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Errdisable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class Errdisable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/errdisable iosxe_errdisable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/errdisable iosxe_errdisable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class Errdisable extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_errdisable',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

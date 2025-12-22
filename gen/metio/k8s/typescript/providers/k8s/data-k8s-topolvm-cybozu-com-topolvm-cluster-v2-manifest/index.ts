@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#metadata DataK8STopolvmCybozuComTopolvmClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#metadata DataK8STopolvmCybozuComTopolvmClusterV2Manifest#metadata}
   */
   readonly metadata: DataK8STopolvmCybozuComTopolvmClusterV2ManifestMetadata;
   /**
   * TopolvmClusterSpec defines the desired state of TopolvmCluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#spec DataK8STopolvmCybozuComTopolvmClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#spec DataK8STopolvmCybozuComTopolvmClusterV2Manifest#spec}
   */
   readonly spec?: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#annotations DataK8STopolvmCybozuComTopolvmClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#annotations DataK8STopolvmCybozuComTopolvmClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#labels DataK8STopolvmCybozuComTopolvmClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#labels DataK8STopolvmCybozuComTopolvmClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#namespace DataK8STopolvmCybozuComTopolvmClusterV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#namespace DataK8STopolvmCybozuComTopolvmClusterV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestMetadataOutputRefere
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClassesClassesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#auto DataK8STopolvmCybozuComTopolvmClusterV2Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#auto DataK8STopolvmCybozuComTopolvmClusterV2Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#path DataK8STopolvmCybozuComTopolvmClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#path DataK8STopolvmCybozuComTopolvmClusterV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#type DataK8STopolvmCybozuComTopolvmClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#type DataK8STopolvmCybozuComTopolvmClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -459,31 +459,31 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceCla
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClassesClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#class_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#class_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#class_name}
   */
   readonly className: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#default DataK8STopolvmCybozuComTopolvmClusterV2Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#default DataK8STopolvmCybozuComTopolvmClusterV2Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#devices}
   */
   readonly devices: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClassesClassesDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#spare_gb DataK8STopolvmCybozuComTopolvmClusterV2Manifest#spare_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#spare_gb DataK8STopolvmCybozuComTopolvmClusterV2Manifest#spare_gb}
   */
   readonly spareGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#stripe DataK8STopolvmCybozuComTopolvmClusterV2Manifest#stripe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#stripe DataK8STopolvmCybozuComTopolvmClusterV2Manifest#stripe}
   */
   readonly stripe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#stripe_size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#stripe_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#stripe_size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#stripe_size}
   */
   readonly stripeSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#volume_group DataK8STopolvmCybozuComTopolvmClusterV2Manifest#volume_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#volume_group DataK8STopolvmCybozuComTopolvmClusterV2Manifest#volume_group}
   */
   readonly volumeGroup: string;
 }
@@ -764,11 +764,11 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceCla
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#classes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#classes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#classes}
   */
   readonly classes: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClassesClasses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#node_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#node_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#node_name}
   */
   readonly nodeName: string;
 }
@@ -907,23 +907,23 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceCla
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#auto DataK8STopolvmCybozuComTopolvmClusterV2Manifest#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#auto DataK8STopolvmCybozuComTopolvmClusterV2Manifest#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#path DataK8STopolvmCybozuComTopolvmClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#path DataK8STopolvmCybozuComTopolvmClusterV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#size DataK8STopolvmCybozuComTopolvmClusterV2Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#type DataK8STopolvmCybozuComTopolvmClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#type DataK8STopolvmCybozuComTopolvmClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -1149,31 +1149,31 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDevicesLi
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#class_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#class_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#class_name}
   */
   readonly className?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#device_classes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#device_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#device_classes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#device_classes}
   */
   readonly deviceClasses?: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDeviceClasses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#devices}
   */
   readonly devices?: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_all_devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_all_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_all_devices DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_all_devices}
   */
   readonly useAllDevices: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_all_nodes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_all_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_all_nodes DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_all_nodes}
   */
   readonly useAllNodes: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_loop DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_loop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#use_loop DataK8STopolvmCybozuComTopolvmClusterV2Manifest#use_loop}
   */
   readonly useLoop: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#volume_group_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#volume_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#volume_group_name DataK8STopolvmCybozuComTopolvmClusterV2Manifest#volume_group_name}
   */
   readonly volumeGroupName?: string;
 }
@@ -1432,19 +1432,19 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorageOutputRef
 }
 export interface DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#certs_secret DataK8STopolvmCybozuComTopolvmClusterV2Manifest#certs_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#certs_secret DataK8STopolvmCybozuComTopolvmClusterV2Manifest#certs_secret}
   */
   readonly certsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#cleanup DataK8STopolvmCybozuComTopolvmClusterV2Manifest#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#cleanup DataK8STopolvmCybozuComTopolvmClusterV2Manifest#cleanup}
   */
   readonly cleanup: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#storage DataK8STopolvmCybozuComTopolvmClusterV2Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#storage DataK8STopolvmCybozuComTopolvmClusterV2Manifest#storage}
   */
   readonly storage: DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#topolvm_version DataK8STopolvmCybozuComTopolvmClusterV2Manifest#topolvm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#topolvm_version DataK8STopolvmCybozuComTopolvmClusterV2Manifest#topolvm_version}
   */
   readonly topolvmVersion: string;
 }
@@ -1616,7 +1616,7 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest}
 */
 export class DataK8STopolvmCybozuComTopolvmClusterV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1632,7 +1632,7 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8STopolvmCybozuComTopolvmClusterV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STopolvmCybozuComTopolvmClusterV2Manifest to import
-  * @param importFromId The id of the existing DataK8STopolvmCybozuComTopolvmClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STopolvmCybozuComTopolvmClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STopolvmCybozuComTopolvmClusterV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1644,7 +1644,7 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/topolvm_cybozu_com_topolvm_cluster_v2_manifest k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1655,8 +1655,8 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

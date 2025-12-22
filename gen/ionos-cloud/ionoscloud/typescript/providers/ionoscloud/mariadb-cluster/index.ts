@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MariadbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of CPU cores per instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#cores MariadbCluster#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#cores MariadbCluster#cores}
   */
   readonly cores: number;
   /**
   * The friendly name of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#display_name MariadbCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#display_name MariadbCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#id MariadbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#id MariadbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface MariadbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The total number of instances in the cluster (one primary and n-1 secondary).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#instances MariadbCluster#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#instances MariadbCluster#instances}
   */
   readonly instances: number;
   /**
   * The cluster location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#location MariadbCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#location MariadbCluster#location}
   */
   readonly location?: string;
   /**
   * The MariaDB version of your cluster. Cannot be downgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#mariadb_version MariadbCluster#mariadb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#mariadb_version MariadbCluster#mariadb_version}
   */
   readonly mariadbVersion: string;
   /**
   * The amount of memory per instance in gigabytes (GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#ram MariadbCluster#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#ram MariadbCluster#ram}
   */
   readonly ram: number;
   /**
   * The amount of storage per instance in gigabytes (GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#storage_size MariadbCluster#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#storage_size MariadbCluster#storage_size}
   */
   readonly storageSize: number;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#backup MariadbCluster#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#backup MariadbCluster#backup}
   */
   readonly backup?: MariadbClusterBackup;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#connections MariadbCluster#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#connections MariadbCluster#connections}
   */
   readonly connections: MariadbClusterConnections;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#credentials MariadbCluster#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#credentials MariadbCluster#credentials}
   */
   readonly credentials: MariadbClusterCredentials;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#maintenance_window MariadbCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#maintenance_window MariadbCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MariadbClusterMaintenanceWindow;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#timeouts MariadbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#timeouts MariadbCluster#timeouts}
   */
   readonly timeouts?: MariadbClusterTimeouts;
 }
@@ -91,7 +91,7 @@ export interface MariadbClusterBackup {
   /**
   * The IONOS Object Storage location where the backups will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#location MariadbCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#location MariadbCluster#location}
   */
   readonly location: string;
 }
@@ -174,19 +174,19 @@ export interface MariadbClusterConnections {
   /**
   * The IP and subnet for your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#cidr MariadbCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#cidr MariadbCluster#cidr}
   */
   readonly cidr: string;
   /**
   * The datacenter to connect your cluster to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#datacenter_id MariadbCluster#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#datacenter_id MariadbCluster#datacenter_id}
   */
   readonly datacenterId: string;
   /**
   * The numeric LAN ID to connect your cluster to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#lan_id MariadbCluster#lan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#lan_id MariadbCluster#lan_id}
   */
   readonly lanId: string;
 }
@@ -321,13 +321,13 @@ export interface MariadbClusterCredentials {
   /**
   * The password for a MariaDB user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#password MariadbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#password MariadbCluster#password}
   */
   readonly password: string;
   /**
   * The username for the initial MariaDB user. Some system usernames are restricted (e.g 'mariadb', 'admin', 'standby').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#username MariadbCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#username MariadbCluster#username}
   */
   readonly username: string;
 }
@@ -436,13 +436,13 @@ export interface MariadbClusterMaintenanceWindow {
   /**
   * The name of the week day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#day_of_the_week MariadbCluster#day_of_the_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#day_of_the_week MariadbCluster#day_of_the_week}
   */
   readonly dayOfTheWeek: string;
   /**
   * Start of the maintenance window in UTC time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#time MariadbCluster#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#time MariadbCluster#time}
   */
   readonly time: string;
 }
@@ -549,19 +549,19 @@ export class MariadbClusterMaintenanceWindowOutputReference extends cdktf.Comple
 }
 export interface MariadbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#create MariadbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#create MariadbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#default MariadbCluster#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#default MariadbCluster#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#delete MariadbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#delete MariadbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#update MariadbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#update MariadbCluster#update}
   */
   readonly update?: string;
 }
@@ -742,7 +742,7 @@ export class MariadbClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster ionoscloud_mariadb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster ionoscloud_mariadb_cluster}
 */
 export class MariadbCluster extends cdktf.TerraformResource {
 
@@ -758,7 +758,7 @@ export class MariadbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbCluster to import
-  * @param importFromId The id of the existing MariadbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -770,7 +770,7 @@ export class MariadbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/mariadb_cluster ionoscloud_mariadb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/mariadb_cluster ionoscloud_mariadb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -781,8 +781,8 @@ export class MariadbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_mariadb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

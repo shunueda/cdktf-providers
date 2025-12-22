@@ -15,17 +15,17 @@ export interface DataK8SRayIoRayServiceV1ManifestConfig extends cdktf.TerraformM
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_service_v1_manifest#metadata DataK8SRayIoRayServiceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ray_io_ray_service_v1_manifest#metadata DataK8SRayIoRayServiceV1Manifest#metadata}
   */
   readonly metadata: DataK8SRayIoRayServiceV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_service_v1_manifest#spec DataK8SRayIoRayServiceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ray_io_ray_service_v1_manifest#spec DataK8SRayIoRayServiceV1Manifest#spec}
   */
   readonly spec?: DataK8SRayIoRayServiceV1ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_service_v1_manifest k8s_ray_io_ray_service_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ray_io_ray_service_v1_manifest k8s_ray_io_ray_service_v1_manifest}
 */
 export class DataK8SRayIoRayServiceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataK8SRayIoRayServiceV1Manifest extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataK8SRayIoRayServiceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRayIoRayServiceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SRayIoRayServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_service_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRayIoRayServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ray_io_ray_service_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRayIoRayServiceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataK8SRayIoRayServiceV1Manifest extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_service_v1_manifest k8s_ray_io_ray_service_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ray_io_ray_service_v1_manifest k8s_ray_io_ray_service_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataK8SRayIoRayServiceV1Manifest extends cdktf.TerraformDataSource 
       terraformResourceType: 'k8s_ray_io_ray_service_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

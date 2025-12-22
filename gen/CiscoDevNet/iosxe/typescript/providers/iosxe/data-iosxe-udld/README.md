@@ -1,3 +1,3 @@
 # `data_iosxe_udld`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_udld`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/udld).
+Refer to the Terraform Registry for docs: [`data_iosxe_udld`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/udld).

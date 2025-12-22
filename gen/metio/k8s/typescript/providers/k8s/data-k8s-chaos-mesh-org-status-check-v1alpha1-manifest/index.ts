@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#metadata DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#metadata DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestMetadata;
   /**
   * Spec defines the behavior of a status check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#spec DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#spec DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#annotations DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#annotations DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#labels DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#labels DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#name DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#name DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#namespace DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#namespace DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecHttpCriteria 
   /**
   * StatusCode defines the expected http status code for the request. A statusCode string could be a single code (e.g. 200), or an inclusive range (e.g. 200-400, both '200' and '400' are included).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#status_code DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#status_code DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#status_code}
   */
   readonly statusCode: string;
 }
@@ -310,27 +310,27 @@ export class DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecHttpCriteriaOutpu
 }
 export interface DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#body DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#body DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#body}
   */
   readonly body?: string;
   /**
   * Criteria defines how to determine the result of the status check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#criteria DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#criteria DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#criteria}
   */
   readonly criteria: DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecHttpCriteria;
   /**
   * A Header represents the key-value pairs in an HTTP header. The keys should be in canonical form, as returned by CanonicalHeaderKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#headers DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#headers DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#method DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#method DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#url DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#url DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -536,53 +536,53 @@ export interface DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpec {
   /**
   * Duration defines the duration of the whole status check if the number of failed execution does not exceed the failure threshold. Duration is available to both 'Synchronous' and 'Continuous' mode. A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '-1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#duration DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#duration DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * FailureThreshold defines the minimum consecutive failure for the status check to be considered failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#failure_threshold DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#failure_threshold DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#http DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#http DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecHttp;
   /**
   * IntervalSeconds defines how often (in seconds) to perform an execution of status check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#interval_seconds DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#interval_seconds DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * Mode defines the execution mode of the status check. Support type: Synchronous / Continuous
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#mode DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#mode DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * RecordsHistoryLimit defines the number of record to retain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#records_history_limit DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#records_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#records_history_limit DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#records_history_limit}
   */
   readonly recordsHistoryLimit?: number;
   /**
   * SuccessThreshold defines the minimum consecutive successes for the status check to be considered successful. SuccessThreshold only works for 'Synchronous' mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#success_threshold DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#success_threshold DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TimeoutSeconds defines the number of seconds after which an execution of status check times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#timeout_seconds DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#timeout_seconds DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Type defines the specific status check type. Support type: HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#type DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#type DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -905,7 +905,7 @@ export class DataK8SChaosMeshOrgStatusCheckV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest k8s_chaos_mesh_org_status_check_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest k8s_chaos_mesh_org_status_check_v1alpha1_manifest}
 */
 export class DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -921,7 +921,7 @@ export class DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +933,7 @@ export class DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest k8s_chaos_mesh_org_status_check_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/chaos_mesh_org_status_check_v1alpha1_manifest k8s_chaos_mesh_org_status_check_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +944,8 @@ export class DataK8SChaosMeshOrgStatusCheckV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_chaos_mesh_org_status_check_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

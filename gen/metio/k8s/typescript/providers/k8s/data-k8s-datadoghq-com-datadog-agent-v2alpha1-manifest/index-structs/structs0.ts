@@ -3,25 +3,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#annotations DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#annotations DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,7 +198,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -316,31 +316,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Define whether the Agent image should support JMX. To be used if the Name field does not correspond to a full image string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#jmx_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#jmx_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#jmx_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#jmx_enabled}
   */
   readonly jmxEnabled?: boolean | cdktf.IResolvable;
   /**
   * Define the image to use: Use 'gcr.io/datadoghq/agent:latest' for Datadog Agent 7. Use 'datadog/dogstatsd:latest' for standalone Datadog Agent DogStatsD 7. Use 'gcr.io/datadoghq/cluster-agent:latest' for Datadog Cluster Agent. Use 'agent' with the registry and tag configurations for <registry>/agent:<tag>. Use 'cluster-agent' with the registry and tag configurations for <registry>/cluster-agent:<tag>. If the name is the full image string—'<name>:<tag>' or '<registry>/<name>:<tag>', then 'tag', 'jmxEnabled', and 'global.registry' values are ignored. Otherwise, image string is created by overriding default settings with supplied 'name', 'tag', and 'jmxEnabled' values; image string is created using default registry unless 'global.registry' is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes pull policy: Use Always, Never, or IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * It is possible to specify Docker registry credentials. See https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_secrets DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_secrets DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Define the image tag to use. To be used if the Name field does not correspond to a full image string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -552,19 +552,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -715,13 +715,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -843,19 +843,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1006,19 +1006,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1169,25 +1169,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnvValueFromSecretKeyRef;
 }
@@ -1370,19 +1370,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value_from DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value_from DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnvValueFrom;
 }
@@ -1555,7 +1555,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1670,19 +1670,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#claims DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#claims DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#limits DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#limits DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#requests DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#requests DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1836,13 +1836,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * EnvVars specifies the environment variables for the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#env DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#env DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#env}
   */
   readonly env?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesEnv[] | cdktf.IResolvable;
   /**
   * ResourceRequirements specifies the resource requirements for the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfilesResources;
 }
@@ -1989,19 +1989,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2171,13 +2171,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionSelectorsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2302,19 +2302,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2484,13 +2484,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionSelectorsObjectSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2615,13 +2615,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * NamespaceSelector specifies the label selector for namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionSelectorsNamespaceSelector;
   /**
   * ObjectSelector specifies the label selector for objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#object_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#object_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#object_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#object_selector}
   */
   readonly objectSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionSelectorsObjectSelector;
 }
@@ -2768,43 +2768,43 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * ClusterAgentCommunicationEnabled enables communication between Agent sidecars and the Cluster Agent. Default : true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_communication_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_communication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_communication_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_communication_enabled}
   */
   readonly clusterAgentCommunicationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enabled enables Sidecar injections. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image overrides the default Agent image name and tag for the Agent sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#image}
   */
   readonly image?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionImage;
   /**
   * Profiles define the sidecar configuration override. Only one profile is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#profiles}
   */
   readonly profiles?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionProfiles[] | cdktf.IResolvable;
   /**
   * Provider is used to add infrastructure provider-specific configurations to the Agent sidecar. Currently only 'fargate' is supported. To use the feature in other environments (including local testing) omit the config. See also: https://docs.datadoghq.com/integrations/eks_fargate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#provider DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#provider DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * Registry overrides the default registry for the sidecar Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
   * Selectors define the pod selector for sidecar injection. Only one rule is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#selectors DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#selectors DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjectionSelectors[] | cdktf.IResolvable;
 }
@@ -3074,13 +3074,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * Enable the CWS Instrumentation admission controller endpoint. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Mode defines the behavior of the CWS Instrumentation endpoint, and can be either 'init_container' or 'remote_copy'. Default: 'remote_copy'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -3205,55 +3205,55 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmi
   /**
   * AgentCommunicationMode corresponds to the mode used by the Datadog application libraries to communicate with the Agent. It can be 'hostip', 'service', or 'socket'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_communication_mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_communication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_communication_mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_communication_mode}
   */
   readonly agentCommunicationMode?: string;
   /**
   * AgentSidecarInjection contains Agent sidecar injection configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_sidecar_injection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_sidecar_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_sidecar_injection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_sidecar_injection}
   */
   readonly agentSidecarInjection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerAgentSidecarInjection;
   /**
   * CWSInstrumentation holds the CWS Instrumentation endpoint configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cws_instrumentation DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cws_instrumentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cws_instrumentation DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cws_instrumentation}
   */
   readonly cwsInstrumentation?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionControllerCwsInstrumentation;
   /**
   * Enabled enables the Admission Controller. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FailurePolicy determines how unrecognized and timeout errors are handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#failure_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#failure_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#failure_policy}
   */
   readonly failurePolicy?: string;
   /**
   * MutateUnlabelled enables config injection without the need of pod label 'admission.datadoghq.com/enabled='true''. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mutate_unlabelled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mutate_unlabelled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mutate_unlabelled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mutate_unlabelled}
   */
   readonly mutateUnlabelled?: boolean | cdktf.IResolvable;
   /**
   * Registry defines an image registry for the admission controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
   * ServiceName corresponds to the webhook service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
   * WebhookName is a custom name for the MutatingWebhookConfiguration. Default: 'datadog-webhook'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#webhook_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#webhook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#webhook_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#webhook_name}
   */
   readonly webhookName?: string;
 }
@@ -3581,13 +3581,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmH
   /**
   * Enabled enables host port configuration Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Port takes a port number (0 < x < 65536) to expose on the host. (Most containers do not need this.) If HostNetwork is enabled, this value must match the ContainerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
 }
@@ -3712,7 +3712,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmI
   /**
   * Enabled enables Language Detection to automatically detect languages of user workloads (beta). Requires SingleStepInstrumentation.Enabled to be true. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3808,31 +3808,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmI
   /**
   * DisabledNamespaces disables injecting the Datadog APM libraries into pods in specific namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#disabled_namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#disabled_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#disabled_namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#disabled_namespaces}
   */
   readonly disabledNamespaces?: string[];
   /**
   * Enabled enables injecting the Datadog APM libraries into all pods in the cluster. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * EnabledNamespaces enables injecting the Datadog APM libraries into pods in specific namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled_namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled_namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled_namespaces}
   */
   readonly enabledNamespaces?: string[];
   /**
   * LanguageDetection detects languages and adds them as annotations on Deployments, but does not use these languages for injecting libraries to workload pods. (Requires Agent 7.52.0+ and Cluster Agent 7.52.0+)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#language_detection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#language_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#language_detection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#language_detection}
   */
   readonly languageDetection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmInstrumentationLanguageDetection;
   /**
   * LibVersions configures injection of specific tracing library versions with Single Step Instrumentation. <Library>: <Version> ex: 'java': 'v1.18.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#lib_versions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#lib_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#lib_versions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#lib_versions}
   */
   readonly libVersions?: { [key: string]: string };
 }
@@ -4044,13 +4044,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmU
   /**
   * Enabled enables Unix Domain Socket. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path defines the socket path used when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -4175,25 +4175,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApm 
   /**
   * Enabled enables Application Performance Monitoring. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * HostPortConfig contains host port configuration. Enabled Default: false Port Default: 8126
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port_config}
   */
   readonly hostPortConfig?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmHostPortConfig;
   /**
   * SingleStepInstrumentation allows the agent to inject the Datadog APM libraries into all pods in the cluster. Feature is in beta. See also: https://docs.datadoghq.com/tracing/trace_collection/single-step-apm Enabled Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#instrumentation DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#instrumentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#instrumentation DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#instrumentation}
   */
   readonly instrumentation?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmInstrumentation;
   /**
   * UnixDomainSocketConfig contains socket configuration. See also: https://docs.datadoghq.com/agent/kubernetes/apm/?tab=helm#agent-environment-variables Enabled Default: true Path Default: '/var/run/datadog/apm.socket'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unix_domain_socket_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unix_domain_socket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unix_domain_socket_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unix_domain_socket_config}
   */
   readonly unixDomainSocketConfig?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApmUnixDomainSocketConfig;
 }
@@ -4376,7 +4376,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmI
   /**
   * Enabled enables Interactive Application Security Testing (IAST). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4472,7 +4472,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmS
   /**
   * Enabled enables Software Composition Analysis (SCA). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4568,7 +4568,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmT
   /**
   * Enabled enables ASM App & API Protection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4664,19 +4664,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsm 
   /**
   * IAST configures Interactive Application Security Testing. Enabled Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#iast DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#iast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#iast DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#iast}
   */
   readonly iast?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmIast;
   /**
   * SCA configures Software Composition Analysis. Enabled Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#sca DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#sca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#sca DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#sca}
   */
   readonly sca?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmSca;
   /**
   * Threats configures ASM App & API Protection. Enabled Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#threats DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#threats DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#threats}
   */
   readonly threats?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsmThreats;
 }
@@ -4830,7 +4830,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAuto
   /**
   * Enabled enables the workload autoscaling product. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4926,7 +4926,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAuto
   /**
   * Workload contains the configuration for the workload autoscaling product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#workload DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#workload DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#workload}
   */
   readonly workload?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAutoscalingWorkload;
 }
@@ -5022,13 +5022,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesClus
   /**
   * Enables Cluster Checks scheduling in the Cluster Agent. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enabled enables Cluster Checks Runners to run all Cluster Checks. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_cluster_checks_runners DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_cluster_checks_runners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_cluster_checks_runners DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_cluster_checks_runners}
   */
   readonly useClusterChecksRunners?: boolean | cdktf.IResolvable;
 }
@@ -5153,19 +5153,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -5335,13 +5335,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspmCustomBenchmarksConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5466,13 +5466,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspmCustomBenchmarksConfigMap;
 }
@@ -5597,7 +5597,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm
   /**
   * Enabled enables host benchmarks. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -5693,25 +5693,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm
   /**
   * CheckInterval defines the check interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#check_interval DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#check_interval DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#check_interval}
   */
   readonly checkInterval?: string;
   /**
   * CustomBenchmarks contains CSPM benchmarks. The content of the ConfigMap will be merged with the benchmarks bundled with the agent. Any benchmarks with the same name as those existing in the agent will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_benchmarks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_benchmarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_benchmarks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_benchmarks}
   */
   readonly customBenchmarks?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspmCustomBenchmarks;
   /**
   * Enabled enables Cloud Security Posture Management. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * HostBenchmarks contains configuration for host benchmarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_benchmarks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_benchmarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_benchmarks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_benchmarks}
   */
   readonly hostBenchmarks?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspmHostBenchmarks;
 }
@@ -5894,19 +5894,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsC
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -6076,13 +6076,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsC
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsCustomPoliciesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6207,13 +6207,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsC
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsCustomPoliciesConfigMap;
 }
@@ -6338,7 +6338,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsN
   /**
   * Enabled enables Cloud Workload Security Network detections. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6434,7 +6434,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsR
   /**
   * Enabled enables Remote Configuration for Cloud Workload Security. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6530,7 +6530,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsS
   /**
   * Enabled enables Security Profiles collection for Cloud Workload Security. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6626,31 +6626,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCws 
   /**
   * CustomPolicies contains security policies. The content of the ConfigMap will be merged with the policies bundled with the agent. Any policies with the same name as those existing in the agent will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_policies DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_policies DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_policies}
   */
   readonly customPolicies?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsCustomPolicies;
   /**
   * Enabled enables Cloud Workload Security. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#network DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#network DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#network}
   */
   readonly network?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#remote_configuration DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#remote_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#remote_configuration DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#remote_configuration}
   */
   readonly remoteConfiguration?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsRemoteConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#security_profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#security_profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#security_profiles}
   */
   readonly securityProfiles?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCwsSecurityProfiles;
   /**
   * SyscallMonitorEnabled enables Syscall Monitoring (recommended for troubleshooting only). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#syscall_monitor_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#syscall_monitor_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#syscall_monitor_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#syscall_monitor_enabled}
   */
   readonly syscallMonitorEnabled?: boolean | cdktf.IResolvable;
 }
@@ -6891,13 +6891,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * Enabled enables host port configuration Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Port takes a port number (0 < x < 65536) to expose on the host. (Most containers do not need this.) If HostNetwork is enabled, this value must match the ContainerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
 }
@@ -7022,19 +7022,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -7204,13 +7204,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsdMapperProfilesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7335,13 +7335,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsdMapperProfilesConfigMap;
 }
@@ -7466,13 +7466,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * Enabled enables Unix Domain Socket. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path defines the socket path used when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -7597,31 +7597,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogs
   /**
   * HostPortConfig contains host port configuration. Enabled Default: false Port Default: 8125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_port_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_port_config}
   */
   readonly hostPortConfig?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsdHostPortConfig;
   /**
   * Configure the Dogstasd Mapper Profiles. Can be passed as raw data or via a json encoded string in a config map. See also: https://docs.datadoghq.com/developers/dogstatsd/dogstatsd_mapper/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mapper_profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mapper_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mapper_profiles DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mapper_profiles}
   */
   readonly mapperProfiles?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsdMapperProfiles;
   /**
   * OriginDetectionEnabled enables origin detection for container tagging. See also: https://docs.datadoghq.com/developers/dogstatsd/unix_socket/#using-origin-detection-for-container-tagging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#origin_detection_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#origin_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#origin_detection_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#origin_detection_enabled}
   */
   readonly originDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * TagCardinality configures tag cardinality for the metrics collected using origin detection ('low', 'orchestrator' or 'high'). See also: https://docs.datadoghq.com/getting_started/tagging/assigning_tags/?tab=containerizedenvironments#environment-variables Cardinality default: low
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag_cardinality DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag_cardinality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag_cardinality DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag_cardinality}
   */
   readonly tagCardinality?: string;
   /**
   * UnixDomainSocketConfig contains socket configuration. See also: https://docs.datadoghq.com/agent/kubernetes/apm/?tab=helm#agent-environment-variables Enabled Default: true Path Default: '/var/run/datadog/dsd.socket'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unix_domain_socket_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unix_domain_socket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unix_domain_socket_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unix_domain_socket_config}
   */
   readonly unixDomainSocketConfig?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsdUnixDomainSocketConfig;
 }
@@ -7833,7 +7833,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEbpf
   /**
   * Enables the eBPF check. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7929,13 +7929,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEven
   /**
   * Kind is the kind of event to collect. (ex: Pod, Node, CronJob)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kind DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kind DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Reasons is a list of event reasons to collect. (ex: Failed, BackOff, Unhealthy)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#reasons DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#reasons DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#reasons}
   */
   readonly reasons: string[];
 }
@@ -8076,19 +8076,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEven
   /**
   * CollectKubernetesEvents enables Kubernetes event collection. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_kubernetes_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_kubernetes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_kubernetes_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_kubernetes_events}
   */
   readonly collectKubernetesEvents?: boolean | cdktf.IResolvable;
   /**
   * CollectedEventTypes defines the list of events to collect when UnbundleEvents is enabled. Default: [ {'kind':'Pod','reasons':['Failed','BackOff','Unhealthy','FailedScheduling','FailedMount','FailedAttachVolume']}, {'kind':'Node','reasons':['TerminatingEvictedPod','NodeNotReady','Rebooted','HostPortConflict']}, {'kind':'CronJob','reasons':['SawCompletedJob']} ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collected_event_types DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collected_event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collected_event_types DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collected_event_types}
   */
   readonly collectedEventTypes?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEventCollectionCollectedEventTypes[] | cdktf.IResolvable;
   /**
   * UnbundleEvents enables collection of Kubernetes events as individual events. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unbundle_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unbundle_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#unbundle_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#unbundle_events}
   */
   readonly unbundleEvents?: boolean | cdktf.IResolvable;
 }
@@ -8242,13 +8242,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExte
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -8370,13 +8370,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExte
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -8498,25 +8498,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExte
   /**
   * APIKey configures your Datadog API key. See also: https://app.datadoghq.com/account/settings#agent/kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
   */
   readonly apiKey?: string;
   /**
   * APISecret references an existing Secret which stores the API key instead of creating a new one. If set, this parameter takes precedence over 'APIKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
   */
   readonly apiSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExternalMetricsServerEndpointCredentialsApiSecret;
   /**
   * AppKey configures your Datadog application key. If you are using features.externalMetricsServer.enabled = true, you must set a Datadog application key for read access to your metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
   */
   readonly appKey?: string;
   /**
   * AppSecret references an existing Secret which stores the application key instead of creating a new one. If set, this parameter takes precedence over 'AppKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
   */
   readonly appSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExternalMetricsServerEndpointCredentialsAppSecret;
 }
@@ -8699,13 +8699,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExte
   /**
   * Credentials defines the Datadog credentials used to submit data to/query data from Datadog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExternalMetricsServerEndpointCredentials;
   /**
   * URL defines the endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -8830,37 +8830,37 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExte
   /**
   * Enabled enables the External Metrics Server. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Override the API endpoint for the External Metrics Server. URL Default: 'https://app.datadoghq.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
   */
   readonly endpoint?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExternalMetricsServerEndpoint;
   /**
   * Port specifies the metricsProvider External Metrics Server service port. Default: 8443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RegisterAPIService registers the External Metrics endpoint as an APIService Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#register_api_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#register_api_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#register_api_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#register_api_service}
   */
   readonly registerApiService?: boolean | cdktf.IResolvable;
   /**
   * UseDatadogMetrics enables usage of the DatadogMetrics CRD (allowing one to scale on arbitrary Datadog metric queries). Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_datadog_metrics DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_datadog_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_datadog_metrics DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_datadog_metrics}
   */
   readonly useDatadogMetrics?: boolean | cdktf.IResolvable;
   /**
   * WPAController enables the informer and controller of the Watermark Pod Autoscaler. NOTE: The Watermark Pod Autoscaler controller needs to be installed. See also: https://github.com/DataDog/watermarkpodautoscaler. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#wpa_controller DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#wpa_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#wpa_controller DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#wpa_controller}
   */
   readonly wpaController?: boolean | cdktf.IResolvable;
 }
@@ -9101,19 +9101,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesHelm
   /**
   * CollectEvents set to 'true' enables event collection in the Helm check (Requires Agent 7.36.0+ and Cluster Agent 1.20.0+) Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_events DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_events}
   */
   readonly collectEvents?: boolean | cdktf.IResolvable;
   /**
   * Enabled enables the Helm check. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ValuesAsTags collects Helm values from a release and uses them as tags (Requires Agent and Cluster Agent 7.40.0+). Default: {}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values_as_tags}
   */
   readonly valuesAsTags?: { [key: string]: string };
 }
@@ -9267,19 +9267,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKube
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -9449,13 +9449,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKube
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKubeStateMetricsCoreConfConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9580,13 +9580,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKube
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKubeStateMetricsCoreConfConfigMap;
 }
@@ -9711,13 +9711,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKube
   /**
   * Conf overrides the configuration for the default Kubernetes State Metrics Core check. This must point to a ConfigMap containing a valid cluster check configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#conf DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#conf DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#conf}
   */
   readonly conf?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKubeStateMetricsCoreConf;
   /**
   * Enabled enables Kube State Metrics Core. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9842,7 +9842,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLive
   /**
   * Enables container collection for the Live Container View. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9938,19 +9938,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLive
   /**
   * Enabled enables Process monitoring. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ScrubProcessArguments enables scrubbing of sensitive data in process command-lines (passwords, tokens, etc. ). Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scrub_process_arguments DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scrub_process_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scrub_process_arguments DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scrub_process_arguments}
   */
   readonly scrubProcessArguments?: boolean | cdktf.IResolvable;
   /**
   * StripProcessArguments enables stripping of all process arguments. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#strip_process_arguments DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#strip_process_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#strip_process_arguments DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#strip_process_arguments}
   */
   readonly stripProcessArguments?: boolean | cdktf.IResolvable;
 }
@@ -10104,49 +10104,49 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLogC
   /**
   * ContainerCollectAll enables Log collection from all containers. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_collect_all DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_collect_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_collect_all DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_collect_all}
   */
   readonly containerCollectAll?: boolean | cdktf.IResolvable;
   /**
   * ContainerCollectUsingFiles enables log collection from files in '/var/log/pods instead' of using the container runtime API. Collecting logs from files is usually the most efficient way of collecting logs. See also: https://docs.datadoghq.com/agent/basic_agent_usage/kubernetes/#log-collection-setup Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_collect_using_files DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_collect_using_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_collect_using_files DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_collect_using_files}
   */
   readonly containerCollectUsingFiles?: boolean | cdktf.IResolvable;
   /**
   * ContainerLogsPath allows log collection from the container log path. Set to a different path if you are not using the Docker runtime. See also: https://docs.datadoghq.com/agent/kubernetes/daemonset_setup/?tab=k8sfile#create-manifest Default: '/var/lib/docker/containers'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_logs_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_logs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_logs_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_logs_path}
   */
   readonly containerLogsPath?: string;
   /**
   * ContainerSymlinksPath allows log collection to use symbolic links in this directory to validate container ID -> pod. Default: '/var/log/containers'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_symlinks_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_symlinks_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_symlinks_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_symlinks_path}
   */
   readonly containerSymlinksPath?: string;
   /**
   * Enabled enables Log collection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * OpenFilesLimit sets the maximum number of log files that the Datadog Agent tails. Increasing this limit can increase resource consumption of the Agent. See also: https://docs.datadoghq.com/agent/basic_agent_usage/kubernetes/#log-collection-setup Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#open_files_limit DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#open_files_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#open_files_limit DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#open_files_limit}
   */
   readonly openFilesLimit?: number;
   /**
   * PodLogsPath allows log collection from a pod log path. Default: '/var/log/pods'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_logs_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_logs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_logs_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_logs_path}
   */
   readonly podLogsPath?: string;
   /**
   * TempStoragePath (always mounted from the host) is used by the Agent to store information about processed log files. If the Agent is restarted, it starts tailing the log files immediately. Default: '/var/lib/datadog-agent/logs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#temp_storage_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#temp_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#temp_storage_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#temp_storage_path}
   */
   readonly tempStoragePath?: string;
 }
@@ -10445,19 +10445,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesNpm 
   /**
   * CollectDNSStats enables DNS stat collection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_dns_stats DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_dns_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#collect_dns_stats DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#collect_dns_stats}
   */
   readonly collectDnsStats?: boolean | cdktf.IResolvable;
   /**
   * EnableConntrack enables the system-probe agent to connect to the netlink/conntrack subsystem to add NAT information to connection data. See also: http://conntrack-tools.netfilter.org/ Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enable_conntrack DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enable_conntrack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enable_conntrack DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enable_conntrack}
   */
   readonly enableConntrack?: boolean | cdktf.IResolvable;
   /**
   * Enabled enables Network Performance Monitoring. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -10611,7 +10611,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOomK
   /**
   * Enables the OOMKill eBPF-based check. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -10707,19 +10707,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrch
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -10889,13 +10889,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrch
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrchestratorExplorerConfConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -11020,13 +11020,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrch
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrchestratorExplorerConfConfigMap;
 }
@@ -11151,37 +11151,37 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrch
   /**
   * Conf overrides the configuration for the default Orchestrator Explorer check. This must point to a ConfigMap containing a valid cluster check configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#conf DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#conf DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#conf}
   */
   readonly conf?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrchestratorExplorerConf;
   /**
   * 'CustomResources' defines custom resources for the orchestrator explorer to collect. Each item should follow the convention 'group/version/kind'. For example, 'datadoghq.com/v1alpha1/datadogmetrics'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_resources}
   */
   readonly customResources?: string[];
   /**
   * Override the API endpoint for the Orchestrator Explorer. URL Default: 'https://orchestrator.datadoghq.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dd_url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dd_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dd_url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dd_url}
   */
   readonly ddUrl?: string;
   /**
   * Enabled enables the Orchestrator Explorer. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Additional tags to associate with the collected data in the form of 'a b c'. This is a Cluster Agent option distinct from DD_TAGS that is used in the Orchestrator Explorer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#extra_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#extra_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#extra_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#extra_tags}
   */
   readonly extraTags?: string[];
   /**
   * ScrubContainers enables scrubbing of sensitive container data (passwords, tokens, etc. ). Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scrub_containers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scrub_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scrub_containers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scrub_containers}
   */
   readonly scrubContainers?: boolean | cdktf.IResolvable;
 }
@@ -11422,13 +11422,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp
   /**
   * Enable the OTLP/gRPC endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Endpoint for OTLP/gRPC. gRPC supports several naming schemes: https://github.com/grpc/grpc/blob/master/doc/naming.md The Datadog Operator supports only 'host:port' (usually '0.0.0.0:port'). Default: '0.0.0.0:4317'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -11553,13 +11553,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp
   /**
   * Enable the OTLP/HTTP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Endpoint for OTLP/HTTP. Default: '0.0.0.0:4318'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -11684,13 +11684,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp
   /**
   * GRPC contains configuration for the OTLP ingest OTLP/gRPC receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#grpc DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#grpc DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlpReceiverProtocolsGrpc;
   /**
   * HTTP contains configuration for the OTLP ingest OTLP/HTTP receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http}
   */
   readonly http?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlpReceiverProtocolsHttp;
 }
@@ -11815,7 +11815,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp
   /**
   * Protocols contains configuration for the OTLP ingest receiver protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#protocols DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#protocols DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#protocols}
   */
   readonly protocols?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlpReceiverProtocols;
 }
@@ -11911,7 +11911,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp
   /**
   * Receiver contains configuration for the OTLP ingest receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#receiver DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#receiver DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#receiver}
   */
   readonly receiver?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlpReceiver;
 }
@@ -12007,7 +12007,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesProc
   /**
   * Enabled enables the Process Discovery check in the Agent. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12103,25 +12103,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesProm
   /**
   * AdditionalConfigs allows adding advanced Prometheus check configurations with custom discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#additional_configs DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#additional_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#additional_configs DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#additional_configs}
   */
   readonly additionalConfigs?: string;
   /**
   * EnableServiceEndpoints enables generating dedicated checks for service endpoints. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enable_service_endpoints DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enable_service_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enable_service_endpoints DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enable_service_endpoints}
   */
   readonly enableServiceEndpoints?: boolean | cdktf.IResolvable;
   /**
   * Enable autodiscovery of pods and services exposing Prometheus metrics. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Version specifies the version of the OpenMetrics check. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#version}
   */
   readonly version?: number;
 }
@@ -12304,7 +12304,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesRemo
   /**
   * Enable this option to activate Remote Configuration. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12400,25 +12400,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbom
   /**
   * Analyzers to use for SBOM collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#analyzers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#analyzers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#analyzers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#analyzers}
   */
   readonly analyzers?: string[];
   /**
   * Enable this option to activate SBOM collection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable this option to enable experimental overlayFS direct scan. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#overlay_fs_direct_scan DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#overlay_fs_direct_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#overlay_fs_direct_scan DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#overlay_fs_direct_scan}
   */
   readonly overlayFsDirectScan?: boolean | cdktf.IResolvable;
   /**
   * Enable this option to enable support for uncompressed layers. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#uncompressed_layers_support DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#uncompressed_layers_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#uncompressed_layers_support DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#uncompressed_layers_support}
   */
   readonly uncompressedLayersSupport?: boolean | cdktf.IResolvable;
 }
@@ -12601,13 +12601,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbom
   /**
   * Analyzers to use for SBOM collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#analyzers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#analyzers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#analyzers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#analyzers}
   */
   readonly analyzers?: string[];
   /**
   * Enable this option to activate SBOM collection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12732,19 +12732,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbom
   /**
   * SBOMTypeConfig contains configuration for a SBOM collection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_image}
   */
   readonly containerImage?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbomContainerImage;
   /**
   * Enable this option to activate SBOM collection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * SBOMTypeConfig contains configuration for a SBOM collection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
   */
   readonly host?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbomHost;
 }
@@ -12898,7 +12898,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesTcpQ
   /**
   * Enables the TCP queue length eBPF-based check. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12994,7 +12994,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesUsm 
   /**
   * Enabled enables Universal Service Monitoring. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -13090,157 +13090,157 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeatures {
   /**
   * AdmissionController configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#admission_controller DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#admission_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#admission_controller DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#admission_controller}
   */
   readonly admissionController?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAdmissionController;
   /**
   * APM (Application Performance Monitoring) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#apm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#apm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#apm}
   */
   readonly apm?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesApm;
   /**
   * ASM (Application Security Management) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#asm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#asm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#asm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#asm}
   */
   readonly asm?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAsm;
   /**
   * Autoscaling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#autoscaling DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#autoscaling DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#autoscaling}
   */
   readonly autoscaling?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesAutoscaling;
   /**
   * ClusterChecks configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_checks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_checks DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_checks}
   */
   readonly clusterChecks?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesClusterChecks;
   /**
   * CSPM (Cloud Security Posture Management) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cspm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cspm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cspm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cspm}
   */
   readonly cspm?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCspm;
   /**
   * CWS (Cloud Workload Security) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cws DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cws DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cws}
   */
   readonly cws?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesCws;
   /**
   * Dogstatsd configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dogstatsd DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dogstatsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dogstatsd DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dogstatsd}
   */
   readonly dogstatsd?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesDogstatsd;
   /**
   * EBPFCheck configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#ebpf_check DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#ebpf_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#ebpf_check DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#ebpf_check}
   */
   readonly ebpfCheck?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEbpfCheck;
   /**
   * EventCollection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#event_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#event_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#event_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#event_collection}
   */
   readonly eventCollection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesEventCollection;
   /**
   * ExternalMetricsServer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#external_metrics_server DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#external_metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#external_metrics_server DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#external_metrics_server}
   */
   readonly externalMetricsServer?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesExternalMetricsServer;
   /**
   * HelmCheck configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#helm_check DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#helm_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#helm_check DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#helm_check}
   */
   readonly helmCheck?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesHelmCheck;
   /**
   * KubeStateMetricsCore check configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kube_state_metrics_core DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kube_state_metrics_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kube_state_metrics_core DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kube_state_metrics_core}
   */
   readonly kubeStateMetricsCore?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesKubeStateMetricsCore;
   /**
   * LiveContainerCollection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#live_container_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#live_container_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#live_container_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#live_container_collection}
   */
   readonly liveContainerCollection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLiveContainerCollection;
   /**
   * LiveProcessCollection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#live_process_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#live_process_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#live_process_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#live_process_collection}
   */
   readonly liveProcessCollection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLiveProcessCollection;
   /**
   * LogCollection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#log_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#log_collection DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#log_collection}
   */
   readonly logCollection?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesLogCollection;
   /**
   * NPM (Network Performance Monitoring) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#npm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#npm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#npm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#npm}
   */
   readonly npm?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesNpm;
   /**
   * OOMKill configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#oom_kill DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#oom_kill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#oom_kill DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#oom_kill}
   */
   readonly oomKill?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOomKill;
   /**
   * OrchestratorExplorer check configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#orchestrator_explorer DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#orchestrator_explorer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#orchestrator_explorer DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#orchestrator_explorer}
   */
   readonly orchestratorExplorer?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOrchestratorExplorer;
   /**
   * OTLP ingest configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#otlp DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#otlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#otlp DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#otlp}
   */
   readonly otlp?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesOtlp;
   /**
   * ProcessDiscovery configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#process_discovery DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#process_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#process_discovery DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#process_discovery}
   */
   readonly processDiscovery?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesProcessDiscovery;
   /**
   * PrometheusScrape configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#prometheus_scrape DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#prometheus_scrape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#prometheus_scrape DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#prometheus_scrape}
   */
   readonly prometheusScrape?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesPrometheusScrape;
   /**
   * Remote Configuration configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#remote_configuration DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#remote_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#remote_configuration DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#remote_configuration}
   */
   readonly remoteConfiguration?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesRemoteConfiguration;
   /**
   * SBOM collection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#sbom DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#sbom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#sbom DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#sbom}
   */
   readonly sbom?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesSbom;
   /**
   * TCPQueueLength configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tcp_queue_length DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tcp_queue_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tcp_queue_length DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tcp_queue_length}
   */
   readonly tcpQueueLength?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesTcpQueueLength;
   /**
   * USM (Universal Service Monitoring) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#usm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#usm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#usm DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#usm}
   */
   readonly usm?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecFeaturesUsm;
 }
@@ -14061,13 +14061,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCluste
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -14189,13 +14189,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCreden
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -14317,13 +14317,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCreden
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -14445,25 +14445,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCreden
   /**
   * APIKey configures your Datadog API key. See also: https://app.datadoghq.com/account/settings#agent/kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
   */
   readonly apiKey?: string;
   /**
   * APISecret references an existing Secret which stores the API key instead of creating a new one. If set, this parameter takes precedence over 'APIKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
   */
   readonly apiSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCredentialsApiSecret;
   /**
   * AppKey configures your Datadog application key. If you are using features.externalMetricsServer.enabled = true, you must set a Datadog application key for read access to your metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
   */
   readonly appKey?: string;
   /**
   * AppSecret references an existing Secret which stores the application key instead of creating a new one. If set, this parameter takes precedence over 'AppKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
   */
   readonly appSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCredentialsAppSecret;
 }
@@ -14646,13 +14646,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpoi
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -14774,13 +14774,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpoi
   /**
   * KeyName is the key of the secret to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -14902,25 +14902,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpoi
   /**
   * APIKey configures your Datadog API key. See also: https://app.datadoghq.com/account/settings#agent/kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_key}
   */
   readonly apiKey?: string;
   /**
   * APISecret references an existing Secret which stores the API key instead of creating a new one. If set, this parameter takes precedence over 'APIKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_secret}
   */
   readonly apiSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpointCredentialsApiSecret;
   /**
   * AppKey configures your Datadog application key. If you are using features.externalMetricsServer.enabled = true, you must set a Datadog application key for read access to your metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_key}
   */
   readonly appKey?: string;
   /**
   * AppSecret references an existing Secret which stores the application key instead of creating a new one. If set, this parameter takes precedence over 'AppKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#app_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#app_secret}
   */
   readonly appSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpointCredentialsAppSecret;
 }
@@ -15103,13 +15103,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpoi
   /**
   * Credentials defines the Datadog credentials used to submit data to/query data from Datadog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpointCredentials;
   /**
   * URL defines the endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#url DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -15234,19 +15234,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCu
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#mode DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -15416,13 +15416,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCu
   /**
   * Items maps a ConfigMap data 'key' to a file 'path' mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#items DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#items}
   */
   readonly items?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCustomFipsConfigConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name is the name of the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15547,13 +15547,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCu
   /**
   * ConfigData corresponds to the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_data DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_data}
   */
   readonly configData?: string;
   /**
   * ConfigMap references an existing ConfigMap with the configuration file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCustomFipsConfigConfigMap;
 }
@@ -15678,7 +15678,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsIm
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15796,31 +15796,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsIm
   /**
   * Define whether the Agent image should support JMX. To be used if the Name field does not correspond to a full image string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#jmx_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#jmx_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#jmx_enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#jmx_enabled}
   */
   readonly jmxEnabled?: boolean | cdktf.IResolvable;
   /**
   * Define the image to use: Use 'gcr.io/datadoghq/agent:latest' for Datadog Agent 7. Use 'datadog/dogstatsd:latest' for standalone Datadog Agent DogStatsD 7. Use 'gcr.io/datadoghq/cluster-agent:latest' for Datadog Cluster Agent. Use 'agent' with the registry and tag configurations for <registry>/agent:<tag>. Use 'cluster-agent' with the registry and tag configurations for <registry>/cluster-agent:<tag>. If the name is the full image string—'<name>:<tag>' or '<registry>/<name>:<tag>', then 'tag', 'jmxEnabled', and 'global.registry' values are ignored. Otherwise, image string is created by overriding default settings with supplied 'name', 'tag', and 'jmxEnabled' values; image string is created using default registry unless 'global.registry' is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes pull policy: Use Always, Never, or IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * It is possible to specify Docker registry credentials. See https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_secrets DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pull_secrets DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Define the image tag to use. To be used if the Name field does not correspond to a full image string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tag DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -16032,7 +16032,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsRe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -16147,19 +16147,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsRe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#claims DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#claims DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#limits DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#limits DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#requests DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#requests DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16313,49 +16313,49 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFips {
   /**
   * CustomFIPSConfig configures a custom configMap to provide the FIPS configuration. Specify custom contents for the FIPS proxy sidecar container config (/etc/datadog-fips-proxy/datadog-fips-proxy.cfg). If empty, the default FIPS proxy sidecar container config is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_fips_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_fips_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#custom_fips_config DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#custom_fips_config}
   */
   readonly customFipsConfig?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsCustomFipsConfig;
   /**
   * Enable FIPS sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The container image of the FIPS sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#image DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#image}
   */
   readonly image?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsImage;
   /**
   * Set the local IP address. Default: '127.0.0.1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#local_address DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#local_address DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#local_address}
   */
   readonly localAddress?: string;
   /**
   * Port specifies which port is used by the containers to communicate to the FIPS sidecar. Default: 9803
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * PortRange specifies the number of ports used. Default: 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port_range DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port_range DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port_range}
   */
   readonly portRange?: number;
   /**
   * Resources is the requests and limits for the FIPS sidecar container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resources DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFipsResources;
   /**
   * UseHTTPS enables HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_https DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#use_https DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#use_https}
   */
   readonly useHttps?: boolean | cdktf.IResolvable;
 }
@@ -16654,19 +16654,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16817,13 +16817,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16945,19 +16945,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -17108,19 +17108,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17271,25 +17271,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubeletHostConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubeletHostFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubeletHostResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubeletHostSecretKeyRef;
 }
@@ -17472,25 +17472,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubele
   /**
   * AgentCAPath is the container path where the kubelet CA certificate is stored. Default: '/var/run/host-kubelet-ca.crt' if hostCAPath is set, else '/var/run/secrets/kubernetes.io/serviceaccount/ca.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_ca_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#agent_ca_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#agent_ca_path}
   */
   readonly agentCaPath?: string;
   /**
   * Host overrides the host used to contact kubelet API (default to status.hostIP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
   */
   readonly host?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubeletHost;
   /**
   * HostCAPath is the host path where the kubelet CA certificate is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_ca_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host_ca_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host_ca_path}
   */
   readonly hostCaPath?: string;
   /**
   * TLSVerify toggles kubelet TLS verification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tls_verify DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tls_verify DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tls_verify}
   */
   readonly tlsVerify?: boolean | cdktf.IResolvable;
 }
@@ -17673,13 +17673,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalLocalS
   /**
   * ForceEnableLocalService forces the creation of the internal traffic policy service to target the agent running on the local node. This parameter only applies to Kubernetes 1.21, where the feature is in alpha and is disabled by default. (On Kubernetes 1.22+, the feature entered beta and the internal traffic service is created by default, so this parameter is ignored.) Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#force_enable_local_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#force_enable_local_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#force_enable_local_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#force_enable_local_service}
   */
   readonly forceEnableLocalService?: boolean | cdktf.IResolvable;
   /**
   * NameOverride defines the name of the internal traffic service to target the agent running on the local node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name_override DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name_override DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name_override}
   */
   readonly nameOverride?: string;
 }
@@ -17804,19 +17804,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetwor
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17986,13 +17986,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetwor
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetworkPolicyDnsSelectorEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18139,19 +18139,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetwor
   /**
   * Create defines whether to create a NetworkPolicy for the current deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#create DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#create DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * DNSSelectorEndpoints defines the cilium selector of the DNS server entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dns_selector_endpoints DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dns_selector_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#dns_selector_endpoints DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#dns_selector_endpoints}
   */
   readonly dnsSelectorEndpoints?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetworkPolicyDnsSelectorEndpoints[] | cdktf.IResolvable;
   /**
   * Flavor defines Which network policy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#flavor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#flavor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#flavor}
   */
   readonly flavor?: string;
 }
@@ -18305,7 +18305,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalOrigin
   /**
   * Enabled enables unified mechanism for origin detection. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#enabled DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -18401,139 +18401,139 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobal {
   /**
   * ClusterAgentToken is the token for communication between the NodeAgent and ClusterAgent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_token DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_token DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_token}
   */
   readonly clusterAgentToken?: string;
   /**
   * ClusterAgentTokenSecret is the secret containing the Cluster Agent token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_token_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_agent_token_secret DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_agent_token_secret}
   */
   readonly clusterAgentTokenSecret?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalClusterAgentTokenSecret;
   /**
   * ClusterName sets a unique cluster name for the deployment to easily scope monitoring data in the Datadog app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cluster_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * ContainerStrategy determines whether agents run in a single or multiple containers. Default: 'optimized'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_strategy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_strategy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_strategy}
   */
   readonly containerStrategy?: string;
   /**
   * Credentials defines the Datadog credentials used to submit data to/query data from Datadog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#credentials DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalCredentials;
   /**
   * Path to the container runtime socket (if different from Docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cri_socket_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cri_socket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#cri_socket_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#cri_socket_path}
   */
   readonly criSocketPath?: string;
   /**
   * Set DisableNonResourceRules to exclude NonResourceURLs from default ClusterRoles. Required 'true' for Google Cloud Marketplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#disable_non_resource_rules DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#disable_non_resource_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#disable_non_resource_rules DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#disable_non_resource_rules}
   */
   readonly disableNonResourceRules?: boolean | cdktf.IResolvable;
   /**
   * Path to the docker runtime socket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#docker_socket_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#docker_socket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#docker_socket_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#docker_socket_path}
   */
   readonly dockerSocketPath?: string;
   /**
   * Endpoint is the Datadog intake URL the Agent data are sent to. Only set this option if you need the Agent to send data to a custom URL. Overrides the site setting defined in 'Site'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#endpoint DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#endpoint}
   */
   readonly endpoint?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalEndpoint;
   /**
   * FIPS contains configuration used to customize the FIPS proxy sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#fips DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#fips DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#fips}
   */
   readonly fips?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalFips;
   /**
   * Kubelet contains the kubelet configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kubelet DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#kubelet DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#kubelet}
   */
   readonly kubelet?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalKubelet;
   /**
   * LocalService contains configuration to customize the internal traffic policy service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#local_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#local_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#local_service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#local_service}
   */
   readonly localService?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalLocalService;
   /**
   * LogLevel sets logging verbosity. This can be overridden by container. Valid log levels are: trace, debug, info, warn, error, critical, and off. Default: 'info'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#log_level DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#log_level DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Provide a mapping of Kubernetes Namespace Annotations to Datadog Tags. <KUBERNETES_LABEL>: <DATADOG_TAG_KEY>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_annotations_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_annotations_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_annotations_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_annotations_as_tags}
   */
   readonly namespaceAnnotationsAsTags?: { [key: string]: string };
   /**
   * Provide a mapping of Kubernetes Namespace Labels to Datadog Tags. <KUBERNETES_NAMESPACE_LABEL>: <DATADOG_TAG_KEY>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_labels_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_labels_as_tags}
   */
   readonly namespaceLabelsAsTags?: { [key: string]: string };
   /**
   * NetworkPolicy contains the network configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#network_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#network_policy DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#network_policy}
   */
   readonly networkPolicy?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalNetworkPolicy;
   /**
   * Provide a mapping of Kubernetes Node Labels to Datadog Tags. <KUBERNETES_NODE_LABEL>: <DATADOG_TAG_KEY>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_labels_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_labels_as_tags}
   */
   readonly nodeLabelsAsTags?: { [key: string]: string };
   /**
   * OriginDetectionUnified defines the origin detection unified mechanism behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#origin_detection_unified DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#origin_detection_unified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#origin_detection_unified DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#origin_detection_unified}
   */
   readonly originDetectionUnified?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecGlobalOriginDetectionUnified;
   /**
   * Provide a mapping of Kubernetes Annotations to Datadog Tags. <KUBERNETES_ANNOTATIONS>: <DATADOG_TAG_KEY>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_annotations_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_annotations_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_annotations_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_annotations_as_tags}
   */
   readonly podAnnotationsAsTags?: { [key: string]: string };
   /**
   * Provide a mapping of Kubernetes Labels to Datadog Tags. <KUBERNETES_LABEL>: <DATADOG_TAG_KEY>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_labels_as_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_labels_as_tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_labels_as_tags}
   */
   readonly podLabelsAsTags?: { [key: string]: string };
   /**
   * Registry is the image registry to use for all Agent images. Use 'public.ecr.aws/datadog' for AWS ECR. Use 'docker.io/datadog' for DockerHub. Default: 'gcr.io/datadoghq'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#registry DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
   * Site is the Datadog intake site Agent data are sent to. Set to 'datadoghq.com' to send data to the US1 site (default). Set to 'datadoghq.eu' to send data to the EU site. Set to 'us3.datadoghq.com' to send data to the US3 site. Set to 'us5.datadoghq.com' to send data to the US5 site. Set to 'ddog-gov.com' to send data to the US1-FED site. Set to 'ap1.datadoghq.com' to send data to the AP1 site. Default: 'datadoghq.com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#site DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#site DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#site}
   */
   readonly site?: string;
   /**
   * Tags contains a list of tags to attach to every metric, event and service check collected. Learn more about tagging: https://docs.datadoghq.com/tagging/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tags DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tags}
   */
   readonly tags?: string[];
 }
@@ -19267,19 +19267,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19449,19 +19449,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19631,13 +19631,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_fields DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_fields DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -19762,13 +19762,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preference DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preference DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preference}
   */
   readonly preference: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19909,19 +19909,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20091,19 +20091,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20273,13 +20273,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_fields DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_fields DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -20426,7 +20426,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_selector_terms DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_selector_terms DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -20519,13 +20519,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -20650,19 +20650,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20832,13 +20832,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20963,19 +20963,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21145,13 +21145,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21276,25 +21276,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21474,13 +21474,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity_term DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity_term DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -21621,19 +21621,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21803,13 +21803,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21934,19 +21934,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22116,13 +22116,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22247,25 +22247,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22467,13 +22467,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -22598,19 +22598,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22780,13 +22780,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22911,19 +22911,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23093,13 +23093,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23224,25 +23224,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23422,13 +23422,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity_term DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity_term DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#weight DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -23569,19 +23569,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23751,13 +23751,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23882,19 +23882,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#operator DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#values DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24064,13 +24064,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_expressions DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#match_labels DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24195,25 +24195,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#label_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespace_selector DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#namespaces DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#topology_key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -24415,13 +24415,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -24546,19 +24546,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffi
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#node_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_anti_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#pod_anti_affinity DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideAffinityPodAntiAffinity;
 }
@@ -24712,19 +24712,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24875,13 +24875,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#api_version DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -25003,19 +25003,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#container_name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#divisor DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -25166,19 +25166,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#key DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#optional DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25329,25 +25329,25 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#config_map_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#resource_field_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#secret_key_ref DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersEnvValueFromSecretKeyRef;
 }
@@ -25530,19 +25530,19 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value_from DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value_from DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersEnvValueFrom;
 }
@@ -25715,7 +25715,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#command DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#command DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25811,13 +25811,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25939,13 +25939,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#name DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#value DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26086,31 +26086,31 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http_headers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http_headers DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#path DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scheme DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#scheme DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -26319,13 +26319,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#host DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -26447,61 +26447,61 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#exec DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#exec DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#failure_threshold DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#failure_threshold DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#grpc DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#grpc DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http_get DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#http_get DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#initial_delay_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#initial_delay_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#period_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#period_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#success_threshold DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#success_threshold DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tcp_socket DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#tcp_socket DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#termination_grace_period_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#termination_grace_period_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#timeout_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#timeout_seconds DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26858,7 +26858,7 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#command DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#command DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26954,13 +26954,13 @@ export interface DataK8SDatadoghqComDatadogAgentV2Alpha1ManifestSpecOverrideCont
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#port DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/datadoghq_com_datadog_agent_v2alpha1_manifest#service DataK8SDatadoghqComDatadogAgentV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The grace period for deleting the subscription. If not set, will default to immediate deletion grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#customer_managed_key_deletion_grace_period Subscription#customer_managed_key_deletion_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#customer_managed_key_deletion_grace_period Subscription#customer_managed_key_deletion_grace_period}
   */
   readonly customerManagedKeyDeletionGracePeriod?: string;
   /**
   * Whether to enable CMK (customer managed key) for the subscription. If this is true, then the subscription will be put in a pending state until you supply the CMEK. See documentation for further details on this process. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#customer_managed_key_enabled Subscription#customer_managed_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#customer_managed_key_enabled Subscription#customer_managed_key_enabled}
   */
   readonly customerManagedKeyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#id Subscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#id Subscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface SubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Memory storage preference: either ‘ram’ or a combination of 'ram-and-flash’
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#memory_storage Subscription#memory_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#memory_storage Subscription#memory_storage}
   */
   readonly memoryStorage?: string;
   /**
   * A meaningful name to identify the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#name Subscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#name Subscription#name}
   */
   readonly name?: string;
   /**
   * Payment method for the requested subscription. If credit card is specified, the payment method id must be defined. This information is only used when creating a new subscription and any changes will be ignored after this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#payment_method Subscription#payment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#payment_method Subscription#payment_method}
   */
   readonly paymentMethod?: string;
   /**
   * A valid payment method pre-defined in the current account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#payment_method_id Subscription#payment_method_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#payment_method_id Subscription#payment_method_id}
   */
   readonly paymentMethodId?: string;
   /**
   * Whether databases in the subscription should have public endpoints. When set to false, databases will only have private endpoints. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#public_endpoint_access Subscription#public_endpoint_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#public_endpoint_access Subscription#public_endpoint_access}
   */
   readonly publicEndpointAccess?: boolean | cdktf.IResolvable;
   /**
   * Version of Redis to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#redis_version Subscription#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#redis_version Subscription#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * allowlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#allowlist Subscription#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#allowlist Subscription#allowlist}
   */
   readonly allowlist?: SubscriptionAllowlistStruct;
   /**
   * cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#cloud_provider Subscription#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#cloud_provider Subscription#cloud_provider}
   */
   readonly cloudProvider: SubscriptionCloudProvider;
   /**
   * creation_plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#creation_plan Subscription#creation_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#creation_plan Subscription#creation_plan}
   */
   readonly creationPlan?: SubscriptionCreationPlan;
   /**
   * customer_managed_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#customer_managed_key Subscription#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#customer_managed_key Subscription#customer_managed_key}
   */
   readonly customerManagedKey?: SubscriptionCustomerManagedKey[] | cdktf.IResolvable;
   /**
   * maintenance_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#maintenance_windows Subscription#maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#maintenance_windows Subscription#maintenance_windows}
   */
   readonly maintenanceWindows?: SubscriptionMaintenanceWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#timeouts Subscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#timeouts Subscription#timeouts}
   */
   readonly timeouts?: SubscriptionTimeouts;
 }
@@ -218,13 +218,13 @@ export interface SubscriptionAllowlistStruct {
   /**
   * Set of CIDR ranges that are allowed to access the databases associated with this subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#cidrs Subscription#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#cidrs Subscription#cidrs}
   */
   readonly cidrs?: string[];
   /**
   * Set of security groups that are allowed to access the databases associated with this subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#security_group_ids Subscription#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#security_group_ids Subscription#security_group_ids}
   */
   readonly securityGroupIds: string[];
 }
@@ -421,31 +421,31 @@ export interface SubscriptionCloudProviderRegion {
   /**
   * Support deployment on multiple availability zones within the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#multiple_availability_zones Subscription#multiple_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#multiple_availability_zones Subscription#multiple_availability_zones}
   */
   readonly multipleAvailabilityZones?: boolean | cdktf.IResolvable;
   /**
   * Deployment CIDR mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#networking_deployment_cidr Subscription#networking_deployment_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#networking_deployment_cidr Subscription#networking_deployment_cidr}
   */
   readonly networkingDeploymentCidr: string;
   /**
   * Either an existing VPC Id (already exists in the specific region) or create a new VPC (if no VPC is specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#networking_vpc_id Subscription#networking_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#networking_vpc_id Subscription#networking_vpc_id}
   */
   readonly networkingVpcId?: string;
   /**
   * List of availability zones used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#preferred_availability_zones Subscription#preferred_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#preferred_availability_zones Subscription#preferred_availability_zones}
   */
   readonly preferredAvailabilityZones?: string[];
   /**
   * Deployment region as defined by cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#region Subscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#region Subscription#region}
   */
   readonly region: string;
 }
@@ -679,19 +679,19 @@ export interface SubscriptionCloudProvider {
   /**
   * Cloud account identifier. Default: Redis Labs internal cloud account (using Cloud Account Id = 1 implies using Redis Labs internal cloud account). Note that a GCP subscription can be created only with Redis Labs internal cloud account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#cloud_account_id Subscription#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#cloud_account_id Subscription#cloud_account_id}
   */
   readonly cloudAccountId?: string;
   /**
   * The cloud provider to use with the subscription, (either `AWS` or `GCP`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#provider Subscription#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#provider Subscription#provider}
   */
   readonly provider?: string;
   /**
   * region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#region Subscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#region Subscription#region}
   */
   readonly region: SubscriptionCloudProviderRegion[] | cdktf.IResolvable;
 }
@@ -837,61 +837,61 @@ export interface SubscriptionCreationPlan {
   /**
   * Relevant only to ram-and-flash clusters. Estimated average size (measured in bytes) of the items stored in the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#average_item_size_in_bytes Subscription#average_item_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#average_item_size_in_bytes Subscription#average_item_size_in_bytes}
   */
   readonly averageItemSizeInBytes?: number;
   /**
   * Maximum amount of data in the dataset for this specific database in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#dataset_size_in_gb Subscription#dataset_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#dataset_size_in_gb Subscription#dataset_size_in_gb}
   */
   readonly datasetSizeInGb?: number;
   /**
   * (Deprecated) Maximum memory usage for each database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#memory_limit_in_gb Subscription#memory_limit_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#memory_limit_in_gb Subscription#memory_limit_in_gb}
   */
   readonly memoryLimitInGb?: number;
   /**
   * Modules that will be used by the databases in this subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#modules Subscription#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#modules Subscription#modules}
   */
   readonly modules?: string[];
   /**
   * The planned number of databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#quantity Subscription#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#quantity Subscription#quantity}
   */
   readonly quantity: number;
   /**
   * Query performance factor for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#query_performance_factor Subscription#query_performance_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#query_performance_factor Subscription#query_performance_factor}
   */
   readonly queryPerformanceFactor?: string;
   /**
   * Databases replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#replication Subscription#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#replication Subscription#replication}
   */
   readonly replication: boolean | cdktf.IResolvable;
   /**
   * Support Redis open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#support_oss_cluster_api Subscription#support_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#support_oss_cluster_api Subscription#support_oss_cluster_api}
   */
   readonly supportOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * Throughput measurement method, (either ‘number-of-shards’ or ‘operations-per-second’)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#throughput_measurement_by Subscription#throughput_measurement_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#throughput_measurement_by Subscription#throughput_measurement_by}
   */
   readonly throughputMeasurementBy: string;
   /**
   * Throughput value (as applies to selected measurement method)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#throughput_measurement_value Subscription#throughput_measurement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#throughput_measurement_value Subscription#throughput_measurement_value}
   */
   readonly throughputMeasurementValue: number;
 }
@@ -1226,7 +1226,7 @@ export interface SubscriptionCustomerManagedKey {
   /**
   * Resource name of the customer managed key as defined by the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#resource_name Subscription#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#resource_name Subscription#resource_name}
   */
   readonly resourceName: string;
 }
@@ -1341,19 +1341,19 @@ export interface SubscriptionMaintenanceWindowsWindow {
   /**
   * A list of days on which the window is open ('Monday', 'Tuesday' etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#days Subscription#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#days Subscription#days}
   */
   readonly days: string[];
   /**
   * How long maintenance may take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#duration_in_hours Subscription#duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#duration_in_hours Subscription#duration_in_hours}
   */
   readonly durationInHours: number;
   /**
   * What hour in the day (0-23) may maintenance start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#start_hour Subscription#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#start_hour Subscription#start_hour}
   */
   readonly startHour: number;
 }
@@ -1520,13 +1520,13 @@ export interface SubscriptionMaintenanceWindows {
   /**
   * Either automatic (Redis specified) or manual (User specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#mode Subscription#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#mode Subscription#mode}
   */
   readonly mode: string;
   /**
   * window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#window Subscription#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#window Subscription#window}
   */
   readonly window?: SubscriptionMaintenanceWindowsWindow[] | cdktf.IResolvable;
 }
@@ -1636,19 +1636,19 @@ export class SubscriptionMaintenanceWindowsOutputReference extends cdktf.Complex
 }
 export interface SubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#create Subscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#create Subscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#delete Subscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#delete Subscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#read Subscription#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#read Subscription#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#update Subscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#update Subscription#update}
   */
   readonly update?: string;
 }
@@ -1829,7 +1829,7 @@ export class SubscriptionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription rediscloud_subscription}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription rediscloud_subscription}
 */
 export class Subscription extends cdktf.TerraformResource {
 
@@ -1845,7 +1845,7 @@ export class Subscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subscription to import
-  * @param importFromId The id of the existing Subscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1857,7 +1857,7 @@ export class Subscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/subscription rediscloud_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/subscription rediscloud_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1868,8 +1868,8 @@ export class Subscription extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_subscription',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

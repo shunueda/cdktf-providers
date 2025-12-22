@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule
+// https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIncidentScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique internal ID of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule#id DataIncidentSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule#id DataIncidentSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataIncidentScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * Human readable name synced from external provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule#name DataIncidentSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule#name DataIncidentSchedule#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule incident_schedule}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule incident_schedule}
 */
 export class DataIncidentSchedule extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataIncidentSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncidentSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentSchedule to import
-  * @param importFromId The id of the existing DataIncidentSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataIncidentSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/data-sources/schedule incident_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/data-sources/schedule incident_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataIncidentSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_schedule',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.23.0',
-        providerVersionConstraint: '5.23.0'
+        providerVersion: '5.23.1',
+        providerVersionConstraint: '5.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

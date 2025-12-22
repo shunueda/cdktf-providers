@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#metadata DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#metadata DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestMetadata;
   /**
   * A NiFi cluster stacklet. This resource is managed by the Stackable operator for Apache NiFi. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/nifi/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#spec DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#spec DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#annotations DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#annotations DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#namespace DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#namespace DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * A reference to the OIDC client credentials secret. The secret contains the client id and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#client_credentials_secret DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#client_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#client_credentials_secret DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#client_credentials_secret}
   */
   readonly clientCredentialsSecret: string;
   /**
   * An optional list of extra scopes which get merged with the scopes defined in the ['AuthenticationClass'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#extra_scopes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#extra_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#extra_scopes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#extra_scopes}
   */
   readonly extraScopes?: string[];
 }
@@ -347,13 +347,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * Name of the [AuthenticationClass](https://docs.stackable.tech/home/nightly/concepts/authentication) used to authenticate users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#authentication_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#authentication_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#authentication_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#authentication_class}
   */
   readonly authenticationClass: string;
   /**
   * This field contains OIDC-specific configuration. It is only required in case OIDC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#oidc DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#oidc DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigAuthenticationOidc;
 }
@@ -497,13 +497,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * Wether the Kubernetes Job should be created, defaults to true. It can be helpful to disable the Job, e.g. when you configOverride an authentication mechanism, which the Job currently can't use to authenticate against NiFi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enabled DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enabled DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Here you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on the Pod of the create-reporting-task Kubernetes Job. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
 }
@@ -628,13 +628,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * List of proxy hosts to add to the default allow list deployed by SDP containing Kubernetes Services utilized by NiFi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#additional_allowed_hosts DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#additional_allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#additional_allowed_hosts DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#additional_allowed_hosts}
   */
   readonly additionalAllowedHosts?: string[];
   /**
   * Allow all proxy hosts by turning off host header validation. See <https://github.com/stackabletech/docker-images/pull/694>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#allow_all DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#allow_all DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#allow_all}
   */
   readonly allowAll?: boolean | cdktf.IResolvable;
 }
@@ -759,19 +759,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * This is setting the 'nifi.sensitive.props.algorithm' property in NiFi. This setting configures the encryption algorithm to use to encrypt sensitive properties. Valid values are: 'nifiPbkdf2AesGcm256' (the default value), 'nifiArgon2AesGcm256', The following algorithms are deprecated and will be removed in future versions: 'nifiArgon2AesGcm128', 'nifiBcryptAesGcm128', 'nifiBcryptAesGcm256', 'nifiPbkdf2AesGcm128', 'nifiScryptAesGcm128', 'nifiScryptAesGcm256'. Learn more about the specifics of the algorithm parameters in the [NiFi documentation](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#property-encryption-algorithms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#algorithm DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#algorithm DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Whether to generate the 'keySecret' if it is missing. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#auto_generate DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#auto_generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#auto_generate DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#auto_generate}
   */
   readonly autoGenerate?: boolean | cdktf.IResolvable;
   /**
   * A reference to a Secret. The Secret needs to contain a key 'nifiSensitivePropsKey'. If 'autoGenerate' is false and this object is missing, the Operator will raise an error. The encryption key needs to be at least 12 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key_secret DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key_secret DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key_secret}
   */
   readonly keySecret: string;
 }
@@ -922,7 +922,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * This only affects client connections and is used to control which certificate the servers should use to authenticate themselves against the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#server_secret_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#server_secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#server_secret_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#server_secret_class}
   */
   readonly serverSecretClass?: string;
 }
@@ -1018,55 +1018,55 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterC
   /**
   * Authentication options for NiFi (required). Read more about authentication in the [security documentation](https://docs.stackable.tech/home/nightly/nifi/usage_guide/security).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#authentication DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#authentication DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigAuthentication[] | cdktf.IResolvable;
   /**
   * This section creates a 'create-reporting-task' Kubernetes Job, which enables the export of Prometheus metrics within NiFi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#create_reporting_task_job DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#create_reporting_task_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#create_reporting_task_job DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#create_reporting_task_job}
   */
   readonly createReportingTaskJob?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigCreateReportingTaskJob;
   /**
   * Extra volumes similar to '.spec.volumes' on a Pod to mount into every container, this can be useful to for example make client certificates, keytabs or similar things available to processors. These volumes will be mounted into all pods at '/stackable/userdata/{volumename}'. See also the [external files usage guide](https://docs.stackable.tech/home/nightly/nifi/usage_guide/extra-volumes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#extra_volumes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#extra_volumes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#extra_volumes}
   */
   readonly extraVolumes?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Configuration of allowed proxies e.g. load balancers or Kubernetes Ingress. Using a proxy that is not allowed by NiFi results in a failed host header check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#host_header_check DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#host_header_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#host_header_check DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#host_header_check}
   */
   readonly hostHeaderCheck?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigHostHeaderCheck;
   /**
   * This field controls which type of Service the Operator creates for this NifiCluster: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#listener_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#listener_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * These settings configure the encryption of sensitive properties in NiFi processors. NiFi supports encrypting sensitive properties in processors as they are written to disk. You can configure the encryption algorithm and the key to use. You can also let the operator generate an encryption key for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#sensitive_properties DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#sensitive_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#sensitive_properties DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#sensitive_properties}
   */
   readonly sensitiveProperties: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigSensitiveProperties;
   /**
   * TLS configuration options for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#tls DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#tls DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfigTls;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
   /**
   * NiFi requires a ZooKeeper cluster connection to run. Provide the name of the ZooKeeper [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) here. When using the [Stackable operator for Apache ZooKeeper](https://docs.stackable.tech/home/nightly/zookeeper/) to deploy a ZooKeeper cluster, this will simply be the name of your ZookeeperCluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#zookeeper_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#zookeeper_config_map_name}
   */
   readonly zookeeperConfigMapName: string;
 }
@@ -1385,13 +1385,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterO
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#reconciliation_paused DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#reconciliation_paused DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#stopped DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#stopped DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -1516,7 +1516,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecImagePul
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#name DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1631,37 +1631,37 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecImage {
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#product_version DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#product_version DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pull_policy DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pull_policy DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pull_secrets DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pull_secrets DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#stackable_version DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#stackable_version DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -1902,25 +1902,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_selector DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_selector DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -2103,7 +2103,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2199,7 +2199,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_map DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_map DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -2295,7 +2295,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2391,7 +2391,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2487,25 +2487,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#console DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#console DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#file DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#file DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#loggers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#loggers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersLoggers;
 }
@@ -2688,13 +2688,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#containers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#containers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enable_vector_agent DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enable_vector_agent DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2819,13 +2819,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#min DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#min DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -2950,13 +2950,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#limit DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#limit DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#runtime_limits DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#runtime_limits DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -3081,19 +3081,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3263,13 +3263,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageContentRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3394,17 +3394,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageContentRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -3558,19 +3558,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3740,13 +3740,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageDatabaseRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3871,17 +3871,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageDatabaseRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -4035,19 +4035,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4217,13 +4217,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageFlowfileRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4348,17 +4348,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageFlowfileRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -4512,19 +4512,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4694,13 +4694,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageProvenanceRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4825,17 +4825,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageProvenanceRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -4989,19 +4989,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5171,13 +5171,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageStateRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5302,17 +5302,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageStateRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5466,31 +5466,31 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * [The Content Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#content-repository) is simply a place in local storage where the content of all FlowFiles exists and it is typically the largest of the Repositories. Default size: 4GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#content_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#content_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#content_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#content_repo}
   */
   readonly contentRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageContentRepo;
   /**
   * Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#database_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#database_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#database_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#database_repo}
   */
   readonly databaseRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageDatabaseRepo;
   /**
   * [The FlowFile Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#flowfile-repository) is where NiFi keeps track of the state and metadata of FlowFiles as they traverse the data flow. The repository ensures durability, reliability, and recoverability of data in case of system failures or interruptions. Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#flowfile_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#flowfile_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#flowfile_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#flowfile_repo}
   */
   readonly flowfileRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageFlowfileRepo;
   /**
   * [The Provenance Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#provenance-repository) is where the history of each FlowFile is stored. This history is used to provide the Data Lineage (also known as the Chain of Custody) of each piece of data. Default size: 2GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#provenance_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#provenance_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#provenance_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#provenance_repo}
   */
   readonly provenanceRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageProvenanceRepo;
   /**
   * Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#state_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#state_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#state_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#state_repo}
   */
   readonly stateRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorageStateRepo;
 }
@@ -5700,15 +5700,15 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigR
 }
 export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cpu DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cpu DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#memory DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#memory DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResourcesStorage;
 }
@@ -5862,25 +5862,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesCon
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#logging DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#logging DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage. The default CPU request and limit are 500m and 2000m respectively. The default memory limit is 4GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#resources DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#resources DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfigResources;
 }
@@ -6063,13 +6063,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enabled DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enabled DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max_unavailable DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max_unavailable DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -6194,7 +6194,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleConfigPodDisruptionBudget;
 }
@@ -6290,25 +6290,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_selector DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#node_selector DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -6491,7 +6491,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6587,7 +6587,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_map DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_map DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -6683,7 +6683,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6779,7 +6779,7 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#level DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6875,25 +6875,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#console DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#console DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#custom DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#file DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#file DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#loggers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#loggers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -7076,13 +7076,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#containers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#containers DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enable_vector_agent DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#enable_vector_agent DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -7207,13 +7207,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#max DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#min DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#min DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -7338,13 +7338,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#limit DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#limit DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#runtime_limits DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#runtime_limits DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -7469,19 +7469,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7651,13 +7651,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageContentRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7782,17 +7782,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageContentRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -7946,19 +7946,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8128,13 +8128,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageDatabaseRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8259,17 +8259,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageDatabaseRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -8423,19 +8423,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8605,13 +8605,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageFlowfileRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8736,17 +8736,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageFlowfileRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -8900,19 +8900,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9082,13 +9082,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageProvenanceRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9213,17 +9213,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageProvenanceRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -9377,19 +9377,19 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#key DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#operator DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#values DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9559,13 +9559,13 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_expressions DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageStateRepoSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#match_labels DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9690,17 +9690,17 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#capacity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#selectors DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageStateRepoSelectors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage_class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -9854,31 +9854,31 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * [The Content Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#content-repository) is simply a place in local storage where the content of all FlowFiles exists and it is typically the largest of the Repositories. Default size: 4GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#content_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#content_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#content_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#content_repo}
   */
   readonly contentRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageContentRepo;
   /**
   * Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#database_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#database_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#database_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#database_repo}
   */
   readonly databaseRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageDatabaseRepo;
   /**
   * [The FlowFile Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#flowfile-repository) is where NiFi keeps track of the state and metadata of FlowFiles as they traverse the data flow. The repository ensures durability, reliability, and recoverability of data in case of system failures or interruptions. Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#flowfile_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#flowfile_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#flowfile_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#flowfile_repo}
   */
   readonly flowfileRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageFlowfileRepo;
   /**
   * [The Provenance Repository](https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html#provenance-repository) is where the history of each FlowFile is stored. This history is used to provide the Data Lineage (also known as the Chain of Custody) of each piece of data. Default size: 2GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#provenance_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#provenance_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#provenance_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#provenance_repo}
   */
   readonly provenanceRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageProvenanceRepo;
   /**
   * Default size: 1GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#state_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#state_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#state_repo DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#state_repo}
   */
   readonly stateRepo?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorageStateRepo;
 }
@@ -10088,15 +10088,15 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGro
 }
 export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cpu DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cpu DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#memory DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#memory DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#storage DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesStorage;
 }
@@ -10250,25 +10250,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRol
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#affinity DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#logging DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#logging DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage. The default CPU request and limit are 500m and 2000m respectively. The default memory limit is 4GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#resources DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#resources DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResources;
 }
@@ -10449,33 +10449,33 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGro
 }
 export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cli_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cli_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#env_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#env_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#replicas DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#replicas DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -10714,39 +10714,39 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGro
 }
 export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cli_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cli_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#config_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#env_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#env_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#pod_overrides DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#role_config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#role_config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#role_groups DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#role_groups DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodesRoleGroups;
 }
@@ -11013,25 +11013,25 @@ export interface DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpec {
   /**
   * Settings that affect all roles and role groups. The settings in the 'clusterConfig' are cluster wide settings that do not need to be configurable at role or role group level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cluster_config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cluster_config DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * [Cluster operations](https://docs.stackable.tech/home/nightly/concepts/operations/cluster_operations) properties, allow stopping the product instance as well as pausing reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cluster_operation DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#cluster_operation DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#image DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#image DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecImage;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#nodes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#nodes DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest#nodes}
   */
   readonly nodes?: DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecNodes;
 }
@@ -11206,7 +11206,7 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest k8s_nifi_stackable_tech_nifi_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest k8s_nifi_stackable_tech_nifi_cluster_v1alpha1_manifest}
 */
 export class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -11222,7 +11222,7 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11234,7 +11234,7 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest k8s_nifi_stackable_tech_nifi_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/nifi_stackable_tech_nifi_cluster_v1alpha1_manifest k8s_nifi_stackable_tech_nifi_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11245,8 +11245,8 @@ export class DataK8SNifiStackableTechNifiClusterV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_nifi_stackable_tech_nifi_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Man
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#metadata DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#metadata DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestMetadata;
   /**
   * ResponseHeadersPolicySpec defines the desired state of ResponseHeadersPolicy. A response headers policy. A response headers policy contains information about a set of HTTP response headers. After you create a response headers policy, you can use its ID to attach it to one or more cache behaviors in a CloudFront distribution. When it's attached to a cache behavior, the response headers policy affects the HTTP headers that CloudFront includes in HTTP responses to requests that match the cache behavior. CloudFront adds or removes response headers according to the configuration of the response headers policy. For more information, see Adding or removing HTTP headers in CloudFront responses (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/modifying-response-headers.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#spec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#spec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Man
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#annotations DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#annotations DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#labels DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#labels DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -311,7 +311,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -405,7 +405,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -499,7 +499,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlExposeHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -593,39 +593,39 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_credentials DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_credentials DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_credentials}
   */
   readonly accessControlAllowCredentials?: boolean | cdktf.IResolvable;
   /**
   * A list of HTTP header names that CloudFront includes as values for the Access-Control-Allow-Headers HTTP response header. For more information about the Access-Control-Allow-Headers HTTP response header, see Access-Control-Allow-Headers (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Headers) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_headers DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_headers DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_headers}
   */
   readonly accessControlAllowHeaders?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowHeaders;
   /**
   * A list of HTTP methods that CloudFront includes as values for the Access-Control-Allow-Methods HTTP response header. For more information about the Access-Control-Allow-Methods HTTP response header, see Access-Control-Allow-Methods (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_methods DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_methods DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_methods}
   */
   readonly accessControlAllowMethods?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowMethods;
   /**
   * A list of origins (domain names) that CloudFront can use as the value for the Access-Control-Allow-Origin HTTP response header. For more information about the Access-Control-Allow-Origin HTTP response header, see Access-Control-Allow-Origin (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_origins DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_allow_origins DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_allow_origins}
   */
   readonly accessControlAllowOrigins?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlAllowOrigins;
   /**
   * A list of HTTP headers that CloudFront includes as values for the Access-Control-Expose-Headers HTTP response header. For more information about the Access-Control-Expose-Headers HTTP response header, see Access-Control-Expose-Headers (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Expose-Headers) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_expose_headers DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_expose_headers DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_expose_headers}
   */
   readonly accessControlExposeHeaders?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfigAccessControlExposeHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_max_age_sec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_max_age_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_max_age_sec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_max_age_sec}
   */
   readonly accessControlMaxAgeSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#origin_override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#origin_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#origin_override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#origin_override}
   */
   readonly originOverride?: boolean | cdktf.IResolvable;
 }
@@ -893,15 +893,15 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCustomHeadersConfigItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#header DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#header DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#value DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#value DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1075,7 +1075,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCustomHeadersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCustomHeadersConfigItems[] | cdktf.IResolvable;
 }
@@ -1169,7 +1169,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigRemoveHeadersConfigItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#header DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#header DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#header}
   */
   readonly header?: string;
 }
@@ -1285,7 +1285,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigRemoveHeadersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigRemoveHeadersConfigItems[] | cdktf.IResolvable;
 }
@@ -1379,11 +1379,11 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigContentSecurityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_security_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_security_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_security_policy}
   */
   readonly contentSecurityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -1506,7 +1506,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigContentTypeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -1600,11 +1600,11 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigFrameOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#frame_option DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#frame_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#frame_option DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#frame_option}
   */
   readonly frameOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
 }
@@ -1727,11 +1727,11 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigReferrerPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#referrer_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#referrer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#referrer_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#referrer_policy}
   */
   readonly referrerPolicy?: string;
 }
@@ -1854,19 +1854,19 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigStrictTransportSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_max_age_sec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_max_age_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#access_control_max_age_sec DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#access_control_max_age_sec}
   */
   readonly accessControlMaxAgeSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#include_subdomains DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#include_subdomains DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#include_subdomains}
   */
   readonly includeSubdomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#preload DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#preload DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#preload}
   */
   readonly preload?: boolean | cdktf.IResolvable;
 }
@@ -2047,19 +2047,19 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigXssProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#mode_block DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#mode_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#mode_block DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#mode_block}
   */
   readonly modeBlock?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#override DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#protection DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#protection DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#protection}
   */
   readonly protection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#report_uri DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#report_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#report_uri DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#report_uri}
   */
   readonly reportUri?: string;
 }
@@ -2242,37 +2242,37 @@ export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Man
   /**
   * The policy directives and their values that CloudFront includes as values for the Content-Security-Policy HTTP response header. For more information about the Content-Security-Policy HTTP response header, see Content-Security-Policy (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_security_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_security_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_security_policy}
   */
   readonly contentSecurityPolicy?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigContentSecurityPolicy;
   /**
   * Determines whether CloudFront includes the X-Content-Type-Options HTTP response header with its value set to nosniff. For more information about the X-Content-Type-Options HTTP response header, see X-Content-Type-Options (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_type_options DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_type_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#content_type_options DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#content_type_options}
   */
   readonly contentTypeOptions?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigContentTypeOptions;
   /**
   * Determines whether CloudFront includes the X-Frame-Options HTTP response header and the header's value. For more information about the X-Frame-Options HTTP response header, see X-Frame-Options (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#frame_options DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#frame_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#frame_options DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#frame_options}
   */
   readonly frameOptions?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigFrameOptions;
   /**
   * Determines whether CloudFront includes the Referrer-Policy HTTP response header and the header's value. For more information about the Referrer-Policy HTTP response header, see Referrer-Policy (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#referrer_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#referrer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#referrer_policy DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#referrer_policy}
   */
   readonly referrerPolicy?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigReferrerPolicy;
   /**
   * Determines whether CloudFront includes the Strict-Transport-Security HTTP response header and the header's value. For more information about the Strict-Transport-Security HTTP response header, see Strict-Transport-Security (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#strict_transport_security DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#strict_transport_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#strict_transport_security DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#strict_transport_security}
   */
   readonly strictTransportSecurity?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigStrictTransportSecurity;
   /**
   * Determines whether CloudFront includes the X-XSS-Protection HTTP response header and the header's value. For more information about the X-XSS-Protection HTTP response header, see X-XSS-Protection (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#xss_protection DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#xss_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#xss_protection DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#xss_protection}
   */
   readonly xssProtection?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfigXssProtection;
 }
@@ -2511,11 +2511,11 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigServerTimingHeadersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#sampling_rate DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#sampling_rate DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#sampling_rate}
   */
   readonly samplingRate?: number;
 }
@@ -2638,41 +2638,41 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#comment DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#comment DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#comment}
   */
   readonly comment?: string;
   /**
   * A configuration for a set of HTTP response headers that are used for cross-origin resource sharing (CORS). CloudFront adds these headers to HTTP responses that it sends for CORS requests that match a cache behavior associated with this response headers policy. For more information about CORS, see Cross-Origin Resource Sharing (CORS) (https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) in the MDN Web Docs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#cors_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#cors_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#cors_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#cors_config}
   */
   readonly corsConfig?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCorsConfig;
   /**
   * A list of HTTP response header names and their values. CloudFront includes these headers in HTTP responses that it sends for requests that match a cache behavior that's associated with this response headers policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#custom_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#custom_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#custom_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#custom_headers_config}
   */
   readonly customHeadersConfig?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigCustomHeadersConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * A list of HTTP header names that CloudFront removes from HTTP responses to requests that match the cache behavior that this response headers policy is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#remove_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#remove_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#remove_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#remove_headers_config}
   */
   readonly removeHeadersConfig?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigRemoveHeadersConfig;
   /**
   * A configuration for a set of security-related HTTP response headers. CloudFront adds these headers to HTTP responses that it sends for requests that match a cache behavior associated with this response headers policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#security_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#security_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#security_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#security_headers_config}
   */
   readonly securityHeadersConfig?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigSecurityHeadersConfig;
   /**
   * A configuration for enabling the Server-Timing header in HTTP responses sent from CloudFront. CloudFront adds this header to HTTP responses that it sends in response to requests that match a cache behavior that's associated with this response headers policy. You can use the Server-Timing header to view metrics that can help you gain insights about the behavior and performance of CloudFront. For example, you can see which cache layer served a cache hit, or the first byte latency from the origin when there was a cache miss. You can use the metrics in the Server-Timing header to troubleshoot issues or test the efficiency of your CloudFront configuration. For more information, see Server-Timing header (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/understanding-response-headers-policies.html#server-timing-header) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#server_timing_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#server_timing_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#server_timing_headers_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#server_timing_headers_config}
   */
   readonly serverTimingHeadersConfig?: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfigServerTimingHeadersConfig;
 }
@@ -2942,7 +2942,7 @@ export interface DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Man
   /**
   * Contains metadata about the response headers policy, and a set of configurations that specify the HTTP headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#response_headers_policy_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#response_headers_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#response_headers_policy_config DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest#response_headers_policy_config}
   */
   readonly responseHeadersPolicyConfig: DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1ManifestSpecResponseHeadersPolicyConfig;
 }
@@ -3033,7 +3033,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest}
 */
 export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3049,7 +3049,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
   * Generates CDKTF code for importing a DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3061,7 +3061,7 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3072,8 +3072,8 @@ export class DataK8SCloudfrontServicesK8SAwsResponseHeadersPolicyV1Alpha1Manifes
       terraformResourceType: 'k8s_cloudfront_services_k8s_aws_response_headers_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

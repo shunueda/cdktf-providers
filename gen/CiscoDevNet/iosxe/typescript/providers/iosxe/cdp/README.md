@@ -1,3 +1,3 @@
 # `iosxe_cdp`
 
-Refer to the Terraform Registry for docs: [`iosxe_cdp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/cdp).
+Refer to the Terraform Registry for docs: [`iosxe_cdp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/cdp).

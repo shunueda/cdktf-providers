@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeServiceTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template#device DataIosxeServiceTemplate#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template#device DataIosxeServiceTemplate#device}
   */
   readonly device?: string;
   /**
   * Specify a template name (maximum 48 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template#name DataIosxeServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template#name DataIosxeServiceTemplate#name}
   */
   readonly name: string;
 }
@@ -247,7 +247,7 @@ export class DataIosxeServiceTemplateTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template iosxe_service_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template iosxe_service_template}
 */
 export class DataIosxeServiceTemplate extends cdktf.TerraformDataSource {
 
@@ -263,7 +263,7 @@ export class DataIosxeServiceTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeServiceTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeServiceTemplate to import
-  * @param importFromId The id of the existing DataIosxeServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeServiceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DataIosxeServiceTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/service_template iosxe_service_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/service_template iosxe_service_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class DataIosxeServiceTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_service_template',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

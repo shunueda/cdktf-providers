@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#metadata DataK8STestsTestkubeIoTestTriggerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#metadata DataK8STestsTestkubeIoTestTriggerV1Manifest#metadata}
   */
   readonly metadata: DataK8STestsTestkubeIoTestTriggerV1ManifestMetadata;
   /**
   * TestTriggerSpec defines the desired state of TestTrigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#spec DataK8STestsTestkubeIoTestTriggerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#spec DataK8STestsTestkubeIoTestTriggerV1Manifest#spec}
   */
   readonly spec?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#annotations DataK8STestsTestkubeIoTestTriggerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#annotations DataK8STestsTestkubeIoTestTriggerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#labels DataK8STestsTestkubeIoTestTriggerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#labels DataK8STestsTestkubeIoTestTriggerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecConditionSpecCon
   /**
   * test trigger condition reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#reason DataK8STestsTestkubeIoTestTriggerV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#reason DataK8STestsTestkubeIoTestTriggerV1Manifest#reason}
   */
   readonly reason?: string;
   /**
   * TestTriggerConditionStatuses defines condition statuses for test triggers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#status DataK8STestsTestkubeIoTestTriggerV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#status DataK8STestsTestkubeIoTestTriggerV1Manifest#status}
   */
   readonly status: string;
   /**
   * duration in seconds in the past from current time when the condition is still valid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#ttl DataK8STestsTestkubeIoTestTriggerV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#ttl DataK8STestsTestkubeIoTestTriggerV1Manifest#ttl}
   */
   readonly ttl?: number;
   /**
   * test trigger condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#type DataK8STestsTestkubeIoTestTriggerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#type DataK8STestsTestkubeIoTestTriggerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -436,19 +436,19 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecConditionSpec {
   /**
   * list of test trigger conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#conditions DataK8STestsTestkubeIoTestTriggerV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#conditions DataK8STestsTestkubeIoTestTriggerV1Manifest#conditions}
   */
   readonly conditions?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecConditionSpecConditions[] | cdktf.IResolvable;
   /**
   * duration in seconds the test trigger waits between condition check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
   */
   readonly delay?: number;
   /**
   * duration in seconds the test trigger waits for conditions, until its stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#timeout DataK8STestsTestkubeIoTestTriggerV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#timeout DataK8STestsTestkubeIoTestTriggerV1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -602,31 +602,31 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecProbeSpecProbes 
   /**
   * test trigger condition probe headers to submit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#headers DataK8STestsTestkubeIoTestTriggerV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#headers DataK8STestsTestkubeIoTestTriggerV1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * test trigger condition probe host, default is pod ip or service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#host DataK8STestsTestkubeIoTestTriggerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#host DataK8STestsTestkubeIoTestTriggerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * test trigger condition probe path to check, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#path DataK8STestsTestkubeIoTestTriggerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#path DataK8STestsTestkubeIoTestTriggerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * test trigger condition probe port to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#port DataK8STestsTestkubeIoTestTriggerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#port DataK8STestsTestkubeIoTestTriggerV1Manifest#port}
   */
   readonly port?: number;
   /**
   * test trigger condition probe scheme to connect to host, default is http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#scheme DataK8STestsTestkubeIoTestTriggerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#scheme DataK8STestsTestkubeIoTestTriggerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -860,19 +860,19 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecProbeSpec {
   /**
   * duration in seconds the test trigger waits between probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
   */
   readonly delay?: number;
   /**
   * list of test trigger probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#probes DataK8STestsTestkubeIoTestTriggerV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#probes DataK8STestsTestkubeIoTestTriggerV1Manifest#probes}
   */
   readonly probes?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecProbeSpecProbes[] | cdktf.IResolvable;
   /**
   * duration in seconds the test trigger waits for probes, until its stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#timeout DataK8STestsTestkubeIoTestTriggerV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#timeout DataK8STestsTestkubeIoTestTriggerV1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -1026,19 +1026,19 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelector
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#key DataK8STestsTestkubeIoTestTriggerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#key DataK8STestsTestkubeIoTestTriggerV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#operator DataK8STestsTestkubeIoTestTriggerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#operator DataK8STestsTestkubeIoTestTriggerV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#values DataK8STestsTestkubeIoTestTriggerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#values DataK8STestsTestkubeIoTestTriggerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1208,13 +1208,13 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelector
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_expressions DataK8STestsTestkubeIoTestTriggerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_expressions DataK8STestsTestkubeIoTestTriggerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelectorLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_labels DataK8STestsTestkubeIoTestTriggerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_labels DataK8STestsTestkubeIoTestTriggerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1339,25 +1339,25 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelector
   /**
   * LabelSelector is used to identify a group of Kubernetes Objects based on their metadata labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#label_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#label_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelectorLabelSelector;
   /**
   * Name selector is used to identify a Kubernetes Object based on the metadata name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * kubernetes resource name regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name_regex DataK8STestsTestkubeIoTestTriggerV1Manifest#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name_regex DataK8STestsTestkubeIoTestTriggerV1Manifest#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Namespace of the Kubernetes object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1540,19 +1540,19 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelectorLabe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#key DataK8STestsTestkubeIoTestTriggerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#key DataK8STestsTestkubeIoTestTriggerV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#operator DataK8STestsTestkubeIoTestTriggerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#operator DataK8STestsTestkubeIoTestTriggerV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#values DataK8STestsTestkubeIoTestTriggerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#values DataK8STestsTestkubeIoTestTriggerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1722,13 +1722,13 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelectorLabe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_expressions DataK8STestsTestkubeIoTestTriggerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_expressions DataK8STestsTestkubeIoTestTriggerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelectorLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_labels DataK8STestsTestkubeIoTestTriggerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#match_labels DataK8STestsTestkubeIoTestTriggerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1853,25 +1853,25 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelector {
   /**
   * LabelSelector is used to identify a group of Kubernetes Objects based on their metadata labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#label_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#label_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelectorLabelSelector;
   /**
   * Name selector is used to identify a Kubernetes Object based on the metadata name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name DataK8STestsTestkubeIoTestTriggerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * kubernetes resource name regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name_regex DataK8STestsTestkubeIoTestTriggerV1Manifest#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#name_regex DataK8STestsTestkubeIoTestTriggerV1Manifest#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Namespace of the Kubernetes object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#namespace DataK8STestsTestkubeIoTestTriggerV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2054,67 +2054,67 @@ export interface DataK8STestsTestkubeIoTestTriggerV1ManifestSpec {
   /**
   * Action represents what needs to be executed for selected Execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#action DataK8STestsTestkubeIoTestTriggerV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#action DataK8STestsTestkubeIoTestTriggerV1Manifest#action}
   */
   readonly action: string;
   /**
   * ConcurrencyPolicy defines concurrency policy for selected Execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#concurrency_policy DataK8STestsTestkubeIoTestTriggerV1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#concurrency_policy DataK8STestsTestkubeIoTestTriggerV1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * What resource conditions should be matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#condition_spec DataK8STestsTestkubeIoTestTriggerV1Manifest#condition_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#condition_spec DataK8STestsTestkubeIoTestTriggerV1Manifest#condition_spec}
   */
   readonly conditionSpec?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecConditionSpec;
   /**
   * Delay is a duration string which specifies how long should the test be delayed after a trigger is matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#delay DataK8STestsTestkubeIoTestTriggerV1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * whether test trigger is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#disabled DataK8STestsTestkubeIoTestTriggerV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#disabled DataK8STestsTestkubeIoTestTriggerV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * On which Event for a Resource should an Action be triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#event DataK8STestsTestkubeIoTestTriggerV1Manifest#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#event DataK8STestsTestkubeIoTestTriggerV1Manifest#event}
   */
   readonly event: string;
   /**
   * Execution identifies for which test execution should an Action be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#execution DataK8STestsTestkubeIoTestTriggerV1Manifest#execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#execution DataK8STestsTestkubeIoTestTriggerV1Manifest#execution}
   */
   readonly execution: string;
   /**
   * What resource probes should be matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#probe_spec DataK8STestsTestkubeIoTestTriggerV1Manifest#probe_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#probe_spec DataK8STestsTestkubeIoTestTriggerV1Manifest#probe_spec}
   */
   readonly probeSpec?: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecProbeSpec;
   /**
   * For which Resource do we monitor Event which triggers an Action on certain conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#resource DataK8STestsTestkubeIoTestTriggerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#resource DataK8STestsTestkubeIoTestTriggerV1Manifest#resource}
   */
   readonly resource: string;
   /**
   * ResourceSelector identifies which Kubernetes Objects should be watched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#resource_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#resource_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#resource_selector}
   */
   readonly resourceSelector: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecResourceSelector;
   /**
   * TestSelector identifies on which Testkube Kubernetes Objects an Action should be taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#test_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#test_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#test_selector DataK8STestsTestkubeIoTestTriggerV1Manifest#test_selector}
   */
   readonly testSelector: DataK8STestsTestkubeIoTestTriggerV1ManifestSpecTestSelector;
 }
@@ -2480,7 +2480,7 @@ export class DataK8STestsTestkubeIoTestTriggerV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest k8s_tests_testkube_io_test_trigger_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest k8s_tests_testkube_io_test_trigger_v1_manifest}
 */
 export class DataK8STestsTestkubeIoTestTriggerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2496,7 +2496,7 @@ export class DataK8STestsTestkubeIoTestTriggerV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8STestsTestkubeIoTestTriggerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STestsTestkubeIoTestTriggerV1Manifest to import
-  * @param importFromId The id of the existing DataK8STestsTestkubeIoTestTriggerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STestsTestkubeIoTestTriggerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STestsTestkubeIoTestTriggerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2508,7 +2508,7 @@ export class DataK8STestsTestkubeIoTestTriggerV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest k8s_tests_testkube_io_test_trigger_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tests_testkube_io_test_trigger_v1_manifest k8s_tests_testkube_io_test_trigger_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2519,8 +2519,8 @@ export class DataK8STestsTestkubeIoTestTriggerV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_tests_testkube_io_test_trigger_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

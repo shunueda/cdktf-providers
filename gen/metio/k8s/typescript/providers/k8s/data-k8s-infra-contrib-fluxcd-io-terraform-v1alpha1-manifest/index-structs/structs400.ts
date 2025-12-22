@@ -167,25 +167,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource_field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource_field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -387,7 +387,7 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -483,19 +483,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -665,19 +665,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -831,19 +831,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#audience DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#audience DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#expiration_seconds DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#expiration_seconds DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -994,31 +994,31 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cluster_trust_bundle DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cluster_trust_bundle DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#downward_api DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#downward_api DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#service_account_token DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#service_account_token DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -1252,13 +1252,13 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#default_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#default_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#sources DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#sources DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -1383,37 +1383,37 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#group DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#group DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#registry DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#registry DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tenant DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tenant DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#user DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#user DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -1648,7 +1648,7 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1744,49 +1744,49 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#image DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#image DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#keyring DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#keyring DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#monitors DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#monitors DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#pool DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#pool DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#user DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#user DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2079,7 +2079,7 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2175,61 +2175,61 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#gateway DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#gateway DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#protection_domain DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#protection_domain DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#ssl_enabled DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#ssl_enabled DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_pool DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_pool DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#system DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#system DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -2577,19 +2577,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -2759,25 +2759,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#default_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#default_mode DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#items DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -2960,7 +2960,7 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3056,31 +3056,31 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_only DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_namespace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_namespace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -3292,25 +3292,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fs_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_policy_id DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_policy_id DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_policy_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storage_policy_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -3490,181 +3490,181 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#aws_elastic_block_store DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#aws_elastic_block_store DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#azure_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#azure_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#azure_file DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#azure_file DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cephfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cephfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cinder DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cinder DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#csi DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#csi DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#downward_api DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#downward_api DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#empty_dir DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#empty_dir DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#ephemeral DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#ephemeral DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fc DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#fc DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#flex_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#flex_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#flocker DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#flocker DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#gce_persistent_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#gce_persistent_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#git_repo DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#git_repo DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#glusterfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#glusterfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#host_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#host_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#iscsi DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#iscsi DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#nfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#nfs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#persistent_volume_claim DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#persistent_volume_claim DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#photon_persistent_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#photon_persistent_disk DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#portworx_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#portworx_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#projected DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#projected DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#quobyte DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#quobyte DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#rbd DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#rbd DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#scale_io DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#scale_io DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storageos DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#storageos DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vsphere_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vsphere_volume DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumesVsphereVolume;
 }
@@ -4620,55 +4620,55 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerP
   /**
   * Set the Affinity for the Runner Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#affinity DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#affinity DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecAffinity;
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#env DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#env DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#env_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#env_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * Runner pod image to use other than default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#image DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#image DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Set up Init Containers for the Runner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#init_containers DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#init_containers DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
   * Set the NodeSelector for the Runner Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#node_selector DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#node_selector DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Set the Tolerations for the Runner Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tolerations DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tolerations DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
   * Set Volume Mounts for the Runner Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_mounts DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volume_mounts DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumeMounts[] | cdktf.IResolvable;
   /**
   * Set Volumes for the Runner Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volumes DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#volumes DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpecVolumes[] | cdktf.IResolvable;
 }
@@ -4994,11 +4994,11 @@ export class DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTe
 }
 export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#metadata DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#metadata DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#spec DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#spec DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplateSpec;
 }
@@ -5123,25 +5123,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecSourceR
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#api_version DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#api_version DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#kind DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#kind DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, defaults to the namespace of the Kubernetes resource object that contains the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#namespace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#namespace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5318,13 +5318,13 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecTfstate
   /**
   * ForceUnlock a Terraform state if it has become locked for any reason. Defaults to 'no'. This is an Enum and has the expected values of: - auto - yes - no WARNING: Only use 'auto' in the cases where you are absolutely certain that no other system is using this state, you could otherwise end up in a bad place See https://www.terraform.io/language/state/locking#force-unlock for more information on the terraform state lock and force unlock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#force_unlock DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#force_unlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#force_unlock DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#force_unlock}
   */
   readonly forceUnlock?: string;
   /**
   * LockIdentifier holds the Identifier required by Terraform to unlock the state if it ever gets into a locked state. You'll need to put the Lock Identifier in here while setting ForceUnlock to either 'yes' or 'auto'. Leave this empty to do nothing, set this to the value of the 'Lock Info: ID: [value]', e.g. 'f2ab685b-f84d-ac0b-a125-378a22877e8d', to force unlock the state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#lock_identifier DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#lock_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#lock_identifier DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#lock_identifier}
   */
   readonly lockIdentifier?: string;
 }
@@ -5449,19 +5449,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsVal
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5612,13 +5612,13 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsVal
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#api_version DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#api_version DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5740,19 +5740,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsVal
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#container_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#container_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#divisor DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#divisor DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5903,19 +5903,19 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsVal
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#key DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6066,25 +6066,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsVal
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map_key_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#config_map_key_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource_field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#resource_field_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_key_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#secret_key_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsValueFromSecretKeyRef;
 }
@@ -6267,17 +6267,17 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVars {
   /**
   * Name is the name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#value DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#value DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
   /**
   * EnvVarSource represents a source for the value of an EnvVar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#value_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#value_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsValueFrom;
 }
@@ -6450,25 +6450,25 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsFro
   /**
   * Kind of the values referent, valid values are ('Secret', 'ConfigMap').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#kind DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#kind DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the values referent. Should reside in the same namespace as the referring resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Optional marks this VarsReference as optional. When set, a not found error for the values reference is ignored, but any VarsKey or transient error will still result in a reconciliation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#optional DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * VarsKeys is the data key at which a specific value can be found. Defaults to all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars_keys DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars_keys DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars_keys}
   */
   readonly varsKeys?: string[];
 }
@@ -6665,27 +6665,27 @@ export class DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsFromLis
 }
 export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecWebhooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enabled DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enabled DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#error_message_template DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#error_message_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#error_message_template DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#error_message_template}
   */
   readonly errorMessageTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#payload_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#payload_type DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#payload_type}
   */
   readonly payloadType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#stage DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#stage DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#stage}
   */
   readonly stage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#test_expression DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#test_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#test_expression DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#test_expression}
   */
   readonly testExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#url DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#url DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -6942,13 +6942,13 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecWriteOu
   /**
   * Name is the name of the Secret to be written
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Outputs contain the selected names of outputs to be written to the secret. Empty array means writing all outputs, which is default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#outputs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#outputs DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#outputs}
   */
   readonly outputs?: string[];
 }
@@ -7070,203 +7070,203 @@ export interface DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpec {
   /**
   * Clean the runner pod up after each reconciliation cycle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#always_cleanup_runner_pod DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#always_cleanup_runner_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#always_cleanup_runner_pod DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#always_cleanup_runner_pod}
   */
   readonly alwaysCleanupRunnerPod?: boolean | cdktf.IResolvable;
   /**
   * ApprovePlan specifies name of a plan wanted to approve. If its value is 'auto', the controller will automatically approve every plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#approve_plan DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#approve_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#approve_plan DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#approve_plan}
   */
   readonly approvePlan?: string;
   /**
   * BackendConfigSpec is for specifying configuration for Terraform's Kubernetes backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#backend_config DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#backend_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#backend_config DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#backend_config}
   */
   readonly backendConfig?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecBackendConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#backend_configs_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#backend_configs_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#backend_configs_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#backend_configs_from}
   */
   readonly backendConfigsFrom?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecBackendConfigsFrom[] | cdktf.IResolvable;
   /**
   * BreakTheGlass specifies if the reconciliation should stop and allow interactive shell in case of emergency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#break_the_glass DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#break_the_glass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#break_the_glass DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#break_the_glass}
   */
   readonly breakTheGlass?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cli_config_secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cli_config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cli_config_secret_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cli_config_secret_ref}
   */
   readonly cliConfigSecretRef?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecCliConfigSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cloud DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#cloud DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#cloud}
   */
   readonly cloud?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#depends_on DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#depends_on DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecDependsOn[] | cdktf.IResolvable;
   /**
   * Destroy produces a destroy plan. Applying the plan will destroy all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#destroy DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#destroy DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#destroy}
   */
   readonly destroy?: boolean | cdktf.IResolvable;
   /**
   * Create destroy plan and apply it to destroy terraform resources upon deletion of this object. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#destroy_resources_on_deletion DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#destroy_resources_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#destroy_resources_on_deletion DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#destroy_resources_on_deletion}
   */
   readonly destroyResourcesOnDeletion?: boolean | cdktf.IResolvable;
   /**
   * Disable automatic drift detection. Drift detection may be resource intensive in the context of a large cluster or complex Terraform statefile. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#disable_drift_detection DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#disable_drift_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#disable_drift_detection DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#disable_drift_detection}
   */
   readonly disableDriftDetection?: boolean | cdktf.IResolvable;
   /**
   * EnableInventory enables the object to store resource entries as the inventory for external use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enable_inventory DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enable_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enable_inventory DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enable_inventory}
   */
   readonly enableInventory?: boolean | cdktf.IResolvable;
   /**
   * Enterprise is the enterprise configuration placeholder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enterprise DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#enterprise DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#enterprise}
   */
   readonly enterprise?: { [key: string]: string };
   /**
   * List of all configuration files to be created in initialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#file_mappings DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#file_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#file_mappings DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#file_mappings}
   */
   readonly fileMappings?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecFileMappings[] | cdktf.IResolvable;
   /**
   * Force instructs the controller to unconditionally re-plan and re-apply TF resources. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#force DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#force DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * List of health checks to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#health_checks DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#health_checks DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#health_checks}
   */
   readonly healthChecks?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecHealthChecks[] | cdktf.IResolvable;
   /**
   * The interval at which to reconcile the Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#interval DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#interval DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Parallelism limits the number of concurrent operations of Terraform apply step. Zero (0) means using the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#parallelism DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#parallelism DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#parallelism}
   */
   readonly parallelism?: number;
   /**
   * Path to the directory containing Terraform (.tf) files. Defaults to 'None', which translates to the root path of the SourceRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#path DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_inputs_from_secrets DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_inputs_from_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#read_inputs_from_secrets DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#read_inputs_from_secrets}
   */
   readonly readInputsFromSecrets?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecReadInputsFromSecrets[] | cdktf.IResolvable;
   /**
   * RefreshBeforeApply forces refreshing of the state before the apply step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#refresh_before_apply DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#refresh_before_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#refresh_before_apply DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#refresh_before_apply}
   */
   readonly refreshBeforeApply?: boolean | cdktf.IResolvable;
   /**
   * The interval at which to retry a previously failed reconciliation. The default value is 15 when not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#retry_interval DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#retry_interval DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#retry_interval}
   */
   readonly retryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#runner_pod_template DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#runner_pod_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#runner_pod_template DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#runner_pod_template}
   */
   readonly runnerPodTemplate?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecRunnerPodTemplate;
   /**
   * Configure the termination grace period for the runner pod. Use this parameter to allow the Terraform process to gracefully shutdown. Consider increasing for large, complex or slow-moving Terraform managed resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#runner_termination_grace_period_seconds DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#runner_termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#runner_termination_grace_period_seconds DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#runner_termination_grace_period_seconds}
   */
   readonly runnerTerminationGracePeriodSeconds?: number;
   /**
   * Name of a ServiceAccount for the runner Pod to provision Terraform resources. Default to tf-runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#service_account_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#service_account_name DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * SourceRef is the reference of the source where the Terraform files are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#source_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#source_ref DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#source_ref}
   */
   readonly sourceRef: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecSourceRef;
   /**
   * StoreReadablePlan enables storing the plan in a readable format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#store_readable_plan DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#store_readable_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#store_readable_plan DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#store_readable_plan}
   */
   readonly storeReadablePlan?: string;
   /**
   * Suspend is to tell the controller to suspend subsequent TF executions, it does not apply to already started executions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#suspend DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#suspend DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Targets specify the resource, module or collection of resources to target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#targets DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#targets DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#targets}
   */
   readonly targets?: string[];
   /**
   * TFStateSpec allows the user to set ForceUnlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tfstate DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tfstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#tfstate DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#tfstate}
   */
   readonly tfstate?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecTfstate;
   /**
   * Values map to the Terraform variable 'values', which is an object of arbitrary values. It is a convenient way to pass values to Terraform resources without having to define a variable for each value. To use this feature, your Terraform file must define the variable 'values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#values DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#values DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#values}
   */
   readonly values?: { [key: string]: string };
   /**
   * List of input variables to set for the Terraform program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars}
   */
   readonly vars?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVars[] | cdktf.IResolvable;
   /**
   * List of references to a Secret or a ConfigMap to generate variables for Terraform resources based on its data, selectively by varsKey. Values of the later Secret / ConfigMap with the same keys will override those of the former.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#vars_from DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#vars_from}
   */
   readonly varsFrom?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecVarsFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#webhooks DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#webhooks DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#webhooks}
   */
   readonly webhooks?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecWebhooks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#workspace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#workspace DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#workspace}
   */
   readonly workspace?: string;
   /**
   * A list of target secrets for the outputs to be written as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#write_outputs_to_secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#write_outputs_to_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/infra_contrib_fluxcd_io_terraform_v1alpha1_manifest#write_outputs_to_secret DataK8SInfraContribFluxcdIoTerraformV1Alpha1Manifest#write_outputs_to_secret}
   */
   readonly writeOutputsToSecret?: DataK8SInfraContribFluxcdIoTerraformV1Alpha1ManifestSpecWriteOutputsToSecret;
 }

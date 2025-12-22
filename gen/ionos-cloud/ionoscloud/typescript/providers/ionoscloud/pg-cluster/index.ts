@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PgClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * When set to true, allows the update of immutable fields by destroying and re-creating the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#allow_replace PgCluster#allow_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#allow_replace PgCluster#allow_replace}
   */
   readonly allowReplace?: boolean | cdktf.IResolvable;
   /**
   * The Object Storage location where the backups will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#backup_location PgCluster#backup_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#backup_location PgCluster#backup_location}
   */
   readonly backupLocation?: string;
   /**
   * The number of CPU cores per replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#cores PgCluster#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#cores PgCluster#cores}
   */
   readonly cores: number;
   /**
   * The friendly name of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#display_name PgCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#display_name PgCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#id PgCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#id PgCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,91 +41,91 @@ export interface PgClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The total number of instances in the cluster (one master and n-1 standbys)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#instances PgCluster#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#instances PgCluster#instances}
   */
   readonly instances: number;
   /**
   * The physical location where the cluster will be created. This will be where all of your instances live. Property cannot be modified after datacenter creation (disallowed in update requests)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#location PgCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#location PgCluster#location}
   */
   readonly location: string;
   /**
   * The PostgreSQL version of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#postgres_version PgCluster#postgres_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#postgres_version PgCluster#postgres_version}
   */
   readonly postgresVersion: string;
   /**
   * The amount of memory per instance in megabytes. Has to be a multiple of 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#ram PgCluster#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#ram PgCluster#ram}
   */
   readonly ram: number;
   /**
   * The amount of storage per instance in megabytes. Has to be a multiple of 2048.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#storage_size PgCluster#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#storage_size PgCluster#storage_size}
   */
   readonly storageSize: number;
   /**
   * The storage type used in your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#storage_type PgCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#storage_type PgCluster#storage_type}
   */
   readonly storageType: string;
   /**
   * Represents different modes of replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#synchronization_mode PgCluster#synchronization_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#synchronization_mode PgCluster#synchronization_mode}
   */
   readonly synchronizationMode: string;
   /**
   * connection_pooler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#connection_pooler PgCluster#connection_pooler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#connection_pooler PgCluster#connection_pooler}
   */
   readonly connectionPooler?: PgClusterConnectionPooler;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#connections PgCluster#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#connections PgCluster#connections}
   */
   readonly connections?: PgClusterConnections;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#credentials PgCluster#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#credentials PgCluster#credentials}
   */
   readonly credentials: PgClusterCredentials;
   /**
   * from_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#from_backup PgCluster#from_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#from_backup PgCluster#from_backup}
   */
   readonly fromBackup?: PgClusterFromBackup;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#maintenance_window PgCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#maintenance_window PgCluster#maintenance_window}
   */
   readonly maintenanceWindow?: PgClusterMaintenanceWindow;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#timeouts PgCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#timeouts PgCluster#timeouts}
   */
   readonly timeouts?: PgClusterTimeouts;
 }
 export interface PgClusterConnectionPooler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#enabled PgCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#enabled PgCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Represents different modes of connection pooling for the connection pooler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#pool_mode PgCluster#pool_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#pool_mode PgCluster#pool_mode}
   */
   readonly poolMode: string;
 }
@@ -238,19 +238,19 @@ export interface PgClusterConnections {
   *           10.233.0.0/18
   *           10.233.114.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#cidr PgCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#cidr PgCluster#cidr}
   */
   readonly cidr: string;
   /**
   * The datacenter to connect your cluster to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#datacenter_id PgCluster#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#datacenter_id PgCluster#datacenter_id}
   */
   readonly datacenterId: string;
   /**
   * The LAN to connect your cluster to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#lan_id PgCluster#lan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#lan_id PgCluster#lan_id}
   */
   readonly lanId: string;
 }
@@ -383,13 +383,13 @@ export class PgClusterConnectionsOutputReference extends cdktf.ComplexObject {
 }
 export interface PgClusterCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#password PgCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#password PgCluster#password}
   */
   readonly password: string;
   /**
   * the username for the initial postgres user. some system usernames are restricted (e.g. "postgres", "admin", "standby")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#username PgCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#username PgCluster#username}
   */
   readonly username: string;
 }
@@ -498,13 +498,13 @@ export interface PgClusterFromBackup {
   /**
   * The unique ID of the backup you want to restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#backup_id PgCluster#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#backup_id PgCluster#backup_id}
   */
   readonly backupId: string;
   /**
   * If this value is supplied as ISO 8601 timestamp, the backup will be replayed up until the given timestamp. If empty, the backup will be applied completely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#recovery_target_time PgCluster#recovery_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#recovery_target_time PgCluster#recovery_target_time}
   */
   readonly recoveryTargetTime?: string;
 }
@@ -614,11 +614,11 @@ export class PgClusterFromBackupOutputReference extends cdktf.ComplexObject {
 }
 export interface PgClusterMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#day_of_the_week PgCluster#day_of_the_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#day_of_the_week PgCluster#day_of_the_week}
   */
   readonly dayOfTheWeek: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#time PgCluster#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#time PgCluster#time}
   */
   readonly time: string;
 }
@@ -725,19 +725,19 @@ export class PgClusterMaintenanceWindowOutputReference extends cdktf.ComplexObje
 }
 export interface PgClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#create PgCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#create PgCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#default PgCluster#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#default PgCluster#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#delete PgCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#delete PgCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#update PgCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#update PgCluster#update}
   */
   readonly update?: string;
 }
@@ -918,7 +918,7 @@ export class PgClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster ionoscloud_pg_cluster}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster ionoscloud_pg_cluster}
 */
 export class PgCluster extends cdktf.TerraformResource {
 
@@ -934,7 +934,7 @@ export class PgCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PgCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PgCluster to import
-  * @param importFromId The id of the existing PgCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PgCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PgCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -946,7 +946,7 @@ export class PgCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/pg_cluster ionoscloud_pg_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/pg_cluster ionoscloud_pg_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -957,8 +957,8 @@ export class PgCluster extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_pg_cluster',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

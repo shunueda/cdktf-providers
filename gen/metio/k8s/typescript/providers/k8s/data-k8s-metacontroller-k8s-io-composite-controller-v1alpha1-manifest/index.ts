@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#metadata DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#metadata DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#spec DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#spec DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#annotations DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#annotations DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#labels DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#labels DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,15 +183,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestMetada
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategyStatusChecksConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#reason DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#reason DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#status DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#status DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#type DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#type DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -362,7 +362,7 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecCh
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategyStatusChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#conditions DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#conditions DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategyStatusChecksConditions[] | cdktf.IResolvable;
 }
@@ -456,11 +456,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecCh
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#method DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#method DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#status_checks DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#status_checks DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#status_checks}
   */
   readonly statusChecks?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategyStatusChecks;
 }
@@ -583,15 +583,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecCh
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#api_version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#api_version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#update_strategy DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#update_strategy DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResourcesUpdateStrategy;
 }
@@ -759,15 +759,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecCh
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhookEtag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
   */
   readonly cacheCleanupSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
   */
   readonly cacheTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -919,19 +919,19 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhookService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1106,29 +1106,29 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
   */
   readonly etag?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhookEtag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Sets the json unmarshall mode. One of the 'loose' or 'strict'. In 'strict' mode additional checks are performed to detect unknown and duplicated fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
   */
   readonly responseUnMarshallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhookService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -1367,11 +1367,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomizeWebhook;
 }
@@ -1494,15 +1494,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhookEtag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
   */
   readonly cacheCleanupSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
   */
   readonly cacheTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1654,19 +1654,19 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhookService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1841,29 +1841,29 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
   */
   readonly etag?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhookEtag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Sets the json unmarshall mode. One of the 'loose' or 'strict'. In 'strict' mode additional checks are performed to detect unknown and duplicated fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
   */
   readonly responseUnMarshallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhookService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2102,11 +2102,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalizeWebhook;
 }
@@ -2229,15 +2229,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhookEtag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
   */
   readonly cacheCleanupSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
   */
   readonly cacheTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2389,19 +2389,19 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhookService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -2576,29 +2576,29 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
   */
   readonly etag?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhookEtag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Sets the json unmarshall mode. One of the 'loose' or 'strict'. In 'strict' mode additional checks are performed to detect unknown and duplicated fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
   */
   readonly responseUnMarshallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhookService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2837,11 +2837,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChildWebhook;
 }
@@ -2964,15 +2964,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhookEtag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
   */
   readonly cacheCleanupSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
   */
   readonly cacheTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3124,19 +3124,19 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhookService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -3311,29 +3311,29 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
   */
   readonly etag?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhookEtag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Sets the json unmarshall mode. One of the 'loose' or 'strict'. In 'strict' mode additional checks are performed to detect unknown and duplicated fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
   */
   readonly responseUnMarshallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhookService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -3572,11 +3572,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChildWebhook;
 }
@@ -3699,15 +3699,15 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhookEtag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_cleanup_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_cleanup_seconds}
   */
   readonly cacheCleanupSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#cache_timeout_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#cache_timeout_seconds}
   */
   readonly cacheTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#enabled DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3859,19 +3859,19 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhookService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#name DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#namespace DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#port DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#protocol DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -4046,29 +4046,29 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#etag DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#etag}
   */
   readonly etag?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhookEtag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#path DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Sets the json unmarshall mode. One of the 'loose' or 'strict'. In 'strict' mode additional checks are performed to detect unknown and duplicated fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#response_un_marshall_mode DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#response_un_marshall_mode}
   */
   readonly responseUnMarshallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#service DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhookService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#timeout DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#url DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -4307,11 +4307,11 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#webhook DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSyncWebhook;
 }
@@ -4434,23 +4434,23 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHo
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#customize DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#customize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#customize DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#customize}
   */
   readonly customize?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksCustomize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#finalize DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#finalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#finalize DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#finalize}
   */
   readonly finalize?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksFinalize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#post_update_child DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#post_update_child}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#post_update_child DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#post_update_child}
   */
   readonly postUpdateChild?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPostUpdateChild;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#pre_update_child DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#pre_update_child}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#pre_update_child DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#pre_update_child}
   */
   readonly preUpdateChild?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksPreUpdateChild;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#sync DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#sync DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#sync}
   */
   readonly sync?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooksSync;
 }
@@ -4662,19 +4662,19 @@ export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#key DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#key DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#operator DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#operator DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#values DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#values DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4844,13 +4844,13 @@ export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#match_expressions DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#match_expressions DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResourceLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#match_labels DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#match_labels DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4973,7 +4973,7 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecPa
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResourceRevisionHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#field_paths DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#field_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#field_paths DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#field_paths}
   */
   readonly fieldPaths?: string[];
 }
@@ -5067,21 +5067,21 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecPa
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#api_version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#api_version DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#label_selector DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#label_selector DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResourceLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#revision_history DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#revision_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#revision_history DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#revision_history}
   */
   readonly revisionHistory?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResourceRevisionHistory;
 }
@@ -5256,23 +5256,23 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecPa
 }
 export interface DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#child_resources DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#child_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#child_resources DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#child_resources}
   */
   readonly childResources?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecChildResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#generate_selector DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#generate_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#generate_selector DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#generate_selector}
   */
   readonly generateSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#hooks DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#hooks DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#hooks}
   */
   readonly hooks?: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecHooks;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#parent_resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#parent_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#parent_resource DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#parent_resource}
   */
   readonly parentResource: DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecParentResource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resync_period_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resync_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#resync_period_seconds DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest#resync_period_seconds}
   */
   readonly resyncPeriodSeconds?: number;
 }
@@ -5479,7 +5479,7 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest k8s_metacontroller_k8s_io_composite_controller_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest k8s_metacontroller_k8s_io_composite_controller_v1alpha1_manifest}
 */
 export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5495,7 +5495,7 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5507,7 +5507,7 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest k8s_metacontroller_k8s_io_composite_controller_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/metacontroller_k8s_io_composite_controller_v1alpha1_manifest k8s_metacontroller_k8s_io_composite_controller_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5518,8 +5518,8 @@ export class DataK8SMetacontrollerK8SIoCompositeControllerV1Alpha1Manifest exten
       terraformResourceType: 'k8s_metacontroller_k8s_io_composite_controller_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

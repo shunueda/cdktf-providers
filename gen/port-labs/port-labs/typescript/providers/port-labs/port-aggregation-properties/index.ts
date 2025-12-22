@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PortAggregationPropertiesConfig extends cdktf.TerraformMetaArgu
   /**
   * The identifier of the blueprint the aggregation property will be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#blueprint_identifier PortAggregationProperties#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#blueprint_identifier PortAggregationProperties#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
   /**
   * The aggregation property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#properties PortAggregationProperties#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#properties PortAggregationProperties#properties}
   */
   readonly properties: { [key: string]: PortAggregationPropertiesProperties } | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface PortAggregationPropertiesPropertiesMethodAggregateByProperty {
   /**
   * The func of the aggregate by property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#func PortAggregationProperties#func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#func PortAggregationProperties#func}
   */
   readonly func: string;
   /**
   * The property of the aggregate by property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#property PortAggregationProperties#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#property PortAggregationProperties#property}
   */
   readonly property: string;
 }
@@ -149,19 +149,19 @@ export interface PortAggregationPropertiesPropertiesMethodAverageByProperty {
   /**
   * The time periods to calculate the average by, e.g. hour, day, week, month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#average_of PortAggregationProperties#average_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#average_of PortAggregationProperties#average_of}
   */
   readonly averageOf: string;
   /**
   * The property name on which to calculate the the time periods, e.g. $createdAt, $updated_at or any other date property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#measure_time_by PortAggregationProperties#measure_time_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#measure_time_by PortAggregationProperties#measure_time_by}
   */
   readonly measureTimeBy: string;
   /**
   * The property name on which to calculate the average by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#property PortAggregationProperties#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#property PortAggregationProperties#property}
   */
   readonly property: string;
 }
@@ -306,13 +306,13 @@ export interface PortAggregationPropertiesPropertiesMethodAverageEntities {
   /**
   * The time periods to calculate the average of, e.g. hour, day, week, month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#average_of PortAggregationProperties#average_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#average_of PortAggregationProperties#average_of}
   */
   readonly averageOf?: string;
   /**
   * The property name on which to calculate the the time periods, e.g. $createdAt, $updated_at or any other date property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#measure_time_by PortAggregationProperties#measure_time_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#measure_time_by PortAggregationProperties#measure_time_by}
   */
   readonly measureTimeBy?: string;
 }
@@ -437,25 +437,25 @@ export interface PortAggregationPropertiesPropertiesMethod {
   /**
   * Function to calculate the aggregate by property value of the target entities, such as sum, min, max, median
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#aggregate_by_property PortAggregationProperties#aggregate_by_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#aggregate_by_property PortAggregationProperties#aggregate_by_property}
   */
   readonly aggregateByProperty?: PortAggregationPropertiesPropertiesMethodAggregateByProperty;
   /**
   * Function to calculate the average by property value of the target entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#average_by_property PortAggregationProperties#average_by_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#average_by_property PortAggregationProperties#average_by_property}
   */
   readonly averageByProperty?: PortAggregationPropertiesPropertiesMethodAverageByProperty;
   /**
   * Function to average the entities of the target entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#average_entities PortAggregationProperties#average_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#average_entities PortAggregationProperties#average_entities}
   */
   readonly averageEntities?: PortAggregationPropertiesPropertiesMethodAverageEntities;
   /**
   * Function to count the entities of the target entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#count_entities PortAggregationProperties#count_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#count_entities PortAggregationProperties#count_entities}
   */
   readonly countEntities?: boolean | cdktf.IResolvable;
 }
@@ -638,13 +638,13 @@ export interface PortAggregationPropertiesPropertiesPathFilter {
   /**
   * The blueprint to start the path from. Should be the target blueprint or undefined to start from the source blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#from_blueprint PortAggregationProperties#from_blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#from_blueprint PortAggregationProperties#from_blueprint}
   */
   readonly fromBlueprint?: string;
   /**
   * The path array of relations to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#path PortAggregationProperties#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#path PortAggregationProperties#path}
   */
   readonly path: string[];
 }
@@ -788,43 +788,43 @@ export interface PortAggregationPropertiesProperties {
   /**
   * The description of the aggregation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#description PortAggregationProperties#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#description PortAggregationProperties#description}
   */
   readonly description?: string;
   /**
   * The icon of the aggregation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#icon PortAggregationProperties#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#icon PortAggregationProperties#icon}
   */
   readonly icon?: string;
   /**
   * The aggregation method to perform on the target blueprint, one of count_entities, average_entities, average_by_property, aggregate_by_property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#method PortAggregationProperties#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#method PortAggregationProperties#method}
   */
   readonly method: PortAggregationPropertiesPropertiesMethod;
   /**
   * Path filter to filter entities based on relation path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#path_filter PortAggregationProperties#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#path_filter PortAggregationProperties#path_filter}
   */
   readonly pathFilter?: PortAggregationPropertiesPropertiesPathFilter[] | cdktf.IResolvable;
   /**
   * Query to filter the target entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#query PortAggregationProperties#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#query PortAggregationProperties#query}
   */
   readonly query?: string;
   /**
   * The identifier of the blueprint to perform the aggregation on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#target_blueprint_identifier PortAggregationProperties#target_blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#target_blueprint_identifier PortAggregationProperties#target_blueprint_identifier}
   */
   readonly targetBlueprintIdentifier: string;
   /**
   * The title of the aggregation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#title PortAggregationProperties#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#title PortAggregationProperties#title}
   */
   readonly title?: string;
 }
@@ -1106,7 +1106,7 @@ export class PortAggregationPropertiesPropertiesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties port_aggregation_properties}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties port_aggregation_properties}
 */
 export class PortAggregationProperties extends cdktf.TerraformResource {
 
@@ -1122,7 +1122,7 @@ export class PortAggregationProperties extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortAggregationProperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortAggregationProperties to import
-  * @param importFromId The id of the existing PortAggregationProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortAggregationProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortAggregationProperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1134,7 +1134,7 @@ export class PortAggregationProperties extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_aggregation_properties port_aggregation_properties} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.5/docs/resources/port_aggregation_properties port_aggregation_properties} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1145,8 +1145,8 @@ export class PortAggregationProperties extends cdktf.TerraformResource {
       terraformResourceType: 'port_aggregation_properties',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.4',
-        providerVersionConstraint: '2.17.4'
+        providerVersion: '2.17.5',
+        providerVersionConstraint: '2.17.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

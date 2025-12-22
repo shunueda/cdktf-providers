@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#metadata DataK8STraefikIoIngressRouteV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#metadata DataK8STraefikIoIngressRouteV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoIngressRouteV1Alpha1ManifestMetadata;
   /**
   * IngressRouteSpec defines the desired state of IngressRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#spec DataK8STraefikIoIngressRouteV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#spec DataK8STraefikIoIngressRouteV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#annotations DataK8STraefikIoIngressRouteV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#annotations DataK8STraefikIoIngressRouteV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#labels DataK8STraefikIoIngressRouteV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#labels DataK8STraefikIoIngressRouteV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesMiddlewar
   /**
   * Name defines the name of the referenced Middleware resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Middleware resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -369,67 +369,67 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesH
   /**
   * FollowRedirects defines whether redirects should be followed during the health check calls. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#follow_redirects DataK8STraefikIoIngressRouteV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#follow_redirects DataK8STraefikIoIngressRouteV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Headers defines custom headers to be sent to the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#headers DataK8STraefikIoIngressRouteV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#headers DataK8STraefikIoIngressRouteV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Hostname defines the value of hostname in the Host header of the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#hostname DataK8STraefikIoIngressRouteV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#hostname DataK8STraefikIoIngressRouteV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Interval defines the frequency of the health check calls. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#interval DataK8STraefikIoIngressRouteV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#interval DataK8STraefikIoIngressRouteV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Method defines the healthcheck method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#method DataK8STraefikIoIngressRouteV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#method DataK8STraefikIoIngressRouteV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the health check mode. If defined to grpc, will use the gRPC health check protocol to probe the server. Default: http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#mode DataK8STraefikIoIngressRouteV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#mode DataK8STraefikIoIngressRouteV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Path defines the server URL path for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#path DataK8STraefikIoIngressRouteV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#path DataK8STraefikIoIngressRouteV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port defines the server URL port for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#port DataK8STraefikIoIngressRouteV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#port DataK8STraefikIoIngressRouteV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Scheme replaces the server URL scheme for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#scheme DataK8STraefikIoIngressRouteV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#scheme DataK8STraefikIoIngressRouteV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Status defines the expected HTTP status code of the response to the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#status DataK8STraefikIoIngressRouteV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#status DataK8STraefikIoIngressRouteV1Alpha1Manifest#status}
   */
   readonly status?: number;
   /**
   * Timeout defines the maximum duration Traefik will wait for a health check request before considering the server unhealthy. Default: 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#timeout DataK8STraefikIoIngressRouteV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#timeout DataK8STraefikIoIngressRouteV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -815,7 +815,7 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesR
   /**
   * FlushInterval defines the interval, in milliseconds, in between flushes to the client while copying the response body. A negative value means to flush immediately after each write to the client. This configuration is ignored when ReverseProxy recognizes a response as a streaming response; for such responses, writes are flushed to the client immediately. Default: 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#flush_interval DataK8STraefikIoIngressRouteV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#flush_interval DataK8STraefikIoIngressRouteV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
 }
@@ -911,31 +911,31 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesS
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#http_only DataK8STraefikIoIngressRouteV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#http_only DataK8STraefikIoIngressRouteV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#max_age DataK8STraefikIoIngressRouteV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#max_age DataK8STraefikIoIngressRouteV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#same_site DataK8STraefikIoIngressRouteV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#same_site DataK8STraefikIoIngressRouteV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#secure DataK8STraefikIoIngressRouteV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#secure DataK8STraefikIoIngressRouteV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -1147,7 +1147,7 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesS
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#cookie DataK8STraefikIoIngressRouteV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#cookie DataK8STraefikIoIngressRouteV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesStickyCookie;
 }
@@ -1243,85 +1243,85 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServices 
   /**
   * Healthcheck defines health checks for ExternalName services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#health_check DataK8STraefikIoIngressRouteV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#health_check DataK8STraefikIoIngressRouteV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesHealthCheck;
   /**
   * Kind defines the kind of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#kind DataK8STraefikIoIngressRouteV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#kind DataK8STraefikIoIngressRouteV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name defines the name of the referenced Kubernetes Service or TraefikService. The differentiation between the two is specified in the Kind field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service or TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#native_lb DataK8STraefikIoIngressRouteV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#native_lb DataK8STraefikIoIngressRouteV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#node_port_lb DataK8STraefikIoIngressRouteV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#node_port_lb DataK8STraefikIoIngressRouteV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * PassHostHeader defines whether the client Host header is forwarded to the upstream Kubernetes Service. By default, passHostHeader is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#pass_host_header DataK8STraefikIoIngressRouteV1Alpha1Manifest#pass_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#pass_host_header DataK8STraefikIoIngressRouteV1Alpha1Manifest#pass_host_header}
   */
   readonly passHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#port DataK8STraefikIoIngressRouteV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#port DataK8STraefikIoIngressRouteV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * ResponseForwarding defines how Traefik forwards the response from the upstream Kubernetes Service to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#response_forwarding DataK8STraefikIoIngressRouteV1Alpha1Manifest#response_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#response_forwarding DataK8STraefikIoIngressRouteV1Alpha1Manifest#response_forwarding}
   */
   readonly responseForwarding?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesResponseForwarding;
   /**
   * Scheme defines the scheme to use for the request to the upstream Kubernetes Service. It defaults to https when Kubernetes Service port is 443, http otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#scheme DataK8STraefikIoIngressRouteV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#scheme DataK8STraefikIoIngressRouteV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ServersTransport defines the name of ServersTransport resource to use. It allows to configure the transport between Traefik and your servers. Can only be used on a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#servers_transport DataK8STraefikIoIngressRouteV1Alpha1Manifest#servers_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#servers_transport DataK8STraefikIoIngressRouteV1Alpha1Manifest#servers_transport}
   */
   readonly serversTransport?: string;
   /**
   * Sticky defines the sticky sessions configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/services/#sticky-sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#sticky DataK8STraefikIoIngressRouteV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#sticky DataK8STraefikIoIngressRouteV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServicesSticky;
   /**
   * Strategy defines the load balancing strategy between the servers. RoundRobin is the only supported value at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#strategy DataK8STraefikIoIngressRouteV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#strategy DataK8STraefikIoIngressRouteV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Weight defines the weight and should only be specified when Name references a TraefikService object (and to be precise, one that embeds a Weighted Round Robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#weight DataK8STraefikIoIngressRouteV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#weight DataK8STraefikIoIngressRouteV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -1813,37 +1813,37 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutes {
   /**
   * Kind defines the kind of the route. Rule is the only supported kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#kind DataK8STraefikIoIngressRouteV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#kind DataK8STraefikIoIngressRouteV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Match defines the router's rule. More info: https://doc.traefik.io/traefik/v3.2/routing/routers/#rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#match DataK8STraefikIoIngressRouteV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#match DataK8STraefikIoIngressRouteV1Alpha1Manifest#match}
   */
   readonly match: string;
   /**
   * Middlewares defines the list of references to Middleware resources. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#kind-middleware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#middlewares DataK8STraefikIoIngressRouteV1Alpha1Manifest#middlewares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#middlewares DataK8STraefikIoIngressRouteV1Alpha1Manifest#middlewares}
   */
   readonly middlewares?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesMiddlewares[] | cdktf.IResolvable;
   /**
   * Priority defines the router's priority. More info: https://doc.traefik.io/traefik/v3.2/routing/routers/#priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#priority DataK8STraefikIoIngressRouteV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#priority DataK8STraefikIoIngressRouteV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * Services defines the list of Service. It can contain any combination of TraefikService and/or reference to a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#services DataK8STraefikIoIngressRouteV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#services DataK8STraefikIoIngressRouteV1Alpha1Manifest#services}
   */
   readonly services?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutesServices[] | cdktf.IResolvable;
   /**
   * Syntax defines the router's rule syntax. More info: https://doc.traefik.io/traefik/v3.2/routing/routers/#rulesyntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#syntax DataK8STraefikIoIngressRouteV1Alpha1Manifest#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#syntax DataK8STraefikIoIngressRouteV1Alpha1Manifest#syntax}
   */
   readonly syntax?: string;
 }
@@ -2100,13 +2100,13 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsDomains {
   /**
   * Main defines the main domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#main DataK8STraefikIoIngressRouteV1Alpha1Manifest#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#main DataK8STraefikIoIngressRouteV1Alpha1Manifest#main}
   */
   readonly main?: string;
   /**
   * SANs defines the subject alternative domain names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#sans DataK8STraefikIoIngressRouteV1Alpha1Manifest#sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#sans DataK8STraefikIoIngressRouteV1Alpha1Manifest#sans}
   */
   readonly sans?: string[];
 }
@@ -2253,13 +2253,13 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsOptions {
   /**
   * Name defines the name of the referenced TLSOption. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#kind-tlsoption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced TLSOption. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#kind-tlsoption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2381,13 +2381,13 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsStore {
   /**
   * Name defines the name of the referenced TLSStore. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#kind-tlsstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#name DataK8STraefikIoIngressRouteV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced TLSStore. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#kind-tlsstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2509,31 +2509,31 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTls {
   /**
   * CertResolver defines the name of the certificate resolver to use. Cert resolvers have to be configured in the static configuration. More info: https://doc.traefik.io/traefik/v3.2/https/acme/#certificate-resolvers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#cert_resolver DataK8STraefikIoIngressRouteV1Alpha1Manifest#cert_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#cert_resolver DataK8STraefikIoIngressRouteV1Alpha1Manifest#cert_resolver}
   */
   readonly certResolver?: string;
   /**
   * Domains defines the list of domains that will be used to issue certificates. More info: https://doc.traefik.io/traefik/v3.2/routing/routers/#domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#domains DataK8STraefikIoIngressRouteV1Alpha1Manifest#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#domains DataK8STraefikIoIngressRouteV1Alpha1Manifest#domains}
   */
   readonly domains?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsDomains[] | cdktf.IResolvable;
   /**
   * Options defines the reference to a TLSOption, that specifies the parameters of the TLS connection. If not defined, the 'default' TLSOption is used. More info: https://doc.traefik.io/traefik/v3.2/https/tls/#tls-options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#options DataK8STraefikIoIngressRouteV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#options DataK8STraefikIoIngressRouteV1Alpha1Manifest#options}
   */
   readonly options?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsOptions;
   /**
   * SecretName is the name of the referenced Kubernetes Secret to specify the certificate details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#secret_name DataK8STraefikIoIngressRouteV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#secret_name DataK8STraefikIoIngressRouteV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * Store defines the reference to the TLSStore, that will be used to store certificates. Please note that only 'default' TLSStore can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#store DataK8STraefikIoIngressRouteV1Alpha1Manifest#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#store DataK8STraefikIoIngressRouteV1Alpha1Manifest#store}
   */
   readonly store?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTlsStore;
 }
@@ -2745,19 +2745,19 @@ export interface DataK8STraefikIoIngressRouteV1Alpha1ManifestSpec {
   /**
   * EntryPoints defines the list of entry point names to bind to. Entry points have to be configured in the static configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/entrypoints/ Default: all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#entry_points DataK8STraefikIoIngressRouteV1Alpha1Manifest#entry_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#entry_points DataK8STraefikIoIngressRouteV1Alpha1Manifest#entry_points}
   */
   readonly entryPoints?: string[];
   /**
   * Routes defines the list of routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#routes DataK8STraefikIoIngressRouteV1Alpha1Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#routes DataK8STraefikIoIngressRouteV1Alpha1Manifest#routes}
   */
   readonly routes: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecRoutes[] | cdktf.IResolvable;
   /**
   * TLS defines the TLS configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/routers/#tls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#tls DataK8STraefikIoIngressRouteV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#tls DataK8STraefikIoIngressRouteV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecTls;
 }
@@ -2906,7 +2906,7 @@ export class DataK8STraefikIoIngressRouteV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest k8s_traefik_io_ingress_route_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest k8s_traefik_io_ingress_route_v1alpha1_manifest}
 */
 export class DataK8STraefikIoIngressRouteV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2922,7 +2922,7 @@ export class DataK8STraefikIoIngressRouteV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8STraefikIoIngressRouteV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoIngressRouteV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoIngressRouteV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoIngressRouteV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoIngressRouteV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2934,7 +2934,7 @@ export class DataK8STraefikIoIngressRouteV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest k8s_traefik_io_ingress_route_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/traefik_io_ingress_route_v1alpha1_manifest k8s_traefik_io_ingress_route_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2945,8 +2945,8 @@ export class DataK8STraefikIoIngressRouteV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_traefik_io_ingress_route_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

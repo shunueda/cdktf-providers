@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRediscloudEssentialsSubscriptionConfig extends cdktf.Terraf
   /**
   * The subscription's id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription#id DataRediscloudEssentialsSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription#id DataRediscloudEssentialsSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataRediscloudEssentialsSubscriptionConfig extends cdktf.Terraf
   /**
   * A meaningful name to identify the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription#name DataRediscloudEssentialsSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription#name DataRediscloudEssentialsSubscription#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription rediscloud_essentials_subscription}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription rediscloud_essentials_subscription}
 */
 export class DataRediscloudEssentialsSubscription extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataRediscloudEssentialsSubscription extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataRediscloudEssentialsSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudEssentialsSubscription to import
-  * @param importFromId The id of the existing DataRediscloudEssentialsSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudEssentialsSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudEssentialsSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataRediscloudEssentialsSubscription extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_subscription rediscloud_essentials_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/essentials_subscription rediscloud_essentials_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataRediscloudEssentialsSubscription extends cdktf.TerraformDataSou
       terraformResourceType: 'rediscloud_essentials_subscription',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#metadata DataK8SMattermostComClusterInstallationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#metadata DataK8SMattermostComClusterInstallationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMattermostComClusterInstallationV1Alpha1ManifestMetadata;
   /**
   * Specification of the desired behavior of the Mattermost cluster. More info: https://github.com/kubernetes/community/blob/master/contributors/devel/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#spec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#spec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_fields DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_fields DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preference DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preference DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_fields DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_fields DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_selector_terms DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_selector_terms DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity_term DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity_term DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity_term DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity_term DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#weight DataK8SMattermostComClusterInstallationV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#operator DataK8SMattermostComClusterInstallationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#values DataK8SMattermostComClusterInstallationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_expressions DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#match_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#label_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespace_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#namespaces DataK8SMattermostComClusterInstallationV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#topology_key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMattermostComClusterInstallationV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffi
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_anti_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#pod_anti_affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5664,29 +5664,29 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlue
   /**
   * Image defines the base Docker image that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * IngressName defines the ingress name that will be used by the deployment. This option is not used for Canary builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
   */
   readonly ingressName?: string;
   /**
   * Name defines the name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Version defines the Docker image version that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -5898,29 +5898,29 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlue
   /**
   * Image defines the base Docker image that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * IngressName defines the ingress name that will be used by the deployment. This option is not used for Canary builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
   */
   readonly ingressName?: string;
   /**
   * Name defines the name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Version defines the Docker image version that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -6132,25 +6132,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlue
   /**
   * Blue defines the blue deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#blue DataK8SMattermostComClusterInstallationV1Alpha1Manifest#blue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#blue DataK8SMattermostComClusterInstallationV1Alpha1Manifest#blue}
   */
   readonly blue?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlueGreenBlue;
   /**
   * Enable defines if BlueGreen deployment will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#enable DataK8SMattermostComClusterInstallationV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#enable DataK8SMattermostComClusterInstallationV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Green defines the green deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#green DataK8SMattermostComClusterInstallationV1Alpha1Manifest#green}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#green DataK8SMattermostComClusterInstallationV1Alpha1Manifest#green}
   */
   readonly green?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlueGreenGreen;
   /**
   * ProductionDeployment defines if the current production is blue or green.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#production_deployment DataK8SMattermostComClusterInstallationV1Alpha1Manifest#production_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#production_deployment DataK8SMattermostComClusterInstallationV1Alpha1Manifest#production_deployment}
   */
   readonly productionDeployment?: string;
 }
@@ -6333,29 +6333,29 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecCana
   /**
   * Image defines the base Docker image that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * IngressName defines the ingress name that will be used by the deployment. This option is not used for Canary builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
   */
   readonly ingressName?: string;
   /**
   * Name defines the name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Version defines the Docker image version that will be used for the deployment. Required when BlueGreen or Canary is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -6567,13 +6567,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecCana
   /**
   * Deployment defines the canary deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#deployment DataK8SMattermostComClusterInstallationV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#deployment DataK8SMattermostComClusterInstallationV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecCanaryDeployment;
   /**
   * Enable defines if a canary build will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#enable DataK8SMattermostComClusterInstallationV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#enable DataK8SMattermostComClusterInstallationV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -6698,7 +6698,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecData
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6813,19 +6813,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecData
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecDatabaseResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6979,73 +6979,73 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecData
   /**
   * Defines the backup retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_remote_delete_policy DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_remote_delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_remote_delete_policy DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_remote_delete_policy}
   */
   readonly backupRemoteDeletePolicy?: string;
   /**
   * Defines the secret to be used when performing a database restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_restore_secret_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_restore_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_restore_secret_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_restore_secret_name}
   */
   readonly backupRestoreSecretName?: string;
   /**
   * Defines the interval for backups in cron expression format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_schedule DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_schedule DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * Defines the secret to be used for uploading/restoring backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_secret_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_secret_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_secret_name}
   */
   readonly backupSecretName?: string;
   /**
   * Defines the object storage url for uploading backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#backup_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#backup_url}
   */
   readonly backupUrl?: string;
   /**
   * Defines the AWS S3 bucket where the Database Backup is stored. The operator will download the file to restore the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#init_bucket_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#init_bucket_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#init_bucket_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#init_bucket_url}
   */
   readonly initBucketUrl?: string;
   /**
   * Defines the number of database replicas. For redundancy use at least 2 replicas. Setting this will override the number of replicas set by 'Size'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Defines the resource requests and limits for the database pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecDatabaseResources;
   /**
   * Optionally enter the name of an already-existing Secret for connecting to the database. This secret should be configured as follows: User-Managed Database - Key: DB_CONNECTION_STRING | Value: <FULL_DATABASE_CONNECTION_STRING> Operator-Managed Database - Key: ROOT_PASSWORD | Value: <ROOT_DATABASE_PASSWORD> - Key: USER | Value: <USER_NAME> - Key: PASSWORD | Value: <USER_PASSWORD> - Key: DATABASE Value: <DATABASE_NAME> Notes: If you define all secret values for both User-Managed and Operator-Managed database types, the User-Managed connection string will take precedence and the Operator-Managed values will be ignored. If the secret is left blank, the default behavior is to use an Operator-Managed database with strong randomly-generated database credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Defines the storage size for the database. ie 50Gi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#storage_size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#storage_size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#storage_size}
   */
   readonly storageSize?: string;
   /**
   * Defines the type of database to use for an Operator-Managed database. This value is ignored when using a User-Managed database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#type DataK8SMattermostComClusterInstallationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#type DataK8SMattermostComClusterInstallationV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Defines the cluster version for the database to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -7458,15 +7458,15 @@ export class DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecDatabase
 }
 export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecElasticSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#password DataK8SMattermostComClusterInstallationV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#password DataK8SMattermostComClusterInstallationV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#username DataK8SMattermostComClusterInstallationV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#username DataK8SMattermostComClusterInstallationV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -7620,7 +7620,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#command DataK8SMattermostComClusterInstallationV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#command DataK8SMattermostComClusterInstallationV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7716,13 +7716,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7844,13 +7844,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7991,31 +7991,31 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_headers DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_headers DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#scheme DataK8SMattermostComClusterInstallationV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#scheme DataK8SMattermostComClusterInstallationV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8224,13 +8224,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8352,61 +8352,61 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLive
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#exec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#exec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#failure_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#failure_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#grpc DataK8SMattermostComClusterInstallationV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#grpc DataK8SMattermostComClusterInstallationV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_get DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_get DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#initial_delay_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#initial_delay_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#success_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#success_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#tcp_socket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#tcp_socket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#termination_grace_period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#termination_grace_period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#timeout_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#timeout_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8763,19 +8763,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#optional DataK8SMattermostComClusterInstallationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#optional DataK8SMattermostComClusterInstallationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8926,13 +8926,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#api_version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#api_version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#field_path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#field_path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9054,19 +9054,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#container_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#container_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#divisor DataK8SMattermostComClusterInstallationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#divisor DataK8SMattermostComClusterInstallationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9217,19 +9217,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#key DataK8SMattermostComClusterInstallationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#optional DataK8SMattermostComClusterInstallationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#optional DataK8SMattermostComClusterInstallationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9380,25 +9380,25 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#config_map_key_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#config_map_key_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#field_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#field_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_field_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_field_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret_key_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret_key_ref DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnvValueFromSecretKeyRef;
 }
@@ -9581,19 +9581,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMatt
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value_from DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value_from DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnvValueFrom;
 }
@@ -9766,7 +9766,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMini
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9881,19 +9881,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMini
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMinioResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10047,37 +10047,37 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMini
   /**
   * Set to the bucket name of your external MinIO or S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#external_bucket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#external_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#external_bucket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#external_bucket}
   */
   readonly externalBucket?: string;
   /**
   * Set to use an external MinIO deployment or S3. Must also set 'Secret' and 'ExternalBucket'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#external_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#external_url DataK8SMattermostComClusterInstallationV1Alpha1Manifest#external_url}
   */
   readonly externalUrl?: string;
   /**
   * Defines the number of Minio replicas. Supply 1 to run Minio in standalone mode with no redundancy. Supply 4 or more to run Minio in distributed mode. Note that it is not possible to upgrade Minio from standalone to distributed mode. Setting this will override the number of replicas set by 'Size'. More info: https://docs.min.io/docs/distributed-minio-quickstart-guide.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Defines the resource requests and limits for the Minio pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMinioResources;
   /**
   * Optionally enter the name of already existing secret. Secret should have two values: 'accesskey' and 'secretkey'. Required when 'ExternalURL' is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Defines the storage size for Minio. ie 50Gi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#storage_size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#storage_size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#storage_size}
   */
   readonly storageSize?: string;
 }
@@ -10318,7 +10318,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#command DataK8SMattermostComClusterInstallationV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#command DataK8SMattermostComClusterInstallationV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10414,13 +10414,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10542,13 +10542,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#value DataK8SMattermostComClusterInstallationV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -10689,31 +10689,31 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_headers DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_headers DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#path DataK8SMattermostComClusterInstallationV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#scheme DataK8SMattermostComClusterInstallationV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#scheme DataK8SMattermostComClusterInstallationV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10922,13 +10922,13 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#host DataK8SMattermostComClusterInstallationV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#port DataK8SMattermostComClusterInstallationV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -11050,61 +11050,61 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecRead
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#exec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#exec DataK8SMattermostComClusterInstallationV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#failure_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#failure_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#grpc DataK8SMattermostComClusterInstallationV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#grpc DataK8SMattermostComClusterInstallationV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_get DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#http_get DataK8SMattermostComClusterInstallationV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#initial_delay_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#initial_delay_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#success_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#success_threshold DataK8SMattermostComClusterInstallationV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#tcp_socket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#tcp_socket DataK8SMattermostComClusterInstallationV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#termination_grace_period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#termination_grace_period_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#timeout_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#timeout_seconds DataK8SMattermostComClusterInstallationV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11461,7 +11461,7 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReso
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -11576,19 +11576,19 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReso
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#claims DataK8SMattermostComClusterInstallationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#limits DataK8SMattermostComClusterInstallationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#requests DataK8SMattermostComClusterInstallationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11742,135 +11742,135 @@ export interface DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpec {
   /**
   * If specified, affinity will define the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#affinity DataK8SMattermostComClusterInstallationV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecAffinity;
   /**
   * BlueGreen defines the configuration of BlueGreen deployment for a ClusterInstallation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#blue_green DataK8SMattermostComClusterInstallationV1Alpha1Manifest#blue_green}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#blue_green DataK8SMattermostComClusterInstallationV1Alpha1Manifest#blue_green}
   */
   readonly blueGreen?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecBlueGreen;
   /**
   * Canary defines the configuration of Canary deployment for a ClusterInstallation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#canary DataK8SMattermostComClusterInstallationV1Alpha1Manifest#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#canary DataK8SMattermostComClusterInstallationV1Alpha1Manifest#canary}
   */
   readonly canary?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecCanary;
   /**
   * Database defines the database configuration for a ClusterInstallation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#database DataK8SMattermostComClusterInstallationV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#database DataK8SMattermostComClusterInstallationV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecDatabase;
   /**
   * ElasticSearch defines the ElasticSearch configuration for a ClusterInstallation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#elastic_search DataK8SMattermostComClusterInstallationV1Alpha1Manifest#elastic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#elastic_search DataK8SMattermostComClusterInstallationV1Alpha1Manifest#elastic_search}
   */
   readonly elasticSearch?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecElasticSearch;
   /**
   * Image defines the ClusterInstallation Docker image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Specify deployment pull policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image_pull_policy DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#image_pull_policy DataK8SMattermostComClusterInstallationV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_annotations}
   */
   readonly ingressAnnotations?: { [key: string]: string };
   /**
   * IngressName defines the name to be used when creating the ingress rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#ingress_name DataK8SMattermostComClusterInstallationV1Alpha1Manifest#ingress_name}
   */
   readonly ingressName: string;
   /**
   * Defines the probe to check if the application is up and running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#liveness_probe DataK8SMattermostComClusterInstallationV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#liveness_probe DataK8SMattermostComClusterInstallationV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecLivenessProbe;
   /**
   * Optional environment variables to set in the Mattermost application pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#mattermost_env DataK8SMattermostComClusterInstallationV1Alpha1Manifest#mattermost_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#mattermost_env DataK8SMattermostComClusterInstallationV1Alpha1Manifest#mattermost_env}
   */
   readonly mattermostEnv?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMattermostEnv[] | cdktf.IResolvable;
   /**
   * Secret that contains the mattermost license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#mattermost_license_secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#mattermost_license_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#mattermost_license_secret DataK8SMattermostComClusterInstallationV1Alpha1Manifest#mattermost_license_secret}
   */
   readonly mattermostLicenseSecret?: string;
   /**
   * Migrate specifies that the ClusterInstallation CR should be migrated to the Mattermost CR. CAUTION: Some features like BlueGreen or Canary are not supported with a new Custom Resource therefore migration should be performed with extra caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#migrate DataK8SMattermostComClusterInstallationV1Alpha1Manifest#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#migrate DataK8SMattermostComClusterInstallationV1Alpha1Manifest#migrate}
   */
   readonly migrate?: boolean | cdktf.IResolvable;
   /**
   * Minio defines the configuration of Minio for a ClusterInstallation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#minio DataK8SMattermostComClusterInstallationV1Alpha1Manifest#minio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#minio DataK8SMattermostComClusterInstallationV1Alpha1Manifest#minio}
   */
   readonly minio?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecMinio;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#node_selector DataK8SMattermostComClusterInstallationV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Defines the probe to check if the application is ready to accept traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#readiness_probe DataK8SMattermostComClusterInstallationV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#readiness_probe DataK8SMattermostComClusterInstallationV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecReadinessProbe;
   /**
   * Replicas defines the number of replicas to use for the Mattermost app servers. Setting this will override the number of replicas set by 'Size'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#replicas DataK8SMattermostComClusterInstallationV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resource_labels DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Defines the resource requests and limits for the Mattermost app server pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#resources DataK8SMattermostComClusterInstallationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service_annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#service_annotations DataK8SMattermostComClusterInstallationV1Alpha1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * Size defines the size of the ClusterInstallation. This is typically specified in number of users. This will override replica and resource requests/limits appropriately for the provided number of users. This is a write-only field - its value is erased after setting appropriate values of resources. Accepted values are: 100users, 1000users, 5000users, 10000users, 250000users. If replicas and resource requests/limits are not specified, and Size is not provided the configuration for 5000users will be applied. Setting 'Replicas', 'Resources', 'Minio.Replicas', 'Minio.Resource', 'Database.Replicas', or 'Database.Resources' will override the values set by Size. Setting new Size will override previous values regardless if set by Size or manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#size DataK8SMattermostComClusterInstallationV1Alpha1Manifest#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#use_ingress_tls DataK8SMattermostComClusterInstallationV1Alpha1Manifest#use_ingress_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#use_ingress_tls DataK8SMattermostComClusterInstallationV1Alpha1Manifest#use_ingress_tls}
   */
   readonly useIngressTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#use_service_load_balancer DataK8SMattermostComClusterInstallationV1Alpha1Manifest#use_service_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#use_service_load_balancer DataK8SMattermostComClusterInstallationV1Alpha1Manifest#use_service_load_balancer}
   */
   readonly useServiceLoadBalancer?: boolean | cdktf.IResolvable;
   /**
   * Version defines the ClusterInstallation Docker image version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#version DataK8SMattermostComClusterInstallationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -12628,7 +12628,7 @@ export class DataK8SMattermostComClusterInstallationV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest k8s_mattermost_com_cluster_installation_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest k8s_mattermost_com_cluster_installation_v1alpha1_manifest}
 */
 export class DataK8SMattermostComClusterInstallationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12644,7 +12644,7 @@ export class DataK8SMattermostComClusterInstallationV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SMattermostComClusterInstallationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMattermostComClusterInstallationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMattermostComClusterInstallationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMattermostComClusterInstallationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMattermostComClusterInstallationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12656,7 +12656,7 @@ export class DataK8SMattermostComClusterInstallationV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest k8s_mattermost_com_cluster_installation_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/mattermost_com_cluster_installation_v1alpha1_manifest k8s_mattermost_com_cluster_installation_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12667,8 +12667,8 @@ export class DataK8SMattermostComClusterInstallationV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_mattermost_com_cluster_installation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

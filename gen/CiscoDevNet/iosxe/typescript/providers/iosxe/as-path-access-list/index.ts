@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface AsPathAccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#device AsPathAccessList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#device AsPathAccessList#device}
   */
   readonly device?: string;
   /**
   * Specify community list to accept or deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#entries AsPathAccessList#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#entries AsPathAccessList#entries}
   */
   readonly entries?: AsPathAccessListEntries[] | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#name AsPathAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#name AsPathAccessList#name}
   */
   readonly name: number;
 }
@@ -32,11 +32,11 @@ export interface AsPathAccessListEntries {
   * 
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#action AsPathAccessList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#action AsPathAccessList#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#regex AsPathAccessList#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#regex AsPathAccessList#regex}
   */
   readonly regex: string;
 }
@@ -175,7 +175,7 @@ export class AsPathAccessListEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list iosxe_as_path_access_list}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list iosxe_as_path_access_list}
 */
 export class AsPathAccessList extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class AsPathAccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsPathAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsPathAccessList to import
-  * @param importFromId The id of the existing AsPathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsPathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsPathAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class AsPathAccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/as_path_access_list iosxe_as_path_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/as_path_access_list iosxe_as_path_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class AsPathAccessList extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_as_path_access_list',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

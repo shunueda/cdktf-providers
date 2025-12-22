@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#device RouteMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#device RouteMap#device}
   */
   readonly device?: string;
   /**
   * Sequence to insert to/delete from existing route-map entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#entries RouteMap#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#entries RouteMap#entries}
   */
   readonly entries?: RouteMapEntries[] | cdktf.IResolvable;
   /**
   * WORD;;Route map tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name: string;
 }
@@ -30,7 +30,7 @@ export interface RouteMapEntriesSetAsPathReplaceAs {
   /**
   * <1-65535>;;AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#as_number RouteMap#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#as_number RouteMap#as_number}
   */
   readonly asNumber: string;
 }
@@ -145,592 +145,592 @@ export interface RouteMapEntries {
   /**
   * Continue on a different entry within the route-map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#continue RouteMap#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#continue RouteMap#continue}
   */
   readonly continue?: boolean | cdktf.IResolvable;
   /**
   * Route-map entry sequence number
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#continue_sequence_number RouteMap#continue_sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#continue_sequence_number RouteMap#continue_sequence_number}
   */
   readonly continueSequenceNumber?: number;
   /**
   * Route-map comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#description RouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#description RouteMap#description}
   */
   readonly description?: string;
   /**
   * AS path access-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_as_paths RouteMap#match_as_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_as_paths RouteMap#match_as_paths}
   */
   readonly matchAsPaths?: number[];
   /**
   * AS path access-list (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_as_paths_legacy RouteMap#match_as_paths_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_as_paths_legacy RouteMap#match_as_paths_legacy}
   */
   readonly matchAsPathsLegacy?: number[];
   /**
   * Do exact matching of communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_community_list_exact_match RouteMap#match_community_list_exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_community_list_exact_match RouteMap#match_community_list_exact_match}
   */
   readonly matchCommunityListExactMatch?: boolean | cdktf.IResolvable;
   /**
   * Named Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_community_lists RouteMap#match_community_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_community_lists RouteMap#match_community_lists}
   */
   readonly matchCommunityLists?: string[];
   /**
   * Named Access List (OBSOLETE- please use community-list in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_community_lists_legacy RouteMap#match_community_lists_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_community_lists_legacy RouteMap#match_community_lists_legacy}
   */
   readonly matchCommunityListsLegacy?: string[];
   /**
   * Named Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_extcommunity_lists RouteMap#match_extcommunity_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_extcommunity_lists RouteMap#match_extcommunity_lists}
   */
   readonly matchExtcommunityLists?: string[];
   /**
   * Named Access List (OBSOLETE- please use extcommunity-list in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_extcommunity_lists_legacy RouteMap#match_extcommunity_lists_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_extcommunity_lists_legacy RouteMap#match_extcommunity_lists_legacy}
   */
   readonly matchExtcommunityListsLegacy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_interfaces RouteMap#match_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_interfaces RouteMap#match_interfaces}
   */
   readonly matchInterfaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ip_address_access_lists RouteMap#match_ip_address_access_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ip_address_access_lists RouteMap#match_ip_address_access_lists}
   */
   readonly matchIpAddressAccessLists?: string[];
   /**
   * Match entries of prefix-lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ip_address_prefix_lists RouteMap#match_ip_address_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ip_address_prefix_lists RouteMap#match_ip_address_prefix_lists}
   */
   readonly matchIpAddressPrefixLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ip_next_hop_access_lists RouteMap#match_ip_next_hop_access_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ip_next_hop_access_lists RouteMap#match_ip_next_hop_access_lists}
   */
   readonly matchIpNextHopAccessLists?: string[];
   /**
   * Match entries of prefix-lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ip_next_hop_prefix_lists RouteMap#match_ip_next_hop_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ip_next_hop_prefix_lists RouteMap#match_ip_next_hop_prefix_lists}
   */
   readonly matchIpNextHopPrefixLists?: string[];
   /**
   * IPv6 access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ipv6_address_access_lists RouteMap#match_ipv6_address_access_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ipv6_address_access_lists RouteMap#match_ipv6_address_access_lists}
   */
   readonly matchIpv6AddressAccessLists?: string;
   /**
   * IPv6 prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ipv6_address_prefix_lists RouteMap#match_ipv6_address_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ipv6_address_prefix_lists RouteMap#match_ipv6_address_prefix_lists}
   */
   readonly matchIpv6AddressPrefixLists?: string;
   /**
   * IPv6 access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ipv6_next_hop_access_lists RouteMap#match_ipv6_next_hop_access_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ipv6_next_hop_access_lists RouteMap#match_ipv6_next_hop_access_lists}
   */
   readonly matchIpv6NextHopAccessLists?: string;
   /**
   * IPv6 prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_ipv6_next_hop_prefix_lists RouteMap#match_ipv6_next_hop_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_ipv6_next_hop_prefix_lists RouteMap#match_ipv6_next_hop_prefix_lists}
   */
   readonly matchIpv6NextHopPrefixLists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_local_preferences RouteMap#match_local_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_local_preferences RouteMap#match_local_preferences}
   */
   readonly matchLocalPreferences?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_local_preferences_legacy RouteMap#match_local_preferences_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_local_preferences_legacy RouteMap#match_local_preferences_legacy}
   */
   readonly matchLocalPreferencesLegacy?: number[];
   /**
   * external route (BGP, EIGRP and OSPF type 1/2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_external RouteMap#match_route_type_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_external RouteMap#match_route_type_external}
   */
   readonly matchRouteTypeExternal?: boolean | cdktf.IResolvable;
   /**
   * OSPF external type 1 route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_external_type_1 RouteMap#match_route_type_external_type_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_external_type_1 RouteMap#match_route_type_external_type_1}
   */
   readonly matchRouteTypeExternalType1?: boolean | cdktf.IResolvable;
   /**
   * OSPF external type 2 route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_external_type_2 RouteMap#match_route_type_external_type_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_external_type_2 RouteMap#match_route_type_external_type_2}
   */
   readonly matchRouteTypeExternalType2?: boolean | cdktf.IResolvable;
   /**
   * internal route (including OSPF intra/inter area)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_internal RouteMap#match_route_type_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_internal RouteMap#match_route_type_internal}
   */
   readonly matchRouteTypeInternal?: boolean | cdktf.IResolvable;
   /**
   * IS-IS level-1 route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_level_1 RouteMap#match_route_type_level_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_level_1 RouteMap#match_route_type_level_1}
   */
   readonly matchRouteTypeLevel1?: boolean | cdktf.IResolvable;
   /**
   * IS-IS level-2 route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_level_2 RouteMap#match_route_type_level_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_level_2 RouteMap#match_route_type_level_2}
   */
   readonly matchRouteTypeLevel2?: boolean | cdktf.IResolvable;
   /**
   * locally generated route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_local RouteMap#match_route_type_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_local RouteMap#match_route_type_local}
   */
   readonly matchRouteTypeLocal?: boolean | cdktf.IResolvable;
   /**
   * locally generated route (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_route_type_local_legacy RouteMap#match_route_type_local_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_route_type_local_legacy RouteMap#match_route_type_local_legacy}
   */
   readonly matchRouteTypeLocalLegacy?: boolean | cdktf.IResolvable;
   /**
   * Border Gateway Protocol (BGP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_bgp RouteMap#match_source_protocol_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_bgp RouteMap#match_source_protocol_bgp}
   */
   readonly matchSourceProtocolBgp?: string[];
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_connected RouteMap#match_source_protocol_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_connected RouteMap#match_source_protocol_connected}
   */
   readonly matchSourceProtocolConnected?: boolean | cdktf.IResolvable;
   /**
   * Border Gateway Protocol (BGP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_eigrp RouteMap#match_source_protocol_eigrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_eigrp RouteMap#match_source_protocol_eigrp}
   */
   readonly matchSourceProtocolEigrp?: string[];
   /**
   * ISO IS-IS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_isis RouteMap#match_source_protocol_isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_isis RouteMap#match_source_protocol_isis}
   */
   readonly matchSourceProtocolIsis?: boolean | cdktf.IResolvable;
   /**
   * Locator ID Separation Protocol (LISP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_lisp RouteMap#match_source_protocol_lisp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_lisp RouteMap#match_source_protocol_lisp}
   */
   readonly matchSourceProtocolLisp?: boolean | cdktf.IResolvable;
   /**
   * Open Shortest Path First (OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_ospf RouteMap#match_source_protocol_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_ospf RouteMap#match_source_protocol_ospf}
   */
   readonly matchSourceProtocolOspf?: string[];
   /**
   * OSPFv3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_ospfv3 RouteMap#match_source_protocol_ospfv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_ospfv3 RouteMap#match_source_protocol_ospfv3}
   */
   readonly matchSourceProtocolOspfv3?: string[];
   /**
   * Routing Information Protocol (RIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_rip RouteMap#match_source_protocol_rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_rip RouteMap#match_source_protocol_rip}
   */
   readonly matchSourceProtocolRip?: boolean | cdktf.IResolvable;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_source_protocol_static RouteMap#match_source_protocol_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_source_protocol_static RouteMap#match_source_protocol_static}
   */
   readonly matchSourceProtocolStatic?: boolean | cdktf.IResolvable;
   /**
   * Tag value (DEPRECATED - please use tag-val)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_tags RouteMap#match_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_tags RouteMap#match_tags}
   */
   readonly matchTags?: number[];
   /**
   * tracking object
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#match_track RouteMap#match_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#match_track RouteMap#match_track}
   */
   readonly matchTrack?: number;
   /**
   * Route map permit/deny set operations
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#operation RouteMap#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#operation RouteMap#operation}
   */
   readonly operation?: string;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#seq RouteMap#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#seq RouteMap#seq}
   */
   readonly seq: number;
   /**
   * BGP AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_prepend_as RouteMap#set_as_path_prepend_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_prepend_as RouteMap#set_as_path_prepend_as}
   */
   readonly setAsPathPrependAs?: string;
   /**
   * <1-65535>;;AS number (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_prepend_as_legacy RouteMap#set_as_path_prepend_as_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_prepend_as_legacy RouteMap#set_as_path_prepend_as_legacy}
   */
   readonly setAsPathPrependAsLegacy?: string;
   /**
   * 
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_prepend_last_as RouteMap#set_as_path_prepend_last_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_prepend_last_as RouteMap#set_as_path_prepend_last_as}
   */
   readonly setAsPathPrependLastAs?: number;
   /**
   * 
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_prepend_last_as_legacy RouteMap#set_as_path_prepend_last_as_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_prepend_last_as_legacy RouteMap#set_as_path_prepend_last_as_legacy}
   */
   readonly setAsPathPrependLastAsLegacy?: number;
   /**
   * Replace each AS number in the AS-path with the local AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_replace_any RouteMap#set_as_path_replace_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_replace_any RouteMap#set_as_path_replace_any}
   */
   readonly setAsPathReplaceAny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_replace_as RouteMap#set_as_path_replace_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_replace_as RouteMap#set_as_path_replace_as}
   */
   readonly setAsPathReplaceAs?: RouteMapEntriesSetAsPathReplaceAs[] | cdktf.IResolvable;
   /**
   * Set the tag as an AS-path attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_tag RouteMap#set_as_path_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_tag RouteMap#set_as_path_tag}
   */
   readonly setAsPathTag?: boolean | cdktf.IResolvable;
   /**
   * Set the tag as an AS-path attribute (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_as_path_tag_legacy RouteMap#set_as_path_tag_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_as_path_tag_legacy RouteMap#set_as_path_tag_legacy}
   */
   readonly setAsPathTagLegacy?: boolean | cdktf.IResolvable;
   /**
   * BGP community value - can be a number (AA:NN format) or well-known value (internet, local-AS, no-advertise, no-export, gshut)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_communities RouteMap#set_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_communities RouteMap#set_communities}
   */
   readonly setCommunities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_communities_additive RouteMap#set_communities_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_communities_additive RouteMap#set_communities_additive}
   */
   readonly setCommunitiesAdditive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_communities_additive_legacy RouteMap#set_communities_additive_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_communities_additive_legacy RouteMap#set_communities_additive_legacy}
   */
   readonly setCommunitiesAdditiveLegacy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_communities_legacy RouteMap#set_communities_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_communities_legacy RouteMap#set_communities_legacy}
   */
   readonly setCommunitiesLegacy?: string[];
   /**
   * Delete matching communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_delete RouteMap#set_community_list_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_delete RouteMap#set_community_list_delete}
   */
   readonly setCommunityListDelete?: boolean | cdktf.IResolvable;
   /**
   * Delete matching communities (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_delete_legacy RouteMap#set_community_list_delete_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_delete_legacy RouteMap#set_community_list_delete_legacy}
   */
   readonly setCommunityListDeleteLegacy?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `100`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_expanded RouteMap#set_community_list_expanded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_expanded RouteMap#set_community_list_expanded}
   */
   readonly setCommunityListExpanded?: number;
   /**
   * 
   *   - Range: `100`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_expanded_legacy RouteMap#set_community_list_expanded_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_expanded_legacy RouteMap#set_community_list_expanded_legacy}
   */
   readonly setCommunityListExpandedLegacy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_name RouteMap#set_community_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_name RouteMap#set_community_list_name}
   */
   readonly setCommunityListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_name_legacy RouteMap#set_community_list_name_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_name_legacy RouteMap#set_community_list_name_legacy}
   */
   readonly setCommunityListNameLegacy?: string;
   /**
   * 
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_standard RouteMap#set_community_list_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_standard RouteMap#set_community_list_standard}
   */
   readonly setCommunityListStandard?: number;
   /**
   * 
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_list_standard_legacy RouteMap#set_community_list_standard_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_list_standard_legacy RouteMap#set_community_list_standard_legacy}
   */
   readonly setCommunityListStandardLegacy?: number;
   /**
   * No community attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_none RouteMap#set_community_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_none RouteMap#set_community_none}
   */
   readonly setCommunityNone?: boolean | cdktf.IResolvable;
   /**
   * No community attribute (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_community_none_legacy RouteMap#set_community_none_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_community_none_legacy RouteMap#set_community_none_legacy}
   */
   readonly setCommunityNoneLegacy?: boolean | cdktf.IResolvable;
   /**
   * SPAN source interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_default_interfaces RouteMap#set_default_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_default_interfaces RouteMap#set_default_interfaces}
   */
   readonly setDefaultInterfaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_rt RouteMap#set_extcomunity_rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_rt RouteMap#set_extcomunity_rt}
   */
   readonly setExtcomunityRt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_rt_legacy RouteMap#set_extcomunity_rt_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_rt_legacy RouteMap#set_extcomunity_rt_legacy}
   */
   readonly setExtcomunityRtLegacy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_soo RouteMap#set_extcomunity_soo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_soo RouteMap#set_extcomunity_soo}
   */
   readonly setExtcomunitySoo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_soo_legacy RouteMap#set_extcomunity_soo_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_soo_legacy RouteMap#set_extcomunity_soo_legacy}
   */
   readonly setExtcomunitySooLegacy?: string;
   /**
   *  VPN Distinguisher Extended Community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_vpn_distinguisher RouteMap#set_extcomunity_vpn_distinguisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_vpn_distinguisher RouteMap#set_extcomunity_vpn_distinguisher}
   */
   readonly setExtcomunityVpnDistinguisher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_vpn_distinguisher_additive RouteMap#set_extcomunity_vpn_distinguisher_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_vpn_distinguisher_additive RouteMap#set_extcomunity_vpn_distinguisher_additive}
   */
   readonly setExtcomunityVpnDistinguisherAdditive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_extcomunity_vpn_distinguisher_legacy RouteMap#set_extcomunity_vpn_distinguisher_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_extcomunity_vpn_distinguisher_legacy RouteMap#set_extcomunity_vpn_distinguisher_legacy}
   */
   readonly setExtcomunityVpnDistinguisherLegacy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_global RouteMap#set_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_global RouteMap#set_global}
   */
   readonly setGlobal?: boolean | cdktf.IResolvable;
   /**
   * Interface specific information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_interfaces RouteMap#set_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_interfaces RouteMap#set_interfaces}
   */
   readonly setInterfaces?: string[];
   /**
   * Specify prefix-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_address RouteMap#set_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_address RouteMap#set_ip_address}
   */
   readonly setIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_default_global_next_hop_address RouteMap#set_ip_default_global_next_hop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_default_global_next_hop_address RouteMap#set_ip_default_global_next_hop_address}
   */
   readonly setIpDefaultGlobalNextHopAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_default_next_hop_address RouteMap#set_ip_default_next_hop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_default_next_hop_address RouteMap#set_ip_default_next_hop_address}
   */
   readonly setIpDefaultNextHopAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_global_next_hop_address RouteMap#set_ip_global_next_hop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_global_next_hop_address RouteMap#set_ip_global_next_hop_address}
   */
   readonly setIpGlobalNextHopAddress?: string[];
   /**
   * IP address of next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_next_hop_address RouteMap#set_ip_next_hop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_next_hop_address RouteMap#set_ip_next_hop_address}
   */
   readonly setIpNextHopAddress?: string[];
   /**
   * Use self address (for BGP only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_next_hop_self RouteMap#set_ip_next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_next_hop_self RouteMap#set_ip_next_hop_self}
   */
   readonly setIpNextHopSelf?: boolean | cdktf.IResolvable;
   /**
   * Propagate next hop unchanged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_next_hop_unchanged RouteMap#set_ip_next_hop_unchanged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_next_hop_unchanged RouteMap#set_ip_next_hop_unchanged}
   */
   readonly setIpNextHopUnchanged?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `0`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ip_qos_group RouteMap#set_ip_qos_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ip_qos_group RouteMap#set_ip_qos_group}
   */
   readonly setIpQosGroup?: number;
   /**
   * IPv6 prefix-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ipv6_address RouteMap#set_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ipv6_address RouteMap#set_ipv6_address}
   */
   readonly setIpv6Address?: string[];
   /**
   * Next hop along path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ipv6_default_global_next_hop RouteMap#set_ipv6_default_global_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ipv6_default_global_next_hop RouteMap#set_ipv6_default_global_next_hop}
   */
   readonly setIpv6DefaultGlobalNextHop?: string;
   /**
   * Default next hop IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ipv6_default_next_hop RouteMap#set_ipv6_default_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ipv6_default_next_hop RouteMap#set_ipv6_default_next_hop}
   */
   readonly setIpv6DefaultNextHop?: string[];
   /**
   * Next hop IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_ipv6_next_hop RouteMap#set_ipv6_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_ipv6_next_hop RouteMap#set_ipv6_next_hop}
   */
   readonly setIpv6NextHop?: string[];
   /**
   * Import into a level-1 area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_level_1 RouteMap#set_level_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_level_1 RouteMap#set_level_1}
   */
   readonly setLevel1?: boolean | cdktf.IResolvable;
   /**
   * Import into level-1 and level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_level_1_2 RouteMap#set_level_1_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_level_1_2 RouteMap#set_level_1_2}
   */
   readonly setLevel12?: boolean | cdktf.IResolvable;
   /**
   * Import into level-2 sub-domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_level_2 RouteMap#set_level_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_level_2 RouteMap#set_level_2}
   */
   readonly setLevel2?: boolean | cdktf.IResolvable;
   /**
   * Preference value
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_local_preference RouteMap#set_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_local_preference RouteMap#set_local_preference}
   */
   readonly setLocalPreference?: number;
   /**
   * Preference value (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_local_preference_legacy RouteMap#set_local_preference_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_local_preference_legacy RouteMap#set_local_preference_legacy}
   */
   readonly setLocalPreferenceLegacy?: number;
   /**
   * +/-<metric>;;Add or subtract metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_change RouteMap#set_metric_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_change RouteMap#set_metric_change}
   */
   readonly setMetricChange?: string;
   /**
   * EIGRP delay metric, in 10 microsecond units
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_delay RouteMap#set_metric_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_delay RouteMap#set_metric_delay}
   */
   readonly setMetricDelay?: string;
   /**
   * EIGRP Effective bandwidth metric (Loading) where 255 is 100% loaded
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_loading RouteMap#set_metric_loading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_loading RouteMap#set_metric_loading}
   */
   readonly setMetricLoading?: number;
   /**
   * EIGRP MTU of the path
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_mtu RouteMap#set_metric_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_mtu RouteMap#set_metric_mtu}
   */
   readonly setMetricMtu?: number;
   /**
   * EIGRP reliability metric where 255 is 100% reliable
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_reliability RouteMap#set_metric_reliability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_reliability RouteMap#set_metric_reliability}
   */
   readonly setMetricReliability?: number;
   /**
   * Type of metric for destination routing protocol
   *   - Choices: `external`, `internal`, `type-1`, `type-2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_type RouteMap#set_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_type RouteMap#set_metric_type}
   */
   readonly setMetricType?: string;
   /**
   * Metric value or Bandwidth in Kbits per second
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_metric_value RouteMap#set_metric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_metric_value RouteMap#set_metric_value}
   */
   readonly setMetricValue?: number;
   /**
   * Tag value (DEPRECATED - please use tag-val)
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_tag RouteMap#set_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_tag RouteMap#set_tag}
   */
   readonly setTag?: number;
   /**
   * VPN Routing/Forwarding instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_vrf RouteMap#set_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_vrf RouteMap#set_vrf}
   */
   readonly setVrf?: string;
   /**
   * BGP weight for routing table
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_weight RouteMap#set_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_weight RouteMap#set_weight}
   */
   readonly setWeight?: number;
   /**
   * BGP weight for routing table (OBSOLETE - please use route-map configuration in Cisco-IOS-XE-bgp.yang)
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#set_weight_legacy RouteMap#set_weight_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#set_weight_legacy RouteMap#set_weight_legacy}
   */
   readonly setWeightLegacy?: number;
 }
@@ -3772,7 +3772,7 @@ export class RouteMapEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map iosxe_route_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map iosxe_route_map}
 */
 export class RouteMap extends cdktf.TerraformResource {
 
@@ -3788,7 +3788,7 @@ export class RouteMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouteMap to import
-  * @param importFromId The id of the existing RouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3800,7 +3800,7 @@ export class RouteMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/route_map iosxe_route_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/route_map iosxe_route_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3811,8 +3811,8 @@ export class RouteMap extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_route_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

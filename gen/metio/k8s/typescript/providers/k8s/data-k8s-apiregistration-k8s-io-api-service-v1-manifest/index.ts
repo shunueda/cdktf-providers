@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApiregistrationK8SIoApiServiceV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#metadata DataK8SApiregistrationK8SIoApiServiceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#metadata DataK8SApiregistrationK8SIoApiServiceV1Manifest#metadata}
   */
   readonly metadata: DataK8SApiregistrationK8SIoApiServiceV1ManifestMetadata;
   /**
   * APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#spec DataK8SApiregistrationK8SIoApiServiceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#spec DataK8SApiregistrationK8SIoApiServiceV1Manifest#spec}
   */
   readonly spec?: DataK8SApiregistrationK8SIoApiServiceV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SApiregistrationK8SIoApiServiceV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#annotations DataK8SApiregistrationK8SIoApiServiceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#annotations DataK8SApiregistrationK8SIoApiServiceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#labels DataK8SApiregistrationK8SIoApiServiceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#labels DataK8SApiregistrationK8SIoApiServiceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#name DataK8SApiregistrationK8SIoApiServiceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#name DataK8SApiregistrationK8SIoApiServiceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SApiregistrationK8SIoApiServiceV1ManifestSpecService {
   /**
   * Name is the name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#name DataK8SApiregistrationK8SIoApiServiceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#name DataK8SApiregistrationK8SIoApiServiceV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace is the namespace of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#namespace DataK8SApiregistrationK8SIoApiServiceV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#namespace DataK8SApiregistrationK8SIoApiServiceV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. 'port' should be a valid port number (1-65535, inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#port DataK8SApiregistrationK8SIoApiServiceV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#port DataK8SApiregistrationK8SIoApiServiceV1Manifest#port}
   */
   readonly port?: number;
 }
@@ -353,43 +353,43 @@ export interface DataK8SApiregistrationK8SIoApiServiceV1ManifestSpec {
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate an API server's serving certificate. If unspecified, system trust roots on the apiserver are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#ca_bundle DataK8SApiregistrationK8SIoApiServiceV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#ca_bundle DataK8SApiregistrationK8SIoApiServiceV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Group is the API group name this server hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#group DataK8SApiregistrationK8SIoApiServiceV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#group DataK8SApiregistrationK8SIoApiServiceV1Manifest#group}
   */
   readonly group?: string;
   /**
   * GroupPriorityMinimum is the priority this group should have at least. Higher priority means that the group is preferred by clients over lower priority ones. Note that other versions of this group might specify even higher GroupPriorityMinimum values such that the whole group gets a higher priority. The primary sort is based on GroupPriorityMinimum, ordered highest number to lowest (20 before 10). The secondary sort is based on the alphabetical comparison of the name of the object. (v1.bar before v1.foo) We'd recommend something like: *.k8s.io (except extensions) at 18000 and PaaSes (OpenShift, Deis) are recommended to be in the 2000s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#group_priority_minimum DataK8SApiregistrationK8SIoApiServiceV1Manifest#group_priority_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#group_priority_minimum DataK8SApiregistrationK8SIoApiServiceV1Manifest#group_priority_minimum}
   */
   readonly groupPriorityMinimum: number;
   /**
   * InsecureSkipTLSVerify disables TLS certificate verification when communicating with this server. This is strongly discouraged. You should use the CABundle instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#insecure_skip_tls_verify DataK8SApiregistrationK8SIoApiServiceV1Manifest#insecure_skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#insecure_skip_tls_verify DataK8SApiregistrationK8SIoApiServiceV1Manifest#insecure_skip_tls_verify}
   */
   readonly insecureSkipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * ServiceReference holds a reference to Service.legacy.k8s.io
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#service DataK8SApiregistrationK8SIoApiServiceV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#service DataK8SApiregistrationK8SIoApiServiceV1Manifest#service}
   */
   readonly service?: DataK8SApiregistrationK8SIoApiServiceV1ManifestSpecService;
   /**
   * Version is the API version this server hosts. For example, 'v1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#version DataK8SApiregistrationK8SIoApiServiceV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#version DataK8SApiregistrationK8SIoApiServiceV1Manifest#version}
   */
   readonly version?: string;
   /**
   * VersionPriority controls the ordering of this API version inside of its group. Must be greater than zero. The primary sort is based on VersionPriority, ordered highest to lowest (20 before 10). Since it's inside of a group, the number can be small, probably in the 10s. In case of equal version priorities, the version string will be used to compute the order inside a group. If the version string is 'kube-like', it will sort above non 'kube-like' version strings, which are ordered lexicographically. 'Kube-like' versions start with a 'v', then are followed by a number (the major version), then optionally the string 'alpha' or 'beta' and another number (the minor version). These are sorted first by GA > beta > alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#version_priority DataK8SApiregistrationK8SIoApiServiceV1Manifest#version_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#version_priority DataK8SApiregistrationK8SIoApiServiceV1Manifest#version_priority}
   */
   readonly versionPriority: number;
 }
@@ -651,7 +651,7 @@ export class DataK8SApiregistrationK8SIoApiServiceV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest k8s_apiregistration_k8s_io_api_service_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest k8s_apiregistration_k8s_io_api_service_v1_manifest}
 */
 export class DataK8SApiregistrationK8SIoApiServiceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -667,7 +667,7 @@ export class DataK8SApiregistrationK8SIoApiServiceV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SApiregistrationK8SIoApiServiceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApiregistrationK8SIoApiServiceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SApiregistrationK8SIoApiServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApiregistrationK8SIoApiServiceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApiregistrationK8SIoApiServiceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -679,7 +679,7 @@ export class DataK8SApiregistrationK8SIoApiServiceV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest k8s_apiregistration_k8s_io_api_service_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apiregistration_k8s_io_api_service_v1_manifest k8s_apiregistration_k8s_io_api_service_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -690,8 +690,8 @@ export class DataK8SApiregistrationK8SIoApiServiceV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_apiregistration_k8s_io_api_service_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

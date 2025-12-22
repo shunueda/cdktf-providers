@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestMetadata;
   /**
   * VaultPKISecretSpec defines the desired state of VaultPKISecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDest
   /**
   * Name of the Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Text contains the Go text template format. The template references attributes from the data structure of the source secret. Refer to https://pkg.go.dev/text/template for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#text DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#text DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#text}
   */
   readonly text: string;
 }
@@ -347,13 +347,13 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDest
   /**
   * KeyOverride to the rendered template in the Destination secret. If Key is empty, then the Key from reference spec will be used. Set this to override the Key set from the reference spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#key_override DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#key_override DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#key_override}
   */
   readonly keyOverride?: string;
   /**
   * Name of the Template in SecretTransformationSpec.Templates. the rendered secret data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -497,31 +497,31 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDest
   /**
   * IgnoreExcludes controls whether to use the SecretTransformation's Excludes data key filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ignore_excludes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ignore_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ignore_excludes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ignore_excludes}
   */
   readonly ignoreExcludes?: boolean | cdktf.IResolvable;
   /**
   * IgnoreIncludes controls whether to use the SecretTransformation's Includes data key filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ignore_includes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ignore_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ignore_includes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ignore_includes}
   */
   readonly ignoreIncludes?: boolean | cdktf.IResolvable;
   /**
   * Name of the SecretTransformation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the SecretTransformation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * TemplateRefs map to a Template found in this TransformationRef. If empty, then all templates from the SecretTransformation will be rendered to the K8s Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#template_refs DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#template_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#template_refs DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#template_refs}
   */
   readonly templateRefs?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDestinationTransformationTransformationRefsTemplateRefs[] | cdktf.IResolvable;
 }
@@ -752,31 +752,31 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDest
   /**
   * ExcludeRaw data from the destination Secret. Exclusion policy can be set globally by including 'exclude-raw' in the '--global-transformation-options' command line flag. If set, the command line flag always takes precedence over this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#exclude_raw DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#exclude_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#exclude_raw DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#exclude_raw}
   */
   readonly excludeRaw?: boolean | cdktf.IResolvable;
   /**
   * Excludes contains regex patterns used to filter top-level source secret data fields for exclusion from the final K8s Secret data. These pattern filters are never applied to templated fields as defined in Templates. They are always applied before any inclusion patterns. To exclude all source secret data fields, you can configure the single pattern '.*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#excludes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#excludes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#excludes}
   */
   readonly excludes?: string[];
   /**
   * Includes contains regex patterns used to filter top-level source secret data fields for inclusion in the final K8s Secret data. These pattern filters are never applied to templated fields as defined in Templates. They are always applied last.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#includes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#includes DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#includes}
   */
   readonly includes?: string[];
   /**
   * Templates maps a template name to its Template. Templates are always included in the rendered K8s Secret, and take precedence over templates defined in a SecretTransformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#templates DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#templates DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#templates}
   */
   readonly templates?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDestinationTransformationTemplates;
   /**
   * TransformationRefs contain references to template configuration from SecretTransformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#transformation_refs DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#transformation_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#transformation_refs DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#transformation_refs}
   */
   readonly transformationRefs?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDestinationTransformationTransformationRefs[] | cdktf.IResolvable;
 }
@@ -988,43 +988,43 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDest
   /**
   * Annotations to apply to the Secret. Requires Create to be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Create the destination Secret. If the Secret already exists this should be set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#create DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#create DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * Labels to apply to the Secret. Requires Create to be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Overwrite the destination Secret if it exists and Create is true. This is useful when migrating to VSO from a previous secret deployment strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#overwrite DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#overwrite DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * Transformation provides configuration for transforming the secret data before it is stored in the Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#transformation DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#transformation DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#transformation}
   */
   readonly transformation?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDestinationTransformation;
   /**
   * Type of Kubernetes Secret. Requires Create to be set to true. Defaults to Opaque.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#type DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#type DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1291,13 +1291,13 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecRoll
   /**
   * Kind of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#kind DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#kind DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1438,127 +1438,127 @@ export interface DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpec {
   /**
   * AltNames to include in the request May contain both DNS names and email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#alt_names DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#alt_names DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#alt_names}
   */
   readonly altNames?: string[];
   /**
   * Clear the Kubernetes secret when the resource is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#clear DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#clear DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#clear}
   */
   readonly clear?: boolean | cdktf.IResolvable;
   /**
   * CommonName to include in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#common_name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#common_name DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
   * Destination provides configuration necessary for syncing the Vault secret to Kubernetes. If the type is set to 'kubernetes.io/tls', 'tls.key' will be set to the 'private_key' response from Vault, and 'tls.crt' will be set to 'certificate' + 'ca_chain' from the Vault response ('issuing_ca' is used when 'ca_chain' is empty). The 'remove_roots_from_chain=true' option is used with Vault to exclude the root CA from the Vault response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#destination DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#destination DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#destination}
   */
   readonly destination: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecDestination;
   /**
   * ExcludeCNFromSans from DNS or Email Subject Alternate Names. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#exclude_cn_from_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#exclude_cn_from_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#exclude_cn_from_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#exclude_cn_from_sans}
   */
   readonly excludeCnFromSans?: boolean | cdktf.IResolvable;
   /**
   * ExpiryOffset to use for computing when the certificate should be renewed. The rotation time will be difference between the expiration and the offset. Should be in duration notation e.g. 30s, 120s, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#expiry_offset DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#expiry_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#expiry_offset DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#expiry_offset}
   */
   readonly expiryOffset?: string;
   /**
   * Format for the certificate. Choices: 'pem', 'der', 'pem_bundle'. If 'pem_bundle', any private key and issuing cert will be appended to the certificate pem. If 'der', the value will be base64 encoded. Default: pem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#format DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#format DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#format}
   */
   readonly format?: string;
   /**
   * IPSans to include in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ip_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ip_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ip_sans}
   */
   readonly ipSans?: string[];
   /**
   * IssuerRef reference to an existing PKI issuer, either by Vault-generated identifier, the literal string default to refer to the currently configured default issuer, or the name assigned to an issuer. This parameter is part of the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#issuer_ref DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#issuer_ref DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#issuer_ref}
   */
   readonly issuerRef?: string;
   /**
   * Mount for the secret in Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#mount}
   */
   readonly mount: string;
   /**
   * Namespace of the secrets engine mount in Vault. If not set, the namespace that's part of VaultAuth resource will be inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NotAfter field of the certificate with specified date value. The value format should be given in UTC format YYYY-MM-ddTHH:MM:SSZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#not_after DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#not_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#not_after DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#not_after}
   */
   readonly notAfter?: string;
   /**
   * Requested other SANs, in an array with the format oid;type:value for each entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#other_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#other_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#other_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#other_sans}
   */
   readonly otherSans?: string[];
   /**
   * PrivateKeyFormat, generally the default will be controlled by the Format parameter as either base64-encoded DER or PEM-encoded DER. However, this can be set to 'pkcs8' to have the returned private key contain base64-encoded pkcs8 or PEM-encoded pkcs8 instead. Default: der
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#private_key_format DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#private_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#private_key_format DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#private_key_format}
   */
   readonly privateKeyFormat?: string;
   /**
   * Revoke the certificate when the resource is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#revoke DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#revoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#revoke DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#revoke}
   */
   readonly revoke?: boolean | cdktf.IResolvable;
   /**
   * Role in Vault to use when issuing TLS certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#role}
   */
   readonly role: string;
   /**
   * RolloutRestartTargets should be configured whenever the application(s) consuming the Vault secret does not support dynamically reloading a rotated secret. In that case one, or more RolloutRestartTarget(s) can be configured here. The Operator will trigger a 'rollout-restart' for each target whenever the Vault secret changes between reconciliation events. See RolloutRestartTarget for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#rollout_restart_targets DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#rollout_restart_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#rollout_restart_targets DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#rollout_restart_targets}
   */
   readonly rolloutRestartTargets?: DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecRolloutRestartTargets[] | cdktf.IResolvable;
   /**
   * TTL for the certificate; sets the expiration date. If not specified the Vault role's default, backend default, or system default TTL is used, in that order. Cannot be larger than the mount's max TTL. Note: this only has an effect when generating a CA cert or signing a CA cert, not when generating a CSR for an intermediate CA. Should be in duration notation e.g. 120s, 2h, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ttl DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#ttl DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#ttl}
   */
   readonly ttl?: string;
   /**
   * The requested URI SANs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#uri_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#uri_sans DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#uri_sans}
   */
   readonly uriSans?: string[];
   /**
   * User ID (OID 0.9.2342.19200300.100.1.1) Subject values to be placed on the signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#user_i_ds DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#user_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#user_i_ds DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#user_i_ds}
   */
   readonly userIDs?: string[];
   /**
   * VaultAuthRef to the VaultAuth resource, can be prefixed with a namespace, eg: 'namespaceA/vaultAuthRefB'. If no namespace prefix is provided it will default to the namespace of the VaultAuth CR. If no value is specified for VaultAuthRef the Operator will default to the 'default' VaultAuth, configured in the operator's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#vault_auth_ref DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#vault_auth_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#vault_auth_ref DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest#vault_auth_ref}
   */
   readonly vaultAuthRef?: string;
 }
@@ -2223,7 +2223,7 @@ export class DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest}
 */
 export class DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2239,7 +2239,7 @@ export class DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2251,7 +2251,7 @@ export class DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2262,8 +2262,8 @@ export class DataK8SSecretsHashicorpComVaultPkiSecretV1Beta1Manifest extends cdk
       terraformResourceType: 'k8s_secrets_hashicorp_com_vault_pki_secret_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

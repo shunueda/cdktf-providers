@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GcpVpcPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#cdc_id GcpVpcPeerV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#cdc_id GcpVpcPeerV2#cdc_id}
   */
   readonly cdcId: string;
   /**
   * GCP Project ID of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#data_centre_project_id GcpVpcPeerV2#data_centre_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#data_centre_project_id GcpVpcPeerV2#data_centre_project_id}
   */
   readonly dataCentreProjectId?: string;
   /**
   * Vpc Network Name of the Data Centre VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#data_centre_vpc_network_name GcpVpcPeerV2#data_centre_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#data_centre_vpc_network_name GcpVpcPeerV2#data_centre_vpc_network_name}
   */
   readonly dataCentreVpcNetworkName?: string;
   /**
   * Reason for Peering Connection Failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#failure_reason GcpVpcPeerV2#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#failure_reason GcpVpcPeerV2#failure_reason}
   */
   readonly failureReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#id GcpVpcPeerV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#id GcpVpcPeerV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface GcpVpcPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Peering Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#name GcpVpcPeerV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#name GcpVpcPeerV2#name}
   */
   readonly name?: string;
   /**
   * The project ID of the owner of the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#peer_project_id GcpVpcPeerV2#peer_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#peer_project_id GcpVpcPeerV2#peer_project_id}
   */
   readonly peerProjectId: string;
   /**
   * The subnets for the peering VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#peer_subnets GcpVpcPeerV2#peer_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#peer_subnets GcpVpcPeerV2#peer_subnets}
   */
   readonly peerSubnets: string[];
   /**
   * The name of the VPC Network you wish to peer to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#peer_vpc_network_name GcpVpcPeerV2#peer_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#peer_vpc_network_name GcpVpcPeerV2#peer_vpc_network_name}
   */
   readonly peerVpcNetworkName: string;
   /**
   * Status of the VPC Peering Connection. Values can be `GENESIS`, `PROVISIONING`, `FAILED`, `INACTIVE`, `ACTIVE` or `UNKNOWN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#status_code GcpVpcPeerV2#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#status_code GcpVpcPeerV2#status_code}
   */
   readonly statusCode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#timeouts GcpVpcPeerV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#timeouts GcpVpcPeerV2#timeouts}
   */
   readonly timeouts?: GcpVpcPeerV2Timeouts;
 }
 export interface GcpVpcPeerV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#default GcpVpcPeerV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#default GcpVpcPeerV2#default}
   */
   readonly default?: string;
 }
@@ -171,7 +171,7 @@ export class GcpVpcPeerV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2 instaclustr_gcp_vpc_peer_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2 instaclustr_gcp_vpc_peer_v2}
 */
 export class GcpVpcPeerV2 extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class GcpVpcPeerV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpVpcPeerV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpVpcPeerV2 to import
-  * @param importFromId The id of the existing GcpVpcPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpVpcPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpVpcPeerV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class GcpVpcPeerV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_vpc_peer_v2 instaclustr_gcp_vpc_peer_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/resources/gcp_vpc_peer_v2 instaclustr_gcp_vpc_peer_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class GcpVpcPeerV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_gcp_vpc_peer_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

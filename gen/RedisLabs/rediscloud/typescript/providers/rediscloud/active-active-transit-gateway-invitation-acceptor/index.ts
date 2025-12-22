@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ActiveActiveTransitGatewayInvitationAcceptorConfig extends cdkt
   /**
   * Action to perform: accept or reject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#action ActiveActiveTransitGatewayInvitationAcceptor#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#action ActiveActiveTransitGatewayInvitationAcceptor#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#id ActiveActiveTransitGatewayInvitationAcceptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#id ActiveActiveTransitGatewayInvitationAcceptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface ActiveActiveTransitGatewayInvitationAcceptorConfig extends cdkt
   /**
   * The region ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#region_id ActiveActiveTransitGatewayInvitationAcceptor#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#region_id ActiveActiveTransitGatewayInvitationAcceptor#region_id}
   */
   readonly regionId: number;
   /**
   * The ID of the Active-Active subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#subscription_id ActiveActiveTransitGatewayInvitationAcceptor#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#subscription_id ActiveActiveTransitGatewayInvitationAcceptor#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The Transit Gateway invitation ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#tgw_invitation_id ActiveActiveTransitGatewayInvitationAcceptor#tgw_invitation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#tgw_invitation_id ActiveActiveTransitGatewayInvitationAcceptor#tgw_invitation_id}
   */
   readonly tgwInvitationId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#timeouts ActiveActiveTransitGatewayInvitationAcceptor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#timeouts ActiveActiveTransitGatewayInvitationAcceptor#timeouts}
   */
   readonly timeouts?: ActiveActiveTransitGatewayInvitationAcceptorTimeouts;
 }
 export interface ActiveActiveTransitGatewayInvitationAcceptorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#create ActiveActiveTransitGatewayInvitationAcceptor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#create ActiveActiveTransitGatewayInvitationAcceptor#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#delete ActiveActiveTransitGatewayInvitationAcceptor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#delete ActiveActiveTransitGatewayInvitationAcceptor#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#read ActiveActiveTransitGatewayInvitationAcceptor#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#read ActiveActiveTransitGatewayInvitationAcceptor#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#update ActiveActiveTransitGatewayInvitationAcceptor#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#update ActiveActiveTransitGatewayInvitationAcceptor#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class ActiveActiveTransitGatewayInvitationAcceptorTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor rediscloud_active_active_transit_gateway_invitation_acceptor}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor rediscloud_active_active_transit_gateway_invitation_acceptor}
 */
 export class ActiveActiveTransitGatewayInvitationAcceptor extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class ActiveActiveTransitGatewayInvitationAcceptor extends cdktf.Terrafor
   * Generates CDKTF code for importing a ActiveActiveTransitGatewayInvitationAcceptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveActiveTransitGatewayInvitationAcceptor to import
-  * @param importFromId The id of the existing ActiveActiveTransitGatewayInvitationAcceptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveActiveTransitGatewayInvitationAcceptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveActiveTransitGatewayInvitationAcceptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class ActiveActiveTransitGatewayInvitationAcceptor extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_invitation_acceptor rediscloud_active_active_transit_gateway_invitation_acceptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/active_active_transit_gateway_invitation_acceptor rediscloud_active_active_transit_gateway_invitation_acceptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class ActiveActiveTransitGatewayInvitationAcceptor extends cdktf.Terrafor
       terraformResourceType: 'rediscloud_active_active_transit_gateway_invitation_acceptor',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

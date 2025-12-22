@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The secret content/value. This is write-only and will not be returned by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret#content Secret#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret#content Secret#content}
   */
   readonly content: string;
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret#name Secret#name}
   */
   readonly name: string;
   /**
   * The type of the secret. Valid values are: `api_key`, `password`, `basic_auth`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret#type Secret#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret#type Secret#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret groundcover_secret}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret groundcover_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/secret groundcover_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.2/docs/resources/secret groundcover_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_secret',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

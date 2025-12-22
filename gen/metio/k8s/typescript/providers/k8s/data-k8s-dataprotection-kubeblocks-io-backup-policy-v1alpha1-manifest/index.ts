@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestMetadata;
   /**
   * BackupPolicySpec defines the desired state of BackupPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#namespace DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#namespace DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#api_version DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#api_version DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#field_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#field_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#divisor DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#divisor DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resource DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resource DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#config_map_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#config_map_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#field_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#field_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resource_field_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resource_field_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnvValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#value DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#value DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#value_from DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#value_from DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnvValueFrom;
 }
@@ -1222,7 +1222,7 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1337,19 +1337,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#claims DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#claims DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsRuntimeSettingsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#limits DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#limits DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#requests DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#requests DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1503,7 +1503,7 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the resource required by container. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsRuntimeSettingsResources;
 }
@@ -1599,31 +1599,31 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the map key of the host in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
   */
   readonly hostKey?: string;
   /**
   * Specifies the map key of the password in the connection credential secret. This password will be saved in the backup annotation for full backup. You can use the environment variable DP_ENCRYPTION_KEY to specify encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * Specifies the map key of the port in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
   */
   readonly portKey?: string;
   /**
   * Refers to the Secret object that contains the connection credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Specifies the map key of the user in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -1832,13 +1832,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the name of container with the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
   */
   readonly portName?: string;
 }
@@ -1963,19 +1963,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2145,13 +2145,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetPodSelectorFallbackLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2276,19 +2276,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2458,25 +2458,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * fallbackLabelSelector is used to filter available pods when the labelSelector fails. This only takes effect when the 'strategy' field below is set to 'Any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
   */
   readonly fallbackLabelSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetPodSelectorFallbackLabelSelector;
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Specifies the strategy to select the target pod when multiple pods are selected. Valid values are: - 'Any': select any one pod that match the labelsSelector. - 'All': select all pods that match the labelsSelector. The backup data for the current pod will be stored in a subdirectory named after the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -2659,19 +2659,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2841,13 +2841,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2972,19 +2972,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * excluded is a slice of namespaced-scoped resource type names to exclude in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
   */
   readonly excluded?: string[];
   /**
   * included is a slice of namespaced-scoped resource type names to include in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
   */
   readonly included?: string[];
   /**
   * A metav1.LabelSelector to filter the target kubernetes resources that need to be backed up. If not set, will do not back up any kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetResourcesSelector;
 }
@@ -3138,37 +3138,37 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the connection credential to connect to the target database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
   */
   readonly connectionCredential?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetConnectionCredential;
   /**
   * Specifies the container port in the target pod. If not specified, the first container and its first port will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
   */
   readonly containerPort?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetContainerPort;
   /**
   * Specifies a mandatory and unique identifier for each target when using the 'targets' field. The backup data for the current target is stored in a uniquely named subdirectory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Used to find the target pod. The volumes of the target pod will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetPodSelector;
   /**
   * Specifies the kubernetes resources to back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetResources;
   /**
   * Specifies the service account to run the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -3409,37 +3409,37 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#mount_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#mount_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#mount_propagation DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#mount_propagation DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#read_only DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#read_only DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#sub_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#sub_path DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#sub_path_expr DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#sub_path_expr DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -3696,13 +3696,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the mount for the volumes specified in 'volumes' section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#volume_mounts DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#volume_mounts DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetVolumesVolumeMounts[] | cdktf.IResolvable;
   /**
   * Specifies the list of volumes of targeted application that should be mounted on the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -3827,31 +3827,31 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the map key of the host in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
   */
   readonly hostKey?: string;
   /**
   * Specifies the map key of the password in the connection credential secret. This password will be saved in the backup annotation for full backup. You can use the environment variable DP_ENCRYPTION_KEY to specify encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * Specifies the map key of the port in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
   */
   readonly portKey?: string;
   /**
   * Refers to the Secret object that contains the connection credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Specifies the map key of the user in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -4060,13 +4060,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the name of container with the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
   */
   readonly portName?: string;
 }
@@ -4191,19 +4191,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4373,13 +4373,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsPodSelectorFallbackLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4504,19 +4504,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4686,25 +4686,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * fallbackLabelSelector is used to filter available pods when the labelSelector fails. This only takes effect when the 'strategy' field below is set to 'Any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
   */
   readonly fallbackLabelSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsPodSelectorFallbackLabelSelector;
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Specifies the strategy to select the target pod when multiple pods are selected. Valid values are: - 'Any': select any one pod that match the labelsSelector. - 'All': select all pods that match the labelsSelector. The backup data for the current pod will be stored in a subdirectory named after the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -4887,19 +4887,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5069,13 +5069,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5200,19 +5200,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * excluded is a slice of namespaced-scoped resource type names to exclude in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
   */
   readonly excluded?: string[];
   /**
   * included is a slice of namespaced-scoped resource type names to include in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
   */
   readonly included?: string[];
   /**
   * A metav1.LabelSelector to filter the target kubernetes resources that need to be backed up. If not set, will do not back up any kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsResourcesSelector;
 }
@@ -5366,37 +5366,37 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the connection credential to connect to the target database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
   */
   readonly connectionCredential?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsConnectionCredential;
   /**
   * Specifies the container port in the target pod. If not specified, the first container and its first port will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
   */
   readonly containerPort?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsContainerPort;
   /**
   * Specifies a mandatory and unique identifier for each target when using the 'targets' field. The backup data for the current target is stored in a uniquely named subdirectory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Used to find the target pod. The volumes of the target pod will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsPodSelector;
   /**
   * Specifies the kubernetes resources to back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetsResources;
   /**
   * Specifies the service account to run the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -5659,49 +5659,49 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Refers to the ActionSet object that defines the backup actions. For volume snapshot backup, the actionSet is not required, the controller will use the CSI volume snapshotter to create the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#action_set_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#action_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#action_set_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#action_set_name}
   */
   readonly actionSetName?: string;
   /**
   * Specifies the environment variables for the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#env DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#env DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsEnv[] | cdktf.IResolvable;
   /**
   * The name of backup method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies runtime settings for the backup workload container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#runtime_settings DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#runtime_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#runtime_settings DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#runtime_settings}
   */
   readonly runtimeSettings?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsRuntimeSettings;
   /**
   * Specifies whether to take snapshots of persistent volumes. If true, the ActionSetName is not required, the controller will use the CSI volume snapshotter to create the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#snapshot_volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#snapshot_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#snapshot_volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#snapshot_volumes}
   */
   readonly snapshotVolumes?: boolean | cdktf.IResolvable;
   /**
   * Specifies the target information to back up, it will override the target in backup policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTarget;
   /**
   * Specifies which volumes from the target should be mounted in the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target_volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target_volumes DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target_volumes}
   */
   readonly targetVolumes?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargetVolumes;
   /**
   * Specifies multiple target information for backup operations. This includes details such as the target pod and cluster connection credentials. All specified targets will be backed up collectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#targets DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#targets DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#targets}
   */
   readonly targets?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethodsTargets[] | cdktf.IResolvable;
 }
@@ -6019,19 +6019,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#optional DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6182,13 +6182,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the encryption algorithm. Currently supported algorithms are: - AES-128-CFB - AES-192-CFB - AES-256-CFB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#algorithm DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#algorithm DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#algorithm}
   */
   readonly algorithm: string;
   /**
   * Selects the key of a secret in the current namespace, the value of the secret is used as the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pass_phrase_secret_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pass_phrase_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pass_phrase_secret_key_ref DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pass_phrase_secret_key_ref}
   */
   readonly passPhraseSecretKeyRef: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecEncryptionConfigPassPhraseSecretKeyRef;
 }
@@ -6307,31 +6307,31 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the map key of the host in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
   */
   readonly hostKey?: string;
   /**
   * Specifies the map key of the password in the connection credential secret. This password will be saved in the backup annotation for full backup. You can use the environment variable DP_ENCRYPTION_KEY to specify encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * Specifies the map key of the port in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
   */
   readonly portKey?: string;
   /**
   * Refers to the Secret object that contains the connection credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Specifies the map key of the user in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -6540,13 +6540,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the name of container with the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
   */
   readonly portName?: string;
 }
@@ -6671,19 +6671,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6853,13 +6853,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetPodSelectorFallbackLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6984,19 +6984,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7166,25 +7166,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * fallbackLabelSelector is used to filter available pods when the labelSelector fails. This only takes effect when the 'strategy' field below is set to 'Any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
   */
   readonly fallbackLabelSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetPodSelectorFallbackLabelSelector;
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Specifies the strategy to select the target pod when multiple pods are selected. Valid values are: - 'Any': select any one pod that match the labelsSelector. - 'All': select all pods that match the labelsSelector. The backup data for the current pod will be stored in a subdirectory named after the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -7367,19 +7367,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7549,13 +7549,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7680,19 +7680,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * excluded is a slice of namespaced-scoped resource type names to exclude in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
   */
   readonly excluded?: string[];
   /**
   * included is a slice of namespaced-scoped resource type names to include in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
   */
   readonly included?: string[];
   /**
   * A metav1.LabelSelector to filter the target kubernetes resources that need to be backed up. If not set, will do not back up any kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetResourcesSelector;
 }
@@ -7846,37 +7846,37 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the connection credential to connect to the target database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
   */
   readonly connectionCredential?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetConnectionCredential;
   /**
   * Specifies the container port in the target pod. If not specified, the first container and its first port will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
   */
   readonly containerPort?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetContainerPort;
   /**
   * Specifies a mandatory and unique identifier for each target when using the 'targets' field. The backup data for the current target is stored in a uniquely named subdirectory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Used to find the target pod. The volumes of the target pod will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetPodSelector;
   /**
   * Specifies the kubernetes resources to back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetResources;
   /**
   * Specifies the service account to run the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -8117,31 +8117,31 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the map key of the host in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#host_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#host_key}
   */
   readonly hostKey?: string;
   /**
   * Specifies the map key of the password in the connection credential secret. This password will be saved in the backup annotation for full backup. You can use the environment variable DP_ENCRYPTION_KEY to specify encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#password_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * Specifies the map key of the port in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_key}
   */
   readonly portKey?: string;
   /**
   * Refers to the Secret object that contains the connection credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#secret_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Specifies the map key of the user in the connection credential secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#username_key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -8350,13 +8350,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the name of container with the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#port_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#port_name}
   */
   readonly portName?: string;
 }
@@ -8481,19 +8481,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8663,13 +8663,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsPodSelectorFallbackLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8794,19 +8794,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8976,25 +8976,25 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * fallbackLabelSelector is used to filter available pods when the labelSelector fails. This only takes effect when the 'strategy' field below is set to 'Any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#fallback_label_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#fallback_label_selector}
   */
   readonly fallbackLabelSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsPodSelectorFallbackLabelSelector;
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Specifies the strategy to select the target pod when multiple pods are selected. Valid values are: - 'Any': select any one pod that match the labelsSelector. - 'All': select all pods that match the labelsSelector. The backup data for the current pod will be stored in a subdirectory named after the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#strategy DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -9177,19 +9177,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#key DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#operator DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#values DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9359,13 +9359,13 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_expressions DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#match_labels DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9490,19 +9490,19 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * excluded is a slice of namespaced-scoped resource type names to exclude in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#excluded DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#excluded}
   */
   readonly excluded?: string[];
   /**
   * included is a slice of namespaced-scoped resource type names to include in the kubernetes resources. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#included DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#included}
   */
   readonly included?: string[];
   /**
   * A metav1.LabelSelector to filter the target kubernetes resources that need to be backed up. If not set, will do not back up any kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsResourcesSelector;
 }
@@ -9656,37 +9656,37 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the connection credential to connect to the target database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#connection_credential DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#connection_credential}
   */
   readonly connectionCredential?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsConnectionCredential;
   /**
   * Specifies the container port in the target pod. If not specified, the first container and its first port will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#container_port DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#container_port}
   */
   readonly containerPort?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsContainerPort;
   /**
   * Specifies a mandatory and unique identifier for each target when using the 'targets' field. The backup data for the current target is stored in a uniquely named subdirectory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Used to find the target pod. The volumes of the target pod will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#pod_selector DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsPodSelector;
   /**
   * Specifies the kubernetes resources to back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#resources DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargetsResources;
   /**
   * Specifies the service account to run the backup workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#service_account_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -9949,49 +9949,49 @@ export interface DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSp
   /**
   * Specifies the number of retries before marking the backup as failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backoff_limit DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backoff_limit DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
   * Defines the backup methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backup_methods DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backup_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backup_methods DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backup_methods}
   */
   readonly backupMethods: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecBackupMethods[] | cdktf.IResolvable;
   /**
   * Specifies the name of BackupRepo where the backup data will be stored. If not set, data will be stored in the default backup repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backup_repo_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backup_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#backup_repo_name DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#backup_repo_name}
   */
   readonly backupRepoName?: string;
   /**
   * Specifies the parameters for encrypting backup data. Encryption will be disabled if the field is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#encryption_config DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#encryption_config DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#encryption_config}
   */
   readonly encryptionConfig?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecEncryptionConfig;
   /**
   * Specifies the directory inside the backup repository to store the backup. This path is relative to the path of the backup repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#path_prefix DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#path_prefix DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
   * Specifies the target information to back up, such as the target pod, the cluster connection credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#target DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#target}
   */
   readonly target?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTarget;
   /**
   * Specifies multiple target information for backup operations. This includes details such as the target pod and cluster connection credentials. All specified targets will be backed up collectively. optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#targets DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#targets DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#targets}
   */
   readonly targets?: DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecTargets[] | cdktf.IResolvable;
   /**
   * Specifies whether backup data should be stored in a Kopia repository. Data within the Kopia repository is both compressed and encrypted. Furthermore, data deduplication is implemented across various backups of the same cluster. This approach significantly reduces the actual storage usage, particularly for clusters with a low update frequency. NOTE: This feature should NOT be enabled when using KubeBlocks Community Edition, otherwise the backup will not be processed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#use_kopia DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#use_kopia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#use_kopia DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest#use_kopia}
   */
   readonly useKopia?: boolean | cdktf.IResolvable;
 }
@@ -10285,7 +10285,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest}
 */
 export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10301,7 +10301,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10313,7 +10313,7 @@ export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10324,8 +10324,8 @@ export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest exten
       terraformResourceType: 'k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

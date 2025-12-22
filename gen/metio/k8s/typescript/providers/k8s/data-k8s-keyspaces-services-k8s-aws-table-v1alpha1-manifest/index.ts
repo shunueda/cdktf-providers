@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#metadata DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#metadata DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestMetadata;
   /**
   * TableSpec defines the desired state of Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#spec DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#spec DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#annotations DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#annotations DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#labels DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#labels DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#namespace DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#namespace DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestMetadataOutputRe
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecCapacitySpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#read_capacity_units DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#throughput_mode DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#throughput_mode DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#throughput_mode}
   */
   readonly throughputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#write_capacity_units DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -377,7 +377,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecCapacitySpec
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecClientSideTimestamps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -471,7 +471,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecClientSideTi
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecComment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#message DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#message DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#message}
   */
   readonly message?: string;
 }
@@ -565,11 +565,11 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecCommentOutpu
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecEncryptionSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#kms_key_identifier DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#kms_key_identifier DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#type_ DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#type_ DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -692,7 +692,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecEncryptionSp
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecPointInTimeRecovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -786,11 +786,11 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecPointInTimeR
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionAllColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#type_ DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#type_ DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -935,11 +935,11 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefini
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionClusteringKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#order_by DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#order_by DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#order_by}
   */
   readonly orderBy?: string;
 }
@@ -1084,7 +1084,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefini
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionPartitionKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1200,7 +1200,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefini
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionStaticColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1316,19 +1316,19 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefini
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#all_columns DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#all_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#all_columns DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#all_columns}
   */
   readonly allColumns?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionAllColumns[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#clustering_keys DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#clustering_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#clustering_keys DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#clustering_keys}
   */
   readonly clusteringKeys?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionClusteringKeys[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#partition_keys DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#partition_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#partition_keys DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#partition_keys}
   */
   readonly partitionKeys?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionPartitionKeys[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#static_columns DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#static_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#static_columns DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#static_columns}
   */
   readonly staticColumns?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinitionStaticColumns[] | cdktf.IResolvable;
 }
@@ -1509,11 +1509,11 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefini
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#key DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#key DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#value DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#value DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1658,7 +1658,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecTagsList ext
 }
 export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecTtl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#status DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -1754,67 +1754,67 @@ export interface DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpec {
   /**
   * Specifies the read/write throughput capacity mode for the table. The options are: * throughputMode:PAY_PER_REQUEST and * throughputMode:PROVISIONED - Provisioned capacity mode requires readCapacityUnits and writeCapacityUnits as input. The default is throughput_mode:PAY_PER_REQUEST. For more information, see Read/write capacity modes (https://docs.aws.amazon.com/keyspaces/latest/devguide/ReadWriteCapacityMode.html) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#capacity_specification DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#capacity_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#capacity_specification DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#capacity_specification}
   */
   readonly capacitySpecification?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecCapacitySpecification;
   /**
   * Enables client-side timestamps for the table. By default, the setting is disabled. You can enable client-side timestamps with the following option: * status: 'enabled' Once client-side timestamps are enabled for a table, this setting cannot be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#client_side_timestamps DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#client_side_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#client_side_timestamps DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#client_side_timestamps}
   */
   readonly clientSideTimestamps?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecClientSideTimestamps;
   /**
   * This parameter allows to enter a description of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#comment DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#comment DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#comment}
   */
   readonly comment?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecComment;
   /**
   * The default Time to Live setting in seconds for the table. For more information, see Setting the default TTL value for a table (https://docs.aws.amazon.com/keyspaces/latest/devguide/TTL-how-it-works.html#ttl-howitworks_default_ttl) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#default_time_to_live DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#default_time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#default_time_to_live DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#default_time_to_live}
   */
   readonly defaultTimeToLive?: number;
   /**
   * Specifies how the encryption key for encryption at rest is managed for the table. You can choose one of the following KMS key (KMS key): * type:AWS_OWNED_KMS_KEY - This key is owned by Amazon Keyspaces. * type:CUSTOMER_MANAGED_KMS_KEY - This key is stored in your account and is created, owned, and managed by you. This option requires the kms_key_identifier of the KMS key in Amazon Resource Name (ARN) format as input. The default is type:AWS_OWNED_KMS_KEY. For more information, see Encryption at rest (https://docs.aws.amazon.com/keyspaces/latest/devguide/EncryptionAtRest.html) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#encryption_specification DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#encryption_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#encryption_specification DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#encryption_specification}
   */
   readonly encryptionSpecification?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecEncryptionSpecification;
   /**
   * The name of the keyspace that the table is going to be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#keyspace_name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#keyspace_name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#keyspace_name}
   */
   readonly keyspaceName: string;
   /**
   * Specifies if pointInTimeRecovery is enabled or disabled for the table. The options are: * status=ENABLED * status=DISABLED If it's not specified, the default is status=DISABLED. For more information, see Point-in-time recovery (https://docs.aws.amazon.com/keyspaces/latest/devguide/PointInTimeRecovery.html) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#point_in_time_recovery DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#point_in_time_recovery DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#point_in_time_recovery}
   */
   readonly pointInTimeRecovery?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecPointInTimeRecovery;
   /**
   * The schemaDefinition consists of the following parameters. For each column to be created: * name - The name of the column. * type - An Amazon Keyspaces data type. For more information, see Data types (https://docs.aws.amazon.com/keyspaces/latest/devguide/cql.elements.html#cql.data-types) in the Amazon Keyspaces Developer Guide. The primary key of the table consists of the following columns: * partitionKeys - The partition key can be a single column, or it can be a compound value composed of two or more columns. The partition key portion of the primary key is required and determines how Amazon Keyspaces stores your data. * name - The name of each partition key column. * clusteringKeys - The optional clustering column portion of your primary key determines how the data is clustered and sorted within each partition. * name - The name of the clustering column. * orderBy - Sets the ascendant (ASC) or descendant (DESC) order modifier. To define a column as static use staticColumns - Static columns store values that are shared by all rows in the same partition: * name - The name of the column. * type - An Amazon Keyspaces data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#schema_definition DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#schema_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#schema_definition DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#schema_definition}
   */
   readonly schemaDefinition: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecSchemaDefinition;
   /**
   * The name of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#table_name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#table_name DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#table_name}
   */
   readonly tableName: string;
   /**
   * A list of key-value pair tags to be attached to the resource. For more information, see Adding tags and labels to Amazon Keyspaces resources (https://docs.aws.amazon.com/keyspaces/latest/devguide/tagging-keyspaces.html) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#tags DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#tags DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Enables Time to Live custom settings for the table. The options are: * status:enabled * status:disabled The default is status:disabled. After ttl is enabled, you can't disable it for the table. For more information, see Expiring data by using Amazon Keyspaces Time to Live (TTL) (https://docs.aws.amazon.com/keyspaces/latest/devguide/TTL.html) in the Amazon Keyspaces Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#ttl DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#ttl DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest#ttl}
   */
   readonly ttl?: DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecTtl;
 }
@@ -2189,7 +2189,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest}
 */
 export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2205,7 +2205,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2217,7 +2217,7 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/keyspaces_services_k8s_aws_table_v1alpha1_manifest k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2228,8 +2228,8 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

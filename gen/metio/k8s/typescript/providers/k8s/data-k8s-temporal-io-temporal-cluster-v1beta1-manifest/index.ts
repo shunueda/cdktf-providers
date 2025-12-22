@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STemporalIoTemporalClusterV1Beta1ManifestMetadata;
   /**
   * Specification of the desired behavior of the Temporal cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,13 +350,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -481,13 +481,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -612,7 +612,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverridesDeploymentSpecTemplate;
 }
@@ -708,13 +708,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverridesDeploymentSpec;
 }
@@ -839,7 +839,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOv
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverridesDeployment;
 }
@@ -935,13 +935,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsRe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -1085,19 +1085,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsRe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1251,31 +1251,31 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintools {
   /**
   * Enabled defines if the operator should deploy the admin tools alongside the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image defines the temporal admin tools docker image the instance should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Overrides adds some overrides to the resources deployed for the ui.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsOverrides;
   /**
   * Compute Resources required by the ui. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintoolsResources;
   /**
   * Version defines the temporal admin tools version the instance should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1487,25 +1487,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalHist
   /**
   * EnableRead allows temporal to read from the archived Event History.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_read DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_read DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_read}
   */
   readonly enableRead: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the archival is enabled by default for all namespaces or for a particular namespace (depends if it's for a TemporalCluster or a TemporalNamespace).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path is ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Paused defines if the archival is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#paused DataK8STemporalIoTemporalClusterV1Beta1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#paused DataK8STemporalIoTemporalClusterV1Beta1Manifest#paused}
   */
   readonly paused: boolean | cdktf.IResolvable;
 }
@@ -1679,13 +1679,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * DirPermissions sets the directory permissions of the archive directory. It's recommend to leave it empty and use the default value of '0766' to avoid read/write issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#dir_permissions DataK8STemporalIoTemporalClusterV1Beta1Manifest#dir_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#dir_permissions DataK8STemporalIoTemporalClusterV1Beta1Manifest#dir_permissions}
   */
   readonly dirPermissions: string;
   /**
   * FilePermissions sets the file permissions of the archived files. It's recommend to leave it empty and use the default value of '0666' to avoid read/write issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#file_permissions DataK8STemporalIoTemporalClusterV1Beta1Manifest#file_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#file_permissions DataK8STemporalIoTemporalClusterV1Beta1Manifest#file_permissions}
   */
   readonly filePermissions: string;
 }
@@ -1804,19 +1804,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1967,7 +1967,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * SecretAccessKeyRef is the secret key selector containing Google Cloud Storage credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials_ref}
   */
   readonly credentialsRef: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderGcsCredentialsRef;
 }
@@ -2060,19 +2060,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2223,19 +2223,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2386,13 +2386,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * AccessKeyIDRef is the secret key selector containing AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#access_key_id_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#access_key_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#access_key_id_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#access_key_id_ref}
   */
   readonly accessKeyIdRef: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderS3CredentialsAccessKeyIdRef;
   /**
   * SecretAccessKeyRef is the secret key selector containing AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret_key_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret_key_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderS3CredentialsSecretKeyRef;
 }
@@ -2511,31 +2511,31 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * Use credentials if you want to use aws credentials from secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderS3Credentials;
   /**
   * Use Endpoint if you want to use s3-compatible object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoint DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoint DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Region is the aws s3 region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#region DataK8STemporalIoTemporalClusterV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#region DataK8STemporalIoTemporalClusterV1Beta1Manifest#region}
   */
   readonly region: string;
   /**
   * Use RoleName if you want the temporal service account to assume an AWS Identity and Access Management (IAM) role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#role_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#role_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#role_name}
   */
   readonly roleName?: string;
   /**
   * Use s3ForcePathStyle if you want to use s3 path style.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#s3_force_path_style DataK8STemporalIoTemporalClusterV1Beta1Manifest#s3_force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#s3_force_path_style DataK8STemporalIoTemporalClusterV1Beta1Manifest#s3_force_path_style}
   */
   readonly s3ForcePathStyle?: boolean | cdktf.IResolvable;
 }
@@ -2744,19 +2744,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProv
   /**
   * FilestoreArchiver is the file store archival provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#filestore DataK8STemporalIoTemporalClusterV1Beta1Manifest#filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#filestore DataK8STemporalIoTemporalClusterV1Beta1Manifest#filestore}
   */
   readonly filestore?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderFilestore;
   /**
   * GCSArchiver is the GCS archival provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcs DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcs DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcs}
   */
   readonly gcs?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderGcs;
   /**
   * S3Archiver is the S3 archival provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#s3 DataK8STemporalIoTemporalClusterV1Beta1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#s3 DataK8STemporalIoTemporalClusterV1Beta1Manifest#s3}
   */
   readonly s3?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProviderS3;
 }
@@ -2910,25 +2910,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalVisi
   /**
   * EnableRead allows temporal to read from the archived Event History.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_read DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_read DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_read}
   */
   readonly enableRead: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the archival is enabled by default for all namespaces or for a particular namespace (depends if it's for a TemporalCluster or a TemporalNamespace).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Path is ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Paused defines if the archival is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#paused DataK8STemporalIoTemporalClusterV1Beta1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#paused DataK8STemporalIoTemporalClusterV1Beta1Manifest#paused}
   */
   readonly paused: boolean | cdktf.IResolvable;
 }
@@ -3102,25 +3102,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchival {
   /**
   * Enabled defines if the archival is enabled for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * History is the default config for the history archival.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#history DataK8STemporalIoTemporalClusterV1Beta1Manifest#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#history DataK8STemporalIoTemporalClusterV1Beta1Manifest#history}
   */
   readonly history?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalHistory;
   /**
   * Provider defines the archival provider for the cluster. The same provider is used for both history and visibility, but some config can be changed using spec.archival.[history|visibility].config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#provider}
   */
   readonly provider?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalProvider;
   /**
   * Visibility is the default config for visibility archival.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
   */
   readonly visibility?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchivalVisibility;
 }
@@ -3303,13 +3303,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAuthorizatio
   /**
   * KeySourceURIs is a list of URIs where the JWT signing keys can be obtained. These URIs are used by the authorization system to fetch the public keys necessary for validating JWT tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_source_ur_is DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_source_ur_is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_source_ur_is DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_source_ur_is}
   */
   readonly keySourceUrIs?: string[];
   /**
   * RefreshInterval defines the time interval at which temporal should refresh the JWT signing keys from the specified URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#refresh_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#refresh_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
 }
@@ -3434,25 +3434,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAuthorizatio
   /**
   * Authorizer defines the authorization mechanism to be used. It can be left as an empty string to use a no-operation authorizer (noopAuthorizer), or set to 'default' to use the temporal's default authorizer (defaultAuthorizer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorizer DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorizer DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorizer}
   */
   readonly authorizer?: string;
   /**
   * ClaimMapper specifies the claim mapping mechanism used for handling JWT claims. Similar to the Authorizer, it can be left as an empty string to use a no-operation claim mapper (noopClaimMapper), or set to 'default' to use the default JWT claim mapper (defaultJWTClaimMapper).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claim_mapper DataK8STemporalIoTemporalClusterV1Beta1Manifest#claim_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claim_mapper DataK8STemporalIoTemporalClusterV1Beta1Manifest#claim_mapper}
   */
   readonly claimMapper?: string;
   /**
   * JWTKeyProvider specifies the signing key provider used for validating JWT tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#jwt_key_provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#jwt_key_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#jwt_key_provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#jwt_key_provider}
   */
   readonly jwtKeyProvider?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAuthorizationJwtKeyProvider;
   /**
   * PermissionsClaimName is the name of the claim within the JWT token that contains the user's permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#permissions_claim_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#permissions_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#permissions_claim_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#permissions_claim_name}
   */
   readonly permissionsClaimName?: string;
 }
@@ -3635,13 +3635,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecDynamicConfi
   /**
   * PollInterval defines how often the config should be updated by checking provided values. Defaults to 10s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#poll_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#poll_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#poll_interval}
   */
   readonly pollInterval?: string;
   /**
   * Values contains all dynamic config keys and their constrained values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#values DataK8STemporalIoTemporalClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#values DataK8STemporalIoTemporalClusterV1Beta1Manifest#values}
   */
   readonly values: { [key: string]: string };
 }
@@ -3763,7 +3763,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecImagePullSec
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3881,13 +3881,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecJobResources
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -4031,19 +4031,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecJobResources
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecJobResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4197,31 +4197,31 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecLog {
   /**
   * Development determines whether the logger is run in Development (== Test) or in Production mode. Default is Production. Production-stage disables panics from DPanic logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#development DataK8STemporalIoTemporalClusterV1Beta1Manifest#development}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#development DataK8STemporalIoTemporalClusterV1Beta1Manifest#development}
   */
   readonly development?: boolean | cdktf.IResolvable;
   /**
   * Format determines the format of each log file printed to the output. Use 'console' if you want stack traces to appear on multiple lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#format DataK8STemporalIoTemporalClusterV1Beta1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#format DataK8STemporalIoTemporalClusterV1Beta1Manifest#format}
   */
   readonly format?: string;
   /**
   * Level is the desired log level; see colocated zap_logger.go::parseZapLevel()
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#level DataK8STemporalIoTemporalClusterV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#level DataK8STemporalIoTemporalClusterV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * OutputFile is the path to the log output file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#output_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#output_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#output_file}
   */
   readonly outputFile?: string;
   /**
   * Stdout is true if the output needs to goto standard out; default is stderr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#stdout DataK8STemporalIoTemporalClusterV1Beta1Manifest#stdout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#stdout DataK8STemporalIoTemporalClusterV1Beta1Manifest#stdout}
   */
   readonly stdout?: boolean | cdktf.IResolvable;
 }
@@ -4433,31 +4433,31 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsCertific
   /**
   * ClientCertificates is the 'duration' (i.e. lifetime) of the client certificates. It defaults to 1 year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_certificates DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_certificates DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_certificates}
   */
   readonly clientCertificates?: string;
   /**
   * FrontendCertificate is the 'duration' (i.e. lifetime) of the frontend certificate. It defaults to 1 year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend_certificate}
   */
   readonly frontendCertificate?: string;
   /**
   * IntermediateCACertificates is the 'duration' (i.e. lifetime) of the intermediate CAs Certificates. It defaults to 5 years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#intermediate_c_as_certificates DataK8STemporalIoTemporalClusterV1Beta1Manifest#intermediate_c_as_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#intermediate_c_as_certificates DataK8STemporalIoTemporalClusterV1Beta1Manifest#intermediate_c_as_certificates}
   */
   readonly intermediateCAsCertificates?: string;
   /**
   * InternodeCertificate is the 'duration' (i.e. lifetime) of the internode certificate. It defaults to 1 year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internode_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#internode_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internode_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#internode_certificate}
   */
   readonly internodeCertificate?: string;
   /**
   * RootCACertificate is the 'duration' (i.e. lifetime) of the Root CA Certificate. It defaults to 10 years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#root_ca_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#root_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#root_ca_certificate DataK8STemporalIoTemporalClusterV1Beta1Manifest#root_ca_certificate}
   */
   readonly rootCaCertificate?: string;
 }
@@ -4669,13 +4669,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsFrontend
   /**
   * Enabled defines if the operator should enable mTLS for cluster's public endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ExtraDNSNames is a list of additional DNS names associated with the TemporalCluster. These DNS names can be used for accessing the TemporalCluster from external services. The DNS names specified here will be added to the TLS certificate for secure communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#extra_dns_names DataK8STemporalIoTemporalClusterV1Beta1Manifest#extra_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#extra_dns_names DataK8STemporalIoTemporalClusterV1Beta1Manifest#extra_dns_names}
   */
   readonly extraDnsNames?: string[];
 }
@@ -4800,7 +4800,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsInternod
   /**
   * Enabled defines if the operator should enable mTLS for network between cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4896,37 +4896,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTls {
   /**
   * CertificatesDuration allows configuration of maximum certificates lifetime. Useless if mTLS provider is not cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#certificates_duration DataK8STemporalIoTemporalClusterV1Beta1Manifest#certificates_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#certificates_duration DataK8STemporalIoTemporalClusterV1Beta1Manifest#certificates_duration}
   */
   readonly certificatesDuration?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsCertificatesDuration;
   /**
   * Frontend allows configuration of the frontend's public endpoint traffic encryption. Useless if mTLS provider is not cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend}
   */
   readonly frontend?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsFrontend;
   /**
   * Internode allows configuration of the internode traffic encryption. Useless if mTLS provider is not cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internode DataK8STemporalIoTemporalClusterV1Beta1Manifest#internode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internode DataK8STemporalIoTemporalClusterV1Beta1Manifest#internode}
   */
   readonly internode?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTlsInternode;
   /**
   * Provider defines the tool used to manage mTLS certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#provider DataK8STemporalIoTemporalClusterV1Beta1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * RefreshInterval defines interval between refreshes of certificates in the cluster components. Defaults to 1 hour. Useless if mTLS provider is not cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#refresh_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#refresh_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * RenewBefore is defines how long before the currently issued certificate's expiry cert-manager should renew the certificate. The default is 2/3 of the issued certificate's duration. Minimum accepted value is 5 minutes. Useless if mTLS provider is not cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#renew_before DataK8STemporalIoTemporalClusterV1Beta1Manifest#renew_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#renew_before DataK8STemporalIoTemporalClusterV1Beta1Manifest#renew_before}
   */
   readonly renewBefore?: string;
 }
@@ -5167,43 +5167,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -5495,7 +5495,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * When set to true, Prometheus attaches node metadata to the discovered targets. The Prometheus service account must have the 'list' and 'watch' permissions on the 'Nodes' objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#node DataK8STemporalIoTemporalClusterV1Beta1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#node DataK8STemporalIoTemporalClusterV1Beta1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
 }
@@ -5591,19 +5591,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5754,13 +5754,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#credentials DataK8STemporalIoTemporalClusterV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#type DataK8STemporalIoTemporalClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#type DataK8STemporalIoTemporalClusterV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5885,19 +5885,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6048,19 +6048,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6211,13 +6211,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password DataK8STemporalIoTemporalClusterV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password DataK8STemporalIoTemporalClusterV1Beta1Manifest#password}
   */
   readonly password?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
   */
   readonly username?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsBasicAuthUsername;
 }
@@ -6342,19 +6342,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6505,43 +6505,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -6833,19 +6833,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6996,19 +6996,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7159,13 +7159,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2ClientIdSecret;
 }
@@ -7290,19 +7290,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7453,19 +7453,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7616,19 +7616,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7779,13 +7779,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCaSecret;
 }
@@ -7910,19 +7910,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8073,19 +8073,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8236,13 +8236,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCertSecret;
 }
@@ -8367,19 +8367,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8530,43 +8530,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#insecure_skip_verify DataK8STemporalIoTemporalClusterV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#insecure_skip_verify DataK8STemporalIoTemporalClusterV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#min_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#min_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -8836,61 +8836,61 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_id DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_id DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#client_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#client_secret}
   */
   readonly clientSecret: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoint_params DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoint_params DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#no_proxy DataK8STemporalIoTemporalClusterV1Beta1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#no_proxy DataK8STemporalIoTemporalClusterV1Beta1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_connect_header DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_connect_header DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_from_environment DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_from_environment DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scopes DataK8STemporalIoTemporalClusterV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scopes DataK8STemporalIoTemporalClusterV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#token_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#token_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -9238,43 +9238,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#action DataK8STemporalIoTemporalClusterV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#modulus DataK8STemporalIoTemporalClusterV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#regex DataK8STemporalIoTemporalClusterV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replacement DataK8STemporalIoTemporalClusterV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#separator DataK8STemporalIoTemporalClusterV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#source_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -9566,19 +9566,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9729,19 +9729,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9892,13 +9892,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCaSecret;
 }
@@ -10023,19 +10023,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10186,19 +10186,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10349,13 +10349,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#config_map DataK8STemporalIoTemporalClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCertSecret;
 }
@@ -10480,19 +10480,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#optional DataK8STemporalIoTemporalClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10643,61 +10643,61 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCa;
   /**
   * Path to the CA cert in the Prometheus container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigCert;
   /**
   * Path to the client cert file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#insecure_skip_verify DataK8STemporalIoTemporalClusterV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#insecure_skip_verify DataK8STemporalIoTemporalClusterV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#min_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#min_version DataK8STemporalIoTemporalClusterV1Beta1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -11054,133 +11054,133 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * 'authorization' configures the Authorization header credentials to use when scraping the target. Cannot be set at the same time as 'basicAuth', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorization DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorization DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsAuthorization;
   /**
   * 'basicAuth' configures the Basic Authentication credentials to use when scraping the target. Cannot be set at the same time as 'authorization', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#basic_auth DataK8STemporalIoTemporalClusterV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#basic_auth DataK8STemporalIoTemporalClusterV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsBasicAuth;
   /**
   * File to read bearer token for scraping the target. Deprecated: use 'authorization' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#bearer_token_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#bearer_token_file DataK8STemporalIoTemporalClusterV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * 'bearerTokenSecret' specifies a key of a Secret containing the bearer token for scraping targets. The secret needs to be in the same namespace as the ServiceMonitor object and readable by the Prometheus Operator. Deprecated: use 'authorization' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#bearer_token_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#bearer_token_secret DataK8STemporalIoTemporalClusterV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsBearerTokenSecret;
   /**
   * 'enableHttp2' can be used to disable HTTP2 when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_http2 DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_http2 DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * When true, the pods which are not running (e.g. either in Failed or Succeeded state) are dropped during the target discovery. If unset, the filtering is enabled. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#filter_running DataK8STemporalIoTemporalClusterV1Beta1Manifest#filter_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#filter_running DataK8STemporalIoTemporalClusterV1Beta1Manifest#filter_running}
   */
   readonly filterRunning?: boolean | cdktf.IResolvable;
   /**
   * 'followRedirects' defines whether the scrape requests should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#follow_redirects DataK8STemporalIoTemporalClusterV1Beta1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#follow_redirects DataK8STemporalIoTemporalClusterV1Beta1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * When true, 'honorLabels' preserves the metric's labels when they collide with the target's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#honor_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#honor_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#honor_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#honor_labels}
   */
   readonly honorLabels?: boolean | cdktf.IResolvable;
   /**
   * 'honorTimestamps' controls whether Prometheus preserves the timestamps when exposed by the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#honor_timestamps DataK8STemporalIoTemporalClusterV1Beta1Manifest#honor_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#honor_timestamps DataK8STemporalIoTemporalClusterV1Beta1Manifest#honor_timestamps}
   */
   readonly honorTimestamps?: boolean | cdktf.IResolvable;
   /**
   * Interval at which Prometheus scrapes the metrics from the target. If empty, Prometheus uses the global scrape interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * 'metricRelabelings' configures the relabeling rules to apply to the samples before ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metric_relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#metric_relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metric_relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#metric_relabelings}
   */
   readonly metricRelabelings?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsMetricRelabelings[] | cdktf.IResolvable;
   /**
   * 'oauth2' configures the OAuth2 settings to use when scraping the target. It requires Prometheus >= 2.27.0. Cannot be set at the same time as 'authorization', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#oauth2 DataK8STemporalIoTemporalClusterV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#oauth2 DataK8STemporalIoTemporalClusterV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsOauth2;
   /**
   * params define optional HTTP URL parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#params DataK8STemporalIoTemporalClusterV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#params DataK8STemporalIoTemporalClusterV1Beta1Manifest#params}
   */
   readonly params?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * HTTP path from which to scrape for metrics. If empty, Prometheus uses the default value (e.g. '/metrics').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#path DataK8STemporalIoTemporalClusterV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name of the Service port which this endpoint refers to. It takes precedence over 'targetPort'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
   * 'proxyURL' configures the HTTP Proxy URL (e.g. 'http://proxyserver:2195') to go through when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#proxy_url DataK8STemporalIoTemporalClusterV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'relabelings' configures the relabeling rules to apply the target's metadata labels. The Operator automatically adds relabelings for a few standard Kubernetes fields. The original scrape job's name is available via the '__tmp_prometheus_job_name' label. More info: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#relabelings}
   */
   readonly relabelings?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsRelabelings[] | cdktf.IResolvable;
   /**
   * HTTP scheme to use for scraping. 'http' and 'https' are the expected values unless you rewrite the '__scheme__' label via relabeling. If empty, Prometheus uses the default value 'http'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scheme DataK8STemporalIoTemporalClusterV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scheme DataK8STemporalIoTemporalClusterV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Timeout after which Prometheus considers the scrape to be failed. If empty, Prometheus uses the global scrape timeout unless it is less than the target's scrape interval value in which the latter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
   /**
   * Name or number of the target port of the 'Pod' object behind the Service. The port must be specified with the container's port property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
   /**
   * TLS configuration to use when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpointsTlsConfig;
   /**
   * 'trackTimestampsStaleness' defines whether Prometheus tracks staleness of the metrics that have an explicit timestamp present in scraped data. Has no effect if 'honorTimestamps' is false. It requires Prometheus >= v2.48.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#track_timestamps_staleness DataK8STemporalIoTemporalClusterV1Beta1Manifest#track_timestamps_staleness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#track_timestamps_staleness DataK8STemporalIoTemporalClusterV1Beta1Manifest#track_timestamps_staleness}
   */
   readonly trackTimestampsStaleness?: boolean | cdktf.IResolvable;
 }
@@ -11907,13 +11907,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Boolean describing whether all namespaces are selected in contrast to a list restricting them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#any DataK8STemporalIoTemporalClusterV1Beta1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#any DataK8STemporalIoTemporalClusterV1Beta1Manifest#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
   * List of namespace names to select from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_names DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_names DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_names}
   */
   readonly matchNames?: string[];
 }
@@ -12038,19 +12038,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#operator DataK8STemporalIoTemporalClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#operator DataK8STemporalIoTemporalClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#values DataK8STemporalIoTemporalClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#values DataK8STemporalIoTemporalClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12220,13 +12220,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_expressions DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_expressions DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#match_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12351,97 +12351,97 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * 'attachMetadata' defines additional metadata which is added to the discovered targets. It requires Prometheus >= v2.37.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#attach_metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#attach_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#attach_metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#attach_metadata}
   */
   readonly attachMetadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideAttachMetadata;
   /**
   * When defined, bodySizeLimit specifies a job level limit on the size of uncompressed response body that will be accepted by Prometheus. It requires Prometheus >= v2.28.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#body_size_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#body_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#body_size_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#body_size_limit}
   */
   readonly bodySizeLimit?: string;
   /**
   * List of endpoints part of this ServiceMonitor. Defines how to scrape metrics from Kubernetes [Endpoints](https://kubernetes.io/docs/concepts/services-networking/service/#endpoints) objects. In most cases, an Endpoints object is backed by a Kubernetes [Service](https://kubernetes.io/docs/concepts/services-networking/service/) object with the same name and labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoints DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#endpoints DataK8STemporalIoTemporalClusterV1Beta1Manifest#endpoints}
   */
   readonly endpoints: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideEndpoints[] | cdktf.IResolvable;
   /**
   * 'jobLabel' selects the label from the associated Kubernetes 'Service' object which will be used as the 'job' label for all metrics. For example if 'jobLabel' is set to 'foo' and the Kubernetes 'Service' object is labeled with 'foo: bar', then Prometheus adds the 'job='bar'' label to all ingested metrics. If the value of this field is empty or if the label doesn't exist for the given Service, the 'job' label of the metrics defaults to the name of the associated Kubernetes 'Service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_label DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_label}
   */
   readonly jobLabel?: string;
   /**
   * Per-scrape limit on the number of targets dropped by relabeling that will be kept in memory. 0 means no limit. It requires Prometheus >= v2.47.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keep_dropped_targets DataK8STemporalIoTemporalClusterV1Beta1Manifest#keep_dropped_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keep_dropped_targets DataK8STemporalIoTemporalClusterV1Beta1Manifest#keep_dropped_targets}
   */
   readonly keepDroppedTargets?: number;
   /**
   * Per-scrape limit on number of labels that will be accepted for a sample. It requires Prometheus >= v2.27.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_limit}
   */
   readonly labelLimit?: number;
   /**
   * Per-scrape limit on length of labels name that will be accepted for a sample. It requires Prometheus >= v2.27.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_name_length_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_name_length_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_name_length_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_name_length_limit}
   */
   readonly labelNameLengthLimit?: number;
   /**
   * Per-scrape limit on length of labels value that will be accepted for a sample. It requires Prometheus >= v2.27.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_value_length_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_value_length_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#label_value_length_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#label_value_length_limit}
   */
   readonly labelValueLengthLimit?: number;
   /**
   * 'namespaceSelector' defines in which namespace(s) Prometheus should discover the services. By default, the services are discovered in the same namespace as the 'ServiceMonitor' object but it is possible to select pods across different/all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#namespace_selector DataK8STemporalIoTemporalClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#namespace_selector DataK8STemporalIoTemporalClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideNamespaceSelector;
   /**
   * 'podTargetLabels' defines the labels which are transferred from the associated Kubernetes 'Pod' object onto the ingested metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#pod_target_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#pod_target_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#pod_target_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#pod_target_labels}
   */
   readonly podTargetLabels?: string[];
   /**
   * 'sampleLimit' defines a per-scrape limit on the number of scraped samples that will be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sample_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#sample_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sample_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#sample_limit}
   */
   readonly sampleLimit?: number;
   /**
   * The scrape class to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_class DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_class DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_class}
   */
   readonly scrapeClass?: string;
   /**
   * 'scrapeProtocols' defines the protocols to negotiate during a scrape. It tells clients the protocols supported by Prometheus in order of preference (from most to least preferred). If unset, Prometheus uses its default value. It requires Prometheus >= v2.49.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_protocols DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_protocols DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_protocols}
   */
   readonly scrapeProtocols?: string[];
   /**
   * Label selector to select the Kubernetes 'Endpoints' objects to scrape metrics from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#selector DataK8STemporalIoTemporalClusterV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#selector DataK8STemporalIoTemporalClusterV1Beta1Manifest#selector}
   */
   readonly selector: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverrideSelector;
   /**
   * 'targetLabels' defines the labels which are transferred from the associated Kubernetes 'Service' object onto the ingested metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_labels}
   */
   readonly targetLabels?: string[];
   /**
   * 'targetLimit' defines a limit on the number of scraped targets that will be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#target_limit DataK8STemporalIoTemporalClusterV1Beta1Manifest#target_limit}
   */
   readonly targetLimit?: number;
 }
@@ -12966,25 +12966,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Enabled defines if the operator should create a ServiceMonitor for each services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Labels adds extra labels to the ServiceMonitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MetricRelabelConfigs to apply to samples before ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metric_relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#metric_relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metric_relabelings DataK8STemporalIoTemporalClusterV1Beta1Manifest#metric_relabelings}
   */
   readonly metricRelabelings?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorMetricRelabelings[] | cdktf.IResolvable;
   /**
   * Override allows customization of the created ServiceMonitor. All fields can be overwritten except 'endpoints', 'selector' and 'namespaceSelector'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#override DataK8STemporalIoTemporalClusterV1Beta1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#override DataK8STemporalIoTemporalClusterV1Beta1Manifest#override}
   */
   readonly override?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitorOverride;
 }
@@ -13167,13 +13167,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Annotations defines if the operator should add prometheus scrape annotations to the services pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: boolean | cdktf.IResolvable;
   /**
   * PrometheusScrapeConfigServiceMonitor is the configuration for prometheus operator ServiceMonitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#service_monitor DataK8STemporalIoTemporalClusterV1Beta1Manifest#service_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#service_monitor DataK8STemporalIoTemporalClusterV1Beta1Manifest#service_monitor}
   */
   readonly serviceMonitor?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfigServiceMonitor;
 }
@@ -13298,19 +13298,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsProme
   /**
   * Deprecated. Address for prometheus to serve metrics from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#listen_address DataK8STemporalIoTemporalClusterV1Beta1Manifest#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#listen_address DataK8STemporalIoTemporalClusterV1Beta1Manifest#listen_address}
   */
   readonly listenAddress?: string;
   /**
   * ListenPort for prometheus to serve metrics from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#listen_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#listen_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#listen_port}
   */
   readonly listenPort?: number;
   /**
   * ScrapeConfig is the prometheus scrape configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#scrape_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#scrape_config}
   */
   readonly scrapeConfig?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheusScrapeConfig;
 }
@@ -13464,31 +13464,31 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetrics {
   /**
   * Enabled defines if the operator should enable metrics exposition on temporal components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * ExcludeTags is a map from tag name string to tag values string list. Each value present in keys will have relevant tag value replaced with '_tag_excluded_' Each value in values list will white-list tag values to be reported as usual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#exclude_tags DataK8STemporalIoTemporalClusterV1Beta1Manifest#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#exclude_tags DataK8STemporalIoTemporalClusterV1Beta1Manifest#exclude_tags}
   */
   readonly excludeTags?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * PerUnitHistogramBoundaries defines the default histogram bucket boundaries. Configuration of histogram boundaries for given metric unit. Supported values: - 'dimensionless' - 'milliseconds' - 'bytes'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#per_unit_histogram_boundaries DataK8STemporalIoTemporalClusterV1Beta1Manifest#per_unit_histogram_boundaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#per_unit_histogram_boundaries DataK8STemporalIoTemporalClusterV1Beta1Manifest#per_unit_histogram_boundaries}
   */
   readonly perUnitHistogramBoundaries?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Prefix sets the prefix to all outgoing metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#prefix DataK8STemporalIoTemporalClusterV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#prefix DataK8STemporalIoTemporalClusterV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Prometheus reporter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#prometheus DataK8STemporalIoTemporalClusterV1Beta1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#prometheus DataK8STemporalIoTemporalClusterV1Beta1Manifest#prometheus}
   */
   readonly prometheus?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetricsPrometheus;
 }
@@ -13697,13 +13697,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Consistency sets the default consistency level. Values identical to gocql Consistency values. (defaults to LOCAL_QUORUM if not set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: number;
   /**
   * SerialConsistency sets the consistency for the serial prtion of queries. Values identical to gocql SerialConsistency values. (defaults to LOCAL_SERIAL if not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
   */
   readonly serialConsistency?: number;
 }
@@ -13828,55 +13828,55 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * ConnectTimeout is a timeout for initial dial to cassandra server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Consistency configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreCassandraConsistency;
   /**
   * Datacenter is the data center filter arg for cassandra.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
   */
   readonly datacenter?: string;
   /**
   * DisableInitialHostLookup instructs the gocql client to connect only using the supplied hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
   */
   readonly disableInitialHostLookup?: boolean | cdktf.IResolvable;
   /**
   * Hosts is a list of cassandra endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Keyspace is the cassandra keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
   */
   readonly keyspace: string;
   /**
   * MaxConns is the max number of connections to this datastore for a single keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * Port is the cassandra port used for connection by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * User is the cassandra user used for authentication by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -14192,13 +14192,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * SecondaryVisibility defines secondary visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
   */
   readonly secondaryVisibility?: string;
   /**
   * Visibility defines visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
   */
   readonly visibility: string;
 }
@@ -14320,49 +14320,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * CloseIdleConnectionsInterval is the max duration a connection stay open while idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
   */
   readonly closeIdleConnectionsInterval?: string;
   /**
   * EnableHealthcheck enables or disables healthcheck on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
   */
   readonly enableHealthcheck?: boolean | cdktf.IResolvable;
   /**
   * EnableSniff enables or disables sniffer on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
   */
   readonly enableSniff?: boolean | cdktf.IResolvable;
   /**
   * Indices holds visibility index names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
   */
   readonly indices: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreElasticsearchIndices;
   /**
   * LogLevel defines the temporal cluster's es client logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * URL is the connection url to connect to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
   */
   readonly url: string;
   /**
   * Username is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
   */
   readonly username: string;
   /**
   * Version defines the elasticsearch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -14649,13 +14649,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -14777,67 +14777,67 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * ConnectAddr is the remote addr of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
   */
   readonly connectAddr: string;
   /**
   * ConnectAttributes is a set of key-value attributes to be sent as part of connect data_source_name url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
   */
   readonly connectAttributes?: { [key: string]: string };
   /**
   * ConnectProtocol is the protocol that goes with the ConnectAddr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
   */
   readonly connectProtocol?: string;
   /**
   * DatabaseName is the name of SQL database to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
   */
   readonly databaseName: string;
   /**
   * GCPServiceAccount is the service account to use to authenticate with GCP CloudSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
   */
   readonly gcpServiceAccount?: string;
   /**
   * MaxConnLifetime is the maximum time a connection can be alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
   */
   readonly maxConnLifetime?: string;
   /**
   * MaxConns the max number of connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * MaxIdleConns is the max number of idle connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
   */
   readonly maxIdleConns?: number;
   /**
   * PluginName is the name of SQL plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
   */
   readonly pluginName: string;
   /**
   * TaskScanPartitions is the number of partitions to sequentially scan during ListTaskQueue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
   */
   readonly taskScanPartitions?: number;
   /**
   * User is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -15211,13 +15211,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -15339,13 +15339,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -15467,13 +15467,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -15595,37 +15595,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * CaFileRef is a reference to a secret containing the ca file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
   */
   readonly caFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreTlsCaFileRef;
   /**
   * CertFileRef is a reference to a secret containing the cert file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
   */
   readonly certFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreTlsCertFileRef;
   /**
   * EnableHostVerification defines if the hostname should be verified when connecting to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
   */
   readonly enableHostVerification: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the cluster should use a TLS connection to connect to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * KeyFileRef is a reference to a secret containing the key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
   */
   readonly keyFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreTlsKeyFileRef;
   /**
   * ServerName the datastore should present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -15860,43 +15860,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceA
   /**
   * Cassandra holds all connection parameters for Cassandra datastore. Note that cassandra is now deprecated for visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
   */
   readonly cassandra?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreCassandra;
   /**
   * Elasticsearch holds all connection parameters for Elasticsearch datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreElasticsearch;
   /**
   * Name is the name of the datastore. It should be unique and will be referenced within the persistence spec. Defaults to 'default' for default sore, 'visibility' for visibility store, 'secondaryVisibility' for secondary visibility store and 'advancedVisibility' for advanced visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PasswordSecret is the reference to the secret holding the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStorePasswordSecretRef;
   /**
   * SkipCreate instructs the operator to skip creating the database for SQL datastores or to skip creating keyspace for Cassandra. Use this option if your database or keyspace has already been provisioned by an administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
   */
   readonly skipCreate?: boolean | cdktf.IResolvable;
   /**
   * SQL holds all connection parameters for SQL datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
   */
   readonly sql?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreSql;
   /**
   * TLS is an optional option to connect to the datastore using TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStoreTls;
 }
@@ -16166,13 +16166,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Consistency sets the default consistency level. Values identical to gocql Consistency values. (defaults to LOCAL_QUORUM if not set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: number;
   /**
   * SerialConsistency sets the consistency for the serial prtion of queries. Values identical to gocql SerialConsistency values. (defaults to LOCAL_SERIAL if not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
   */
   readonly serialConsistency?: number;
 }
@@ -16297,55 +16297,55 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * ConnectTimeout is a timeout for initial dial to cassandra server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Consistency configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreCassandraConsistency;
   /**
   * Datacenter is the data center filter arg for cassandra.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
   */
   readonly datacenter?: string;
   /**
   * DisableInitialHostLookup instructs the gocql client to connect only using the supplied hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
   */
   readonly disableInitialHostLookup?: boolean | cdktf.IResolvable;
   /**
   * Hosts is a list of cassandra endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Keyspace is the cassandra keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
   */
   readonly keyspace: string;
   /**
   * MaxConns is the max number of connections to this datastore for a single keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * Port is the cassandra port used for connection by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * User is the cassandra user used for authentication by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -16661,13 +16661,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * SecondaryVisibility defines secondary visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
   */
   readonly secondaryVisibility?: string;
   /**
   * Visibility defines visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
   */
   readonly visibility: string;
 }
@@ -16789,49 +16789,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * CloseIdleConnectionsInterval is the max duration a connection stay open while idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
   */
   readonly closeIdleConnectionsInterval?: string;
   /**
   * EnableHealthcheck enables or disables healthcheck on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
   */
   readonly enableHealthcheck?: boolean | cdktf.IResolvable;
   /**
   * EnableSniff enables or disables sniffer on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
   */
   readonly enableSniff?: boolean | cdktf.IResolvable;
   /**
   * Indices holds visibility index names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
   */
   readonly indices: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreElasticsearchIndices;
   /**
   * LogLevel defines the temporal cluster's es client logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * URL is the connection url to connect to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
   */
   readonly url: string;
   /**
   * Username is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
   */
   readonly username: string;
   /**
   * Version defines the elasticsearch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -17118,13 +17118,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -17246,67 +17246,67 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * ConnectAddr is the remote addr of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
   */
   readonly connectAddr: string;
   /**
   * ConnectAttributes is a set of key-value attributes to be sent as part of connect data_source_name url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
   */
   readonly connectAttributes?: { [key: string]: string };
   /**
   * ConnectProtocol is the protocol that goes with the ConnectAddr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
   */
   readonly connectProtocol?: string;
   /**
   * DatabaseName is the name of SQL database to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
   */
   readonly databaseName: string;
   /**
   * GCPServiceAccount is the service account to use to authenticate with GCP CloudSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
   */
   readonly gcpServiceAccount?: string;
   /**
   * MaxConnLifetime is the maximum time a connection can be alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
   */
   readonly maxConnLifetime?: string;
   /**
   * MaxConns the max number of connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * MaxIdleConns is the max number of idle connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
   */
   readonly maxIdleConns?: number;
   /**
   * PluginName is the name of SQL plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
   */
   readonly pluginName: string;
   /**
   * TaskScanPartitions is the number of partitions to sequentially scan during ListTaskQueue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
   */
   readonly taskScanPartitions?: number;
   /**
   * User is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -17680,13 +17680,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -17808,13 +17808,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -17936,13 +17936,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -18064,37 +18064,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * CaFileRef is a reference to a secret containing the ca file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
   */
   readonly caFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreTlsCaFileRef;
   /**
   * CertFileRef is a reference to a secret containing the cert file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
   */
   readonly certFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreTlsCertFileRef;
   /**
   * EnableHostVerification defines if the hostname should be verified when connecting to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
   */
   readonly enableHostVerification: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the cluster should use a TLS connection to connect to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * KeyFileRef is a reference to a secret containing the key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
   */
   readonly keyFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreTlsKeyFileRef;
   /**
   * ServerName the datastore should present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -18329,43 +18329,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceD
   /**
   * Cassandra holds all connection parameters for Cassandra datastore. Note that cassandra is now deprecated for visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
   */
   readonly cassandra?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreCassandra;
   /**
   * Elasticsearch holds all connection parameters for Elasticsearch datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreElasticsearch;
   /**
   * Name is the name of the datastore. It should be unique and will be referenced within the persistence spec. Defaults to 'default' for default sore, 'visibility' for visibility store, 'secondaryVisibility' for secondary visibility store and 'advancedVisibility' for advanced visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PasswordSecret is the reference to the secret holding the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStorePasswordSecretRef;
   /**
   * SkipCreate instructs the operator to skip creating the database for SQL datastores or to skip creating keyspace for Cassandra. Use this option if your database or keyspace has already been provisioned by an administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
   */
   readonly skipCreate?: boolean | cdktf.IResolvable;
   /**
   * SQL holds all connection parameters for SQL datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
   */
   readonly sql?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreSql;
   /**
   * TLS is an optional option to connect to the datastore using TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStoreTls;
 }
@@ -18635,13 +18635,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Consistency sets the default consistency level. Values identical to gocql Consistency values. (defaults to LOCAL_QUORUM if not set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: number;
   /**
   * SerialConsistency sets the consistency for the serial prtion of queries. Values identical to gocql SerialConsistency values. (defaults to LOCAL_SERIAL if not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
   */
   readonly serialConsistency?: number;
 }
@@ -18766,55 +18766,55 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * ConnectTimeout is a timeout for initial dial to cassandra server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Consistency configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreCassandraConsistency;
   /**
   * Datacenter is the data center filter arg for cassandra.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
   */
   readonly datacenter?: string;
   /**
   * DisableInitialHostLookup instructs the gocql client to connect only using the supplied hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
   */
   readonly disableInitialHostLookup?: boolean | cdktf.IResolvable;
   /**
   * Hosts is a list of cassandra endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Keyspace is the cassandra keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
   */
   readonly keyspace: string;
   /**
   * MaxConns is the max number of connections to this datastore for a single keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * Port is the cassandra port used for connection by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * User is the cassandra user used for authentication by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -19130,13 +19130,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * SecondaryVisibility defines secondary visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
   */
   readonly secondaryVisibility?: string;
   /**
   * Visibility defines visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
   */
   readonly visibility: string;
 }
@@ -19258,49 +19258,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * CloseIdleConnectionsInterval is the max duration a connection stay open while idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
   */
   readonly closeIdleConnectionsInterval?: string;
   /**
   * EnableHealthcheck enables or disables healthcheck on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
   */
   readonly enableHealthcheck?: boolean | cdktf.IResolvable;
   /**
   * EnableSniff enables or disables sniffer on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
   */
   readonly enableSniff?: boolean | cdktf.IResolvable;
   /**
   * Indices holds visibility index names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
   */
   readonly indices: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreElasticsearchIndices;
   /**
   * LogLevel defines the temporal cluster's es client logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * URL is the connection url to connect to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
   */
   readonly url: string;
   /**
   * Username is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
   */
   readonly username: string;
   /**
   * Version defines the elasticsearch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -19587,13 +19587,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -19715,67 +19715,67 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * ConnectAddr is the remote addr of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
   */
   readonly connectAddr: string;
   /**
   * ConnectAttributes is a set of key-value attributes to be sent as part of connect data_source_name url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
   */
   readonly connectAttributes?: { [key: string]: string };
   /**
   * ConnectProtocol is the protocol that goes with the ConnectAddr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
   */
   readonly connectProtocol?: string;
   /**
   * DatabaseName is the name of SQL database to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
   */
   readonly databaseName: string;
   /**
   * GCPServiceAccount is the service account to use to authenticate with GCP CloudSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
   */
   readonly gcpServiceAccount?: string;
   /**
   * MaxConnLifetime is the maximum time a connection can be alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
   */
   readonly maxConnLifetime?: string;
   /**
   * MaxConns the max number of connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * MaxIdleConns is the max number of idle connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
   */
   readonly maxIdleConns?: number;
   /**
   * PluginName is the name of SQL plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
   */
   readonly pluginName: string;
   /**
   * TaskScanPartitions is the number of partitions to sequentially scan during ListTaskQueue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
   */
   readonly taskScanPartitions?: number;
   /**
   * User is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -20149,13 +20149,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -20277,13 +20277,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -20405,13 +20405,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -20533,37 +20533,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * CaFileRef is a reference to a secret containing the ca file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
   */
   readonly caFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreTlsCaFileRef;
   /**
   * CertFileRef is a reference to a secret containing the cert file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
   */
   readonly certFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreTlsCertFileRef;
   /**
   * EnableHostVerification defines if the hostname should be verified when connecting to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
   */
   readonly enableHostVerification: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the cluster should use a TLS connection to connect to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * KeyFileRef is a reference to a secret containing the key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
   */
   readonly keyFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreTlsKeyFileRef;
   /**
   * ServerName the datastore should present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -20798,43 +20798,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceS
   /**
   * Cassandra holds all connection parameters for Cassandra datastore. Note that cassandra is now deprecated for visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
   */
   readonly cassandra?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreCassandra;
   /**
   * Elasticsearch holds all connection parameters for Elasticsearch datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreElasticsearch;
   /**
   * Name is the name of the datastore. It should be unique and will be referenced within the persistence spec. Defaults to 'default' for default sore, 'visibility' for visibility store, 'secondaryVisibility' for secondary visibility store and 'advancedVisibility' for advanced visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PasswordSecret is the reference to the secret holding the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStorePasswordSecretRef;
   /**
   * SkipCreate instructs the operator to skip creating the database for SQL datastores or to skip creating keyspace for Cassandra. Use this option if your database or keyspace has already been provisioned by an administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
   */
   readonly skipCreate?: boolean | cdktf.IResolvable;
   /**
   * SQL holds all connection parameters for SQL datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
   */
   readonly sql?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreSql;
   /**
   * TLS is an optional option to connect to the datastore using TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStoreTls;
 }
@@ -21104,13 +21104,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Consistency sets the default consistency level. Values identical to gocql Consistency values. (defaults to LOCAL_QUORUM if not set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: number;
   /**
   * SerialConsistency sets the consistency for the serial prtion of queries. Values identical to gocql SerialConsistency values. (defaults to LOCAL_SERIAL if not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#serial_consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#serial_consistency}
   */
   readonly serialConsistency?: number;
 }
@@ -21235,55 +21235,55 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * ConnectTimeout is a timeout for initial dial to cassandra server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_timeout DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Consistency configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#consistency DataK8STemporalIoTemporalClusterV1Beta1Manifest#consistency}
   */
   readonly consistency?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreCassandraConsistency;
   /**
   * Datacenter is the data center filter arg for cassandra.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#datacenter DataK8STemporalIoTemporalClusterV1Beta1Manifest#datacenter}
   */
   readonly datacenter?: string;
   /**
   * DisableInitialHostLookup instructs the gocql client to connect only using the supplied hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#disable_initial_host_lookup DataK8STemporalIoTemporalClusterV1Beta1Manifest#disable_initial_host_lookup}
   */
   readonly disableInitialHostLookup?: boolean | cdktf.IResolvable;
   /**
   * Hosts is a list of cassandra endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Keyspace is the cassandra keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#keyspace DataK8STemporalIoTemporalClusterV1Beta1Manifest#keyspace}
   */
   readonly keyspace: string;
   /**
   * MaxConns is the max number of connections to this datastore for a single keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * Port is the cassandra port used for connection by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * User is the cassandra user used for authentication by gocql client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -21599,13 +21599,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * SecondaryVisibility defines secondary visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility}
   */
   readonly secondaryVisibility?: string;
   /**
   * Visibility defines visibility's index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility}
   */
   readonly visibility: string;
 }
@@ -21727,49 +21727,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * CloseIdleConnectionsInterval is the max duration a connection stay open while idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#close_idle_connections_interval DataK8STemporalIoTemporalClusterV1Beta1Manifest#close_idle_connections_interval}
   */
   readonly closeIdleConnectionsInterval?: string;
   /**
   * EnableHealthcheck enables or disables healthcheck on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_healthcheck DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_healthcheck}
   */
   readonly enableHealthcheck?: boolean | cdktf.IResolvable;
   /**
   * EnableSniff enables or disables sniffer on the temporal cluster's es client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_sniff DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_sniff}
   */
   readonly enableSniff?: boolean | cdktf.IResolvable;
   /**
   * Indices holds visibility index names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#indices DataK8STemporalIoTemporalClusterV1Beta1Manifest#indices}
   */
   readonly indices: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreElasticsearchIndices;
   /**
   * LogLevel defines the temporal cluster's es client logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log_level DataK8STemporalIoTemporalClusterV1Beta1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * URL is the connection url to connect to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#url DataK8STemporalIoTemporalClusterV1Beta1Manifest#url}
   */
   readonly url: string;
   /**
   * Username is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#username DataK8STemporalIoTemporalClusterV1Beta1Manifest#username}
   */
   readonly username: string;
   /**
   * Version defines the elasticsearch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -22056,13 +22056,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -22184,67 +22184,67 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * ConnectAddr is the remote addr of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_addr DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_addr}
   */
   readonly connectAddr: string;
   /**
   * ConnectAttributes is a set of key-value attributes to be sent as part of connect data_source_name url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_attributes DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_attributes}
   */
   readonly connectAttributes?: { [key: string]: string };
   /**
   * ConnectProtocol is the protocol that goes with the ConnectAddr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#connect_protocol DataK8STemporalIoTemporalClusterV1Beta1Manifest#connect_protocol}
   */
   readonly connectProtocol?: string;
   /**
   * DatabaseName is the name of SQL database to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#database_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#database_name}
   */
   readonly databaseName: string;
   /**
   * GCPServiceAccount is the service account to use to authenticate with GCP CloudSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#gcp_service_account DataK8STemporalIoTemporalClusterV1Beta1Manifest#gcp_service_account}
   */
   readonly gcpServiceAccount?: string;
   /**
   * MaxConnLifetime is the maximum time a connection can be alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conn_lifetime DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conn_lifetime}
   */
   readonly maxConnLifetime?: string;
   /**
   * MaxConns the max number of connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
   * MaxIdleConns is the max number of idle connections to this datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#max_idle_conns DataK8STemporalIoTemporalClusterV1Beta1Manifest#max_idle_conns}
   */
   readonly maxIdleConns?: number;
   /**
   * PluginName is the name of SQL plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#plugin_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#plugin_name}
   */
   readonly pluginName: string;
   /**
   * TaskScanPartitions is the number of partitions to sequentially scan during ListTaskQueue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#task_scan_partitions DataK8STemporalIoTemporalClusterV1Beta1Manifest#task_scan_partitions}
   */
   readonly taskScanPartitions?: number;
   /**
   * User is the username to be used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#user DataK8STemporalIoTemporalClusterV1Beta1Manifest#user}
   */
   readonly user: string;
 }
@@ -22618,13 +22618,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -22746,13 +22746,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -22874,13 +22874,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key DataK8STemporalIoTemporalClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -23002,37 +23002,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * CaFileRef is a reference to a secret containing the ca file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ca_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#ca_file_ref}
   */
   readonly caFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreTlsCaFileRef;
   /**
   * CertFileRef is a reference to a secret containing the cert file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cert_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#cert_file_ref}
   */
   readonly certFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreTlsCertFileRef;
   /**
   * EnableHostVerification defines if the hostname should be verified when connecting to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enable_host_verification DataK8STemporalIoTemporalClusterV1Beta1Manifest#enable_host_verification}
   */
   readonly enableHostVerification: boolean | cdktf.IResolvable;
   /**
   * Enabled defines if the cluster should use a TLS connection to connect to the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * KeyFileRef is a reference to a secret containing the key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#key_file_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#key_file_ref}
   */
   readonly keyFileRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreTlsKeyFileRef;
   /**
   * ServerName the datastore should present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#server_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -23267,43 +23267,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceV
   /**
   * Cassandra holds all connection parameters for Cassandra datastore. Note that cassandra is now deprecated for visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#cassandra DataK8STemporalIoTemporalClusterV1Beta1Manifest#cassandra}
   */
   readonly cassandra?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreCassandra;
   /**
   * Elasticsearch holds all connection parameters for Elasticsearch datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#elasticsearch DataK8STemporalIoTemporalClusterV1Beta1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreElasticsearch;
   /**
   * Name is the name of the datastore. It should be unique and will be referenced within the persistence spec. Defaults to 'default' for default sore, 'visibility' for visibility store, 'secondaryVisibility' for secondary visibility store and 'advancedVisibility' for advanced visibility store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PasswordSecret is the reference to the secret holding the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalClusterV1Beta1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStorePasswordSecretRef;
   /**
   * SkipCreate instructs the operator to skip creating the database for SQL datastores or to skip creating keyspace for Cassandra. Use this option if your database or keyspace has already been provisioned by an administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#skip_create DataK8STemporalIoTemporalClusterV1Beta1Manifest#skip_create}
   */
   readonly skipCreate?: boolean | cdktf.IResolvable;
   /**
   * SQL holds all connection parameters for SQL datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#sql DataK8STemporalIoTemporalClusterV1Beta1Manifest#sql}
   */
   readonly sql?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreSql;
   /**
   * TLS is an optional option to connect to the datastore using TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStoreTls;
 }
@@ -23573,25 +23573,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistence 
   /**
   * AdvancedVisibilityStore holds the advanced visibility datastore specs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#advanced_visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#advanced_visibility_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#advanced_visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#advanced_visibility_store}
   */
   readonly advancedVisibilityStore?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceAdvancedVisibilityStore;
   /**
   * DefaultStore holds the default datastore specs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#default_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#default_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#default_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#default_store}
   */
   readonly defaultStore: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceDefaultStore;
   /**
   * SecondaryVisibilityStore holds the secondary visibility datastore specs. Feature only available for clusters >= 1.21.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secondary_visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#secondary_visibility_store}
   */
   readonly secondaryVisibilityStore?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceSecondaryVisibilityStore;
   /**
   * VisibilityStore holds the visibility datastore specs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#visibility_store DataK8STemporalIoTemporalClusterV1Beta1Manifest#visibility_store}
   */
   readonly visibilityStore: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistenceVisibilityStore;
 }
@@ -23768,13 +23768,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -23899,13 +23899,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -24030,13 +24030,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -24161,7 +24161,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverridesDeploymentSpecTemplate;
 }
@@ -24257,13 +24257,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverridesDeploymentSpec;
 }
@@ -24388,7 +24388,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverridesDeployment;
 }
@@ -24484,13 +24484,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -24634,19 +24634,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -24800,43 +24800,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFron
   /**
   * HTTPPort defines a custom http port for the service. Default values are: 7243 for Frontend service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * InitContainers adds a list of init containers to the service's deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * MembershipPort defines a custom membership port for the service. Default values are: 6933 for Frontend service 6934 for History service 6935 for Matching service 6939 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
   */
   readonly membershipPort?: number;
   /**
   * Overrides adds some overrides to the resources deployed for the service. Those overrides takes precedence over spec.services.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendOverrides;
   /**
   * Port defines a custom gRPC port for the service. Default values are: 7233 for Frontend service 7234 for History service 7235 for Matching service 7239 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Number of desired replicas for the service. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this service. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontendResources;
 }
@@ -25106,13 +25106,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -25237,13 +25237,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -25368,13 +25368,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -25499,7 +25499,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverridesDeploymentSpecTemplate;
 }
@@ -25595,13 +25595,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverridesDeploymentSpec;
 }
@@ -25726,7 +25726,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverridesDeployment;
 }
@@ -25822,13 +25822,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -25972,19 +25972,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -26138,43 +26138,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHist
   /**
   * HTTPPort defines a custom http port for the service. Default values are: 7243 for Frontend service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * InitContainers adds a list of init containers to the service's deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * MembershipPort defines a custom membership port for the service. Default values are: 6933 for Frontend service 6934 for History service 6935 for Matching service 6939 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
   */
   readonly membershipPort?: number;
   /**
   * Overrides adds some overrides to the resources deployed for the service. Those overrides takes precedence over spec.services.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryOverrides;
   /**
   * Port defines a custom gRPC port for the service. Default values are: 7233 for Frontend service 7234 for History service 7235 for Matching service 7239 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Number of desired replicas for the service. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this service. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistoryResources;
 }
@@ -26444,13 +26444,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -26575,13 +26575,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -26706,13 +26706,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -26837,7 +26837,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverridesDeploymentSpecTemplate;
 }
@@ -26933,13 +26933,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverridesDeploymentSpec;
 }
@@ -27064,7 +27064,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverridesDeployment;
 }
@@ -27160,13 +27160,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -27310,19 +27310,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -27476,49 +27476,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInte
   /**
   * Enabled defines if we want to spawn the internal frontend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * HTTPPort defines a custom http port for the service. Default values are: 7243 for Frontend service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * InitContainers adds a list of init containers to the service's deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * MembershipPort defines a custom membership port for the service. Default values are: 6933 for Frontend service 6934 for History service 6935 for Matching service 6939 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
   */
   readonly membershipPort?: number;
   /**
   * Overrides adds some overrides to the resources deployed for the service. Those overrides takes precedence over spec.services.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendOverrides;
   /**
   * Port defines a custom gRPC port for the service. Default values are: 7233 for Frontend service 7234 for History service 7235 for Matching service 7239 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Number of desired replicas for the service. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this service. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontendResources;
 }
@@ -27817,13 +27817,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -27948,13 +27948,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -28079,13 +28079,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -28210,7 +28210,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverridesDeploymentSpecTemplate;
 }
@@ -28306,13 +28306,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverridesDeploymentSpec;
 }
@@ -28437,7 +28437,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverridesDeployment;
 }
@@ -28533,13 +28533,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -28683,19 +28683,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -28849,43 +28849,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatc
   /**
   * HTTPPort defines a custom http port for the service. Default values are: 7243 for Frontend service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * InitContainers adds a list of init containers to the service's deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * MembershipPort defines a custom membership port for the service. Default values are: 6933 for Frontend service 6934 for History service 6935 for Matching service 6939 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
   */
   readonly membershipPort?: number;
   /**
   * Overrides adds some overrides to the resources deployed for the service. Those overrides takes precedence over spec.services.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingOverrides;
   /**
   * Port defines a custom gRPC port for the service. Default values are: 7233 for Frontend service 7234 for History service 7235 for Matching service 7239 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Number of desired replicas for the service. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this service. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatchingResources;
 }
@@ -29155,13 +29155,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -29286,13 +29286,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -29417,13 +29417,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -29548,7 +29548,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverridesDeploymentSpecTemplate;
 }
@@ -29644,13 +29644,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverridesDeploymentSpec;
 }
@@ -29775,7 +29775,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOver
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverridesDeployment;
 }
@@ -29871,13 +29871,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -30002,13 +30002,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -30133,13 +30133,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -30264,7 +30264,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverridesDeploymentSpecTemplate;
 }
@@ -30360,13 +30360,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverridesDeploymentSpec;
 }
@@ -30491,7 +30491,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverridesDeployment;
 }
@@ -30587,13 +30587,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -30737,19 +30737,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -30903,43 +30903,43 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWork
   /**
   * HTTPPort defines a custom http port for the service. Default values are: 7243 for Frontend service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#http_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
   * InitContainers adds a list of init containers to the service's deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * MembershipPort defines a custom membership port for the service. Default values are: 6933 for Frontend service 6934 for History service 6935 for Matching service 6939 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#membership_port DataK8STemporalIoTemporalClusterV1Beta1Manifest#membership_port}
   */
   readonly membershipPort?: number;
   /**
   * Overrides adds some overrides to the resources deployed for the service. Those overrides takes precedence over spec.services.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerOverrides;
   /**
   * Port defines a custom gRPC port for the service. Default values are: 7233 for Frontend service 7234 for History service 7235 for Matching service 7239 for Worker service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#port DataK8STemporalIoTemporalClusterV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Number of desired replicas for the service. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this service. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorkerResources;
 }
@@ -31209,37 +31209,37 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServices {
   /**
   * Frontend service custom specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#frontend}
   */
   readonly frontend?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesFrontend;
   /**
   * History service custom specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#history DataK8STemporalIoTemporalClusterV1Beta1Manifest#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#history DataK8STemporalIoTemporalClusterV1Beta1Manifest#history}
   */
   readonly history?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesHistory;
   /**
   * Internal Frontend service custom specifications. Only compatible with temporal >= 1.20.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internal_frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#internal_frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#internal_frontend DataK8STemporalIoTemporalClusterV1Beta1Manifest#internal_frontend}
   */
   readonly internalFrontend?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesInternalFrontend;
   /**
   * Matching service custom specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#matching DataK8STemporalIoTemporalClusterV1Beta1Manifest#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#matching DataK8STemporalIoTemporalClusterV1Beta1Manifest#matching}
   */
   readonly matching?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesMatching;
   /**
   * Overrides adds some overrides to the resources deployed for all temporal services services. Those overrides can be customized per service using spec.services.<serviceName>.overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesOverrides;
   /**
   * Worker service custom specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#worker DataK8STemporalIoTemporalClusterV1Beta1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#worker DataK8STemporalIoTemporalClusterV1Beta1Manifest#worker}
   */
   readonly worker?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServicesWorker;
 }
@@ -31480,13 +31480,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiIngressTls
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#secret_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -31633,25 +31633,25 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiIngress {
   /**
   * Annotations allows custom annotations on the ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Host is the list of host the ingress should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#hosts DataK8STemporalIoTemporalClusterV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * IngressClassName is the name of the IngressClass the deployed ingress resource should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ingress_class_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ingress_class_name DataK8STemporalIoTemporalClusterV1Beta1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiIngressTls[] | cdktf.IResolvable;
 }
@@ -31831,13 +31831,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesD
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -31962,13 +31962,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesD
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -32093,13 +32093,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesD
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesDeploymentSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -32224,7 +32224,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesD
   /**
   * Template describes the pods that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#template DataK8STemporalIoTemporalClusterV1Beta1Manifest#template}
   */
   readonly template?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesDeploymentSpecTemplate;
 }
@@ -32320,13 +32320,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesD
   /**
   * ObjectMetaOverride provides the ability to override an object metadata. It's a subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesDeploymentMetadata;
   /**
   * Specification of the desired behavior of the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesDeploymentSpec;
 }
@@ -32451,7 +32451,7 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverrides 
   /**
   * Override configuration for the temporal service Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#deployment DataK8STemporalIoTemporalClusterV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverridesDeployment;
 }
@@ -32547,13 +32547,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiResourcesC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#name DataK8STemporalIoTemporalClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#request DataK8STemporalIoTemporalClusterV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -32697,19 +32697,19 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiResources 
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#claims DataK8STemporalIoTemporalClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#limits DataK8STemporalIoTemporalClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#requests DataK8STemporalIoTemporalClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -32863,13 +32863,13 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiService {
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -32994,49 +32994,49 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUi {
   /**
   * Enabled defines if the operator should deploy the web ui alongside the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#enabled DataK8STemporalIoTemporalClusterV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image defines the temporal ui docker image the instance should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Ingress is an optional ingress configuration for the UI. If lived empty, no ingress configuration will be created and the UI will only by available trough ClusterIP service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ingress DataK8STemporalIoTemporalClusterV1Beta1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ingress DataK8STemporalIoTemporalClusterV1Beta1Manifest#ingress}
   */
   readonly ingress?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiIngress;
   /**
   * Overrides adds some overrides to the resources deployed for the ui.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#overrides DataK8STemporalIoTemporalClusterV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiOverrides;
   /**
   * Number of desired replicas for the ui. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#replicas DataK8STemporalIoTemporalClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by the ui. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiResources;
   /**
   * Service is an optional service resource configuration for the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#service DataK8STemporalIoTemporalClusterV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#service DataK8STemporalIoTemporalClusterV1Beta1Manifest#service}
   */
   readonly service?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUiService;
   /**
   * Version defines the temporal ui version the instance should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -33335,103 +33335,103 @@ export interface DataK8STemporalIoTemporalClusterV1Beta1ManifestSpec {
   /**
   * AdminTools allows configuration of the optional admin tool pod deployed alongside the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#admintools DataK8STemporalIoTemporalClusterV1Beta1Manifest#admintools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#admintools DataK8STemporalIoTemporalClusterV1Beta1Manifest#admintools}
   */
   readonly admintools?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAdmintools;
   /**
   * Archival allows Workflow Execution Event Histories and Visibility data backups for the temporal cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#archival DataK8STemporalIoTemporalClusterV1Beta1Manifest#archival}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#archival DataK8STemporalIoTemporalClusterV1Beta1Manifest#archival}
   */
   readonly archival?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecArchival;
   /**
   * Authorization allows authorization configuration for the temporal cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorization DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#authorization DataK8STemporalIoTemporalClusterV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecAuthorization;
   /**
   * DynamicConfig allows advanced configuration for the temporal cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#dynamic_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#dynamic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#dynamic_config DataK8STemporalIoTemporalClusterV1Beta1Manifest#dynamic_config}
   */
   readonly dynamicConfig?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecDynamicConfig;
   /**
   * Image defines the temporal server docker image the cluster should use for each services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image DataK8STemporalIoTemporalClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * An optional list of references to secrets in the same namespace to use for pulling temporal images from registries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image_pull_secrets DataK8STemporalIoTemporalClusterV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#image_pull_secrets DataK8STemporalIoTemporalClusterV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * JobInitContainers adds a list of init containers to the setup's jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_init_containers DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_init_containers}
   */
   readonly jobInitContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * JobResources allows set resources for setup/update jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_resources DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_resources}
   */
   readonly jobResources?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecJobResources;
   /**
   * JobTTLSecondsAfterFinished is amount of time to keep job pods after jobs are completed. Defaults to 300 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_ttl_seconds_after_finished DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#job_ttl_seconds_after_finished DataK8STemporalIoTemporalClusterV1Beta1Manifest#job_ttl_seconds_after_finished}
   */
   readonly jobTtlSecondsAfterFinished?: number;
   /**
   * Log defines temporal cluster's logger configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log DataK8STemporalIoTemporalClusterV1Beta1Manifest#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#log DataK8STemporalIoTemporalClusterV1Beta1Manifest#log}
   */
   readonly log?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecLog;
   /**
   * MTLS allows configuration of the network traffic encryption for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#m_tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#m_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#m_tls DataK8STemporalIoTemporalClusterV1Beta1Manifest#m_tls}
   */
   readonly mTls?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMTls;
   /**
   * Metrics allows configuration of scraping endpoints for stats. prometheus or m3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metrics DataK8STemporalIoTemporalClusterV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#metrics DataK8STemporalIoTemporalClusterV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecMetrics;
   /**
   * NumHistoryShards is the desired number of history shards. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#num_history_shards DataK8STemporalIoTemporalClusterV1Beta1Manifest#num_history_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#num_history_shards DataK8STemporalIoTemporalClusterV1Beta1Manifest#num_history_shards}
   */
   readonly numHistoryShards: number;
   /**
   * Persistence defines temporal persistence configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#persistence DataK8STemporalIoTemporalClusterV1Beta1Manifest#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#persistence DataK8STemporalIoTemporalClusterV1Beta1Manifest#persistence}
   */
   readonly persistence: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecPersistence;
   /**
   * Services allows customizations for each temporal services deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#services DataK8STemporalIoTemporalClusterV1Beta1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#services DataK8STemporalIoTemporalClusterV1Beta1Manifest#services}
   */
   readonly services?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecServices;
   /**
   * UI allows configuration of the optional temporal web ui deployed alongside the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ui DataK8STemporalIoTemporalClusterV1Beta1Manifest#ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#ui DataK8STemporalIoTemporalClusterV1Beta1Manifest#ui}
   */
   readonly ui?: DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecUi;
   /**
   * Version defines the temporal version the cluster to be deployed. This version impacts the underlying persistence schemas versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#version DataK8STemporalIoTemporalClusterV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -33983,7 +33983,7 @@ export class DataK8STemporalIoTemporalClusterV1Beta1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest k8s_temporal_io_temporal_cluster_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest k8s_temporal_io_temporal_cluster_v1beta1_manifest}
 */
 export class DataK8STemporalIoTemporalClusterV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -33999,7 +33999,7 @@ export class DataK8STemporalIoTemporalClusterV1Beta1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8STemporalIoTemporalClusterV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STemporalIoTemporalClusterV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STemporalIoTemporalClusterV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STemporalIoTemporalClusterV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STemporalIoTemporalClusterV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -34011,7 +34011,7 @@ export class DataK8STemporalIoTemporalClusterV1Beta1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest k8s_temporal_io_temporal_cluster_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/temporal_io_temporal_cluster_v1beta1_manifest k8s_temporal_io_temporal_cluster_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -34022,8 +34022,8 @@ export class DataK8STemporalIoTemporalClusterV1Beta1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_temporal_io_temporal_cluster_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRediscloudPaymentMethodConfig extends cdktf.TerraformMetaAr
   /**
   * Type of card that the payment method should be, such as `Visa`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method#card_type DataRediscloudPaymentMethod#card_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method#card_type DataRediscloudPaymentMethod#card_type}
   */
   readonly cardType?: string;
   /**
   * Whether to exclude any expired cards or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method#exclude_expired DataRediscloudPaymentMethod#exclude_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method#exclude_expired DataRediscloudPaymentMethod#exclude_expired}
   */
   readonly excludeExpired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method#id DataRediscloudPaymentMethod#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method#id DataRediscloudPaymentMethod#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataRediscloudPaymentMethodConfig extends cdktf.TerraformMetaAr
   /**
   * Last four numbers of the card of the payment method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method#last_four_numbers DataRediscloudPaymentMethod#last_four_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method#last_four_numbers DataRediscloudPaymentMethod#last_four_numbers}
   */
   readonly lastFourNumbers?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method rediscloud_payment_method}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method rediscloud_payment_method}
 */
 export class DataRediscloudPaymentMethod extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataRediscloudPaymentMethod extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRediscloudPaymentMethod resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudPaymentMethod to import
-  * @param importFromId The id of the existing DataRediscloudPaymentMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudPaymentMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudPaymentMethod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataRediscloudPaymentMethod extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/payment_method rediscloud_payment_method} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/payment_method rediscloud_payment_method} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataRediscloudPaymentMethod extends cdktf.TerraformDataSource {
       terraformResourceType: 'rediscloud_payment_method',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

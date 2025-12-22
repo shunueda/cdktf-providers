@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpAddressFamilyIpv4Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4#af_name DataIosxeBgpAddressFamilyIpv4#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4#af_name DataIosxeBgpAddressFamilyIpv4#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4#asn DataIosxeBgpAddressFamilyIpv4#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4#asn DataIosxeBgpAddressFamilyIpv4#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4#device DataIosxeBgpAddressFamilyIpv4#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4#device DataIosxeBgpAddressFamilyIpv4#device}
   */
   readonly device?: string;
 }
@@ -369,7 +369,7 @@ export class DataIosxeBgpAddressFamilyIpv4Ipv4UnicastNetworksMaskList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4 iosxe_bgp_address_family_ipv4}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4 iosxe_bgp_address_family_ipv4}
 */
 export class DataIosxeBgpAddressFamilyIpv4 extends cdktf.TerraformDataSource {
 
@@ -385,7 +385,7 @@ export class DataIosxeBgpAddressFamilyIpv4 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgpAddressFamilyIpv4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgpAddressFamilyIpv4 to import
-  * @param importFromId The id of the existing DataIosxeBgpAddressFamilyIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgpAddressFamilyIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgpAddressFamilyIpv4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class DataIosxeBgpAddressFamilyIpv4 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bgp_address_family_ipv4 iosxe_bgp_address_family_ipv4} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/bgp_address_family_ipv4 iosxe_bgp_address_family_ipv4} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class DataIosxeBgpAddressFamilyIpv4 extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp_address_family_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

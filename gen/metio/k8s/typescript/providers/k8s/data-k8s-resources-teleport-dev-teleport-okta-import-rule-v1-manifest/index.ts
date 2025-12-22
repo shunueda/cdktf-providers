@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#metadata DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#metadata DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestMetadata;
   /**
   * OktaImportRule resource definition v1 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#spec DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#spec DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#annotations DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#annotations DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#labels DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#labels DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#name DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#name DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#namespace DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#namespace DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestMetadata
 }
 export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpecMappingsAddLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#key DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#key DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#value DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#value DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -346,25 +346,25 @@ export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpec
   /**
   * AppIDs is a list of app IDs to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#app_ids DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#app_ids DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#app_ids}
   */
   readonly appIds?: string[];
   /**
   * AppNameRegexes is a list of regexes to match against app names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#app_name_regexes DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#app_name_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#app_name_regexes DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#app_name_regexes}
   */
   readonly appNameRegexes?: string[];
   /**
   * GroupIDs is a list of group IDs to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#group_ids DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#group_ids DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * GroupNameRegexes is a list of regexes to match against group names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#group_name_regexes DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#group_name_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#group_name_regexes DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#group_name_regexes}
   */
   readonly groupNameRegexes?: string[];
 }
@@ -569,13 +569,13 @@ export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpec
   /**
   * AddLabels specifies which labels to add if any of the previous matches match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#add_labels DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#add_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#add_labels DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#add_labels}
   */
   readonly addLabels?: DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpecMappingsAddLabels;
   /**
   * Match is a set of matching rules for this mapping. If any of these match, then the mapping will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#match DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#match DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#match}
   */
   readonly match?: DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpecMappingsMatch[] | cdktf.IResolvable;
 }
@@ -722,13 +722,13 @@ export interface DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpec
   /**
   * Mappings is a list of matches that will map match conditions to labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#mappings DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#mappings DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#mappings}
   */
   readonly mappings?: DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpecMappings[] | cdktf.IResolvable;
   /**
   * Priority represents the priority of the rule application. Lower numbered rules will be applied first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#priority DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#priority DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest#priority}
   */
   readonly priority?: number;
 }
@@ -851,7 +851,7 @@ export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest k8s_resources_teleport_dev_teleport_okta_import_rule_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest k8s_resources_teleport_dev_teleport_okta_import_rule_v1_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest extends cdktf.TerraformDataSource {
 
@@ -867,7 +867,7 @@ export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest extends
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -879,7 +879,7 @@ export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest k8s_resources_teleport_dev_teleport_okta_import_rule_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/resources_teleport_dev_teleport_okta_import_rule_v1_manifest k8s_resources_teleport_dev_teleport_okta_import_rule_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -890,8 +890,8 @@ export class DataK8SResourcesTeleportDevTeleportOktaImportRuleV1Manifest extends
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_okta_import_rule_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

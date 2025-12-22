@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PrivateServiceConnectEndpointConfig extends cdktf.TerraformMeta
   /**
   * The endpoint connection name prefix. This prefix that will be used to create the Private Service Connect endpoint in your Google Cloud account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#endpoint_connection_name PrivateServiceConnectEndpoint#endpoint_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#endpoint_connection_name PrivateServiceConnectEndpoint#endpoint_connection_name}
   */
   readonly endpointConnectionName: string;
   /**
   * The Google Cloud Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#gcp_project_id PrivateServiceConnectEndpoint#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#gcp_project_id PrivateServiceConnectEndpoint#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
   * The GCP VPC Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#gcp_vpc_name PrivateServiceConnectEndpoint#gcp_vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#gcp_vpc_name PrivateServiceConnectEndpoint#gcp_vpc_name}
   */
   readonly gcpVpcName: string;
   /**
   * The GCP Subnet name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#gcp_vpc_subnet_name PrivateServiceConnectEndpoint#gcp_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#gcp_vpc_subnet_name PrivateServiceConnectEndpoint#gcp_vpc_subnet_name}
   */
   readonly gcpVpcSubnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#id PrivateServiceConnectEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#id PrivateServiceConnectEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface PrivateServiceConnectEndpointConfig extends cdktf.TerraformMeta
   /**
   * The ID of the Private Service Connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#private_service_connect_service_id PrivateServiceConnectEndpoint#private_service_connect_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#private_service_connect_service_id PrivateServiceConnectEndpoint#private_service_connect_service_id}
   */
   readonly privateServiceConnectServiceId: number;
   /**
   * The ID of the Pro subscription to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#subscription_id PrivateServiceConnectEndpoint#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#subscription_id PrivateServiceConnectEndpoint#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#timeouts PrivateServiceConnectEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#timeouts PrivateServiceConnectEndpoint#timeouts}
   */
   readonly timeouts?: PrivateServiceConnectEndpointTimeouts;
 }
@@ -149,15 +149,15 @@ export class PrivateServiceConnectEndpointServiceAttachmentsList extends cdktf.C
 }
 export interface PrivateServiceConnectEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#create PrivateServiceConnectEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#create PrivateServiceConnectEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#delete PrivateServiceConnectEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#delete PrivateServiceConnectEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#read PrivateServiceConnectEndpoint#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#read PrivateServiceConnectEndpoint#read}
   */
   readonly read?: string;
 }
@@ -309,7 +309,7 @@ export class PrivateServiceConnectEndpointTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint rediscloud_private_service_connect_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint rediscloud_private_service_connect_endpoint}
 */
 export class PrivateServiceConnectEndpoint extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class PrivateServiceConnectEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateServiceConnectEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateServiceConnectEndpoint to import
-  * @param importFromId The id of the existing PrivateServiceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateServiceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateServiceConnectEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class PrivateServiceConnectEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/private_service_connect_endpoint rediscloud_private_service_connect_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/resources/private_service_connect_endpoint rediscloud_private_service_connect_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class PrivateServiceConnectEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_private_service_connect_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

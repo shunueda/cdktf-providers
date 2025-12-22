@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#metadata DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#metadata DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestMetadata;
   /**
   * DosProtectedResourceSpec defines the properties and values a DosProtectedResource can have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#spec DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#spec DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#annotations DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#annotations DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#labels DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#labels DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#name DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#name DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#namespace DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#namespace DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestMetadat
 }
 export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpecAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ip_with_mask DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ip_with_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ip_with_mask DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ip_with_mask}
   */
   readonly ipWithMask?: string;
 }
@@ -335,19 +335,19 @@ export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpe
   /**
   * Protocol determines if the server listens on http1 / http2 / grpc / websocket. The default is http1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#protocol DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#protocol DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Timeout determines how long (in seconds) should NGINX App Protect DoS wait for a response. Default is 10 seconds for http1/http2 and 5 seconds for grpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#timeout DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#timeout DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * URI is the destination to the desired protected object in the nginx.conf:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#uri DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#uri DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -501,19 +501,19 @@ export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpe
   /**
   * ApDosLogConf is the namespace/name of a APDosLogConf resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_log_conf DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_log_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_log_conf DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_log_conf}
   */
   readonly apDosLogConf?: string;
   /**
   * DosLogDest is the network address of a logging service, can be either IP or DNS name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_log_dest DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_log_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_log_dest DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_log_dest}
   */
   readonly dosLogDest?: string;
   /**
   * Enable enables the security logging feature if set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#enable DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#enable DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -667,43 +667,43 @@ export interface DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpe
   /**
   * AllowList is a list of allowed IPs and subnet masks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#allow_list DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#allow_list DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#allow_list}
   */
   readonly allowList?: DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpecAllowListStruct[] | cdktf.IResolvable;
   /**
   * ApDosMonitor is how NGINX App Protect DoS monitors the stress level of the protected object. The monitor requests are sent from localhost (127.0.0.1). Default value: URI - None, protocol - http1, timeout - NGINX App Protect DoS default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_monitor DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_monitor DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_monitor}
   */
   readonly apDosMonitor?: DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpecApDosMonitor;
   /**
   * ApDosPolicy is the namespace/name of a ApDosPolicy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_policy DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#ap_dos_policy DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#ap_dos_policy}
   */
   readonly apDosPolicy?: string;
   /**
   * DosAccessLogDest is the network address for the access logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_access_log_dest DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_access_log_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_access_log_dest DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_access_log_dest}
   */
   readonly dosAccessLogDest?: string;
   /**
   * DosSecurityLog defines the security log of the DosProtectedResource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_security_log DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_security_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#dos_security_log DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#dos_security_log}
   */
   readonly dosSecurityLog?: DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpecDosSecurityLog;
   /**
   * Enable enables the DOS feature if set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#enable DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#enable DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of protected object, max of 63 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#name DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#name DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -971,7 +971,7 @@ export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest k8s_appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest k8s_appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest}
 */
 export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -987,7 +987,7 @@ export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest extend
   * Generates CDKTF code for importing a DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -999,7 +999,7 @@ export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest k8s_appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest k8s_appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1010,8 +1010,8 @@ export class DataK8SAppprotectdosF5ComDosProtectedResourceV1Beta1Manifest extend
       terraformResourceType: 'k8s_appprotectdos_f5_com_dos_protected_resource_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

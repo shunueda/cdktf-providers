@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#metadata DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#metadata DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestMetadata;
   /**
   * JobRunSpec defines the desired state of JobRun. This entity describes a job run. A job run is a unit of work, such as a Spark jar, PySpark script, or SparkSQL query, that you submit to Amazon EMR on EKS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spec DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spec DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#annotations DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#annotations DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#labels DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#labels DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#namespace DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#namespace DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestMetadataOut
 }
 export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecJobDriverSparkSubmitJobDriver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#entry_point DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#entry_point DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#entry_point}
   */
   readonly entryPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#entry_point_arguments DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#entry_point_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#entry_point_arguments DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#entry_point_arguments}
   */
   readonly entryPointArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spark_submit_parameters DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spark_submit_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spark_submit_parameters DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spark_submit_parameters}
   */
   readonly sparkSubmitParameters?: string;
 }
@@ -379,7 +379,7 @@ export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecJob
   /**
   * The information about job driver for Spark submit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spark_submit_job_driver DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spark_submit_job_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#spark_submit_job_driver DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#spark_submit_job_driver}
   */
   readonly sparkSubmitJobDriver?: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecJobDriverSparkSubmitJobDriver;
 }
@@ -473,11 +473,11 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecJobDriv
 }
 export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecVirtualClusterRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#namespace DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#namespace DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -602,7 +602,7 @@ export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecVir
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#from DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#from DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecVirtualClusterRefFrom;
 }
@@ -696,49 +696,49 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecVirtual
 }
 export interface DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#configuration_overrides DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#configuration_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#configuration_overrides DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#configuration_overrides}
   */
   readonly configurationOverrides?: string;
   /**
   * The execution role ARN for the job run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#execution_role_arn DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#execution_role_arn DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
   * The job driver for the job run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#job_driver DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#job_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#job_driver DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#job_driver}
   */
   readonly jobDriver: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecJobDriver;
   /**
   * The name of the job run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#name DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Amazon EMR release version to use for the job run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#release_label DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#release_label DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#release_label}
   */
   readonly releaseLabel: string;
   /**
   * The tags assigned to job runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#tags DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#tags DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The virtual cluster ID for which the job run request is submitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#virtual_cluster_id DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#virtual_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#virtual_cluster_id DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#virtual_cluster_id}
   */
   readonly virtualClusterId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#virtual_cluster_ref DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#virtual_cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#virtual_cluster_ref DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest#virtual_cluster_ref}
   */
   readonly virtualClusterRef?: DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecVirtualClusterRef;
 }
@@ -1026,7 +1026,7 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest k8s_emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest k8s_emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest}
 */
 export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1042,7 +1042,7 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1054,7 +1054,7 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest k8s_emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest k8s_emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1065,8 +1065,8 @@ export class DataK8SEmrcontainersServicesK8SAwsJobRunV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_emrcontainers_services_k8s_aws_job_run_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

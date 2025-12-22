@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#metadata DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#metadata DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestMetadata;
   /**
   * KustomizationSpec defines the configuration to calculate the desired state from a Source using Kustomize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#spec DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#spec DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotations DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotations DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#labels DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#labels DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Annotations to be added to the object's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotations DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotations DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to be added to the object's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#labels DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#labels DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,7 +350,7 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -443,13 +443,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Provider is the name of the decryption engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#provider DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#provider DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#provider}
   */
   readonly provider: string;
   /**
   * The secret name containing the private OpenPGP keys used for decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#secret_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#secret_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecDecryptionSecretRef;
 }
@@ -571,13 +571,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, when not specified it acts as LocalObjectReference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -721,25 +721,25 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * API version of the referent, if not specified the Kubernetes preferred version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#api_version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#api_version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, when not specified it acts as LocalObjectReference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -938,25 +938,25 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Digest is the value used to replace the original image tag. If digest is present NewTag value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#digest DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#digest DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#digest}
   */
   readonly digest?: string;
   /**
   * Name is a tag-less image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * NewName is the value used to replace the original name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#new_name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#new_name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#new_name}
   */
   readonly newName?: string;
   /**
   * NewTag is the value used to replace the original tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#new_tag DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#new_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#new_tag DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#new_tag}
   */
   readonly newTag?: string;
 }
@@ -1158,13 +1158,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Key in the Secret, when not specified an implementation-specific default key is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#key DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#key DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -1286,7 +1286,7 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * SecretRef holds the name of a secret that contains a key with the kubeconfig file as the value. If no key is set, the key will default to 'value'. It is recommended that the kubeconfig is self-contained, and the secret is regularly updated if credentials such as a cloud-access-token expire. Cloud specific 'cmd-path' auth helpers will not function without adding binaries and credentials to the Pod that is responsible for reconciling Kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#secret_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#secret_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#secret_ref}
   */
   readonly secretRef: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecKubeConfigSecretRef;
 }
@@ -1379,43 +1379,43 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * AnnotationSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotation_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotation_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * Group is the API group to select resources from. Together with Version and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#group DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#group DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the API Group to select resources from. Together with Group and Version it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#label_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#label_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Name to match resources with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace to select resources from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Version of the API Group to select resources from. Together with Group and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -1685,13 +1685,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Patch contains an inline StrategicMerge patch or an inline JSON6902 patch with an array of operation objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patch DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patch DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patch}
   */
   readonly patch: string;
   /**
   * Target points to the resources that the patch document should be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target}
   */
   readonly target?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPatchesTarget;
 }
@@ -1835,25 +1835,25 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * From contains a JSON-pointer value that references a location within the target document where the operation is performed. The meaning of the value depends on the value of Op, and is NOT taken into account by all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#from DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#from DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#from}
   */
   readonly from?: string;
   /**
   * Op indicates the operation to perform. Its value MUST be one of 'add', 'remove', 'replace', 'move', 'copy', or 'test'. https://datatracker.ietf.org/doc/html/rfc6902#section-4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#op DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#op DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#op}
   */
   readonly op: string;
   /**
   * Path contains the JSON-pointer value that references a location within the target document where the operation is performed. The meaning of the value depends on the value of Op.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#path DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#path DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#path}
   */
   readonly path: string;
   /**
   * Value contains a valid JSON structure. The meaning of the value depends on the value of Op, and is NOT taken into account by all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#value DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#value DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2052,43 +2052,43 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * AnnotationSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotation_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#annotation_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * Group is the API group to select resources from. Together with Version and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#group DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#group DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the API Group to select resources from. Together with Group and Version it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#label_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#label_selector DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Name to match resources with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace to select resources from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Version of the API Group to select resources from. Together with Group and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -2358,13 +2358,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Patch contains the JSON6902 patch document with an array of operation objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patch DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patch DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patch}
   */
   readonly patch: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPatchesJson6902Patch[] | cdktf.IResolvable;
   /**
   * Target points to the resources that the patch document should be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target}
   */
   readonly target: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPatchesJson6902Target;
 }
@@ -2505,19 +2505,19 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Kind of the values referent, valid values are ('Secret', 'ConfigMap').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the values referent. Should reside in the same namespace as the referring resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Optional indicates whether the referenced resource must exist, or whether to tolerate its absence. If true and the referenced resource is absent, proceed as if the resource was present but empty, without any variables defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#optional DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#optional DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2687,13 +2687,13 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * Substitute holds a map of key/value pairs. The variables defined in your YAML manifests that match any of the keys defined in the map will be substituted with the set value. Includes support for bash string replacement functions e.g. ${var:=default}, ${var:position} and ${var/substring/replacement}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#substitute DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#substitute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#substitute DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#substitute}
   */
   readonly substitute?: { [key: string]: string };
   /**
   * SubstituteFrom holds references to ConfigMaps and Secrets containing the variables and their values to be substituted in the YAML manifests. The ConfigMap and the Secret data keys represent the var names and they must match the vars declared in the manifests for the substitution to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#substitute_from DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#substitute_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#substitute_from DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#substitute_from}
   */
   readonly substituteFrom?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPostBuildSubstituteFrom[] | cdktf.IResolvable;
 }
@@ -2818,25 +2818,25 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#api_version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#api_version DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kind DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, defaults to the namespace of the Kubernetes resource object that contains the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3013,139 +3013,139 @@ export interface DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpec
   /**
   * CommonMetadata specifies the common labels and annotations that are applied to all resources. Any existing label or annotation will be overridden if its key matches a common one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#common_metadata DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#common_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#common_metadata DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#common_metadata}
   */
   readonly commonMetadata?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecCommonMetadata;
   /**
   * Components specifies relative paths to specifications of other Components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#components DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#components DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#components}
   */
   readonly components?: string[];
   /**
   * Decrypt Kubernetes secrets before applying them on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#decryption DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#decryption DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#decryption}
   */
   readonly decryption?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecDecryption;
   /**
   * DependsOn may contain a meta.NamespacedObjectReference slice with references to Kustomization resources that must be ready before this Kustomization can be reconciled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#depends_on DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#depends_on DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecDependsOn[] | cdktf.IResolvable;
   /**
   * Force instructs the controller to recreate resources when patching fails due to an immutable field change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#force DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#force DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * A list of resources to be included in the health assessment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#health_checks DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#health_checks DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#health_checks}
   */
   readonly healthChecks?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecHealthChecks[] | cdktf.IResolvable;
   /**
   * Images is a list of (image name, new name, new tag or digest) for changing image names, tags or digests. This can also be achieved with a patch, but this operator is simpler to specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#images DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#images DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#images}
   */
   readonly images?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecImages[] | cdktf.IResolvable;
   /**
   * The interval at which to reconcile the Kustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#interval DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#interval DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#interval}
   */
   readonly interval: string;
   /**
   * The KubeConfig for reconciling the Kustomization on a remote cluster. When used in combination with KustomizationSpec.ServiceAccountName, forces the controller to act on behalf of that Service Account at the target cluster. If the --default-service-account flag is set, its value will be used as a controller level fallback for when KustomizationSpec.ServiceAccountName is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kube_config DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#kube_config DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#kube_config}
   */
   readonly kubeConfig?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecKubeConfig;
   /**
   * Strategic merge and JSON patches, defined as inline YAML objects, capable of targeting objects based on kind, label and annotation selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches}
   */
   readonly patches?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPatches[] | cdktf.IResolvable;
   /**
   * JSON 6902 patches, defined as inline YAML objects. Deprecated: Use Patches instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches_json6902 DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches_json6902}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches_json6902 DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches_json6902}
   */
   readonly patchesJson6902?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPatchesJson6902[] | cdktf.IResolvable;
   /**
   * Strategic merge patches, defined as inline YAML objects. Deprecated: Use Patches instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches_strategic_merge DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches_strategic_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#patches_strategic_merge DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#patches_strategic_merge}
   */
   readonly patchesStrategicMerge?: string[];
   /**
   * Path to the directory containing the kustomization.yaml file, or the set of plain YAMLs a kustomization.yaml should be generated for. Defaults to 'None', which translates to the root path of the SourceRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#path DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#path DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * PostBuild describes which actions to perform on the YAML manifest generated by building the kustomize overlay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#post_build DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#post_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#post_build DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#post_build}
   */
   readonly postBuild?: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecPostBuild;
   /**
   * Prune enables garbage collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#prune DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#prune DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#prune}
   */
   readonly prune: boolean | cdktf.IResolvable;
   /**
   * The interval at which to retry a previously failed reconciliation. When not specified, the controller uses the KustomizationSpec.Interval value to retry failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#retry_interval DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#retry_interval DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#retry_interval}
   */
   readonly retryInterval?: string;
   /**
   * The name of the Kubernetes service account to impersonate when reconciling this Kustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#service_account_name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#service_account_name DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Reference of the source where the kustomization file is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#source_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#source_ref DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#source_ref}
   */
   readonly sourceRef: DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecSourceRef;
   /**
   * This flag tells the controller to suspend subsequent kustomize executions, it does not apply to already started executions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#suspend DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#suspend DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * TargetNamespace sets or overrides the namespace in the kustomization.yaml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target_namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#target_namespace DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#target_namespace}
   */
   readonly targetNamespace?: string;
   /**
   * Timeout for validation, apply and health checking operations. Defaults to 'Interval' duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#timeout DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#timeout DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Deprecated: Not used in v1beta2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#validation DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#validation DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#validation}
   */
   readonly validation?: string;
   /**
   * Wait instructs the controller to check the health of all the reconciled resources. When enabled, the HealthChecks are ignored. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#wait DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#wait DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
 }
@@ -3868,7 +3868,7 @@ export class DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest k8s_kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest k8s_kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest}
 */
 export class DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -3884,7 +3884,7 @@ export class DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest extends
   * Generates CDKTF code for importing a DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3896,7 +3896,7 @@ export class DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest k8s_kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest k8s_kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3907,8 +3907,8 @@ export class DataK8SKustomizeToolkitFluxcdIoKustomizationV1Beta2Manifest extends
       terraformResourceType: 'k8s_kustomize_toolkit_fluxcd_io_kustomization_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

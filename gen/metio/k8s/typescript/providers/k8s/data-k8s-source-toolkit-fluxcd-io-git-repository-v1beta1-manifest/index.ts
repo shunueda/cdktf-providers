@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#metadata DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#metadata DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestMetadata;
   /**
   * GitRepositorySpec defines the desired state of a Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#spec DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#spec DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#annotations DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#annotations DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#labels DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#labels DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#namespace DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#namespace DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecAcc
   /**
   * MatchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#match_labels DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#match_labels DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -337,7 +337,7 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecAcc
   /**
   * NamespaceSelectors is the list of namespace selectors to which this ACL applies. Items in this list are evaluated using a logical OR operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#namespace_selectors DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#namespace_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#namespace_selectors DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#namespace_selectors}
   */
   readonly namespaceSelectors: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecAccessFromNamespaceSelectors[] | cdktf.IResolvable;
 }
@@ -430,7 +430,7 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecInc
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -523,19 +523,19 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecInc
   /**
   * The path to copy contents from, defaults to the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#from_path DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#from_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#from_path DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#from_path}
   */
   readonly fromPath?: string;
   /**
   * Reference to a GitRepository to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#repository DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#repository DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#repository}
   */
   readonly repository: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecIncludeRepository;
   /**
   * The path to copy contents to, defaults to the name of the source ref.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#to_path DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#to_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#to_path DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#to_path}
   */
   readonly toPath?: string;
 }
@@ -708,25 +708,25 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecRef
   /**
   * The Git branch to checkout, defaults to master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#branch DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#branch DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * The Git commit SHA to checkout, if specified Tag filters will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#commit DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#commit DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#commit}
   */
   readonly commit?: string;
   /**
   * The Git tag semver expression, takes precedence over Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#semver DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#semver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#semver DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#semver}
   */
   readonly semver?: string;
   /**
   * The Git tag to checkout, takes precedence over Branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#tag DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#tag DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -909,7 +909,7 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecSec
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1002,7 +1002,7 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecVer
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1095,13 +1095,13 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecVer
   /**
   * Mode describes what git object should be verified, currently ('head').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#mode DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#mode DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#mode}
   */
   readonly mode: string;
   /**
   * The secret name containing the public keys of all trusted Git authors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecVerifySecretRef;
 }
@@ -1223,73 +1223,73 @@ export interface DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpec {
   /**
   * AccessFrom defines an Access Control List for allowing cross-namespace references to this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#access_from DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#access_from DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#access_from}
   */
   readonly accessFrom?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecAccessFrom;
   /**
   * Determines which git client library to use. Defaults to go-git, valid values are ('go-git', 'libgit2').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#git_implementation DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#git_implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#git_implementation DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#git_implementation}
   */
   readonly gitImplementation?: string;
   /**
   * Ignore overrides the set of excluded patterns in the .sourceignore format (which is the same as .gitignore). If not provided, a default will be used, consult the documentation for your version to find out what those are.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#ignore DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#ignore DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#ignore}
   */
   readonly ignore?: string;
   /**
   * Extra git repositories to map into the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#include DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#include DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#include}
   */
   readonly include?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecInclude[] | cdktf.IResolvable;
   /**
   * The interval at which to check for repository updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#interval DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#interval DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#interval}
   */
   readonly interval: string;
   /**
   * When enabled, after the clone is created, initializes all submodules within, using their default settings. This option is available only when using the 'go-git' GitImplementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#recurse_submodules DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#recurse_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#recurse_submodules DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#recurse_submodules}
   */
   readonly recurseSubmodules?: boolean | cdktf.IResolvable;
   /**
   * The Git reference to checkout and monitor for changes, defaults to master branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#ref}
   */
   readonly ref?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecRef;
   /**
   * The secret name containing the Git credentials. For HTTPS repositories the secret must contain username and password fields. For SSH repositories the secret must contain identity and known_hosts fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecSecretRef;
   /**
   * This flag tells the controller to suspend the reconciliation of this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#suspend DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#suspend DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * The timeout for remote Git operations like cloning, defaults to 60s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#timeout DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#timeout DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * The repository URL, can be a HTTP/S or SSH address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#url DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#url DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#url}
   */
   readonly url: string;
   /**
   * Verify OpenPGP signature for the Git commit HEAD points to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#verify DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#verify DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest#verify}
   */
   readonly verify?: DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecVerify;
 }
@@ -1696,7 +1696,7 @@ export class DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_git_repository_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_git_repository_v1beta1_manifest}
 */
 export class DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1712,7 +1712,7 @@ export class DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1724,7 +1724,7 @@ export class DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_git_repository_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_git_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_git_repository_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1735,8 +1735,8 @@ export class DataK8SSourceToolkitFluxcdIoGitRepositoryV1Beta1Manifest extends cd
       terraformResourceType: 'k8s_source_toolkit_fluxcd_io_git_repository_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

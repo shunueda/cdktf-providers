@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#metadata DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#metadata DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#metadata}
   */
   readonly metadata: DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestMetadata;
   /**
   * ReceiverSpec defines the desired state of the Receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#spec DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#spec DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#spec}
   */
   readonly spec?: DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#annotations DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#annotations DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#labels DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#labels DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#namespace DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#namespace DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpecResourc
   /**
   * API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#api_version DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#api_version DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#kind DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#kind DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * MatchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed. MatchLabels requires the name to be set to '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#match_labels DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#match_labels DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * Name of the referent If multiple resources are targeted '*' may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#namespace DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#namespace DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -471,7 +471,7 @@ export interface DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpecSecretR
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#name DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -564,37 +564,37 @@ export interface DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpec {
   /**
   * Events specifies the list of event types to handle, e.g. 'push' for GitHub or 'Push Hook' for GitLab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#events DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#events DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#events}
   */
   readonly events?: string[];
   /**
   * Interval at which to reconcile the Receiver with its Secret references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#interval DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#interval DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * A list of resources to be notified about changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#resources DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#resources DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#resources}
   */
   readonly resources: DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * SecretRef specifies the Secret containing the token used to validate the payload authenticity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#secret_ref DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#secret_ref DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpecSecretRef;
   /**
   * Suspend tells the controller to suspend subsequent events handling for this receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#suspend DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#suspend DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Type of webhook sender, used to determine the validation procedure and payload deserialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#type DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#type DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -824,7 +824,7 @@ export class DataK8SNotificationToolkitFluxcdIoReceiverV1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest k8s_notification_toolkit_fluxcd_io_receiver_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest k8s_notification_toolkit_fluxcd_io_receiver_v1_manifest}
 */
 export class DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest extends cdktf.TerraformDataSource {
 
@@ -840,7 +840,7 @@ export class DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -852,7 +852,7 @@ export class DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest k8s_notification_toolkit_fluxcd_io_receiver_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/notification_toolkit_fluxcd_io_receiver_v1_manifest k8s_notification_toolkit_fluxcd_io_receiver_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -863,8 +863,8 @@ export class DataK8SNotificationToolkitFluxcdIoReceiverV1Manifest extends cdktf.
       terraformResourceType: 'k8s_notification_toolkit_fluxcd_io_receiver_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

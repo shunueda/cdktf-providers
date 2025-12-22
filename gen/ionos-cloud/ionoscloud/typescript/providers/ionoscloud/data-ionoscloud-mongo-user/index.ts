@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIonoscloudMongoUserConfig extends cdktf.TerraformMetaArgume
   /**
   * The id of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#cluster_id DataIonoscloudMongoUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#cluster_id DataIonoscloudMongoUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#database DataIonoscloudMongoUser#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#database DataIonoscloudMongoUser#database}
   */
   readonly database?: string;
   /**
   * Id of the backup unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#id DataIonoscloudMongoUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#id DataIonoscloudMongoUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,31 +31,31 @@ export interface DataIonoscloudMongoUserConfig extends cdktf.TerraformMetaArgume
   /**
   * The username to search for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#username DataIonoscloudMongoUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#username DataIonoscloudMongoUser#username}
   */
   readonly username: string;
   /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#roles DataIonoscloudMongoUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#roles DataIonoscloudMongoUser#roles}
   */
   readonly roles?: DataIonoscloudMongoUserRoles[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#timeouts DataIonoscloudMongoUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#timeouts DataIonoscloudMongoUser#timeouts}
   */
   readonly timeouts?: DataIonoscloudMongoUserTimeouts;
 }
 export interface DataIonoscloudMongoUserRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#database DataIonoscloudMongoUser#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#database DataIonoscloudMongoUser#database}
   */
   readonly database?: string;
   /**
   * A list of mongodb user roles. Examples: read, readWrite, readAnyDatabase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#role DataIonoscloudMongoUser#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#role DataIonoscloudMongoUser#role}
   */
   readonly role?: string;
 }
@@ -200,19 +200,19 @@ export class DataIonoscloudMongoUserRolesList extends cdktf.ComplexList {
 }
 export interface DataIonoscloudMongoUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#create DataIonoscloudMongoUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#create DataIonoscloudMongoUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#default DataIonoscloudMongoUser#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#default DataIonoscloudMongoUser#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#delete DataIonoscloudMongoUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#delete DataIonoscloudMongoUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#update DataIonoscloudMongoUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#update DataIonoscloudMongoUser#update}
   */
   readonly update?: string;
 }
@@ -393,7 +393,7 @@ export class DataIonoscloudMongoUserTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user ionoscloud_mongo_user}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user ionoscloud_mongo_user}
 */
 export class DataIonoscloudMongoUser extends cdktf.TerraformDataSource {
 
@@ -409,7 +409,7 @@ export class DataIonoscloudMongoUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIonoscloudMongoUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIonoscloudMongoUser to import
-  * @param importFromId The id of the existing DataIonoscloudMongoUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIonoscloudMongoUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIonoscloudMongoUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class DataIonoscloudMongoUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/data-sources/mongo_user ionoscloud_mongo_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/data-sources/mongo_user ionoscloud_mongo_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class DataIonoscloudMongoUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_mongo_user',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

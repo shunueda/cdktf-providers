@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#metadata DataK8SProjectcontourIoHttpProxyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#metadata DataK8SProjectcontourIoHttpProxyV1Manifest#metadata}
   */
   readonly metadata: DataK8SProjectcontourIoHttpProxyV1ManifestMetadata;
   /**
   * HTTPProxySpec defines the spec of the CRD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#spec DataK8SProjectcontourIoHttpProxyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#spec DataK8SProjectcontourIoHttpProxyV1Manifest#spec}
   */
   readonly spec: DataK8SProjectcontourIoHttpProxyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#annotations DataK8SProjectcontourIoHttpProxyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#annotations DataK8SProjectcontourIoHttpProxyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#labels DataK8SProjectcontourIoHttpProxyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#labels DataK8SProjectcontourIoHttpProxyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,61 +219,61 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesCondition
   /**
   * Contains specifies a substring that must be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the header value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the header to match against. Name is required. Header names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * NotContains specifies a substring that must not be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
   */
   readonly notcontains?: string;
   /**
   * NoExact specifies a string that the header value must not be equal to. The condition is true if the header has any other value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
   */
   readonly notexact?: string;
   /**
   * NotPresent specifies that condition is true when the named header is not present. Note that setting NotPresent to false does not make the condition true if the named header is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
   */
   readonly notpresent?: boolean | cdktf.IResolvable;
   /**
   * Present specifies that condition is true when the named header is present, regardless of its value. Note that setting Present to false does not make the condition true if the named header is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * TreatMissingAsEmpty specifies if the header match rule specified header does not exist, this header value will be treated as empty. Defaults to false. Unlike the underlying Envoy implementation this is **only** supported for negative matches (e.g. NotContains, NotExact).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
   */
   readonly treatMissingAsEmpty?: boolean | cdktf.IResolvable;
 }
@@ -627,49 +627,49 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesCondition
   /**
   * Contains specifies a substring that must be present in the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the query parameter value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the query parameter to match against. Name is required. Query parameter names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Prefix defines a prefix match for the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Present specifies that condition is true when the named query parameter is present, regardless of its value. Note that setting Present to false does not make the condition true if the named query parameter is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Suffix defines a suffix match for a query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#suffix DataK8SProjectcontourIoHttpProxyV1Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#suffix DataK8SProjectcontourIoHttpProxyV1Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -965,31 +965,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesCondition
   /**
   * Exact defines a exact match for a request. This field is not allowed in include match conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * Header specifies the header condition to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header DataK8SProjectcontourIoHttpProxyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header DataK8SProjectcontourIoHttpProxyV1Manifest#header}
   */
   readonly header?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesConditionsHeader;
   /**
   * Prefix defines a prefix match for a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * QueryParameter specifies the query parameter condition to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter}
   */
   readonly queryParameter?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesConditionsQueryParameter;
   /**
   * Regex defines a regex match for a request. This field is not allowed in include match conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -1223,19 +1223,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludes {
   /**
   * Conditions are a set of rules that are applied to included HTTPProxies. In effect, they are added onto the Conditions of included HTTPProxy Route structs. When applied, they are merged using AND, with one exception: There can be only one Prefix MatchCondition per Conditions slice. More than one Prefix, or contradictory Conditions, will make the include invalid. Exact and Regex match conditions are not allowed on includes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#conditions DataK8SProjectcontourIoHttpProxyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#conditions DataK8SProjectcontourIoHttpProxyV1Manifest#conditions}
   */
   readonly conditions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludesConditions[] | cdktf.IResolvable;
   /**
   * Name of the HTTPProxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the HTTPProxy to include. Defaults to the current namespace if not supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1408,13 +1408,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesAuthPolicy 
   /**
   * Context is a set of key/value pairs that are sent to the authentication server in the check request. If a context is provided at an enclosing scope, the entries are merged such that the inner scope overrides matching keys from the outer scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#context DataK8SProjectcontourIoHttpProxyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#context DataK8SProjectcontourIoHttpProxyV1Manifest#context}
   */
   readonly context?: { [key: string]: string };
   /**
   * When true, this field disables client request authentication for the scope of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -1539,61 +1539,61 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditionsH
   /**
   * Contains specifies a substring that must be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the header value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the header to match against. Name is required. Header names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * NotContains specifies a substring that must not be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
   */
   readonly notcontains?: string;
   /**
   * NoExact specifies a string that the header value must not be equal to. The condition is true if the header has any other value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
   */
   readonly notexact?: string;
   /**
   * NotPresent specifies that condition is true when the named header is not present. Note that setting NotPresent to false does not make the condition true if the named header is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
   */
   readonly notpresent?: boolean | cdktf.IResolvable;
   /**
   * Present specifies that condition is true when the named header is present, regardless of its value. Note that setting Present to false does not make the condition true if the named header is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * TreatMissingAsEmpty specifies if the header match rule specified header does not exist, this header value will be treated as empty. Defaults to false. Unlike the underlying Envoy implementation this is **only** supported for negative matches (e.g. NotContains, NotExact).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
   */
   readonly treatMissingAsEmpty?: boolean | cdktf.IResolvable;
 }
@@ -1947,49 +1947,49 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditionsQ
   /**
   * Contains specifies a substring that must be present in the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the query parameter value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the query parameter to match against. Name is required. Query parameter names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Prefix defines a prefix match for the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Present specifies that condition is true when the named query parameter is present, regardless of its value. Note that setting Present to false does not make the condition true if the named query parameter is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Suffix defines a suffix match for a query parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#suffix DataK8SProjectcontourIoHttpProxyV1Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#suffix DataK8SProjectcontourIoHttpProxyV1Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -2285,31 +2285,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditions 
   /**
   * Exact defines a exact match for a request. This field is not allowed in include match conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * Header specifies the header condition to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header DataK8SProjectcontourIoHttpProxyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header DataK8SProjectcontourIoHttpProxyV1Manifest#header}
   */
   readonly header?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditionsHeader;
   /**
   * Prefix defines a prefix match for a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * QueryParameter specifies the query parameter condition to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter}
   */
   readonly queryParameter?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditionsQueryParameter;
   /**
   * Regex defines a regex match for a request. This field is not allowed in include match conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2543,7 +2543,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewri
   /**
   * Value is the value to rewrite the Domain attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2636,7 +2636,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewri
   /**
   * Value is the value to rewrite the Path attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2729,31 +2729,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewri
   /**
   * DomainRewrite enables rewriting the Set-Cookie Domain element. If not set, Domain will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
   */
   readonly domainRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewritePoliciesDomainRewrite;
   /**
   * Name is the name of the cookie for which attributes will be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * PathRewrite enables rewriting the Set-Cookie Path element. If not set, Path will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
   */
   readonly pathRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewritePoliciesPathRewrite;
   /**
   * SameSite enables rewriting the Set-Cookie SameSite element. If not set, SameSite attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure enables rewriting the Set-Cookie Secure element. If not set, Secure attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -2984,13 +2984,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesDirectRespo
   /**
   * Body is the content of the response body. If this setting is omitted, no body is included in the generated response. Note: Body is not recommended to set too long otherwise it can have significant resource usage impacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#body DataK8SProjectcontourIoHttpProxyV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#body DataK8SProjectcontourIoHttpProxyV1Manifest#body}
   */
   readonly body?: string;
   /**
   * StatusCode is the HTTP response status to be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#status_code DataK8SProjectcontourIoHttpProxyV1Manifest#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#status_code DataK8SProjectcontourIoHttpProxyV1Manifest#status_code}
   */
   readonly statusCode: number;
 }
@@ -3112,13 +3112,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesHealthCheck
   /**
   * The end (exclusive) of a range of HTTP status codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#end DataK8SProjectcontourIoHttpProxyV1Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#end DataK8SProjectcontourIoHttpProxyV1Manifest#end}
   */
   readonly end: number;
   /**
   * The start (inclusive) of a range of HTTP status codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#start DataK8SProjectcontourIoHttpProxyV1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#start DataK8SProjectcontourIoHttpProxyV1Manifest#start}
   */
   readonly start: number;
 }
@@ -3259,43 +3259,43 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesHealthCheck
   /**
   * The ranges of HTTP response statuses considered healthy. Follow half-open semantics, i.e. for each range the start is inclusive and the end is exclusive. Must be within the range [100,600). If not specified, only a 200 response status is considered healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expected_statuses DataK8SProjectcontourIoHttpProxyV1Manifest#expected_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expected_statuses DataK8SProjectcontourIoHttpProxyV1Manifest#expected_statuses}
   */
   readonly expectedStatuses?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesHealthCheckPolicyExpectedStatuses[] | cdktf.IResolvable;
   /**
   * The number of healthy health checks required before a host is marked healthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#healthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#healthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
   * The value of the host header in the HTTP health check request. If left empty (default value), the name 'contour-envoy-healthcheck' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#host DataK8SProjectcontourIoHttpProxyV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#host DataK8SProjectcontourIoHttpProxyV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The interval (seconds) between health checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#interval_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#interval_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * HTTP endpoint used to perform health checks on upstream service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path DataK8SProjectcontourIoHttpProxyV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path DataK8SProjectcontourIoHttpProxyV1Manifest#path}
   */
   readonly path: string;
   /**
   * The time to wait (seconds) for a health check response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The number of unhealthy health checks required before a host is marked unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unhealthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unhealthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -3562,25 +3562,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesInternalRed
   /**
   * AllowCrossSchemeRedirect Allow internal redirect to follow a target URI with a different scheme than the value of x-forwarded-proto. SafeOnly allows same scheme redirect and safe cross scheme redirect, which means if the downstream scheme is HTTPS, both HTTPS and HTTP redirect targets are allowed, but if the downstream scheme is HTTP, only HTTP redirect targets are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_cross_scheme_redirect DataK8SProjectcontourIoHttpProxyV1Manifest#allow_cross_scheme_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_cross_scheme_redirect DataK8SProjectcontourIoHttpProxyV1Manifest#allow_cross_scheme_redirect}
   */
   readonly allowCrossSchemeRedirect?: string;
   /**
   * If DenyRepeatedRouteRedirect is true, rejects redirect targets that are pointing to a route that has been followed by a previous redirect from the current route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#deny_repeated_route_redirect DataK8SProjectcontourIoHttpProxyV1Manifest#deny_repeated_route_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#deny_repeated_route_redirect DataK8SProjectcontourIoHttpProxyV1Manifest#deny_repeated_route_redirect}
   */
   readonly denyRepeatedRouteRedirect?: boolean | cdktf.IResolvable;
   /**
   * MaxInternalRedirects An internal redirect is not handled, unless the number of previous internal redirects that a downstream request has encountered is lower than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_internal_redirects DataK8SProjectcontourIoHttpProxyV1Manifest#max_internal_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_internal_redirects DataK8SProjectcontourIoHttpProxyV1Manifest#max_internal_redirects}
   */
   readonly maxInternalRedirects?: number;
   /**
   * RedirectResponseCodes If unspecified, only 302 will be treated as internal redirect. Only 301, 302, 303, 307 and 308 are valid values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#redirect_response_codes DataK8SProjectcontourIoHttpProxyV1Manifest#redirect_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#redirect_response_codes DataK8SProjectcontourIoHttpProxyV1Manifest#redirect_response_codes}
   */
   readonly redirectResponseCodes?: string[];
 }
@@ -3763,13 +3763,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesIpAllowPoli
   /**
   * CIDR is a CIDR block of ipv4 or ipv6 addresses to filter on. This can also be a bare IP address (without a mask) to filter on exactly one address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Source indicates how to determine the ip address to filter on, and can be one of two values: - 'Remote' filters on the ip address of the client, accounting for PROXY and X-Forwarded-For as needed. - 'Peer' filters on the ip of the network request, ignoring PROXY and X-Forwarded-For.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
   */
   readonly source: string;
 }
@@ -3910,13 +3910,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesIpDenyPolic
   /**
   * CIDR is a CIDR block of ipv4 or ipv6 addresses to filter on. This can also be a bare IP address (without a mask) to filter on exactly one address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Source indicates how to determine the ip address to filter on, and can be one of two values: - 'Remote' filters on the ip address of the client, accounting for PROXY and X-Forwarded-For as needed. - 'Peer' filters on the ip of the network request, ignoring PROXY and X-Forwarded-For.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
   */
   readonly source: string;
 }
@@ -4057,13 +4057,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesJwtVerifica
   /**
   * Disabled defines whether to disable all JWT verification for this route. This can be used to opt specific routes out of the default JWT provider for the HTTPProxy. At most one of this field or the 'require' field can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Require names a specific JWT provider (defined in the virtual host) to require for the route. If specified, this field overrides the default provider if one exists. If this field is not specified, the default provider will be required if one exists. At most one of this field or the 'disabled' field can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#require DataK8SProjectcontourIoHttpProxyV1Manifest#require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#require DataK8SProjectcontourIoHttpProxyV1Manifest#require}
   */
   readonly require?: string;
 }
@@ -4188,7 +4188,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalance
   /**
   * HeaderName is the name of the HTTP request header that will be used to calculate the hash key. If the header specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -4284,7 +4284,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalance
   /**
   * ParameterName is the name of the HTTP request query parameter that will be used to calculate the hash key. If the query parameter specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#parameter_name DataK8SProjectcontourIoHttpProxyV1Manifest#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#parameter_name DataK8SProjectcontourIoHttpProxyV1Manifest#parameter_name}
   */
   readonly parameterName?: string;
 }
@@ -4380,25 +4380,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalance
   /**
   * HashSourceIP should be set to true when request source IP hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hash_source_ip DataK8SProjectcontourIoHttpProxyV1Manifest#hash_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hash_source_ip DataK8SProjectcontourIoHttpProxyV1Manifest#hash_source_ip}
   */
   readonly hashSourceIp?: boolean | cdktf.IResolvable;
   /**
   * HeaderHashOptions should be set when request header hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#header_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#header_hash_options}
   */
   readonly headerHashOptions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalancerPolicyRequestHashPoliciesHeaderHashOptions;
   /**
   * QueryParameterHashOptions should be set when request query parameter hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter_hash_options}
   */
   readonly queryParameterHashOptions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalancerPolicyRequestHashPoliciesQueryParameterHashOptions;
   /**
   * Terminal is a flag that allows for short-circuiting computing of a hash for a given request. If set to true, and the request attribute specified in the attribute hash options is present, no further hash policies will be used to calculate a hash for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#terminal DataK8SProjectcontourIoHttpProxyV1Manifest#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#terminal DataK8SProjectcontourIoHttpProxyV1Manifest#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
 }
@@ -4603,13 +4603,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalance
   /**
   * RequestHashPolicies contains a list of hash policies to apply when the 'RequestHash' load balancing strategy is chosen. If an element of the supplied list of hash policies is invalid, it will be ignored. If the list of hash policies is empty after validation, the load balancing strategy will fall back to the default 'RoundRobin'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_hash_policies DataK8SProjectcontourIoHttpProxyV1Manifest#request_hash_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_hash_policies DataK8SProjectcontourIoHttpProxyV1Manifest#request_hash_policies}
   */
   readonly requestHashPolicies?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalancerPolicyRequestHashPolicies[] | cdktf.IResolvable;
   /**
   * Strategy specifies the policy used to balance requests across the pool of backend pods. Valid policy names are 'Random', 'RoundRobin', 'WeightedLeastRequest', 'Cookie', and 'RequestHash'. If an unknown strategy name is specified or no policy is supplied, the default 'RoundRobin' policy is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#strategy DataK8SProjectcontourIoHttpProxyV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#strategy DataK8SProjectcontourIoHttpProxyV1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -4734,13 +4734,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesPathRewrite
   /**
   * Prefix specifies the URL path prefix to be replaced. If Prefix is specified, it must exactly match the MatchCondition prefix that is rendered by the chain of including HTTPProxies and only that path prefix will be replaced by Replacement. This allows HTTPProxies that are included through multiple roots to only replace specific path prefixes, leaving others unmodified. If Prefix is not specified, all routing prefixes rendered by the include chain will be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Replacement is the string that the routing path prefix will be replaced with. This must not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#replacement DataK8SProjectcontourIoHttpProxyV1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#replacement DataK8SProjectcontourIoHttpProxyV1Manifest#replacement}
   */
   readonly replacement: string;
 }
@@ -4884,7 +4884,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesPathRewrite
   /**
   * ReplacePrefix describes how the path prefix should be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#replace_prefix DataK8SProjectcontourIoHttpProxyV1Manifest#replace_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#replace_prefix DataK8SProjectcontourIoHttpProxyV1Manifest#replace_prefix}
   */
   readonly replacePrefix?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesPathRewritePolicyReplacePrefix[] | cdktf.IResolvable;
 }
@@ -4980,13 +4980,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Key defines the key of the descriptor entry. If not set, the key is set to 'generic_key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#key DataK8SProjectcontourIoHttpProxyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#key DataK8SProjectcontourIoHttpProxyV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5111,13 +5111,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * DescriptorKey defines the key to use on the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptor_key DataK8SProjectcontourIoHttpProxyV1Manifest#descriptor_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptor_key DataK8SProjectcontourIoHttpProxyV1Manifest#descriptor_key}
   */
   readonly descriptorKey?: string;
   /**
   * HeaderName defines the name of the header to look for on the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -5242,61 +5242,61 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Contains specifies a substring that must be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the header value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the header to match against. Name is required. Header names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * NotContains specifies a substring that must not be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
   */
   readonly notcontains?: string;
   /**
   * NoExact specifies a string that the header value must not be equal to. The condition is true if the header has any other value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
   */
   readonly notexact?: string;
   /**
   * NotPresent specifies that condition is true when the named header is not present. Note that setting NotPresent to false does not make the condition true if the named header is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
   */
   readonly notpresent?: boolean | cdktf.IResolvable;
   /**
   * Present specifies that condition is true when the named header is present, regardless of its value. Note that setting Present to false does not make the condition true if the named header is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * TreatMissingAsEmpty specifies if the header match rule specified header does not exist, this header value will be treated as empty. Defaults to false. Unlike the underlying Envoy implementation this is **only** supported for negative matches (e.g. NotContains, NotExact).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
   */
   readonly treatMissingAsEmpty?: boolean | cdktf.IResolvable;
 }
@@ -5672,19 +5672,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * ExpectMatch defines whether the request must positively match the match criteria in order to generate a descriptor entry (i.e. true), or not match the match criteria in order to generate a descriptor entry (i.e. false). The default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expect_match DataK8SProjectcontourIoHttpProxyV1Manifest#expect_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expect_match DataK8SProjectcontourIoHttpProxyV1Manifest#expect_match}
   */
   readonly expectMatch?: boolean | cdktf.IResolvable;
   /**
   * Headers is a list of 1+ match criteria to apply against the request to determine whether to populate the descriptor entry or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#headers DataK8SProjectcontourIoHttpProxyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#headers DataK8SProjectcontourIoHttpProxyV1Manifest#headers}
   */
   readonly headers?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptorsEntriesRequestHeaderValueMatchHeaders[] | cdktf.IResolvable;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5838,25 +5838,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * GenericKey defines a descriptor entry with a static key and value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#generic_key DataK8SProjectcontourIoHttpProxyV1Manifest#generic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#generic_key DataK8SProjectcontourIoHttpProxyV1Manifest#generic_key}
   */
   readonly genericKey?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptorsEntriesGenericKey;
   /**
   * RemoteAddress defines a descriptor entry with a key of 'remote_address' and a value equal to the client's IP address (from x-forwarded-for).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_address DataK8SProjectcontourIoHttpProxyV1Manifest#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_address DataK8SProjectcontourIoHttpProxyV1Manifest#remote_address}
   */
   readonly remoteAddress?: { [key: string]: string };
   /**
   * RequestHeader defines a descriptor entry that's populated only if a given header is present on the request. The descriptor key is static, and the descriptor value is equal to the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header DataK8SProjectcontourIoHttpProxyV1Manifest#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header DataK8SProjectcontourIoHttpProxyV1Manifest#request_header}
   */
   readonly requestHeader?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptorsEntriesRequestHeader;
   /**
   * RequestHeaderValueMatch defines a descriptor entry that's populated if the request's headers match a set of 1+ match criteria. The descriptor key is 'header_match', and the descriptor value is static.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header_value_match DataK8SProjectcontourIoHttpProxyV1Manifest#request_header_value_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header_value_match DataK8SProjectcontourIoHttpProxyV1Manifest#request_header_value_match}
   */
   readonly requestHeaderValueMatch?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptorsEntriesRequestHeaderValueMatch;
 }
@@ -6061,7 +6061,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Entries is the list of key-value pair generators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#entries DataK8SProjectcontourIoHttpProxyV1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#entries DataK8SProjectcontourIoHttpProxyV1Manifest#entries}
   */
   readonly entries?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptorsEntries[] | cdktf.IResolvable;
 }
@@ -6179,13 +6179,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Descriptors defines the list of descriptors that will be generated and sent to the rate limit service. Each descriptor contains 1+ key-value pair entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptors DataK8SProjectcontourIoHttpProxyV1Manifest#descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptors DataK8SProjectcontourIoHttpProxyV1Manifest#descriptors}
   */
   readonly descriptors?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobalDescriptors[] | cdktf.IResolvable;
   /**
   * Disabled configures the HTTPProxy to not use the default global rate limit policy defined by the Contour configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -6310,13 +6310,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -6457,31 +6457,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Burst defines the number of requests above the requests per unit that should be allowed within a short period of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#burst DataK8SProjectcontourIoHttpProxyV1Manifest#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#burst DataK8SProjectcontourIoHttpProxyV1Manifest#burst}
   */
   readonly burst?: number;
   /**
   * Requests defines how many requests per unit of time should be allowed before rate limiting occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#requests DataK8SProjectcontourIoHttpProxyV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#requests DataK8SProjectcontourIoHttpProxyV1Manifest#requests}
   */
   readonly requests: number;
   /**
   * ResponseHeadersToAdd is an optional list of response headers to set when a request is rate-limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_to_add DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_to_add DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyLocalResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * ResponseStatusCode is the HTTP status code to use for responses to rate-limited requests. Codes must be in the 400-599 range (inclusive). If not specified, the Envoy default of 429 (Too Many Requests) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_status_code DataK8SProjectcontourIoHttpProxyV1Manifest#response_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_status_code DataK8SProjectcontourIoHttpProxyV1Manifest#response_status_code}
   */
   readonly responseStatusCode?: number;
   /**
   * Unit defines the period of time within which requests over the limit will be rate limited. Valid values are 'second', 'minute' and 'hour'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unit DataK8SProjectcontourIoHttpProxyV1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unit DataK8SProjectcontourIoHttpProxyV1Manifest#unit}
   */
   readonly unit: string;
 }
@@ -6687,13 +6687,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPo
   /**
   * Global defines global rate limiting parameters, i.e. parameters defining descriptors that are sent to an external rate limit service (RLS) for a rate limit decision on each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#global DataK8SProjectcontourIoHttpProxyV1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#global DataK8SProjectcontourIoHttpProxyV1Manifest#global}
   */
   readonly global?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyGlobal;
   /**
   * Local defines local rate limiting parameters, i.e. parameters for rate limiting that occurs within each Envoy pod as requests are handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#local DataK8SProjectcontourIoHttpProxyV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#local DataK8SProjectcontourIoHttpProxyV1Manifest#local}
   */
   readonly local?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicyLocal;
 }
@@ -6818,13 +6818,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestHead
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -6965,13 +6965,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestHead
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -7096,37 +7096,37 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestRedi
   /**
   * Hostname is the precise hostname to be used in the value of the 'Location' header in the response. When empty, the hostname of the request is used. No wildcards are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hostname DataK8SProjectcontourIoHttpProxyV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hostname DataK8SProjectcontourIoHttpProxyV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Path allows for redirection to a different path from the original on the request. The path must start with a leading slash. Note: Only one of Path or Prefix can be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path DataK8SProjectcontourIoHttpProxyV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path DataK8SProjectcontourIoHttpProxyV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port is the port to be used in the value of the 'Location' header in the response. When empty, port (if specified) of the request is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Prefix defines the value to swap the matched prefix or path with. The prefix must start with a leading slash. Note: Only one of Path or Prefix can be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#prefix DataK8SProjectcontourIoHttpProxyV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Scheme is the scheme to be used in the value of the 'Location' header in the response. When empty, the scheme of the request is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#scheme DataK8SProjectcontourIoHttpProxyV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#scheme DataK8SProjectcontourIoHttpProxyV1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * StatusCode is the HTTP status code to be used in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#status_code DataK8SProjectcontourIoHttpProxyV1Manifest#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#status_code DataK8SProjectcontourIoHttpProxyV1Manifest#status_code}
   */
   readonly statusCode?: number;
 }
@@ -7367,13 +7367,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesResponseHea
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -7514,13 +7514,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesResponseHea
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesResponseHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -7645,25 +7645,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRetryPolicy
   /**
   * NumRetries is maximum allowed number of retries. If set to -1, then retries are disabled. If set to 0 or not supplied, the value is set to the Envoy default of 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#count DataK8SProjectcontourIoHttpProxyV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#count DataK8SProjectcontourIoHttpProxyV1Manifest#count}
   */
   readonly count?: number;
   /**
   * PerTryTimeout specifies the timeout per retry attempt. Ignored if NumRetries is not supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#per_try_timeout DataK8SProjectcontourIoHttpProxyV1Manifest#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#per_try_timeout DataK8SProjectcontourIoHttpProxyV1Manifest#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * RetriableStatusCodes specifies the HTTP status codes that should be retried. This field is only respected when you include 'retriable-status-codes' in the 'RetryOn' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retriable_status_codes DataK8SProjectcontourIoHttpProxyV1Manifest#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retriable_status_codes DataK8SProjectcontourIoHttpProxyV1Manifest#retriable_status_codes}
   */
   readonly retriableStatusCodes?: string[];
   /**
   * RetryOn specifies the conditions on which to retry a request. Supported [HTTP conditions](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/router_filter#x-envoy-retry-on): - '5xx' - 'gateway-error' - 'reset' - 'connect-failure' - 'retriable-4xx' - 'refused-stream' - 'retriable-status-codes' - 'retriable-headers' Supported [gRPC conditions](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/router_filter#x-envoy-retry-grpc-on): - 'cancelled' - 'deadline-exceeded' - 'internal' - 'resource-exhausted' - 'unavailable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retry_on DataK8SProjectcontourIoHttpProxyV1Manifest#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retry_on DataK8SProjectcontourIoHttpProxyV1Manifest#retry_on}
   */
   readonly retryOn?: string[];
 }
@@ -7846,7 +7846,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCoo
   /**
   * Value is the value to rewrite the Domain attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -7939,7 +7939,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCoo
   /**
   * Value is the value to rewrite the Path attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8032,31 +8032,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCoo
   /**
   * DomainRewrite enables rewriting the Set-Cookie Domain element. If not set, Domain will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
   */
   readonly domainRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCookieRewritePoliciesDomainRewrite;
   /**
   * Name is the name of the cookie for which attributes will be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * PathRewrite enables rewriting the Set-Cookie Path element. If not set, Path will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
   */
   readonly pathRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCookieRewritePoliciesPathRewrite;
   /**
   * SameSite enables rewriting the Set-Cookie SameSite element. If not set, SameSite attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure enables rewriting the Set-Cookie Secure element. If not set, Secure attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -8287,13 +8287,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesReq
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8434,13 +8434,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesReq
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesRequestHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -8565,13 +8565,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesRes
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8712,13 +8712,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesRes
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesResponseHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -8843,19 +8843,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesSlo
   /**
   * The speed of traffic increase over the slow start window. Defaults to 1.0, so that endpoint would get linearly increasing amount of traffic. When increasing the value for this parameter, the speed of traffic ramp-up increases non-linearly. The value of aggression parameter should be greater than 0.0. More info: https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/slow_start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#aggression DataK8SProjectcontourIoHttpProxyV1Manifest#aggression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#aggression DataK8SProjectcontourIoHttpProxyV1Manifest#aggression}
   */
   readonly aggression?: string;
   /**
   * The minimum or starting percentage of traffic to send to new endpoints. A non-zero value helps avoid a too small initial weight, which may cause endpoints in slow start mode to receive no traffic in the beginning of the slow start window. If not specified, the default is 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#min_weight_percent DataK8SProjectcontourIoHttpProxyV1Manifest#min_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#min_weight_percent DataK8SProjectcontourIoHttpProxyV1Manifest#min_weight_percent}
   */
   readonly minWeightPercent?: number;
   /**
   * The duration of slow start window. Duration is expressed in the Go [Duration format](https://godoc.org/time#ParseDuration). Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#window DataK8SProjectcontourIoHttpProxyV1Manifest#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#window DataK8SProjectcontourIoHttpProxyV1Manifest#window}
   */
   readonly window: string;
 }
@@ -9006,19 +9006,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesVal
   /**
   * Name or namespaced name of the Kubernetes secret used to validate the certificate presented by the backend. The secret must contain key named ca.crt. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret. Max length should be the actual max possible length of a namespaced name (63 + 253 + 1 = 317)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
   */
   readonly caSecret: string;
   /**
   * Key which is expected to be present in the 'subjectAltName' of the presented certificate. Deprecated: migrate to using the plural field subjectNames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
   */
   readonly subjectName: string;
   /**
   * List of keys, of which at least one is expected to be present in the 'subjectAltName of the presented certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
   */
   readonly subjectNames?: string[];
 }
@@ -9166,67 +9166,67 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServices {
   /**
   * The policies for rewriting Set-Cookie header attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
   */
   readonly cookieRewritePolicies?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesCookieRewritePolicies[] | cdktf.IResolvable;
   /**
   * HealthPort is the port for this service healthcheck. If not specified, Port is used for service healthchecks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_port DataK8SProjectcontourIoHttpProxyV1Manifest#health_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_port DataK8SProjectcontourIoHttpProxyV1Manifest#health_port}
   */
   readonly healthPort?: number;
   /**
   * If Mirror is true the Service will receive a read only mirror of the traffic for this route. If Mirror is true, then fractional mirroring can be enabled by optionally setting the Weight field. Legal values for Weight are 1-100. Omitting the Weight field will result in 100% mirroring. NOTE: Setting Weight explicitly to 0 will unexpectedly result in 100% traffic mirroring. This occurs since we cannot distinguish omitted fields from those explicitly set to their default values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#mirror DataK8SProjectcontourIoHttpProxyV1Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#mirror DataK8SProjectcontourIoHttpProxyV1Manifest#mirror}
   */
   readonly mirror?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of Kubernetes service to proxy traffic. Names defined here will be used to look up corresponding endpoints which contain the ips to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Port (defined as Integer) to proxy traffic to since a service can have multiple defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol may be used to specify (or override) the protocol used to reach this Service. Values may be tls, h2, h2c. If omitted, protocol-selection falls back on Service annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#protocol DataK8SProjectcontourIoHttpProxyV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#protocol DataK8SProjectcontourIoHttpProxyV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * The policy for managing request headers during proxying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
   */
   readonly requestHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesRequestHeadersPolicy;
   /**
   * The policy for managing response headers during proxying. Rewriting the 'Host' header is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
   */
   readonly responseHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesResponseHeadersPolicy;
   /**
   * Slow start will gradually increase amount of traffic to a newly added endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#slow_start_policy DataK8SProjectcontourIoHttpProxyV1Manifest#slow_start_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#slow_start_policy DataK8SProjectcontourIoHttpProxyV1Manifest#slow_start_policy}
   */
   readonly slowStartPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesSlowStartPolicy;
   /**
   * UpstreamValidation defines how to verify the backend service's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
   */
   readonly validation?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServicesValidation;
   /**
   * Weight defines percentage of traffic to balance traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#weight DataK8SProjectcontourIoHttpProxyV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#weight DataK8SProjectcontourIoHttpProxyV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -9628,19 +9628,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesTimeoutPoli
   /**
   * Timeout for how long the proxy should wait while there is no activity during single request/response (for HTTP/1.1) or stream (for HTTP/2). Timeout will not trigger while HTTP/1.1 connection is idle between two consecutive requests. If not specified, there is no per-route idle timeout, though a connection manager-wide stream_idle_timeout default of 5m still applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#idle DataK8SProjectcontourIoHttpProxyV1Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#idle DataK8SProjectcontourIoHttpProxyV1Manifest#idle}
   */
   readonly idle?: string;
   /**
   * Timeout for how long connection from the proxy to the upstream service is kept when there are no active requests. If not supplied, Envoy's default value of 1h applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#idle_connection DataK8SProjectcontourIoHttpProxyV1Manifest#idle_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#idle_connection DataK8SProjectcontourIoHttpProxyV1Manifest#idle_connection}
   */
   readonly idleConnection?: string;
   /**
   * Timeout for receiving a response from the server after processing a request from client. If not supplied, Envoy's default value of 15s applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response DataK8SProjectcontourIoHttpProxyV1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response DataK8SProjectcontourIoHttpProxyV1Manifest#response}
   */
   readonly response?: string;
 }
@@ -9794,121 +9794,121 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutes {
   /**
   * AuthPolicy updates the authorization policy that was set on the root HTTPProxy object for client requests that match this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#auth_policy DataK8SProjectcontourIoHttpProxyV1Manifest#auth_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#auth_policy DataK8SProjectcontourIoHttpProxyV1Manifest#auth_policy}
   */
   readonly authPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesAuthPolicy;
   /**
   * Conditions are a set of rules that are applied to a Route. When applied, they are merged using AND, with one exception: There can be only one Prefix, Exact or Regex MatchCondition per Conditions slice. More than one of these condition types, or contradictory Conditions, will make the route invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#conditions DataK8SProjectcontourIoHttpProxyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#conditions DataK8SProjectcontourIoHttpProxyV1Manifest#conditions}
   */
   readonly conditions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesConditions[] | cdktf.IResolvable;
   /**
   * The policies for rewriting Set-Cookie header attributes. Note that rewritten cookie names must be unique in this list. Order rewrite policies are specified in does not matter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
   */
   readonly cookieRewritePolicies?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesCookieRewritePolicies[] | cdktf.IResolvable;
   /**
   * DirectResponsePolicy returns an arbitrary HTTP response directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#direct_response_policy DataK8SProjectcontourIoHttpProxyV1Manifest#direct_response_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#direct_response_policy DataK8SProjectcontourIoHttpProxyV1Manifest#direct_response_policy}
   */
   readonly directResponsePolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesDirectResponsePolicy;
   /**
   * Enables websocket support for the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#enable_websockets DataK8SProjectcontourIoHttpProxyV1Manifest#enable_websockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#enable_websockets DataK8SProjectcontourIoHttpProxyV1Manifest#enable_websockets}
   */
   readonly enableWebsockets?: boolean | cdktf.IResolvable;
   /**
   * The health check policy for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_check_policy DataK8SProjectcontourIoHttpProxyV1Manifest#health_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_check_policy DataK8SProjectcontourIoHttpProxyV1Manifest#health_check_policy}
   */
   readonly healthCheckPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesHealthCheckPolicy;
   /**
   * The policy to define when to handle redirects responses internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#internal_redirect_policy DataK8SProjectcontourIoHttpProxyV1Manifest#internal_redirect_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#internal_redirect_policy DataK8SProjectcontourIoHttpProxyV1Manifest#internal_redirect_policy}
   */
   readonly internalRedirectPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesInternalRedirectPolicy;
   /**
   * IPAllowFilterPolicy is a list of ipv4/6 filter rules for which matching requests should be allowed. All other requests will be denied. Only one of IPAllowFilterPolicy and IPDenyFilterPolicy can be defined. The rules defined here override any rules set on the root HTTPProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_allow_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_allow_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_allow_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_allow_policy}
   */
   readonly ipAllowPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesIpAllowPolicy[] | cdktf.IResolvable;
   /**
   * IPDenyFilterPolicy is a list of ipv4/6 filter rules for which matching requests should be denied. All other requests will be allowed. Only one of IPAllowFilterPolicy and IPDenyFilterPolicy can be defined. The rules defined here override any rules set on the root HTTPProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_deny_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_deny_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_deny_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_deny_policy}
   */
   readonly ipDenyPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesIpDenyPolicy[] | cdktf.IResolvable;
   /**
   * The policy for verifying JWTs for requests to this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#jwt_verification_policy DataK8SProjectcontourIoHttpProxyV1Manifest#jwt_verification_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#jwt_verification_policy DataK8SProjectcontourIoHttpProxyV1Manifest#jwt_verification_policy}
   */
   readonly jwtVerificationPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesJwtVerificationPolicy;
   /**
   * The load balancing policy for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#load_balancer_policy DataK8SProjectcontourIoHttpProxyV1Manifest#load_balancer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#load_balancer_policy DataK8SProjectcontourIoHttpProxyV1Manifest#load_balancer_policy}
   */
   readonly loadBalancerPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesLoadBalancerPolicy;
   /**
   * The policy for rewriting the path of the request URL after the request has been routed to a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite_policy DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite_policy DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite_policy}
   */
   readonly pathRewritePolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesPathRewritePolicy;
   /**
   * Allow this path to respond to insecure requests over HTTP which are normally not permitted when a 'virtualhost.tls' block is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#permit_insecure DataK8SProjectcontourIoHttpProxyV1Manifest#permit_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#permit_insecure DataK8SProjectcontourIoHttpProxyV1Manifest#permit_insecure}
   */
   readonly permitInsecure?: boolean | cdktf.IResolvable;
   /**
   * The policy for rate limiting on the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#rate_limit_policy DataK8SProjectcontourIoHttpProxyV1Manifest#rate_limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#rate_limit_policy DataK8SProjectcontourIoHttpProxyV1Manifest#rate_limit_policy}
   */
   readonly rateLimitPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRateLimitPolicy;
   /**
   * The policy for managing request headers during proxying. You may dynamically rewrite the Host header to be forwarded upstream to the content of a request header using the below format '%REQ(X-Header-Name)%'. If the value of the header is empty, it is ignored. *NOTE: Pay attention to the potential security implications of using this option. Provided header must come from trusted source. **NOTE: The header rewrite is only done while forwarding and has no bearing on the routing decision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
   */
   readonly requestHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestHeadersPolicy;
   /**
   * RequestRedirectPolicy defines an HTTP redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_redirect_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_redirect_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_redirect_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_redirect_policy}
   */
   readonly requestRedirectPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRequestRedirectPolicy;
   /**
   * The policy for managing response headers during proxying. Rewriting the 'Host' header is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
   */
   readonly responseHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesResponseHeadersPolicy;
   /**
   * The retry policy for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retry_policy DataK8SProjectcontourIoHttpProxyV1Manifest#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#retry_policy DataK8SProjectcontourIoHttpProxyV1Manifest#retry_policy}
   */
   readonly retryPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesRetryPolicy;
   /**
   * Services are the services to proxy traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#services DataK8SProjectcontourIoHttpProxyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#services DataK8SProjectcontourIoHttpProxyV1Manifest#services}
   */
   readonly services?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesServices[] | cdktf.IResolvable;
   /**
   * The timeout policy for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_policy DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_policy DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_policy}
   */
   readonly timeoutPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutesTimeoutPolicy;
 }
@@ -10577,25 +10577,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyHealthChe
   /**
   * The number of healthy health checks required before a host is marked healthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#healthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#healthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
   * The interval (seconds) between health checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#interval_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#interval_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The time to wait (seconds) for a health check response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout_seconds DataK8SProjectcontourIoHttpProxyV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The number of unhealthy health checks required before a host is marked unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unhealthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unhealthy_threshold_count DataK8SProjectcontourIoHttpProxyV1Manifest#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -10778,13 +10778,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyInclude {
   /**
   * Name of the child HTTPProxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the HTTPProxy to include. Defaults to the current namespace if not supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10906,13 +10906,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyIncludes 
   /**
   * Name of the child HTTPProxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the HTTPProxy to include. Defaults to the current namespace if not supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11034,7 +11034,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalan
   /**
   * HeaderName is the name of the HTTP request header that will be used to calculate the hash key. If the header specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -11130,7 +11130,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalan
   /**
   * ParameterName is the name of the HTTP request query parameter that will be used to calculate the hash key. If the query parameter specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#parameter_name DataK8SProjectcontourIoHttpProxyV1Manifest#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#parameter_name DataK8SProjectcontourIoHttpProxyV1Manifest#parameter_name}
   */
   readonly parameterName?: string;
 }
@@ -11226,25 +11226,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalan
   /**
   * HashSourceIP should be set to true when request source IP hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hash_source_ip DataK8SProjectcontourIoHttpProxyV1Manifest#hash_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#hash_source_ip DataK8SProjectcontourIoHttpProxyV1Manifest#hash_source_ip}
   */
   readonly hashSourceIp?: boolean | cdktf.IResolvable;
   /**
   * HeaderHashOptions should be set when request header hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#header_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#header_hash_options}
   */
   readonly headerHashOptions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalancerPolicyRequestHashPoliciesHeaderHashOptions;
   /**
   * QueryParameterHashOptions should be set when request query parameter hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#query_parameter_hash_options DataK8SProjectcontourIoHttpProxyV1Manifest#query_parameter_hash_options}
   */
   readonly queryParameterHashOptions?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalancerPolicyRequestHashPoliciesQueryParameterHashOptions;
   /**
   * Terminal is a flag that allows for short-circuiting computing of a hash for a given request. If set to true, and the request attribute specified in the attribute hash options is present, no further hash policies will be used to calculate a hash for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#terminal DataK8SProjectcontourIoHttpProxyV1Manifest#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#terminal DataK8SProjectcontourIoHttpProxyV1Manifest#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
 }
@@ -11449,13 +11449,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalan
   /**
   * RequestHashPolicies contains a list of hash policies to apply when the 'RequestHash' load balancing strategy is chosen. If an element of the supplied list of hash policies is invalid, it will be ignored. If the list of hash policies is empty after validation, the load balancing strategy will fall back to the default 'RoundRobin'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_hash_policies DataK8SProjectcontourIoHttpProxyV1Manifest#request_hash_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_hash_policies DataK8SProjectcontourIoHttpProxyV1Manifest#request_hash_policies}
   */
   readonly requestHashPolicies?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalancerPolicyRequestHashPolicies[] | cdktf.IResolvable;
   /**
   * Strategy specifies the policy used to balance requests across the pool of backend pods. Valid policy names are 'Random', 'RoundRobin', 'WeightedLeastRequest', 'Cookie', and 'RequestHash'. If an unknown strategy name is specified or no policy is supplied, the default 'RoundRobin' policy is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#strategy DataK8SProjectcontourIoHttpProxyV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#strategy DataK8SProjectcontourIoHttpProxyV1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -11580,7 +11580,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesC
   /**
   * Value is the value to rewrite the Domain attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11673,7 +11673,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesC
   /**
   * Value is the value to rewrite the Path attribute to. For now this is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11766,31 +11766,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesC
   /**
   * DomainRewrite enables rewriting the Set-Cookie Domain element. If not set, Domain will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#domain_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#domain_rewrite}
   */
   readonly domainRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesCookieRewritePoliciesDomainRewrite;
   /**
   * Name is the name of the cookie for which attributes will be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * PathRewrite enables rewriting the Set-Cookie Path element. If not set, Path will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#path_rewrite DataK8SProjectcontourIoHttpProxyV1Manifest#path_rewrite}
   */
   readonly pathRewrite?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesCookieRewritePoliciesPathRewrite;
   /**
   * SameSite enables rewriting the Set-Cookie SameSite element. If not set, SameSite attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#same_site DataK8SProjectcontourIoHttpProxyV1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure enables rewriting the Set-Cookie Secure element. If not set, Secure attribute will not be rewritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secure DataK8SProjectcontourIoHttpProxyV1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -12021,13 +12021,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesR
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12168,13 +12168,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesR
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesRequestHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -12299,13 +12299,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesR
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12446,13 +12446,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesR
   /**
   * Remove specifies a list of HTTP header names to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remove DataK8SProjectcontourIoHttpProxyV1Manifest#remove}
   */
   readonly remove?: string[];
   /**
   * Set specifies a list of HTTP header values that will be set in the HTTP header. If the header does not exist it will be added, otherwise it will be overwritten with the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#set DataK8SProjectcontourIoHttpProxyV1Manifest#set}
   */
   readonly set?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesResponseHeadersPolicySet[] | cdktf.IResolvable;
 }
@@ -12577,19 +12577,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesS
   /**
   * The speed of traffic increase over the slow start window. Defaults to 1.0, so that endpoint would get linearly increasing amount of traffic. When increasing the value for this parameter, the speed of traffic ramp-up increases non-linearly. The value of aggression parameter should be greater than 0.0. More info: https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/slow_start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#aggression DataK8SProjectcontourIoHttpProxyV1Manifest#aggression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#aggression DataK8SProjectcontourIoHttpProxyV1Manifest#aggression}
   */
   readonly aggression?: string;
   /**
   * The minimum or starting percentage of traffic to send to new endpoints. A non-zero value helps avoid a too small initial weight, which may cause endpoints in slow start mode to receive no traffic in the beginning of the slow start window. If not specified, the default is 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#min_weight_percent DataK8SProjectcontourIoHttpProxyV1Manifest#min_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#min_weight_percent DataK8SProjectcontourIoHttpProxyV1Manifest#min_weight_percent}
   */
   readonly minWeightPercent?: number;
   /**
   * The duration of slow start window. Duration is expressed in the Go [Duration format](https://godoc.org/time#ParseDuration). Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#window DataK8SProjectcontourIoHttpProxyV1Manifest#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#window DataK8SProjectcontourIoHttpProxyV1Manifest#window}
   */
   readonly window: string;
 }
@@ -12740,19 +12740,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesV
   /**
   * Name or namespaced name of the Kubernetes secret used to validate the certificate presented by the backend. The secret must contain key named ca.crt. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret. Max length should be the actual max possible length of a namespaced name (63 + 253 + 1 = 317)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
   */
   readonly caSecret: string;
   /**
   * Key which is expected to be present in the 'subjectAltName' of the presented certificate. Deprecated: migrate to using the plural field subjectNames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
   */
   readonly subjectName: string;
   /**
   * List of keys, of which at least one is expected to be present in the 'subjectAltName of the presented certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
   */
   readonly subjectNames?: string[];
 }
@@ -12900,67 +12900,67 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServices 
   /**
   * The policies for rewriting Set-Cookie header attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cookie_rewrite_policies DataK8SProjectcontourIoHttpProxyV1Manifest#cookie_rewrite_policies}
   */
   readonly cookieRewritePolicies?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesCookieRewritePolicies[] | cdktf.IResolvable;
   /**
   * HealthPort is the port for this service healthcheck. If not specified, Port is used for service healthchecks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_port DataK8SProjectcontourIoHttpProxyV1Manifest#health_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_port DataK8SProjectcontourIoHttpProxyV1Manifest#health_port}
   */
   readonly healthPort?: number;
   /**
   * If Mirror is true the Service will receive a read only mirror of the traffic for this route. If Mirror is true, then fractional mirroring can be enabled by optionally setting the Weight field. Legal values for Weight are 1-100. Omitting the Weight field will result in 100% mirroring. NOTE: Setting Weight explicitly to 0 will unexpectedly result in 100% traffic mirroring. This occurs since we cannot distinguish omitted fields from those explicitly set to their default values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#mirror DataK8SProjectcontourIoHttpProxyV1Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#mirror DataK8SProjectcontourIoHttpProxyV1Manifest#mirror}
   */
   readonly mirror?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of Kubernetes service to proxy traffic. Names defined here will be used to look up corresponding endpoints which contain the ips to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Port (defined as Integer) to proxy traffic to since a service can have multiple defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#port DataK8SProjectcontourIoHttpProxyV1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol may be used to specify (or override) the protocol used to reach this Service. Values may be tls, h2, h2c. If omitted, protocol-selection falls back on Service annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#protocol DataK8SProjectcontourIoHttpProxyV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#protocol DataK8SProjectcontourIoHttpProxyV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * The policy for managing request headers during proxying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#request_headers_policy}
   */
   readonly requestHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesRequestHeadersPolicy;
   /**
   * The policy for managing response headers during proxying. Rewriting the 'Host' header is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_policy DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_policy}
   */
   readonly responseHeadersPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesResponseHeadersPolicy;
   /**
   * Slow start will gradually increase amount of traffic to a newly added endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#slow_start_policy DataK8SProjectcontourIoHttpProxyV1Manifest#slow_start_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#slow_start_policy DataK8SProjectcontourIoHttpProxyV1Manifest#slow_start_policy}
   */
   readonly slowStartPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesSlowStartPolicy;
   /**
   * UpstreamValidation defines how to verify the backend service's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
   */
   readonly validation?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServicesValidation;
   /**
   * Weight defines percentage of traffic to balance traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#weight DataK8SProjectcontourIoHttpProxyV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#weight DataK8SProjectcontourIoHttpProxyV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -13362,31 +13362,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxy {
   /**
   * The health check policy for this tcp proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_check_policy DataK8SProjectcontourIoHttpProxyV1Manifest#health_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#health_check_policy DataK8SProjectcontourIoHttpProxyV1Manifest#health_check_policy}
   */
   readonly healthCheckPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyHealthCheckPolicy;
   /**
   * Include specifies that this tcpproxy should be delegated to another HTTPProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#include DataK8SProjectcontourIoHttpProxyV1Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#include DataK8SProjectcontourIoHttpProxyV1Manifest#include}
   */
   readonly include?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyInclude;
   /**
   * IncludesDeprecated allow for specific routing configuration to be appended to another HTTPProxy in another namespace. Exists due to a mistake when developing HTTPProxy and the field was marked plural when it should have been singular. This field should stay to not break backwards compatibility to v1 users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#includes DataK8SProjectcontourIoHttpProxyV1Manifest#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#includes DataK8SProjectcontourIoHttpProxyV1Manifest#includes}
   */
   readonly includes?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyIncludes;
   /**
   * The load balancing policy for the backend services. Note that the 'Cookie' and 'RequestHash' load balancing strategies cannot be used here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#load_balancer_policy DataK8SProjectcontourIoHttpProxyV1Manifest#load_balancer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#load_balancer_policy DataK8SProjectcontourIoHttpProxyV1Manifest#load_balancer_policy}
   */
   readonly loadBalancerPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyLoadBalancerPolicy;
   /**
   * Services are the services to proxy traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#services DataK8SProjectcontourIoHttpProxyV1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#services DataK8SProjectcontourIoHttpProxyV1Manifest#services}
   */
   readonly services?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxyServices[] | cdktf.IResolvable;
 }
@@ -13598,13 +13598,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthor
   /**
   * Context is a set of key/value pairs that are sent to the authentication server in the check request. If a context is provided at an enclosing scope, the entries are merged such that the inner scope overrides matching keys from the outer scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#context DataK8SProjectcontourIoHttpProxyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#context DataK8SProjectcontourIoHttpProxyV1Manifest#context}
   */
   readonly context?: { [key: string]: string };
   /**
   * When true, this field disables client request authentication for the scope of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -13729,19 +13729,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthor
   /**
   * API version of the referent. If this field is not specified, the default 'projectcontour.io/v1alpha1' will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#api_version DataK8SProjectcontourIoHttpProxyV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#api_version DataK8SProjectcontourIoHttpProxyV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. If this field is not specifies, the namespace of the resource that targets the referent will be used. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#namespace DataK8SProjectcontourIoHttpProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13895,19 +13895,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthor
   /**
   * If AllowPartialMessage is true, then Envoy will buffer the body until MaxRequestBytes are reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_partial_message DataK8SProjectcontourIoHttpProxyV1Manifest#allow_partial_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_partial_message DataK8SProjectcontourIoHttpProxyV1Manifest#allow_partial_message}
   */
   readonly allowPartialMessage?: boolean | cdktf.IResolvable;
   /**
   * MaxRequestBytes sets the maximum size of message body ExtAuthz filter will hold in-memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_request_bytes DataK8SProjectcontourIoHttpProxyV1Manifest#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_request_bytes DataK8SProjectcontourIoHttpProxyV1Manifest#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
   /**
   * If PackAsBytes is true, the body sent to Authorization Server is in raw bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#pack_as_bytes DataK8SProjectcontourIoHttpProxyV1Manifest#pack_as_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#pack_as_bytes DataK8SProjectcontourIoHttpProxyV1Manifest#pack_as_bytes}
   */
   readonly packAsBytes?: boolean | cdktf.IResolvable;
 }
@@ -14061,31 +14061,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthor
   /**
   * AuthPolicy sets a default authorization policy for client requests. This policy will be used unless overridden by individual routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#auth_policy DataK8SProjectcontourIoHttpProxyV1Manifest#auth_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#auth_policy DataK8SProjectcontourIoHttpProxyV1Manifest#auth_policy}
   */
   readonly authPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthorizationAuthPolicy;
   /**
   * ExtensionServiceRef specifies the extension resource that will authorize client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#extension_ref DataK8SProjectcontourIoHttpProxyV1Manifest#extension_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#extension_ref DataK8SProjectcontourIoHttpProxyV1Manifest#extension_ref}
   */
   readonly extensionRef?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthorizationExtensionRef;
   /**
   * If FailOpen is true, the client request is forwarded to the upstream service even if the authorization server fails to respond. This field should not be set in most cases. It is intended for use only while migrating applications from internal authorization to Contour external authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#fail_open DataK8SProjectcontourIoHttpProxyV1Manifest#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#fail_open DataK8SProjectcontourIoHttpProxyV1Manifest#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
   * ResponseTimeout configures maximum time to wait for a check response from the authorization server. Timeout durations are expressed in the Go [Duration format](https://godoc.org/time#ParseDuration). Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'. The string 'infinity' is also a valid input and specifies no timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_timeout DataK8SProjectcontourIoHttpProxyV1Manifest#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_timeout DataK8SProjectcontourIoHttpProxyV1Manifest#response_timeout}
   */
   readonly responseTimeout?: string;
   /**
   * WithRequestBody specifies configuration for sending the client request's body to authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#with_request_body DataK8SProjectcontourIoHttpProxyV1Manifest#with_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#with_request_body DataK8SProjectcontourIoHttpProxyV1Manifest#with_request_body}
   */
   readonly withRequestBody?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthorizationWithRequestBody;
 }
@@ -14297,43 +14297,43 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostCorsPo
   /**
   * Specifies whether the resource allows credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_credentials DataK8SProjectcontourIoHttpProxyV1Manifest#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_credentials DataK8SProjectcontourIoHttpProxyV1Manifest#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
   * AllowHeaders specifies the content for the *access-control-allow-headers* header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_headers DataK8SProjectcontourIoHttpProxyV1Manifest#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_headers DataK8SProjectcontourIoHttpProxyV1Manifest#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * AllowMethods specifies the content for the *access-control-allow-methods* header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_methods DataK8SProjectcontourIoHttpProxyV1Manifest#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_methods DataK8SProjectcontourIoHttpProxyV1Manifest#allow_methods}
   */
   readonly allowMethods: string[];
   /**
   * AllowOrigin specifies the origins that will be allowed to do CORS requests. Allowed values include '*' which signifies any origin is allowed, an exact origin of the form 'scheme://host[:port]' (where port is optional), or a valid regex pattern. Note that regex patterns are validated and a simple 'glob' pattern (e.g. *.foo.com) will be rejected or produce unexpected matches when applied as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_origin DataK8SProjectcontourIoHttpProxyV1Manifest#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_origin DataK8SProjectcontourIoHttpProxyV1Manifest#allow_origin}
   */
   readonly allowOrigin: string[];
   /**
   * AllowPrivateNetwork specifies whether to allow private network requests. See https://developer.chrome.com/blog/private-network-access-preflight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_private_network DataK8SProjectcontourIoHttpProxyV1Manifest#allow_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#allow_private_network DataK8SProjectcontourIoHttpProxyV1Manifest#allow_private_network}
   */
   readonly allowPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * ExposeHeaders Specifies the content for the *access-control-expose-headers* header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expose_headers DataK8SProjectcontourIoHttpProxyV1Manifest#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expose_headers DataK8SProjectcontourIoHttpProxyV1Manifest#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * MaxAge indicates for how long the results of a preflight request can be cached. MaxAge durations are expressed in the Go [Duration format](https://godoc.org/time#ParseDuration). Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'. Only positive values are allowed while 0 disables the cache requiring a preflight OPTIONS check for all cross-origin requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_age DataK8SProjectcontourIoHttpProxyV1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#max_age DataK8SProjectcontourIoHttpProxyV1Manifest#max_age}
   */
   readonly maxAge?: string;
 }
@@ -14597,13 +14597,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostIpAllo
   /**
   * CIDR is a CIDR block of ipv4 or ipv6 addresses to filter on. This can also be a bare IP address (without a mask) to filter on exactly one address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Source indicates how to determine the ip address to filter on, and can be one of two values: - 'Remote' filters on the ip address of the client, accounting for PROXY and X-Forwarded-For as needed. - 'Peer' filters on the ip of the network request, ignoring PROXY and X-Forwarded-For.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
   */
   readonly source: string;
 }
@@ -14744,13 +14744,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostIpDeny
   /**
   * CIDR is a CIDR block of ipv4 or ipv6 addresses to filter on. This can also be a bare IP address (without a mask) to filter on exactly one address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cidr DataK8SProjectcontourIoHttpProxyV1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Source indicates how to determine the ip address to filter on, and can be one of two values: - 'Remote' filters on the ip address of the client, accounting for PROXY and X-Forwarded-For as needed. - 'Peer' filters on the ip of the network request, ignoring PROXY and X-Forwarded-For.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#source DataK8SProjectcontourIoHttpProxyV1Manifest#source}
   */
   readonly source: string;
 }
@@ -14891,19 +14891,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtPro
   /**
   * Name or namespaced name of the Kubernetes secret used to validate the certificate presented by the backend. The secret must contain key named ca.crt. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret. Max length should be the actual max possible length of a namespaced name (63 + 253 + 1 = 317)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
   */
   readonly caSecret: string;
   /**
   * Key which is expected to be present in the 'subjectAltName' of the presented certificate. Deprecated: migrate to using the plural field subjectNames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_name DataK8SProjectcontourIoHttpProxyV1Manifest#subject_name}
   */
   readonly subjectName: string;
   /**
   * List of keys, of which at least one is expected to be present in the 'subjectAltName of the presented certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject_names DataK8SProjectcontourIoHttpProxyV1Manifest#subject_names}
   */
   readonly subjectNames?: string[];
 }
@@ -15051,31 +15051,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtPro
   /**
   * How long to cache the JWKS locally. If not specified, Envoy's default of 5m applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cache_duration DataK8SProjectcontourIoHttpProxyV1Manifest#cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cache_duration DataK8SProjectcontourIoHttpProxyV1Manifest#cache_duration}
   */
   readonly cacheDuration?: string;
   /**
   * The DNS IP address resolution policy for the JWKS URI. When configured as 'v4', the DNS resolver will only perform a lookup for addresses in the IPv4 family. If 'v6' is configured, the DNS resolver will only perform a lookup for addresses in the IPv6 family. If 'all' is configured, the DNS resolver will perform a lookup for addresses in both the IPv4 and IPv6 family. If 'auto' is configured, the DNS resolver will first perform a lookup for addresses in the IPv6 family and fallback to a lookup for addresses in the IPv4 family. If not specified, the Contour-wide setting defined in the config file or ContourConfiguration applies (defaults to 'auto'). See https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto.html#envoy-v3-api-enum-config-cluster-v3-cluster-dnslookupfamily for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#dns_lookup_family DataK8SProjectcontourIoHttpProxyV1Manifest#dns_lookup_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#dns_lookup_family DataK8SProjectcontourIoHttpProxyV1Manifest#dns_lookup_family}
   */
   readonly dnsLookupFamily?: string;
   /**
   * How long to wait for a response from the URI. If not specified, a default of 1s applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout DataK8SProjectcontourIoHttpProxyV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#timeout DataK8SProjectcontourIoHttpProxyV1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * The URI for the JWKS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#uri DataK8SProjectcontourIoHttpProxyV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#uri DataK8SProjectcontourIoHttpProxyV1Manifest#uri}
   */
   readonly uri: string;
   /**
   * UpstreamValidation defines how to verify the JWKS's TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#validation DataK8SProjectcontourIoHttpProxyV1Manifest#validation}
   */
   readonly validation?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtProvidersRemoteJwksValidation;
 }
@@ -15284,37 +15284,37 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtPro
   /**
   * Audiences that JWTs are allowed to have in the 'aud' field. If not provided, JWT audiences are not checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#audiences DataK8SProjectcontourIoHttpProxyV1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#audiences DataK8SProjectcontourIoHttpProxyV1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * Whether the provider should apply to all routes in the HTTPProxy/its includes by default. At most one provider can be marked as the default. If no provider is marked as the default, individual routes must explicitly identify the provider they require.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#default DataK8SProjectcontourIoHttpProxyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#default DataK8SProjectcontourIoHttpProxyV1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Whether the JWT should be forwarded to the backend service after successful verification. By default, the JWT is not forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#forward_jwt DataK8SProjectcontourIoHttpProxyV1Manifest#forward_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#forward_jwt DataK8SProjectcontourIoHttpProxyV1Manifest#forward_jwt}
   */
   readonly forwardJwt?: boolean | cdktf.IResolvable;
   /**
   * Issuer that JWTs are required to have in the 'iss' field. If not provided, JWT issuers are not checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#issuer DataK8SProjectcontourIoHttpProxyV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#issuer DataK8SProjectcontourIoHttpProxyV1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * Unique name for the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Remote JWKS to use for verifying JWT signatures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_jwks DataK8SProjectcontourIoHttpProxyV1Manifest#remote_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_jwks DataK8SProjectcontourIoHttpProxyV1Manifest#remote_jwks}
   */
   readonly remoteJwks: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtProvidersRemoteJwks;
 }
@@ -15571,13 +15571,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Key defines the key of the descriptor entry. If not set, the key is set to 'generic_key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#key DataK8SProjectcontourIoHttpProxyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#key DataK8SProjectcontourIoHttpProxyV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15702,13 +15702,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * DescriptorKey defines the key to use on the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptor_key DataK8SProjectcontourIoHttpProxyV1Manifest#descriptor_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptor_key DataK8SProjectcontourIoHttpProxyV1Manifest#descriptor_key}
   */
   readonly descriptorKey?: string;
   /**
   * HeaderName defines the name of the header to look for on the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#header_name DataK8SProjectcontourIoHttpProxyV1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -15833,61 +15833,61 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Contains specifies a substring that must be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#contains DataK8SProjectcontourIoHttpProxyV1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the header value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#exact DataK8SProjectcontourIoHttpProxyV1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ignore_case DataK8SProjectcontourIoHttpProxyV1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the header to match against. Name is required. Header names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * NotContains specifies a substring that must not be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notcontains DataK8SProjectcontourIoHttpProxyV1Manifest#notcontains}
   */
   readonly notcontains?: string;
   /**
   * NoExact specifies a string that the header value must not be equal to. The condition is true if the header has any other value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notexact DataK8SProjectcontourIoHttpProxyV1Manifest#notexact}
   */
   readonly notexact?: string;
   /**
   * NotPresent specifies that condition is true when the named header is not present. Note that setting NotPresent to false does not make the condition true if the named header is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#notpresent DataK8SProjectcontourIoHttpProxyV1Manifest#notpresent}
   */
   readonly notpresent?: boolean | cdktf.IResolvable;
   /**
   * Present specifies that condition is true when the named header is present, regardless of its value. Note that setting Present to false does not make the condition true if the named header is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#present DataK8SProjectcontourIoHttpProxyV1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#regex DataK8SProjectcontourIoHttpProxyV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * TreatMissingAsEmpty specifies if the header match rule specified header does not exist, this header value will be treated as empty. Defaults to false. Unlike the underlying Envoy implementation this is **only** supported for negative matches (e.g. NotContains, NotExact).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#treat_missing_as_empty DataK8SProjectcontourIoHttpProxyV1Manifest#treat_missing_as_empty}
   */
   readonly treatMissingAsEmpty?: boolean | cdktf.IResolvable;
 }
@@ -16263,19 +16263,19 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * ExpectMatch defines whether the request must positively match the match criteria in order to generate a descriptor entry (i.e. true), or not match the match criteria in order to generate a descriptor entry (i.e. false). The default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expect_match DataK8SProjectcontourIoHttpProxyV1Manifest#expect_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#expect_match DataK8SProjectcontourIoHttpProxyV1Manifest#expect_match}
   */
   readonly expectMatch?: boolean | cdktf.IResolvable;
   /**
   * Headers is a list of 1+ match criteria to apply against the request to determine whether to populate the descriptor entry or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#headers DataK8SProjectcontourIoHttpProxyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#headers DataK8SProjectcontourIoHttpProxyV1Manifest#headers}
   */
   readonly headers?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptorsEntriesRequestHeaderValueMatchHeaders[] | cdktf.IResolvable;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16429,25 +16429,25 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * GenericKey defines a descriptor entry with a static key and value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#generic_key DataK8SProjectcontourIoHttpProxyV1Manifest#generic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#generic_key DataK8SProjectcontourIoHttpProxyV1Manifest#generic_key}
   */
   readonly genericKey?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptorsEntriesGenericKey;
   /**
   * RemoteAddress defines a descriptor entry with a key of 'remote_address' and a value equal to the client's IP address (from x-forwarded-for).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_address DataK8SProjectcontourIoHttpProxyV1Manifest#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#remote_address DataK8SProjectcontourIoHttpProxyV1Manifest#remote_address}
   */
   readonly remoteAddress?: { [key: string]: string };
   /**
   * RequestHeader defines a descriptor entry that's populated only if a given header is present on the request. The descriptor key is static, and the descriptor value is equal to the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header DataK8SProjectcontourIoHttpProxyV1Manifest#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header DataK8SProjectcontourIoHttpProxyV1Manifest#request_header}
   */
   readonly requestHeader?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptorsEntriesRequestHeader;
   /**
   * RequestHeaderValueMatch defines a descriptor entry that's populated if the request's headers match a set of 1+ match criteria. The descriptor key is 'header_match', and the descriptor value is static.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header_value_match DataK8SProjectcontourIoHttpProxyV1Manifest#request_header_value_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#request_header_value_match DataK8SProjectcontourIoHttpProxyV1Manifest#request_header_value_match}
   */
   readonly requestHeaderValueMatch?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptorsEntriesRequestHeaderValueMatch;
 }
@@ -16652,7 +16652,7 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Entries is the list of key-value pair generators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#entries DataK8SProjectcontourIoHttpProxyV1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#entries DataK8SProjectcontourIoHttpProxyV1Manifest#entries}
   */
   readonly entries?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptorsEntries[] | cdktf.IResolvable;
 }
@@ -16770,13 +16770,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Descriptors defines the list of descriptors that will be generated and sent to the rate limit service. Each descriptor contains 1+ key-value pair entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptors DataK8SProjectcontourIoHttpProxyV1Manifest#descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#descriptors DataK8SProjectcontourIoHttpProxyV1Manifest#descriptors}
   */
   readonly descriptors?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobalDescriptors[] | cdktf.IResolvable;
   /**
   * Disabled configures the HTTPProxy to not use the default global rate limit policy defined by the Contour configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#disabled DataK8SProjectcontourIoHttpProxyV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -16901,13 +16901,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Name represents a key of a header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#name DataK8SProjectcontourIoHttpProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value represents the value of a header specified by a key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#value DataK8SProjectcontourIoHttpProxyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17048,31 +17048,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Burst defines the number of requests above the requests per unit that should be allowed within a short period of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#burst DataK8SProjectcontourIoHttpProxyV1Manifest#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#burst DataK8SProjectcontourIoHttpProxyV1Manifest#burst}
   */
   readonly burst?: number;
   /**
   * Requests defines how many requests per unit of time should be allowed before rate limiting occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#requests DataK8SProjectcontourIoHttpProxyV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#requests DataK8SProjectcontourIoHttpProxyV1Manifest#requests}
   */
   readonly requests: number;
   /**
   * ResponseHeadersToAdd is an optional list of response headers to set when a request is rate-limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_to_add DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_headers_to_add DataK8SProjectcontourIoHttpProxyV1Manifest#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyLocalResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * ResponseStatusCode is the HTTP status code to use for responses to rate-limited requests. Codes must be in the 400-599 range (inclusive). If not specified, the Envoy default of 429 (Too Many Requests) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_status_code DataK8SProjectcontourIoHttpProxyV1Manifest#response_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#response_status_code DataK8SProjectcontourIoHttpProxyV1Manifest#response_status_code}
   */
   readonly responseStatusCode?: number;
   /**
   * Unit defines the period of time within which requests over the limit will be rate limited. Valid values are 'second', 'minute' and 'hour'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unit DataK8SProjectcontourIoHttpProxyV1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#unit DataK8SProjectcontourIoHttpProxyV1Manifest#unit}
   */
   readonly unit: string;
 }
@@ -17278,13 +17278,13 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLi
   /**
   * Global defines global rate limiting parameters, i.e. parameters defining descriptors that are sent to an external rate limit service (RLS) for a rate limit decision on each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#global DataK8SProjectcontourIoHttpProxyV1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#global DataK8SProjectcontourIoHttpProxyV1Manifest#global}
   */
   readonly global?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyGlobal;
   /**
   * Local defines local rate limiting parameters, i.e. parameters for rate limiting that occurs within each Envoy pod as requests are handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#local DataK8SProjectcontourIoHttpProxyV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#local DataK8SProjectcontourIoHttpProxyV1Manifest#local}
   */
   readonly local?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicyLocal;
 }
@@ -17409,31 +17409,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTlsCli
   /**
   * Client cert in URL encoded PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cert DataK8SProjectcontourIoHttpProxyV1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cert DataK8SProjectcontourIoHttpProxyV1Manifest#cert}
   */
   readonly cert?: boolean | cdktf.IResolvable;
   /**
   * Client cert chain (including the leaf cert) in URL encoded PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#chain DataK8SProjectcontourIoHttpProxyV1Manifest#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#chain DataK8SProjectcontourIoHttpProxyV1Manifest#chain}
   */
   readonly chain?: boolean | cdktf.IResolvable;
   /**
   * DNS type Subject Alternative Names of the client cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#dns DataK8SProjectcontourIoHttpProxyV1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#dns DataK8SProjectcontourIoHttpProxyV1Manifest#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
   * Subject of the client cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject DataK8SProjectcontourIoHttpProxyV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#subject DataK8SProjectcontourIoHttpProxyV1Manifest#subject}
   */
   readonly subject?: boolean | cdktf.IResolvable;
   /**
   * URI type Subject Alternative Name of the client cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#uri DataK8SProjectcontourIoHttpProxyV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#uri DataK8SProjectcontourIoHttpProxyV1Manifest#uri}
   */
   readonly uri?: boolean | cdktf.IResolvable;
 }
@@ -17645,37 +17645,37 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTlsCli
   /**
   * Name of a Kubernetes secret that contains a CA certificate bundle. The secret must contain key named ca.crt. The client certificate must validate against the certificates in the bundle. If specified and SkipClientCertValidation is true, client certificates will be required on requests. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ca_secret DataK8SProjectcontourIoHttpProxyV1Manifest#ca_secret}
   */
   readonly caSecret?: string;
   /**
   * If this option is set to true, only the certificate at the end of the certificate chain will be subject to validation by CRL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#crl_only_verify_leaf_cert DataK8SProjectcontourIoHttpProxyV1Manifest#crl_only_verify_leaf_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#crl_only_verify_leaf_cert DataK8SProjectcontourIoHttpProxyV1Manifest#crl_only_verify_leaf_cert}
   */
   readonly crlOnlyVerifyLeafCert?: boolean | cdktf.IResolvable;
   /**
   * Name of a Kubernetes opaque secret that contains a concatenated list of PEM encoded CRLs. The secret must contain key named crl.pem. This field will be used to verify that a client certificate has not been revoked. CRLs must be available from all CAs, unless crlOnlyVerifyLeafCert is true. Large CRL lists are not supported since individual secrets are limited to 1MiB in size. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#crl_secret DataK8SProjectcontourIoHttpProxyV1Manifest#crl_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#crl_secret DataK8SProjectcontourIoHttpProxyV1Manifest#crl_secret}
   */
   readonly crlSecret?: string;
   /**
   * ForwardClientCertificate adds the selected data from the passed client TLS certificate to the x-forwarded-client-cert header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#forward_client_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#forward_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#forward_client_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#forward_client_certificate}
   */
   readonly forwardClientCertificate?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTlsClientValidationForwardClientCertificate;
   /**
   * OptionalClientCertificate when set to true will request a client certificate but allow the connection to continue if the client does not provide one. If a client certificate is sent, it will be verified according to the other properties, which includes disabling validation if SkipClientCertValidation is set. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#optional_client_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#optional_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#optional_client_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#optional_client_certificate}
   */
   readonly optionalClientCertificate?: boolean | cdktf.IResolvable;
   /**
   * SkipClientCertValidation disables downstream client certificate validation. Defaults to false. This field is intended to be used in conjunction with external authorization in order to enable the external authorization server to validate client certificates. When this field is set to true, client certificates are requested but not verified by Envoy. If CACertificate is specified, client certificates are required on requests, but not verified. If external authorization is in use, they are presented to the external authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#skip_client_cert_validation DataK8SProjectcontourIoHttpProxyV1Manifest#skip_client_cert_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#skip_client_cert_validation DataK8SProjectcontourIoHttpProxyV1Manifest#skip_client_cert_validation}
   */
   readonly skipClientCertValidation?: boolean | cdktf.IResolvable;
 }
@@ -17916,37 +17916,37 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTls {
   /**
   * ClientValidation defines how to verify the client certificate when an external client establishes a TLS connection to Envoy. This setting: 1. Enables TLS client certificate validation. 2. Specifies how the client certificate will be validated (i.e. validation required or skipped). Note: Setting client certificate validation to be skipped should be only used in conjunction with an external authorization server that performs client validation as Contour will ensure client certificates are passed along.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#client_validation DataK8SProjectcontourIoHttpProxyV1Manifest#client_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#client_validation DataK8SProjectcontourIoHttpProxyV1Manifest#client_validation}
   */
   readonly clientValidation?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTlsClientValidation;
   /**
   * EnableFallbackCertificate defines if the vhost should allow a default certificate to be applied which handles all requests which don't match the SNI defined in this vhost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#enable_fallback_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#enable_fallback_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#enable_fallback_certificate DataK8SProjectcontourIoHttpProxyV1Manifest#enable_fallback_certificate}
   */
   readonly enableFallbackCertificate?: boolean | cdktf.IResolvable;
   /**
   * MaximumProtocolVersion is the maximum TLS version this vhost should negotiate. Valid options are '1.2' and '1.3' (default). Any other value defaults to TLS 1.3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#maximum_protocol_version DataK8SProjectcontourIoHttpProxyV1Manifest#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#maximum_protocol_version DataK8SProjectcontourIoHttpProxyV1Manifest#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
   * MinimumProtocolVersion is the minimum TLS version this vhost should negotiate. Valid options are '1.2' (default) and '1.3'. Any other value defaults to TLS 1.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#minimum_protocol_version DataK8SProjectcontourIoHttpProxyV1Manifest#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#minimum_protocol_version DataK8SProjectcontourIoHttpProxyV1Manifest#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
   * Passthrough defines whether the encrypted TLS handshake will be passed through to the backing cluster. Either Passthrough or SecretName must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#passthrough DataK8SProjectcontourIoHttpProxyV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#passthrough DataK8SProjectcontourIoHttpProxyV1Manifest#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
   * SecretName is the name of a TLS secret. Either SecretName or Passthrough must be specified, but not both. If specified, the named secret must contain a matching certificate for the virtual host's FQDN. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secret_name DataK8SProjectcontourIoHttpProxyV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#secret_name DataK8SProjectcontourIoHttpProxyV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -18187,49 +18187,49 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhost {
   /**
   * This field configures an extension service to perform authorization for this virtual host. Authorization can only be configured on virtual hosts that have TLS enabled. If the TLS configuration requires client certificate validation, the client certificate is always included in the authentication check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#authorization DataK8SProjectcontourIoHttpProxyV1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#authorization DataK8SProjectcontourIoHttpProxyV1Manifest#authorization}
   */
   readonly authorization?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostAuthorization;
   /**
   * Specifies the cross-origin policy to apply to the VirtualHost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cors_policy DataK8SProjectcontourIoHttpProxyV1Manifest#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#cors_policy DataK8SProjectcontourIoHttpProxyV1Manifest#cors_policy}
   */
   readonly corsPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostCorsPolicy;
   /**
   * The fully qualified domain name of the root of the ingress tree all leaves of the DAG rooted at this object relate to the fqdn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#fqdn DataK8SProjectcontourIoHttpProxyV1Manifest#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#fqdn DataK8SProjectcontourIoHttpProxyV1Manifest#fqdn}
   */
   readonly fqdn: string;
   /**
   * IPAllowFilterPolicy is a list of ipv4/6 filter rules for which matching requests should be allowed. All other requests will be denied. Only one of IPAllowFilterPolicy and IPDenyFilterPolicy can be defined. The rules defined here may be overridden in a Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_allow_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_allow_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_allow_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_allow_policy}
   */
   readonly ipAllowPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostIpAllowPolicy[] | cdktf.IResolvable;
   /**
   * IPDenyFilterPolicy is a list of ipv4/6 filter rules for which matching requests should be denied. All other requests will be allowed. Only one of IPAllowFilterPolicy and IPDenyFilterPolicy can be defined. The rules defined here may be overridden in a Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_deny_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_deny_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ip_deny_policy DataK8SProjectcontourIoHttpProxyV1Manifest#ip_deny_policy}
   */
   readonly ipDenyPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostIpDenyPolicy[] | cdktf.IResolvable;
   /**
   * Providers to use for verifying JSON Web Tokens (JWTs) on the virtual host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#jwt_providers DataK8SProjectcontourIoHttpProxyV1Manifest#jwt_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#jwt_providers DataK8SProjectcontourIoHttpProxyV1Manifest#jwt_providers}
   */
   readonly jwtProviders?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostJwtProviders[] | cdktf.IResolvable;
   /**
   * The policy for rate limiting on the virtual host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#rate_limit_policy DataK8SProjectcontourIoHttpProxyV1Manifest#rate_limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#rate_limit_policy DataK8SProjectcontourIoHttpProxyV1Manifest#rate_limit_policy}
   */
   readonly rateLimitPolicy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostRateLimitPolicy;
   /**
   * If present the fields describes TLS properties of the virtual host. The SNI names that will be matched on are described in fqdn, the tls.secretName secret must contain a certificate that itself contains a name that matches the FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#tls DataK8SProjectcontourIoHttpProxyV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#tls DataK8SProjectcontourIoHttpProxyV1Manifest#tls}
   */
   readonly tls?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhostTls;
 }
@@ -18525,31 +18525,31 @@ export interface DataK8SProjectcontourIoHttpProxyV1ManifestSpec {
   /**
   * Includes allow for specific routing configuration to be included from another HTTPProxy, possibly in another namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#includes DataK8SProjectcontourIoHttpProxyV1Manifest#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#includes DataK8SProjectcontourIoHttpProxyV1Manifest#includes}
   */
   readonly includes?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecIncludes[] | cdktf.IResolvable;
   /**
   * IngressClassName optionally specifies the ingress class to use for this HTTPProxy. This replaces the deprecated 'kubernetes.io/ingress.class' annotation. For backwards compatibility, when that annotation is set, it is given precedence over this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ingress_class_name DataK8SProjectcontourIoHttpProxyV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#ingress_class_name DataK8SProjectcontourIoHttpProxyV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Routes are the ingress routes. If TCPProxy is present, Routes is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#routes DataK8SProjectcontourIoHttpProxyV1Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#routes DataK8SProjectcontourIoHttpProxyV1Manifest#routes}
   */
   readonly routes?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecRoutes[] | cdktf.IResolvable;
   /**
   * TCPProxy holds TCP proxy information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#tcpproxy DataK8SProjectcontourIoHttpProxyV1Manifest#tcpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#tcpproxy DataK8SProjectcontourIoHttpProxyV1Manifest#tcpproxy}
   */
   readonly tcpproxy?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecTcpproxy;
   /**
   * Virtualhost appears at most once. If it is present, the object is considered to be a 'root' HTTPProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#virtualhost DataK8SProjectcontourIoHttpProxyV1Manifest#virtualhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#virtualhost DataK8SProjectcontourIoHttpProxyV1Manifest#virtualhost}
   */
   readonly virtualhost?: DataK8SProjectcontourIoHttpProxyV1ManifestSpecVirtualhost;
 }
@@ -18759,7 +18759,7 @@ export class DataK8SProjectcontourIoHttpProxyV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest k8s_projectcontour_io_http_proxy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest k8s_projectcontour_io_http_proxy_v1_manifest}
 */
 export class DataK8SProjectcontourIoHttpProxyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -18775,7 +18775,7 @@ export class DataK8SProjectcontourIoHttpProxyV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SProjectcontourIoHttpProxyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SProjectcontourIoHttpProxyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SProjectcontourIoHttpProxyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SProjectcontourIoHttpProxyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SProjectcontourIoHttpProxyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18787,7 +18787,7 @@ export class DataK8SProjectcontourIoHttpProxyV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/projectcontour_io_http_proxy_v1_manifest k8s_projectcontour_io_http_proxy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/projectcontour_io_http_proxy_v1_manifest k8s_projectcontour_io_http_proxy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18798,8 +18798,8 @@ export class DataK8SProjectcontourIoHttpProxyV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_projectcontour_io_http_proxy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

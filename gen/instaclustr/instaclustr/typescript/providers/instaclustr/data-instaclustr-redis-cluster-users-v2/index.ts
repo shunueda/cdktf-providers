@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface DataInstaclustrRedisClusterUsersV2Config extends cdktf.Terrafor
   /**
   * ID of the redis cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#cluster_id DataInstaclustrRedisClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#cluster_id DataInstaclustrRedisClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#id DataInstaclustrRedisClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#id DataInstaclustrRedisClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#redis_cluster_id DataInstaclustrRedisClusterUsersV2#redis_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#redis_cluster_id DataInstaclustrRedisClusterUsersV2#redis_cluster_id}
   */
   readonly redisClusterId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#filter DataInstaclustrRedisClusterUsersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#filter DataInstaclustrRedisClusterUsersV2#filter}
   */
   readonly filter?: DataInstaclustrRedisClusterUsersV2Filter[] | cdktf.IResolvable;
   /**
   * redis_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#redis_users DataInstaclustrRedisClusterUsersV2#redis_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#redis_users DataInstaclustrRedisClusterUsersV2#redis_users}
   */
   readonly redisUsers?: DataInstaclustrRedisClusterUsersV2RedisUsers[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrRedisClusterUsersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#name DataInstaclustrRedisClusterUsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#name DataInstaclustrRedisClusterUsersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#values DataInstaclustrRedisClusterUsersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#values DataInstaclustrRedisClusterUsersV2#values}
   */
   readonly values: string[];
 }
@@ -184,13 +184,13 @@ export interface DataInstaclustrRedisClusterUsersV2RedisUsers {
   /**
   * ID of the Redis cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#cluster_id DataInstaclustrRedisClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#cluster_id DataInstaclustrRedisClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the Redis user. The value of this property has the form: [cluster-id]_[redis-username]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#id DataInstaclustrRedisClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#id DataInstaclustrRedisClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface DataInstaclustrRedisClusterUsersV2RedisUsers {
   /**
   * Username of the Redis user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#username DataInstaclustrRedisClusterUsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#username DataInstaclustrRedisClusterUsersV2#username}
   */
   readonly username?: string;
 }
@@ -373,7 +373,7 @@ export class DataInstaclustrRedisClusterUsersV2RedisUsersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2 instaclustr_redis_cluster_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2 instaclustr_redis_cluster_users_v2}
 */
 export class DataInstaclustrRedisClusterUsersV2 extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataInstaclustrRedisClusterUsersV2 extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataInstaclustrRedisClusterUsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrRedisClusterUsersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrRedisClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrRedisClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrRedisClusterUsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataInstaclustrRedisClusterUsersV2 extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_users_v2 instaclustr_redis_cluster_users_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.39/docs/data-sources/redis_cluster_users_v2 instaclustr_redis_cluster_users_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataInstaclustrRedisClusterUsersV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'instaclustr_redis_cluster_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.38',
-        providerVersionConstraint: '2.1.38'
+        providerVersion: '2.1.39',
+        providerVersionConstraint: '2.1.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

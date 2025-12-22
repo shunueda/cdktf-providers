@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestMetadata;
   /**
   * KeyVaultSpec defines the desired state of KeyVault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#spec DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#spec DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#labels DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#labels DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#name DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#name DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestMetadataOutputRefer
 }
 export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecAccessPoliciesPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#certificates DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#certificates DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#certificates}
   */
   readonly certificates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#keys DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#keys DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#keys}
   */
   readonly keys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#secrets DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#secrets DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#secrets}
   */
   readonly secrets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#storage DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#storage DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#storage}
   */
   readonly storage?: string[];
 }
@@ -412,31 +412,31 @@ export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecAccessPolic
   /**
   * ApplicationID - Application ID of the client making request on behalf of a principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#application_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#application_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#application_id}
   */
   readonly applicationId?: string;
   /**
   * ClientID - The client ID of a user, service principal or security group in the Azure Active Directory tenant for the vault. The client ID must be unique for the list of access policies. TODO: Remove this in a future API version, see: https://github.com/Azure/azure-service-operator/issues/1351
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#client_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#client_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * ObjectID is the AAD object id of the entity to provide access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#object_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#object_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#object_id}
   */
   readonly objectId?: string;
   /**
   * Permissions - Permissions the identity has for keys, secrets, and certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#permissions DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#permissions DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#permissions}
   */
   readonly permissions?: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecAccessPoliciesPermissions;
   /**
   * TenantID - The Azure Active Directory tenant ID that should be used for authenticating requests to the key vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#tenant_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#tenant_id DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -670,25 +670,25 @@ export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecNetworkPoli
   /**
   * Bypass - Tells what traffic can bypass network rules. This can be 'AzureServices' or 'None'. If not specified the default is 'AzureServices'. Possible values include: 'AzureServices', 'None'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#bypass DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#bypass DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#bypass}
   */
   readonly bypass?: string;
   /**
   * DefaultAction - The default action when no rule from ipRules and from virtualNetworkRules match. This is only used after the bypass property has been evaluated. Possible values include: 'Allow', 'Deny'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#default_action DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#default_action DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#default_action}
   */
   readonly defaultAction?: string;
   /**
   * IPRules - The list of IP address rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#ip_rules}
   */
   readonly ipRules?: string[];
   /**
   * VirtualNetworkRules - The list of virtual network rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#virtual_network_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#virtual_network_rules}
   */
   readonly virtualNetworkRules?: string[];
 }
@@ -871,7 +871,7 @@ export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecSku {
   /**
   * Name - The SKU name. Required for account creation; optional for update. Possible values include: 'Premium', 'Standard'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#name DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#name DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -965,29 +965,29 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecSkuOutputRefere
 }
 export interface DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#access_policies DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#access_policies DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#access_policies}
   */
   readonly accessPolicies?: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecAccessPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#enable_soft_delete DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#enable_soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#enable_soft_delete DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#enable_soft_delete}
   */
   readonly enableSoftDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#location DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#location DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#network_policies DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#network_policies DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#network_policies}
   */
   readonly networkPolicies?: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecNetworkPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * KeyVaultSku the SKU of the Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#sku DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#sku DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest#sku}
   */
   readonly sku?: DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecSku;
 }
@@ -1220,7 +1220,7 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest k8s_azure_microsoft_com_key_vault_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest k8s_azure_microsoft_com_key_vault_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1236,7 +1236,7 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1248,7 +1248,7 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest k8s_azure_microsoft_com_key_vault_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_key_vault_v1alpha1_manifest k8s_azure_microsoft_com_key_vault_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1259,8 +1259,8 @@ export class DataK8SAzureMicrosoftComKeyVaultV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_azure_microsoft_com_key_vault_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

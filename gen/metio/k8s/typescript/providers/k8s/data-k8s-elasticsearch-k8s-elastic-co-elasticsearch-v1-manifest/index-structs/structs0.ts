@@ -3,25 +3,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,7 +198,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuth
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -316,7 +316,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuth
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -434,19 +434,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuth
   /**
   * DisableElasticUser disables the default elastic user that is created by ECK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#disable_elastic_user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#disable_elastic_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#disable_elastic_user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#disable_elastic_user}
   */
   readonly disableElasticUser?: boolean | cdktf.IResolvable;
   /**
   * FileRealm to propagate to the Elasticsearch cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#file_realm DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#file_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#file_realm DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#file_realm}
   */
   readonly fileRealm?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuthFileRealm[] | cdktf.IResolvable;
   /**
   * Roles to propagate to the Elasticsearch cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#roles DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#roles DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#roles}
   */
   readonly roles?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuthRoles[] | cdktf.IResolvable;
 }
@@ -598,23 +598,23 @@ export class DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecAuthOutp
 }
 export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#finalizers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#finalizers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -826,37 +826,37 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#app_protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#app_protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#target_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#target_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -1116,7 +1116,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1212,7 +1212,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#client_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#client_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceSpecSessionAffinityConfigClientIp;
 }
@@ -1308,121 +1308,121 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#allocate_load_balancer_node_ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#allocate_load_balancer_node_ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#cluster_i_ps DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#cluster_i_ps DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#cluster_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#cluster_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_i_ps DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_i_ps DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_traffic_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#external_traffic_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#health_check_node_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#health_check_node_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#internal_traffic_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#internal_traffic_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip_families DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip_families DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip_family_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip_family_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_class DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_class DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_source_ranges DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#load_balancer_source_ranges DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ports}
   */
   readonly ports?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#publish_not_ready_addresses DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#publish_not_ready_addresses DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#session_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#session_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#session_affinity_config DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#session_affinity_config DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceSpecSessionAffinityConfig;
   /**
   * TrafficDistribution offers a way to express preferences for how traffic is distributed to Service endpoints. Implementations can use this field as a hint, but are not required to guarantee strict adherence. If the field is not set, the implementation will apply its default routing strategy. If set to 'PreferClose', implementations should prioritize endpoints that are topologically close (e.g., same zone). This is an alpha field and requires enabling ServiceTrafficDistribution feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#traffic_distribution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#traffic_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#traffic_distribution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#traffic_distribution}
   */
   readonly trafficDistribution?: string;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2069,13 +2069,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * ObjectMeta is the metadata of the service. The name and namespace provided here are managed by ECK and will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#metadata DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#metadata DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#metadata}
   */
   readonly metadata?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceMetadata;
   /**
   * Spec is the specification of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#spec}
   */
   readonly spec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpServiceSpec;
 }
@@ -2200,7 +2200,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * SecretName is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -2296,13 +2296,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * DNS is the DNS name of the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#dns DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#dns DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#dns}
   */
   readonly dns?: string;
   /**
   * IP is the IP address of the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -2449,13 +2449,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * Disabled indicates that the provisioning of the self-signed certifcate should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#disabled DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#disabled DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * SubjectAlternativeNames is a list of SANs to include in the generated HTTP TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#subject_alt_names DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#subject_alt_names DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpTlsSelfSignedCertificateSubjectAltNames[] | cdktf.IResolvable;
 }
@@ -2580,13 +2580,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * Certificate is a reference to a Kubernetes secret that contains the certificate and private key for enabling TLS. The referenced secret should contain the following: - 'ca.crt': The certificate authority (optional). - 'tls.crt': The certificate (or a chain). - 'tls.key': The private key to the first certificate in the certificate chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#certificate DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#certificate DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#certificate}
   */
   readonly certificate?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpTlsCertificate;
   /**
   * SelfSignedCertificate allows configuring the self-signed certificate generated by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#self_signed_certificate DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#self_signed_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#self_signed_certificate DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#self_signed_certificate}
   */
   readonly selfSignedCertificate?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpTlsSelfSignedCertificate;
 }
@@ -2711,13 +2711,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttp
   /**
   * Service defines the template for the associated Kubernetes Service object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpService;
   /**
   * TLS defines options for configuring TLS for HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tls DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tls DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tls}
   */
   readonly tls?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecHttpTls;
 }
@@ -2842,25 +2842,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMoni
   /**
   * Name of an existing Kubernetes object corresponding to an Elastic resource managed by ECK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the Kubernetes object. If empty, defaults to the current namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * SecretName is the name of an existing Kubernetes secret that contains connection information for associating an Elastic resource not managed by the operator. The referenced secret must contain the following: - 'url': the URL to reach the Elastic resource - 'username': the username of the user to be authenticated to the Elastic resource - 'password': the password of the user to be authenticated to the Elastic resource - 'ca.crt': the CA certificate in PEM format (optional) - 'api-key': the key to authenticate against the Elastic resource instead of a username and password (supported only for 'elasticsearchRefs' in AgentSpec and in BeatSpec) This field cannot be used in combination with the other fields name, namespace or serviceName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * ServiceName is the name of an existing Kubernetes service which is used to make requests to the referenced object. It has to be in the same namespace as the referenced resource. If left empty, the default HTTP service of the referenced resource is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -3065,7 +3065,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMoni
   /**
   * ElasticsearchRefs is a reference to a list of monitoring Elasticsearch clusters running in the same Kubernetes cluster. Due to existing limitations, only a single Elasticsearch cluster is currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#elasticsearch_refs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#elasticsearch_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#elasticsearch_refs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#elasticsearch_refs}
   */
   readonly elasticsearchRefs?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMonitoringLogsElasticsearchRefs[] | cdktf.IResolvable;
 }
@@ -3161,25 +3161,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMoni
   /**
   * Name of an existing Kubernetes object corresponding to an Elastic resource managed by ECK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the Kubernetes object. If empty, defaults to the current namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * SecretName is the name of an existing Kubernetes secret that contains connection information for associating an Elastic resource not managed by the operator. The referenced secret must contain the following: - 'url': the URL to reach the Elastic resource - 'username': the username of the user to be authenticated to the Elastic resource - 'password': the password of the user to be authenticated to the Elastic resource - 'ca.crt': the CA certificate in PEM format (optional) - 'api-key': the key to authenticate against the Elastic resource instead of a username and password (supported only for 'elasticsearchRefs' in AgentSpec and in BeatSpec) This field cannot be used in combination with the other fields name, namespace or serviceName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * ServiceName is the name of an existing Kubernetes service which is used to make requests to the referenced object. It has to be in the same namespace as the referenced resource. If left empty, the default HTTP service of the referenced resource is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -3384,7 +3384,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMoni
   /**
   * ElasticsearchRefs is a reference to a list of monitoring Elasticsearch clusters running in the same Kubernetes cluster. Due to existing limitations, only a single Elasticsearch cluster is currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#elasticsearch_refs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#elasticsearch_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#elasticsearch_refs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#elasticsearch_refs}
   */
   readonly elasticsearchRefs?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMonitoringMetricsElasticsearchRefs[] | cdktf.IResolvable;
 }
@@ -3480,13 +3480,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMoni
   /**
   * Logs holds references to Elasticsearch clusters which receive log data from an associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#logs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#logs DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#logs}
   */
   readonly logs?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMonitoringLogs;
   /**
   * Metrics holds references to Elasticsearch clusters which receive monitoring data from this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#metrics DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#metrics DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#metrics}
   */
   readonly metrics?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMonitoringMetrics;
 }
@@ -3609,23 +3609,23 @@ export class DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecMonitori
 }
 export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#annotations DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#finalizers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#finalizers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3837,19 +3837,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4019,19 +4019,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4201,13 +4201,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_fields DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_fields DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -4332,13 +4332,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preference DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preference DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preference}
   */
   readonly preference: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4479,19 +4479,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4661,19 +4661,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4843,13 +4843,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_fields DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_fields DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -4996,7 +4996,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_selector_terms DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_selector_terms DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -5089,13 +5089,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -5220,19 +5220,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5402,13 +5402,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5533,19 +5533,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5715,13 +5715,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5846,37 +5846,37 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6114,13 +6114,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity_term DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity_term DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -6261,19 +6261,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6443,13 +6443,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6574,19 +6574,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6756,13 +6756,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6887,37 +6887,37 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7177,13 +7177,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -7308,19 +7308,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7490,13 +7490,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7621,19 +7621,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7803,13 +7803,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7934,37 +7934,37 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -8202,13 +8202,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity_term DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity_term DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#weight DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -8349,19 +8349,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8531,13 +8531,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8662,19 +8662,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#operator DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#values DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8844,13 +8844,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_expressions DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_labels DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8975,37 +8975,37 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#label_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#match_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mismatch_label_keys DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespace_selector DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#namespaces DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#topology_key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9265,13 +9265,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -9396,19 +9396,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#node_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_anti_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pod_anti_affinity DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecAffinityPodAntiAffinity;
 }
@@ -9562,19 +9562,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9725,13 +9725,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#api_version DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#api_version DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9853,19 +9853,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#divisor DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#divisor DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -10016,19 +10016,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10179,25 +10179,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -10380,19 +10380,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvValueFrom;
 }
@@ -10565,13 +10565,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10696,13 +10696,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10827,19 +10827,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#prefix DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#prefix DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvFromSecretRef;
 }
@@ -11015,7 +11015,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11111,13 +11111,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11258,31 +11258,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11491,7 +11491,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -11584,13 +11584,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -11712,25 +11712,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
   */
   readonly sleep?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -11913,7 +11913,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12009,13 +12009,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12156,31 +12156,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12389,7 +12389,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -12482,13 +12482,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -12610,25 +12610,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
   */
   readonly sleep?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -12811,13 +12811,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#post_start DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#post_start DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#post_start}
   */
   readonly postStart?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pre_stop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pre_stop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecyclePreStop;
 }
@@ -12942,7 +12942,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13038,13 +13038,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13166,13 +13166,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13313,31 +13313,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13546,13 +13546,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -13674,61 +13674,61 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
   */
   readonly grpc?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14085,31 +14085,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -14340,7 +14340,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14436,13 +14436,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14564,13 +14564,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -14711,31 +14711,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14944,13 +14944,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -15072,61 +15072,61 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
   */
   readonly grpc?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15483,13 +15483,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -15630,13 +15630,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#request DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#request DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -15780,19 +15780,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#claims DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#claims DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#claims}
   */
   readonly claims?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#limits DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#limits DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#requests DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#requests DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15946,13 +15946,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type: string;
 }
@@ -16074,13 +16074,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#add DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#add DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#drop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#drop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -16205,25 +16205,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#level DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#level DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#role DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#role DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16406,13 +16406,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type: string;
 }
@@ -16534,25 +16534,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_process DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_process DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16735,73 +16735,73 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#allow_privilege_escalation DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#allow_privilege_escalation DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#app_armor_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#app_armor_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#capabilities DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#capabilities DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#privileged DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#privileged DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#proc_mount DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#proc_mount DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#read_only_root_filesystem DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#read_only_root_filesystem DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_group DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_group DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_non_root DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_non_root DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#se_linux_options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#se_linux_options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seccomp_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seccomp_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#windows_options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#windows_options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -17216,7 +17216,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17312,13 +17312,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17440,13 +17440,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17587,31 +17587,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17820,13 +17820,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -17948,61 +17948,61 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
   */
   readonly grpc?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18359,13 +18359,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#device_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#device_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18506,43 +18506,43 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mount_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mount_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mount_propagation DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#mount_propagation DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#read_only DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#read_only DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#recursive_read_only DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#recursive_read_only DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sub_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sub_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sub_path_expr DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sub_path_expr DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18828,145 +18828,145 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#args DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#args DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#env DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#env DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#env}
   */
   readonly env?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#env_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#env_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#image DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#image DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#image_pull_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#image_pull_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#lifecycle DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#lifecycle DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#liveness_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#liveness_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#ports DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#ports}
   */
   readonly ports?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#readiness_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#readiness_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resize_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resize_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resources DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resources DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resources}
   */
   readonly resources?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#security_context DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#security_context DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#startup_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#startup_probe DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#stdin DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#stdin DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#stdin_once DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#stdin_once DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_message_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_message_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_message_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_message_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tty DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tty DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#volume_devices DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#volume_devices DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#volume_mounts DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#volume_mounts DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#working_dir DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#working_dir DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -19748,11 +19748,11 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -19899,19 +19899,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#nameservers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#nameservers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#options DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#options}
   */
   readonly options?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#searches DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#searches DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -20065,19 +20065,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20228,13 +20228,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#api_version DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#api_version DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -20356,19 +20356,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#divisor DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#divisor DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -20519,19 +20519,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#key DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20682,25 +20682,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_field_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_key_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -20883,19 +20883,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value_from DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -21068,13 +21068,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21199,13 +21199,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#optional DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21330,19 +21330,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#config_map_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#prefix DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#prefix DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#secret_ref DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -21518,7 +21518,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21614,13 +21614,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -21761,31 +21761,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21994,7 +21994,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -22087,13 +22087,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -22215,25 +22215,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
   */
   readonly sleep?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -22416,7 +22416,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22512,13 +22512,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -22659,31 +22659,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22892,7 +22892,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -22985,13 +22985,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -23113,25 +23113,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#sleep DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#sleep}
   */
   readonly sleep?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -23314,13 +23314,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#post_start DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#post_start DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#post_start}
   */
   readonly postStart?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pre_stop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#pre_stop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -23445,7 +23445,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23541,13 +23541,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23669,13 +23669,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -23816,31 +23816,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24049,13 +24049,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -24177,61 +24177,61 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
   */
   readonly grpc?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24588,31 +24588,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#container_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_ip DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#protocol DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -24843,7 +24843,7 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#command DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24939,13 +24939,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#service DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25067,13 +25067,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#value DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#value}
   */
   readonly value: string;
 }
@@ -25214,31 +25214,31 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_headers DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#path DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#scheme DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25447,13 +25447,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#port DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#port}
   */
   readonly port: string;
 }
@@ -25575,61 +25575,61 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#exec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#exec}
   */
   readonly exec?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#failure_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#grpc DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#grpc}
   */
   readonly grpc?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#http_get DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#initial_delay_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#success_threshold DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#tcp_socket DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#termination_grace_period_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#timeout_seconds DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25986,13 +25986,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#resource_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#restart_policy DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -26133,13 +26133,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#request DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#request DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -26283,19 +26283,19 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#claims DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#claims DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#claims}
   */
   readonly claims?: DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNodeSetsPodTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#limits DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#limits DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#requests DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#requests DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -26449,13 +26449,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type: string;
 }
@@ -26577,13 +26577,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#add DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#add DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#drop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#drop DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -26708,25 +26708,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#level DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#level DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#role DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#role DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#user DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -26909,13 +26909,13 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#localhost_profile DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#type DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#type}
   */
   readonly type: string;
 }
@@ -27037,25 +27037,25 @@ export interface DataK8SElasticsearchK8SElasticCoElasticsearchV1ManifestSpecNode
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#gmsa_credential_spec_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_process DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#host_process DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest#run_as_user_name DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }

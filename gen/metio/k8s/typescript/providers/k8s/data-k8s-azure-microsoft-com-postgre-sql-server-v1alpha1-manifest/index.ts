@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestMetadata;
   /**
   * PostgreSQLServerSpec defines the desired state of PostgreSQLServer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#spec DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#spec DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#labels DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#labels DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#name DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#name DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestMetadataOut
 }
 export interface DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecReplicaProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#source_server_id DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#source_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#source_server_id DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#source_server_id}
   */
   readonly sourceServerId?: string;
 }
@@ -313,31 +313,31 @@ export interface DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecSku
   /**
   * Capacity - The scale up/out capacity, representing server's compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#capacity DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#capacity DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Family - The family of hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#family DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#family DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#family}
   */
   readonly family?: string;
   /**
   * Name - The name of the sku, typically, tier + family + cores, e.g. B_Gen4_1, GP_Gen5_8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#name DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#name DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Size - The size code, to be interpreted by resource as appropriate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#size DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#size DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#size}
   */
   readonly size?: string;
   /**
   * Tier - The tier of the particular SKU, e.g. Basic. Possible values include: 'Basic', 'GeneralPurpose', 'MemoryOptimized'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#tier DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#tier DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#tier}
   */
   readonly tier?: string;
 }
@@ -547,37 +547,37 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecSkuOutp
 }
 export interface DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#create_mode DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#create_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#create_mode DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#create_mode}
   */
   readonly createMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#key_vault_to_store_secrets DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#key_vault_to_store_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#key_vault_to_store_secrets DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#key_vault_to_store_secrets}
   */
   readonly keyVaultToStoreSecrets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#location DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#location DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#replica_properties DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#replica_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#replica_properties DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#replica_properties}
   */
   readonly replicaProperties?: DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecReplicaProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * ServerVersion enumerates the values for server version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#server_version DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#server_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#server_version DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#server_version}
   */
   readonly serverVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#sku DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#sku DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#sku}
   */
   readonly sku?: DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecSku;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#ssl_enforcement DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#ssl_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#ssl_enforcement DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest#ssl_enforcement}
   */
   readonly sslEnforcement?: string;
 }
@@ -868,7 +868,7 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest k8s_azure_microsoft_com_postgre_sql_server_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest k8s_azure_microsoft_com_postgre_sql_server_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -884,7 +884,7 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -896,7 +896,7 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest k8s_azure_microsoft_com_postgre_sql_server_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_postgre_sql_server_v1alpha1_manifest k8s_azure_microsoft_com_postgre_sql_server_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -907,8 +907,8 @@ export class DataK8SAzureMicrosoftComPostgreSqlServerV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_azure_microsoft_com_postgre_sql_server_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

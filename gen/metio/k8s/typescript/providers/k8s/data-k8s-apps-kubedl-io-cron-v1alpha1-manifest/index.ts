@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAppsKubedlIoCronV1Alpha1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#metadata DataK8SAppsKubedlIoCronV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#metadata DataK8SAppsKubedlIoCronV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubedlIoCronV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#spec DataK8SAppsKubedlIoCronV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#spec DataK8SAppsKubedlIoCronV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubedlIoCronV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAppsKubedlIoCronV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#annotations DataK8SAppsKubedlIoCronV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#annotations DataK8SAppsKubedlIoCronV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#labels DataK8SAppsKubedlIoCronV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#labels DataK8SAppsKubedlIoCronV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#name DataK8SAppsKubedlIoCronV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#name DataK8SAppsKubedlIoCronV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#namespace DataK8SAppsKubedlIoCronV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#namespace DataK8SAppsKubedlIoCronV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SAppsKubedlIoCronV1Alpha1ManifestMetadataOutputReference exte
 }
 export interface DataK8SAppsKubedlIoCronV1Alpha1ManifestSpecTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#api_version DataK8SAppsKubedlIoCronV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#api_version DataK8SAppsKubedlIoCronV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#kind DataK8SAppsKubedlIoCronV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#kind DataK8SAppsKubedlIoCronV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#workload DataK8SAppsKubedlIoCronV1Alpha1Manifest#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#workload DataK8SAppsKubedlIoCronV1Alpha1Manifest#workload}
   */
   readonly workload?: { [key: string]: string };
 }
@@ -375,27 +375,27 @@ export class DataK8SAppsKubedlIoCronV1Alpha1ManifestSpecTemplateOutputReference 
 }
 export interface DataK8SAppsKubedlIoCronV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#concurrency_policy DataK8SAppsKubedlIoCronV1Alpha1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#concurrency_policy DataK8SAppsKubedlIoCronV1Alpha1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#deadline DataK8SAppsKubedlIoCronV1Alpha1Manifest#deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#deadline DataK8SAppsKubedlIoCronV1Alpha1Manifest#deadline}
   */
   readonly deadline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#history_limit DataK8SAppsKubedlIoCronV1Alpha1Manifest#history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#history_limit DataK8SAppsKubedlIoCronV1Alpha1Manifest#history_limit}
   */
   readonly historyLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#schedule DataK8SAppsKubedlIoCronV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#schedule DataK8SAppsKubedlIoCronV1Alpha1Manifest#schedule}
   */
   readonly schedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#suspend DataK8SAppsKubedlIoCronV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#suspend DataK8SAppsKubedlIoCronV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#template DataK8SAppsKubedlIoCronV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#template DataK8SAppsKubedlIoCronV1Alpha1Manifest#template}
   */
   readonly template: DataK8SAppsKubedlIoCronV1Alpha1ManifestSpecTemplate;
 }
@@ -628,7 +628,7 @@ export class DataK8SAppsKubedlIoCronV1Alpha1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest k8s_apps_kubedl_io_cron_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest k8s_apps_kubedl_io_cron_v1alpha1_manifest}
 */
 export class DataK8SAppsKubedlIoCronV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -644,7 +644,7 @@ export class DataK8SAppsKubedlIoCronV1Alpha1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SAppsKubedlIoCronV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubedlIoCronV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubedlIoCronV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubedlIoCronV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubedlIoCronV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class DataK8SAppsKubedlIoCronV1Alpha1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest k8s_apps_kubedl_io_cron_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubedl_io_cron_v1alpha1_manifest k8s_apps_kubedl_io_cron_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class DataK8SAppsKubedlIoCronV1Alpha1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_apps_kubedl_io_cron_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

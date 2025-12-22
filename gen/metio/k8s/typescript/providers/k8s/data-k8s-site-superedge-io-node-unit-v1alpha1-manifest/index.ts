@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#metadata DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#metadata DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestMetadata;
   /**
   * NodeUnitSpec defines the desired state of NodeUnit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#spec DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#spec DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSelectorMatch
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,19 +369,19 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSelector {
   /**
   * If specified, select node to join nodeUnit according to Annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -535,25 +535,25 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSetnodeTaints
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#effect DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#effect DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#time_added DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#time_added DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#value DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#value DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -752,19 +752,19 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSetnode {
   /**
   * If specified, set annotations to all nodes of nodeunit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * If specified, set labels to all nodes of nodeunit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * If specified, set taints to all nodes of nodeunit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#taints DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#taints DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSetnodeTaints[] | cdktf.IResolvable;
 }
@@ -918,25 +918,25 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecTaints {
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#effect DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#effect DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#time_added DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#time_added DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#value DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#value DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1135,37 +1135,37 @@ export interface DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpec {
   /**
   * If specified, If node exists, join nodeunit directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#nodes DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#nodes DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * If specified, Label selector for nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSelector;
   /**
   * If specified, set the relevant properties to the node of nodeunit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#setnode DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#setnode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#setnode DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#setnode}
   */
   readonly setnode?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecSetnode;
   /**
   * If specified, allow to set taints to nodeunit for the scheduler to choose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#taints DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#taints DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecTaints[] | cdktf.IResolvable;
   /**
   * Type of nodeunit， vaule: Cloud、Edge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#type DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#type DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Unschedulable controls nodeUnit schedulability of new workwolads. By default, nodeUnit is schedulable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#unschedulable DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#unschedulable DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest#unschedulable}
   */
   readonly unschedulable?: boolean | cdktf.IResolvable;
 }
@@ -1404,7 +1404,7 @@ export class DataK8SSiteSuperedgeIoNodeUnitV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest k8s_site_superedge_io_node_unit_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest k8s_site_superedge_io_node_unit_v1alpha1_manifest}
 */
 export class DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1420,7 +1420,7 @@ export class DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1432,7 +1432,7 @@ export class DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest k8s_site_superedge_io_node_unit_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/site_superedge_io_node_unit_v1alpha1_manifest k8s_site_superedge_io_node_unit_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1443,8 +1443,8 @@ export class DataK8SSiteSuperedgeIoNodeUnitV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_site_superedge_io_node_unit_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

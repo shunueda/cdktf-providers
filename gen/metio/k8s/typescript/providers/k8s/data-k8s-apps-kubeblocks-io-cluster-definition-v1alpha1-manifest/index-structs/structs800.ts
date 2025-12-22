@@ -59,25 +59,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the service capabilities of this member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#access_mode DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#access_mode DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#access_mode}
   */
   readonly accessMode: string;
   /**
   * Indicates if this member has voting rights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#can_vote DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#can_vote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#can_vote DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#can_vote}
   */
   readonly canVote?: boolean | cdktf.IResolvable;
   /**
   * Determines if this member is the leader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#is_leader DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#is_leader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#is_leader DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#is_leader}
   */
   readonly isLeader?: boolean | cdktf.IResolvable;
   /**
   * Defines the role name of the replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -276,25 +276,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Describes the strategy for updating Members (Pods). - 'Serial': Updates Members sequentially to ensure minimum component downtime. - 'BestEffortParallel': Updates Members in parallel to ensure minimum component write downtime. - 'Parallel': Forces parallel updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#member_update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#member_update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#member_update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#member_update_strategy}
   */
   readonly memberUpdateStrategy?: string;
   /**
   * Indicates the actions required for dynamic membership reconfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#membership_reconfiguration DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#membership_reconfiguration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#membership_reconfiguration DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#membership_reconfiguration}
   */
   readonly membershipReconfiguration?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsRsmSpecMembershipReconfiguration;
   /**
   * Defines the method used to probe a role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#role_probe DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#role_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#role_probe DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#role_probe}
   */
   readonly roleProbe?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsRsmSpecRoleProbe;
   /**
   * Specifies a list of roles defined within the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#roles DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#roles DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#roles}
   */
   readonly roles?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsRsmSpecRoles[] | cdktf.IResolvable;
 }
@@ -477,31 +477,31 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The operator attempts to set default file permissions for scripts (0555) and configurations (0444). However, certain database engines may require different file permissions. You can specify the desired file permissions here. Must be specified as an octal value between 0000 and 0777 (inclusive), or as a decimal value between 0 and 511 (inclusive). YAML supports both octal and decimal values for file permissions. Please note that this setting only affects the permissions of the files themselves. Directories within the specified path are not impacted by this setting. It's important to be aware that this setting might conflict with other options that influence the file mode, such as fsGroup. In such cases, the resulting file mode may have additional bits set. Refers to documents of k8s.ConfigMapVolumeSource.defaultMode for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Specifies the name of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#template_ref}
   */
   readonly templateRef?: string;
   /**
   * Refers to the volume name of PodTemplate. The configuration file produced through the configuration template will be mounted to the corresponding volume. Must be a DNS_LABEL name. The volume name must be defined in podSpec.containers[*].volumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -732,31 +732,31 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The application protocol for this port. This field follows standard Kubernetes label syntax. Un-prefixed names are reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). Non-standard protocols should use prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#app_protocol DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#app_protocol DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#port DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#port DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#protocol DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#protocol DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. - If this is a string, it will be looked up as a named port in the target Pod's container ports. - If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#target_port DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#target_port DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -987,7 +987,7 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ports DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ports DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsServicePorts[] | cdktf.IResolvable;
 }
@@ -1083,13 +1083,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the type or nature of the service. This should be a well-known application cluster type, such as {mysql, redis, mongodb}. The field is case-insensitive and supports abbreviations for some well-known databases. For instance, both 'zk' and 'zookeeper' are considered as a ZooKeeper cluster, while 'pg', 'postgres', 'postgresql' are all recognized as a PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_kind DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_kind DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_kind}
   */
   readonly serviceKind: string;
   /**
   * Defines the service version of the service reference. This is a regular expression that matches a version number pattern. For instance, '^8.0.8$', '8.0.d{1,2}$', '^[v-]*?(d{1,2}.){0,3}d{1,2}$' are all valid patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_version}
   */
   readonly serviceVersion: string;
 }
@@ -1230,19 +1230,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the name of the ServiceRefDeclaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies whether the service reference can be optional. For an optional service-ref, the component can still be created even if the service-ref is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Defines a list of constraints and requirements for services that can be bound to this ServiceRefDeclaration upon Cluster creation. Each ServiceRefDeclarationSpec defines a ServiceKind and ServiceVersion, outlining the acceptable service types and versions that are compatible. This flexibility allows a ServiceRefDeclaration to be fulfilled by any one of the provided specs. For example, if it requires an OLTP database, specs for both MySQL and PostgreSQL are listed, either MySQL or PostgreSQL services can be used when binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_ref_declaration_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_ref_declaration_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_ref_declaration_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_ref_declaration_specs}
   */
   readonly serviceRefDeclarationSpecs: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsServiceRefDeclarationsServiceRefDeclarationSpecs[] | cdktf.IResolvable;
 }
@@ -1412,13 +1412,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding up. This can not be 0. Defaults to 1. This field is alpha-level and is only honored by servers that enable the MaxUnavailableStatefulSet feature. The field applies to all pods in the range 0 to Replicas-1. That means if there is any unavailable pod in the range 0 to Replicas-1, it will be counted towards MaxUnavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_unavailable DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_unavailable DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * Partition indicates the ordinal at which the StatefulSet should be partitioned for updates. During a rolling update, all pods from ordinal Replicas-1 to Partition are updated. All pods from ordinal Partition-1 to 0 remain untouched. This is helpful in being able to do a canary based deployment. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#partition DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#partition DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
 }
@@ -1543,13 +1543,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rolling_update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rolling_update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatefulSpecLlUpdateStrategyRollingUpdate;
   /**
   * Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1674,19 +1674,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Controls the creation of pods during initial scale up, replacement of pods on nodes, and scaling down. - 'OrderedReady': Creates pods in increasing order (pod-0, then pod-1, etc). The controller waits until each pod is ready before continuing. Pods are removed in reverse order when scaling down. - 'Parallel': Creates pods in parallel to match the desired scale without waiting. All pods are deleted at once when scaling down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ll_pod_management_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ll_pod_management_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ll_pod_management_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ll_pod_management_policy}
   */
   readonly llPodManagementPolicy?: string;
   /**
   * Specifies the low-level StatefulSetUpdateStrategy to be used when updating Pods in the StatefulSet upon a revision to the Template. 'UpdateStrategy' will be ignored if this is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ll_update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ll_update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#ll_update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#ll_update_strategy}
   */
   readonly llUpdateStrategy?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatefulSpecLlUpdateStrategy;
   /**
   * Specifies the strategy for updating Pods. For workloadType='Consensus', the update strategy can be one of the following: - 'Serial': Updates Members sequentially to minimize component downtime. - 'BestEffortParallel': Updates Members in parallel to minimize component write downtime. Majority remains online at all times. - 'Parallel': Forces parallel updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update_strategy}
   */
   readonly updateStrategy?: string;
 }
@@ -1840,13 +1840,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_surge DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_surge DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_unavailable DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#max_unavailable DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -1971,13 +1971,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rolling_update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rolling_update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatelessSpecUpdateStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2102,7 +2102,7 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the deployment strategy that will be used to replace existing pods with new ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update_strategy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatelessSpecUpdateStrategy;
 }
@@ -2198,25 +2198,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Additional parameters used in the execution of the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * The command to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * A list of environment variables that will be injected into the command execution context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies the image used to execute the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -2393,7 +2393,7 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Represents the name of the ScriptSpec referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2508,13 +2508,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the switchover command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
   */
   readonly cmdExecutorConfig: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithCandidateCmdExecutorConfig;
   /**
   * Used to select the script that need to be referenced. When defined, the scripts defined in scriptSpecs can be referenced within the SwitchoverAction.CmdExecutorConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_spec_selectors DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_spec_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_spec_selectors DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_spec_selectors}
   */
   readonly scriptSpecSelectors?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithCandidateScriptSpecSelectors[] | cdktf.IResolvable;
 }
@@ -2636,25 +2636,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Additional parameters used in the execution of the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * The command to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * A list of environment variables that will be injected into the command execution context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies the image used to execute the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -2831,7 +2831,7 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Represents the name of the ScriptSpec referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2946,13 +2946,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the switchover command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
   */
   readonly cmdExecutorConfig: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithoutCandidateCmdExecutorConfig;
   /**
   * Used to select the script that need to be referenced. When defined, the scripts defined in scriptSpecs can be referenced within the SwitchoverAction.CmdExecutorConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_spec_selectors DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_spec_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_spec_selectors DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_spec_selectors}
   */
   readonly scriptSpecSelectors?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithoutCandidateScriptSpecSelectors[] | cdktf.IResolvable;
 }
@@ -3074,13 +3074,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Represents the action of switching over to a specified candidate primary or leader instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#with_candidate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#with_candidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#with_candidate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#with_candidate}
   */
   readonly withCandidate?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithCandidate;
   /**
   * Represents the action of switching over without specifying a candidate primary or leader instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#without_candidate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#without_candidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#without_candidate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#without_candidate}
   */
   readonly withoutCandidate?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpecWithoutCandidate;
 }
@@ -3205,13 +3205,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The unique identifier of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace where the secret is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -3330,19 +3330,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Specifies the statement required to create a new account with the necessary privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#creation DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#creation DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#creation}
   */
   readonly creation: string;
   /**
   * Defines the statement required to delete an existing account. Typically used in conjunction with the creation statement to delete an account before recreating it. For example, one might use a 'drop user if exists' statement followed by a 'create user' statement to ensure a fresh account. Deprecated: This field is deprecated and the update statement should be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#deletion DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#deletion DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#deletion}
   */
   readonly deletion?: string;
   /**
   * Defines the statement required to update the password of an existing account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update}
   */
   readonly update?: string;
 }
@@ -3493,25 +3493,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Defines the scope within which the account is provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#scope DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#scope DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#scope}
   */
   readonly scope: string;
   /**
   * The external secret to refer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#secret_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#secret_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsAccountsProvisionPolicySecretRef;
   /**
   * The statement to provision an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#statements DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#statements DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#statements}
   */
   readonly statements?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsAccountsProvisionPolicyStatements;
   /**
   * Specifies the method to provision an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3688,13 +3688,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The unique identifier of a system account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Outlines the strategy for creating the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#provision_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#provision_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#provision_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#provision_policy}
   */
   readonly provisionPolicy: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsAccountsProvisionPolicy;
 }
@@ -3835,25 +3835,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Additional parameters used in the execution of the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * The command to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#command DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * A list of environment variables that will be injected into the command execution context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies the image used to execute the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -4030,31 +4030,31 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The length of the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#length DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#length DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#length}
   */
   readonly length?: number;
   /**
   * The case of the letters in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#letter_case DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#letter_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#letter_case DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#letter_case}
   */
   readonly letterCase?: string;
   /**
   * The number of digits in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#num_digits DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#num_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#num_digits DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#num_digits}
   */
   readonly numDigits?: number;
   /**
   * The number of symbols in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#num_symbols DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#num_symbols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#num_symbols DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#num_symbols}
   */
   readonly numSymbols?: number;
   /**
   * Seed to generate the account's password. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#seed DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#seed DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#seed}
   */
   readonly seed?: string;
 }
@@ -4266,19 +4266,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Defines the configuration settings for system accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#accounts DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#accounts DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#accounts}
   */
   readonly accounts: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsAccounts[] | cdktf.IResolvable;
   /**
   * Configures how to obtain the client SDK and execute statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#cmd_executor_config}
   */
   readonly cmdExecutorConfig: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsCmdExecutorConfig;
   /**
   * Defines the pattern used to generate passwords for system accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#password_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#password_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#password_config DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#password_config}
   */
   readonly passwordConfig: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccountsPasswordConfig;
 }
@@ -4423,13 +4423,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Defines the high watermark threshold for the volume, it will override the component level threshold. If the value is invalid, it will be ignored and the component level threshold will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#high_watermark DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#high_watermark DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#high_watermark}
   */
   readonly highWatermark?: number;
   /**
   * The Name of the volume to protect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4576,13 +4576,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * The high watermark threshold for volume space usage. If there is any specified volumes who's space usage is over the threshold, the pre-defined 'LOCK' action will be triggered to degrade the service to protect volume from space exhaustion, such as to set the instance as read-only. And after that, if all volumes' space usage drops under the threshold later, the pre-defined 'UNLOCK' action will be performed to recover the service normally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#high_watermark DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#high_watermark DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#high_watermark}
   */
   readonly highWatermark?: number;
   /**
   * The Volumes to be protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volumes DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volumes DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsVolumeProtectionSpecVolumes[] | cdktf.IResolvable;
 }
@@ -4707,13 +4707,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Corresponds to the name of the VolumeMounts field in PodSpec.Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type of data the volume will persistent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4857,157 +4857,157 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecCom
   /**
   * Defines well-known database component name, such as mongos(mongodb), proxy(redis), mariadb(mysql).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#character_type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#character_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#character_type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#character_type}
   */
   readonly characterType?: string;
   /**
   * Used to inject values from other components into the current component. Values will be saved and updated in a configmap and mounted to the current component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#component_def_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#component_def_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#component_def_ref DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#component_def_ref}
   */
   readonly componentDefRef?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsComponentDefRef[] | cdktf.IResolvable;
   /**
   * Defines the template of configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#config_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#config_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#config_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#config_specs}
   */
   readonly configSpecs?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsConfigSpecs[] | cdktf.IResolvable;
   /**
   * Defines spec for 'Consensus' workloads. It's required if the workload type is 'Consensus'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#consensus_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#consensus_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#consensus_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#consensus_spec}
   */
   readonly consensusSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsConsensusSpec;
   /**
   * Used for custom label tags which you want to add to the component resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#custom_label_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#custom_label_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#custom_label_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#custom_label_specs}
   */
   readonly customLabelSpecs?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsCustomLabelSpecs[] | cdktf.IResolvable;
   /**
   * Description of the component definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#description DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#description DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Defines the metrics exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#exporter DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#exporter DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#exporter}
   */
   readonly exporter?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsExporter;
   /**
   * Defines the behavior of horizontal scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#horizontal_scale_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#horizontal_scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#horizontal_scale_policy DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#horizontal_scale_policy}
   */
   readonly horizontalScalePolicy?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsHorizontalScalePolicy;
   /**
   * Specify the logging files which can be observed and configured by cluster users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#log_configs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#log_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#log_configs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#log_configs}
   */
   readonly logConfigs?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsLogConfigs[] | cdktf.IResolvable;
   /**
   * Deprecated since v0.9 monitor is monitoring config which provided by provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#monitor DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#monitor DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#monitor}
   */
   readonly monitor?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsMonitor;
   /**
   * This name could be used as default name of 'cluster.spec.componentSpecs.name', and needs to conform with same validation rules as 'cluster.spec.componentSpecs.name', currently complying with IANA Service Naming rule. This name will apply to cluster objects as the value of label 'apps.kubeblocks.io/component-name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Defines the pod spec template of component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#pod_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#pod_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#pod_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#pod_spec}
   */
   readonly podSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsPodSpec;
   /**
   * Defines the command to be executed when the component is ready, and the command will only be executed once after the component becomes ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#post_start_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#post_start_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#post_start_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#post_start_spec}
   */
   readonly postStartSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsPostStartSpec;
   /**
   * Settings for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#probes DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#probes DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#probes}
   */
   readonly probes?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsProbes;
   /**
   * Defines spec for 'Replication' workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#replication_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#replication_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#replication_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#replication_spec}
   */
   readonly replicationSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsReplicationSpec;
   /**
   * Defines workload spec of this component. From KB 0.7.0, RSM(InstanceSetSpec) will be the underlying CR which powers all kinds of workload in KB. RSM is an enhanced stateful workload extension dedicated for heavy-state workloads like databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rsm_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rsm_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#rsm_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#rsm_spec}
   */
   readonly rsmSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsRsmSpec;
   /**
   * Defines the template of scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#script_specs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#script_specs}
   */
   readonly scriptSpecs?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsScriptSpecs[] | cdktf.IResolvable;
   /**
   * Defines the service spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsService;
   /**
   * Used to declare the service reference of the current component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_ref_declarations DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_ref_declarations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#service_ref_declarations DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#service_ref_declarations}
   */
   readonly serviceRefDeclarations?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsServiceRefDeclarations[] | cdktf.IResolvable;
   /**
   * Defines spec for 'Stateful' workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#stateful_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#stateful_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#stateful_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#stateful_spec}
   */
   readonly statefulSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatefulSpec;
   /**
   * Defines spec for 'Stateless' workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#stateless_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#stateless_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#stateless_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#stateless_spec}
   */
   readonly statelessSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsStatelessSpec;
   /**
   * Defines command to do switchover. In particular, when workloadType=Replication, the command defined in switchoverSpec will only be executed under the condition of cluster.componentSpecs[x].SwitchPolicy.type=Noop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#switchover_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#switchover_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#switchover_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#switchover_spec}
   */
   readonly switchoverSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSwitchoverSpec;
   /**
   * Defines system accounts needed to manage the component, and the statement to create them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#system_accounts DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#system_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#system_accounts DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#system_accounts}
   */
   readonly systemAccounts?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsSystemAccounts;
   /**
   * Defines settings to do volume protect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_protection_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_protection_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_protection_spec DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_protection_spec}
   */
   readonly volumeProtectionSpec?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsVolumeProtectionSpec;
   /**
   * Used to describe the purpose of the volumes mapping the name of the VolumeMounts in the PodSpec.Container field, such as data volume, log volume, etc. When backing up the volume, the volume can be correctly backed up according to the volumeType. For example: - 'name: data, type: data' means that the volume named 'data' is used to store 'data'. - 'name: binlog, type: log' means that the volume named 'binlog' is used to store 'log'. NOTE: When volumeTypes is not defined, the backup function will not be supported, even if a persistent volume has been specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_types DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#volume_types DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#volume_types}
   */
   readonly volumeTypes?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefsVolumeTypes[] | cdktf.IResolvable;
   /**
   * Defines the type of the workload. - 'Stateless' describes stateless applications. - 'Stateful' describes common stateful applications. - 'Consensus' describes applications based on consensus protocols, such as raft and paxos. - 'Replication' describes applications based on the primary-secondary data replication protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#workload_type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#workload_type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#workload_type}
   */
   readonly workloadType: string;
 }
@@ -5844,13 +5844,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTop
   /**
   * Specifies the exact name, name prefix, or regular expression pattern for matching the name of the ComponentDefinition custom resource (CR) that defines the Component's characteristics and behavior. The system selects the ComponentDefinition CR with the latest version that matches the pattern. This approach allows: 1. Precise selection by providing the exact name of a ComponentDefinition CR. 2. Flexible and automatic selection of the most up-to-date ComponentDefinition CR by specifying a name prefix or regular expression pattern. Once set, this field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#comp_def DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#comp_def}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#comp_def DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#comp_def}
   */
   readonly compDef: string;
   /**
   * Defines the unique identifier of the component within the cluster topology. It follows IANA Service naming rules and is used as part of the Service's DNS name. The name must start with a lowercase letter, can contain lowercase letters, numbers, and hyphens, and must end with a lowercase letter or number. Cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5991,19 +5991,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTop
   /**
   * Specifies the order for creating and initializing components. This is designed for components that depend on one another. Components without dependencies can be grouped together. Components that can be provisioned independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#provision DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#provision DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#provision}
   */
   readonly provision?: string[];
   /**
   * Outlines the order for stopping and deleting components. This sequence is designed for components that require a graceful shutdown or have interdependencies. Components that can be terminated independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#terminate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#terminate DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#terminate}
   */
   readonly terminate?: string[];
   /**
   * Update determines the order for updating components' specifications, such as image upgrades or resource scaling. This sequence is designed for components that have dependencies or require specific update procedures. Components that can be updated independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#update}
   */
   readonly update?: string[];
 }
@@ -6157,25 +6157,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTop
   /**
   * Components specifies the components in the topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#components DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#components DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTopologiesComponents[] | cdktf.IResolvable;
   /**
   * Default indicates whether this topology serves as the default configuration. When set to true, this topology is automatically used unless another is explicitly specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#default DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#default DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Name is the unique identifier for the cluster topology. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the sequence in which components within a cluster topology are started, stopped, and upgraded. This ordering is crucial for maintaining the correct dependencies and operational flow across components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#orders DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#orders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#orders DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#orders}
   */
   readonly orders?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTopologiesOrders;
 }
@@ -6374,25 +6374,25 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpec {
   /**
   * Provides the definitions for the cluster components. Deprecated since v0.9. Components should now be individually defined using ComponentDefinition and collectively referenced via 'topology.components'. This field is maintained for backward compatibility and its use is discouraged. Existing usage should be updated to the current preferred approach to avoid compatibility issues in future releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#component_defs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#component_defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#component_defs DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#component_defs}
   */
   readonly componentDefs?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecComponentDefs[] | cdktf.IResolvable;
   /**
   * Connection credential template used for creating a connection credential secret for cluster objects. Built-in objects are: - '$(RANDOM_PASSWD)' random 8 characters. - '$(STRONG_RANDOM_PASSWD)' random 16 characters, with mixed cases, digits and symbols. - '$(UUID)' generate a random UUID v4 string. - '$(UUID_B64)' generate a random UUID v4 BASE64 encoded string. - '$(UUID_STR_B64)' generate a random UUID v4 string then BASE64 encoded. - '$(UUID_HEX)' generate a random UUID v4 HEX representation. - '$(HEADLESS_SVC_FQDN)' headless service FQDN placeholder, value pattern is '$(CLUSTER_NAME)-$(1ST_COMP_NAME)-headless.$(NAMESPACE).svc', where 1ST_COMP_NAME is the 1st component that provide 'ClusterDefinition.spec.componentDefs[].service' attribute; - '$(SVC_FQDN)' service FQDN placeholder, value pattern is '$(CLUSTER_NAME)-$(1ST_COMP_NAME).$(NAMESPACE).svc', where 1ST_COMP_NAME is the 1st component that provide 'ClusterDefinition.spec.componentDefs[].service' attribute; - '$(SVC_PORT_{PORT-NAME})' is ServicePort's port value with specified port name, i.e, a servicePort JSON struct: '{'name': 'mysql', 'targetPort': 'mysqlContainerPort', 'port': 3306}', and '$(SVC_PORT_mysql)' in the connection credential value is 3306. Deprecated since v0.9. This field is maintained for backward compatibility and its use is discouraged. Existing usage should be updated to the current preferred approach to avoid compatibility issues in future releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#connection_credential DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#connection_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#connection_credential DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#connection_credential}
   */
   readonly connectionCredential?: { [key: string]: string };
   /**
   * Topologies defines all possible topologies within the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#topologies DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#topologies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#topologies DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#topologies}
   */
   readonly topologies?: DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1ManifestSpecTopologies[] | cdktf.IResolvable;
   /**
   * Specifies the well-known database type, such as mysql, redis, or mongodb. Deprecated since v0.9. This field is maintained for backward compatibility and its use is discouraged. Existing usage should be updated to the current preferred approach to avoid compatibility issues in future releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1alpha1_manifest#type DataK8SAppsKubeblocksIoClusterDefinitionV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }

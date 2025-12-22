@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#metadata DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#metadata DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestMetadata;
   /**
   * Configuration for access control on workloads. See more details at: https://istio.io/docs/reference/config/security/authorization-policy.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#spec DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#spec DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#annotations DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#annotations DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#labels DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#labels DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecPro
   /**
   * Specifies the name of the extension provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,61 +315,61 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#ip_blocks}
   */
   readonly ipBlocks?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespaces DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespaces DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_ip_blocks}
   */
   readonly notIpBlocks?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_namespaces DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_namespaces DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_namespaces}
   */
   readonly notNamespaces?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_principals}
   */
   readonly notPrincipals?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_remote_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_remote_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_remote_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_remote_ip_blocks}
   */
   readonly notRemoteIpBlocks?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_request_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_request_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_request_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_request_principals}
   */
   readonly notRequestPrincipals?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#principals}
   */
   readonly principals?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#remote_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#remote_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#remote_ip_blocks DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#remote_ip_blocks}
   */
   readonly remoteIpBlocks?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#request_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#request_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#request_principals DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#request_principals}
   */
   readonly requestPrincipals?: string[];
 }
@@ -726,7 +726,7 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * Source specifies the source of a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#source DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#source DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#source}
   */
   readonly source?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRulesFromSource;
 }
@@ -844,49 +844,49 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#hosts DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#hosts DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#methods DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#methods DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#methods}
   */
   readonly methods?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_hosts DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_hosts DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_hosts}
   */
   readonly notHosts?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_methods DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_methods DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_methods}
   */
   readonly notMethods?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_paths DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_paths DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_paths}
   */
   readonly notPaths?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_ports DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_ports DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_ports}
   */
   readonly notPorts?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#paths DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#paths DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#paths}
   */
   readonly paths?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#ports DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#ports DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#ports}
   */
   readonly ports?: string[];
 }
@@ -1185,7 +1185,7 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * Operation specifies the operation of a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#operation DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#operation DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#operation}
   */
   readonly operation?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRulesToOperation;
 }
@@ -1303,19 +1303,19 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * The name of an Istio attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#key DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#key DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_values DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#not_values DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#not_values}
   */
   readonly notValues?: string[];
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#values DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#values DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1488,19 +1488,19 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRul
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#from DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#from DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#from}
   */
   readonly from?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRulesFrom[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#to DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#to DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#to}
   */
   readonly to?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRulesTo[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#when DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#when DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#when}
   */
   readonly when?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRulesWhen[] | cdktf.IResolvable;
 }
@@ -1676,7 +1676,7 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecSel
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#match_labels DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#match_labels DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1772,25 +1772,25 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecTar
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#group DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#group DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#kind DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#kind DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1967,25 +1967,25 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecTar
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#group DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#group DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#kind DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#kind DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#name DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#namespace DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2184,35 +2184,35 @@ export interface DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpec {
   /**
   * Optional. Valid Options: ALLOW, DENY, AUDIT, CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#action DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#action DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Specifies detailed configuration of the CUSTOM action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#provider DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#provider DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#provider}
   */
   readonly provider?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecProvider;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#rules DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#rules DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#rules}
   */
   readonly rules?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecRules[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#selector DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#selector DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#target_ref DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#target_ref DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecTargetRef;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#target_refs DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#target_refs DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest#target_refs}
   */
   readonly targetRefs?: DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecTargetRefs[] | cdktf.IResolvable;
 }
@@ -2451,7 +2451,7 @@ export class DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest k8s_security_istio_io_authorization_policy_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest k8s_security_istio_io_authorization_policy_v1beta1_manifest}
 */
 export class DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2467,7 +2467,7 @@ export class DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2479,7 +2479,7 @@ export class DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest k8s_security_istio_io_authorization_policy_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/security_istio_io_authorization_policy_v1beta1_manifest k8s_security_istio_io_authorization_policy_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2490,8 +2490,8 @@ export class DataK8SSecurityIstioIoAuthorizationPolicyV1Beta1Manifest extends cd
       terraformResourceType: 'k8s_security_istio_io_authorization_policy_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

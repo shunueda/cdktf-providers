@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestMetadata;
   /**
   * NutanixDatacenterConfigSpec defines the desired state of NutanixDatacenterConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manife
 }
 export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpecCredentialRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -346,19 +346,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -509,19 +509,19 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * name is the resource name in the PC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type is the identifier type to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * uuid is the UUID of the resource in the PC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#uuid DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -694,25 +694,25 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * Cluster is the Prism Element cluster name or uuid that is connected to the Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#cluster DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#cluster DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#cluster}
   */
   readonly cluster?: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpecFailureDomainsCluster;
   /**
   * Name is the unique name of the failure domain. Name must be between 1 and 64 characters long. It must consist of only lower case alphanumeric characters and hyphens (-). It must start and end with an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Subnets holds the list of subnets identifiers cluster's network subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#subnets DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#subnets DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#subnets}
   */
   readonly subnets?: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpecFailureDomainsSubnets[] | cdktf.IResolvable;
   /**
   * Worker Machine Groups holds the list of worker machine group names that will use this failure domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#worker_machine_groups DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#worker_machine_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#worker_machine_groups DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#worker_machine_groups}
   */
   readonly workerMachineGroups?: string[];
 }
@@ -914,37 +914,37 @@ export interface DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Ma
   /**
   * AdditionalTrustBundle is the optional PEM-encoded certificate bundle for users that configured their Prism Central with certificates from non-publicly trusted CAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#additional_trust_bundle DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#additional_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#additional_trust_bundle DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#additional_trust_bundle}
   */
   readonly additionalTrustBundle?: string;
   /**
   * CredentialRef is the reference to the secret name that contains the credentials for the Nutanix Prism Central. The namespace for the secret is assumed to be a constant i.e. eksa-system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#credential_ref DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#credential_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#credential_ref DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#credential_ref}
   */
   readonly credentialRef?: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpecCredentialRef;
   /**
   * Endpoint is the Endpoint of Nutanix Prism Central
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * FailureDomains is the optional list of failure domains for the Nutanix Datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#failure_domains DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#failure_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#failure_domains DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#failure_domains}
   */
   readonly failureDomains?: DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1ManifestSpecFailureDomains[] | cdktf.IResolvable;
   /**
   * Insecure is the optional flag to skip TLS verification. Nutanix Prism Central installation by default ships with a self-signed certificate that will fail TLS verification because the certificate is not issued by a public CA and does not have the IP SANs with the Prism Central endpoint. To accommodate the scenario where the user has not changed the default Certificate that ships with Prism Central, we allow the user to skip TLS verification. This is not recommended for production use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#insecure DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#insecure DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Port is the Port of Nutanix Prism Central
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#port DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#port DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -1177,7 +1177,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1193,7 +1193,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manife
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1205,7 +1205,7 @@ export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1216,8 +1216,8 @@ export class DataK8SAnywhereEksAmazonawsComNutanixDatacenterConfigV1Alpha1Manife
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_nutanix_datacenter_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

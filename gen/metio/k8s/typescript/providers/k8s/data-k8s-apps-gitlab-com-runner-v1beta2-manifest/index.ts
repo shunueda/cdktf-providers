@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#metadata DataK8SAppsGitlabComRunnerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#metadata DataK8SAppsGitlabComRunnerV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppsGitlabComRunnerV1Beta2ManifestMetadata;
   /**
   * Specification of the desired behavior of a GitLab Runner instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#spec DataK8SAppsGitlabComRunnerV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#spec DataK8SAppsGitlabComRunnerV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppsGitlabComRunnerV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#annotations DataK8SAppsGitlabComRunnerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#annotations DataK8SAppsGitlabComRunnerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#labels DataK8SAppsGitlabComRunnerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#labels DataK8SAppsGitlabComRunnerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#name DataK8SAppsGitlabComRunnerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#name DataK8SAppsGitlabComRunnerV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#namespace DataK8SAppsGitlabComRunnerV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#namespace DataK8SAppsGitlabComRunnerV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecAzure {
   /**
   * Name of the Azure container in which the cache will be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#container DataK8SAppsGitlabComRunnerV1Beta2Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#container DataK8SAppsGitlabComRunnerV1Beta2Manifest#container}
   */
   readonly container?: string;
   /**
   * Credentials secret contains 'accountName' and 'privateKey' used to authenticate against Azure blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * The domain name of the Azure blob storage e.g. blob.core.windows.net
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#storage_domain DataK8SAppsGitlabComRunnerV1Beta2Manifest#storage_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#storage_domain DataK8SAppsGitlabComRunnerV1Beta2Manifest#storage_domain}
   */
   readonly storageDomain?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecGcs {
   /**
   * Name of the bucket in which the cache will be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#bucket DataK8SAppsGitlabComRunnerV1Beta2Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#bucket DataK8SAppsGitlabComRunnerV1Beta2Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * contains the GCS 'access-id' and 'private-key'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * Takes GCS credentials file, 'keys.json'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials_file DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials_file DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
 }
@@ -551,25 +551,25 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecPodSpec {
   /**
   * Name is the name given to the custom Pod Spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#name DataK8SAppsGitlabComRunnerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#name DataK8SAppsGitlabComRunnerV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * A JSON or YAML format string that describes the changes which must be applied to the final PodSpec object before it is generated. You cannot set the patch_path and patch in the same pod_spec configuration, otherwise an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch}
   */
   readonly patch?: string;
   /**
   * Path to the file that defines the changes to apply to the final PodSpec object before it is generated. The file must be a JSON or YAML file. You cannot set the patch_path and patch in the same pod_spec configuration, otherwise an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch_file DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch_file DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch_file}
   */
   readonly patchFile?: string;
   /**
   * The strategy the runner uses to apply the specified changes to the PodSpec object generated by GitLab Runner. The accepted values are merge, json, and strategic (default value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch_type DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#patch_type DataK8SAppsGitlabComRunnerV1Beta2Manifest#patch_type}
   */
   readonly patchType: string;
 }
@@ -768,29 +768,29 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecS3 {
   /**
   * Name of the bucket in which the cache will be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#bucket DataK8SAppsGitlabComRunnerV1Beta2Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#bucket DataK8SAppsGitlabComRunnerV1Beta2Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * Name of the secret containing the 'accesskey' and 'secretkey' used to access the object storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#credentials DataK8SAppsGitlabComRunnerV1Beta2Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * Use insecure connections or HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#insecure DataK8SAppsGitlabComRunnerV1Beta2Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#insecure DataK8SAppsGitlabComRunnerV1Beta2Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Name of the S3 region in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#location DataK8SAppsGitlabComRunnerV1Beta2Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#location DataK8SAppsGitlabComRunnerV1Beta2Manifest#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#server DataK8SAppsGitlabComRunnerV1Beta2Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#server DataK8SAppsGitlabComRunnerV1Beta2Manifest#server}
   */
   readonly server?: string;
 }
@@ -1002,143 +1002,143 @@ export interface DataK8SAppsGitlabComRunnerV1Beta2ManifestSpec {
   /**
   * options used to setup Azure blob storage as GitLab Runner Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#azure DataK8SAppsGitlabComRunnerV1Beta2Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#azure DataK8SAppsGitlabComRunnerV1Beta2Manifest#azure}
   */
   readonly azure?: DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecAzure;
   /**
   * The name of the default image to use to run build jobs, when none is specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#build_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#build_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#build_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#build_image}
   */
   readonly buildImage?: string;
   /**
   * Name of tls secret containing the custom certificate authority (CA) certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#ca DataK8SAppsGitlabComRunnerV1Beta2Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#ca DataK8SAppsGitlabComRunnerV1Beta2Manifest#ca}
   */
   readonly ca?: string;
   /**
   * Path defines the Runner Cache path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_path DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_path DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_path}
   */
   readonly cachePath?: string;
   /**
   * Enable sharing of cache between Runners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_shared DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_shared DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_shared}
   */
   readonly cacheShared?: boolean | cdktf.IResolvable;
   /**
   * Type of cache used for Runner artifacts Options are: gcs, s3, azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_type DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#cache_type DataK8SAppsGitlabComRunnerV1Beta2Manifest#cache_type}
   */
   readonly cacheType?: string;
   /**
   * If specified, overrides the default URL used to clone or fetch the Git ref
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#clone_url DataK8SAppsGitlabComRunnerV1Beta2Manifest#clone_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#clone_url DataK8SAppsGitlabComRunnerV1Beta2Manifest#clone_url}
   */
   readonly cloneUrl?: string;
   /**
   * Option to limit the number of jobs globally that can run concurrently. The operator sets this to 10, if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#concurrent DataK8SAppsGitlabComRunnerV1Beta2Manifest#concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#concurrent DataK8SAppsGitlabComRunnerV1Beta2Manifest#concurrent}
   */
   readonly concurrent?: number;
   /**
   * allow user to provide configmap name containing the user provided config.toml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#config DataK8SAppsGitlabComRunnerV1Beta2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#config DataK8SAppsGitlabComRunnerV1Beta2Manifest#config}
   */
   readonly config?: string;
   /**
   * Accepts configmap name. Provides user mechanism to inject environment variables in the GitLab Runner pod via the key value pairs in the ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#env DataK8SAppsGitlabComRunnerV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#env DataK8SAppsGitlabComRunnerV1Beta2Manifest#env}
   */
   readonly env?: string;
   /**
   * options used to setup GCS (Google Container Storage) as GitLab Runner Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#gcs DataK8SAppsGitlabComRunnerV1Beta2Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#gcs DataK8SAppsGitlabComRunnerV1Beta2Manifest#gcs}
   */
   readonly gcs?: DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecGcs;
   /**
   * The fully qualified domain name for the GitLab instance. For example, https://gitlab.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#gitlab_url DataK8SAppsGitlabComRunnerV1Beta2Manifest#gitlab_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#gitlab_url DataK8SAppsGitlabComRunnerV1Beta2Manifest#gitlab_url}
   */
   readonly gitlabUrl: string;
   /**
   * If specified, overrides the default GitLab Runner helper image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#helper_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#helper_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#helper_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#helper_image}
   */
   readonly helperImage?: string;
   /**
   * ImagePullPolicy sets the Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#image_pull_policy DataK8SAppsGitlabComRunnerV1Beta2Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#image_pull_policy DataK8SAppsGitlabComRunnerV1Beta2Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Option to define the number of seconds between checks for new jobs. This is set to a default of 30s by operator if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#interval DataK8SAppsGitlabComRunnerV1Beta2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#interval DataK8SAppsGitlabComRunnerV1Beta2Manifest#interval}
   */
   readonly interval?: number;
   /**
   * Specify whether the runner should be locked to a specific project. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#locked DataK8SAppsGitlabComRunnerV1Beta2Manifest#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#locked DataK8SAppsGitlabComRunnerV1Beta2Manifest#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#pod_spec DataK8SAppsGitlabComRunnerV1Beta2Manifest#pod_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#pod_spec DataK8SAppsGitlabComRunnerV1Beta2Manifest#pod_spec}
   */
   readonly podSpec?: DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecPodSpec[] | cdktf.IResolvable;
   /**
   * Specify whether the runner should only run protected branches. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#protected DataK8SAppsGitlabComRunnerV1Beta2Manifest#protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#protected DataK8SAppsGitlabComRunnerV1Beta2Manifest#protected}
   */
   readonly protected?: boolean | cdktf.IResolvable;
   /**
   * Specify if jobs without tags should be run. If not specified, runner will default to true if no tags were specified. In other case it will default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#run_untagged DataK8SAppsGitlabComRunnerV1Beta2Manifest#run_untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#run_untagged DataK8SAppsGitlabComRunnerV1Beta2Manifest#run_untagged}
   */
   readonly runUntagged?: boolean | cdktf.IResolvable;
   /**
   * If specified, overrides the default GitLab Runner image. Default is the Runner image the operator was bundled with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#runner_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#runner_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#runner_image DataK8SAppsGitlabComRunnerV1Beta2Manifest#runner_image}
   */
   readonly runnerImage?: string;
   /**
   * options used to setup S3 object store as GitLab Runner Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#s3 DataK8SAppsGitlabComRunnerV1Beta2Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#s3 DataK8SAppsGitlabComRunnerV1Beta2Manifest#s3}
   */
   readonly s3?: DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecS3;
   /**
   * allow user to override service account used by GitLab Runner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#serviceaccount DataK8SAppsGitlabComRunnerV1Beta2Manifest#serviceaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#serviceaccount DataK8SAppsGitlabComRunnerV1Beta2Manifest#serviceaccount}
   */
   readonly serviceaccount?: string;
   /**
   * List of comma separated tags to be applied to the runner More info: https://docs.gitlab.com/ee/ci/runners/#use-tags-to-limit-the-number-of-jobs-using-the-runner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#tags DataK8SAppsGitlabComRunnerV1Beta2Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#tags DataK8SAppsGitlabComRunnerV1Beta2Manifest#tags}
   */
   readonly tags?: string;
   /**
   * Name of secret containing the 'runner-registration-token' key used to register the runner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#token DataK8SAppsGitlabComRunnerV1Beta2Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#token DataK8SAppsGitlabComRunnerV1Beta2Manifest#token}
   */
   readonly token: string;
 }
@@ -1893,7 +1893,7 @@ export class DataK8SAppsGitlabComRunnerV1Beta2ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest k8s_apps_gitlab_com_runner_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest k8s_apps_gitlab_com_runner_v1beta2_manifest}
 */
 export class DataK8SAppsGitlabComRunnerV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1909,7 +1909,7 @@ export class DataK8SAppsGitlabComRunnerV1Beta2Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SAppsGitlabComRunnerV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsGitlabComRunnerV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsGitlabComRunnerV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsGitlabComRunnerV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsGitlabComRunnerV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1921,7 +1921,7 @@ export class DataK8SAppsGitlabComRunnerV1Beta2Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest k8s_apps_gitlab_com_runner_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest k8s_apps_gitlab_com_runner_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1932,8 +1932,8 @@ export class DataK8SAppsGitlabComRunnerV1Beta2Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apps_gitlab_com_runner_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

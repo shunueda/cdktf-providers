@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#metadata DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#metadata DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestMetadata;
   /**
   * Spec defines the desired state of KnativeServing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#spec DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#spec DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespace DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespace DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecAddit
   /**
   * The link of the additional manifest URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#url DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#url DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#url}
   */
   readonly url?: string;
 }
@@ -337,13 +337,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecContr
   /**
   * The name of the ConfigMap or Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * One of ConfigMap or Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#type DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#type DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -468,19 +468,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -650,19 +650,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -832,13 +832,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -963,13 +963,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preference DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preference DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1110,19 +1110,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1292,19 +1292,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1474,13 +1474,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1627,7 +1627,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector_terms DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector_terms DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1720,13 +1720,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1851,19 +1851,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2033,13 +2033,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2164,19 +2164,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2327,13 +2327,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2474,19 +2474,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2656,13 +2656,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2787,19 +2787,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2972,13 +2972,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3103,19 +3103,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3285,13 +3285,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3416,19 +3416,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3579,13 +3579,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3726,19 +3726,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3908,13 +3908,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4039,19 +4039,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4224,13 +4224,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4355,19 +4355,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_anti_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_anti_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinityPodAntiAffinity;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4684,13 +4684,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#api_version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#api_version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4812,19 +4812,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#divisor DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#divisor DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4975,19 +4975,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5138,25 +5138,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config_map_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config_map_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource_field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource_field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#secret_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#secret_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVarsValueFromSecretKeyRef;
 }
@@ -5339,19 +5339,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value_from DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value_from DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVarsValueFrom;
 }
@@ -5524,13 +5524,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * The desired EnvVarRequirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env_vars DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env_vars DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env_vars}
   */
   readonly envVars?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnvEnvVars[] | cdktf.IResolvable;
 }
@@ -5674,43 +5674,43 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5999,43 +5999,43 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6322,11 +6322,11 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymen
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsResourcesLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -6449,11 +6449,11 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymen
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsResourcesRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -6578,15 +6578,15 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * The name of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#limits DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#limits DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsResourcesLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#requests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#requests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsResourcesRequests;
 }
@@ -6762,31 +6762,31 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#effect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#effect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#toleration_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#toleration_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7020,19 +7020,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7202,13 +7202,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7333,25 +7333,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsTopologySpreadConstraintsLabelSelector;
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. It's the maximum permitted difference between the number of matching pods in any two topology domains of a given topology type. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 1/1/0: | zone1 | zone2 | zone3 | | P | P | | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 1/1/1; scheduling it onto zone1(zone2) would make the ActualSkew(2-0) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_skew DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_skew DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it - ScheduleAnyway tells the scheduler to still schedule it It's considered as 'Unsatisfiable' if and only if placing incoming pod on any topology violates 'MaxSkew'. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#when_unsatisfiable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#when_unsatisfiable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -7547,79 +7547,79 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeplo
   /**
   * If specified, the pod's scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsAffinity;
   /**
   * Annotations overrides labels for the deployment and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Env overrides env vars for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env}
   */
   readonly env?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsEnv[] | cdktf.IResolvable;
   /**
   * Use the host's network namespace if true. Make sure to understand the security implications if you want to enable it. When hostNetwork is enabled, this will set dnsPolicy to ClusterFirstWithHostNet automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#host_network DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#host_network DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Labels overrides labels for the deployment and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * LivenessProbes overrides liveness probes for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#liveness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#liveness_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#liveness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#liveness_probes}
   */
   readonly livenessProbes?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsLivenessProbes[] | cdktf.IResolvable;
   /**
   * The name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * NodeSelector overrides nodeSelector for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * ReadinessProbes overrides readiness probes for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#readiness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#readiness_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#readiness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#readiness_probes}
   */
   readonly readinessProbes?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsReadinessProbes[] | cdktf.IResolvable;
   /**
   * The number of replicas that HA parts of the control plane will be scaled to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * If specified, the container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resources DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resources DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsResources[] | cdktf.IResolvable;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tolerations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tolerations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsTolerations[] | cdktf.IResolvable;
   /**
   * If specified, the pod's topology spread constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_spread_constraints DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_spread_constraints DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeploymentsTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -8085,7 +8085,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecHighA
   /**
   * The number of replicas that HA parts of the control plane will be scaled to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -8179,7 +8179,7 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecHighAvail
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressContour {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8275,25 +8275,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#number DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#number DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#number}
   */
   readonly number?: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#protocol DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#protocol DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * A valid non-negative integer target port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#target_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#target_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -8476,19 +8476,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * TLS certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#credential_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#credential_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect to HTTPS for all HTTP requests. Should be used only for HTTP listener, is mutually exclusive with all other TLS options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_redirect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_redirect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * TLS mode can be SIMPLE, MUTUAL, ISTIO_MUTUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mode DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mode DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -8642,15 +8642,15 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * One or more hosts exposed by this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#hosts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#hosts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#port}
   */
   readonly port?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeIngressGatewayServersPort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tls DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tls DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeIngressGatewayServersTls;
 }
@@ -8826,13 +8826,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * The selector for the ingress-gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * A list of server specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#servers DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#servers DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#servers}
   */
   readonly servers?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeIngressGatewayServers[] | cdktf.IResolvable;
 }
@@ -8957,25 +8957,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#number DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#number DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#number}
   */
   readonly number?: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#protocol DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#protocol DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * A valid non-negative integer target port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#target_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#target_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -9158,19 +9158,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * TLS certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#credential_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#credential_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect to HTTPS for all HTTP requests. Should be used only for HTTP listener, is mutually exclusive with all other TLS options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_redirect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_redirect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * TLS mode can be SIMPLE, MUTUAL, ISTIO_MUTUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mode DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mode DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -9324,15 +9324,15 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * One or more hosts exposed by this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#hosts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#hosts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#port}
   */
   readonly port?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeLocalGatewayServersPort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tls DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tls DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeLocalGatewayServersTls;
 }
@@ -9508,13 +9508,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * The selector for the ingress-gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * A list of server specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#servers DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#servers DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#servers}
   */
   readonly servers?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeLocalGatewayServers[] | cdktf.IResolvable;
 }
@@ -9637,19 +9637,19 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIs
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A means to override the knative-ingress-gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#knative_ingress_gateway DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#knative_ingress_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#knative_ingress_gateway DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#knative_ingress_gateway}
   */
   readonly knativeIngressGateway?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeIngressGateway;
   /**
   * A means to override the knative-local-gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#knative_local_gateway DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#knative_local_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#knative_local_gateway DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#knative_local_gateway}
   */
   readonly knativeLocalGateway?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstioKnativeLocalGateway;
 }
@@ -9801,27 +9801,27 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIs
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressKourier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#bootstrap_configmap DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#bootstrap_configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#bootstrap_configmap DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#bootstrap_configmap}
   */
   readonly bootstrapConfigmap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#http_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#http_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#https_port DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#service_load_balancer_ip DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#service_load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#service_load_balancer_ip DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#service_load_balancer_ip}
   */
   readonly serviceLoadBalancerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#service_type DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#service_type DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -10062,19 +10062,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngre
   /**
   * Contour settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#contour DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#contour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#contour DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#contour}
   */
   readonly contour?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressContour;
   /**
   * Istio settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#istio DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#istio DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#istio}
   */
   readonly istio?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressIstio;
   /**
   * Kourier settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#kourier DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#kourier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#kourier DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#kourier}
   */
   readonly kourier?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngressKourier;
 }
@@ -10228,7 +10228,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecManif
   /**
   * The link of the manifest URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#url DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#url DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#url}
   */
   readonly url?: string;
 }
@@ -10346,13 +10346,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecNames
   /**
   * Annotations overrides labels for the namespace and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels overrides labels for the namespace and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -10477,19 +10477,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecPodDi
   /**
   * An eviction is allowed if at most 'maxUnavailable' pods selected by 'selector' are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with 'minAvailable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_unavailable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_unavailable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * An eviction is allowed if at least 'minAvailable' pods selected by 'selector' will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying '100%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#min_available DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#min_available DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#min_available}
   */
   readonly minAvailable?: string;
   /**
   * The name of the podDisruptionBudget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10665,7 +10665,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecRegis
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10783,19 +10783,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecRegis
   /**
   * The default image reference template to use for all knative images. Takes the form of example-registry.io/custom/path/${NAME}:custom-tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#default DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#default DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#default}
   */
   readonly default?: string;
   /**
   * A list of secrets to be used when pulling the knative images. The secret must be created in the same namespace as the knative-serving deployments, and not the namespace of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#image_pull_secrets DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#image_pull_secrets DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecRegistryImagePullSecrets[] | cdktf.IResolvable;
   /**
   * A map of a container name or image name to the full image location of the individual knative image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#override DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#override DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#override}
   */
   readonly override?: { [key: string]: string };
 }
@@ -10947,7 +10947,7 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecRegistryO
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecSecuritySecurityGuard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#enabled DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11043,7 +11043,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecSecur
   /**
   * Security Guard settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#security_guard DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#security_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#security_guard DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#security_guard}
   */
   readonly securityGuard?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecSecuritySecurityGuard;
 }
@@ -11139,25 +11139,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecServi
   /**
   * Annotations overrides labels for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels overrides labels for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Selector overrides selector for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
 }
@@ -11362,19 +11362,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11544,19 +11544,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11726,13 +11726,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -11857,13 +11857,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preference DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preference DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -12004,19 +12004,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12186,19 +12186,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12368,13 +12368,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_fields DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -12521,7 +12521,7 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector_terms DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector_terms DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -12614,13 +12614,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -12745,19 +12745,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12927,13 +12927,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13058,19 +13058,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13221,13 +13221,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13368,19 +13368,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13550,13 +13550,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13681,19 +13681,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13866,13 +13866,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -13997,19 +13997,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14179,13 +14179,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14310,19 +14310,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14473,13 +14473,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity_term DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#weight DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -14620,19 +14620,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14802,13 +14802,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14933,19 +14933,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespaces DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -15118,13 +15118,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -15249,19 +15249,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_anti_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_anti_affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinityPodAntiAffinity;
 }
@@ -15415,19 +15415,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15578,13 +15578,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#api_version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#api_version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -15706,19 +15706,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container_name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#divisor DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#divisor DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -15869,19 +15869,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#optional DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16032,25 +16032,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config_map_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config_map_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource_field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resource_field_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#secret_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#secret_key_ref DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVarsValueFromSecretKeyRef;
 }
@@ -16233,19 +16233,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value_from DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value_from DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVarsValueFrom;
 }
@@ -16418,13 +16418,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * The desired EnvVarRequirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env_vars DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env_vars DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env_vars}
   */
   readonly envVars?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnvEnvVars[] | cdktf.IResolvable;
 }
@@ -16568,43 +16568,43 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16893,43 +16893,43 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container: string;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#failure_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#initial_delay_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#success_threshold DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#termination_grace_period_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#timeout_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -17216,11 +17216,11 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloads
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsResourcesLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -17343,11 +17343,11 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloads
 }
 export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsResourcesRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#cpu DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#memory DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -17472,15 +17472,15 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * The name of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#container DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#limits DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#limits DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsResourcesLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#requests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#requests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsResourcesRequests;
 }
@@ -17656,31 +17656,31 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#effect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#effect DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#toleration_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#toleration_seconds DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#value DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -17914,19 +17914,19 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#operator DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#values DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18096,13 +18096,13 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_expressions DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#match_labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18227,25 +18227,25 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#label_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsTopologySpreadConstraintsLabelSelector;
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. It's the maximum permitted difference between the number of matching pods in any two topology domains of a given topology type. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 1/1/0: | zone1 | zone2 | zone3 | | P | P | | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 1/1/1; scheduling it onto zone1(zone2) would make the ActualSkew(2-0) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_skew DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#max_skew DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_key DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it - ScheduleAnyway tells the scheduler to still schedule it It's considered as 'Unsatisfiable' if and only if placing incoming pod on any topology violates 'MaxSkew'. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#when_unsatisfiable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#when_unsatisfiable DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -18441,37 +18441,37 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mount_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mount_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mount_propagation DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#mount_propagation DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#read_only DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#read_only DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#sub_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#sub_path DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#sub_path_expr DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#sub_path_expr DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18728,91 +18728,91 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkl
   /**
   * If specified, the pod's scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#affinity DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsAffinity;
   /**
   * Annotations overrides labels for the deployment and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#annotations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Env overrides env vars for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#env DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#env}
   */
   readonly env?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsEnv[] | cdktf.IResolvable;
   /**
   * Use the host's network namespace if true. Make sure to understand the security implications if you want to enable it. When hostNetwork is enabled, this will set dnsPolicy to ClusterFirstWithHostNet automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#host_network DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#host_network DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Labels overrides labels for the deployment and its template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#labels DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * LivenessProbes overrides liveness probes for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#liveness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#liveness_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#liveness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#liveness_probes}
   */
   readonly livenessProbes?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsLivenessProbes[] | cdktf.IResolvable;
   /**
   * The name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#name DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * NodeSelector overrides nodeSelector for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#node_selector DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * ReadinessProbes overrides readiness probes for the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#readiness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#readiness_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#readiness_probes DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#readiness_probes}
   */
   readonly readinessProbes?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsReadinessProbes[] | cdktf.IResolvable;
   /**
   * The number of replicas that HA parts of the control plane will be scaled to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#replicas DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * If specified, the container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resources DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#resources DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsResources[] | cdktf.IResolvable;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tolerations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#tolerations DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsTolerations[] | cdktf.IResolvable;
   /**
   * If specified, the pod's topology spread constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_spread_constraints DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#topology_spread_constraints DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * Version the cluster should be on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#version}
   */
   readonly version?: string;
   /**
   * VolumeMounts allows configuration of additional VolumeMounts on the output StatefulSet definition. VolumeMounts specified will be appended to other VolumeMounts in the alertmanager container, that are generated as a result of StorageSpec objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#volume_mounts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#volume_mounts DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloadsVolumeMounts[] | cdktf.IResolvable;
 }
@@ -19336,85 +19336,85 @@ export interface DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpec {
   /**
   * A list of the additional serving manifests, which will be installed by the operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#additional_manifests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#additional_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#additional_manifests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#additional_manifests}
   */
   readonly additionalManifests?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecAdditionalManifests[] | cdktf.IResolvable;
   /**
   * A means to override the corresponding entries in the upstream configmaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#config DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#config}
   */
   readonly config?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * Enabling the controller to trust registries with self-signed certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#controller_custom_certs DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#controller_custom_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#controller_custom_certs DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#controller_custom_certs}
   */
   readonly controllerCustomCerts?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecControllerCustomCerts;
   /**
   * A mapping of deployment name to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#deployments DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#deployments DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#deployments}
   */
   readonly deployments?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecDeployments[] | cdktf.IResolvable;
   /**
   * Allows specification of HA control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#high_availability DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#high_availability DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#high_availability}
   */
   readonly highAvailability?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecHighAvailability;
   /**
   * The ingress configuration for Knative Serving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#ingress DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#ingress DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#ingress}
   */
   readonly ingress?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecIngress;
   /**
   * A list of serving manifests, which will be installed by the operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#manifests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#manifests DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#manifests}
   */
   readonly manifests?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecManifests[] | cdktf.IResolvable;
   /**
   * A field of namespace name to override the labels and annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespace DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#namespace DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#namespace}
   */
   readonly namespace?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecNamespace;
   /**
   * A mapping of podDisruptionBudget name to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_disruption_budgets DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_disruption_budgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#pod_disruption_budgets DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#pod_disruption_budgets}
   */
   readonly podDisruptionBudgets?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecPodDisruptionBudgets[] | cdktf.IResolvable;
   /**
   * A means to override the corresponding deployment images in the upstream. This affects both apps/v1.Deployment and caching.internal.knative.dev/v1alpha1.Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#registry DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#registry DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#registry}
   */
   readonly registry?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecRegistry;
   /**
   * The security configuration for Knative Serving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#security DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#security DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#security}
   */
   readonly security?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecSecurity;
   /**
   * A mapping of service name to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#services DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#services DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#services}
   */
   readonly services?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecServices[] | cdktf.IResolvable;
   /**
   * The version of Knative Serving to be installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#version DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#version}
   */
   readonly version?: string;
   /**
   * A mapping of deployment or statefulset name to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#workloads DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#workloads DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest#workloads}
   */
   readonly workloads?: DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecWorkloads[] | cdktf.IResolvable;
 }
@@ -19885,7 +19885,7 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest k8s_operator_knative_dev_knative_serving_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest k8s_operator_knative_dev_knative_serving_v1beta1_manifest}
 */
 export class DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -19901,7 +19901,7 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19913,7 +19913,7 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest k8s_operator_knative_dev_knative_serving_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_knative_dev_knative_serving_v1beta1_manifest k8s_operator_knative_dev_knative_serving_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19924,8 +19924,8 @@ export class DataK8SOperatorKnativeDevKnativeServingV1Beta1Manifest extends cdkt
       terraformResourceType: 'k8s_operator_knative_dev_knative_serving_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

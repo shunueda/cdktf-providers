@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#metadata DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#metadata DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired state of ClusterImpairment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#spec DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#spec DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#annotations DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#annotations DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#labels DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#labels DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#name DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#name DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress
   /**
   * The correlation between sequential corruption values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -283,7 +283,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress
   /**
   * The correlation between sequential duplication values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -379,31 +379,31 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress
   /**
   * The way the jitter is distributed. Options: Normal, Uniform, Pareto, Paretonormal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#distribution DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#distribution DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * Variation in the latency that follows the specified distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter}
   */
   readonly jitter?: number;
   /**
   * The correlation between sequential jitter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter_correlation}
   */
   readonly jitterCorrelation?: number;
   /**
   * The percentage of packets that are not delayed, causing reordering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder}
   */
   readonly reorder?: number;
   /**
   * The correlation between sequential reorder values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder_correlation}
   */
   readonly reorderCorrelation?: number;
 }
@@ -615,7 +615,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress
   /**
   * The correlation between sequential packet loss values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -711,55 +711,55 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress
   /**
   * The bandwidth limit in kbit/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#bandwidth DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#bandwidth DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * The percent of packets that are corrupted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption}
   */
   readonly corruption?: number;
   /**
   * Advanced corruption options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption_options}
   */
   readonly corruptionOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgressCorruptionOptions;
   /**
   * The percent of packets duplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication}
   */
   readonly duplication?: number;
   /**
   * Advanced duplication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication_options}
   */
   readonly duplicationOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgressDuplicationOptions;
   /**
   * The latency applied in ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * Advanced latency options. Example: jitter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency_options}
   */
   readonly latencyOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgressLatencyOptions;
   /**
   * The packet loss in percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss}
   */
   readonly loss?: number;
   /**
   * Advanced packet loss options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss_options}
   */
   readonly lossOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgressLossOptions;
 }
@@ -1087,7 +1087,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngres
   /**
   * The correlation between sequential corruption values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -1183,7 +1183,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngres
   /**
   * The correlation between sequential duplication values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -1279,31 +1279,31 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngres
   /**
   * The way the jitter is distributed. Options: Normal, Uniform, Pareto, Paretonormal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#distribution DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#distribution DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * Variation in the latency that follows the specified distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter}
   */
   readonly jitter?: number;
   /**
   * The correlation between sequential jitter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#jitter_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#jitter_correlation}
   */
   readonly jitterCorrelation?: number;
   /**
   * The percentage of packets that are not delayed, causing reordering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder}
   */
   readonly reorder?: number;
   /**
   * The correlation between sequential reorder values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#reorder_correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#reorder_correlation}
   */
   readonly reorderCorrelation?: number;
 }
@@ -1515,7 +1515,7 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngres
   /**
   * The correlation between sequential packet loss values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#correlation DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#correlation}
   */
   readonly correlation?: number;
 }
@@ -1611,55 +1611,55 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngres
   /**
   * The bandwidth limit in kbit/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#bandwidth DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#bandwidth DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * The percent of packets that are corrupted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption}
   */
   readonly corruption?: number;
   /**
   * Advanced corruption options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#corruption_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#corruption_options}
   */
   readonly corruptionOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngressCorruptionOptions;
   /**
   * The percent of packets duplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication}
   */
   readonly duplication?: number;
   /**
   * Advanced duplication options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duplication_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duplication_options}
   */
   readonly duplicationOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngressDuplicationOptions;
   /**
   * The latency applied in ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency}
   */
   readonly latency?: number;
   /**
   * Advanced latency options. Example: jitter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#latency_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#latency_options}
   */
   readonly latencyOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngressLatencyOptions;
   /**
   * The packet loss in percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss}
   */
   readonly loss?: number;
   /**
   * Advanced packet loss options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#loss_options DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#loss_options}
   */
   readonly lossOptions?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngressLossOptions;
 }
@@ -1987,19 +1987,19 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecLinkFl
   /**
   * The duration that the link should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#down_time DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#down_time DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#down_time}
   */
   readonly downTime?: number;
   /**
   * Whether to enable link flapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#enable DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#enable DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * The duration that the link should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#up_time DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#up_time DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#up_time}
   */
   readonly upTime?: number;
 }
@@ -2153,13 +2153,13 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecNodeSe
   /**
   * The key for the node selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#key DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#key DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The value for the node selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#value DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#value DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2284,43 +2284,43 @@ export interface DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpec {
   /**
   * The duration of the impairment in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duration DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#duration DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#duration}
   */
   readonly duration?: number;
   /**
   * The configuration section that specifies the egress impairments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#egress DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#egress DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#egress}
   */
   readonly egress?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecEgress;
   /**
   * The configuration section that specifies the ingress impairments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#ingress DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#ingress DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecIngress;
   /**
   * All interfaces that the impairments should be applied to. Must be valid interfaces or the impairments will fail to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#interfaces DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#interfaces DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * The configuration section that specifies the link flapping impairments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#link_flapping DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#link_flapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#link_flapping DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#link_flapping}
   */
   readonly linkFlapping?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecLinkFlapping;
   /**
   * The configuration section that specifies the node selector that should be applied to the daemonset. Default: worker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#node_selector DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#node_selector DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecNodeSelector;
   /**
   * The delay (in seconds) before starting the impairments. At least 5 seconds recommended for Kubernetes and for synchronization of the impairments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#start_delay DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#start_delay DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest#start_delay}
   */
   readonly startDelay?: number;
 }
@@ -2588,7 +2588,7 @@ export class DataK8SAppsRedhatComClusterImpairmentV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest k8s_apps_redhat_com_cluster_impairment_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest k8s_apps_redhat_com_cluster_impairment_v1alpha1_manifest}
 */
 export class DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2604,7 +2604,7 @@ export class DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2616,7 +2616,7 @@ export class DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest k8s_apps_redhat_com_cluster_impairment_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_redhat_com_cluster_impairment_v1alpha1_manifest k8s_apps_redhat_com_cluster_impairment_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2627,8 +2627,8 @@ export class DataK8SAppsRedhatComClusterImpairmentV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_apps_redhat_com_cluster_impairment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

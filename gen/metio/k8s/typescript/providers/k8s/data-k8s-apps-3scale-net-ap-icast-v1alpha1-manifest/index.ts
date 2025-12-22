@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#metadata DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#metadata DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestMetadata;
   /**
   * APIcastSpec defines the desired state of APIcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#spec DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#spec DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#labels DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#labels DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#namespace DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#namespace DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecAdminPortalCrede
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomEnvironmen
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -411,7 +411,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomEnvironmen
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomEnvironmentsSecretRef;
 }
@@ -526,7 +526,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomPoliciesSe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -622,19 +622,19 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomPolicies {
   /**
   * Name specifies the name of the custom policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * SecretRef specifies the secret holding the custom policy metadata and lua code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomPoliciesSecretRef;
   /**
   * Version specifies the name of the custom policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#version DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#version DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -801,7 +801,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecEmbeddedConfigur
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -897,13 +897,13 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecExposedHostTls {
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#hosts DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#hosts DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#secret_name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1048,11 +1048,11 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecExposedHostTlsList e
 }
 export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecExposedHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#host DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#host DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tls DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tls DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecExposedHostTls[] | cdktf.IResolvable;
 }
@@ -1174,7 +1174,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecHttpsCertificate
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1270,7 +1270,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTelemetryTra
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1366,19 +1366,19 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTelemetry {
   /**
   * Enabled controls whether OpenTelemetry integration with APIcast is enabled. By default it is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * TracingConfigSecretKey contains the key of the secret to select the configuration from. if unspecified, the first secret key in lexicographical order will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_key DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_key DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_key}
   */
   readonly tracingConfigSecretKey?: string;
   /**
   * TracingConfigSecretRef contains a Secret reference the Opentelemetry configuration. The configuration file specification is defined in the Nginx instrumentation library repo https://github.com/open-telemetry/opentelemetry-cpp-contrib/tree/main/instrumentation/nginx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_ref}
   */
   readonly tracingConfigSecretRef?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTelemetryTracingConfigSecretRef;
 }
@@ -1532,7 +1532,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTracingTraci
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1628,19 +1628,19 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTracing {
   /**
   * Enabled controls whether OpenTracing integration with APIcast is enabled. By default it is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * TracingConfigSecretRef contains a Secret reference the OpenTracing configuration. Each supported tracing library provides a default configuration file that is used if TracingConfig is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_config_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_config_secret_ref}
   */
   readonly tracingConfigSecretRef?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTracingTracingConfigSecretRef;
   /**
   * TracingLibrary controls which OpenTracing library is loaded. At the moment the only supported tracer is 'jaeger'. If not set, 'jaeger' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_library DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#tracing_library DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#tracing_library}
   */
   readonly tracingLibrary?: string;
 }
@@ -1794,7 +1794,7 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecResourcesClaims 
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#name DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1909,19 +1909,19 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#claims DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#claims DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#limits DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#limits DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#requests DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#requests DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2075,241 +2075,241 @@ export interface DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpec {
   /**
   * Secret reference to a Kubernetes Secret containing the admin portal endpoint URL. The Secret must be located in the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#admin_portal_credentials_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#admin_portal_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#admin_portal_credentials_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#admin_portal_credentials_ref}
   */
   readonly adminPortalCredentialsRef?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecAdminPortalCredentialsRef;
   /**
   * AllProxy specifies a HTTP(S) proxy to be used for connecting to services if a protocol-specific proxy is not specified. Authentication is not supported. Format is <scheme>://<host>:<port>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#all_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#all_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#all_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#all_proxy}
   */
   readonly allProxy?: string;
   /**
   * The period (in seconds) that the APIcast configuration will be stored in APIcast's cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_configuration_seconds DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_configuration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_configuration_seconds DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_configuration_seconds}
   */
   readonly cacheConfigurationSeconds?: number;
   /**
   * CacheMaxTime indicates the maximum time to be cached. If cache-control header is not set, the time to be cached will be the defined one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_max_time DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_max_time DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_max_time}
   */
   readonly cacheMaxTime?: string;
   /**
   * CacheStatusCodes defines the status codes for which the response content will be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_status_codes DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#cache_status_codes DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#cache_status_codes}
   */
   readonly cacheStatusCodes?: string;
   /**
   * ConfigurationLoadMode can be used to set APIcast's configuration load mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#configuration_load_mode DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#configuration_load_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#configuration_load_mode DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#configuration_load_mode}
   */
   readonly configurationLoadMode?: string;
   /**
   * CustomEnvironments specifies an array of defined custome environments to be loaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#custom_environments DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#custom_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#custom_environments DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#custom_environments}
   */
   readonly customEnvironments?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomEnvironments[] | cdktf.IResolvable;
   /**
   * CustomPolicies specifies an array of defined custome policies to be loaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#custom_policies DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#custom_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#custom_policies DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#custom_policies}
   */
   readonly customPolicies?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecCustomPolicies[] | cdktf.IResolvable;
   /**
   * DeploymentEnvironment is the environment for which the configuration will be downloaded from 3scale (Staging or Production), when using APIcast. The value will also be used in the header X-3scale-User-Agent in the authorize/report requests made to 3scale Service Management API. It is used by 3scale for statistics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#deployment_environment DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#deployment_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#deployment_environment DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#deployment_environment}
   */
   readonly deploymentEnvironment?: string;
   /**
   * DNSResolverAddress can be used to specify a custom DNS resolver address to be used by OpenResty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#dns_resolver_address DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#dns_resolver_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#dns_resolver_address DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#dns_resolver_address}
   */
   readonly dnsResolverAddress?: string;
   /**
   * Secret reference to a Kubernetes secret containing the gateway configuration. The Secret must be located in the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#embedded_configuration_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#embedded_configuration_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#embedded_configuration_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#embedded_configuration_secret_ref}
   */
   readonly embeddedConfigurationSecretRef?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecEmbeddedConfigurationSecretRef;
   /**
   * EnabledServices can be used to specify a list of service IDs used to filter the configured services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled_services DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#enabled_services DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#enabled_services}
   */
   readonly enabledServices?: string[];
   /**
   * ExposedHost is the domain name used for external access. By default no external access is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#exposed_host DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#exposed_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#exposed_host DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#exposed_host}
   */
   readonly exposedHost?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecExposedHost;
   /**
   * ExtendedMetrics enables additional information on Prometheus metrics; some labels will be used with specific information that will provide more in-depth details about APIcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#extended_metrics DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#extended_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#extended_metrics DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#extended_metrics}
   */
   readonly extendedMetrics?: boolean | cdktf.IResolvable;
   /**
   * Enables/disables HPA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#hpa DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#hpa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#hpa DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#hpa}
   */
   readonly hpa?: boolean | cdktf.IResolvable;
   /**
   * HTTPProxy specifies a HTTP(S) Proxy to be used for connecting to HTTP services. Authentication is not supported. Format is <scheme>://<host>:<port>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#http_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#http_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * HTTPSCertificateSecretRef references secret containing the X.509 certificate in the PEM format and the X.509 certificate secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_certificate_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_certificate_secret_ref DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_certificate_secret_ref}
   */
   readonly httpsCertificateSecretRef?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecHttpsCertificateSecretRef;
   /**
   * HttpsPort controls on which port APIcast should start listening for HTTPS connections. If this clashes with HTTP port it will be used only for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_port DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_port DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_port}
   */
   readonly httpsPort?: number;
   /**
   * HTTPSProxy specifies a HTTP(S) Proxy to be used for connecting to HTTPS services. Authentication is not supported. Format is <scheme>://<host>:<port>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * HTTPSVerifyDepth defines the maximum length of the client certificate chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_verify_depth DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#https_verify_depth DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#https_verify_depth}
   */
   readonly httpsVerifyDepth?: number;
   /**
   * Image allows overriding the default APIcast gateway container image. This setting should only be used for dev/testing purposes. Setting this disables automated upgrades of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#image DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#image DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * LoadServicesWhenNeeded makes the configurations to be loaded lazily. APIcast will only load the ones configured for the host specified in the host header of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#load_services_when_needed DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#load_services_when_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#load_services_when_needed DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#load_services_when_needed}
   */
   readonly loadServicesWhenNeeded?: boolean | cdktf.IResolvable;
   /**
   * LogLevel controls the log level of APIcast's OpenResty logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#log_level DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#log_level DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * ManagementAPIScope controls APIcast Management API scope. The Management API is powerful and can control the APIcast configuration. debug level should only be enabled for debugging purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#management_api_scope DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#management_api_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#management_api_scope DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#management_api_scope}
   */
   readonly managementApiScope?: string;
   /**
   * NoProxy specifies a comma-separated list of hostnames and domain names for which the requests should not be proxied. Setting to a single * character, which matches all hosts, effectively disables the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#no_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#no_proxy DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OidcLogLevel allows to set the log level for the logs related to OpenID Connect integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#oidc_log_level DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#oidc_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#oidc_log_level DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#oidc_log_level}
   */
   readonly oidcLogLevel?: string;
   /**
   * OpenSSLPeerVerificationEnabled controls OpenSSL peer verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_ssl_peer_verification_enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_ssl_peer_verification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_ssl_peer_verification_enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_ssl_peer_verification_enabled}
   */
   readonly openSslPeerVerificationEnabled?: boolean | cdktf.IResolvable;
   /**
   * OpenTelemetry contains the gateway instrumentation configuration with APIcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_telemetry DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_telemetry DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_telemetry}
   */
   readonly openTelemetry?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTelemetry;
   /**
   * OpenTracingSpec contains the OpenTracing integration configuration with APIcast. Deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_tracing DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#open_tracing DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#open_tracing}
   */
   readonly openTracing?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOpenTracing;
   /**
   * PathRoutingEnabled can be used to enable APIcast's path-based routing in addition to to the default host-based routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#path_routing_enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#path_routing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#path_routing_enabled DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#path_routing_enabled}
   */
   readonly pathRoutingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Number of replicas of the APIcast Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#replicas DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#replicas DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources can be used to set custom compute Kubernetes Resource Requirements for the APIcast deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#resources DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#resources DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecResources;
   /**
   * ResponseCodesIncluded can be set to log the response codes of the responses in Apisonator, so they can then be visualized in the 3scale admin portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#response_codes_included DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#response_codes_included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#response_codes_included DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#response_codes_included}
   */
   readonly responseCodesIncluded?: boolean | cdktf.IResolvable;
   /**
   * Kubernetes Service Account name to be used for the APIcast Deployment. The Service Account must exist beforehand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_account DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_account DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * ServiceCacheSize specifies the number of services that APICast can store in the internal cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_cache_size DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_cache_size DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_cache_size}
   */
   readonly serviceCacheSize?: number;
   /**
   * ServiceConfigurationVersionOverride contains service configuration version map to prevent it from auto-updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_configuration_version_override DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_configuration_version_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#service_configuration_version_override DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#service_configuration_version_override}
   */
   readonly serviceConfigurationVersionOverride?: { [key: string]: string };
   /**
   * ServicesFilterByURL is used to filter the service configured in the 3scale API Manager, the filter matches with the public base URL (Staging or production).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#services_filter_by_url DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#services_filter_by_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#services_filter_by_url DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#services_filter_by_url}
   */
   readonly servicesFilterByUrl?: string;
   /**
   * Timezone specifies the local timezone of the APIcast deployment pods. A timezone value available in the TZ database must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#timezone DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#timezone DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * UpstreamRetryCases Used only when the retry policy is configured. Specified in which cases a request to the upstream API should be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#upstream_retry_cases DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#upstream_retry_cases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#upstream_retry_cases DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#upstream_retry_cases}
   */
   readonly upstreamRetryCases?: string;
   /**
   * Workers defines the number of APIcast's worker processes per pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#workers DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#workers DataK8SApps3ScaleNetApIcastV1Alpha1Manifest#workers}
   */
   readonly workers?: number;
 }
@@ -3534,7 +3534,7 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest k8s_apps_3scale_net_ap_icast_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest k8s_apps_3scale_net_ap_icast_v1alpha1_manifest}
 */
 export class DataK8SApps3ScaleNetApIcastV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3550,7 +3550,7 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SApps3ScaleNetApIcastV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApps3ScaleNetApIcastV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SApps3ScaleNetApIcastV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApps3ScaleNetApIcastV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApps3ScaleNetApIcastV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3562,7 +3562,7 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest k8s_apps_3scale_net_ap_icast_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/apps_3scale_net_ap_icast_v1alpha1_manifest k8s_apps_3scale_net_ap_icast_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3573,8 +3573,8 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_apps_3scale_net_ap_icast_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

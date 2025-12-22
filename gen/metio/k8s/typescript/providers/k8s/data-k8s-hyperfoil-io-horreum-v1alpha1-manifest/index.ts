@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#metadata DataK8SHyperfoilIoHorreumV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#metadata DataK8SHyperfoilIoHorreumV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHyperfoilIoHorreumV1Alpha1ManifestMetadata;
   /**
   * HorreumSpec defines the desired state of Horreum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#spec DataK8SHyperfoilIoHorreumV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#spec DataK8SHyperfoilIoHorreumV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#annotations DataK8SHyperfoilIoHorreumV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#annotations DataK8SHyperfoilIoHorreumV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#labels DataK8SHyperfoilIoHorreumV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#labels DataK8SHyperfoilIoHorreumV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#namespace DataK8SHyperfoilIoHorreumV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#namespace DataK8SHyperfoilIoHorreumV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecDatabase {
   /**
   * Hostname for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Name of the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Database port; defaults to 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#port DataK8SHyperfoilIoHorreumV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#port DataK8SHyperfoilIoHorreumV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Name of secret resource with data 'username' and 'password'. Created if does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -420,25 +420,25 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakDatabase {
   /**
   * Hostname for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Name of the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#name DataK8SHyperfoilIoHorreumV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Database port; defaults to 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#port DataK8SHyperfoilIoHorreumV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#port DataK8SHyperfoilIoHorreumV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Name of secret resource with data 'username' and 'password'. Created if does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -621,13 +621,13 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakExternal {
   /**
   * Internal URI - Horreum will use this for communication but won't disclose that.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#internal_uri DataK8SHyperfoilIoHorreumV1Alpha1Manifest#internal_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#internal_uri DataK8SHyperfoilIoHorreumV1Alpha1Manifest#internal_uri}
   */
   readonly internalUri?: string;
   /**
   * Public facing URI - Horreum will send this URI to the clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#public_uri DataK8SHyperfoilIoHorreumV1Alpha1Manifest#public_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#public_uri DataK8SHyperfoilIoHorreumV1Alpha1Manifest#public_uri}
   */
   readonly publicUri?: string;
 }
@@ -752,19 +752,19 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakRoute {
   /**
   * Host for the route leading to Controller REST endpoint. Example: horreum.apps.mycloud.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Optional for edge and reencrypt routes, required for passthrough; Name of the secret hosting 'tls.crt', 'tls.key' and optionally 'ca.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#tls DataK8SHyperfoilIoHorreumV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#tls DataK8SHyperfoilIoHorreumV1Alpha1Manifest#tls}
   */
   readonly tls?: string;
   /**
   * Either 'http' (for plain-text routes - not recommended), 'edge', 'reencrypt' or 'passthrough'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -918,37 +918,37 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloak {
   /**
   * Secret used for admin access to the deployed Keycloak instance. Created if does not exist. Must contain keys 'username' and 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
   */
   readonly adminSecret?: string;
   /**
   * Database coordinates Keycloak should use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#database DataK8SHyperfoilIoHorreumV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#database DataK8SHyperfoilIoHorreumV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakDatabase;
   /**
   * When this is set Keycloak instance will not be deployed and Horreum will use this external instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#external DataK8SHyperfoilIoHorreumV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#external DataK8SHyperfoilIoHorreumV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakExternal;
   /**
   * Image that should be used for Keycloak deployment. Defaults to quay.io/keycloak/keycloak:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Route for external access to the Keycloak instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#route DataK8SHyperfoilIoHorreumV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#route DataK8SHyperfoilIoHorreumV1Alpha1Manifest#route}
   */
   readonly route?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloakRoute;
   /**
   * Alternative service type when routes are not available (e.g. on vanilla K8s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#service_type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#service_type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -1189,31 +1189,31 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecPostgres {
   /**
   * Secret used for unrestricted access to the database. Created if does not exist. Must contain keys 'username' and 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
   */
   readonly adminSecret?: string;
   /**
   * True (or omitted) to deploy PostgreSQL database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#enabled DataK8SHyperfoilIoHorreumV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#enabled DataK8SHyperfoilIoHorreumV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image used for PostgreSQL deployment. Defaults to registry.redhat.io/rhel8/postgresql-12:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Name of PVC where the database will store the data. If empty, ephemeral storage will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#persistent_volume_claim DataK8SHyperfoilIoHorreumV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#persistent_volume_claim DataK8SHyperfoilIoHorreumV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: string;
   /**
   * Id of the user the container should run as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#user DataK8SHyperfoilIoHorreumV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#user DataK8SHyperfoilIoHorreumV1Alpha1Manifest#user}
   */
   readonly user?: number;
 }
@@ -1425,19 +1425,19 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecRoute {
   /**
   * Host for the route leading to Controller REST endpoint. Example: horreum.apps.mycloud.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Optional for edge and reencrypt routes, required for passthrough; Name of the secret hosting 'tls.crt', 'tls.key' and optionally 'ca.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#tls DataK8SHyperfoilIoHorreumV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#tls DataK8SHyperfoilIoHorreumV1Alpha1Manifest#tls}
   */
   readonly tls?: string;
   /**
   * Either 'http' (for plain-text routes - not recommended), 'edge', 'reencrypt' or 'passthrough'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1591,49 +1591,49 @@ export interface DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpec {
   /**
   * Name of secret resource with data 'username' and 'password'. This will be the first user that get's created in Horreum with the 'admin' role, therefore it can create other users and teams. Created automatically if it does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#admin_secret DataK8SHyperfoilIoHorreumV1Alpha1Manifest#admin_secret}
   */
   readonly adminSecret?: string;
   /**
   * Database coordinates for Horreum data. Besides 'username' and 'password' the secret must also contain key 'dbsecret' that will be used to sign access to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#database DataK8SHyperfoilIoHorreumV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#database DataK8SHyperfoilIoHorreumV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecDatabase;
   /**
   * Horreum image. Defaults to quay.io/hyperfoil/horreum:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#image DataK8SHyperfoilIoHorreumV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Keycloak specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#keycloak DataK8SHyperfoilIoHorreumV1Alpha1Manifest#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#keycloak DataK8SHyperfoilIoHorreumV1Alpha1Manifest#keycloak}
   */
   readonly keycloak?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecKeycloak;
   /**
   * Host used for NodePort services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#node_host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#node_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#node_host DataK8SHyperfoilIoHorreumV1Alpha1Manifest#node_host}
   */
   readonly nodeHost?: string;
   /**
   * PostgreSQL specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#postgres DataK8SHyperfoilIoHorreumV1Alpha1Manifest#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#postgres DataK8SHyperfoilIoHorreumV1Alpha1Manifest#postgres}
   */
   readonly postgres?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecPostgres;
   /**
   * Route for external access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#route DataK8SHyperfoilIoHorreumV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#route DataK8SHyperfoilIoHorreumV1Alpha1Manifest#route}
   */
   readonly route?: DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecRoute;
   /**
   * Alternative service type when routes are not available (e.g. on vanilla K8s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#service_type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#service_type DataK8SHyperfoilIoHorreumV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -1930,7 +1930,7 @@ export class DataK8SHyperfoilIoHorreumV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest k8s_hyperfoil_io_horreum_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest k8s_hyperfoil_io_horreum_v1alpha1_manifest}
 */
 export class DataK8SHyperfoilIoHorreumV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1946,7 +1946,7 @@ export class DataK8SHyperfoilIoHorreumV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SHyperfoilIoHorreumV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHyperfoilIoHorreumV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHyperfoilIoHorreumV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHyperfoilIoHorreumV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHyperfoilIoHorreumV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1958,7 +1958,7 @@ export class DataK8SHyperfoilIoHorreumV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest k8s_hyperfoil_io_horreum_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hyperfoil_io_horreum_v1alpha1_manifest k8s_hyperfoil_io_horreum_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1969,8 +1969,8 @@ export class DataK8SHyperfoilIoHorreumV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_hyperfoil_io_horreum_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

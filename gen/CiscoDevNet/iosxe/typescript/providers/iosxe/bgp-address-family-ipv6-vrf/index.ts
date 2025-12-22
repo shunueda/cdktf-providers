@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,28 +11,28 @@ export interface BgpAddressFamilyIpv6VrfConfig extends cdktf.TerraformMetaArgume
   * 
   *   - Choices: `flowspec`, `mdt`, `multicast`, `mvpn`, `unicast`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#af_name BgpAddressFamilyIpv6Vrf#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#af_name BgpAddressFamilyIpv6Vrf#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#asn BgpAddressFamilyIpv6Vrf#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#asn BgpAddressFamilyIpv6Vrf#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#delete_mode BgpAddressFamilyIpv6Vrf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#delete_mode BgpAddressFamilyIpv6Vrf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#device BgpAddressFamilyIpv6Vrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#device BgpAddressFamilyIpv6Vrf#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#vrfs BgpAddressFamilyIpv6Vrf#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#vrfs BgpAddressFamilyIpv6Vrf#vrfs}
   */
   readonly vrfs?: BgpAddressFamilyIpv6VrfVrfs[] | cdktf.IResolvable;
 }
@@ -40,23 +40,23 @@ export interface BgpAddressFamilyIpv6VrfVrfsIpv6UnicastNetworks {
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#backdoor BgpAddressFamilyIpv6Vrf#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#backdoor BgpAddressFamilyIpv6Vrf#backdoor}
   */
   readonly backdoor?: boolean | cdktf.IResolvable;
   /**
   * Advertise or export to EVPN address-family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#evpn BgpAddressFamilyIpv6Vrf#evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#evpn BgpAddressFamilyIpv6Vrf#evpn}
   */
   readonly evpn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#network BgpAddressFamilyIpv6Vrf#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#network BgpAddressFamilyIpv6Vrf#network}
   */
   readonly network: string;
   /**
   * Route-map to modify the attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#route_map BgpAddressFamilyIpv6Vrf#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#route_map BgpAddressFamilyIpv6Vrf#route_map}
   */
   readonly routeMap?: string;
 }
@@ -258,29 +258,29 @@ export interface BgpAddressFamilyIpv6VrfVrfs {
   /**
   * Advertise/export prefixes to l2vpn evpn table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_advertise_l2vpn_evpn BgpAddressFamilyIpv6Vrf#ipv6_unicast_advertise_l2vpn_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_advertise_l2vpn_evpn BgpAddressFamilyIpv6Vrf#ipv6_unicast_advertise_l2vpn_evpn}
   */
   readonly ipv6UnicastAdvertiseL2VpnEvpn?: boolean | cdktf.IResolvable;
   /**
   * Specify a network to announce via BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_networks BgpAddressFamilyIpv6Vrf#ipv6_unicast_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_networks BgpAddressFamilyIpv6Vrf#ipv6_unicast_networks}
   */
   readonly ipv6UnicastNetworks?: BgpAddressFamilyIpv6VrfVrfsIpv6UnicastNetworks[] | cdktf.IResolvable;
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_redistribute_connected BgpAddressFamilyIpv6Vrf#ipv6_unicast_redistribute_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_redistribute_connected BgpAddressFamilyIpv6Vrf#ipv6_unicast_redistribute_connected}
   */
   readonly ipv6UnicastRedistributeConnected?: boolean | cdktf.IResolvable;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_redistribute_static BgpAddressFamilyIpv6Vrf#ipv6_unicast_redistribute_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#ipv6_unicast_redistribute_static BgpAddressFamilyIpv6Vrf#ipv6_unicast_redistribute_static}
   */
   readonly ipv6UnicastRedistributeStatic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#name BgpAddressFamilyIpv6Vrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#name BgpAddressFamilyIpv6Vrf#name}
   */
   readonly name: string;
 }
@@ -509,7 +509,7 @@ export class BgpAddressFamilyIpv6VrfVrfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf iosxe_bgp_address_family_ipv6_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf iosxe_bgp_address_family_ipv6_vrf}
 */
 export class BgpAddressFamilyIpv6Vrf extends cdktf.TerraformResource {
 
@@ -525,7 +525,7 @@ export class BgpAddressFamilyIpv6Vrf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyIpv6Vrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyIpv6Vrf to import
-  * @param importFromId The id of the existing BgpAddressFamilyIpv6Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyIpv6Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyIpv6Vrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -537,7 +537,7 @@ export class BgpAddressFamilyIpv6Vrf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_address_family_ipv6_vrf iosxe_bgp_address_family_ipv6_vrf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/bgp_address_family_ipv6_vrf iosxe_bgp_address_family_ipv6_vrf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -548,8 +548,8 @@ export class BgpAddressFamilyIpv6Vrf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_address_family_ipv6_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

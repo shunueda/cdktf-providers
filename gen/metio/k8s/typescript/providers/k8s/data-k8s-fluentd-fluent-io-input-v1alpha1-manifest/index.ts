@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#metadata DataK8SFluentdFluentIoInputV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#metadata DataK8SFluentdFluentIoInputV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFluentdFluentIoInputV1Alpha1ManifestMetadata;
   /**
   * InputSpec defines the desired state of Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#spec DataK8SFluentdFluentIoInputV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#spec DataK8SFluentdFluentIoInputV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#annotations DataK8SFluentdFluentIoInputV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#annotations DataK8SFluentdFluentIoInputV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#labels DataK8SFluentdFluentIoInputV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#labels DataK8SFluentdFluentIoInputV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#namespace DataK8SFluentdFluentIoInputV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#namespace DataK8SFluentdFluentIoInputV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SFluentdFluentIoInputV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsCustomPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#config DataK8SFluentdFluentIoInputV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#config DataK8SFluentdFluentIoInputV1Alpha1Manifest#config}
   */
   readonly config: string;
 }
@@ -310,25 +310,25 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardCli
   /**
   * The IP address or hostname of the client. This is exclusive with Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#host DataK8SFluentdFluentIoInputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#host DataK8SFluentdFluentIoInputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The network address specification. This is exclusive with Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#network DataK8SFluentdFluentIoInputV1Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#network DataK8SFluentdFluentIoInputV1Alpha1Manifest#network}
   */
   readonly network?: string;
   /**
   * The shared key per client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * The array of usernames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#users DataK8SFluentdFluentIoInputV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#users DataK8SFluentdFluentIoInputV1Alpha1Manifest#users}
   */
   readonly users?: string;
 }
@@ -511,19 +511,19 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -674,7 +674,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserPasswordValueFromSecretKeyRef;
 }
@@ -770,7 +770,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserPasswordValueFrom;
 }
@@ -866,19 +866,19 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1029,7 +1029,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserUsernameValueFromSecretKeyRef;
 }
@@ -1125,7 +1125,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserUsernameValueFrom;
 }
@@ -1221,13 +1221,13 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#password DataK8SFluentdFluentIoInputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#password DataK8SFluentdFluentIoInputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserPassword;
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#username DataK8SFluentdFluentIoInputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#username DataK8SFluentdFluentIoInputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUserUsername;
 }
@@ -1352,31 +1352,31 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSec
   /**
   * Allows the anonymous source. <client> sections are required, if disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#allow_anonymous_source DataK8SFluentdFluentIoInputV1Alpha1Manifest#allow_anonymous_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#allow_anonymous_source DataK8SFluentdFluentIoInputV1Alpha1Manifest#allow_anonymous_source}
   */
   readonly allowAnonymousSource?: string;
   /**
   * The hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#self_hostname DataK8SFluentdFluentIoInputV1Alpha1Manifest#self_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#self_hostname DataK8SFluentdFluentIoInputV1Alpha1Manifest#self_hostname}
   */
   readonly selfHostname?: string;
   /**
   * The shared key for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * Defines user section directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user DataK8SFluentdFluentIoInputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user DataK8SFluentdFluentIoInputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurityUser;
   /**
   * If true, user-based authentication is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#user_auth}
   */
   readonly userAuth?: string;
 }
@@ -1588,61 +1588,61 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardTra
   /**
   * for Cert generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_cert_path}
   */
   readonly caCertPath?: string;
   /**
   * for Cert signed by public CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_path}
   */
   readonly caPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_passphrase}
   */
   readonly caPrivateKeyPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_path}
   */
   readonly caPrivateKeyPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_path}
   */
   readonly certPath?: string;
   /**
   * other parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_verifier DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_verifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_verifier DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_verifier}
   */
   readonly certVerifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ciphers DataK8SFluentdFluentIoInputV1Alpha1Manifest#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ciphers DataK8SFluentdFluentIoInputV1Alpha1Manifest#ciphers}
   */
   readonly ciphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client_cert_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#client_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client_cert_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#client_cert_auth}
   */
   readonly clientCertAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#insecure DataK8SFluentdFluentIoInputV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#insecure DataK8SFluentdFluentIoInputV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * The protocal name of this plugin, i.e: tls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#protocol DataK8SFluentdFluentIoInputV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#protocol DataK8SFluentdFluentIoInputV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#version DataK8SFluentdFluentIoInputV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#version DataK8SFluentdFluentIoInputV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2086,19 +2086,19 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2249,7 +2249,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserPasswordValueFromSecretKeyRef;
 }
@@ -2345,7 +2345,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserPasswordValueFrom;
 }
@@ -2441,19 +2441,19 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#key DataK8SFluentdFluentIoInputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#optional DataK8SFluentdFluentIoInputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2604,7 +2604,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoInputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserUsernameValueFromSecretKeyRef;
 }
@@ -2700,7 +2700,7 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#value_from DataK8SFluentdFluentIoInputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserUsernameValueFrom;
 }
@@ -2796,13 +2796,13 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUse
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#password DataK8SFluentdFluentIoInputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#password DataK8SFluentdFluentIoInputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserPassword;
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#username DataK8SFluentdFluentIoInputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#username DataK8SFluentdFluentIoInputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUserUsername;
 }
@@ -2927,103 +2927,103 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForward {
   /**
   * Adds the prefix to the incoming event's tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_tag_prefix DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_tag_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_tag_prefix DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_tag_prefix}
   */
   readonly addTagPrefix?: string;
   /**
   * The port to listen to, default is '0.0.0.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
   */
   readonly bind?: string;
   /**
   * The size limit of the received chunk. If the chunk size is larger than this value, the received chunk is dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#chunk_size_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#chunk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#chunk_size_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#chunk_size_limit}
   */
   readonly chunkSizeLimit?: string;
   /**
   * The warning size limit of the received chunk. If the chunk size is larger than this value, a warning message will be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#chunk_size_warn_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#chunk_size_warn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#chunk_size_warn_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#chunk_size_warn_limit}
   */
   readonly chunkSizeWarnLimit?: string;
   /**
   * The security section of client plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client DataK8SFluentdFluentIoInputV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client DataK8SFluentdFluentIoInputV1Alpha1Manifest#client}
   */
   readonly client?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardClient;
   /**
   * The connections will be disconnected right after receiving a message, if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#deny_keepalive DataK8SFluentdFluentIoInputV1Alpha1Manifest#deny_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#deny_keepalive DataK8SFluentdFluentIoInputV1Alpha1Manifest#deny_keepalive}
   */
   readonly denyKeepalive?: boolean | cdktf.IResolvable;
   /**
   * The timeout used to set the linger option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#linger_timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#linger_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#linger_timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#linger_timeout}
   */
   readonly lingerTimeout?: number;
   /**
   * The port to listen to, default is 24224.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Tries to resolve hostname from IP addresses or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#resolve_hostname DataK8SFluentdFluentIoInputV1Alpha1Manifest#resolve_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#resolve_hostname DataK8SFluentdFluentIoInputV1Alpha1Manifest#resolve_hostname}
   */
   readonly resolveHostname?: boolean | cdktf.IResolvable;
   /**
   * The security section of forward plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#security DataK8SFluentdFluentIoInputV1Alpha1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#security DataK8SFluentdFluentIoInputV1Alpha1Manifest#security}
   */
   readonly security?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardSecurity;
   /**
   * Enables the TCP keepalive for sockets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#send_keepalive_packet DataK8SFluentdFluentIoInputV1Alpha1Manifest#send_keepalive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#send_keepalive_packet DataK8SFluentdFluentIoInputV1Alpha1Manifest#send_keepalive_packet}
   */
   readonly sendKeepalivePacket?: boolean | cdktf.IResolvable;
   /**
   * Skips the invalid incoming event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#skip_invalid_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#skip_invalid_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#skip_invalid_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#skip_invalid_event}
   */
   readonly skipInvalidEvent?: boolean | cdktf.IResolvable;
   /**
   * The field name of the client's source address. If set, the client's address will be set to its key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#source_address_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#source_address_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#source_address_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#source_address_key}
   */
   readonly sourceAddressKey?: string;
   /**
   * The field name of the client's hostname. If set, the client's hostname will be set to its key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#source_hostname_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#source_hostname_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#source_hostname_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#source_hostname_key}
   */
   readonly sourceHostnameKey?: string;
   /**
   * in_forward uses incoming event's tag by default (See Protocol Section). If the tag parameter is set, its value is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
   /**
   * The transport section of forward plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#transport DataK8SFluentdFluentIoInputV1Alpha1Manifest#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#transport DataK8SFluentdFluentIoInputV1Alpha1Manifest#transport}
   */
   readonly transport?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardTransport;
   /**
   * The security section of user plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user DataK8SFluentdFluentIoInputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#user DataK8SFluentdFluentIoInputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForwardUser;
 }
@@ -3583,37 +3583,37 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpParseG
   /**
   * If true, keep time field in the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * The name of this grok section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The pattern of grok. Required parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * Process value using specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * Use specified timezone. one can parse/format the time value in the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -3876,49 +3876,49 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpParse 
   /**
   * Path to the file that includes custom grok patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_pattern_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_pattern_path}
   */
   readonly customPatternPath?: string;
   /**
   * If true, use Fluent::Eventnow(current time) as a timestamp when time_key is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#estimate_current_event}
   */
   readonly estimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
   * Specifies the regular expression for matching logs. Regular expression also supports i and m suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#expression DataK8SFluentdFluentIoInputV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#expression DataK8SFluentdFluentIoInputV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
   * Grok Sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok}
   */
   readonly grok?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpParseGrok[] | cdktf.IResolvable;
   /**
   * The key has grok failure reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
   * The pattern of grok.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern}
   */
   readonly grokPattern?: string;
   /**
   * Specify grok pattern series set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern_series}
   */
   readonly grokPatternSeries?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3927,79 +3927,79 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpParse 
   /**
   * If true, keep time field in th record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#localtime DataK8SFluentdFluentIoInputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#localtime DataK8SFluentdFluentIoInputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The regexp to match beginning of multiline. This is only for 'multiline_grok'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoInputV1Alpha1Manifest#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoInputV1Alpha1Manifest#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_type DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_type DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Specify timeout for parse processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#type DataK8SFluentdFluentIoInputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#type DataK8SFluentdFluentIoInputV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Specify types for converting field into another, i.e: types user_id:integer,paid:bool,paid_usd_amount:float
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#types DataK8SFluentdFluentIoInputV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#types DataK8SFluentdFluentIoInputV1Alpha1Manifest#types}
   */
   readonly types?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#utc DataK8SFluentdFluentIoInputV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#utc DataK8SFluentdFluentIoInputV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -4672,61 +4672,61 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpTransp
   /**
   * for Cert generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_cert_path}
   */
   readonly caCertPath?: string;
   /**
   * for Cert signed by public CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_path}
   */
   readonly caPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_passphrase}
   */
   readonly caPrivateKeyPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ca_private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#ca_private_key_path}
   */
   readonly caPrivateKeyPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_path}
   */
   readonly certPath?: string;
   /**
   * other parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_verifier DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_verifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cert_verifier DataK8SFluentdFluentIoInputV1Alpha1Manifest#cert_verifier}
   */
   readonly certVerifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ciphers DataK8SFluentdFluentIoInputV1Alpha1Manifest#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ciphers DataK8SFluentdFluentIoInputV1Alpha1Manifest#ciphers}
   */
   readonly ciphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client_cert_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#client_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#client_cert_auth DataK8SFluentdFluentIoInputV1Alpha1Manifest#client_cert_auth}
   */
   readonly clientCertAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#insecure DataK8SFluentdFluentIoInputV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#insecure DataK8SFluentdFluentIoInputV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_passphrase DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#private_key_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * The protocal name of this plugin, i.e: tls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#protocol DataK8SFluentdFluentIoInputV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#protocol DataK8SFluentdFluentIoInputV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#version DataK8SFluentdFluentIoInputV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#version DataK8SFluentdFluentIoInputV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -5170,67 +5170,67 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttp {
   /**
   * Adds HTTP_ prefix headers to the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_http_headers DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_http_headers DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_http_headers}
   */
   readonly addHttpHeaders?: boolean | cdktf.IResolvable;
   /**
   * Adds REMOTE_ADDR field to the record. The value of REMOTE_ADDR is the client's address. i.e: X-Forwarded-For: host1, host2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_remote_addr DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_remote_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#add_remote_addr DataK8SFluentdFluentIoInputV1Alpha1Manifest#add_remote_addr}
   */
   readonly addRemoteAddr?: string;
   /**
   * The port to listen to, default is '0.0.0.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
   */
   readonly bind?: string;
   /**
   * The size limit of the POSTed element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#body_size_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#body_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#body_size_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#body_size_limit}
   */
   readonly bodySizeLimit?: string;
   /**
   * Whitelist domains for CORS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cors_all_origins DataK8SFluentdFluentIoInputV1Alpha1Manifest#cors_all_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cors_all_origins DataK8SFluentdFluentIoInputV1Alpha1Manifest#cors_all_origins}
   */
   readonly corsAllOrigins?: string;
   /**
   * Add Access-Control-Allow-Credentials header. It's needed when a request's credentials mode is include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cors_allow_credentials DataK8SFluentdFluentIoInputV1Alpha1Manifest#cors_allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#cors_allow_credentials DataK8SFluentdFluentIoInputV1Alpha1Manifest#cors_allow_credentials}
   */
   readonly corsAllowCredentials?: string;
   /**
   * The timeout limit for keeping the connection alive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keepalive_timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keepalive_timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
   * The parse section of http plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#parse DataK8SFluentdFluentIoInputV1Alpha1Manifest#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#parse DataK8SFluentdFluentIoInputV1Alpha1Manifest#parse}
   */
   readonly parse?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpParse;
   /**
   * The port to listen to, default is 9880.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Responds with an empty GIF image of 1x1 pixel (rather than an empty string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#responds_with_empty_img DataK8SFluentdFluentIoInputV1Alpha1Manifest#responds_with_empty_img}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#responds_with_empty_img DataK8SFluentdFluentIoInputV1Alpha1Manifest#responds_with_empty_img}
   */
   readonly respondsWithEmptyImg?: boolean | cdktf.IResolvable;
   /**
   * The transport section of http plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#transport DataK8SFluentdFluentIoInputV1Alpha1Manifest#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#transport DataK8SFluentdFluentIoInputV1Alpha1Manifest#transport}
   */
   readonly transport?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttpTransport;
 }
@@ -5616,37 +5616,37 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsMonitorAge
   /**
   * The bind address to listen to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#bind DataK8SFluentdFluentIoInputV1Alpha1Manifest#bind}
   */
   readonly bind?: string;
   /**
   * The interval time between event emits. This will be used when 'tag' is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#emit_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#emit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#emit_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#emit_interval}
   */
   readonly emitInterval?: number;
   /**
   * You can set this option to false to remove the config field from the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#include_config DataK8SFluentdFluentIoInputV1Alpha1Manifest#include_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#include_config DataK8SFluentdFluentIoInputV1Alpha1Manifest#include_config}
   */
   readonly includeConfig?: boolean | cdktf.IResolvable;
   /**
   * You can set this option to false to remove the retry field from the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#include_retry DataK8SFluentdFluentIoInputV1Alpha1Manifest#include_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#include_retry DataK8SFluentdFluentIoInputV1Alpha1Manifest#include_retry}
   */
   readonly includeRetry?: boolean | cdktf.IResolvable;
   /**
   * The port to listen to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#port DataK8SFluentdFluentIoInputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * If you set this parameter, this plugin emits metrics as records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -5887,31 +5887,31 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsSample {
   /**
   * If specified, each generated event has an auto-incremented key field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#auto_increment_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#auto_increment_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#auto_increment_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#auto_increment_key}
   */
   readonly autoIncrementKey?: string;
   /**
   * It configures how many events to generate per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rate DataK8SFluentdFluentIoInputV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rate DataK8SFluentdFluentIoInputV1Alpha1Manifest#rate}
   */
   readonly rate?: number;
   /**
   * The sample data to be generated. It should be either an array of JSON hashes or a single JSON hash. If it is an array of JSON hashes, the hashes in the array are cycled through in order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#sample DataK8SFluentdFluentIoInputV1Alpha1Manifest#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#sample DataK8SFluentdFluentIoInputV1Alpha1Manifest#sample}
   */
   readonly sample?: string;
   /**
   * The number of events in the event stream of each emit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#size DataK8SFluentdFluentIoInputV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#size DataK8SFluentdFluentIoInputV1Alpha1Manifest#size}
   */
   readonly size?: number;
   /**
   * The tag of the event. The value is the tag assigned to the generated events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -6123,13 +6123,13 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailGroupR
   /**
   * Maximum number of lines allowed from a group in rate_period time interval. The default value of -1 doesn't throttle log files of that group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * match parameter is used to check if a file belongs to a particular group based on hash keys (named captures from pattern) and hash values (regexp in string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#match DataK8SFluentdFluentIoInputV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#match DataK8SFluentdFluentIoInputV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -6254,19 +6254,19 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailGroup 
   /**
   * Specifies the regular expression for extracting metadata (namespace, podname) from log file path. Default value of the pattern regexp extracts information about namespace, podname, docker_id, container of the log (K8s specific).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * Time period in which the group line limit is applied. in_tail resets the counter after every rate_period interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rate_period DataK8SFluentdFluentIoInputV1Alpha1Manifest#rate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rate_period DataK8SFluentdFluentIoInputV1Alpha1Manifest#rate_period}
   */
   readonly ratePeriod?: number;
   /**
   * Grouping rules for log files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rule DataK8SFluentdFluentIoInputV1Alpha1Manifest#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rule DataK8SFluentdFluentIoInputV1Alpha1Manifest#rule}
   */
   readonly rule: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailGroupRule;
 }
@@ -6417,37 +6417,37 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailParseG
   /**
   * If true, keep time field in the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * The name of this grok section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#name DataK8SFluentdFluentIoInputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The pattern of grok. Required parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * Process value using specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * Use specified timezone. one can parse/format the time value in the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -6710,49 +6710,49 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailParse 
   /**
   * Path to the file that includes custom grok patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_pattern_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_pattern_path}
   */
   readonly customPatternPath?: string;
   /**
   * If true, use Fluent::Eventnow(current time) as a timestamp when time_key is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoInputV1Alpha1Manifest#estimate_current_event}
   */
   readonly estimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
   * Specifies the regular expression for matching logs. Regular expression also supports i and m suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#expression DataK8SFluentdFluentIoInputV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#expression DataK8SFluentdFluentIoInputV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
   * Grok Sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok}
   */
   readonly grok?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailParseGrok[] | cdktf.IResolvable;
   /**
   * The key has grok failure reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
   * The pattern of grok.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern}
   */
   readonly grokPattern?: string;
   /**
   * Specify grok pattern series set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoInputV1Alpha1Manifest#grok_pattern_series}
   */
   readonly grokPatternSeries?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6761,79 +6761,79 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailParse 
   /**
   * If true, keep time field in th record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#localtime DataK8SFluentdFluentIoInputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#localtime DataK8SFluentdFluentIoInputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The regexp to match beginning of multiline. This is only for 'multiline_grok'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoInputV1Alpha1Manifest#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoInputV1Alpha1Manifest#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_type DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#time_type DataK8SFluentdFluentIoInputV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Specify timeout for parse processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timeout DataK8SFluentdFluentIoInputV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#type DataK8SFluentdFluentIoInputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#type DataK8SFluentdFluentIoInputV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Specify types for converting field into another, i.e: types user_id:integer,paid:bool,paid_usd_amount:float
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#types DataK8SFluentdFluentIoInputV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#types DataK8SFluentdFluentIoInputV1Alpha1Manifest#types}
   */
   readonly types?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#utc DataK8SFluentdFluentIoInputV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#utc DataK8SFluentdFluentIoInputV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -7506,157 +7506,157 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTail {
   /**
   * Emits unmatched lines when <parse> format is not matched for incoming logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#emit_unmatched_lines DataK8SFluentdFluentIoInputV1Alpha1Manifest#emit_unmatched_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#emit_unmatched_lines DataK8SFluentdFluentIoInputV1Alpha1Manifest#emit_unmatched_lines}
   */
   readonly emitUnmatchedLines?: boolean | cdktf.IResolvable;
   /**
   * Enables the additional inotify-based watcher. Setting this parameter to false will disable the inotify events and use only timer watcher for file tailing. This option is mainly for avoiding the stuck issue with inotify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#enable_stat_watcher DataK8SFluentdFluentIoInputV1Alpha1Manifest#enable_stat_watcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#enable_stat_watcher DataK8SFluentdFluentIoInputV1Alpha1Manifest#enable_stat_watcher}
   */
   readonly enableStatWatcher?: boolean | cdktf.IResolvable;
   /**
   * Enables the additional watch timer. Setting this parameter to false will significantly reduce CPU and I/O consumption when tailing a large number of files on systems with inotify support. The default is true which results in an additional 1 second timer being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#enable_watch_timer DataK8SFluentdFluentIoInputV1Alpha1Manifest#enable_watch_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#enable_watch_timer DataK8SFluentdFluentIoInputV1Alpha1Manifest#enable_watch_timer}
   */
   readonly enableWatchTimer?: boolean | cdktf.IResolvable;
   /**
   * Specifies the encoding of reading lines. By default, in_tail emits string value as ASCII-8BIT encoding. If encoding is specified, in_tail changes string to encoding. If encoding and fromEncoding both are specified, in_tail tries to encode string from fromEncoding to encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#encoding DataK8SFluentdFluentIoInputV1Alpha1Manifest#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#encoding DataK8SFluentdFluentIoInputV1Alpha1Manifest#encoding}
   */
   readonly encoding?: string;
   /**
   * The paths excluded from the watcher list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#exclude_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#exclude_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#exclude_path DataK8SFluentdFluentIoInputV1Alpha1Manifest#exclude_path}
   */
   readonly excludePath?: string[];
   /**
   * Avoid to read rotated files duplicately. You should set true when you use * or strftime format in path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#follow_inodes DataK8SFluentdFluentIoInputV1Alpha1Manifest#follow_inodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#follow_inodes DataK8SFluentdFluentIoInputV1Alpha1Manifest#follow_inodes}
   */
   readonly followInodes?: boolean | cdktf.IResolvable;
   /**
   * Specifies the encoding of reading lines. By default, in_tail emits string value as ASCII-8BIT encoding. If encoding is specified, in_tail changes string to encoding. If encoding and fromEncoding both are specified, in_tail tries to encode string from fromEncoding to encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#from_encoding DataK8SFluentdFluentIoInputV1Alpha1Manifest#from_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#from_encoding DataK8SFluentdFluentIoInputV1Alpha1Manifest#from_encoding}
   */
   readonly fromEncoding?: string;
   /**
   * The in_tail plugin can assign each log file to a group, based on user defined rules. The limit parameter controls the total number of lines collected for a group within a rate_period time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#group DataK8SFluentdFluentIoInputV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#group DataK8SFluentdFluentIoInputV1Alpha1Manifest#group}
   */
   readonly group?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailGroup;
   /**
   * If you have to exclude the non-permission files from the watch list, set this parameter to true. It suppresses the repeated permission error logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ignore_repeated_permission_error DataK8SFluentdFluentIoInputV1Alpha1Manifest#ignore_repeated_permission_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#ignore_repeated_permission_error DataK8SFluentdFluentIoInputV1Alpha1Manifest#ignore_repeated_permission_error}
   */
   readonly ignoreRepeatedPermissionError?: boolean | cdktf.IResolvable;
   /**
   * Limits the watching files that the modification time is within the specified time range when using * in path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#limit_recently_modified DataK8SFluentdFluentIoInputV1Alpha1Manifest#limit_recently_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#limit_recently_modified DataK8SFluentdFluentIoInputV1Alpha1Manifest#limit_recently_modified}
   */
   readonly limitRecentlyModified?: number;
   /**
   * The maximum length of a line. Longer lines than it will be just skipped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#max_line_size DataK8SFluentdFluentIoInputV1Alpha1Manifest#max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#max_line_size DataK8SFluentdFluentIoInputV1Alpha1Manifest#max_line_size}
   */
   readonly maxLineSize?: number;
   /**
   * The interval of flushing the buffer for multiline format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multiline_flush_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#multiline_flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#multiline_flush_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#multiline_flush_interval}
   */
   readonly multilineFlushInterval?: number;
   /**
   * Opens and closes the file on every update instead of leaving it open until it gets rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#open_on_every_update DataK8SFluentdFluentIoInputV1Alpha1Manifest#open_on_every_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#open_on_every_update DataK8SFluentdFluentIoInputV1Alpha1Manifest#open_on_every_update}
   */
   readonly openOnEveryUpdate?: boolean | cdktf.IResolvable;
   /**
   * Parse defines various parameters for the parse plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#parse DataK8SFluentdFluentIoInputV1Alpha1Manifest#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#parse DataK8SFluentdFluentIoInputV1Alpha1Manifest#parse}
   */
   readonly parse: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTailParse;
   /**
   * The path(s) to read. Multiple paths can be specified, separated by comma ','.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path DataK8SFluentdFluentIoInputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path DataK8SFluentdFluentIoInputV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Adds the watching file path to the path_key field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#path_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path_key DataK8SFluentdFluentIoInputV1Alpha1Manifest#path_key}
   */
   readonly pathKey?: string;
   /**
   * This parameter is for strftime formatted path like /path/to/%Y/%m/%d/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path_timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#path_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#path_timezone DataK8SFluentdFluentIoInputV1Alpha1Manifest#path_timezone}
   */
   readonly pathTimezone?: string;
   /**
   * (recommended) Fluentd will record the position it last read from this file. pos_file handles multiple positions in one file so no need to have multiple pos_file parameters per source. Don't share pos_file between in_tail configurations. It causes unexpected behavior e.g. corrupt pos_file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pos_file DataK8SFluentdFluentIoInputV1Alpha1Manifest#pos_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pos_file DataK8SFluentdFluentIoInputV1Alpha1Manifest#pos_file}
   */
   readonly posFile?: string;
   /**
   * The interval of doing compaction of pos file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pos_file_compaction_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#pos_file_compaction_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#pos_file_compaction_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#pos_file_compaction_interval}
   */
   readonly posFileCompactionInterval?: number;
   /**
   * The number of reading bytes per second to read with I/O operation. This value should be equal or greater than 8192.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_bytes_limit_per_second DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_bytes_limit_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_bytes_limit_per_second DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_bytes_limit_per_second}
   */
   readonly readBytesLimitPerSecond?: number;
   /**
   * Starts to read the logs from the head of the file or the last read position recorded in pos_file, not tail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_from_head DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_from_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_from_head DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_from_head}
   */
   readonly readFromHead?: boolean | cdktf.IResolvable;
   /**
   * The number of lines to read with each I/O operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_lines_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_lines_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#read_lines_limit DataK8SFluentdFluentIoInputV1Alpha1Manifest#read_lines_limit}
   */
   readonly readLinesLimit?: number;
   /**
   * The interval to refresh the list of watch files. This is used when the path includes *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#refresh_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#refresh_interval DataK8SFluentdFluentIoInputV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * in_tail actually does a bit more than tail -F itself. When rotating a file, some data may still need to be written to the old file as opposed to the new one. in_tail takes care of this by keeping a reference to the old file (even after it has been rotated) for some time before transitioning completely to the new file. This helps prevent data designated for the old file from getting lost. By default, this time interval is 5 seconds. The rotate_wait parameter accepts a single integer representing the number of seconds you want this time interval to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rotate_wait DataK8SFluentdFluentIoInputV1Alpha1Manifest#rotate_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#rotate_wait DataK8SFluentdFluentIoInputV1Alpha1Manifest#rotate_wait}
   */
   readonly rotateWait?: number;
   /**
   * Skips the refresh of the watch list on startup. This reduces the startup time when * is used in path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#skip_refresh_on_startup DataK8SFluentdFluentIoInputV1Alpha1Manifest#skip_refresh_on_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#skip_refresh_on_startup DataK8SFluentdFluentIoInputV1Alpha1Manifest#skip_refresh_on_startup}
   */
   readonly skipRefreshOnStartup?: boolean | cdktf.IResolvable;
   /**
   * The tag of the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tag DataK8SFluentdFluentIoInputV1Alpha1Manifest#tag}
   */
   readonly tag: string;
 }
@@ -8468,25 +8468,25 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputs {
   /**
   * Custom plugin type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoInputV1Alpha1Manifest#custom_plugin}
   */
   readonly customPlugin?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsCustomPlugin;
   /**
   * in_forward plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#forward DataK8SFluentdFluentIoInputV1Alpha1Manifest#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#forward DataK8SFluentdFluentIoInputV1Alpha1Manifest#forward}
   */
   readonly forward?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsForward;
   /**
   * in_http plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#http DataK8SFluentdFluentIoInputV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#http DataK8SFluentdFluentIoInputV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsHttp;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#id DataK8SFluentdFluentIoInputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8495,31 +8495,31 @@ export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputs {
   /**
   * The @label parameter is to route the input events to <label> sections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#label DataK8SFluentdFluentIoInputV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#label DataK8SFluentdFluentIoInputV1Alpha1Manifest#label}
   */
   readonly label?: string;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#log_level DataK8SFluentdFluentIoInputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * monitor_agent plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#monitor_agent DataK8SFluentdFluentIoInputV1Alpha1Manifest#monitor_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#monitor_agent DataK8SFluentdFluentIoInputV1Alpha1Manifest#monitor_agent}
   */
   readonly monitorAgent?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsMonitorAgent;
   /**
   * in_sample plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#sample DataK8SFluentdFluentIoInputV1Alpha1Manifest#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#sample DataK8SFluentdFluentIoInputV1Alpha1Manifest#sample}
   */
   readonly sample?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsSample;
   /**
   * in_tail plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tail DataK8SFluentdFluentIoInputV1Alpha1Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#tail DataK8SFluentdFluentIoInputV1Alpha1Manifest#tail}
   */
   readonly tail?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsTail;
 }
@@ -8867,7 +8867,7 @@ export class DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputsList extends c
 }
 export interface DataK8SFluentdFluentIoInputV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#inputs DataK8SFluentdFluentIoInputV1Alpha1Manifest#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#inputs DataK8SFluentdFluentIoInputV1Alpha1Manifest#inputs}
   */
   readonly inputs?: DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecInputs[] | cdktf.IResolvable;
 }
@@ -8961,7 +8961,7 @@ export class DataK8SFluentdFluentIoInputV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest k8s_fluentd_fluent_io_input_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest k8s_fluentd_fluent_io_input_v1alpha1_manifest}
 */
 export class DataK8SFluentdFluentIoInputV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8977,7 +8977,7 @@ export class DataK8SFluentdFluentIoInputV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SFluentdFluentIoInputV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentdFluentIoInputV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentdFluentIoInputV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentdFluentIoInputV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentdFluentIoInputV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8989,7 +8989,7 @@ export class DataK8SFluentdFluentIoInputV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest k8s_fluentd_fluent_io_input_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/fluentd_fluent_io_input_v1alpha1_manifest k8s_fluentd_fluent_io_input_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9000,8 +9000,8 @@ export class DataK8SFluentdFluentIoInputV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_fluentd_fluent_io_input_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

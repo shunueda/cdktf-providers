@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface S3BucketVersioningConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning#bucket S3BucketVersioning#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning#bucket S3BucketVersioning#bucket}
   */
   readonly bucket: string;
   /**
   * versioning_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning#versioning_configuration S3BucketVersioning#versioning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning#versioning_configuration S3BucketVersioning#versioning_configuration}
   */
   readonly versioningConfiguration?: S3BucketVersioningVersioningConfiguration;
 }
@@ -24,13 +24,13 @@ export interface S3BucketVersioningVersioningConfiguration {
   /**
   * The MFA delete status of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioning#mfa_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning#mfa_delete S3BucketVersioning#mfa_delete}
   */
   readonly mfaDelete?: string;
   /**
   * The versioning status of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning#status S3BucketVersioning#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning#status S3BucketVersioning#status}
   */
   readonly status: string;
 }
@@ -150,7 +150,7 @@ export class S3BucketVersioningVersioningConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning ionoscloud_s3_bucket_versioning}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning ionoscloud_s3_bucket_versioning}
 */
 export class S3BucketVersioning extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketVersioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketVersioning to import
-  * @param importFromId The id of the existing S3BucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketVersioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/s3_bucket_versioning ionoscloud_s3_bucket_versioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/s3_bucket_versioning ionoscloud_s3_bucket_versioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_s3_bucket_versioning',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

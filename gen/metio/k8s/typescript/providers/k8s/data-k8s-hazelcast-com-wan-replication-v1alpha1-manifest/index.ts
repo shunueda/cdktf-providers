@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#metadata DataK8SHazelcastComWanReplicationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#metadata DataK8SHazelcastComWanReplicationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHazelcastComWanReplicationV1Alpha1ManifestMetadata;
   /**
   * WanReplicationSpec defines the desired state of WanReplication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#spec DataK8SHazelcastComWanReplicationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#spec DataK8SHazelcastComWanReplicationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#annotations DataK8SHazelcastComWanReplicationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#annotations DataK8SHazelcastComWanReplicationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#labels DataK8SHazelcastComWanReplicationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#labels DataK8SHazelcastComWanReplicationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#namespace DataK8SHazelcastComWanReplicationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#namespace DataK8SHazelcastComWanReplicationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecAcknowledg
   /**
   * Timeout represents the time in milliseconds the source cluster waits for the acknowledgement. After timeout, the events will be resent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#timeout DataK8SHazelcastComWanReplicationV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#timeout DataK8SHazelcastComWanReplicationV1Alpha1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * Type represents how a batch of replication events is considered successfully replicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#type DataK8SHazelcastComWanReplicationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#type DataK8SHazelcastComWanReplicationV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecBatch {
   /**
   * MaximumDelay represents the maximum delay in milliseconds. If the batch size is not reached, the events will be sent after the maximum delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#maximum_delay DataK8SHazelcastComWanReplicationV1Alpha1Manifest#maximum_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#maximum_delay DataK8SHazelcastComWanReplicationV1Alpha1Manifest#maximum_delay}
   */
   readonly maximumDelay?: number;
   /**
   * Size represents the maximum batch size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#size DataK8SHazelcastComWanReplicationV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#size DataK8SHazelcastComWanReplicationV1Alpha1Manifest#size}
   */
   readonly size?: number;
 }
@@ -481,13 +481,13 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecQueue {
   /**
   * Capacity is the total capacity of WAN queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#capacity DataK8SHazelcastComWanReplicationV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#capacity DataK8SHazelcastComWanReplicationV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * FullBehavior represents the behavior of the new arrival when the queue is full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#full_behavior DataK8SHazelcastComWanReplicationV1Alpha1Manifest#full_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#full_behavior DataK8SHazelcastComWanReplicationV1Alpha1Manifest#full_behavior}
   */
   readonly fullBehavior?: string;
 }
@@ -612,13 +612,13 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecResources 
   /**
   * Kind is the kind of custom resource to which WAN replication applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#kind DataK8SHazelcastComWanReplicationV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#kind DataK8SHazelcastComWanReplicationV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of custom resource to which WAN replication applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -762,43 +762,43 @@ export interface DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpec {
   /**
   * Acknowledgement is the configuration for the condition when the next batch of WAN events are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#acknowledgement DataK8SHazelcastComWanReplicationV1Alpha1Manifest#acknowledgement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#acknowledgement DataK8SHazelcastComWanReplicationV1Alpha1Manifest#acknowledgement}
   */
   readonly acknowledgement?: DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecAcknowledgement;
   /**
   * Batch is the configuration for WAN events batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#batch DataK8SHazelcastComWanReplicationV1Alpha1Manifest#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#batch DataK8SHazelcastComWanReplicationV1Alpha1Manifest#batch}
   */
   readonly batch?: DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecBatch;
   /**
   * Endpoints is the target cluster comma separated endpoint list .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#endpoints DataK8SHazelcastComWanReplicationV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#endpoints DataK8SHazelcastComWanReplicationV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * Queue is the configuration for WAN events queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#queue DataK8SHazelcastComWanReplicationV1Alpha1Manifest#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#queue DataK8SHazelcastComWanReplicationV1Alpha1Manifest#queue}
   */
   readonly queue?: DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecQueue;
   /**
   * Resources is the list of custom resources to which WAN replication applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#resources DataK8SHazelcastComWanReplicationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#resources DataK8SHazelcastComWanReplicationV1Alpha1Manifest#resources}
   */
   readonly resources: DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * SyncConsistencyCheckStrategy is the strategy for checking the consistency of data between replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#sync_consistency_check_strategy DataK8SHazelcastComWanReplicationV1Alpha1Manifest#sync_consistency_check_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#sync_consistency_check_strategy DataK8SHazelcastComWanReplicationV1Alpha1Manifest#sync_consistency_check_strategy}
   */
   readonly syncConsistencyCheckStrategy?: string;
   /**
   * ClusterName is the clusterName field of the target Hazelcast resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#target_cluster_name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#target_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#target_cluster_name DataK8SHazelcastComWanReplicationV1Alpha1Manifest#target_cluster_name}
   */
   readonly targetClusterName: string;
 }
@@ -1057,7 +1057,7 @@ export class DataK8SHazelcastComWanReplicationV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest k8s_hazelcast_com_wan_replication_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest k8s_hazelcast_com_wan_replication_v1alpha1_manifest}
 */
 export class DataK8SHazelcastComWanReplicationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1073,7 +1073,7 @@ export class DataK8SHazelcastComWanReplicationV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SHazelcastComWanReplicationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHazelcastComWanReplicationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHazelcastComWanReplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHazelcastComWanReplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHazelcastComWanReplicationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1085,7 +1085,7 @@ export class DataK8SHazelcastComWanReplicationV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest k8s_hazelcast_com_wan_replication_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/hazelcast_com_wan_replication_v1alpha1_manifest k8s_hazelcast_com_wan_replication_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1096,8 +1096,8 @@ export class DataK8SHazelcastComWanReplicationV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_hazelcast_com_wan_replication_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

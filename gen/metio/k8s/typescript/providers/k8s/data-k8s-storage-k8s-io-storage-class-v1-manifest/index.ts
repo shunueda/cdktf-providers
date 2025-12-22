@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataK8SStorageK8SIoStorageClassV1ManifestConfig extends cdktf.T
   /**
   * allowVolumeExpansion shows whether the storage class allow volume expand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#allow_volume_expansion DataK8SStorageK8SIoStorageClassV1Manifest#allow_volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#allow_volume_expansion DataK8SStorageK8SIoStorageClassV1Manifest#allow_volume_expansion}
   */
   readonly allowVolumeExpansion?: boolean | cdktf.IResolvable;
   /**
   * allowedTopologies restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#allowed_topologies DataK8SStorageK8SIoStorageClassV1Manifest#allowed_topologies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#allowed_topologies DataK8SStorageK8SIoStorageClassV1Manifest#allowed_topologies}
   */
   readonly allowedTopologies?: DataK8SStorageK8SIoStorageClassV1ManifestAllowedTopologies[] | cdktf.IResolvable;
   /**
   * provisioner indicates the type of the provisioner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#k8s_provisioner DataK8SStorageK8SIoStorageClassV1Manifest#k8s_provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#k8s_provisioner DataK8SStorageK8SIoStorageClassV1Manifest#k8s_provisioner}
   */
   readonly k8SProvisioner: string;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#metadata DataK8SStorageK8SIoStorageClassV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#metadata DataK8SStorageK8SIoStorageClassV1Manifest#metadata}
   */
   readonly metadata: DataK8SStorageK8SIoStorageClassV1ManifestMetadata;
   /**
   * mountOptions controls the mountOptions for dynamically provisioned PersistentVolumes of this storage class. e.g. ['ro', 'soft']. Not validated - mount of the PVs will simply fail if one is invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#mount_options DataK8SStorageK8SIoStorageClassV1Manifest#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#mount_options DataK8SStorageK8SIoStorageClassV1Manifest#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * parameters holds the parameters for the provisioner that should create volumes of this storage class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#parameters DataK8SStorageK8SIoStorageClassV1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#parameters DataK8SStorageK8SIoStorageClassV1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * reclaimPolicy controls the reclaimPolicy for dynamically provisioned PersistentVolumes of this storage class. Defaults to Delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#reclaim_policy DataK8SStorageK8SIoStorageClassV1Manifest#reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#reclaim_policy DataK8SStorageK8SIoStorageClassV1Manifest#reclaim_policy}
   */
   readonly reclaimPolicy?: string;
   /**
   * volumeBindingMode indicates how PersistentVolumeClaims should be provisioned and bound. When unset, VolumeBindingImmediate is used. This field is only honored by servers that enable the VolumeScheduling feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#volume_binding_mode DataK8SStorageK8SIoStorageClassV1Manifest#volume_binding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#volume_binding_mode DataK8SStorageK8SIoStorageClassV1Manifest#volume_binding_mode}
   */
   readonly volumeBindingMode?: string;
 }
@@ -60,13 +60,13 @@ export interface DataK8SStorageK8SIoStorageClassV1ManifestAllowedTopologiesMatch
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#key DataK8SStorageK8SIoStorageClassV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#key DataK8SStorageK8SIoStorageClassV1Manifest#key}
   */
   readonly key: string;
   /**
   * An array of string values. One value must match the label to be selected. Each entry in Values is ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#values DataK8SStorageK8SIoStorageClassV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#values DataK8SStorageK8SIoStorageClassV1Manifest#values}
   */
   readonly values: string[];
 }
@@ -207,7 +207,7 @@ export interface DataK8SStorageK8SIoStorageClassV1ManifestAllowedTopologies {
   /**
   * A list of topology selector requirements by labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#match_label_expressions DataK8SStorageK8SIoStorageClassV1Manifest#match_label_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#match_label_expressions DataK8SStorageK8SIoStorageClassV1Manifest#match_label_expressions}
   */
   readonly matchLabelExpressions?: DataK8SStorageK8SIoStorageClassV1ManifestAllowedTopologiesMatchLabelExpressions[] | cdktf.IResolvable;
 }
@@ -325,19 +325,19 @@ export interface DataK8SStorageK8SIoStorageClassV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#annotations DataK8SStorageK8SIoStorageClassV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#annotations DataK8SStorageK8SIoStorageClassV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#labels DataK8SStorageK8SIoStorageClassV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#labels DataK8SStorageK8SIoStorageClassV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#name DataK8SStorageK8SIoStorageClassV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#name DataK8SStorageK8SIoStorageClassV1Manifest#name}
   */
   readonly name: string;
 }
@@ -486,7 +486,7 @@ export class DataK8SStorageK8SIoStorageClassV1ManifestMetadataOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest k8s_storage_k8s_io_storage_class_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest k8s_storage_k8s_io_storage_class_v1_manifest}
 */
 export class DataK8SStorageK8SIoStorageClassV1Manifest extends cdktf.TerraformDataSource {
 
@@ -502,7 +502,7 @@ export class DataK8SStorageK8SIoStorageClassV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SStorageK8SIoStorageClassV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStorageK8SIoStorageClassV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStorageK8SIoStorageClassV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStorageK8SIoStorageClassV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStorageK8SIoStorageClassV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -514,7 +514,7 @@ export class DataK8SStorageK8SIoStorageClassV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_storage_class_v1_manifest k8s_storage_k8s_io_storage_class_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/storage_k8s_io_storage_class_v1_manifest k8s_storage_k8s_io_storage_class_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,8 +525,8 @@ export class DataK8SStorageK8SIoStorageClassV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_storage_k8s_io_storage_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

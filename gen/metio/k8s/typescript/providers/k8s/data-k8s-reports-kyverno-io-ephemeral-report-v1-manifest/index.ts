@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#metadata DataK8SReportsKyvernoIoEphemeralReportV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#metadata DataK8SReportsKyvernoIoEphemeralReportV1Manifest#metadata}
   */
   readonly metadata: DataK8SReportsKyvernoIoEphemeralReportV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#spec DataK8SReportsKyvernoIoEphemeralReportV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#spec DataK8SReportsKyvernoIoEphemeralReportV1Manifest#spec}
   */
   readonly spec: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#annotations DataK8SReportsKyvernoIoEphemeralReportV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#annotations DataK8SReportsKyvernoIoEphemeralReportV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#labels DataK8SReportsKyvernoIoEphemeralReportV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#labels DataK8SReportsKyvernoIoEphemeralReportV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#namespace DataK8SReportsKyvernoIoEphemeralReportV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#namespace DataK8SReportsKyvernoIoEphemeralReportV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,37 +217,37 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecOwner {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#api_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#api_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * If true, AND if the owner has the 'foregroundDeletion' finalizer, then the owner cannot be deleted from the key-value store until this reference is removed. See https://kubernetes.io/docs/concepts/architecture/garbage-collection/#foreground-deletion for how the garbage collector interacts with this field and enforces the foreground deletion. Defaults to false. To set this field, a user needs 'delete' permission of the owner, otherwise 422 (Unprocessable Entity) will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#block_owner_deletion DataK8SReportsKyvernoIoEphemeralReportV1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#block_owner_deletion DataK8SReportsKyvernoIoEphemeralReportV1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
   * If true, this reference points to the managing controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#controller DataK8SReportsKyvernoIoEphemeralReportV1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#controller DataK8SReportsKyvernoIoEphemeralReportV1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#kind DataK8SReportsKyvernoIoEphemeralReportV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#kind DataK8SReportsKyvernoIoEphemeralReportV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
   */
   readonly name: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#uid DataK8SReportsKyvernoIoEphemeralReportV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#uid DataK8SReportsKyvernoIoEphemeralReportV1Manifest#uid}
   */
   readonly uid: string;
 }
@@ -476,19 +476,19 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsReso
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#key DataK8SReportsKyvernoIoEphemeralReportV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#key DataK8SReportsKyvernoIoEphemeralReportV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#operator DataK8SReportsKyvernoIoEphemeralReportV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#operator DataK8SReportsKyvernoIoEphemeralReportV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#values DataK8SReportsKyvernoIoEphemeralReportV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#values DataK8SReportsKyvernoIoEphemeralReportV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -658,13 +658,13 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsReso
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#match_expressions DataK8SReportsKyvernoIoEphemeralReportV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#match_expressions DataK8SReportsKyvernoIoEphemeralReportV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsResourceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#match_labels DataK8SReportsKyvernoIoEphemeralReportV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#match_labels DataK8SReportsKyvernoIoEphemeralReportV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -789,43 +789,43 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsReso
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#api_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#api_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#field_path DataK8SReportsKyvernoIoEphemeralReportV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#field_path DataK8SReportsKyvernoIoEphemeralReportV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#kind DataK8SReportsKyvernoIoEphemeralReportV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#kind DataK8SReportsKyvernoIoEphemeralReportV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#name DataK8SReportsKyvernoIoEphemeralReportV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#namespace DataK8SReportsKyvernoIoEphemeralReportV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#namespace DataK8SReportsKyvernoIoEphemeralReportV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resource_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resource_version DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#uid DataK8SReportsKyvernoIoEphemeralReportV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#uid DataK8SReportsKyvernoIoEphemeralReportV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1117,13 +1117,13 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsTime
   /**
   * Non-negative fractions of a second at nanosecond resolution. Negative second values with fractions must still have non-negative nanos values that count forward in time. Must be from 0 to 999,999,999 inclusive. This field may be limited in precision depending on context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#nanos DataK8SReportsKyvernoIoEphemeralReportV1Manifest#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#nanos DataK8SReportsKyvernoIoEphemeralReportV1Manifest#nanos}
   */
   readonly nanos: number;
   /**
   * Represents seconds of UTC time since Unix epoch 1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to 9999-12-31T23:59:59Z inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#seconds DataK8SReportsKyvernoIoEphemeralReportV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#seconds DataK8SReportsKyvernoIoEphemeralReportV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -1242,73 +1242,73 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResults {
   /**
   * Category indicates policy category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#category DataK8SReportsKyvernoIoEphemeralReportV1Manifest#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#category DataK8SReportsKyvernoIoEphemeralReportV1Manifest#category}
   */
   readonly category?: string;
   /**
   * Description is a short user friendly message for the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#message DataK8SReportsKyvernoIoEphemeralReportV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#message DataK8SReportsKyvernoIoEphemeralReportV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Policy is the name or identifier of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#policy DataK8SReportsKyvernoIoEphemeralReportV1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#policy DataK8SReportsKyvernoIoEphemeralReportV1Manifest#policy}
   */
   readonly policy: string;
   /**
   * Properties provides additional information for the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#properties DataK8SReportsKyvernoIoEphemeralReportV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#properties DataK8SReportsKyvernoIoEphemeralReportV1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * SubjectSelector is an optional label selector for checked Kubernetes resources. For example, a policy result may apply to all pods that match a label. Either a Subject or a SubjectSelector can be specified. If neither are provided, the result is assumed to be for the policy report scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resource_selector DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resource_selector DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resource_selector}
   */
   readonly resourceSelector?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsResourceSelector;
   /**
   * Subjects is an optional reference to the checked Kubernetes resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resources DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#resources DataK8SReportsKyvernoIoEphemeralReportV1Manifest#resources}
   */
   readonly resources?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsResources[] | cdktf.IResolvable;
   /**
   * Result indicates the outcome of the policy rule execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#result DataK8SReportsKyvernoIoEphemeralReportV1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#result DataK8SReportsKyvernoIoEphemeralReportV1Manifest#result}
   */
   readonly result?: string;
   /**
   * Rule is the name or identifier of the rule within the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#rule DataK8SReportsKyvernoIoEphemeralReportV1Manifest#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#rule DataK8SReportsKyvernoIoEphemeralReportV1Manifest#rule}
   */
   readonly rule?: string;
   /**
   * Scored indicates if this result is scored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#scored DataK8SReportsKyvernoIoEphemeralReportV1Manifest#scored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#scored DataK8SReportsKyvernoIoEphemeralReportV1Manifest#scored}
   */
   readonly scored?: boolean | cdktf.IResolvable;
   /**
   * Severity indicates policy check result criticality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#severity DataK8SReportsKyvernoIoEphemeralReportV1Manifest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#severity DataK8SReportsKyvernoIoEphemeralReportV1Manifest#severity}
   */
   readonly severity?: string;
   /**
   * Source is an identifier for the policy engine that manages this report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#source DataK8SReportsKyvernoIoEphemeralReportV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#source DataK8SReportsKyvernoIoEphemeralReportV1Manifest#source}
   */
   readonly source?: string;
   /**
   * Timestamp indicates the time the result was found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#timestamp DataK8SReportsKyvernoIoEphemeralReportV1Manifest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#timestamp DataK8SReportsKyvernoIoEphemeralReportV1Manifest#timestamp}
   */
   readonly timestamp?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResultsTimestamp;
 }
@@ -1742,31 +1742,31 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecSummary {
   /**
   * Error provides the count of policies that could not be evaluated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#error DataK8SReportsKyvernoIoEphemeralReportV1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#error DataK8SReportsKyvernoIoEphemeralReportV1Manifest#error}
   */
   readonly error?: number;
   /**
   * Fail provides the count of policies whose requirements were not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#fail DataK8SReportsKyvernoIoEphemeralReportV1Manifest#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#fail DataK8SReportsKyvernoIoEphemeralReportV1Manifest#fail}
   */
   readonly fail?: number;
   /**
   * Pass provides the count of policies whose requirements were met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#pass DataK8SReportsKyvernoIoEphemeralReportV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#pass DataK8SReportsKyvernoIoEphemeralReportV1Manifest#pass}
   */
   readonly pass?: number;
   /**
   * Skip indicates the count of policies that were not selected for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#skip DataK8SReportsKyvernoIoEphemeralReportV1Manifest#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#skip DataK8SReportsKyvernoIoEphemeralReportV1Manifest#skip}
   */
   readonly skip?: number;
   /**
   * Warn provides the count of non-scored policies whose requirements were not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#warn DataK8SReportsKyvernoIoEphemeralReportV1Manifest#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#warn DataK8SReportsKyvernoIoEphemeralReportV1Manifest#warn}
   */
   readonly warn?: number;
 }
@@ -1978,19 +1978,19 @@ export interface DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpec {
   /**
   * Owner is a reference to the report owner (e.g. a Deployment, Namespace, or Node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#owner DataK8SReportsKyvernoIoEphemeralReportV1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#owner DataK8SReportsKyvernoIoEphemeralReportV1Manifest#owner}
   */
   readonly owner: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecOwner;
   /**
   * PolicyReportResult provides result details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#results DataK8SReportsKyvernoIoEphemeralReportV1Manifest#results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#results DataK8SReportsKyvernoIoEphemeralReportV1Manifest#results}
   */
   readonly results?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecResults[] | cdktf.IResolvable;
   /**
   * PolicyReportSummary provides a summary of results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#summary DataK8SReportsKyvernoIoEphemeralReportV1Manifest#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#summary DataK8SReportsKyvernoIoEphemeralReportV1Manifest#summary}
   */
   readonly summary?: DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecSummary;
 }
@@ -2139,7 +2139,7 @@ export class DataK8SReportsKyvernoIoEphemeralReportV1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest k8s_reports_kyverno_io_ephemeral_report_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest k8s_reports_kyverno_io_ephemeral_report_v1_manifest}
 */
 export class DataK8SReportsKyvernoIoEphemeralReportV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2155,7 +2155,7 @@ export class DataK8SReportsKyvernoIoEphemeralReportV1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SReportsKyvernoIoEphemeralReportV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SReportsKyvernoIoEphemeralReportV1Manifest to import
-  * @param importFromId The id of the existing DataK8SReportsKyvernoIoEphemeralReportV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SReportsKyvernoIoEphemeralReportV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SReportsKyvernoIoEphemeralReportV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2167,7 +2167,7 @@ export class DataK8SReportsKyvernoIoEphemeralReportV1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest k8s_reports_kyverno_io_ephemeral_report_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/reports_kyverno_io_ephemeral_report_v1_manifest k8s_reports_kyverno_io_ephemeral_report_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2178,8 +2178,8 @@ export class DataK8SReportsKyvernoIoEphemeralReportV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_reports_kyverno_io_ephemeral_report_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,25 +185,25 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices
   /**
   * BusID is the domain:bus:device.function formatted identifier of PCI/PCIE device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#bus_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#bus_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#bus_id}
   */
   readonly busId?: string;
   /**
   * NodeID is the ID of NUMA Node to which the device belongs, it should be unique across different CPU Sockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#node_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#node_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#node_id}
   */
   readonly nodeId: number;
   /**
   * PCIEID is the ID of PCIE Switch to which the device is connected, it should be unique across difference NUMANodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#pcie_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#pcie_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#pcie_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#pcie_id}
   */
   readonly pcieId: string;
   /**
   * SocketID is the ID of CPU Socket to which the device belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#socket_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#socket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#socket_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#socket_id}
   */
   readonly socketId: number;
 }
@@ -377,13 +377,13 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices
   /**
   * BusID is the domain:bus:device.function formatted identifier of PCI/PCIE virtual function device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#bus_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#bus_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#bus_id}
   */
   readonly busId?: string;
   /**
   * Minor represents the Minor number of VirtualFunction, starting from 0, used to identify virtual function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#minor DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#minor DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#minor}
   */
   readonly minor: number;
 }
@@ -527,13 +527,13 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices
   /**
   * Labels represents the Virtual Function properties that can be used to organize and categorize (scope and select) objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * VFs are the virtual function devices which belong to the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#vfs DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#vfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#vfs DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#vfs}
   */
   readonly vfs?: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevicesVfGroupsVfs[] | cdktf.IResolvable;
 }
@@ -680,13 +680,13 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices
   /**
   * Health indicates whether the device is normal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#health DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#health DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#health}
   */
   readonly health: boolean | cdktf.IResolvable;
   /**
   * UUID represents the UUID of device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -695,43 +695,43 @@ export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices
   /**
   * Labels represents the device properties that can be used to organize and categorize (scope and select) objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Minor represents the Minor number of Device, starting from 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#minor DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#minor DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#minor}
   */
   readonly minor?: number;
   /**
   * ModuleID represents the physical id of Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#module_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#module_id DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#module_id}
   */
   readonly moduleId?: number;
   /**
   * Resources is a set of (resource name, quantity) pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#resources DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#resources DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
   * Topology represents the topology information about the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#topology DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#topology DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#topology}
   */
   readonly topology?: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevicesTopology;
   /**
   * Type represents the type of device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#type DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#type DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * VFGroups represents the virtual function devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#vf_groups DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#vf_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#vf_groups DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#vf_groups}
   */
   readonly vfGroups?: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevicesVfGroups[] | cdktf.IResolvable;
 }
@@ -1076,7 +1076,7 @@ export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevicesList
 }
 export interface DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#devices DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#devices DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest#devices}
   */
   readonly devices?: DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecDevices[] | cdktf.IResolvable;
 }
@@ -1170,7 +1170,7 @@ export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest k8s_scheduling_koordinator_sh_device_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest k8s_scheduling_koordinator_sh_device_v1alpha1_manifest}
 */
 export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1186,7 +1186,7 @@ export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1198,7 +1198,7 @@ export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest k8s_scheduling_koordinator_sh_device_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/scheduling_koordinator_sh_device_v1alpha1_manifest k8s_scheduling_koordinator_sh_device_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1209,8 +1209,8 @@ export class DataK8SSchedulingKoordinatorShDeviceV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_scheduling_koordinator_sh_device_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

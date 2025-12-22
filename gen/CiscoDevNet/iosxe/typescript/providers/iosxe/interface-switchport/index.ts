@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,138 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceSwitchportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#access_vlan InterfaceSwitchport#access_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#access_vlan InterfaceSwitchport#access_vlan}
   */
   readonly accessVlan?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#delete_mode InterfaceSwitchport#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#delete_mode InterfaceSwitchport#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#device InterfaceSwitchport#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#device InterfaceSwitchport#device}
   */
   readonly device?: string;
   /**
   * Set port host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#host InterfaceSwitchport#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#host InterfaceSwitchport#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to ACCESS unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_access InterfaceSwitchport#mode_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_access InterfaceSwitchport#mode_access}
   */
   readonly modeAccess?: boolean | cdktf.IResolvable;
   /**
   * set trunking mode to TUNNEL unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_dot1q_tunnel InterfaceSwitchport#mode_dot1q_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_dot1q_tunnel InterfaceSwitchport#mode_dot1q_tunnel}
   */
   readonly modeDot1QTunnel?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_private_vlan_host InterfaceSwitchport#mode_private_vlan_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_private_vlan_host InterfaceSwitchport#mode_private_vlan_host}
   */
   readonly modePrivateVlanHost?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan promiscuous
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_private_vlan_promiscuous InterfaceSwitchport#mode_private_vlan_promiscuous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_private_vlan_promiscuous InterfaceSwitchport#mode_private_vlan_promiscuous}
   */
   readonly modePrivateVlanPromiscuous?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan trunk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_private_vlan_trunk InterfaceSwitchport#mode_private_vlan_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_private_vlan_trunk InterfaceSwitchport#mode_private_vlan_trunk}
   */
   readonly modePrivateVlanTrunk?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to TRUNK unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#mode_trunk InterfaceSwitchport#mode_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#mode_trunk InterfaceSwitchport#mode_trunk}
   */
   readonly modeTrunk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#name InterfaceSwitchport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#name InterfaceSwitchport#name}
   */
   readonly name: string;
   /**
   * Device will not engage in negotiation protocol on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#nonegotiate InterfaceSwitchport#nonegotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#nonegotiate InterfaceSwitchport#nonegotiate}
   */
   readonly nonegotiate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans InterfaceSwitchport#trunk_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans InterfaceSwitchport#trunk_allowed_vlans}
   */
   readonly trunkAllowedVlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_add InterfaceSwitchport#trunk_allowed_vlans_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_add InterfaceSwitchport#trunk_allowed_vlans_add}
   */
   readonly trunkAllowedVlansAdd?: InterfaceSwitchportTrunkAllowedVlansAdd[] | cdktf.IResolvable;
   /**
   * all VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_all InterfaceSwitchport#trunk_allowed_vlans_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_all InterfaceSwitchport#trunk_allowed_vlans_all}
   */
   readonly trunkAllowedVlansAll?: boolean | cdktf.IResolvable;
   /**
   * all VLANs except the following
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_except InterfaceSwitchport#trunk_allowed_vlans_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_except InterfaceSwitchport#trunk_allowed_vlans_except}
   */
   readonly trunkAllowedVlansExcept?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_legacy InterfaceSwitchport#trunk_allowed_vlans_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_legacy InterfaceSwitchport#trunk_allowed_vlans_legacy}
   */
   readonly trunkAllowedVlansLegacy?: string;
   /**
   * no VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_none InterfaceSwitchport#trunk_allowed_vlans_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_none InterfaceSwitchport#trunk_allowed_vlans_none}
   */
   readonly trunkAllowedVlansNone?: boolean | cdktf.IResolvable;
   /**
   * no VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_none_legacy InterfaceSwitchport#trunk_allowed_vlans_none_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_none_legacy InterfaceSwitchport#trunk_allowed_vlans_none_legacy}
   */
   readonly trunkAllowedVlansNoneLegacy?: boolean | cdktf.IResolvable;
   /**
   * VLAN IDs of disallowed VLANs when this port is in trunking mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_allowed_vlans_remove InterfaceSwitchport#trunk_allowed_vlans_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_allowed_vlans_remove InterfaceSwitchport#trunk_allowed_vlans_remove}
   */
   readonly trunkAllowedVlansRemove?: string;
   /**
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_native_vlan InterfaceSwitchport#trunk_native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_native_vlan InterfaceSwitchport#trunk_native_vlan}
   */
   readonly trunkNativeVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#trunk_native_vlan_tag InterfaceSwitchport#trunk_native_vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#trunk_native_vlan_tag InterfaceSwitchport#trunk_native_vlan_tag}
   */
   readonly trunkNativeVlanTag?: boolean | cdktf.IResolvable;
   /**
   * Interface type
-  *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Port-channel`
+  *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `FiftyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Port-channel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#type InterfaceSwitchport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#type InterfaceSwitchport#type}
   */
   readonly type: string;
 }
 export interface InterfaceSwitchportTrunkAllowedVlansAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#vlans InterfaceSwitchport#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#vlans InterfaceSwitchport#vlans}
   */
   readonly vlans: string;
 }
@@ -252,7 +252,7 @@ export class InterfaceSwitchportTrunkAllowedVlansAddList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport iosxe_interface_switchport}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport iosxe_interface_switchport}
 */
 export class InterfaceSwitchport extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceSwitchport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceSwitchport to import
-  * @param importFromId The id of the existing InterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceSwitchport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_switchport iosxe_interface_switchport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/resources/interface_switchport iosxe_interface_switchport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_switchport',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

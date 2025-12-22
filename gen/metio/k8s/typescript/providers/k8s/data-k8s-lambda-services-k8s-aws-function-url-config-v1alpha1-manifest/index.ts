@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestMetadata;
   /**
   * FunctionUrlConfigSpec defines the desired state of FunctionUrlConfig. Details about a Lambda function URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,27 +217,27 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestMetadat
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecCors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_credentials DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_credentials DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_headers DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_headers DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_methods DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_methods DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_origins DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#allow_origins DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#expose_headers DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#expose_headers DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#max_age DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#max_age DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
 }
@@ -476,11 +476,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecCor
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecFunctionRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -605,7 +605,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpe
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecFunctionRefFrom;
 }
@@ -701,31 +701,31 @@ export interface DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpe
   /**
   * The type of authentication that your function URL uses. Set to AWS_IAM if you want to restrict access to authenticated IAM users only. Set to NONE if you want to bypass IAM authentication to create a public endpoint. For more information, see Security and auth model for Lambda function URLs (https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#auth_type DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#auth_type DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#auth_type}
   */
   readonly authType: string;
   /**
   * The cross-origin resource sharing (CORS) (https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) settings for your function URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#cors DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#cors DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#cors}
   */
   readonly cors?: DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecCors;
   /**
   * The name of the Lambda function. Name formats * Function name – my-function. * Function ARN – arn:aws:lambda:us-west-2:123456789012:function:my-function. * Partial ARN – 123456789012:function:my-function. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#function_name}
   */
   readonly functionName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#function_ref DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#function_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#function_ref DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#function_ref}
   */
   readonly functionRef?: DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecFunctionRef;
   /**
   * The alias name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#qualifier DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#qualifier DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest#qualifier}
   */
   readonly qualifier?: string;
 }
@@ -932,7 +932,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_url_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_url_config_v1alpha1_manifest}
 */
 export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -948,7 +948,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -960,7 +960,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_url_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/lambda_services_k8s_aws_function_url_config_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_url_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -971,8 +971,8 @@ export class DataK8SLambdaServicesK8SAwsFunctionUrlConfigV1Alpha1Manifest extend
       terraformResourceType: 'k8s_lambda_services_k8s_aws_function_url_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

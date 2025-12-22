@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#metadata DataK8SCephRookIoCephRbdMirrorV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#metadata DataK8SCephRookIoCephRbdMirrorV1Manifest#metadata}
   */
   readonly metadata: DataK8SCephRookIoCephRbdMirrorV1ManifestMetadata;
   /**
   * RBDMirroringSpec represents the specification of an RBD mirror daemon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#spec DataK8SCephRookIoCephRbdMirrorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#spec DataK8SCephRookIoCephRbdMirrorV1Manifest#spec}
   */
   readonly spec: DataK8SCephRookIoCephRbdMirrorV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#annotations DataK8SCephRookIoCephRbdMirrorV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#annotations DataK8SCephRookIoCephRbdMirrorV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#labels DataK8SCephRookIoCephRbdMirrorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#labels DataK8SCephRookIoCephRbdMirrorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#name DataK8SCephRookIoCephRbdMirrorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#name DataK8SCephRookIoCephRbdMirrorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPeers {
   /**
   * SecretNames represents the Kubernetes Secret names to add rbd-mirror or cephfs-mirror peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#secret_names DataK8SCephRookIoCephRbdMirrorV1Manifest#secret_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#secret_names DataK8SCephRookIoCephRbdMirrorV1Manifest#secret_names}
   */
   readonly secretNames?: string[];
 }
@@ -313,15 +313,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPeersOutputReference ex
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -489,15 +489,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -665,11 +665,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_fields DataK8SCephRookIoCephRbdMirrorV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_fields DataK8SCephRookIoCephRbdMirrorV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -792,11 +792,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preference DataK8SCephRookIoCephRbdMirrorV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preference DataK8SCephRookIoCephRbdMirrorV1Manifest#preference}
   */
   readonly preference: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -935,15 +935,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1111,15 +1111,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1287,11 +1287,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_fields DataK8SCephRookIoCephRbdMirrorV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_fields DataK8SCephRookIoCephRbdMirrorV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1436,7 +1436,7 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_selector_terms DataK8SCephRookIoCephRbdMirrorV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_selector_terms DataK8SCephRookIoCephRbdMirrorV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1527,11 +1527,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1654,15 +1654,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinityOu
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1830,11 +1830,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1957,15 +1957,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2133,11 +2133,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2260,27 +2260,27 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2516,11 +2516,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity_term DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity_term DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2659,15 +2659,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2835,11 +2835,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2962,15 +2962,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3138,11 +3138,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3265,27 +3265,27 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3543,11 +3543,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3670,15 +3670,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinityOut
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3846,11 +3846,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3973,15 +3973,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4149,11 +4149,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4276,27 +4276,27 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4532,11 +4532,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity_term DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity_term DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#weight DataK8SCephRookIoCephRbdMirrorV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4675,15 +4675,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4851,11 +4851,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4978,15 +4978,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5154,11 +5154,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5281,27 +5281,27 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespace_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#namespaces DataK8SCephRookIoCephRbdMirrorV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5559,11 +5559,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephRbdMirrorV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5686,23 +5686,23 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#effect DataK8SCephRookIoCephRbdMirrorV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#effect DataK8SCephRookIoCephRbdMirrorV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#toleration_seconds DataK8SCephRookIoCephRbdMirrorV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#toleration_seconds DataK8SCephRookIoCephRbdMirrorV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#value DataK8SCephRookIoCephRbdMirrorV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#value DataK8SCephRookIoCephRbdMirrorV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5934,15 +5934,15 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTolerationsLis
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#key DataK8SCephRookIoCephRbdMirrorV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#operator DataK8SCephRookIoCephRbdMirrorV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#values DataK8SCephRookIoCephRbdMirrorV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6110,11 +6110,11 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_expressions DataK8SCephRookIoCephRbdMirrorV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_labels DataK8SCephRookIoCephRbdMirrorV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6237,35 +6237,35 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#label_selector DataK8SCephRookIoCephRbdMirrorV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#match_label_keys DataK8SCephRookIoCephRbdMirrorV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#max_skew DataK8SCephRookIoCephRbdMirrorV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#max_skew DataK8SCephRookIoCephRbdMirrorV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#min_domains DataK8SCephRookIoCephRbdMirrorV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#min_domains DataK8SCephRookIoCephRbdMirrorV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_affinity_policy DataK8SCephRookIoCephRbdMirrorV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_affinity_policy DataK8SCephRookIoCephRbdMirrorV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_taints_policy DataK8SCephRookIoCephRbdMirrorV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_taints_policy DataK8SCephRookIoCephRbdMirrorV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_key DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephRbdMirrorV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephRbdMirrorV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -6575,23 +6575,23 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#node_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephRbdMirrorV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementPodAntiAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#tolerations DataK8SCephRookIoCephRbdMirrorV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#tolerations DataK8SCephRookIoCephRbdMirrorV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephRbdMirrorV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacementTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -6803,13 +6803,13 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#name DataK8SCephRookIoCephRbdMirrorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#name DataK8SCephRookIoCephRbdMirrorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#request DataK8SCephRookIoCephRbdMirrorV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#request DataK8SCephRookIoCephRbdMirrorV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -6953,19 +6953,19 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#claims DataK8SCephRookIoCephRbdMirrorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#claims DataK8SCephRookIoCephRbdMirrorV1Manifest#claims}
   */
   readonly claims?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#limits DataK8SCephRookIoCephRbdMirrorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#limits DataK8SCephRookIoCephRbdMirrorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#requests DataK8SCephRookIoCephRbdMirrorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#requests DataK8SCephRookIoCephRbdMirrorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7119,41 +7119,41 @@ export interface DataK8SCephRookIoCephRbdMirrorV1ManifestSpec {
   /**
   * The annotations-related configuration to add/set on each Pod related object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#annotations DataK8SCephRookIoCephRbdMirrorV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#annotations DataK8SCephRookIoCephRbdMirrorV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Count represents the number of rbd mirror instance to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#count DataK8SCephRookIoCephRbdMirrorV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#count DataK8SCephRookIoCephRbdMirrorV1Manifest#count}
   */
   readonly count: number;
   /**
   * The labels-related configuration to add/set on each Pod related object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#labels DataK8SCephRookIoCephRbdMirrorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#labels DataK8SCephRookIoCephRbdMirrorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Peers represents the peers spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#peers DataK8SCephRookIoCephRbdMirrorV1Manifest#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#peers DataK8SCephRookIoCephRbdMirrorV1Manifest#peers}
   */
   readonly peers?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPeers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#placement DataK8SCephRookIoCephRbdMirrorV1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#placement DataK8SCephRookIoCephRbdMirrorV1Manifest#placement}
   */
   readonly placement?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecPlacement;
   /**
   * PriorityClassName sets priority class on the rbd mirror pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#priority_class_name DataK8SCephRookIoCephRbdMirrorV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#priority_class_name DataK8SCephRookIoCephRbdMirrorV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * The resource requirements for the rbd mirror pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#resources DataK8SCephRookIoCephRbdMirrorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#resources DataK8SCephRookIoCephRbdMirrorV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephRbdMirrorV1ManifestSpecResources;
 }
@@ -7418,7 +7418,7 @@ export class DataK8SCephRookIoCephRbdMirrorV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest k8s_ceph_rook_io_ceph_rbd_mirror_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest k8s_ceph_rook_io_ceph_rbd_mirror_v1_manifest}
 */
 export class DataK8SCephRookIoCephRbdMirrorV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7434,7 +7434,7 @@ export class DataK8SCephRookIoCephRbdMirrorV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SCephRookIoCephRbdMirrorV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCephRookIoCephRbdMirrorV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCephRookIoCephRbdMirrorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCephRookIoCephRbdMirrorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCephRookIoCephRbdMirrorV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7446,7 +7446,7 @@ export class DataK8SCephRookIoCephRbdMirrorV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest k8s_ceph_rook_io_ceph_rbd_mirror_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/ceph_rook_io_ceph_rbd_mirror_v1_manifest k8s_ceph_rook_io_ceph_rbd_mirror_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7457,8 +7457,8 @@ export class DataK8SCephRookIoCephRbdMirrorV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_ceph_rook_io_ceph_rbd_mirror_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

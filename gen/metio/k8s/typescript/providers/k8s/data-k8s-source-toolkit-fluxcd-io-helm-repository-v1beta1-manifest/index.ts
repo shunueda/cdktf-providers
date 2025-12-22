@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#metadata DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#metadata DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestMetadata;
   /**
   * HelmRepositorySpec defines the reference to a Helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#spec DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#spec DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#annotations DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#annotations DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#labels DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#labels DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#namespace DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#namespace DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecAc
   /**
   * MatchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#match_labels DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#match_labels DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -337,7 +337,7 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecAc
   /**
   * NamespaceSelectors is the list of namespace selectors to which this ACL applies. Items in this list are evaluated using a logical OR operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#namespace_selectors DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#namespace_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#namespace_selectors DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#namespace_selectors}
   */
   readonly namespaceSelectors: DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecAccessFromNamespaceSelectors[] | cdktf.IResolvable;
 }
@@ -430,7 +430,7 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecSe
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#name DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -523,43 +523,43 @@ export interface DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpec {
   /**
   * AccessFrom defines an Access Control List for allowing cross-namespace references to this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#access_from DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#access_from DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#access_from}
   */
   readonly accessFrom?: DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecAccessFrom;
   /**
   * The interval at which to check the upstream for updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#interval DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#interval DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#interval}
   */
   readonly interval: string;
   /**
   * PassCredentials allows the credentials from the SecretRef to be passed on to a host that does not match the host as defined in URL. This may be required if the host of the advertised chart URLs in the index differ from the defined URL. Enabling this should be done with caution, as it can potentially result in credentials getting stolen in a MITM-attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#pass_credentials DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#pass_credentials DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * The name of the secret containing authentication credentials for the Helm repository. For HTTP/S basic auth the secret must contain username and password fields. For TLS the secret must contain a certFile and keyFile, and/or caFile fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#secret_ref DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecSecretRef;
   /**
   * This flag tells the controller to suspend the reconciliation of this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#suspend DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#suspend DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * The timeout of index downloading, defaults to 60s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#timeout DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#timeout DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * The Helm repository URL, a valid URL contains at least a protocol and host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#url DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#url DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -821,7 +821,7 @@ export class DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest}
 */
 export class DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -837,7 +837,7 @@ export class DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -849,7 +849,7 @@ export class DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest k8s_source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -860,8 +860,8 @@ export class DataK8SSourceToolkitFluxcdIoHelmRepositoryV1Beta1Manifest extends c
       terraformResourceType: 'k8s_source_toolkit_fluxcd_io_helm_repository_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

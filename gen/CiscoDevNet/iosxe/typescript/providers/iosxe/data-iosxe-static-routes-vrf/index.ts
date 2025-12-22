@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeStaticRoutesVrfConfig extends cdktf.TerraformMetaArgum
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf#device DataIosxeStaticRoutesVrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf#device DataIosxeStaticRoutesVrf#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf#vrf DataIosxeStaticRoutesVrf#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf#vrf DataIosxeStaticRoutesVrf#vrf}
   */
   readonly vrf: string;
 }
@@ -312,7 +312,7 @@ export class DataIosxeStaticRoutesVrfRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf iosxe_static_routes_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf iosxe_static_routes_vrf}
 */
 export class DataIosxeStaticRoutesVrf extends cdktf.TerraformDataSource {
 
@@ -328,7 +328,7 @@ export class DataIosxeStaticRoutesVrf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeStaticRoutesVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeStaticRoutesVrf to import
-  * @param importFromId The id of the existing DataIosxeStaticRoutesVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeStaticRoutesVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeStaticRoutesVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DataIosxeStaticRoutesVrf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/static_routes_vrf iosxe_static_routes_vrf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.15.0/docs/data-sources/static_routes_vrf iosxe_static_routes_vrf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DataIosxeStaticRoutesVrf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_static_routes_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

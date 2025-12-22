@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STfTungstenIoManagerV1Alpha1ManifestMetadata;
   /**
   * ManagerSpec defines the desired state of Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#annotations DataK8STfTungstenIoManagerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#annotations DataK8STfTungstenIoManagerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#namespace DataK8STfTungstenIoManagerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#namespace DataK8STfTungstenIoManagerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,47 +217,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestMetadataOutputReference e
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -643,17 +643,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurati
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -807,31 +807,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurati
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1065,49 +1065,49 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurati
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurationAuthParameters;
   /**
   * Certificate private key length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cert_key_length DataK8STfTungstenIoManagerV1Alpha1Manifest#cert_key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cert_key_length DataK8STfTungstenIoManagerV1Alpha1Manifest#cert_key_length}
   */
   readonly certKeyLength?: number;
   /**
   * Certificate signer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cert_signer DataK8STfTungstenIoManagerV1Alpha1Manifest#cert_signer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cert_signer DataK8STfTungstenIoManagerV1Alpha1Manifest#cert_signer}
   */
   readonly certSigner?: string;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -1404,11 +1404,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfigurationOu
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1531,47 +1531,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsMeta
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -1957,17 +1957,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -2121,31 +2121,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2379,37 +2379,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -2648,15 +2648,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpec
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2832,51 +2832,51 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AAAMode aaa mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#aaa_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#aaa_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#aaa_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#aaa_mode}
   */
   readonly aaaMode?: string;
   /**
   * Time (in hours) the analytics config data entering the collector stays in the Cassandra database. Defaults to 2160 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_config_audit_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_config_audit_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_config_audit_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_config_audit_ttl}
   */
   readonly analyticsConfigAuditTtl?: number;
   /**
   * Time (in hours) that the analytics object and log data stays in the Cassandra database. Defaults to 48 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_data_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_data_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_data_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_data_ttl}
   */
   readonly analyticsDataTtl?: number;
   /**
   * Time to live (TTL) for flow data in hours. Defaults to 2 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_flow_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_flow_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_flow_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_flow_ttl}
   */
   readonly analyticsFlowTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_introspect_port}
   */
   readonly analyticsIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_port}
   */
   readonly analyticsPort?: number;
   /**
   * Time to live (TTL) for statistics data in hours. Defaults to 4 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_statistics_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_statistics_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_statistics_ttl DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_statistics_ttl}
   */
   readonly analyticsStatisticsTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_introspect_port}
   */
   readonly collectorIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_port}
   */
   readonly collectorPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecServiceConfigurationContainers[] | cdktf.IResolvable;
 }
@@ -3233,13 +3233,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecCommonConfiguration;
   /**
   * AnalyticsConfiguration is the Spec for the Analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpecServiceConfiguration;
 }
@@ -3361,13 +3361,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsMetadata;
   /**
   * AnalyticsSpec is the Spec for the Analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSpec;
 }
@@ -3490,11 +3490,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsOutp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3617,47 +3617,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlar
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -4043,17 +4043,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -4207,31 +4207,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4465,37 +4465,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -4734,15 +4734,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlar
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4916,31 +4916,31 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlar
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_introspect_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_introspect_listen_port}
   */
   readonly alarmgenIntrospectListenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_log_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_log_file_name}
   */
   readonly alarmgenLogFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_partitions DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_partitions DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_partitions}
   */
   readonly alarmgenPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_redis_aggregate_db_offset DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_redis_aggregate_db_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#alarmgen_redis_aggregate_db_offset DataK8STfTungstenIoManagerV1Alpha1Manifest#alarmgen_redis_aggregate_db_offset}
   */
   readonly alarmgenRedisAggregateDbOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_file_path DataK8STfTungstenIoManagerV1Alpha1Manifest#log_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_file_path DataK8STfTungstenIoManagerV1Alpha1Manifest#log_file_path}
   */
   readonly logFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
   */
   readonly logLocal?: string;
 }
@@ -5210,13 +5210,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecCommonConfiguration;
   /**
   * AnalyticsAlarmConfiguration is the Spec for the Analytics Alarm API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpecServiceConfiguration;
 }
@@ -5338,13 +5338,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmMetadata;
   /**
   * AnalyticsAlarmSpec is the Spec for the Analytics Alarm API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarmSpec;
 }
@@ -5467,11 +5467,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlar
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5594,47 +5594,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -6020,17 +6020,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -6184,31 +6184,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6442,37 +6442,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -6711,15 +6711,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6893,43 +6893,43 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_file_path DataK8STfTungstenIoManagerV1Alpha1Manifest#log_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_file_path DataK8STfTungstenIoManagerV1Alpha1Manifest#log_file_path}
   */
   readonly logFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
   */
   readonly logLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_fast_scan_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_fast_scan_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_fast_scan_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_fast_scan_frequency}
   */
   readonly snmpCollectorFastScanFrequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_introspect_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_introspect_listen_port}
   */
   readonly snmpCollectorIntrospectListenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_log_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_log_file_name}
   */
   readonly snmpCollectorLogFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_scan_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_scan_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#snmp_collector_scan_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#snmp_collector_scan_frequency}
   */
   readonly snmpCollectorScanFrequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_introspect_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_introspect_listen_port DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_introspect_listen_port}
   */
   readonly topologyIntrospectListenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_log_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_log_file_name DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_log_file_name}
   */
   readonly topologyLogFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_snmp_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_snmp_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#topology_snmp_frequency DataK8STfTungstenIoManagerV1Alpha1Manifest#topology_snmp_frequency}
   */
   readonly topologySnmpFrequency?: number;
 }
@@ -7286,13 +7286,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecCommonConfiguration;
   /**
   * AnalyticsSnmpConfiguration is the Spec for the Analytics SNMP API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpecServiceConfiguration;
 }
@@ -7414,13 +7414,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpMetadata;
   /**
   * AnalyticsSnmpSpec is the Spec for the Analytics SNMP API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmpSpec;
 }
@@ -7543,11 +7543,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7670,47 +7670,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasMet
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -8096,17 +8096,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -8260,31 +8260,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8518,37 +8518,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -8787,35 +8787,35 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpe
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecServiceConfigurationCassandraParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#compaction_throughput_mb_per_sec DataK8STfTungstenIoManagerV1Alpha1Manifest#compaction_throughput_mb_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#compaction_throughput_mb_per_sec DataK8STfTungstenIoManagerV1Alpha1Manifest#compaction_throughput_mb_per_sec}
   */
   readonly compactionThroughputMbPerSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_compactors DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_compactors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_compactors DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_compactors}
   */
   readonly concurrentCompactors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_counter_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_counter_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_counter_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_counter_writes}
   */
   readonly concurrentCounterWrites?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_materialized_view_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_materialized_view_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_materialized_view_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_materialized_view_writes}
   */
   readonly concurrentMaterializedViewWrites?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_reads DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_reads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_reads DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_reads}
   */
   readonly concurrentReads?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#concurrent_writes DataK8STfTungstenIoManagerV1Alpha1Manifest#concurrent_writes}
   */
   readonly concurrentWrites?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#memtable_allocation_type DataK8STfTungstenIoManagerV1Alpha1Manifest#memtable_allocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#memtable_allocation_type DataK8STfTungstenIoManagerV1Alpha1Manifest#memtable_allocation_type}
   */
   readonly memtableAllocationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#memtable_flush_writers DataK8STfTungstenIoManagerV1Alpha1Manifest#memtable_flush_writers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#memtable_flush_writers DataK8STfTungstenIoManagerV1Alpha1Manifest#memtable_flush_writers}
   */
   readonly memtableFlushWriters?: number;
 }
@@ -9112,15 +9112,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpe
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9296,63 +9296,63 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * CassandraConfigParameters defines additional parameters for Cassandra confgiuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cassandra_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#cassandra_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cassandra_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#cassandra_parameters}
   */
   readonly cassandraParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecServiceConfigurationCassandraParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cql_port DataK8STfTungstenIoManagerV1Alpha1Manifest#cql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cql_port DataK8STfTungstenIoManagerV1Alpha1Manifest#cql_port}
   */
   readonly cqlPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#jmx_local_port DataK8STfTungstenIoManagerV1Alpha1Manifest#jmx_local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#jmx_local_port DataK8STfTungstenIoManagerV1Alpha1Manifest#jmx_local_port}
   */
   readonly jmxLocalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#listen_address DataK8STfTungstenIoManagerV1Alpha1Manifest#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#listen_address DataK8STfTungstenIoManagerV1Alpha1Manifest#listen_address}
   */
   readonly listenAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#max_heap_size DataK8STfTungstenIoManagerV1Alpha1Manifest#max_heap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#max_heap_size DataK8STfTungstenIoManagerV1Alpha1Manifest#max_heap_size}
   */
   readonly maxHeapSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#min_heap_size DataK8STfTungstenIoManagerV1Alpha1Manifest#min_heap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#min_heap_size DataK8STfTungstenIoManagerV1Alpha1Manifest#min_heap_size}
   */
   readonly minHeapSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#minimum_disk_gb DataK8STfTungstenIoManagerV1Alpha1Manifest#minimum_disk_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#minimum_disk_gb DataK8STfTungstenIoManagerV1Alpha1Manifest#minimum_disk_gb}
   */
   readonly minimumDiskGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_adm_port DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_adm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_adm_port DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_adm_port}
   */
   readonly reaperAdmPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_app_port DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_app_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_app_port DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_app_port}
   */
   readonly reaperAppPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_enabled DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#reaper_enabled DataK8STfTungstenIoManagerV1Alpha1Manifest#reaper_enabled}
   */
   readonly reaperEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_storage_port DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_storage_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_storage_port DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_storage_port}
   */
   readonly sslStoragePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#start_rpc DataK8STfTungstenIoManagerV1Alpha1Manifest#start_rpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#start_rpc DataK8STfTungstenIoManagerV1Alpha1Manifest#start_rpc}
   */
   readonly startRpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#storage_port DataK8STfTungstenIoManagerV1Alpha1Manifest#storage_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#storage_port DataK8STfTungstenIoManagerV1Alpha1Manifest#storage_port}
   */
   readonly storagePort?: number;
 }
@@ -9854,13 +9854,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecCommonConfiguration;
   /**
   * CassandraConfiguration is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpecServiceConfiguration;
 }
@@ -9982,13 +9982,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandra
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasMetadata;
   /**
   * CassandraSpec is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasSpec;
 }
@@ -10133,11 +10133,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandrasLis
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10260,47 +10260,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigMetadat
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -10686,17 +10686,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpe
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -10850,31 +10850,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpe
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11108,37 +11108,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpe
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -11377,15 +11377,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCom
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -11559,23 +11559,23 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecSer
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecServiceConfigurationLinklocalServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip DataK8STfTungstenIoManagerV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip DataK8STfTungstenIoManagerV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_service_host DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_service_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_service_host DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_service_host}
   */
   readonly ipFabricServiceHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_service_port DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_service_port DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_service_port}
   */
   readonly ipFabricServicePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -11787,65 +11787,65 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpe
   /**
   * AAAMode aaa mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#aaa_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#aaa_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#aaa_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#aaa_mode}
   */
   readonly aaaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_admin_port}
   */
   readonly apiAdminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_introspect_port}
   */
   readonly apiIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#api_port}
   */
   readonly apiPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_worker_count DataK8STfTungstenIoManagerV1Alpha1Manifest#api_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#api_worker_count DataK8STfTungstenIoManagerV1Alpha1Manifest#api_worker_count}
   */
   readonly apiWorkerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_auto_mesh DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_auto_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_auto_mesh DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_auto_mesh}
   */
   readonly bgpAutoMesh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_enable4_byte DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_enable4_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_enable4_byte DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_enable4_byte}
   */
   readonly bgpEnable4Byte?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#device_manager_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#device_manager_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#device_manager_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#device_manager_introspect_port}
   */
   readonly deviceManagerIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#fabric_mgmt_ip DataK8STfTungstenIoManagerV1Alpha1Manifest#fabric_mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#fabric_mgmt_ip DataK8STfTungstenIoManagerV1Alpha1Manifest#fabric_mgmt_ip}
   */
   readonly fabricMgmtIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#global_asn_number DataK8STfTungstenIoManagerV1Alpha1Manifest#global_asn_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#global_asn_number DataK8STfTungstenIoManagerV1Alpha1Manifest#global_asn_number}
   */
   readonly globalAsnNumber?: number;
   /**
   * LinklocalServiceConfig is the Spec for link local coniguration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linklocal_service_config DataK8STfTungstenIoManagerV1Alpha1Manifest#linklocal_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linklocal_service_config DataK8STfTungstenIoManagerV1Alpha1Manifest#linklocal_service_config}
   */
   readonly linklocalServiceConfig?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecServiceConfigurationLinklocalServiceConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#schema_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#schema_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#schema_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#schema_introspect_port}
   */
   readonly schemaIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#svc_monitor_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#svc_monitor_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#svc_monitor_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#svc_monitor_introspect_port}
   */
   readonly svcMonitorIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#use_external_tftp DataK8STfTungstenIoManagerV1Alpha1Manifest#use_external_tftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#use_external_tftp DataK8STfTungstenIoManagerV1Alpha1Manifest#use_external_tftp}
   */
   readonly useExternalTftp?: boolean | cdktf.IResolvable;
 }
@@ -12347,13 +12347,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpe
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecCommonConfiguration;
   /**
   * ConfigConfiguration is the Spec for the Config API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpecServiceConfiguration;
 }
@@ -12475,13 +12475,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfig {
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigMetadata;
   /**
   * ConfigSpec is the Spec for the Config API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigSpec;
 }
@@ -12604,11 +12604,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfigOutputR
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12731,47 +12731,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsMetad
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -13157,17 +13157,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsS
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -13321,31 +13321,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsS
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13579,37 +13579,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsS
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -13848,15 +13848,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecC
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14030,41 +14030,41 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecS
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#asn_number DataK8STfTungstenIoManagerV1Alpha1Manifest#asn_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#asn_number DataK8STfTungstenIoManagerV1Alpha1Manifest#asn_number}
   */
   readonly asnNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_port DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#bgp_port DataK8STfTungstenIoManagerV1Alpha1Manifest#bgp_port}
   */
   readonly bgpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
   * DataSubnet allow to set alternative network in which control, nodemanager and dns services will listen. Local pod address from this subnet will be discovered and used both in configuration for hostip directive and provision script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#data_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#data_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#data_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#data_subnet}
   */
   readonly dataSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_introspect_port}
   */
   readonly dnsIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_port}
   */
   readonly dnsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#rndckey DataK8STfTungstenIoManagerV1Alpha1Manifest#rndckey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#rndckey DataK8STfTungstenIoManagerV1Alpha1Manifest#rndckey}
   */
   readonly rndckey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#subcluster DataK8STfTungstenIoManagerV1Alpha1Manifest#subcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#subcluster DataK8STfTungstenIoManagerV1Alpha1Manifest#subcluster}
   */
   readonly subcluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_port DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_port DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_port}
   */
   readonly xmppPort?: number;
 }
@@ -14392,13 +14392,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsS
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecCommonConfiguration;
   /**
   * ControlConfiguration is the Spec for the controls API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpecServiceConfiguration;
 }
@@ -14520,13 +14520,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControls 
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsMetadata;
   /**
   * ControlSpec is the Spec for the controls API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsSpec;
 }
@@ -14671,11 +14671,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControlsList 
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14798,47 +14798,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerMe
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -15224,17 +15224,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanag
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -15388,31 +15388,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanag
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15646,37 +15646,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanag
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -15915,15 +15915,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16097,55 +16097,55 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cloud_orchestrator DataK8STfTungstenIoManagerV1Alpha1Manifest#cloud_orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cloud_orchestrator DataK8STfTungstenIoManagerV1Alpha1Manifest#cloud_orchestrator}
   */
   readonly cloudOrchestrator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#host_network_service DataK8STfTungstenIoManagerV1Alpha1Manifest#host_network_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#host_network_service DataK8STfTungstenIoManagerV1Alpha1Manifest#host_network_service}
   */
   readonly hostNetworkService?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_forwarding DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_forwarding DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_forwarding}
   */
   readonly ipFabricForwarding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_snat DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_snat DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_snat}
   */
   readonly ipFabricSnat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_subnets DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ip_fabric_subnets DataK8STfTungstenIoManagerV1Alpha1Manifest#ip_fabric_subnets}
   */
   readonly ipFabricSubnets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_port}
   */
   readonly kubernetesApiPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_server DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_server DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_server}
   */
   readonly kubernetesApiServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_apissl_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_apissl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_apissl_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_apissl_port}
   */
   readonly kubernetesApisslPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_token_file DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_token_file DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_token_file}
   */
   readonly kubernetesTokenFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#pod_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#pod_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#pod_subnet}
   */
   readonly podSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#public_fip_pool DataK8STfTungstenIoManagerV1Alpha1Manifest#public_fip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#public_fip_pool DataK8STfTungstenIoManagerV1Alpha1Manifest#public_fip_pool}
   */
   readonly publicFipPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#service_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#service_subnet}
   */
   readonly serviceSubnet?: string;
 }
@@ -16589,13 +16589,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanag
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecCommonConfiguration;
   /**
   * KubemanagerConfiguration is the configuration for the kubemanager API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpecServiceConfiguration;
 }
@@ -16717,13 +16717,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanag
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerMetadata;
   /**
   * KubemanagerSpec is the Spec for the kubemanager API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerSpec;
 }
@@ -16846,11 +16846,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanagerOu
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16973,47 +16973,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineMe
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -17399,17 +17399,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengi
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -17563,31 +17563,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengi
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -17821,37 +17821,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengi
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -18090,15 +18090,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18272,15 +18272,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSp
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analyticsdb_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analyticsdb_introspect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analyticsdb_introspect_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analyticsdb_introspect_port}
   */
   readonly analyticsdbIntrospectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analyticsdb_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analyticsdb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analyticsdb_port DataK8STfTungstenIoManagerV1Alpha1Manifest#analyticsdb_port}
   */
   readonly analyticsdbPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecServiceConfigurationContainers[] | cdktf.IResolvable;
 }
@@ -18434,13 +18434,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengi
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecCommonConfiguration;
   /**
   * QueryEngineConfiguration is the Spec for the AnalyticsDB query engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpecServiceConfiguration;
 }
@@ -18562,13 +18562,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengi
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineMetadata;
   /**
   * QueryEngineSpec is the Spec for the AnalyticsDB query engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineSpec;
 }
@@ -18691,11 +18691,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengineOu
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18818,47 +18818,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqMetad
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -19244,17 +19244,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqS
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -19408,31 +19408,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqS
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -19666,37 +19666,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqS
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -19935,15 +19935,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecC
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20117,23 +20117,23 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecS
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfigurationTcpListenOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#backlog DataK8STfTungstenIoManagerV1Alpha1Manifest#backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#backlog DataK8STfTungstenIoManagerV1Alpha1Manifest#backlog}
   */
   readonly backlog?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#exit_on_close DataK8STfTungstenIoManagerV1Alpha1Manifest#exit_on_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#exit_on_close DataK8STfTungstenIoManagerV1Alpha1Manifest#exit_on_close}
   */
   readonly exitOnClose?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linger_on DataK8STfTungstenIoManagerV1Alpha1Manifest#linger_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linger_on DataK8STfTungstenIoManagerV1Alpha1Manifest#linger_on}
   */
   readonly lingerOn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linger_timeout DataK8STfTungstenIoManagerV1Alpha1Manifest#linger_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#linger_timeout DataK8STfTungstenIoManagerV1Alpha1Manifest#linger_timeout}
   */
   readonly lingerTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#nodelay DataK8STfTungstenIoManagerV1Alpha1Manifest#nodelay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#nodelay DataK8STfTungstenIoManagerV1Alpha1Manifest#nodelay}
   */
   readonly nodelay?: boolean | cdktf.IResolvable;
 }
@@ -20343,49 +20343,49 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecS
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cluster_partition_handling DataK8STfTungstenIoManagerV1Alpha1Manifest#cluster_partition_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cluster_partition_handling DataK8STfTungstenIoManagerV1Alpha1Manifest#cluster_partition_handling}
   */
   readonly clusterPartitionHandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#erl_epmd_port DataK8STfTungstenIoManagerV1Alpha1Manifest#erl_epmd_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#erl_epmd_port DataK8STfTungstenIoManagerV1Alpha1Manifest#erl_epmd_port}
   */
   readonly erlEpmdPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#erlang_cookie DataK8STfTungstenIoManagerV1Alpha1Manifest#erlang_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#erlang_cookie DataK8STfTungstenIoManagerV1Alpha1Manifest#erlang_cookie}
   */
   readonly erlangCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#mirrored_queue_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#mirrored_queue_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#mirrored_queue_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#mirrored_queue_mode}
   */
   readonly mirroredQueueMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#password DataK8STfTungstenIoManagerV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#password DataK8STfTungstenIoManagerV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#secret DataK8STfTungstenIoManagerV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#secret DataK8STfTungstenIoManagerV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * TCPListenOptionsConfig is configuration for RabbitMQ TCP listen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tcp_listen_options DataK8STfTungstenIoManagerV1Alpha1Manifest#tcp_listen_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tcp_listen_options DataK8STfTungstenIoManagerV1Alpha1Manifest#tcp_listen_options}
   */
   readonly tcpListenOptions?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfigurationTcpListenOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user DataK8STfTungstenIoManagerV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user DataK8STfTungstenIoManagerV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vhost DataK8STfTungstenIoManagerV1Alpha1Manifest#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vhost DataK8STfTungstenIoManagerV1Alpha1Manifest#vhost}
   */
   readonly vhost?: string;
 }
@@ -20771,13 +20771,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqS
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecCommonConfiguration;
   /**
   * RabbitmqConfiguration is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpecServiceConfiguration;
 }
@@ -20899,13 +20899,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmq 
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqMetadata;
   /**
   * RabbitmqSpec is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqSpec;
 }
@@ -21028,11 +21028,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmqOutpu
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -21155,47 +21155,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisMetadata
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -21581,17 +21581,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpec
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -21745,31 +21745,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpec
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -22003,37 +22003,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpec
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -22272,15 +22272,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecComm
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22454,15 +22454,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecServ
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cluster_name DataK8STfTungstenIoManagerV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cluster_name DataK8STfTungstenIoManagerV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#redis_port DataK8STfTungstenIoManagerV1Alpha1Manifest#redis_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#redis_port DataK8STfTungstenIoManagerV1Alpha1Manifest#redis_port}
   */
   readonly redisPort?: number;
 }
@@ -22616,13 +22616,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpec
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecCommonConfiguration;
   /**
   * RedisConfiguration is the Spec for the redis API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpecServiceConfiguration;
 }
@@ -22744,13 +22744,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedis {
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisMetadata;
   /**
   * RedisSpec is the Spec for the redis API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisSpec;
 }
@@ -22895,11 +22895,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedisList ext
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23022,47 +23022,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersMetad
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -23448,17 +23448,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersS
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -23612,31 +23612,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersS
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23870,37 +23870,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersS
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -24139,15 +24139,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecC
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24323,385 +24323,385 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersS
   /**
   * vRouter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#agent_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#agent_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#agent_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#agent_mode}
   */
   readonly agentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_password DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_password DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_password}
   */
   readonly barbicanPassword?: string;
   /**
   * Openstack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_tenant_name DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_tenant_name DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_tenant_name}
   */
   readonly barbicanTenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_user DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#barbican_user DataK8STfTungstenIoManagerV1Alpha1Manifest#barbican_user}
   */
   readonly barbicanUser?: string;
   /**
   * New params for vrouter configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cloud_orchestrator DataK8STfTungstenIoManagerV1Alpha1Manifest#cloud_orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cloud_orchestrator DataK8STfTungstenIoManagerV1Alpha1Manifest#cloud_orchestrator}
   */
   readonly cloudOrchestrator?: string;
   /**
   * CniMTU - mtu for virtual tap devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cni_mtu DataK8STfTungstenIoManagerV1Alpha1Manifest#cni_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cni_mtu DataK8STfTungstenIoManagerV1Alpha1Manifest#cni_mtu}
   */
   readonly cniMtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#collector_port DataK8STfTungstenIoManagerV1Alpha1Manifest#collector_port}
   */
   readonly collectorPort?: string;
   /**
   * Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_port}
   */
   readonly configApiPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_server_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_server_ca_certfile}
   */
   readonly configApiServerCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config_api_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#config_api_ssl_enable}
   */
   readonly configApiSslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#control_instance DataK8STfTungstenIoManagerV1Alpha1Manifest#control_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#control_instance DataK8STfTungstenIoManagerV1Alpha1Manifest#control_instance}
   */
   readonly controlInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#data_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#data_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#data_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#data_subnet}
   */
   readonly dataSubnet?: string;
   /**
   * DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dns_server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#dns_server_port}
   */
   readonly dnsServerPort?: string;
   /**
   * Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dpdk_uio_driver DataK8STfTungstenIoManagerV1Alpha1Manifest#dpdk_uio_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#dpdk_uio_driver DataK8STfTungstenIoManagerV1Alpha1Manifest#dpdk_uio_driver}
   */
   readonly dpdkUioDriver?: string;
   /**
   * What is it doing? VrouterEncryption bool 'json:'vrouterEncryption,omitempty'' What is it doing? What is it doing?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#env_variables_config DataK8STfTungstenIoManagerV1Alpha1Manifest#env_variables_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#env_variables_config DataK8STfTungstenIoManagerV1Alpha1Manifest#env_variables_config}
   */
   readonly envVariablesConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#fabric_snt_hash_table_size DataK8STfTungstenIoManagerV1Alpha1Manifest#fabric_snt_hash_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#fabric_snt_hash_table_size DataK8STfTungstenIoManagerV1Alpha1Manifest#fabric_snt_hash_table_size}
   */
   readonly fabricSntHashTableSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#huge_pages1_g DataK8STfTungstenIoManagerV1Alpha1Manifest#huge_pages1_g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#huge_pages1_g DataK8STfTungstenIoManagerV1Alpha1Manifest#huge_pages1_g}
   */
   readonly hugePages1G?: number;
   /**
   * HugePages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#huge_pages2_m DataK8STfTungstenIoManagerV1Alpha1Manifest#huge_pages2_m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#huge_pages2_m DataK8STfTungstenIoManagerV1Alpha1Manifest#huge_pages2_m}
   */
   readonly hugePages2M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#hypervisor_type DataK8STfTungstenIoManagerV1Alpha1Manifest#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#hypervisor_type DataK8STfTungstenIoManagerV1Alpha1Manifest#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
   * Introspect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#introspect_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#introspect_ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#introspect_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#introspect_ssl_enable}
   */
   readonly introspectSslEnable?: boolean | cdktf.IResolvable;
   /**
   * Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#k8s_token DataK8STfTungstenIoManagerV1Alpha1Manifest#k8s_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#k8s_token DataK8STfTungstenIoManagerV1Alpha1Manifest#k8s_token}
   */
   readonly k8SToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#k8s_token_file DataK8STfTungstenIoManagerV1Alpha1Manifest#k8s_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#k8s_token_file DataK8STfTungstenIoManagerV1Alpha1Manifest#k8s_token_file}
   */
   readonly k8STokenFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_admin_password}
   */
   readonly keystoneAuthAdminPassword?: string;
   /**
   * Keystone authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_admin_port}
   */
   readonly keystoneAuthAdminPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_ca_certfile}
   */
   readonly keystoneAuthCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_certfile}
   */
   readonly keystoneAuthCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_host DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_host DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_host}
   */
   readonly keystoneAuthHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_insecure}
   */
   readonly keystoneAuthInsecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_keyfile}
   */
   readonly keystoneAuthKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_project_domain_name}
   */
   readonly keystoneAuthProjectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_proto DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_proto DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_proto}
   */
   readonly keystoneAuthProto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_region_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_region_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_region_name}
   */
   readonly keystoneAuthRegionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_url_tokens DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_url_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_url_tokens DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_url_tokens}
   */
   readonly keystoneAuthUrlTokens?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_url_version DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_url_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_url_version DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_url_version}
   */
   readonly keystoneAuthUrlVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_user_domain_name}
   */
   readonly keystoneAuthUserDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_port}
   */
   readonly kubernetesApiPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_secure_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_secure_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_api_secure_port DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_api_secure_port}
   */
   readonly kubernetesApiSecurePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_pod_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubernetes_pod_subnet DataK8STfTungstenIoManagerV1Alpha1Manifest#kubernetes_pod_subnet}
   */
   readonly kubernetesPodSubnet?: string;
   /**
   * L3MH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#l3mh_cidr DataK8STfTungstenIoManagerV1Alpha1Manifest#l3mh_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#l3mh_cidr DataK8STfTungstenIoManagerV1Alpha1Manifest#l3mh_cidr}
   */
   readonly l3MhCidr?: string;
   /**
   * Logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_dir DataK8STfTungstenIoManagerV1Alpha1Manifest#log_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_dir DataK8STfTungstenIoManagerV1Alpha1Manifest#log_dir}
   */
   readonly logDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_local DataK8STfTungstenIoManagerV1Alpha1Manifest#log_local}
   */
   readonly logLocal?: number;
   /**
   * Metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_proxy_secret DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_proxy_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_proxy_secret DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_proxy_secret}
   */
   readonly metadataProxySecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_ca_certfile}
   */
   readonly metadataSslCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_cert_type DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_cert_type DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_cert_type}
   */
   readonly metadataSslCertType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_certfile}
   */
   readonly metadataSslCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_enable}
   */
   readonly metadataSslEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata_ssl_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata_ssl_keyfile}
   */
   readonly metadataSslKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#physical_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#physical_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#physical_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#physical_interface}
   */
   readonly physicalInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_bandwidth DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_bandwidth DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_bandwidth}
   */
   readonly priorityBandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_id DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_id DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_id}
   */
   readonly priorityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_scheduling DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_scheduling DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_scheduling}
   */
   readonly priorityScheduling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_tagging DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#priority_tagging DataK8STfTungstenIoManagerV1Alpha1Manifest#priority_tagging}
   */
   readonly priorityTagging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_def_hw_queue DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_def_hw_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_def_hw_queue DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_def_hw_queue}
   */
   readonly qosDefHwQueue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_logical_queues DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_logical_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_logical_queues DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_logical_queues}
   */
   readonly qosLogicalQueues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_queue_id DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#qos_queue_id DataK8STfTungstenIoManagerV1Alpha1Manifest#qos_queue_id}
   */
   readonly qosQueueId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#required_kernel_vrouter_encryption DataK8STfTungstenIoManagerV1Alpha1Manifest#required_kernel_vrouter_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#required_kernel_vrouter_encryption DataK8STfTungstenIoManagerV1Alpha1Manifest#required_kernel_vrouter_encryption}
   */
   readonly requiredKernelVrouterEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sample_destination DataK8STfTungstenIoManagerV1Alpha1Manifest#sample_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sample_destination DataK8STfTungstenIoManagerV1Alpha1Manifest#sample_destination}
   */
   readonly sampleDestination?: string;
   /**
   * Sandesh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_ca_certfile}
   */
   readonly sandeshCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_certfile}
   */
   readonly sandeshCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_keyfile}
   */
   readonly sandeshKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_server_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_server_certfile}
   */
   readonly sandeshServerCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_server_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_server_keyfile}
   */
   readonly sandeshServerKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sandesh_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#sandesh_ssl_enable}
   */
   readonly sandeshSslEnable?: boolean | cdktf.IResolvable;
   /**
   * Server SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_ca_certfile}
   */
   readonly serverCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_certfile}
   */
   readonly serverCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#server_keyfile}
   */
   readonly serverKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#slo_destination DataK8STfTungstenIoManagerV1Alpha1Manifest#slo_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#slo_destination DataK8STfTungstenIoManagerV1Alpha1Manifest#slo_destination}
   */
   readonly sloDestination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_physical_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_physical_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_physical_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_physical_interface}
   */
   readonly sriovPhysicalInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_physical_network DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_physical_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_physical_network DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_physical_network}
   */
   readonly sriovPhysicalNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_vf DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_vf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#sriov_vf DataK8STfTungstenIoManagerV1Alpha1Manifest#sriov_vf}
   */
   readonly sriovVf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#ssl_insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#ssl_insecure}
   */
   readonly sslInsecure?: boolean | cdktf.IResolvable;
   /**
   * Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#stats_collector_destination_path DataK8STfTungstenIoManagerV1Alpha1Manifest#stats_collector_destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#stats_collector_destination_path DataK8STfTungstenIoManagerV1Alpha1Manifest#stats_collector_destination_path}
   */
   readonly statsCollectorDestinationPath?: string;
   /**
   * XMPP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#subcluster DataK8STfTungstenIoManagerV1Alpha1Manifest#subcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#subcluster DataK8STfTungstenIoManagerV1Alpha1Manifest#subcluster}
   */
   readonly subcluster?: string;
   /**
   * TSN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tsn_agent_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#tsn_agent_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tsn_agent_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#tsn_agent_mode}
   */
   readonly tsnAgentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_crypt_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_crypt_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_crypt_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_crypt_interface}
   */
   readonly vrouterCryptInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_decrypt_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_decrypt_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_decrypt_interface DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_decrypt_interface}
   */
   readonly vrouterDecryptInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_decrypt_key DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_decrypt_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_decrypt_key DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_decrypt_key}
   */
   readonly vrouterDecryptKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_encryption DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_encryption DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_encryption}
   */
   readonly vrouterEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_gateway DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouter_gateway DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouter_gateway}
   */
   readonly vrouterGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmmp_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#xmmp_ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmmp_ssl_enable DataK8STfTungstenIoManagerV1Alpha1Manifest#xmmp_ssl_enable}
   */
   readonly xmmpSslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_ca_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_ca_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_ca_certfile}
   */
   readonly xmppServerCaCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_certfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_certfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_certfile}
   */
   readonly xmppServerCertfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_keyfile DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_keyfile}
   */
   readonly xmppServerKeyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#xmpp_server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#xmpp_server_port}
   */
   readonly xmppServerPort?: string;
 }
@@ -27262,13 +27262,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersS
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecCommonConfiguration;
   /**
   * VrouterConfiguration is the Spec for the vrouter API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpecServiceConfiguration;
 }
@@ -27390,13 +27390,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVrouters 
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersMetadata;
   /**
   * VrouterSpec is the Spec for the vrouter API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersSpec;
 }
@@ -27541,11 +27541,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVroutersList 
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27668,47 +27668,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiMetadata
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -28094,17 +28094,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpec
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -28258,31 +28258,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpec
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -28516,37 +28516,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpec
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -28785,15 +28785,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecComm
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -28967,11 +28967,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecServ
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#control_instance DataK8STfTungstenIoManagerV1Alpha1Manifest#control_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#control_instance DataK8STfTungstenIoManagerV1Alpha1Manifest#control_instance}
   */
   readonly controlInstance?: string;
 }
@@ -29096,13 +29096,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpec
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecCommonConfiguration;
   /**
   * WebuiConfiguration is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpecServiceConfiguration;
 }
@@ -29224,13 +29224,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebui {
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiMetadata;
   /**
   * WebuiSpec is the Spec for the cassandras API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiSpec;
 }
@@ -29353,11 +29353,11 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebuiOutputRe
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#labels DataK8STfTungstenIoManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -29480,47 +29480,47 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperMeta
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecCommonConfigurationAuthParametersKeystoneAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#address DataK8STfTungstenIoManagerV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_password DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_tenant DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_tenant}
   */
   readonly adminTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_username DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_protocol DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_protocol}
   */
   readonly authProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#insecure DataK8STfTungstenIoManagerV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#port DataK8STfTungstenIoManagerV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#project_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#region DataK8STfTungstenIoManagerV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#user_domain_name DataK8STfTungstenIoManagerV1Alpha1Manifest#user_domain_name}
   */
   readonly userDomainName?: string;
 }
@@ -29906,17 +29906,17 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper
   /**
   * AuthenticationMode auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_mode DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_mode}
   */
   readonly authMode?: string;
   /**
   * KeystoneAuthParameters keystone parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_auth_parameters}
   */
   readonly keystoneAuthParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecCommonConfigurationAuthParametersKeystoneAuthParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#keystone_secret_name DataK8STfTungstenIoManagerV1Alpha1Manifest#keystone_secret_name}
   */
   readonly keystoneSecretName?: string;
 }
@@ -30070,31 +30070,31 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#effect DataK8STfTungstenIoManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#key DataK8STfTungstenIoManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#operator DataK8STfTungstenIoManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#toleration_seconds DataK8STfTungstenIoManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#value DataK8STfTungstenIoManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -30328,37 +30328,37 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper
   /**
   * AuthParameters auth parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#auth_parameters DataK8STfTungstenIoManagerV1Alpha1Manifest#auth_parameters}
   */
   readonly authParameters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecCommonConfigurationAuthParameters;
   /**
   * OS family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#distribution DataK8STfTungstenIoManagerV1Alpha1Manifest#distribution}
   */
   readonly distribution?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image_pull_secrets DataK8STfTungstenIoManagerV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Kubernetes Cluster Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#log_level DataK8STfTungstenIoManagerV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#node_selector DataK8STfTungstenIoManagerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#tolerations DataK8STfTungstenIoManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecCommonConfigurationTolerations[] | cdktf.IResolvable;
 }
@@ -30597,15 +30597,15 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpec
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecServiceConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#command DataK8STfTungstenIoManagerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#image DataK8STfTungstenIoManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#name DataK8STfTungstenIoManagerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -30779,27 +30779,27 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpec
 }
 export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_enabled DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_enabled DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_enabled}
   */
   readonly adminEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#admin_port DataK8STfTungstenIoManagerV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#client_port DataK8STfTungstenIoManagerV1Alpha1Manifest#client_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#client_port DataK8STfTungstenIoManagerV1Alpha1Manifest#client_port}
   */
   readonly clientPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#containers DataK8STfTungstenIoManagerV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecServiceConfigurationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#election_port DataK8STfTungstenIoManagerV1Alpha1Manifest#election_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#election_port DataK8STfTungstenIoManagerV1Alpha1Manifest#election_port}
   */
   readonly electionPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#server_port DataK8STfTungstenIoManagerV1Alpha1Manifest#server_port}
   */
   readonly serverPort?: number;
 }
@@ -31040,13 +31040,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper
   /**
   * PodConfiguration is the common services struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecCommonConfiguration;
   /**
   * ZookeeperConfiguration is the Spec for the zookeeper API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#service_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#service_configuration}
   */
   readonly serviceConfiguration: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpecServiceConfiguration;
 }
@@ -31168,13 +31168,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper
   /**
   * Input data is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#metadata DataK8STfTungstenIoManagerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperMetadata;
   /**
   * ZookeeperSpec is the Spec for the zookeeper API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#spec DataK8STfTungstenIoManagerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeperSpec;
 }
@@ -31299,71 +31299,71 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServices {
   /**
   * AnalyticsInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics}
   */
   readonly analytics?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalytics;
   /**
   * AnalyticsAlarmInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_alarm DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_alarm DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_alarm}
   */
   readonly analyticsAlarm?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsAlarm;
   /**
   * AnalyticsSnmpInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_snmp DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#analytics_snmp DataK8STfTungstenIoManagerV1Alpha1Manifest#analytics_snmp}
   */
   readonly analyticsSnmp?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesAnalyticsSnmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cassandras DataK8STfTungstenIoManagerV1Alpha1Manifest#cassandras}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#cassandras DataK8STfTungstenIoManagerV1Alpha1Manifest#cassandras}
   */
   readonly cassandras?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesCassandras[] | cdktf.IResolvable;
   /**
   * ConfigInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config DataK8STfTungstenIoManagerV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#config DataK8STfTungstenIoManagerV1Alpha1Manifest#config}
   */
   readonly config?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#controls DataK8STfTungstenIoManagerV1Alpha1Manifest#controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#controls DataK8STfTungstenIoManagerV1Alpha1Manifest#controls}
   */
   readonly controls?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesControls[] | cdktf.IResolvable;
   /**
   * KubemanagerInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubemanager DataK8STfTungstenIoManagerV1Alpha1Manifest#kubemanager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#kubemanager DataK8STfTungstenIoManagerV1Alpha1Manifest#kubemanager}
   */
   readonly kubemanager?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesKubemanager;
   /**
   * QueryEngineInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#queryengine DataK8STfTungstenIoManagerV1Alpha1Manifest#queryengine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#queryengine DataK8STfTungstenIoManagerV1Alpha1Manifest#queryengine}
   */
   readonly queryengine?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesQueryengine;
   /**
   * RabbitmqInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#rabbitmq DataK8STfTungstenIoManagerV1Alpha1Manifest#rabbitmq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#rabbitmq DataK8STfTungstenIoManagerV1Alpha1Manifest#rabbitmq}
   */
   readonly rabbitmq?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRabbitmq;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#redis DataK8STfTungstenIoManagerV1Alpha1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#redis DataK8STfTungstenIoManagerV1Alpha1Manifest#redis}
   */
   readonly redis?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesRedis[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouters DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#vrouters DataK8STfTungstenIoManagerV1Alpha1Manifest#vrouters}
   */
   readonly vrouters?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesVrouters[] | cdktf.IResolvable;
   /**
   * WebuiInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#webui DataK8STfTungstenIoManagerV1Alpha1Manifest#webui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#webui DataK8STfTungstenIoManagerV1Alpha1Manifest#webui}
   */
   readonly webui?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesWebui;
   /**
   * ZookeeperInput is the Schema for the analytics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#zookeeper DataK8STfTungstenIoManagerV1Alpha1Manifest#zookeeper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#zookeeper DataK8STfTungstenIoManagerV1Alpha1Manifest#zookeeper}
   */
   readonly zookeeper?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServicesZookeeper;
 }
@@ -31807,13 +31807,13 @@ export interface DataK8STfTungstenIoManagerV1Alpha1ManifestSpec {
   /**
   * INSERT ADDITIONAL SPEC FIELDS - desired state of cluster Important: Run 'operator-sdk generate k8s' to regenerate code after modifying this file Add custom validation using kubebuilder tags: https://book.kubebuilder.io/beyond_basics/generating_crd.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#common_configuration DataK8STfTungstenIoManagerV1Alpha1Manifest#common_configuration}
   */
   readonly commonConfiguration?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecCommonConfiguration;
   /**
   * Services defines the desired state of Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#services DataK8STfTungstenIoManagerV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#services DataK8STfTungstenIoManagerV1Alpha1Manifest#services}
   */
   readonly services?: DataK8STfTungstenIoManagerV1Alpha1ManifestSpecServices;
 }
@@ -31936,7 +31936,7 @@ export class DataK8STfTungstenIoManagerV1Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest k8s_tf_tungsten_io_manager_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest k8s_tf_tungsten_io_manager_v1alpha1_manifest}
 */
 export class DataK8STfTungstenIoManagerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -31952,7 +31952,7 @@ export class DataK8STfTungstenIoManagerV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8STfTungstenIoManagerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STfTungstenIoManagerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STfTungstenIoManagerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STfTungstenIoManagerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STfTungstenIoManagerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -31964,7 +31964,7 @@ export class DataK8STfTungstenIoManagerV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest k8s_tf_tungsten_io_manager_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/tf_tungsten_io_manager_v1alpha1_manifest k8s_tf_tungsten_io_manager_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -31975,8 +31975,8 @@ export class DataK8STfTungstenIoManagerV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_tf_tungsten_io_manager_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

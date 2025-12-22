@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#metadata DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#metadata DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestMetadata;
   /**
   * HostedZoneSpec defines the desired state of HostedZone. A complex type that contains general information about the hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#spec DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#spec DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#annotations DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#annotations DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#labels DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#labels DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#name DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#name DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#namespace DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#namespace DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecHostedZoneConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#comment DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#comment DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#private_zone DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#private_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#private_zone DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#private_zone}
   */
   readonly privateZone?: boolean | cdktf.IResolvable;
 }
@@ -344,11 +344,11 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecHostedZon
 }
 export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#key DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#key DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#value DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#value DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -495,11 +495,11 @@ export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecVpc {
   /**
   * (Private hosted zones only) The ID of an Amazon VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc_id DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc_id DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc_region DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc_region DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc_region}
   */
   readonly vpcRegion?: string;
 }
@@ -624,31 +624,31 @@ export interface DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpec {
   /**
   * If you want to associate a reusable delegation set with this hosted zone, the ID that Amazon Route 53 assigned to the reusable delegation set when you created it. For more information about reusable delegation sets, see CreateReusableDelegationSet (https://docs.aws.amazon.com/Route53/latest/APIReference/API_CreateReusableDelegationSet.html). If you are using a reusable delegation set to create a public hosted zone for a subdomain, make sure that the parent hosted zone doesn't use one or more of the same name servers. If you have overlapping nameservers, the operation will cause a ConflictingDomainsExist error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#delegation_set_id DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#delegation_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#delegation_set_id DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#delegation_set_id}
   */
   readonly delegationSetId?: string;
   /**
   * (Optional) A complex type that contains the following optional values: * For public and private hosted zones, an optional comment * For private hosted zones, an optional PrivateZone element If you don't specify a comment or the PrivateZone element, omit HostedZoneConfig and the other elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#hosted_zone_config DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#hosted_zone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#hosted_zone_config DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#hosted_zone_config}
   */
   readonly hostedZoneConfig?: DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecHostedZoneConfig;
   /**
   * The name of the domain. Specify a fully qualified domain name, for example, www.example.com. The trailing dot is optional; Amazon Route 53 assumes that the domain name is fully qualified. This means that Route 53 treats www.example.com (without a trailing dot) and www.example.com. (with a trailing dot) as identical. If you're creating a public hosted zone, this is the name you have registered with your DNS registrar. If your domain name is registered with a registrar other than Route 53, change the name servers for your domain to the set of NameServers that CreateHostedZone returns in DelegationSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#name DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#name DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * A complex type that contains a list of the tags that you want to add to the specified health check or hosted zone and/or the tags that you want to edit Value for. You can add a maximum of 10 tags to a health check or a hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#tags DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#tags DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * (Private hosted zones only) A complex type that contains information about the Amazon VPC that you're associating with this hosted zone. You can specify only one Amazon VPC when you create a private hosted zone. If you are associating a VPC with a hosted zone with this request, the paramaters VPCId and VPCRegion are also required. To associate additional Amazon VPCs with the hosted zone, use AssociateVPCWithHostedZone (https://docs.aws.amazon.com/Route53/latest/APIReference/API_AssociateVPCWithHostedZone.html) after you create a hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#vpc DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest#vpc}
   */
   readonly vpc?: DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecVpc;
 }
@@ -855,7 +855,7 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest k8s_route53_services_k8s_aws_hosted_zone_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest k8s_route53_services_k8s_aws_hosted_zone_v1alpha1_manifest}
 */
 export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -871,7 +871,7 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -883,7 +883,7 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest k8s_route53_services_k8s_aws_hosted_zone_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/route53_services_k8s_aws_hosted_zone_v1alpha1_manifest k8s_route53_services_k8s_aws_hosted_zone_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -894,8 +894,8 @@ export class DataK8SRoute53ServicesK8SAwsHostedZoneV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_route53_services_k8s_aws_hosted_zone_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

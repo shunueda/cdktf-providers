@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRediscloudActiveActiveTransitGatewayInvitationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations#id DataRediscloudActiveActiveTransitGatewayInvitations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations#id DataRediscloudActiveActiveTransitGatewayInvitations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataRediscloudActiveActiveTransitGatewayInvitationsConfig exten
   /**
   * The region ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations#region_id DataRediscloudActiveActiveTransitGatewayInvitations#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations#region_id DataRediscloudActiveActiveTransitGatewayInvitations#region_id}
   */
   readonly regionId: number;
   /**
   * The ID of the Active-Active subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations#subscription_id DataRediscloudActiveActiveTransitGatewayInvitations#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations#subscription_id DataRediscloudActiveActiveTransitGatewayInvitations#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -129,7 +129,7 @@ export class DataRediscloudActiveActiveTransitGatewayInvitationsInvitationsList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations rediscloud_active_active_transit_gateway_invitations}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations rediscloud_active_active_transit_gateway_invitations}
 */
 export class DataRediscloudActiveActiveTransitGatewayInvitations extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataRediscloudActiveActiveTransitGatewayInvitations extends cdktf.T
   * Generates CDKTF code for importing a DataRediscloudActiveActiveTransitGatewayInvitations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudActiveActiveTransitGatewayInvitations to import
-  * @param importFromId The id of the existing DataRediscloudActiveActiveTransitGatewayInvitations that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudActiveActiveTransitGatewayInvitations that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudActiveActiveTransitGatewayInvitations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataRediscloudActiveActiveTransitGatewayInvitations extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway_invitations rediscloud_active_active_transit_gateway_invitations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.10.0/docs/data-sources/active_active_transit_gateway_invitations rediscloud_active_active_transit_gateway_invitations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataRediscloudActiveActiveTransitGatewayInvitations extends cdktf.T
       terraformResourceType: 'rediscloud_active_active_transit_gateway_invitations',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

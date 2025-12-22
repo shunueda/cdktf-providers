@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#metadata DataK8SOperatorTigeraIoApplicationLayerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#metadata DataK8SOperatorTigeraIoApplicationLayerV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoApplicationLayerV1ManifestMetadata;
   /**
   * ApplicationLayerSpec defines the desired state of ApplicationLayer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#annotations DataK8SOperatorTigeraIoApplicationLayerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#annotations DataK8SOperatorTigeraIoApplicationLayerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#labels DataK8SOperatorTigeraIoApplicationLayerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#labels DataK8SOperatorTigeraIoApplicationLayerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecEnvoy {
   /**
   * If set to true, the Envoy connection manager will use the real remote address of the client connection when determining internal versus external origin and manipulating various headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#use_remote_address DataK8SOperatorTigeraIoApplicationLayerV1Manifest#use_remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#use_remote_address DataK8SOperatorTigeraIoApplicationLayerV1Manifest#use_remote_address}
   */
   readonly useRemoteAddress?: boolean | cdktf.IResolvable;
   /**
   * The number of additional ingress proxy hops from the right side of the x-forwarded-for HTTP header to trust when determining the origin client’s IP address. 0 is permitted, but >=1 is the typical setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#xff_num_trusted_hops DataK8SOperatorTigeraIoApplicationLayerV1Manifest#xff_num_trusted_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#xff_num_trusted_hops DataK8SOperatorTigeraIoApplicationLayerV1Manifest#xff_num_trusted_hops}
   */
   readonly xffNumTrustedHops?: number;
 }
@@ -318,7 +318,7 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -433,19 +433,19 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#claims DataK8SOperatorTigeraIoApplicationLayerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#claims DataK8SOperatorTigeraIoApplicationLayerV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#limits DataK8SOperatorTigeraIoApplicationLayerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#limits DataK8SOperatorTigeraIoApplicationLayerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#requests DataK8SOperatorTigeraIoApplicationLayerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#requests DataK8SOperatorTigeraIoApplicationLayerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -599,13 +599,13 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Name is an enum which identifies the L7LogCollector DaemonSet container by name. Supported values are: l7-collector, envoy-proxy, dikastes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named L7LogCollector DaemonSet container's resources. If omitted, the L7LogCollector DaemonSet will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#resources DataK8SOperatorTigeraIoApplicationLayerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#resources DataK8SOperatorTigeraIoApplicationLayerV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecContainersResources;
 }
@@ -749,7 +749,7 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -864,19 +864,19 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#claims DataK8SOperatorTigeraIoApplicationLayerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#claims DataK8SOperatorTigeraIoApplicationLayerV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#limits DataK8SOperatorTigeraIoApplicationLayerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#limits DataK8SOperatorTigeraIoApplicationLayerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#requests DataK8SOperatorTigeraIoApplicationLayerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#requests DataK8SOperatorTigeraIoApplicationLayerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1030,13 +1030,13 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Name is an enum which identifies the L7LogCollector DaemonSet init container by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#name DataK8SOperatorTigeraIoApplicationLayerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named L7LogCollector DaemonSet init container's resources. If omitted, the L7LogCollector DaemonSet will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#resources DataK8SOperatorTigeraIoApplicationLayerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#resources DataK8SOperatorTigeraIoApplicationLayerV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecInitContainersResources;
 }
@@ -1180,13 +1180,13 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Containers is a list of L7LogCollector DaemonSet containers. If specified, this overrides the specified L7LogCollector DaemonSet containers. If omitted, the L7LogCollector DaemonSet will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#containers DataK8SOperatorTigeraIoApplicationLayerV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#containers DataK8SOperatorTigeraIoApplicationLayerV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of L7LogCollector DaemonSet init containers. If specified, this overrides the specified L7LogCollector DaemonSet init containers. If omitted, the L7LogCollector DaemonSet will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#init_containers DataK8SOperatorTigeraIoApplicationLayerV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#init_containers DataK8SOperatorTigeraIoApplicationLayerV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1311,7 +1311,7 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Spec is the L7LogCollector DaemonSet's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplateSpec;
 }
@@ -1407,7 +1407,7 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Template describes the L7LogCollector DaemonSet pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#template DataK8SOperatorTigeraIoApplicationLayerV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#template DataK8SOperatorTigeraIoApplicationLayerV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpecTemplate;
 }
@@ -1503,7 +1503,7 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogColle
   /**
   * Spec is the specification of the L7LogCollector DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#spec DataK8SOperatorTigeraIoApplicationLayerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSetSpec;
 }
@@ -1599,19 +1599,19 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecLogCollect
   /**
   * This setting enables or disable log collection. Allowed values are Enabled or Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#collect_logs DataK8SOperatorTigeraIoApplicationLayerV1Manifest#collect_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#collect_logs DataK8SOperatorTigeraIoApplicationLayerV1Manifest#collect_logs}
   */
   readonly collectLogs?: string;
   /**
   * Interval in seconds for sending L7 log information for processing. Default: 5 sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_interval_seconds DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_interval_seconds DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_interval_seconds}
   */
   readonly logIntervalSeconds?: number;
   /**
   * Maximum number of unique L7 logs that are sent LogIntervalSeconds. Adjust this to limit the number of L7 logs sent per LogIntervalSeconds to felix for further processing, use negative number to ignore limits. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_requests_per_interval DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_requests_per_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_requests_per_interval DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_requests_per_interval}
   */
   readonly logRequestsPerInterval?: number;
 }
@@ -1765,37 +1765,37 @@ export interface DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpec {
   /**
   * Application Layer Policy controls whether or not ALP enforcement is enabled for the cluster. When enabled, NetworkPolicies with HTTP Match rules may be defined to opt-in workloads for traffic enforcement on the application layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#application_layer_policy DataK8SOperatorTigeraIoApplicationLayerV1Manifest#application_layer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#application_layer_policy DataK8SOperatorTigeraIoApplicationLayerV1Manifest#application_layer_policy}
   */
   readonly applicationLayerPolicy?: string;
   /**
   * User-configurable settings for the Envoy proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#envoy DataK8SOperatorTigeraIoApplicationLayerV1Manifest#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#envoy DataK8SOperatorTigeraIoApplicationLayerV1Manifest#envoy}
   */
   readonly envoy?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecEnvoy;
   /**
   * L7LogCollectorDaemonSet configures the L7LogCollector DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#l7_log_collector_daemon_set DataK8SOperatorTigeraIoApplicationLayerV1Manifest#l7_log_collector_daemon_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#l7_log_collector_daemon_set DataK8SOperatorTigeraIoApplicationLayerV1Manifest#l7_log_collector_daemon_set}
   */
   readonly l7LogCollectorDaemonSet?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecL7LogCollectorDaemonSet;
   /**
   * Specification for application layer (L7) log collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_collection DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#log_collection DataK8SOperatorTigeraIoApplicationLayerV1Manifest#log_collection}
   */
   readonly logCollection?: DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecLogCollection;
   /**
   * SidecarInjection controls whether or not sidecar injection is enabled for the cluster. When enabled, pods with the label 'applicationlayer.projectcalico.org/sidecar'='true' will have their L7 functionality such as WAF and ALP implemented using an injected sidecar instead of a per-host proxy. The per-host proxy will continue to be used for pods without this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#sidecar_injection DataK8SOperatorTigeraIoApplicationLayerV1Manifest#sidecar_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#sidecar_injection DataK8SOperatorTigeraIoApplicationLayerV1Manifest#sidecar_injection}
   */
   readonly sidecarInjection?: string;
   /**
   * WebApplicationFirewall controls whether or not ModSecurity enforcement is enabled for the cluster. When enabled, Services may opt-in to having ingress traffic examed by ModSecurity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#web_application_firewall DataK8SOperatorTigeraIoApplicationLayerV1Manifest#web_application_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#web_application_firewall DataK8SOperatorTigeraIoApplicationLayerV1Manifest#web_application_firewall}
   */
   readonly webApplicationFirewall?: string;
 }
@@ -2034,7 +2034,7 @@ export class DataK8SOperatorTigeraIoApplicationLayerV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest k8s_operator_tigera_io_application_layer_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest k8s_operator_tigera_io_application_layer_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoApplicationLayerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2050,7 +2050,7 @@ export class DataK8SOperatorTigeraIoApplicationLayerV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoApplicationLayerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoApplicationLayerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoApplicationLayerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoApplicationLayerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoApplicationLayerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2062,7 +2062,7 @@ export class DataK8SOperatorTigeraIoApplicationLayerV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_application_layer_v1_manifest k8s_operator_tigera_io_application_layer_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/operator_tigera_io_application_layer_v1_manifest k8s_operator_tigera_io_application_layer_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2073,8 +2073,8 @@ export class DataK8SOperatorTigeraIoApplicationLayerV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_operator_tigera_io_application_layer_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

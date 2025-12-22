@@ -15,17 +15,17 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
   */
   readonly metadata: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#spec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#spec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#spec}
   */
   readonly spec: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest k8s_pgv2_percona_com_percona_pg_cluster_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest k8s_pgv2_percona_com_percona_pg_cluster_v2_manifest}
 */
 export class DataK8SPgv2PerconaComPerconaPgClusterV2Manifest extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataK8SPgv2PerconaComPerconaPgClusterV2Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SPgv2PerconaComPerconaPgClusterV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPgv2PerconaComPerconaPgClusterV2Manifest to import
-  * @param importFromId The id of the existing DataK8SPgv2PerconaComPerconaPgClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPgv2PerconaComPerconaPgClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPgv2PerconaComPerconaPgClusterV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataK8SPgv2PerconaComPerconaPgClusterV2Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest k8s_pgv2_percona_com_percona_pg_cluster_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest k8s_pgv2_percona_com_percona_pg_cluster_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataK8SPgv2PerconaComPerconaPgClusterV2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_pgv2_percona_com_percona_pg_cluster_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

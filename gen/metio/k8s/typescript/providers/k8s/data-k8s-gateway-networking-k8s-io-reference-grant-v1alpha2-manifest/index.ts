@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#metadata DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#metadata DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestMetadata;
   /**
   * Spec defines the desired state of ReferenceGrant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#spec DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#spec DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#annotations DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#annotations DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#labels DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#labels DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpec
   /**
   * Group is the group of the referent. When empty, the Kubernetes core API group is inferred. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is the kind of the referent. Although implementations may support additional resources, the following types are part of the 'Core' support level for this field. When used to permit a SecretObjectReference: * Gateway When used to permit a BackendObjectReference: * GRPCRoute * HTTPRoute * TCPRoute * TLSRoute * UDPRoute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Namespace is the namespace of the referent. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -398,19 +398,19 @@ export interface DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpec
   /**
   * Group is the group of the referent. When empty, the Kubernetes core API group is inferred. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is the kind of the referent. Although implementations may support additional resources, the following types are part of the 'Core' support level for this field: * Secret when used to permit a SecretObjectReference * Service when used to permit a BackendObjectReference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the referent. When unspecified, this policy refers to all resources of the specified Group and Kind in the local namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -580,13 +580,13 @@ export interface DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpec
   /**
   * From describes the trusted namespaces and kinds that can reference the resources described in 'To'. Each entry in this list MUST be considered to be an additional place that references can be valid from, or to put this another way, entries MUST be combined using OR. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#from DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#from DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#from}
   */
   readonly from: DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpecFrom[] | cdktf.IResolvable;
   /**
   * To describes the resources that may be referenced by the resources described in 'From'. Each entry in this list MUST be considered to be an additional place that references can be valid to, or to put this another way, entries MUST be combined using OR. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#to DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#to DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest#to}
   */
   readonly to: DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -703,7 +703,7 @@ export class DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest k8s_gateway_networking_k8s_io_reference_grant_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest k8s_gateway_networking_k8s_io_reference_grant_v1alpha2_manifest}
 */
 export class DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -719,7 +719,7 @@ export class DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest extends
   * Generates CDKTF code for importing a DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -731,7 +731,7 @@ export class DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest k8s_gateway_networking_k8s_io_reference_grant_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/gateway_networking_k8s_io_reference_grant_v1alpha2_manifest k8s_gateway_networking_k8s_io_reference_grant_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -742,8 +742,8 @@ export class DataK8SGatewayNetworkingK8SIoReferenceGrantV1Alpha2Manifest extends
       terraformResourceType: 'k8s_gateway_networking_k8s_io_reference_grant_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

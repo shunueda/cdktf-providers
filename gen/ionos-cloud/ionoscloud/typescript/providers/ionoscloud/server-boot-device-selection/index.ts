@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection
+// https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServerBootDeviceSelectionConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the entity to set as primary boot device. Possible boot devices are CDROM Images and Volumes. If omitted, server will boot from PXE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#boot_device_id ServerBootDeviceSelection#boot_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#boot_device_id ServerBootDeviceSelection#boot_device_id}
   */
   readonly bootDeviceId?: string;
   /**
   * ID of the Datacenter that holds the server for which the boot volume is selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#datacenter_id ServerBootDeviceSelection#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#datacenter_id ServerBootDeviceSelection#datacenter_id}
   */
   readonly datacenterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#id ServerBootDeviceSelection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#id ServerBootDeviceSelection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ServerBootDeviceSelectionConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the Server for which the boot device will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#server_id ServerBootDeviceSelection#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#server_id ServerBootDeviceSelection#server_id}
   */
   readonly serverId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#timeouts ServerBootDeviceSelection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#timeouts ServerBootDeviceSelection#timeouts}
   */
   readonly timeouts?: ServerBootDeviceSelectionTimeouts;
 }
 export interface ServerBootDeviceSelectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#create ServerBootDeviceSelection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#create ServerBootDeviceSelection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#default ServerBootDeviceSelection#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#default ServerBootDeviceSelection#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#delete ServerBootDeviceSelection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#delete ServerBootDeviceSelection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#update ServerBootDeviceSelection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#update ServerBootDeviceSelection#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class ServerBootDeviceSelectionTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection ionoscloud_server_boot_device_selection}
+* Represents a {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection ionoscloud_server_boot_device_selection}
 */
 export class ServerBootDeviceSelection extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class ServerBootDeviceSelection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerBootDeviceSelection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerBootDeviceSelection to import
-  * @param importFromId The id of the existing ServerBootDeviceSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerBootDeviceSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerBootDeviceSelection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class ServerBootDeviceSelection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.20/docs/resources/server_boot_device_selection ionoscloud_server_boot_device_selection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ionos-cloud/ionoscloud/6.7.21/docs/resources/server_boot_device_selection ionoscloud_server_boot_device_selection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class ServerBootDeviceSelection extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_server_boot_device_selection',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20',
-        providerVersionConstraint: '6.7.20'
+        providerVersion: '6.7.21',
+        providerVersionConstraint: '6.7.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

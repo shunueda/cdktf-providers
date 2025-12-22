@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#metadata DataK8SKumaIoMeshRetryV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#metadata DataK8SKumaIoMeshRetryV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshRetryV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshRetry resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#spec DataK8SKumaIoMeshRetryV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#spec DataK8SKumaIoMeshRetryV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#annotations DataK8SKumaIoMeshRetryV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#annotations DataK8SKumaIoMeshRetryV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#kind DataK8SKumaIoMeshRetryV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#kind DataK8SKumaIoMeshRetryV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#mesh DataK8SKumaIoMeshRetryV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#mesh DataK8SKumaIoMeshRetryV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRetryV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRetryV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#section_name DataK8SKumaIoMeshRetryV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#section_name DataK8SKumaIoMeshRetryV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -560,13 +560,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcBackOff 
   /**
   * BaseInterval is an amount of time which should be taken between retries. Must be greater than zero. Values less than 1 ms are rounded up to 1 ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#base_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#base_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#base_interval}
   */
   readonly baseInterval?: string;
   /**
   * MaxInterval is a maximal amount of time which will be taken between retries. Default is 10 times the 'BaseInterval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
   */
   readonly maxInterval?: string;
 }
@@ -691,13 +691,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcRateLimi
   /**
   * The format of the reset header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#format DataK8SKumaIoMeshRetryV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#format DataK8SKumaIoMeshRetryV1Alpha1Manifest#format}
   */
   readonly format: string;
   /**
   * The Name of the reset header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -838,13 +838,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcRateLimi
   /**
   * MaxInterval is a maximal amount of time which will be taken between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
   */
   readonly maxInterval?: string;
   /**
   * ResetHeaders specifies the list of headers (like Retry-After or X-RateLimit-Reset) to match against the response. Headers are tried in order, and matched case-insensitive. The first header to be parsed successfully is used. If no headers match the default exponential BackOff is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#reset_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#reset_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#reset_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#reset_headers}
   */
   readonly resetHeaders?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcRateLimitedBackOffResetHeaders[] | cdktf.IResolvable;
 }
@@ -969,31 +969,31 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpc {
   /**
   * BackOff is a configuration of durations which will be used in an exponential backoff strategy between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#back_off}
   */
   readonly backOff?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcBackOff;
   /**
   * NumRetries is the number of attempts that will be made on failed (and retriable) requests. If not set, the default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#num_retries DataK8SKumaIoMeshRetryV1Alpha1Manifest#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#num_retries DataK8SKumaIoMeshRetryV1Alpha1Manifest#num_retries}
   */
   readonly numRetries?: number;
   /**
   * PerTryTimeout is the maximum amount of time each retry attempt can take before it times out. If not set, the global request timeout for the route will be used. Setting this value to 0 will disable the per-try timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#per_try_timeout DataK8SKumaIoMeshRetryV1Alpha1Manifest#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#per_try_timeout DataK8SKumaIoMeshRetryV1Alpha1Manifest#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * RateLimitedBackOff is a configuration of backoff which will be used when the upstream returns one of the headers configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#rate_limited_back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#rate_limited_back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#rate_limited_back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#rate_limited_back_off}
   */
   readonly rateLimitedBackOff?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpcRateLimitedBackOff;
   /**
   * RetryOn is a list of conditions which will cause a retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retry_on DataK8SKumaIoMeshRetryV1Alpha1Manifest#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retry_on DataK8SKumaIoMeshRetryV1Alpha1Manifest#retry_on}
   */
   readonly retryOn?: string[];
 }
@@ -1205,13 +1205,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpBackOff 
   /**
   * BaseInterval is an amount of time which should be taken between retries. Must be greater than zero. Values less than 1 ms are rounded up to 1 ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#base_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#base_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#base_interval}
   */
   readonly baseInterval?: string;
   /**
   * MaxInterval is a maximal amount of time which will be taken between retries. Default is 10 times the 'BaseInterval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
   */
   readonly maxInterval?: string;
 }
@@ -1336,19 +1336,19 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpHostSele
   /**
   * Type is requested predicate mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#predicate DataK8SKumaIoMeshRetryV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#predicate DataK8SKumaIoMeshRetryV1Alpha1Manifest#predicate}
   */
   readonly predicate: string;
   /**
   * Tags is a map of metadata to match against for selecting the omitted hosts. Required if Type is OmitHostsWithTags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * UpdateFrequency is how often the priority load should be updated based on previously attempted priorities. Used for OmitPreviousPriorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#update_frequency DataK8SKumaIoMeshRetryV1Alpha1Manifest#update_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#update_frequency DataK8SKumaIoMeshRetryV1Alpha1Manifest#update_frequency}
   */
   readonly updateFrequency?: number;
 }
@@ -1521,13 +1521,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRateLimi
   /**
   * The format of the reset header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#format DataK8SKumaIoMeshRetryV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#format DataK8SKumaIoMeshRetryV1Alpha1Manifest#format}
   */
   readonly format: string;
   /**
   * The Name of the reset header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1668,13 +1668,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRateLimi
   /**
   * MaxInterval is a maximal amount of time which will be taken between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_interval DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_interval}
   */
   readonly maxInterval?: string;
   /**
   * ResetHeaders specifies the list of headers (like Retry-After or X-RateLimit-Reset) to match against the response. Headers are tried in order, and matched case-insensitive. The first header to be parsed successfully is used. If no headers match the default exponential BackOff is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#reset_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#reset_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#reset_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#reset_headers}
   */
   readonly resetHeaders?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRateLimitedBackOffResetHeaders[] | cdktf.IResolvable;
 }
@@ -1799,19 +1799,19 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRetriabl
   /**
   * Name is the name of the HTTP Header to be matched. Name MUST be lower case as they will be handled with case insensitivity (See https://tools.ietf.org/html/rfc7230#section-3.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#type DataK8SKumaIoMeshRetryV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#type DataK8SKumaIoMeshRetryV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP Header to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#value DataK8SKumaIoMeshRetryV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#value DataK8SKumaIoMeshRetryV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1984,19 +1984,19 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRetriabl
   /**
   * Name is the name of the HTTP Header to be matched. Name MUST be lower case as they will be handled with case insensitivity (See https://tools.ietf.org/html/rfc7230#section-3.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#type DataK8SKumaIoMeshRetryV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#type DataK8SKumaIoMeshRetryV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP Header to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#value DataK8SKumaIoMeshRetryV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#value DataK8SKumaIoMeshRetryV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2169,55 +2169,55 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttp {
   /**
   * BackOff is a configuration of durations which will be used in exponential backoff strategy between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#back_off}
   */
   readonly backOff?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpBackOff;
   /**
   * HostSelection is a list of predicates that dictate how hosts should be selected when requests are retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#host_selection DataK8SKumaIoMeshRetryV1Alpha1Manifest#host_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#host_selection DataK8SKumaIoMeshRetryV1Alpha1Manifest#host_selection}
   */
   readonly hostSelection?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpHostSelection[] | cdktf.IResolvable;
   /**
   * HostSelectionMaxAttempts is the maximum number of times host selection will be reattempted before giving up, at which point the host that was last selected will be routed to. If unspecified, this will default to retrying once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#host_selection_max_attempts DataK8SKumaIoMeshRetryV1Alpha1Manifest#host_selection_max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#host_selection_max_attempts DataK8SKumaIoMeshRetryV1Alpha1Manifest#host_selection_max_attempts}
   */
   readonly hostSelectionMaxAttempts?: number;
   /**
   * NumRetries is the number of attempts that will be made on failed (and retriable) requests. If not set, the default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#num_retries DataK8SKumaIoMeshRetryV1Alpha1Manifest#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#num_retries DataK8SKumaIoMeshRetryV1Alpha1Manifest#num_retries}
   */
   readonly numRetries?: number;
   /**
   * PerTryTimeout is the amount of time after which retry attempt should time out. If left unspecified, the global route timeout for the request will be used. Consequently, when using a 5xx based retry policy, a request that times out will not be retried as the total timeout budget would have been exhausted. Setting this timeout to 0 will disable it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#per_try_timeout DataK8SKumaIoMeshRetryV1Alpha1Manifest#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#per_try_timeout DataK8SKumaIoMeshRetryV1Alpha1Manifest#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * RateLimitedBackOff is a configuration of backoff which will be used when the upstream returns one of the headers configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#rate_limited_back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#rate_limited_back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#rate_limited_back_off DataK8SKumaIoMeshRetryV1Alpha1Manifest#rate_limited_back_off}
   */
   readonly rateLimitedBackOff?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRateLimitedBackOff;
   /**
   * RetriableRequestHeaders is an HTTP headers which must be present in the request for retries to be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retriable_request_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#retriable_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retriable_request_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#retriable_request_headers}
   */
   readonly retriableRequestHeaders?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRetriableRequestHeaders[] | cdktf.IResolvable;
   /**
   * RetriableResponseHeaders is an HTTP response headers that trigger a retry if present in the response. A retry will be triggered if any of the header matches the upstream response headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retriable_response_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#retriable_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retriable_response_headers DataK8SKumaIoMeshRetryV1Alpha1Manifest#retriable_response_headers}
   */
   readonly retriableResponseHeaders?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttpRetriableResponseHeaders[] | cdktf.IResolvable;
   /**
   * RetryOn is a list of conditions which will cause a retry. Available values are: [5XX, GatewayError, Reset, Retriable4xx, ConnectFailure, EnvoyRatelimited, RefusedStream, Http3PostConnectFailure, HttpMethodConnect, HttpMethodDelete, HttpMethodGet, HttpMethodHead, HttpMethodOptions, HttpMethodPatch, HttpMethodPost, HttpMethodPut, HttpMethodTrace]. Also, any HTTP status code (500, 503, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retry_on DataK8SKumaIoMeshRetryV1Alpha1Manifest#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#retry_on DataK8SKumaIoMeshRetryV1Alpha1Manifest#retry_on}
   */
   readonly retryOn?: string[];
 }
@@ -2545,7 +2545,7 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultTcp {
   /**
   * MaxConnectAttempt is a maximal amount of TCP connection attempts which will be made before giving up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_connect_attempt DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_connect_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#max_connect_attempt DataK8SKumaIoMeshRetryV1Alpha1Manifest#max_connect_attempt}
   */
   readonly maxConnectAttempt?: number;
 }
@@ -2641,19 +2641,19 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefault {
   /**
   * GRPC defines a configuration of retries for GRPC traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#grpc DataK8SKumaIoMeshRetryV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#grpc DataK8SKumaIoMeshRetryV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultGrpc;
   /**
   * HTTP defines a configuration of retries for HTTP traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#http DataK8SKumaIoMeshRetryV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#http DataK8SKumaIoMeshRetryV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultHttp;
   /**
   * TCP defines a configuration of retries for TCP traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tcp DataK8SKumaIoMeshRetryV1Alpha1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tcp DataK8SKumaIoMeshRetryV1Alpha1Manifest#tcp}
   */
   readonly tcp?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefaultTcp;
 }
@@ -2807,49 +2807,49 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#kind DataK8SKumaIoMeshRetryV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#kind DataK8SKumaIoMeshRetryV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#labels DataK8SKumaIoMeshRetryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#mesh DataK8SKumaIoMeshRetryV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#mesh DataK8SKumaIoMeshRetryV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#name DataK8SKumaIoMeshRetryV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#namespace DataK8SKumaIoMeshRetryV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRetryV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRetryV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#section_name DataK8SKumaIoMeshRetryV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#section_name DataK8SKumaIoMeshRetryV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#tags DataK8SKumaIoMeshRetryV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3148,13 +3148,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#default DataK8SKumaIoMeshRetryV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#default DataK8SKumaIoMeshRetryV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRetryV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRetryV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecToTargetRef;
 }
@@ -3298,13 +3298,13 @@ export interface DataK8SKumaIoMeshRetryV1Alpha1ManifestSpec {
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRetryV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRetryV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#to DataK8SKumaIoMeshRetryV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#to DataK8SKumaIoMeshRetryV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -3427,7 +3427,7 @@ export class DataK8SKumaIoMeshRetryV1Alpha1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest k8s_kuma_io_mesh_retry_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest k8s_kuma_io_mesh_retry_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshRetryV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3443,7 +3443,7 @@ export class DataK8SKumaIoMeshRetryV1Alpha1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SKumaIoMeshRetryV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshRetryV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshRetryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshRetryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshRetryV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3455,7 +3455,7 @@ export class DataK8SKumaIoMeshRetryV1Alpha1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest k8s_kuma_io_mesh_retry_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_retry_v1alpha1_manifest k8s_kuma_io_mesh_retry_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3466,8 +3466,8 @@ export class DataK8SKumaIoMeshRetryV1Alpha1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_kuma_io_mesh_retry_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

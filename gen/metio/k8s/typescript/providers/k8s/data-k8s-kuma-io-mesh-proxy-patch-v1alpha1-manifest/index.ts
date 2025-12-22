@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#metadata DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#metadata DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshProxyPatch resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#spec DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#spec DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#annotations DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#annotations DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#labels DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#labels DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#namespace DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#namespace DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * From is a jsonpatch from string, used by move and copy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
   */
   readonly from?: string;
   /**
   * Op is a jsonpatch operation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is a jsonpatch path string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value must be a valid json value used by replace and add operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -436,13 +436,13 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Name of the cluster to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Origin is the name of the component or plugin that generated the resource. Here is the list of well-known origins: inbound - resources generated for handling incoming traffic. outbound - resources generated for handling outgoing traffic. transparent - resources generated for transparent proxy functionality. prometheus - resources generated when Prometheus metrics are enabled. direct-access - resources generated for Direct Access functionality. ingress - resources generated for Zone Ingress. egress - resources generated for Zone Egress. gateway - resources generated for MeshGateway. The list is not complete, because policy plugins can introduce new resources. For example MeshTrace plugin can create Cluster with 'mesh-trace' origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
   */
   readonly origin?: string;
 }
@@ -567,25 +567,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * JsonPatches specifies list of jsonpatches to apply to on Envoy's Cluster resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
   */
   readonly jsonPatches?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsClusterJsonPatches[] | cdktf.IResolvable;
   /**
   * Match is a set of conditions that have to be matched for modification operation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsClusterMatch;
   /**
   * Operation to execute on matched cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Value of xDS resource in YAML format to add or patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -765,25 +765,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * From is a jsonpatch from string, used by move and copy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
   */
   readonly from?: string;
   /**
   * Op is a jsonpatch operation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is a jsonpatch path string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value must be a valid json value used by replace and add operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -982,25 +982,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Name of the listener to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_name}
   */
   readonly listenerName?: string;
   /**
   * Listener tags available in Listener#Metadata#FilterMetadata[io.kuma.tags]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_tags}
   */
   readonly listenerTags?: { [key: string]: string };
   /**
   * Name of the HTTP filter. For example 'envoy.filters.http.local_ratelimit'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Origin is the name of the component or plugin that generated the resource. Here is the list of well-known origins: inbound - resources generated for handling incoming traffic. outbound - resources generated for handling outgoing traffic. transparent - resources generated for transparent proxy functionality. prometheus - resources generated when Prometheus metrics are enabled. direct-access - resources generated for Direct Access functionality. ingress - resources generated for Zone Ingress. egress - resources generated for Zone Egress. gateway - resources generated for MeshGateway. The list is not complete, because policy plugins can introduce new resources. For example MeshTrace plugin can create Cluster with 'mesh-trace' origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
   */
   readonly origin?: string;
 }
@@ -1183,25 +1183,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * JsonPatches specifies list of jsonpatches to apply to on Envoy's HTTP Filter available in HTTP Connection Manager in a Listener resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
   */
   readonly jsonPatches?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsHttpFilterJsonPatches[] | cdktf.IResolvable;
   /**
   * Match is a set of conditions that have to be matched for modification operation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsHttpFilterMatch;
   /**
   * Operation to execute on matched listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Value of xDS resource in YAML format to add or patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1381,25 +1381,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * From is a jsonpatch from string, used by move and copy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
   */
   readonly from?: string;
   /**
   * Op is a jsonpatch operation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is a jsonpatch path string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value must be a valid json value used by replace and add operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1598,19 +1598,19 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Name of the listener to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Origin is the name of the component or plugin that generated the resource. Here is the list of well-known origins: inbound - resources generated for handling incoming traffic. outbound - resources generated for handling outgoing traffic. transparent - resources generated for transparent proxy functionality. prometheus - resources generated when Prometheus metrics are enabled. direct-access - resources generated for Direct Access functionality. ingress - resources generated for Zone Ingress. egress - resources generated for Zone Egress. gateway - resources generated for MeshGateway. The list is not complete, because policy plugins can introduce new resources. For example MeshTrace plugin can create Cluster with 'mesh-trace' origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
   * Tags available in Listener#Metadata#FilterMetadata[io.kuma.tags]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1764,25 +1764,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * JsonPatches specifies list of jsonpatches to apply to on Envoy's Listener resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
   */
   readonly jsonPatches?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsListenerJsonPatches[] | cdktf.IResolvable;
   /**
   * Match is a set of conditions that have to be matched for modification operation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsListenerMatch;
   /**
   * Operation to execute on matched listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Value of xDS resource in YAML format to add or patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1962,25 +1962,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * From is a jsonpatch from string, used by move and copy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
   */
   readonly from?: string;
   /**
   * Op is a jsonpatch operation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is a jsonpatch path string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value must be a valid json value used by replace and add operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2179,25 +2179,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Name of the listener to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_name}
   */
   readonly listenerName?: string;
   /**
   * Listener tags available in Listener#Metadata#FilterMetadata[io.kuma.tags]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener_tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener_tags}
   */
   readonly listenerTags?: { [key: string]: string };
   /**
   * Name of the network filter. For example 'envoy.filters.network.ratelimit'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Origin is the name of the component or plugin that generated the resource. Here is the list of well-known origins: inbound - resources generated for handling incoming traffic. outbound - resources generated for handling outgoing traffic. transparent - resources generated for transparent proxy functionality. prometheus - resources generated when Prometheus metrics are enabled. direct-access - resources generated for Direct Access functionality. ingress - resources generated for Zone Ingress. egress - resources generated for Zone Egress. gateway - resources generated for MeshGateway. The list is not complete, because policy plugins can introduce new resources. For example MeshTrace plugin can create Cluster with 'mesh-trace' origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
   */
   readonly origin?: string;
 }
@@ -2380,25 +2380,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * JsonPatches specifies list of jsonpatches to apply to on Envoy Listener's filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
   */
   readonly jsonPatches?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsNetworkFilterJsonPatches[] | cdktf.IResolvable;
   /**
   * Match is a set of conditions that have to be matched for modification operation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsNetworkFilterMatch;
   /**
   * Operation to execute on matched listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Value of xDS resource in YAML format to add or patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2578,25 +2578,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * From is a jsonpatch from string, used by move and copy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#from DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#from}
   */
   readonly from?: string;
   /**
   * Op is a jsonpatch operation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#op DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Path is a jsonpatch path string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#path DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value must be a valid json value used by replace and add operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2795,19 +2795,19 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Name of the VirtualHost to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Origin is the name of the component or plugin that generated the resource. Here is the list of well-known origins: inbound - resources generated for handling incoming traffic. outbound - resources generated for handling outgoing traffic. transparent - resources generated for transparent proxy functionality. prometheus - resources generated when Prometheus metrics are enabled. direct-access - resources generated for Direct Access functionality. ingress - resources generated for Zone Ingress. egress - resources generated for Zone Egress. gateway - resources generated for MeshGateway. The list is not complete, because policy plugins can introduce new resources. For example MeshTrace plugin can create Cluster with 'mesh-trace' origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#origin DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
   * Name of the RouteConfiguration resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#route_configuration_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#route_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#route_configuration_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#route_configuration_name}
   */
   readonly routeConfigurationName?: string;
 }
@@ -2961,25 +2961,25 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * JsonPatches specifies list of jsonpatches to apply to on Envoy's VirtualHost resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#json_patches DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#json_patches}
   */
   readonly jsonPatches?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsVirtualHostJsonPatches[] | cdktf.IResolvable;
   /**
   * Match is a set of conditions that have to be matched for modification operation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#match DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#match}
   */
   readonly match: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsVirtualHostMatch;
   /**
   * Operation to execute on matched listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#operation DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#operation}
   */
   readonly operation: string;
   /**
   * Value of xDS resource in YAML format to add or patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#value DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3156,31 +3156,31 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendMod
   /**
   * Cluster is a modification of Envoy's Cluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#cluster DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#cluster DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#cluster}
   */
   readonly cluster?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsCluster;
   /**
   * HTTPFilter is a modification of Envoy HTTP Filter available in HTTP Connection Manager in a Listener resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#http_filter DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#http_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#http_filter DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#http_filter}
   */
   readonly httpFilter?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsHttpFilter;
   /**
   * Listener is a modification of Envoy's Listener resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#listener DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#listener}
   */
   readonly listener?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsListener;
   /**
   * NetworkFilter is a modification of Envoy Listener's filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#network_filter DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#network_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#network_filter DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#network_filter}
   */
   readonly networkFilter?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsNetworkFilter;
   /**
   * VirtualHost is a modification of Envoy's VirtualHost referenced in HTTP Connection Manager in a Listener resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#virtual_host DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#virtual_host DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#virtual_host}
   */
   readonly virtualHost?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModificationsVirtualHost;
 }
@@ -3414,7 +3414,7 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefault {
   /**
   * AppendModifications is a list of modifications applied on the selected proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#append_modifications DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#append_modifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#append_modifications DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#append_modifications}
   */
   readonly appendModifications: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefaultAppendModifications[] | cdktf.IResolvable;
 }
@@ -3507,49 +3507,49 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#kind DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#kind DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#labels DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#labels DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#mesh DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#mesh DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#namespace DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#namespace DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#section_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#section_name DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#tags DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3848,13 +3848,13 @@ export interface DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpec {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#default DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#default DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#default}
   */
   readonly default: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecDefault;
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#target_ref DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#target_ref DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecTargetRef;
 }
@@ -3974,7 +3974,7 @@ export class DataK8SKumaIoMeshProxyPatchV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest k8s_kuma_io_mesh_proxy_patch_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest k8s_kuma_io_mesh_proxy_patch_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3990,7 +3990,7 @@ export class DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4002,7 +4002,7 @@ export class DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest k8s_kuma_io_mesh_proxy_patch_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/kuma_io_mesh_proxy_patch_v1alpha1_manifest k8s_kuma_io_mesh_proxy_patch_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4013,8 +4013,8 @@ export class DataK8SKumaIoMeshProxyPatchV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_kuma_io_mesh_proxy_patch_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

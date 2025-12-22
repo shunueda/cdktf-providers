@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestConfig ex
   /**
   * StorageAccountAdditionalResources holds the additional resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#additional_resources DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#additional_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#additional_resources DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#additional_resources}
   */
   readonly additionalResources?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestAdditionalResources;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestMetadata;
   /**
   * StorageAccountOutput is the object that contains the output from creating a Storage Account object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#output DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#output DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#output}
   */
   readonly output?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestOutput;
   /**
   * StorageAccountSpec defines the desired state of Storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#spec DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#spec DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpec;
 }
 export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestAdditionalResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#secrets DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#secrets DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -130,25 +130,25 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#labels DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#labels DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -323,23 +323,23 @@ export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestOutput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#connection_string1 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#connection_string1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#connection_string1 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#connection_string1}
   */
   readonly connectionString1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#connection_string2 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#connection_string2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#connection_string2 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#connection_string2}
   */
   readonly connectionString2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#key1 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#key1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#key1 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#key1}
   */
   readonly key1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#key2 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#key2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#key2 DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#key2}
   */
   readonly key2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#storage_account_name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#storage_account_name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#storage_account_name}
   */
   readonly storageAccountName?: string;
 }
@@ -551,7 +551,7 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetwo
   /**
   * IPAddressOrRange - Specifies the IP or IP range in CIDR format. Only IPV4 address is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#ip_address_or_range DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#ip_address_or_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#ip_address_or_range DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#ip_address_or_range}
   */
   readonly ipAddressOrRange?: string;
 }
@@ -669,7 +669,7 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetwo
   /**
   * SubnetId - Resource ID of a subnet, for example: /subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.Network/virtualNetworks/{vnetName}/subnets/{subnetName}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#subnet_id DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#subnet_id DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -787,25 +787,25 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetwo
   /**
   * Bypass - Specifies whether traffic is bypassed for Logging/Metrics/AzureServices. Possible values are any combination of Logging|Metrics|AzureServices (For example, 'Logging, Metrics'), or None to bypass none of those traffics. Possible values include: 'None', 'Logging', 'Metrics', 'AzureServices'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#bypass DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#bypass DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#bypass}
   */
   readonly bypass?: string;
   /**
   * DefaultAction - Specifies the default action of allow or deny when no other rules match. Possible values include: 'DefaultActionAllow', 'DefaultActionDeny'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#default_action DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#default_action DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#default_action}
   */
   readonly defaultAction?: string;
   /**
   * IPRules - Sets the IP ACL rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#ip_rules}
   */
   readonly ipRules?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetworkRuleIpRules[] | cdktf.IResolvable;
   /**
   * VirtualNetworkRules - Sets the virtual network rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#virtual_network_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#virtual_network_rules}
   */
   readonly virtualNetworkRules?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetworkRuleVirtualNetworkRules[] | cdktf.IResolvable;
 }
@@ -988,7 +988,7 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecSku {
   /**
   * Name - The SKU name. Required for account creation; optional for update. Possible values include: 'Standard_LRS', 'Standard_GRS', 'Standard_RAGRS', 'Standard_ZRS', 'Premium_LRS', 'Premium_ZRS', 'Standard_GZRS', 'Standard_RAGZRS'. For the full list of allowed options, see: https://docs.microsoft.com/en-us/rest/api/storagerp/storageaccounts/create#skuname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#name DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1084,39 +1084,39 @@ export interface DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpec {
   /**
   * StorageAccountAccessTier enumerates the values for access tier. Only one of the following access tiers may be specified. If none of the following access tiers is specified, the default one is Hot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#access_tier DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#access_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#access_tier DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#access_tier}
   */
   readonly accessTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#data_lake_enabled DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#data_lake_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#data_lake_enabled DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#data_lake_enabled}
   */
   readonly dataLakeEnabled?: boolean | cdktf.IResolvable;
   /**
   * StorageAccountKind enumerates the values for kind. Only one of the following kinds may be specified. If none of the following kinds is specified, the default one is StorageV2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#kind DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#kind DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#location DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#location DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#network_rule DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#network_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#network_rule DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#network_rule}
   */
   readonly networkRule?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecNetworkRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * StorageAccountSku the SKU of the storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#sku DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#sku DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#sku}
   */
   readonly sku?: DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecSku;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#supports_https_traffic_only DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#supports_https_traffic_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#supports_https_traffic_only DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest#supports_https_traffic_only}
   */
   readonly supportsHttpsTrafficOnly?: boolean | cdktf.IResolvable;
 }
@@ -1410,7 +1410,7 @@ export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest k8s_azure_microsoft_com_storage_account_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest k8s_azure_microsoft_com_storage_account_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1426,7 +1426,7 @@ export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1438,7 +1438,7 @@ export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest k8s_azure_microsoft_com_storage_account_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.22/docs/data-sources/azure_microsoft_com_storage_account_v1alpha1_manifest k8s_azure_microsoft_com_storage_account_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1449,8 +1449,8 @@ export class DataK8SAzureMicrosoftComStorageAccountV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_azure_microsoft_com_storage_account_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.15',
-        providerVersionConstraint: '2025.12.15'
+        providerVersion: '2025.12.22',
+        providerVersionConstraint: '2025.12.22'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
