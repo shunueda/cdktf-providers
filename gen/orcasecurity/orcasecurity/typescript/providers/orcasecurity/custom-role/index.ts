@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom role description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role#description CustomRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role#description CustomRole#description}
   */
   readonly description: string;
   /**
   * Custom role name. Must be unique across your Orca org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role#name CustomRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role#name CustomRole#name}
   */
   readonly name: string;
   /**
   * Permissions to assign to the group. Possible permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role#permission_groups CustomRole#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role#permission_groups CustomRole#permission_groups}
   */
   readonly permissionGroups: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role orcasecurity_custom_role}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role orcasecurity_custom_role}
 */
 export class CustomRole extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CustomRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomRole to import
-  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CustomRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_role orcasecurity_custom_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/custom_role orcasecurity_custom_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CustomRole extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_custom_role',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.25',
-        providerVersionConstraint: '0.0.25'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

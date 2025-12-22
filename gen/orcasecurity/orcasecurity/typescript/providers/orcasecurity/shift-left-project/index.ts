@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ShiftLeftProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the Orca built-in policies are attached to the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#default_policies ShiftLeftProject#default_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#default_policies ShiftLeftProject#default_policies}
   */
   readonly defaultPolicies: boolean | cdktf.IResolvable;
   /**
   * Shift Left project description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#description ShiftLeftProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#description ShiftLeftProject#description}
   */
   readonly description: string;
   /**
   * Exception lists to attach to this project, specified by their IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#exceptions_ids ShiftLeftProject#exceptions_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#exceptions_ids ShiftLeftProject#exceptions_ids}
   */
   readonly exceptionsIds?: string[];
   /**
   * By default, the main or master branch is used to capture the baseline. If you need to select a different branch that will serve as your project's/repository's main (protect) branch, specify it here. You can read more [here](https://docs.orcasecurity.io/docs/shift-left-baseline).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#git_default_baseline_branch ShiftLeftProject#git_default_baseline_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#git_default_baseline_branch ShiftLeftProject#git_default_baseline_branch}
   */
   readonly gitDefaultBaselineBranch?: string;
   /**
   * Shift Left key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#key ShiftLeftProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#key ShiftLeftProject#key}
   */
   readonly key: string;
   /**
   * Shift Left project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#name ShiftLeftProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#name ShiftLeftProject#name}
   */
   readonly name: string;
   /**
   * Policies to attach to this project, specified by their IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#policies_ids ShiftLeftProject#policies_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#policies_ids ShiftLeftProject#policies_ids}
   */
   readonly policiesIds?: string[];
   /**
   * Controls whether IaC code comments (for suppressing findings) should be allowed, ignored, or blocked. You can read more about it [here](https://docs.orcasecurity.io/docs/managing-iac-exceptions). Possible values are BLOCK, ALLOW, and IGNORE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#support_code_comments_via_cli ShiftLeftProject#support_code_comments_via_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#support_code_comments_via_cli ShiftLeftProject#support_code_comments_via_cli}
   */
   readonly supportCodeCommentsViaCli?: string;
   /**
   * Control whether CVEs exception management via code should be allowed or blocked. Possible values are BLOCK and ALLOW. ALLOW: an exception file can be passed to the CLI execution in order to suppress issues. BLOCK: the scan will fail when exceptions are defined and specified in the CLI execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#support_cve_exceptions_via_cli ShiftLeftProject#support_cve_exceptions_via_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#support_cve_exceptions_via_cli ShiftLeftProject#support_cve_exceptions_via_cli}
   */
   readonly supportCveExceptionsViaCli?: string;
   /**
   * Control whether code comments or exception handling via config file to suppress found secrets should be allowed, ignored, or blocked. Possible values are BLOCK, ALLOW, and IGNORE. If BLOCK is specified, the scan will fail if issues are found that are ignored via code comments or the exception configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#support_secret_detection_suppression_via_cli ShiftLeftProject#support_secret_detection_suppression_via_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#support_secret_detection_suppression_via_cli ShiftLeftProject#support_secret_detection_suppression_via_cli}
   */
   readonly supportSecretDetectionSuppressionViaCli?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project orcasecurity_shift_left_project}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project orcasecurity_shift_left_project}
 */
 export class ShiftLeftProject extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class ShiftLeftProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ShiftLeftProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ShiftLeftProject to import
-  * @param importFromId The id of the existing ShiftLeftProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ShiftLeftProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ShiftLeftProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class ShiftLeftProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/shift_left_project orcasecurity_shift_left_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/shift_left_project orcasecurity_shift_left_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class ShiftLeftProject extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_shift_left_project',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.25',
-        providerVersionConstraint: '0.0.25'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

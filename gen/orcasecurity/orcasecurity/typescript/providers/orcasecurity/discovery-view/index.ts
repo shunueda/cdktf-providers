@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DiscoveryViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * NOT YET IMPLEMENTED. Allows you to set a limit of returned results, amongst other things.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#extra_params DiscoveryView#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#extra_params DiscoveryView#extra_params}
   */
   readonly extraParams: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#filter_data DiscoveryView#filter_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#filter_data DiscoveryView#filter_data}
   */
   readonly filterData: DiscoveryViewFilterData;
   /**
   * Discovery view name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#name DiscoveryView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#name DiscoveryView#name}
   */
   readonly name: string;
   /**
   * If set to true, it is is a shared discovery view (can be viewed by any member of your Orca org). If set to false, it is a personal discovery view (can be viewed only by you, not other members of your Orca org).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#organization_level DiscoveryView#organization_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#organization_level DiscoveryView#organization_level}
   */
   readonly organizationLevel: boolean | cdktf.IResolvable;
   /**
   * Should be set to 'discovery' for discovery views.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#view_type DiscoveryView#view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#view_type DiscoveryView#view_type}
   */
   readonly viewType: string;
 }
@@ -40,7 +40,7 @@ export interface DiscoveryViewFilterData {
   /**
   * Discovery query that will be created. Should be in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#query DiscoveryView#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#query DiscoveryView#query}
   */
   readonly query: string;
 }
@@ -131,7 +131,7 @@ export class DiscoveryViewFilterDataOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view orcasecurity_discovery_view}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view orcasecurity_discovery_view}
 */
 export class DiscoveryView extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class DiscoveryView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiscoveryView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiscoveryView to import
-  * @param importFromId The id of the existing DiscoveryView that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiscoveryView that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiscoveryView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DiscoveryView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/discovery_view orcasecurity_discovery_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/resources/discovery_view orcasecurity_discovery_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DiscoveryView extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_discovery_view',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.25',
-        providerVersionConstraint: '0.0.25'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/jira_template
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/data-sources/jira_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOrcasecurityJiraTemplateConfig extends cdktf.TerraformMetaA
   /**
   * Template name at Orca
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/jira_template#name DataOrcasecurityJiraTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/data-sources/jira_template#name DataOrcasecurityJiraTemplate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/jira_template orcasecurity_jira_template}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/data-sources/jira_template orcasecurity_jira_template}
 */
 export class DataOrcasecurityJiraTemplate extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataOrcasecurityJiraTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOrcasecurityJiraTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOrcasecurityJiraTemplate to import
-  * @param importFromId The id of the existing DataOrcasecurityJiraTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/jira_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOrcasecurityJiraTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/data-sources/jira_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOrcasecurityJiraTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataOrcasecurityJiraTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/jira_template orcasecurity_jira_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.27/docs/data-sources/jira_template orcasecurity_jira_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataOrcasecurityJiraTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'orcasecurity_jira_template',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.25',
-        providerVersionConstraint: '0.0.25'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

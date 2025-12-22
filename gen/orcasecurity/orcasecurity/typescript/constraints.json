@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "orcasecurity": "0.0.25"
+    "orcasecurity": "0.0.27"
   }
 }
